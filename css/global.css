@@ -18,6 +18,25 @@ h4,
 h5,
 h6 {
 }
+
+/* Blocks */
+.pane-block,
+.block {
+  border: solid 1px #E6E7E8;
+  border-radius: 8px;
+}
+
+h2.block-title,
+h2.pane-title {
+  border: 0px solid;
+  height:1.5em;
+  background-color:#B91222;
+  color:white;
+  border-radius:8px;
+  text-align:center;
+  padding: 2px 0
+}
+
 /* Sticky footer */
 html, body {
   height: 100%;
