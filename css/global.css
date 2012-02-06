@@ -37,6 +37,26 @@ h2.pane-title {
   padding: 2px 0
 }
 
+/* Language block */
+#region-user-first {
+  min-height: 1px;
+}
+
+#block-locale-language {
+  border: none;
+  text-align: right;
+}
+
+#block-locale-language h2 {
+  display: none;
+}
+
+#block-locale-language li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+
 /* Sticky footer */
 html, body {
   height: 100%;
