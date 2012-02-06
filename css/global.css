@@ -112,3 +112,8 @@ html, body {
 #zone-postscript {
   border-top: solid 1px #E6E7E8;
 }
+
+/* Hide page title in home page */
+.front #page-title {
+  display: none;
+}
