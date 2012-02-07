@@ -84,13 +84,26 @@ html, body {
   border-bottom: solid 1px #E6E7E8;
 }
 
-#zone-menu .navigation li {
+#block-system-main-menu {
+  border: none;
+  border-radius: 0;
+}
+
+#block-system-main-menu h2 {
+  display: none;
+}
+
+#zone-menu .navigation li,
+#block-system-main-menu li {
   margin: 0 1px;
   padding: 0 1px;
   float: left;
+  list-style-type: none;
+  list-style-image: none;
 }
 
-#zone-menu .navigation li a {
+#zone-menu .navigation li a,
+#block-system-main-menu li a {
   float: left;
   height: 1.4em;
   line-height: 1.4em;
@@ -101,12 +114,21 @@ html, body {
 
 #zone-menu .navigation li a.active,
 #zone-menu .navigation li a:hover,
-#zone-menu .navigation li a:focus {
+#zone-menu .navigation li a:focus,
+#block-system-main-menu li a.active,
+#block-system-main-menu li a:hover,
+#block-system-main-menu li a:focus {
   background-color: #FFFFFF;
   color: #B91222;
   border-bottom: solid 4px #B91222;
   padding-bottom: 11px;
 }
+
+/*#block-system-main-menu li ul.menu {
+  position: absolute;
+  left: 0;
+  top: 2em;
+}*/
 
 /* Postscript zone */
 #zone-postscript {
