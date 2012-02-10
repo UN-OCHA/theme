@@ -1,4 +1,8 @@
 /* Global styles */
+body {
+  color: #232323;
+}
+
 a,
 a:link,
 a:visited {
@@ -23,18 +27,15 @@ h6 {
 .pane-block,
 .block {
   border: solid 1px #E6E7E8;
-  border-radius: 8px;
 }
 
 h2.block-title,
 h2.pane-title {
-  border: 0px solid;
-  height:1.5em;
-  background-color:#B91222;
-  color:white;
-  border-radius:8px;
-  text-align:center;
-  padding: 2px 0
+  font-weight: normal;
+}
+
+#block-system-main {
+  border: 0;
 }
 
 /* Language block */
@@ -84,6 +85,12 @@ html, body {
   border-bottom: solid 1px #E6E7E8;
 }
 
+#zone-menu a,
+#zone-menu a:link,
+#zone-menu a:visited {
+  color: #232323;
+}
+
 #block-system-main-menu {
   border: none;
   border-radius: 0;
@@ -93,17 +100,23 @@ html, body {
   display: none;
 }
 
-#zone-menu .navigation li,
-#block-system-main-menu li {
+#zone-menu .navigation > li,
+#block-system-main-menu > .block-inner > .content > ul.menu > li {
   margin: 0 1px;
-  padding: 0 1px;
   float: left;
   list-style-type: none;
   list-style-image: none;
 }
 
+#block-system-main-menu > .block-inner > .content > ul.menu > li.collapsed,
+#block-system-main-menu > .block-inner > .content > ul.menu > li.expanded {
+  list-style-image: url("../../../../../misc/menu-expanded.png");
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 #zone-menu .navigation li a,
-#block-system-main-menu li a {
+#block-system-main-menu > .block-inner > .content > ul.menu > li > a {
   float: left;
   height: 1.4em;
   line-height: 1.4em;
@@ -112,27 +125,39 @@ html, body {
   padding-bottom: 15px;
 }
 
+#block-system-main-menu ul.menu li ul.menu {
+  z-index: 1000;
+  position: absolute;
+  top: 2.8em;
+  background-color: #fff;
+  border: solid 2px #E6E7E8;
+  border-top: 0;
+}
+
+#block-system-main-menu ul.menu li ul.menu li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
 #zone-menu .navigation li a.active,
 #zone-menu .navigation li a:hover,
 #zone-menu .navigation li a:focus,
-#block-system-main-menu li a.active,
-#block-system-main-menu li a:hover,
-#block-system-main-menu li a:focus {
+#block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
+#block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
   background-color: #FFFFFF;
   color: #B91222;
   border-bottom: solid 4px #B91222;
   padding-bottom: 11px;
 }
 
-/*#block-system-main-menu li ul.menu {
-  position: absolute;
-  left: 0;
-  top: 2em;
-}*/
-
 /* Postscript zone */
 #zone-postscript {
-  border-top: solid 1px #E6E7E8;
+  border-top: solid 3px #E6E7E8;
+}
+
+#zone-postscript .block,
+#zone-postscript .pane-block {
+  border: 0;
 }
 
 /* Hide page title in home page */
