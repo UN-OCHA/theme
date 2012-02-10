@@ -38,25 +38,33 @@ h2.pane-title {
   border: 0;
 }
 
-/* Language block */
+/* Language dropdown block */
 #region-user-first {
   min-height: 1px;
 }
 
-#block-locale-language {
-  border: none;
+#block-lang-dropdown-language {
+  border: 0;
+  display: inline-block;
+}
+
+.dd_icon_right .ddTitle {
+  background: none;
+}
+
+.dd_icon_right .ddChild a.selected,
+.dd_icon_right .ddChild a:hover {
+  background-color: #B91222;
+}
+
+/* User login block and logged in block */
+#block-user-login,
+#block-logintoboggan-logintoboggan-logged-in {
+  border: 0;
   text-align: right;
+  float: right;
 }
 
-#block-locale-language h2 {
-  display: none;
-}
-
-#block-locale-language li {
-  list-style-type: none;
-  display: inline;
-  padding: 5px;
-}
 
 /* Sticky footer */
 html, body {
