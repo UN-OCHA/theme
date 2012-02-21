@@ -6,7 +6,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #ccc;
+  color: #333333;
   text-decoration: none;
 }
 
@@ -33,10 +33,11 @@ h1 {
 }
 
 h2 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight:bold;
 	padding-left: 5px;
 	padding-top:10px;
+	color:#333333;
 }
 
 h3 { 
