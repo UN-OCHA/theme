@@ -81,7 +81,7 @@ h2.pane-title {
   min-height: 1px;
 }
 #block-locale-language {
-  display: inline-block;
+	list-style-type:none;
 }
 
 #block-lang-dropdown-language {
@@ -128,7 +128,7 @@ html, body {
   height: 150px;
 }
 #zone-postscript-wrapper .block-title{
-	font-size:10px;
+	font-size:11px;
 	font-weight:bold;
 }
 /* Main menu */
