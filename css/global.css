@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-	font-size: 12px;
+	font-size: 14px;
 	padding-left: 5px;
 	padding-top:10px;
 	color:#B91222;
@@ -58,11 +58,12 @@ h6 {
 /* Blocks */
 .pane-block,
 .block {
-  border: solid 1px #E6E7E8;
+  border: none;
 }
 
 h2.block-title,
 h2.pane-title {
+	font-size: 14px;
   font-weight: bold;
   margin-top:10px;
 }
