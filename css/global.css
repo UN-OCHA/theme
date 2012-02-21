@@ -80,7 +80,7 @@ h2.pane-title {
 #region-user-first {
   min-height: 1px;
 }
-#block-locale-language {
+#block-locale-language .language-switcher-locale-url{
 	list-style-type:none;
 }
 
