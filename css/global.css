@@ -15,7 +15,9 @@ body {
 }
 
 #content {
+  width: 100%;
   background:#fff;
+  height:105px;
 }
 
 #header {
