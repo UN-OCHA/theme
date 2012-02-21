@@ -6,7 +6,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #B91222;
+  color: #ccc;
   text-decoration: none;
 }
 
@@ -61,7 +61,8 @@ h6 {
 
 h2.block-title,
 h2.pane-title {
-  font-weight: normal;
+  font-weight: bold;
+  margin-top:10px;
 }
 
 #block-system-main {
