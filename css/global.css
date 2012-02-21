@@ -80,6 +80,9 @@ h2.pane-title {
 #region-user-first {
   min-height: 1px;
 }
+#block-locale-language {
+  display: inline-block;
+}
 
 #block-lang-dropdown-language {
   border: 0;
@@ -124,7 +127,7 @@ html, body {
   width: 100%;
   height: 150px;
 }
-#zone-postscript-wrapper .title{
+#zone-postscript-wrapper .block-title{
 	font-size:10px;
 	font-weight:bold;
 }
