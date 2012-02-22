@@ -6,7 +6,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #4C1B1B;
+  color: #B91222;
   text-decoration: none;
 }
 
@@ -178,6 +178,7 @@ html, body {
   padding: 0 0.8em;
   text-decoration: none;
   padding-bottom: 15px;
+  font-size:12px;
 }
 
 #block-system-main-menu ul.menu li ul.menu {
