@@ -6,7 +6,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #5B1B1B;
+  color: #B91222;
   text-decoration: none;
 }
 
@@ -144,10 +144,6 @@ html, body {
 #zone-menu a:visited {
   color: #232323;
   font-size:12px;
-}
-
-#region-menu {
-  font-size:14px;
 }
 
 #block-system-main-menu {
