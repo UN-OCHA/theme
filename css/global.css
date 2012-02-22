@@ -150,6 +150,7 @@ html, body {
 
 #block-system-main-menu h2 {
   display: none;
+  font-size:12px;
 }
 
 #zone-menu .navigation > li,
