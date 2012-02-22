@@ -27,13 +27,13 @@ h6 {
 }
 
 h1 {
-	font-size: 16px;
+	font-size: 14px;
 	padding-top:15px;
 	color:#B91222;
 }
 
 h2 {
-	font-size: 14px;
+	font-size: 12px;
 	padding-left: 5px;
 	padding-top:10px;
 	color:#333333;
@@ -67,7 +67,7 @@ p {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 14px;
+	font-size: 12px;
 	margin-top:10px;
 }
 
