@@ -6,7 +6,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #B91222;
+  color: #5B1B1B;
   text-decoration: none;
 }
 
@@ -154,10 +154,6 @@ html, body {
 #block-system-main-menu h2 {
   display: none;
 }
-#block-system-main-menu .dhtml_menu {
-	font-size:12px;
-}
-
 #zone-menu .navigation > li,
 #block-system-main-menu > .block-inner > .content > ul.menu > li {
   margin: 0 1px;
@@ -181,7 +177,7 @@ html, body {
   padding: 0 0.8em;
   text-decoration: none;
   padding-bottom: 15px;
-  font-size:12px;
+  font-size:14px;
 }
 
 #block-system-main-menu ul.menu li ul.menu {
