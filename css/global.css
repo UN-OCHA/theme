@@ -128,7 +128,7 @@ html, body {
   height: 150px;
 }
 #zone-postscript-wrapper .block-title{
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 }
 /* Main menu */
@@ -141,6 +141,7 @@ html, body {
 #zone-menu a:link,
 #zone-menu a:visited {
   color: #232323;
+  font-size:12px;
 }
 
 #block-system-main-menu {
