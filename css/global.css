@@ -6,13 +6,15 @@ body {
 a,
 a:link,
 a:visited {
-  color: #B91222;
+  color: #5B1B1B;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
   text-decoration: underline;
+  color: #B91222;
+
 }
 
 h1,
@@ -142,6 +144,10 @@ html, body {
 #zone-menu a:visited {
   color: #232323;
   font-size:12px;
+}
+
+#region-menu {
+  font-size:14px;
 }
 
 #block-system-main-menu {
