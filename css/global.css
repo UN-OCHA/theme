@@ -140,7 +140,9 @@ html, body {
   margin-top: 1em;
   border-bottom: solid 1px #B91222;
 }
-
+#zone-menu .dhtml-menu{
+	size:80px;
+}
 #zone-menu a,
 #zone-menu a:link,
 #zone-menu a:visited {
