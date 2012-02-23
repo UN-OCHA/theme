@@ -86,6 +86,11 @@ h2.node-title a:link,
 h2.node-title a:visited {
   color: #333;
 }
+h2.node-title a:hover,
+h2.node-title a:focus {
+  text-decoration: underline;
+  color: #B91222;
+}
 
 #block-system-main {
   border: 0;
@@ -195,8 +200,8 @@ html, body {
   padding: 0 0.8em;
   text-decoration: none;
   padding-bottom: 15px;
-  font-size:14px;
-  font-weight:bold;
+  font-size:16px;
+  font-weight:normal;
 }
 
 #block-system-main-menu ul.menu li ul.menu {
