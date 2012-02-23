@@ -34,6 +34,9 @@ h1 {
 	padding-top:15px;
 	color:#333333;
 }
+h1 a{
+	color:#333333;
+}
 
 h2 {
 	font-size: 12px;
@@ -178,6 +181,7 @@ html, body {
   text-decoration: none;
   padding-bottom: 15px;
   font-size:14px;
+  font-weight:bold;
 }
 
 #block-system-main-menu ul.menu li ul.menu {
