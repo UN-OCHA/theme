@@ -31,17 +31,17 @@ h1 {
 	font-size: 12px;
 	font-weight:bold
 	padding-top:15px;
-	color:#333333;
+	color:#4B4B4B;
 }
 h1 a{
-	color:#333333;
+	color:#4B4B4B;
 }
 
 h2 {
 	font-size: 12px;
 	padding-left: 5px;
 	padding-top:10px;
-	color:#333333;
+	color:#4B4B4B;
 }
 
 h3 { 
@@ -84,7 +84,7 @@ h2.node-title {
 h2.node-title a,
 h2.node-title a:link,
 h2.node-title a:visited {
-  color: #333;
+  color: #4B4B4B;
 }
 h2.node-title a:hover,
 h2.node-title a:focus {
@@ -159,7 +159,7 @@ html, body {
 #zone-menu a,
 #zone-menu a:link,
 #zone-menu a:visited {
-  color: #333;
+  color: #4B4B4B;
   font-size:12px;
   font-family:Arial, Verdana, sans-serif;
 }
@@ -200,8 +200,8 @@ html, body {
   padding: 0 0.8em;
   text-decoration: none;
   padding-bottom: 15px;
-  font-size:16px;
-  font-weight:normal;
+  font-size:14px;
+  font-weight:bold;
 }
 
 #block-system-main-menu ul.menu li ul.menu {
