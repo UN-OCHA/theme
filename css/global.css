@@ -72,14 +72,19 @@ p {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 14px;
-	font-weight:normal;
+	font-size: 16px;
+	font-weight:bold;
 	margin-top:10px;
 }
 
 h2.node-title {
 	font-size: 14px;
 	font-weight:bold;
+}
+h2.node-title a,
+h2.node-title a:link,
+h2.node-title a:visited {
+  color: #333;
 }
 
 #block-system-main {
