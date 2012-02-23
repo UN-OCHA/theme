@@ -14,7 +14,6 @@ a:hover,
 a:focus {
   text-decoration: underline;
   color: #B91222;
-
 }
 
 h1,
@@ -149,6 +148,11 @@ html, body {
   font-size:12px;
 }
 
+#zone-menu a:hover,
+#zone-menu a:focus {
+  color: #B91222;
+}
+
 #block-system-main-menu {
   border: none;
   border-radius: 0;
@@ -189,7 +193,7 @@ html, body {
   position: absolute;
   top: 2.8em;
   background-color: #fff;
-  border: solid 2px #E6E7E8;
+  border: solid 2px #B91222;
   border-top: 0;
   display: none;
 }
