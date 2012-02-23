@@ -72,8 +72,14 @@ p {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 12px;
+	font-size: 14px;
+	font-weight:normal;
 	margin-top:10px;
+}
+
+h2.node-title {
+	font-size: 14px;
+	font-weight:bold;
 }
 
 #block-system-main {
@@ -143,7 +149,7 @@ html, body {
 #zone-menu a,
 #zone-menu a:link,
 #zone-menu a:visited {
-  color: #232323;
+  color: #333;
   font-size:12px;
   font-family:Arial, Verdana, sans-serif;
 }
