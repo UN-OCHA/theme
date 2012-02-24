@@ -1,6 +1,8 @@
 /* Global styles */
 body {
   color: #232323;
+  font-family:Arial, Verdana, sans-serif;
+  font-size:9px;
 }
 
 a,
@@ -62,6 +64,7 @@ h6 {
 p {
   margin-top: 0.5em;
   margin-bottom: 0.9em;
+  text-align:justify;
 }
 
 /* Blocks */
@@ -72,14 +75,13 @@ p {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight:bold;
 	margin-top:10px;
 }
 
 h2.node-title {
-	font-size: 14px;
-	font-weight:bold;
+	font-size: 16px;
 }
 h2.node-title a,
 h2.node-title a:link,
