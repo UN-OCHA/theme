@@ -256,5 +256,5 @@ html, body {
 /* Customize field image in Main-content*/
 .field-name-field-news-image {
 	float:left;
-	width:200px;
+	padding-right: 20px;
 }
