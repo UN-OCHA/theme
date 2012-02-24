@@ -224,7 +224,7 @@ html, body {
 
 
 #block-system-main-menu ul.menu li ul.menu {
-  z-index: 1;
+  z-index: 0;
   position: relative;
   top: 2.8em;
   background-color: #fff;
