@@ -101,9 +101,15 @@ h2.node-title a:focus {
 #block-system-main {
   border: 0;
 }
-
-#breadcrumb { 			/* couleur arbre de navigation */
+/* couleur arbre de navigation */
+.breadcrumb a,
+.breadcrumb a:link,
+.breadcrumb a:visited {
   color: #B91222;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  text-decoration: underline;
 }
 
 
