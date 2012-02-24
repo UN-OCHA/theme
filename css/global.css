@@ -74,7 +74,6 @@ h1.page-title {
 	margin-top:10px;
 }
 
-
 /* Blocks */
 .pane-block,
 .block {
@@ -252,4 +251,10 @@ html, body {
 /* Hide page title in home page */
 .front #page-title {
   display: none;
+}
+
+/* Customize field image in Main-content*/
+div#main-content .field-items .field-name-field-news-image {
+	float:left;
+	padding-right:4px;
 }
