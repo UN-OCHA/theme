@@ -62,8 +62,6 @@ h6 {
 }
 
 p {
-  margin-top: 0.5em;
-  margin-bottom: 0.9em;
   text-align:justify;
 }
 
@@ -264,7 +262,7 @@ html, body {
 }
 
 /* Customize view in document*/
-#block-system-main .submitted {
+#block-system-main .submitted {			/* pour ne pas afficher le submitted*/
   display: none;
 }
 /* Customize Block style on right sidebar
