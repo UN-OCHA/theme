@@ -227,8 +227,8 @@ html, body {
   z-index: 1;
   top: 2.8em;
   background-color: #fff;
-  border: solid 1px #B91222;
   border-top: 0;
+  border-bottom: solid 4px #B91222;
   display: none;
 }
 
@@ -245,7 +245,7 @@ html, body {
   background-color: #FFFFFF;
   font-family:Arial, Verdana, sans-serif;
   color: #B91222;
-  border-bottom: solid 4px #B91222;
+  border: solid 1px #B91222;
   padding-bottom: 11px;
 }
 
