@@ -105,6 +105,11 @@ h2.node-title a:focus {
 #block-system-main {
   border: 0;
 }
+/* Breadcrumb */
+.breadcrumb {
+  font-size:14px;
+}
+
 /* Breadcrumb color */
 .breadcrumb a,
 .breadcrumb a:link,
