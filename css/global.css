@@ -249,10 +249,13 @@ html, body {
 #zone-menu .navigation li a:focus 
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
+  z-index:1;
+  position: absolute;
   background-color: #FFFFFF;
   font-family:Arial, Verdana, sans-serif;
   color: #B91222;
   border-bottom: solid 4px #B91222;
+  padding-bottom: 5px;
 }
 
 /* Postscript zone */
@@ -285,7 +288,7 @@ html, body {
   border: none;
 }
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-table.views-field .views-field-field-doc-thumbnail{
+.view-maps-view table.views-field-field-doc-thumbnail{
 	float:left;
 	padding-right: 20px;  
 }
