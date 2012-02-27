@@ -1,6 +1,8 @@
 /* Global styles */
 body {
   color: #232323;
+  font-family:Arial, Verdana, sans-serif;
+  font-size:11px;
 }
 
 a,
@@ -28,7 +30,7 @@ h6 {
 }
 
 h1 {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight:bold
 	padding-top:15px;
 	color:#4B4B4B;
@@ -38,7 +40,7 @@ h1 a{
 }
 
 h2 {
-	font-size: 12px;
+	font-size: 16px;
 	font-weight:bold;
 	padding-left: 5px;
 	padding-top:10px;
@@ -60,8 +62,15 @@ h6 {
 }
 
 p {
-  margin-top: 0.5em;
-  margin-bottom: 0.9em;
+  text-align:justify;
+}
+
+/* Panels */
+h1.page-title {
+	font-size: 18px;
+	font-weight:bold;
+	margin-top:10px;
+	float:left;
 }
 
 /* Blocks */
@@ -72,29 +81,38 @@ p {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight:bold;
 	margin-top:10px;
 }
 
 h2.node-title {
-	font-size: 14px;
-	font-weight:bold;
+	font-size: 16px;
 }
 h2.node-title a,
 h2.node-title a:link,
 h2.node-title a:visited {
-  color: #4B4B4B;
+  color: #B91222;
 }
 h2.node-title a:hover,
 h2.node-title a:focus {
   text-decoration: underline;
-  color: #B91222;
 }
 
 #block-system-main {
   border: 0;
 }
+/* Breadcrumb color */
+.breadcrumb a,
+.breadcrumb a:link,
+.breadcrumb a:visited {
+  color: #B91222;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+  text-decoration: underline;
+}
+
 
 /* Language dropdown block */
 #region-user-first {
@@ -199,13 +217,14 @@ html, body {
   line-height: 1.4em;
   padding: 0 0.8em;
   text-decoration: none;
-  padding-bottom: 15px;
   font-size:14px;
   font-weight:bold;
 }
 
+
 #block-system-main-menu ul.menu li ul.menu {
-  z-index: 1;
+  z-index:1;
+  position: absolute;
   top: 2.8em;
   background-color: #fff;
   border: solid 1px #B91222;
@@ -227,7 +246,7 @@ html, body {
   font-family:Arial, Verdana, sans-serif;
   color: #B91222;
   border-bottom: solid 4px #B91222;
-  padding-bottom: 11px;
+  padding-bottom: 5px;
 }
 
 /* Postscript zone */
@@ -244,3 +263,27 @@ html, body {
 .front #page-title {
   display: none;
 }
+
+/* Customize views */
+.field-items {
+	padding-bottom: 10px;
+}
+
+.field-name-field-news-image {
+	float:left;
+	padding-right: 20px;
+}
+
+/* Customize view in document*/
+#block-system-main .submitted {			/* pour ne pas afficher le submitted*/
+  display: none;
+}
+/* Customize Block style on right sidebar
+
+#sidebar-right .block {
+padding:5px;
+margin-bottom:14px;
+margin-top:5px;
+border:solid 1px #B91222;
+}
+*/
