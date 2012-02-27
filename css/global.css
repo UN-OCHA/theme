@@ -246,7 +246,7 @@ html, body {
 
 #zone-menu .navigation li a.active,
 #zone-menu .navigation li a:hover,
-#zone-menu .navigation li a:focus,
+#zone-menu .navigation li a:focus 
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
   background-color: #FFFFFF;
@@ -254,7 +254,6 @@ html, body {
   color: #B91222;
   border-bottom: solid 4px #B91222;
   padding-bottom: 5px;
-  
 }
 
 /* Postscript zone */
@@ -286,7 +285,7 @@ html, body {
 #block-system-main .view-maps-view .view-content table {			
   border: none;
 }
-#block-system-main .view-maps-view .view-content table.views-field-field-doc-thumbnail{
+.field-content .views-field-field-doc-thumbnail{
 	float:left;
 	padding-right: 20px;  
 }
