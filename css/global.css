@@ -250,7 +250,7 @@ html, body {
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
   z-index:1;
-  position: relative;
+  position: fixed;
   background-color: #FFFFFF;
   font-family:Arial, Verdana, sans-serif;
   color: #B91222;
