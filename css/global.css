@@ -286,7 +286,7 @@ html, body {
   border: none;
 }
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-.view-maps-view .views-field-field-doc-thumbnail{
+.view-maps-view table.views-field-field-doc-thumbnail{
 	float:left;
 	padding-right: 20px;  
 }
