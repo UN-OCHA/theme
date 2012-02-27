@@ -228,7 +228,7 @@ html, body {
   top: 2.8em;
   background-color: #fff;
   border: solid 1px #B91222;
-  border-top: 0;
+  border-top: solid 4px #B91222;
   display: none;
 }
 
@@ -247,6 +247,7 @@ html, body {
   color: #B91222;
   border-bottom: solid 4px #B91222;
   padding-bottom: 5px;
+  
 }
 
 /* Postscript zone */
@@ -275,9 +276,18 @@ html, body {
 }
 
 /* Customize view in document*/
-#block-system-main .submitted {			/* pour ne pas afficher le submitted*/
+#block-system-main .submitted {			/* to not display "submitted"*/
   display: none;
 }
+/* Customize view in news*/
+#block-system-main .view-content .views-row{			/* to display line dotted for views items*/
+  border-bottom: 1px dotted #A5977A;
+  padding-bottom:5px;
+  padding-top:5px;
+  margin-left:inherit;
+  list-style: none;
+}
+
 /* Customize Block style on right sidebar
 
 #sidebar-right .block {
