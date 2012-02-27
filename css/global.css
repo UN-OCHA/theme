@@ -300,6 +300,12 @@ html, body {
   list-style: none;
 }
 
+/* Customize buttons*/
+
+.st_google_button .displaytext {
+	display:none;
+}
+
 /* Customize Block style on right sidebar
 
 #sidebar-right .block {
