@@ -283,6 +283,11 @@ html, body {
 }
 
 /* Customize view in document*/
+#block-system-main {			
+  border: none;
+}
+
+/* Customize view in document*/
 #block-system-main .submitted {			/* to not display "submitted"*/
   display: none;
 }
