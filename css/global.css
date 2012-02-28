@@ -298,6 +298,7 @@ html, body {
   margin-left:inherit;
   list-style: none;
 }
+
 /* Customize view in map center*/
 #block-system-main .view-maps-view .view-content table {			
   border: none;
@@ -315,9 +316,10 @@ td, th {
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail img{
 	float:left;
-	max-height:100px;
+	max-height:70px;
 	max-width: 75px;
 	padding-right: 20px;
+	display:
 }
 
 /* Customize Block style on right sidebar
