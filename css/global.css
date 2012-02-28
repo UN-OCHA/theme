@@ -299,7 +299,7 @@ html, body {
   border: none;
 }
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-table.views-field-field-doc-thumbnail{
+.views-field-field-doc-thumbnail table{
 	float:left;
 	padding-right: 20px;  
 }
