@@ -316,7 +316,9 @@ td, th {
 	padding-right: 20px;
 	vertical-align: text-top;
 }
-.views-field-title {
+.views-field-title,
+.views-field-created,
+.views-field-field-docs-source {
 	text-align:right;
 }
 
