@@ -313,7 +313,7 @@ td, th {
 }
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-.views-field-field-doc-thumbnail .field content img{
+.views-field-field-doc-thumbnail img{
 	float:left;
 	max-height:10px;
 	max-width: 5px;
