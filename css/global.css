@@ -182,6 +182,7 @@ html, body {
 #zone-menu {
   margin-top: 1em;
   border-bottom: solid 1px #E6E7E8;
+  padding-bottom:15px;
 }
 #zone-menu a,
 #zone-menu a:link,
@@ -230,10 +231,6 @@ html, body {
   font-size:14px;
   font-weight:bold;
 }
-
-
-  /*padding-bottom: 15px;*/
-
 
 #block-system-main-menu ul.menu li ul.menu {
   z-index:1;
@@ -305,9 +302,10 @@ html, body {
 #block-system-main .view-maps-view .view-content table {			
   border: none;
 }
-td, th {
+/*td, th {
     vertical-align: top;
-}
+}*/
+
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail {
 	float:left;
