@@ -177,6 +177,7 @@ html, body {
 	font-size:12px;
 	font-weight:bold;
 }
+
 /* Main menu */
 #zone-menu {
   margin-top: 1em;
@@ -225,9 +226,11 @@ html, body {
   line-height: 1.4em;
   padding: 0 0.8em;
   text-decoration: none;
+  padding-bottom: 15px;
   font-size:14px;
   font-weight:bold;
 }
+
 
   /*padding-bottom: 15px;*/
 
@@ -258,6 +261,7 @@ html, body {
   border-bottom: solid 4px #B91222;
   padding-bottom: 5px;
 }
+
 
 /* Postscript zone */
 #zone-postscript {
