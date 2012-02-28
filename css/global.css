@@ -280,7 +280,7 @@ html, body {
 	padding-bottom: 10px;
 }
 
-.field-name-field-news-image {
+.field-name-field-news-image {			/* align image on the left */
 	float:left;
 	padding-right: 20px;
 }
@@ -308,19 +308,18 @@ td, th {
     vertical-align: top;
 }
 
-.views-field-field-doc-thumbnail .field content {
-	text-align:right;
-	padding-right: 20px;
-}
-
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail img{
 	float:left;
 	max-height:70px;
 	max-width: 75px;
 	padding-right: 20px;
-	display:
+	vertical-align: text-top;
 }
+.views-field-title {
+	text-align:right;
+}
+
 
 /* Customize Block style on right sidebar
 
