@@ -249,8 +249,6 @@ html, body {
 #zone-menu .navigation li a:focus 
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
-  z-index:1;
-  position: fixed;
   background-color: #FFFFFF;
   font-family:Arial, Verdana, sans-serif;
   color: #B91222;
@@ -283,20 +281,11 @@ html, body {
 	padding-right: 20px;
 }
 
-/* Customize view in map center*/
-#block-system-main .view-maps-view .view-content table {			
-  border: none;
-}
-/*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-.view-maps-view table.views-field-field-doc-thumbnail{
-	float:left;
-	padding-right: 20px;  
-}
-
 /* Customize view in document*/
 #block-system-main .submitted {			/* to not display "submitted"*/
   display: none;
 }
+
 /* Customize view-content*/
 #block-system-main .view-content .views-row {			/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
@@ -305,11 +294,14 @@ html, body {
   margin-left:inherit;
   list-style: none;
 }
-
-/* Customize buttons*/
-
-.st_google_button .displaytext {
-	display:none;
+/* Customize view in map center*/
+#block-system-main .view-maps-view .view-content table {			
+  border: none;
+}
+/*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
+.view-maps-view .view-content .views-field-field-doc-thumbnail{
+	float:left;
+	padding-right: 20px;  
 }
 
 /* Customize Block style on right sidebar
