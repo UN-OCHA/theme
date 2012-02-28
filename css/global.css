@@ -302,12 +302,13 @@ html, body {
 #block-system-main .view-maps-view .view-content table {			
   border: none;
 }
+
 td, th {
     vertical-align: top;
 }
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-.views-field-field-doc-thumbnail img{
+.views-field-field-doc-thumbnail .field content img{
 	float:left;
 	padding-right: 20px;  
 }
