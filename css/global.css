@@ -314,9 +314,9 @@ td, th {
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail .field content img{
-	max-height:70px;
-	max-width: 100px;
 	float:left;
+	max-height:10px;
+	max-width: 5px;
 	padding-right: 20px;
 }
 
