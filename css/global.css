@@ -299,9 +299,9 @@ html, body {
 #block-system-main .view-maps-view .view-content table {			
   border: none;
 }
-/*td, th {
+td, th {
     vertical-align: top;
-}*/
+}
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail {
