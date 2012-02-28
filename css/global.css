@@ -297,10 +297,9 @@ html, body {
 /* Customize view in map center*/
 #block-system-main .view-maps-view .view-content table {			
   border: none;
+  vertical-align:top;
 }
-#block-system-main .view-maps-view .view-content table {
-	vertical-align:top;		
-}
+
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-view-grid .views-field-field-doc-thumbnail{
 	float:left;
