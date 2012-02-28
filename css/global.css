@@ -231,8 +231,7 @@ html, body {
 #block-system-main-menu ul.menu li ul.menu {
   z-index: 1;
   position: absolute;
-  top: 3.5em;
-  background-color: #fff;
+  top: 3.3em;
   border: solid 2px #B91222;
   border-top: 0;
   display: none;
