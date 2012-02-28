@@ -232,7 +232,7 @@ html, body {
   z-index: 1;
   position: absolute;
   top: 3.3em;
-  border: solid 2px #B91222;
+  border: solid 2px #E6E7E8;
   border-top: 0;
   display: none;
 }
@@ -299,6 +299,10 @@ html, body {
 td, th {
     vertical-align: top;
 }
+img {
+    vertical-align: ;
+}
+
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
 .views-field-field-doc-thumbnail {
