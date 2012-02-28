@@ -191,6 +191,10 @@ html, body {
   font-size:12px;
   font-family:Arial, Verdana, sans-serif;
 }
+#zone-menu a:hover,
+#zone-menu a:focus {
+  color: #B91222;
+}
 
 #block-system-main-menu {
   border: none;
@@ -232,7 +236,7 @@ html, body {
   z-index: 1;
   position: absolute;
   top: 3.3em;
-  border: solid 2px #E6E7E8;
+  border: solid 1px #E6E7E8;
   border-top: 0;
   display: none;
 }
