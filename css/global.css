@@ -239,6 +239,8 @@ html, body {
   border: solid 1px #E6E7E8;
   border-top: 0;
   display: none;
+  max-width:inherit;
+  size:auto;
 }
 
 #block-system-main-menu ul.menu li ul.menu li {
@@ -303,13 +305,9 @@ html, body {
 td, th {
     vertical-align: top;
 }
-img {
-    vertical-align: ;
-}
-
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
-.views-field-field-doc-thumbnail {
+.views-field-field-doc-thumbnail img{
 	float:left;
 	padding-right: 20px;  
 }
