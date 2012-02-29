@@ -281,6 +281,20 @@ html, body {
   display: none;
 }
 
+/* Customize panels on homepage*/
+.panels-flexible-column-inside-first .panels-flexible-region{
+    border: 1px solid #E6E7E8;
+}
+.panels-flexible-column-new-2 {
+    float: left;
+    width: 60%;
+}
+.panels-flexible-column-new-2 .pane-documents-panel-pane-8 {
+    float: left;
+    width: 39%;
+}
+panels-flexible-region
+
 /* Customize views */
 .field-items {
 	padding-bottom: 10px;
@@ -311,15 +325,6 @@ html, body {
 /* Customize view in map center*/
 #block-system-main .view-maps-view .view-content table {			
   border: none;
-}
-/* Customize panel size on homepage*/
-.panels-flexible-column-new-2 {
-    float: left;
-    width: 60%;
-}
-.panels-flexible-column-new-3 {
-    float: left;
-    width: 39%;
 }
 
 td, th {
