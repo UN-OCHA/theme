@@ -290,7 +290,6 @@ html, body {
 	float:left;
 	padding-right: 20px;
 }
-
 /* Customize view in document*/
 #block-system-main .submitted {			/* to not display "submitted"*/
   display: none;
@@ -312,6 +311,15 @@ html, body {
 /* Customize view in map center*/
 #block-system-main .view-maps-view .view-content table {			
   border: none;
+}
+/* Customize panel size on homepage*/
+.panels-flexible-column-new-2 {
+    float: left;
+    width: 60%;
+}
+.panels-flexible-column-new-3 {
+    float: left;
+    width: 39%;
 }
 
 td, th {
