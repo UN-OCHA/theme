@@ -235,12 +235,11 @@ html, body {
 #block-system-main-menu ul.menu li ul.menu {
   z-index: 1;
   position: absolute;
-  top: 3.3em;
+  top: 3.4em;
+  background-color: #fff;
   border: solid 1px #E6E7E8;
   border-top: 0;
   display: none;
-  max-width:inherit;
-  size:auto;
 }
 
 #block-system-main-menu ul.menu li ul.menu li {
@@ -321,7 +320,12 @@ td, th {
 .views-field-field-docs-source {
 	text-align:right;
 }
-
+.pager {
+    border-color: #DDDDDD #BBBBBB #999999;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+}
 
 /* Customize Block style on right sidebar
 
