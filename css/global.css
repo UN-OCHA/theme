@@ -282,7 +282,9 @@ html, body {
 }
 
 /* Customize panels on homepage*/
-.panels-flexible-column-inside-first .panels-flexible-region{
+.panels-flexible-column-inside-first,
+.panels-flexible-region-inside-last,
+.panels-flexible-region-new-center_right{
     border: 1px solid #E6E7E8;
 }
 .panels-flexible-column-new-2 {
@@ -293,7 +295,6 @@ html, body {
     float: left;
     width: 39%;
 }
-panels-flexible-region
 
 /* Customize views */
 .field-items {
