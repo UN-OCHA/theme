@@ -9,6 +9,10 @@ body {
    width: 960px;
 }
 
+.container-12 {
+    width: 100%;
+}
+
 a,
 a:link,
 a:visited {
