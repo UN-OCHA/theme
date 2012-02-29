@@ -84,7 +84,7 @@ h1.page-title {
 
 h2.block-title,
 h2.pane-title {
-	font-size: 18px;
+	font-size: 14px;
 	font-weight:bold;
 	margin-top:10px;
 }
@@ -314,7 +314,7 @@ td, th {
     vertical-align: top;
 }
 
-/*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail*/
+/*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
 	float:left;
 	max-height:70px;
