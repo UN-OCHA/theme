@@ -5,6 +5,10 @@ body {
   font-size:11px;
 }
 
+#page {
+   width: 960px;
+}
+
 a,
 a:link,
 a:visited {
@@ -312,6 +316,17 @@ html, body {
 
 td, th {
     vertical-align: top;
+}
+
+img {
+    padding: 5px;
+}
+
+.views-field-field-doc-thumbnail img{
+	max-height:70px;
+	max-width: 75px;
+	padding-right: 20px;
+	vertical-align: text-top;
 }
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
