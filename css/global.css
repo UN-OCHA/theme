@@ -164,6 +164,8 @@ html, body {
 }
 
 #section-content {
+  z-index: 0;
+  position: relative;
   padding-bottom: 150px;
 }
 
@@ -233,10 +235,10 @@ html, body {
 }
 
 #block-system-main-menu ul.menu li ul.menu {
+  background-color: #fff;
   z-index: 1;
   position: absolute;
   top: 3.4em;
-  background-color: #fff;
   border: solid 1px #E6E7E8;
   border-top: 0;
   display: none;
