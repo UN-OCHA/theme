@@ -330,6 +330,10 @@ img {
     padding: 5px;
 }
 
+.block { 
+  word-wrap: break-word;
+}
+
 .views-field-field-doc-thumbnail img{
 	max-height:70px;
 	max-width: 75px;
