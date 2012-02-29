@@ -234,10 +234,11 @@ html, body {
   font-weight:bold;
 }
 
-#block-system-main-menu ul.menu li ul.menu {
+#block-system-main-menu ul.menu li ul.menu { 
   background-color: #fff;
   z-index: 1;
   position: absolute;
+  min-width:110px;
   top: 3.4em;
   border: solid 1px #E6E7E8;
   border-top: 0;
@@ -269,6 +270,10 @@ html, body {
 #zone-postscript .block,
 #zone-postscript .pane-block {
   border: 0;
+}
+/* Customize view in Links (footer)*/
+#view-links {
+	text-align:left;			
 }
 
 /* Hide page title in home page */
