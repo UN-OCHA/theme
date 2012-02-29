@@ -271,7 +271,7 @@ html, body {
 #zone-postscript .pane-block {
   border: 0;
 }
-/* Customize view in Links (footer)*/
+/* Customize view in Links (footer)
 #view-links {
 	text-align:left;			
 }
@@ -321,11 +321,6 @@ td, th {
 	max-width: 75px;
 	padding-right: 20px;
 	vertical-align: text-top;
-}
-.views-field-title,
-.views-field-created,
-.views-field-field-docs-source {
-	text-align:right;
 }
 .pager {
     border-color: #DDDDDD #BBBBBB #999999;
