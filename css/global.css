@@ -281,12 +281,13 @@ html, body {
   display: none;
 }
 
-/* Customize panels on homepage*/
+/* Customize panels on homepage
 .panels-flexible-column-inside-first,
 .panels-flexible-region-inside-last,
 .panels-flexible-region-new-center_right{
     border: 1px solid #E6E7E8;
 }
+*/
 .panels-flexible-column-new-2 {
     float: left;
     width: 60%;
