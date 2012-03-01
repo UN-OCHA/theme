@@ -351,7 +351,7 @@ img {
 
 /* Customize Block style on right sidebar*/
 
-.panels-flexible-region-new-right {
+.panels-flexible-region-new-right .pane-views-panes{
 padding:5px;
 margin-bottom:14px;
 margin-top:5px;
