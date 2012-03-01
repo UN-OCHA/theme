@@ -60,6 +60,7 @@ h6 {
 	font-size:  15px;
 	margin-left:-200px;
 	margin-top:50px;
+	padding-top:5px;
 	color:#B91222;
 }
 
@@ -242,7 +243,6 @@ html, body {
   text-decoration: none;
   padding-bottom: 15px;
   font-size:14px;
-  font-weight:bold;
 }
 
 #block-system-main-menu ul.menu li ul.menu { 
