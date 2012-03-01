@@ -293,11 +293,12 @@ html, body {
     float: left;
     width: 60%;
 }
-.panels-flexible-column-new-2 .pane-documents-panel-pane-8 {
-    float: left;
-    width: 39%;
-}
 
+.pane-documents-panel-pane-9,
+.pane-maps-view-panel-pane-3,
+.pane-documents-panel-pane-8 {
+    border: 1px solid #E6E7E8;
+}
 /* Customize all views */
 .field-items {
 	padding-bottom: 10px;
@@ -349,13 +350,17 @@ img {
 	vertical-align: text-top;
 }
 
-/* Customize Block style on right sidebar*/
+/* Customize Pane-blocks on right sidebar*/
 
 .panels-flexible-region-new-right .pane-views-panes{
-padding:5px;
-margin-bottom:14px;
-margin-top:5px;
-border:solid 2px #B91222;
+	padding:5px;
+	margin-bottom:14px;
+	margin-top:5px;
+	border:solid 3px #B91222;
+}
+.panels-flexible-region-new-right .pane-views-panes .pane-title{
+	color:#B91222;
+	font-weight:bold;
 }
 
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
