@@ -353,7 +353,7 @@ html, body {
 	border:solid 1px #E6E7E8;
 }
 #block-views-clusters-block .block-title {
-	marging:none;
+	marging-:none;
 	border-bottom:solid 1px #E6E7E8;
 }
 
@@ -363,10 +363,9 @@ html, body {
 	padding:5px;
 	margin-bottom:14px;
 	margin-top:5px;
-	border:solid 3px #B91222;
+	border:solid 2px #B91222;
 }
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
-	color:#B91222;
 	font-weight:bold;
 }
 
