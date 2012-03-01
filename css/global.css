@@ -102,7 +102,24 @@ h2.node-title a:hover,
 h2.node-title a:focus {
   text-decoration: underline;
 }
+td, th {
+    vertical-align: top;
+}
 
+img {
+    padding: 5px;
+}
+
+.block { 
+  word-wrap: break-word;
+}
+
+.views-field-field-doc-thumbnail img{
+	max-height:70px;
+	max-width: 75px;
+	padding-right: 20px;
+	vertical-align: text-top;
+}
 #block-system-main {
   border: 0;
 }
@@ -339,24 +356,6 @@ html, body {
   border: none;
 }
 
-td, th {
-    vertical-align: top;
-}
-
-img {
-    padding: 5px;
-}
-
-.block { 
-  word-wrap: break-word;
-}
-
-.views-field-field-doc-thumbnail img{
-	max-height:70px;
-	max-width: 75px;
-	padding-right: 20px;
-	vertical-align: text-top;
-}
 
 /* Customize Pane-blocks on right sidebar*/
 
