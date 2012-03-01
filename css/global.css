@@ -75,6 +75,9 @@ h1.page-title {
 	margin-top:10px;
 	float:left;
 }
+.site-name, 
+.site-slogan {
+    letter-spacing: 3px;
 
 /* Blocks */
 .pane-block,
