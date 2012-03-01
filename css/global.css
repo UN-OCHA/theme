@@ -319,14 +319,6 @@ html, body {
 	height: 200px;
     padding: 0 10px 10px;
 }
-.panels-flexible-column-new-2 .views-field-field-doc-thumbnail img {
-    max-height: 100px;
-    max-width: 175px;
-}
-.views-field-field-document-thumbnail img {
-    max-height: 100px;
-    max-width: 175px;
-}
 
 /* Customize all views */
 .field-items {
