@@ -319,6 +319,10 @@ html, body {
 	height: 200px;
     padding: 0 10px 10px;
 }
+.panels-flexible-column-new-2 .views-field-field-doc-thumbnail img {
+	marging:auto;
+    text-align: center;	
+}
 
 /* Customize all views */
 .field-items {
