@@ -292,13 +292,21 @@ html, body {
 .panels-flexible-column-new-2 {
     float: left;
     width: 60%;
+	height:
 }
 
 .pane-documents-panel-pane-9,
 .pane-maps-view-panel-pane-3,
-.pane-documents-panel-pane-8 {
+.pane-documents-panel-pane-8 {			/* border, height and padding */
     border: 1px solid #E6E7E8;
+	height: 200px;
+    padding: 0 10px 10px;
 }
+.panels-flexible-column-new-2 .views-field-field-doc-thumbnail img {
+    max-height: 100px;
+    max-width: 175px;
+}
+
 /* Customize all views */
 .field-items {
 	padding-bottom: 10px;
