@@ -323,6 +323,10 @@ html, body {
     max-height: 100px;
     max-width: 175px;
 }
+.views-field-field-document-thumbnail img {
+    max-height: 100px;
+    max-width: 175px;
+}
 
 /* Customize all views */
 .field-items {
