@@ -57,7 +57,7 @@ h5 {
 	font-size:  60%;
 }
 h6 {
-	font-size:  180%;
+	font-size:  15px;
 	margin-left:-200px;
 	margin-top:50px;
 	color:#B91222;
@@ -86,6 +86,7 @@ h2.block-title,
 h2.pane-title {
 	font-size: 14px;
 	font-weight:bold;
+	border-bottom:1px solid #E6E7E8;
 }
 
 h2.node-title {
@@ -350,7 +351,7 @@ html, body {
 	padding:5px;
 	border:solid 1px #E6E7E8;
 }
-#block-views-clusters-block .block-title {
+/*#block-views-clusters-block .block-title {
 	marging-:none;
 	border-bottom:solid 1px #E6E7E8;
 }
