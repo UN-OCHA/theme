@@ -80,6 +80,7 @@ h1.page-title {
 .pane-block,
 .block {
   border: none;
+  padding:5px;
 }
 
 h2.block-title,
@@ -297,7 +298,7 @@ html, body {
     width: 39%;
 }
 
-/* Customize views */
+/* Customize all views */
 .field-items {
 	padding-bottom: 10px;
 }
@@ -348,6 +349,15 @@ img {
 	vertical-align: text-top;
 }
 
+/* Customize Block style on right sidebar*/
+
+.panels-flexible-region-new-right {
+padding:5px;
+margin-bottom:14px;
+margin-top:5px;
+border:solid 2px #B91222;
+}
+
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
 	float:left;
@@ -362,13 +372,12 @@ img {
     border-style: solid;
     border-width: 1px;
 }
-
 /* Customize Block style on right sidebar
-
-#sidebar-right .block {
+.panels-flexible-region-new-right {
 padding:5px;
 margin-bottom:14px;
 margin-top:5px;
 border:solid 1px #B91222;
 }
+
 */
