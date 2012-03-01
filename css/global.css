@@ -307,7 +307,7 @@ html, body {
 	height: 200px;
     padding: 0 10px 10px;
 }
-.panels-flexible-column-new-2 img {
+.panels-flexible-column-new-2 .views-field-field-doc-thumbnail{
 	marging:auto;
     text-align: center;	
 }
