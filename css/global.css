@@ -243,6 +243,7 @@ html, body {
   text-decoration: none;
   padding-bottom: 15px;
   font-size:14px;
+  font-weight:bold;
 }
 
 #block-system-main-menu ul.menu li ul.menu { 
