@@ -114,12 +114,13 @@ img {
   word-wrap: break-word;
 }
 
-.views-field-field-doc-thumbnail img{
+/*.views-field-field-doc-thumbnail img{
 	max-height:70px;
 	max-width: 75px;
 	padding-right: 20px;
 	vertical-align: text-top;
-}
+}*/
+
 #block-system-main {
   border: 0;
 }
