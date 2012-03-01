@@ -307,7 +307,8 @@ html, body {
 	height: 200px;
     padding: 0 10px 10px;
 }
-.panels-flexible-column-new-2 .views-field-field-doc-thumbnail{	
+.panels-flexible-column-new-2 .views-field-field-doc-thumbnail,
+.panels-flexible-column-new-2 .views-field-field-document-thumbnail{	
 	margin:auto;
     text-align: center;	
 }
