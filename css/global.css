@@ -346,6 +346,12 @@ html, body {
   border: none;
 }
 
+/* Customize Pane-blocks on right sidebar*/
+
+#block-views-clusters-block .block-inner {
+	padding:5px;
+	border:solid 1px #E6E7E8;
+}
 
 /* Customize Pane-blocks on right sidebar*/
 
