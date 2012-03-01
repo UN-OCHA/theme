@@ -313,10 +313,6 @@ html, body {
 	margin:auto;
     text-align: center;	
 }
-.panels-flexible-column-new-2 .views-field-title{
-	vertical-align:bottom;	
-    text-align: center;	
-}
 
 /* Customize all views */
 .field-items {
