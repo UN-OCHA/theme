@@ -311,6 +311,9 @@ html, body {
 .panels-flexible-column-new-2 .pane-title{
     text-align: left;	
 }
+.panels-flexible-column-new-2 .view-content{
+    text-align: left;	
+}
 
 /* Customize all views */
 .field-items {
