@@ -149,12 +149,18 @@ img {
 #block-search-api-page-search-page .form-submit {
 	height:20px;
 	padding:2px;
-	background:#DEDAD7 url(images/search-button.png) no-repeat right;
+	background:#E6E7E8 url(images/search-button.png) no-repeat right;
 	border:#E6E7E8;
-	color:#000;
+	color:#232323;
 	font-size:12px;
+	font-weight:normal;
 }
 
+/*#block-search-api-page-search-page {
+  padding-top: 25px;
+  padding-right: 20px;
+  float: right;
+}*/
 
 .form-item, .form-actions {
     display: inline;
