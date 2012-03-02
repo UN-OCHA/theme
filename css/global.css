@@ -141,12 +141,19 @@ img {
 #block-locale-language .language-switcher-locale-url{
 	list-style-type:none;
 }
-/* Search form */
+/* Search form 
 
-#block-search-api-page-search-page .form-item,
-#block-search-api-page-search-page .form-submit {
-	background-color: #E6E7E8;
+#block-search-api-page-search-page .form-item,*/
+
+#edit-keys-1 {
+	height:16px;
+	padding:2px;
+	background:#DEDAD7 url(images/search-button.png) no-repeat right;
+	border:#E6E7E8;
+	color:#000;
+	font-size:12px;
 }
+
 
 .form-item, .form-actions {
     display: inline;
