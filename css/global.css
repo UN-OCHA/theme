@@ -143,10 +143,11 @@ img {
 }
 /* Search form 
 
-#block-search-api-page-search-page .form-item,*/
+#block-search-api-page-search-page */
 
-#edit-keys-1 {
-	height:16px;
+#block-search-api-page-search-page .form-text,
+#block-search-api-page-search-page .form-submit {
+	height:20px;
 	padding:2px;
 	background:#DEDAD7 url(images/search-button.png) no-repeat right;
 	border:#E6E7E8;
