@@ -197,6 +197,9 @@ html, body {
 	font-weight:bold;
 	border-bottom:none;
 }
+#zone-postscript-wrapper p{
+	text-align:left;
+}
 
 /* Main menu */
 #zone-menu {
