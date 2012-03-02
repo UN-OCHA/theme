@@ -133,7 +133,13 @@ img {
 .breadcrumb a:focus {
   text-decoration: underline;
 }
+/* Follow us button */
 
+a.follow-link-this-site {
+    background-image: url("icons/small/icon-feed.png");
+	width:16px;
+	height:16px;
+}
 
 /* Language dropdown block */
 #region-user-first {
