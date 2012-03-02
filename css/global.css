@@ -136,9 +136,7 @@ img {
 /* Follow us button */
 
 a.follow-link-this-site {
-    background-image: url("icons/small/icon-feed.png");
-	width:16px;
-	height:16px;
+    background-image: url("http://humanitarianresponse.viguierjust.com/misc/feed.png");
 }
 
 /* Language dropdown block */
