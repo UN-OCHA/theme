@@ -133,11 +133,6 @@ img {
 .breadcrumb a:focus {
   text-decoration: underline;
 }
-/* Follow us button */
-
-a.follow-link-this-site {
-    background-image: url("http://humanitarianresponse.viguierjust.com/misc/feed.png");
-	background-position: 0 5px}
 
 /* Language dropdown block */
 #region-user-first {
@@ -146,6 +141,13 @@ a.follow-link-this-site {
 #block-locale-language .language-switcher-locale-url{
 	list-style-type:none;
 }
+/* Search form */
+
+#block-search-api-page-search-page .form-item,
+#block-search-api-page-search-page .form-submit {
+	background-color: #E6E7E8;
+}
+
 .form-item, .form-actions {
     display: inline;
 }
@@ -203,6 +205,11 @@ html, body {
 #zone-postscript-wrapper p{
 	text-align:left;
 }
+/* Change followo us icon */
+a.follow-link-this-site {
+    background-image: url("http://humanitarianresponse.viguierjust.com/misc/feed.png");
+	background-position: 0 5px}
+
 
 /* Main menu */
 #zone-menu {
