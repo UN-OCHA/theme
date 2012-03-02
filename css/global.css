@@ -146,6 +146,9 @@ a.follow-link-this-site {
 #block-locale-language .language-switcher-locale-url{
 	list-style-type:none;
 }
+.form-item, .form-actions {
+    display: inline;
+}
 
 #block-lang-dropdown-language {
   border: 0;
