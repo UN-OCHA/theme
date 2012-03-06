@@ -400,7 +400,10 @@ a.follow-link-this-site {
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
 }
-/*.views-field-media-gallery-media img{
+.pane-media-panel-pane-1 table{
+	border:none;
+}
+/*pane-media-panel-pane-1 .views-field-media-gallery-media img{
 	width:80px;
 	height:60px;
 	padding: 5px;
