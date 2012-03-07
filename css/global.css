@@ -411,9 +411,12 @@ a.follow-link-this-site {
 	height:160px;
 	padding: 5px;
 }
-.more-link a{
-    border: 3px solid #B91222;
-    padding: 0 3px 0 5px;
+.more-link a {
+    border-color: #B91222 #FFFFFF #FFFFFF #B91222;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: -7px;
+    padding: 2px 8px 6px;
 }
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
