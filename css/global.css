@@ -151,7 +151,8 @@ img {
 #block-search-api-page-search-page */
 
 #block-search-api-page-search-page .form-text {
-	height:20px;
+	height:24px;
+	width:180px;
 	padding:2px;
 	background:#E6E7E8 url(../images/search.png) no-repeat right;
 	border:#E6E7E8;
@@ -159,14 +160,8 @@ img {
 	font-size:12px;
 	font-weight:normal;
 }
-/*#block-search-api-page-search-page .form-submit {
-	height:20px;
-	padding:2px;
-	background:#E6E7E8 url(../images/search.png) no-repeat right;
-	border:#E6E7E8;
-	color:#232323;
-	font-size:12px;
-	font-weight:normal;
+#block-search-api-page-search-page .form-submit {
+	display:none;
 }
 
 /*#block-search-api-page-search-page {
