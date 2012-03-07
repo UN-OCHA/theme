@@ -411,6 +411,10 @@ a.follow-link-this-site {
 	height:160px;
 	padding: 5px;
 }
+.more-link a{
+    border: 3px solid #B91222;
+    padding: 0 3px 0 5px;
+}
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
 	float:left;
