@@ -443,13 +443,18 @@ a.follow-link-this-site {
 }
 
 .pager {									/*Customize pagers*/
-    background: none;
+    float:right;
+	background: none;
     border-color: #DDDDDD;
+	width:30%;
 }
 .pager li {											
     color: #232323;
     font: normal 12px Arial,sans-serif;
     outline: 0 none;
+}
+.pager li a{											
+	background:none;
 }
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
