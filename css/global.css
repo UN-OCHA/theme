@@ -403,11 +403,10 @@ a.follow-link-this-site {
 .pane-media-panel-pane-1 table{
 	border:none;
 }
-pane-media-panel-pane-1 .views-field-media-gallery-media img{
-	width:80px;
-	height:60px;
+pane-media-panel-pane-1 img{
+	width:160px;
+	height:160px;
 	padding: 5px;
-
 }
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
