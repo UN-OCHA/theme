@@ -445,8 +445,8 @@ a.follow-link-this-site {
 .pager {									/*Customize pagers*/
     float:right;
 	background: none;
-    border-color: #DDDDDD;
-	width:30%;
+    border:none;
+	width:20%;
 }
 .pager li {											
     color: #232323;
