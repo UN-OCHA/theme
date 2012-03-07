@@ -150,7 +150,7 @@ img {
 
 #block-search-api-page-search-page */
 
-#block-search-api-page-search-page .form-text,
+#block-search-api-page-search-page .form-text {
 	height:20px;
 	padding:2px;
 	background:#E6E7E8 url(../images/search.png) no-repeat right;
