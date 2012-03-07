@@ -418,6 +418,9 @@ a.follow-link-this-site {
     margin-right: -7px;
     padding: 2px 8px 6px;
 }
+#block-system-main .view-content .more-link a{
+	border:none;			
+}
 /*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
 .views-field-field-doc-thumbnail img{
 	float:left;
