@@ -432,8 +432,16 @@ a.follow-link-this-site {
     margin-right: -7px;
     padding: 2px 8px 6px;
 }
-
+.node-links ul li a, .comment-links ul li a {
+    background: none;
+    border: none;
+    color: #232323;
+    text-transform: none;
+}
 /*
+.container-12 .grid-9 {						/*To maintain container width in % for intern pages
+    width: 72%;
+}
 .pager {
     border-color: #DDDDDD #BBBBBB #999999;
     border-radius: 5px 5px 5px 5px;
