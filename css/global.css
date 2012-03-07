@@ -58,6 +58,10 @@ h5 {
 }
 h6 {
 	font-size:  15px;
+}
+.site-slogan {
+    font-weight: normal;
+	font-size:  15px;
 	margin-left:-200px;
 	margin-top:50px;
 	padding-top:5px;
@@ -372,7 +376,7 @@ a.follow-link-this-site {
 #block-system-main .view-content .views-row-last {			/* to not display line dotted for last views item*/
   border-bottom: none;
 }
-.views-slideshow-cycle-main-frame-row-item .views-row {		/* to not display line dotted for image item*/
+#views_slideshow_cycle_main_media-panel_pane_2 .views-row {		/* to not display line dotted for image item*/
   border-bottom: none;
 }
 
