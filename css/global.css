@@ -361,7 +361,7 @@ a.follow-link-this-site {
 }
 
 /* Customize view-content*/
-#block-system-main .view-content .views-row {			/* to display line dotted for views items*/
+#block-system-main .view-content .views-row {				/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
   padding-bottom:5px;
   padding-top:5px;
@@ -369,10 +369,10 @@ a.follow-link-this-site {
   list-style: none;
 }
 
-#block-system-main .view-content .views-row-last {			/* to no display line dotted for last views item*/
+#block-system-main .view-content .views-row-last {			/* to not display line dotted for last views item*/
   border-bottom: none;
 }
-.views-slideshow-cycle-main-frame-row-item .views-row {	/* to no display line dotted for image item*/
+.views-slideshow-cycle-main-frame-row-item .views-row {		/* to not display line dotted for image item*/
   border-bottom: none;
 }
 
@@ -386,10 +386,6 @@ a.follow-link-this-site {
 #block-views-clusters-block .block-inner {
 	padding:5px;
 	border:solid 1px #E6E7E8;
-}
-/*#block-views-clusters-block .block-title {
-	marging-:none;
-	border-bottom:solid 1px #E6E7E8;
 }
 
 /* Customize Pane-blocks on right sidebar*/
@@ -411,43 +407,21 @@ a.follow-link-this-site {
 	height:160px;
 	padding: 5px;
 }
-.panels-flexible-region-new-right .more-link a {
+.panels-flexible-region-new-right .more-link a{ 	/* Customize More link on right sidebar*/
     border-color: #B91222 #FFFFFF #FFFFFF #B91222;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     margin-right: -7px;
     padding: 2px 8px 6px;
 }
-/*#block-system-main .view-content .more-link a{
-	border:none;			
-}
-/*#block-system-main .view-maps-view .view-content table.views-field .views-field-field-doc-thumbnail
-.views-field-field-doc-thumbnail img{
-	float:left;
-	max-height:70px;
-	max-width: 75px;
-	padding-right: 20px;
-	vertical-align: text-top;
-}
+
+/*
 .pager {
     border-color: #DDDDDD #BBBBBB #999999;
     border-radius: 5px 5px 5px 5px;
     border-style: solid;
     border-width: 1px;
 }
-.views-field-field-doc-thumbnail img{
-	max-height:70px;
-	max-width: 75px;
-	padding-right: 20px;
-	vertical-align: text-top;
-}
 
-/* Customize Block style on right sidebar
-.panels-flexible-region-new-right {
-padding:5px;
-margin-bottom:14px;
-margin-top:5px;
-border:solid 1px #B91222;
-}
 
 */
