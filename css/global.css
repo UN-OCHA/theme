@@ -441,6 +441,12 @@ a.follow-link-this-site {
     margin: 0 -0.5em -0.5em 0;
     padding: 3px 5px 2px;
 }
+
+.pager li {											/*Customize pagers*/
+    color: #232323;
+    font: normal 12px Arial,sans-serif;
+    outline: 0 none;
+}
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
     width: 72%;
