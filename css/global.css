@@ -442,7 +442,11 @@ a.follow-link-this-site {
     padding: 3px 5px 2px;
 }
 
-.pager li {											/*Customize pagers*/
+.pager {									/*Customize pagers*/
+    background: none;
+    border-color: #DDDDDD;
+}
+.pager li {											
     color: #232323;
     font: normal 12px Arial,sans-serif;
     outline: 0 none;
