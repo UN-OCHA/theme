@@ -410,7 +410,7 @@ a.follow-link-this-site {
 .panels-flexible-region-new-right .more-link a{ 	/* Customize More link on right sidebar*/
     border-top:2px solid #B91222;
 	border-left: 2px solid #B91222;
-	border-botom:3px solid #fff;
+	border-bottom:3px solid #fff;
 	border-right: 3px solid #fff;
     margin-right: -7px;
     padding: 2px 8px 7px;
