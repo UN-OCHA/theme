@@ -164,12 +164,6 @@ img {
 	display:none;
 }
 
-/*#block-search-api-page-search-page {
-  padding-top: 25px;
-  padding-right: 20px;
-  float: right;
-}*/
-
 .form-item, .form-actions {
     display: inline;
 }
@@ -398,12 +392,19 @@ a.follow-link-this-site {
 
 /* Customize Pane-blocks on right sidebar*/
 
-.panels-flexible-region-new-right .pane-views-panes{
+.panels-flexible-region-new-right .pane-views-panes {
 	padding:5px;
 	margin-bottom:14px;
 	margin-top:5px;
 	border:solid 0.2em #B91222;
 }
+.panels-flexible-column-new-6 .pane-views-panes {
+	padding:5px;
+	margin-bottom:14px;
+	margin-top:5px;
+	border:solid 1px #E6E7E8;
+}
+
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
 }
