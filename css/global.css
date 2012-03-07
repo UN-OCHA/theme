@@ -404,6 +404,14 @@ a.follow-link-this-site {
 	margin-bottom:14px;
 	border:solid 1px #E6E7E8;
 }
+.panels-flexible-column-new-4 {
+    float: left;
+    width: 75%;
+}
+.panels-flexible-column-new-6 {
+    float: left;
+    width: 25%;
+}
 
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
