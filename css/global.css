@@ -361,6 +361,10 @@ a.follow-link-this-site {
   display: none;
 }
 
+block-system-main .feed-icon {			/* to display feed-icon on right*/
+  float: right;
+}
+
 /* Customize view-content*/
 #block-system-main .view-content .views-row {				/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
@@ -373,6 +377,7 @@ a.follow-link-this-site {
 #block-system-main .view-content .views-row-last {			/* to not display line dotted for last views item*/
   border-bottom: none;
 }
+
 #views_slideshow_cycle_main_media-panel_pane_2 .views-row {		/* to not display line dotted for image item*/
   border-bottom: none;
 }
