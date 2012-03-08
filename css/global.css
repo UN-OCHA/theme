@@ -229,7 +229,6 @@ a.follow-link-this-site {
 
 /* Main menu */
 #zone-menu {
-  margin-top: 1em;
   border-bottom: solid 1px #E6E7E8;
 }
 
@@ -455,6 +454,9 @@ a.follow-link-this-site {
 }
 .pager li a{											
 	background:none;
+}
+.item-list .pager li, .item-list .pager ul li {
+    float: inherit;
 }
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
