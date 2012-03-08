@@ -361,7 +361,7 @@ a.follow-link-this-site {
   display: none;
 }
 
-block-system-main .feed-icon {			/* to display feed-icon on right*/
+block-system-main .feed-icon img{			/* to display feed-icon on right*/
   float: right;
 }
 
