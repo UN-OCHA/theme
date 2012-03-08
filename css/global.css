@@ -444,7 +444,6 @@ a.follow-link-this-site {
 .pager {									/*Customize pagers*/
 	background: none;
     border:none;
-	margin-top:5px;
 }
 .pager li {											
     color: #232323;
@@ -455,6 +454,7 @@ a.follow-link-this-site {
 }
 .item-list .pager li, .item-list .pager ul li {
     float: inherit;
+	margin-top:5px;
 }
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
