@@ -454,7 +454,9 @@ a.follow-link-this-site {
 }
 .item-list .pager li, .item-list .pager ul li {
     float: inherit;
-	margin-top:5px;
+}
+.item-list .pager {
+	margin-top:15px;
 }
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
