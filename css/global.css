@@ -385,8 +385,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 /* Customize view in map center*/
 #block-system-main .view-maps-view .view-content table {			
   border: none;
+  vertical-align:
 }
-
+#block-system-main .view-maps-view .view-content table.img {			
+  float:left;
+}
 /* Customize Pane-blocks on right sidebar*/
 
 #block-views-clusters-block .block-inner {
