@@ -150,9 +150,13 @@ img {
 
 #block-search-api-page-search-page */
 #region-user-second {
-    width: 180px;
-	top:110px;
+    float: right;
+    margin-right: 0;
     overflow: hidden;
+    text-align: right;
+    top: 110px;
+    width: 180px;
+    z-index: 2;
 }
 #block-search-api-page-search-page .form-text {
 	height:24px;
