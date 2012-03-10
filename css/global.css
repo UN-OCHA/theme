@@ -473,10 +473,9 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize Assessment registry*/
 
-.view-assessment_registry td,th{
+.view-assessment_registry table, tbody, tfoot, thead, tr, th, td {
 	border:solid 1px #E6E7E8;
 }
-
 
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
