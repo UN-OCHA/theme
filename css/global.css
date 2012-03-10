@@ -149,7 +149,11 @@ img {
 /* Search form 
 
 #block-search-api-page-search-page */
-
+#region-user-second {
+    width: 180px;
+	top:110px;
+    overflow: hidden;
+}
 #block-search-api-page-search-page .form-text {
 	height:24px;
 	width:180px;
@@ -387,18 +391,14 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border: none;
   vertical-align:
 }
-#block-system-main .view-maps-view .view-content table.img {			
-  float:left;
-}
-/* Customize Pane-blocks on right sidebar*/
+
+/* Customize Pane-blocks on left and right sidebar*/
 
 #block-views-clusters-block .block-inner {
 	padding:5px;
 	margin-top:55px;
 	border:solid 1px #E6E7E8;
 }
-
-/* Customize Pane-blocks on right sidebar*/
 
 .panels-flexible-region-new-right .pane-views-panes {
 	padding:5px;
