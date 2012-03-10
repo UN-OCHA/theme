@@ -473,7 +473,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize Assessment registry*/
 
-.view-assessment_registry table, tbody, tfoot, thead, tr, th, td {
+.view-assessment_registry table, tr, th, td {
 	border:solid 1px #E6E7E8;
 }
 
