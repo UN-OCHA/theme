@@ -155,11 +155,11 @@ img {
     overflow: hidden;
     text-align: right;
     top: 110px;
-    width: 120px;
+    width: 122px;
     z-index: 2;
 }
 #block-search-api-page-search-page .form-text {
-	height:24px;
+	height:20px;
 	width:120px;
 	padding:2px;
 	background:#E6E7E8 url(../images/search.png) no-repeat right;
