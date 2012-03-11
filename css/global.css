@@ -465,12 +465,12 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize Assessment registry*/
 
-.view-assessment-registry table {
+.view-assessment-registry table, td, th {
 	border:solid 1px #E6E7E8;
 }
-.view-assessment-registry table, thead {
+.view-assessment-registry thead {
 	font-weight:bold;
-	color:#E6E7E8;
+	color:#232323;
 }
 
 
