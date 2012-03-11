@@ -463,11 +463,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	margin-top:15px;
 }
 
-/* Customize Assessment registry
+/* Customize Assessment registry*/
 
-#block-system-main .view-assessment_registry table{
+.view-id-assessment_registry table{
 	border:solid 1px #E6E7E8;
-}*/
+}
 .view-assessment_registry table, thead {
 	font-weight:bold;
 	color:#E6E7E8;
