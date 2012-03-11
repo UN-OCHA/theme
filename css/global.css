@@ -391,12 +391,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border-bottom: none;
 }
 
-/* Customize view in map center
-#block-system-main .view-maps-view .view-content table {			
-  border: none;
-  vertical-align:
-}
-
 /* Customize Pane-blocks on left and right sidebar*/
 
 #block-views-clusters-block .block-inner {
@@ -429,9 +423,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
 }
-/*.pane-media-panel-pane-1 table{
-	border:none;
-}*/
 .pane-media-panel-pane-1 img{
 	width:100%;
 	height:80%;
@@ -472,11 +463,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	margin-top:15px;
 }
 
-/* Customize Assessment registry
+/* Customize Assessment registry*/
 
-.view-assessment_registry table, tr, th, td {
+#block-system-main .view-assessment_registry th, td {
 	border:solid 1px #E6E7E8;
-}*/
+}
 .view-assessment_registry table, thead {
 	font-weight:bold;
 	color:#E6E7E8;
