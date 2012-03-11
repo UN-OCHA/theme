@@ -446,7 +446,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 
 .pager {									/*Customize pagers*/
-	background: none;
+	background: #E6E7E8;
     border:none;
 }
 .pager li {											
@@ -462,6 +462,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .item-list .pager {
 	margin-top:15px;
 }
+.pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+    width: 60px;
+}
+
 
 /* Customize Assessment registry*/
 
@@ -472,7 +476,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	font-weight:bold;
 	color:#232323;
 }
-
 
 /*
 .container-12 .grid-9 {						/*To maintain container width in % for intern pages
