@@ -444,6 +444,12 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     margin: 0 -0.5em -0.5em 0;
     padding: 3px 5px 2px;
 }
+/* Customize filter on right sidebar*/
+
+#region-sidebar-second {
+	background:#E6E7E8;
+}
+
 
 .pager {									/*Customize pagers*/
 	background: #E6E7E8;
@@ -465,7 +471,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
     width: 60px;
 }
-
 
 /* Customize Assessment registry*/
 
