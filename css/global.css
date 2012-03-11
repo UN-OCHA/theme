@@ -429,9 +429,9 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
 }
-.pane-media-panel-pane-1 table{
+/*.pane-media-panel-pane-1 table{
 	border:none;
-}
+}*/
 .pane-media-panel-pane-1 img{
 	width:100%;
 	height:80%;
