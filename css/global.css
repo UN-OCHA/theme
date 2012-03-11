@@ -403,7 +403,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	padding:5px;
 	margin-bottom:14px;
 	margin-top:5px;
-	border:solid 0.2em #B91222;
+	border:solid 0.2em ;
 }
 .panels-flexible-column-new-6 .pane-views-panes {
 	padding-left:5px;
@@ -413,11 +413,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 .panels-flexible-column-new-4 {
     float: left;
-    width: 75%;
+    width: 70%;
 }
 .panels-flexible-column-new-6 {
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
