@@ -111,7 +111,6 @@ h2.node-title a:focus {
 table, td, th {
     vertical-align: top;
 	border:none;
-	border-collapse:collapse;
 }
 
 img {
@@ -392,7 +391,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border-bottom: none;
 }
 
-/* Customize view in map center*/
+/* Customize view in map center
 #block-system-main .view-maps-view .view-content table {			
   border: none;
   vertical-align:
@@ -473,11 +472,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	margin-top:15px;
 }
 
-/* Customize Assessment registry*/
+/* Customize Assessment registry
 
 .view-assessment_registry table, tr, th, td {
 	border:solid 1px #E6E7E8;
-}
+}*/
 .view-assessment_registry table, thead {
 	font-weight:bold;
 	color:#E6E7E8;
