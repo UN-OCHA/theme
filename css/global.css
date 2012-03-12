@@ -449,8 +449,12 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 #region-sidebar-second {
 	background:#E6E7E8;
 	border:O.1em solid #ccc;
+	margin-bottom:10px;
 }
 
+#region-sidebar-second h2.block-title{
+	background:#F4F8F7;
+}
 
 .pager {									/*Customize pagers*/
 	background: #E6E7E8;
