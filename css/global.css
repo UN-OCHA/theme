@@ -456,7 +456,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	background:#F4F8F7;
 }
 
-.facetapi-facetapi-links ul li.leaf {
+#region-sidebar-second .item-list ul li.leaf {
     list-style-image: none;
     list-style-type: none;
 }
