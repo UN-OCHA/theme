@@ -398,6 +398,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	margin-top:55px;
 	border:solid 1px #E6E7E8;
 }
+.pane-documents-panel-pane-7 {
+    background: #F2EEED;
+	border:0.2em solid #E6E7E8;
+}
 
 .panels-flexible-region-new-right .pane-views-panes {
 	padding:5px;
@@ -442,10 +446,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	font: bold 11px Arial,sans-serif;
     margin: 0 -0.5em -0.5em 0;
     padding: 3px 5px 2px;
-}
-.pane-documents-panel-pane-7 {
-    background: #F2EEED;
-	border:0.2em solid #E6E7E8;
 }
 
 /* Customize filter on right sidebar*/
