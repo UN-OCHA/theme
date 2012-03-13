@@ -398,17 +398,18 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	margin-top:55px;
 	border:solid 1px #E6E7E8;
 }
-.pane-documents-panel-pane-7 {
-    background: #F2EEED;
-	border:0.2em solid #E6E7E8;
-}
-
 .panels-flexible-region-new-right .pane-views-panes {
 	padding:5px;
 	margin-bottom:14px;
 	margin-top:5px;
 	border:solid 0.2em #B91222;
 }
+.pane-documents-panel-pane-7 {
+    background: #F2EEED;
+	border:0.2em solid #E6E7E8;
+}
+
+
 .panels-flexible-column-new-6 .pane-views-panes {
 	padding-left:5px;
 	padding-right: 5px;
