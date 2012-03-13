@@ -419,7 +419,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     float: left;
     width: 30%;
 }
-
+.pane-documents-panel-pane-7 {
+    background: #E6DCDA;
+    width: 30%;
+}
 .panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
 }
