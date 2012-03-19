@@ -159,9 +159,9 @@ img {
     width: 122px;
     z-index: 2;
 }
-#block-search-api-page-search-page .form-text {
+#edit-search-block-form--2 {
 	height:20px;
-	width:120px;
+	width:130px;
 	padding:2px;
 	background:#E6E7E8 url(../images/search.png) no-repeat right;
 	border:1px solid #ccc;
@@ -169,13 +169,10 @@ img {
 	font-size:12px;
 	font-weight:normal;
 }
-#block-search-api-page-search-page .form-submit {
-	display:none;
-}
-
+/*
 .form-item, .form-actions {
     display: inline;
-}
+}*/
 
 #block-lang-dropdown-language {
   border: 0;
@@ -408,7 +405,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     background: #F2EEED;
 	border:0.2em solid #E6E7E8;
 }
-
 
 .panels-flexible-column-new-6 .pane-views-panes {
 	padding-left:5px;
