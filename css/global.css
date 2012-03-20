@@ -306,6 +306,7 @@ a.follow-link-this-site {
 #zone-menu .navigation li a:hover,
 #zone-menu .navigation li a:focus,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a.active,
+#block-system-main-menu > .block-inner > .content > ul.menu > li > a.active-trail,
 #block-system-main-menu > .block-inner > .content > ul.menu > li > a:hover {
   background-color: #FFFFFF;
   font-family:Arial, Verdana, sans-serif;
