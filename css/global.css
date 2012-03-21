@@ -432,9 +432,6 @@ view-display-id-panel_pane_2 {
 	margin-top:55px;
 	border:solid 1px #E6E7E8;
 }
-#block-views-clusters-block .block-inner ul.menu li {
-    margin: 0 0 0 0.5em;
-}
 #block-menu-menu-cluster .block-inner{				/* Customize Cluster sub-menu for internal pages*/
 	padding-left:5px;
 	padding-right: 5px;
@@ -445,6 +442,9 @@ view-display-id-panel_pane_2 {
 #block-menu-menu-cluster ul li.leaf {
     list-style-image: none;
     list-style-type: none;
+}
+#block-menu-menu-cluster ul.menu li {
+    margin: 0 0 0 0;
 }
 
 .panels-flexible-region-new-right .pane-views-panes {
