@@ -450,6 +450,14 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     margin: 0 0 0 0;
 }
 
+#block-views-funding-block .block-inner{				/* Customize Funding block menu for internal pages*/
+	padding-left:5px;
+	padding-right: 5px;
+	margin-bottom:14px;
+	border:solid 1px #E6E7E8;
+}
+
+
 .panels-flexible-region-new-right .pane-views-panes {
 	padding:5px;
 	margin-bottom:14px;
