@@ -389,13 +389,12 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border-bottom: none;
 }
 
-#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
+/*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     width: 70%;
 	height:50%;
-}
-/*#views_slideshow_cycle_main_media-panel_pane_2 {
-    width: 100%;
-	height:80%;
+}*/
+#views_slideshow_cycle_main_media-panel_pane_2 {
+    max-width: 754px;
 }
 /* to not display line dotted for image item
 .views-field-media-gallery-media .views-slideshow-cycle-main-frame-row-item .views-row-odd {		
