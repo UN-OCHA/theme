@@ -396,11 +396,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 #views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
     max-height: 400px;
-    max-width: 1024px;
 }
 
-/*view-id-media view-display-id-panel_pane_2 .views-field-field-cluster-image
-*/
 /* Customize CLUSTER icons*/
 .panels-flexible-row-new-13-inside img{
 	width:50px;
