@@ -160,7 +160,6 @@ img {
     z-index: 2;
 }
 .search-form {
-    position: inherit;
 	margin-bottom:0;
 }
 #edit-search-block-form--2 {
@@ -395,11 +394,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 #views_slideshow_cycle_main_media-panel_pane_2 {
     width: 100%;
-	height:100%;
+	height:80%;
 }
 /*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     width: 100%;
-}*/
+}
 #views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
 	max-height: 25em;
 }
