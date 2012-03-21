@@ -527,18 +527,17 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     list-style-image: none;
     list-style-type: none;
 }
-/* view-maps-view view-id-maps_view view-display-id-page_1 */
-.view-maps-view .views-field-field-doc-thumbnail img{
+
+.view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
 	float:left;
 }
-.view-id-clusters .views-row{
+/*.view-id-clusters .views-row{
 	min-height:50px;
-}
+}*/
 
 .view-id-clusters .item-list ul li img{
 	width:50px;
 	height:50px;
-	float:left;
 }
 
 .pager {									/*Customize pagers*/
