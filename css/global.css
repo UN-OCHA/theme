@@ -160,8 +160,8 @@ img {
     z-index: 2;
 }
 .search-form {
-    position: fixed;
-    top: 85px;
+    position: inherit;
+	margin-bottom:0;
 }
 #edit-search-block-form--2 {
 	padding:2px;
