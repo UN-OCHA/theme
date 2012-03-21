@@ -395,6 +395,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }*/
 #views_slideshow_cycle_main_media-panel_pane_2 {
     max-width: 754px;
+	height:461px;
 	overflow:hidden;
 }
 /* to not display line dotted for image item
