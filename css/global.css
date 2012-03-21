@@ -385,6 +385,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   list-style: none;
 }
 
+#block-system-main .view-content .views-row-last {			/* to not display line dotted for last views item*/
+  border-bottom: none;
+}
+
 #views_slideshow_cycle_main_media-panel_pane_2 {
     width: 100%;
 	height:80%;
