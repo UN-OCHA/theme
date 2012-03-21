@@ -404,7 +404,7 @@ view-display-id-panel_pane_2 {
 view-id-media view-display-id-panel_pane_2 view-dom-id-bda66c498cd5a962f2a95223c7f5876d
 */
 /* Customize CLUSTER icons*/
-.panels-flexible-row-new-13 .pane-clusters-panel-pane-1 img{
+.panels-flexible-row-new-13 .views-field-field-cluster-image img{
 	width:50px;
 	height:50px;
 }
