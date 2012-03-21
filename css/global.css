@@ -405,14 +405,12 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize CLUSTER icons*/
 .panels-flexible-row-new-13-inside img{
-	width:50px;
-	height:50px;
+	width:30px;
+	height:30px;
 	float:left;
 }
-.panels-flexible-row-new-13-inside img{
-	width:50px;
-	height:50px;
-	float:left;
+.panels-flexible-row-new-13-inside p{
+	margin-top:5px;
 }
 
 
