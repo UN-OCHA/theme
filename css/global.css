@@ -159,7 +159,10 @@ img {
     width: 122px;
     z-index: 2;
 }
-/*#edit-search-block-form--2 {
+/*#search-block-form {
+    top: 110px;
+}*/
+#edit-search-block-form--2 {
 	height:20px;
 	width:130px;
 	padding:2px;
