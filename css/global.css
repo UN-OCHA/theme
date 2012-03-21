@@ -531,9 +531,9 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .view-maps-view .views-field-field-doc-thumbnail img{
 	float:left;
 }
-.view-id-clusters .views-field-field-cluster-image img{
+/*.view-id-clusters .views-field-field-cluster-image img{
 	float:left;
-}
+}*/
 
 .pager {									/*Customize pagers*/
 	background: #E6E7E8;
