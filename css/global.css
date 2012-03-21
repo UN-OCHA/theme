@@ -531,11 +531,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .view-maps-view .views-field-field-doc-thumbnail img{
 	float:left;
 }
-.view-id-clusters .item-list img{
+/*.view-id-clusters .item-list img{
 	float:left;
 	width:50px;
 	height:50px;
-}
+}*/
 
 .pager {									/*Customize pagers*/
 	background: #E6E7E8;
