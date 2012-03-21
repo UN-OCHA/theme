@@ -393,9 +393,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     width: 100%;
 	height:80%;
 }
-.views-slideshow-cycle-main-frame-row-item .views-row-odd {		/* to not display line dotted for image item*/
+/* to not display line dotted for image item
+.views-field-media-gallery-media .views-slideshow-cycle-main-frame-row-item .views-row-odd {		
   border-bottom: none;
-}
+}*/
 
 /*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     width: 100%;
@@ -415,14 +416,18 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize Pane-blocks on left and right sidebar*/
 
-.panels-flexible-row-new-14-inside img{ 			/* Customize calendar-COD IMG on right sidebar*/
+.panels-flexible-row-new-14-inside img{ 			/* Customize calendar-COD on right sidebar*/
 	width:40px;
 	height:40px;
 	float:left;
 }
-.panels-flexible-row-new-14-inside a, .panels-flexible-row-new-14-inside a:link, .panels-flexible-row-new-14-inside a:visited {
-    color: #B91222;
+.panels-flexible-row-new-14-inside p{ 			
 	text-align:left;
+}
+.panels-flexible-row-new-14-inside a, 
+.panels-flexible-row-new-14-inside a:link, 
+.panels-flexible-row-new-14-inside a:visited {
+    color: #B91222;
 }
 
 #block-views-clusters-block .block-inner {			/* Customize Cluster menu for internal pages*/
