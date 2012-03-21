@@ -423,6 +423,9 @@ view-display-id-panel_pane_2 {
 	height:50px;
 	float:left;
 }
+.panels-flexible-row-new-14-inside p{ 			
+	text-align:left;
+}
 
 #block-views-clusters-block .block-inner {
 	padding:5px;
