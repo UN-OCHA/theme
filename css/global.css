@@ -415,8 +415,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 /* Customize Pane-blocks on left and right sidebar*/
 
 .panels-flexible-row-new-14-inside img{ 			/* Customize calendar-COD IMG on right sidebar*/
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
 	float:left;
 }
 .panels-flexible-row-new-14-inside p{ 			
