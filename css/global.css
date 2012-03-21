@@ -170,6 +170,9 @@ img {
 	font-size:12px;
 	font-weight:normal;
 }
+.form-actions input {
+    display: none;
+}
 /*
 .form-item, .form-actions {
     display: inline;
