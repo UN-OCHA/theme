@@ -159,9 +159,9 @@ img {
     width: 122px;
     z-index: 2;
 }
-/*#search-block-form {
+#search-block-form {
     top: 110px;
-}*/
+}
 #edit-search-block-form--2 {
 	padding:2px;
 	background:#E6E7E8 url(../images/search.png) no-repeat right;
