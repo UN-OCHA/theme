@@ -396,7 +396,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     width: 100%;
 }*/
 #views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
-    min-height:300px;
+    min-width:300px;
 	max-height: 25em;
 }
 
