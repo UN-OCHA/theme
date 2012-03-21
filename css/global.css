@@ -392,11 +392,11 @@ view-display-id-panel_pane_2 {
     max-height: 350px;
     width: 65%;
 }
-#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
+/*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     max-height: 350px;
-    width: 65%;
-}
-/*#views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
+    max-width: 65%;
+}*/
+#views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
     max-height: 350px;
     max-width: 747px;
 }
