@@ -159,8 +159,9 @@ img {
     width: 122px;
     z-index: 2;
 }
-#search-block-form {
-    top: 110px;
+.search-form {
+    position: fixed;
+    top: 85px;
 }
 #edit-search-block-form--2 {
 	padding:2px;
