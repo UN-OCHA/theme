@@ -408,9 +408,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	width:30px;
 	height:30px;
 	float:left;
-}
-.panels-flexible-row-new-13-inside p{
-	margin-top:5px;
+	margin-top: -5px;
 }
 
 
