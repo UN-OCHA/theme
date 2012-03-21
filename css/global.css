@@ -419,7 +419,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:40px;
 	float:left;
 }
-.panels-flexible-row-new-14-inside a, a:link, a:visited {
+.panels-flexible-row-new-14-inside a, .panels-flexible-row-new-14-inside a:link, .panels-flexible-row-new-14-inside a:visited {
     color: #B91222;
 	text-align:left;
 }
