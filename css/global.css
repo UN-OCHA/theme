@@ -419,8 +419,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:40px;
 	float:left;
 }
-.panels-flexible-row-new-14-inside p{ 			
-	text-align:left;
+.panels-flexible-row-new-14-inside a, a:link, a:visited {
+    color: #B91222;
 }
 
 #block-views-clusters-block .block-inner {			/* Customize Cluster menu for internal pages*/
