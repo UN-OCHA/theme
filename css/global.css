@@ -403,7 +403,11 @@ view-display-id-panel_pane_2 {
 
 view-id-media view-display-id-panel_pane_2 view-dom-id-bda66c498cd5a962f2a95223c7f5876d
 */
-
+/* Customize CLUSTER icons*/
+.views-field-field-cluster-image img{
+	width:50%;
+	height:50%;
+}
 
 /* Customize Pane-blocks on left and right sidebar*/
 
