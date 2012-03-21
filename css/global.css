@@ -389,14 +389,14 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border-bottom: none;
 }
 #views_slideshow_cycle_main_media-panel_pane_2 {
-    width: 100%;
-	height:75%;
+    width: 65%;
 }
 /*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     width: 100%;
 }*/
 #views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
     max-height: 400px;
+	width:100%;
 }
 
 /* Customize CLUSTER icons*/
