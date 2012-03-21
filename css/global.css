@@ -389,7 +389,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   border-bottom: none;
 }
 
-#views_slideshow_cycle_main_media-panel_pane_2 .views-row {		/* to not display line dotted for image item*/
+#views_slideshow_cycle_main_media-panel_pane_2 .view-content .views-row {		/* to not display line dotted for image item*/
   border-bottom: none;
 }
 #views_slideshow_cycle_main_media-panel_pane_2 {
