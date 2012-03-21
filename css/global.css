@@ -388,6 +388,22 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 #views_slideshow_cycle_main_media-panel_pane_2 .views-row {		/* to not display line dotted for image item*/
   border-bottom: none;
 }
+view-display-id-panel_pane_2 {
+    max-height: 350px;
+    width: 65%;
+}
+#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
+    max-height: 350px;
+    width: 65%;
+}
+/*#views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
+    max-height: 350px;
+    max-width: 747px;
+}
+
+view-id-media view-display-id-panel_pane_2 view-dom-id-bda66c498cd5a962f2a95223c7f5876d
+*/
+
 
 /* Customize Pane-blocks on left and right sidebar*/
 
