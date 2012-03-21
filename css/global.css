@@ -532,7 +532,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	float:left;
 }
 .view-id-clusters .views-row{
-	height:60px;
+	min-height:50px;
 }
 
 .view-id-clusters .item-list ul li img{
