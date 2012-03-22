@@ -394,6 +394,20 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:461px;
 	overflow:hidden;
 }
+#views_slideshow_cycle_main_media-panel_pane_2 img{
+    padding: 0px;
+}
+.gallery-title {
+position:absolute;
+bottom:9px;
+left:0px;
+width:546px;
+height:60px;
+background:#DBD5BF;
+filter:alpha(opacity=90); 
+opacity:0.9085;
+-moz-opacity:0.90;
+}
 
 /* Customize CLUSTER icons*/
 .panels-flexible-row-new-13-inside img{
@@ -401,11 +415,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:30px;
 	float:left;
 	padding:0px;
-}
-.panels-flexible-row-new-13-inside table, 		/* Customize CLUSTER table */
-.panels-flexible-row-new-13-inside td, 
-.panels-flexible-row-new-13-inside th{
-	vertical-align:middle;
 }
 
 
