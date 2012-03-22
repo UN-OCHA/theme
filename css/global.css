@@ -399,8 +399,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 .gallery-title {
 position:fixed;
-bottom:70px;
-width:70%;
+top:230px;
+max-width: 754px;
 height:50px;
 background:#DBD5BF;
 text-align:left;
