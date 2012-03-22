@@ -534,6 +534,9 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
 	float:left;
 }
+.pane-maps-view-panel-pane-3 .views-field-field-doc-thumbnail img {
+    float: none;
+}
 /*.view-id-clusters .views-row{
 	min-height:50px;
 }*/
