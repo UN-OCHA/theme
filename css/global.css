@@ -400,7 +400,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	width:30px;
 	height:30px;
 	float:left;
-	padding:none;
+	padding:0px;
 }
 /*.panels-flexible-row-new-13-inside table, 		/* Customize CLUSTER table 
 .panels-flexible-row-new-13-inside td, 
