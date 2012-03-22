@@ -328,10 +328,6 @@ a.follow-link-this-site {
 #zone-postscript .pane-block {
   border: 0;
 }
-/* Customize view in Links (footer)
-#view-links {
-	text-align:left;			
-}
 
 /* Hide page title in home page */
 .front #page-title {
@@ -398,15 +394,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:461px;
 	overflow:hidden;
 }
-/* to not display line dotted for image item
-.views-field-media-gallery-media .views-slideshow-cycle-main-frame-row-item .views-row-odd {		
-  border-bottom: none;
-}*/
-
-/*
-#views_slideshow_cycle_teaser_section_media-panel_pane_2 img {
-	max-height: 25em;
-}
 
 /* Customize CLUSTER icons*/
 .panels-flexible-row-new-13-inside img{
@@ -414,6 +401,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	height:30px;
 	float:left;
 	margin-top: -5px;
+}
+.panels-flexible-row-new-13-inside table, 		/* Customize CLUSTER table */
+.panels-flexible-row-new-13-inside td, 
+.panels-flexible-row-new-13-inside th{
+	vertical-align:middle;
 }
 
 
