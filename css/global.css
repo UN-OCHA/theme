@@ -402,11 +402,11 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 	float:left;
 	padding:0px;
 }
-/*.panels-flexible-row-new-13-inside table, 		/* Customize CLUSTER table 
+.panels-flexible-row-new-13-inside table, 		/* Customize CLUSTER table */
 .panels-flexible-row-new-13-inside td, 
 .panels-flexible-row-new-13-inside th{
 	vertical-align:middle;
-}*/
+}
 
 
 /* Customize Pane-blocks on left and right sidebar*/
