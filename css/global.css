@@ -400,10 +400,10 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .gallery-title {
 position:fixed;
 bottom:70px;
-left:0px;
-width:100%;
+width:70%;
 height:50px;
 background:#DBD5BF;
+text-align:left;
 filter:alpha(opacity=90); 
 opacity:0.9085;
 -moz-opacity:0.90;
