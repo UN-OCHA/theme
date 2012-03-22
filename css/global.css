@@ -398,15 +398,13 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
     padding: 0px;
 }
 .gallery-title {
-position:absolute;
-bottom:9px;
-left:0px;
-width:546px;
-height:60px;
-background:#DBD5BF;
-filter:alpha(opacity=90); 
-opacity:0.9085;
--moz-opacity:0.90;
+	position:absolute;
+	bottom: 39px;
+    height: 50px;
+    left: 0;
+    opacity: 0.9085;
+    position: absolute;
+    width: 746px;
 }
 
 /* Customize CLUSTER icons*/
