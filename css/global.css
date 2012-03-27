@@ -170,7 +170,7 @@ img {
 	font-size:12px;
 	font-weight:normal;
 }
-.form-actions input {
+#search-block-form .form-actions input {
     display: none;
 }
 /*
