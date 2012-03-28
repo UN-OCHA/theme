@@ -200,6 +200,9 @@ img {
   float: right;
 }
 
+#block-user-login h2.block-title {
+  display: none;
+}
 
 /* Sticky footer */
 html, body {
