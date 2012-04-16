@@ -151,27 +151,26 @@ img {
 
 #block-search-api-page-search-page */
 #region-user-second {
-    float: right;
-    margin-top: -50px;
-    overflow: hidden;
-    text-align: right;
-    top: 110px;
-    width: 122px;
-    z-index: 2;
+  float: right;
+  margin-top: -50px;
+  overflow: hidden;
+  text-align: right;
+  top: 50px;
+  z-index: 2;
 }
 .search-form {
 	margin-bottom:0;
 }
 #edit-search-block-form--2 {
 	padding:2px;
-	background:#E6E7E8 url(../images/search.png) no-repeat right;
+	background:#E6E7E8;
 	border:1px solid #ccc;
 	color:#232323;
 	font-size:12px;
 	font-weight:normal;
 }
 #search-block-form .form-actions input {
-    display: none;
+  margin-right: 0;
 }
 /*
 .form-item, .form-actions {
@@ -197,7 +196,6 @@ img {
 #block-logintoboggan-logintoboggan-logged-in {
   border: 0;
   text-align: right;
-  float: right;
 }
 
 #block-user-login h2.block-title {
