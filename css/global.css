@@ -587,16 +587,33 @@ overflow:hidden;
 	color:#232323;
 }
 
-/*
-.container-12 .grid-9 {						/*To maintain container width in % for intern pages
-    width: 72%;
-}
-.pager {
-    border-color: #DDDDDD #BBBBBB #999999;
-    border-radius: 5px 5px 5px 5px;
-    border-style: solid;
-    border-width: 1px;
+/* Humanitarian Profile view */
+.view-humanitarian-profile .field-label {
+  font-weight: normal;
 }
 
+.view-humanitarian-profile .field-items {
+  float: right;
+  padding-bottom: 0;
+}
 
-*/
+.view-humanitarian-profile .field-name-field-humprofile-affected div,
+.view-humanitarian-profile .field-name-field-humprofile-dis-poeple div,
+.view-humanitarian-profile .field-name-field-humprofile-non-dis-people div,
+.view-humanitarian-profile .field-name-field-humprofile-cas-people .field-label,
+.view-humanitarian-profile .field-name-field-humprofile-assistance .field-label {
+  font-weight: bold;
+}
+
+.view-humanitarian-profile .field-collection-item-field-humprofile-displaced,
+.view-humanitarian-profile .field-collection-item-field-humprofile-non-displaced,
+.view-humanitarian-profile .field-name-field-humprofile-idp,
+.view-humanitarian-profile .field-name-field-humprofile-refugee,
+.view-humanitarian-profile .field-name-field-humprofile-others,
+.view-humanitarian-profile .field-name-field-humprofile-host,
+.view-humanitarian-profile .field-name-field-humprofile-non-host,
+.view-humanitarian-profile .field-name-field-humprofile-dead,
+.view-humanitarian-profile .field-name-field-humprofile-missing,
+.view-humanitarian-profile .field-name-field-humprofile-injured {
+  margin-left: 1em;
+}
