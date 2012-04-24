@@ -612,6 +612,11 @@ overflow:hidden;
 
 /* Customize Indicator registry*/
 
+.view-indicator-registry table, 
+.view-indicator-registry td, 
+.view-indicator-registry th {
+	border:solid 1px #E6E7E8;
+}
 
 
 
