@@ -608,6 +608,9 @@ margin-bottom: 0px;
 .field-items {
 padding-bottom: 5px;
 }
+.views-field-title {
+border: solid 1px #ff0000;
+}
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
