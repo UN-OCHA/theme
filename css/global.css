@@ -645,6 +645,11 @@ overflow:hidden;
 	margin-bottom:10px;
 }
 
+.view-indicator-registry .field-collection-view {
+	padding: 0;
+	margin: 0;
+}
+
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
