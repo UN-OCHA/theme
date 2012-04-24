@@ -613,17 +613,17 @@ overflow:hidden;
 /* Customize Indicator registry*/
 
 
-#edit-submit {
-	background:#E6E7E8;
-	color:#ff0000;
-}
-
 #block-search-form {
   float: right;
   margin-top: -80px;
   overflow: hidden;
   top: 50px;
 }
+#edit-submit {
+	background: none;
+	border:none;
+}
+
 
 .view-indicator-registry table, 
 .view-indicator-registry td, 
