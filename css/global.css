@@ -594,6 +594,7 @@ overflow:hidden;
 .field .field-item {
 	text-align:justify;
 	margin-left:10px;
+	word-wrap: break-word;
 }
 .field-collection-view .field-label {
 	font-size:12px;
@@ -609,6 +610,11 @@ overflow:hidden;
 .field-items {
 	padding-bottom: 5px;
 }
+
+/* Customize Indicator registry*/
+
+
+
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
