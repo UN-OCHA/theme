@@ -586,7 +586,7 @@ overflow:hidden;
 	font-weight:bold;
 	color:#232323;
 }
-.view-assessment-registry .field-label {
+.field .field-label {
 	font-size:14px;
 	color:#FF0000;
 }
