@@ -590,11 +590,17 @@ overflow:hidden;
 	font-size:14px;
 	text-decoration: underline;
 }
-
 .field .field-item {
 	text-align:justify;
 	margin-left:10px;
 }
+.field-collection-view .field-label {
+	font-size:12px;
+	text-decoration: none;
+	margin-left:10px;
+	width:100%;
+}
+
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
