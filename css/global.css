@@ -619,6 +619,8 @@ overflow:hidden;
   margin-top: -50px;
   overflow: hidden;
   top: 50px;
+  z-index: 2;
+
 }
 #edit-submit {
 	background: none;
