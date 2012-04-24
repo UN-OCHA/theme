@@ -616,6 +616,7 @@ overflow:hidden;
 
 #block-search-form {
   float: right;
+  position:absolute;
   margin-top: -50px;
   overflow: hidden;
   top: 50px;
