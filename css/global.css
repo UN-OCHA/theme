@@ -605,7 +605,9 @@ overflow:hidden;
 border-bottom: none;
 margin-bottom: 0px;
 }
-
+.field-items {
+padding-bottom: 5px;
+}
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
