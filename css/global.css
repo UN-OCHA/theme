@@ -610,8 +610,9 @@ overflow:hidden;
 	padding-bottom: 5px;
 }
 
-/* Customize Indicator registry*/
+/* CUSTOMIZE INDICATOR REGISTRY
 
+ Customize Blovk search form*/
 
 #block-search-form {
   float: right;
@@ -624,6 +625,7 @@ overflow:hidden;
 	border:none;
 }
 
+ /*Customize Form*/
 
 .view-indicator-registry table, 
 .view-indicator-registry td, 
@@ -634,7 +636,10 @@ overflow:hidden;
 	font-weight:bold;
 	color:#232323;
 }
-
+.view-indicator-registry .views-field-nid {
+	width:100%;
+	background-color:#FF0000;
+}
 
 
 /* Humanitarian Profile view */
