@@ -599,8 +599,10 @@ overflow:hidden;
 	font-size:12px;
 	font-weight:bold;
 	margin-left:10px;
+	margin-bottom:10px;
 	width:100%;
 	color:#666666;
+
 }
 .field-collection-container {
 	border-bottom: none;
@@ -640,10 +642,6 @@ overflow:hidden;
 }
 .view-indicator-registry .views-field-nid {
 	width:100px;
-}
-.view-indicator-registry .field-label {
-	margin-bottom:10px;
-	color:#FF0000;
 }
 .field-collection-view {
 	padding: 0;
