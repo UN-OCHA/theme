@@ -641,6 +641,9 @@ overflow:hidden;
 .view-indicator-registry .views-field-nid {
 	width:100px;
 }
+.view-indicator-registry .field-label {
+	margin-top:10px;
+}
 
 
 /* Humanitarian Profile view */
