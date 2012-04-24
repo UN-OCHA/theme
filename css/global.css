@@ -645,8 +645,7 @@ overflow:hidden;
 	margin-bottom:10px;
 	color:#FF0000;
 }
-
-.view-indicator-registry .field .field-collection-view {
+.field-collection-view {
 	padding: 0;
 	margin: 0;
 	color:#FF0000;
