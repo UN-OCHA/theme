@@ -638,7 +638,12 @@ overflow:hidden;
 }*/
 
 #block-search-form {
-  top: -10px;
+  float: right;
+  margin-top: -50px;
+  overflow: hidden;
+  text-align: right;
+  top: 50px;
+  z-index: 2;
 }
 
 .view-indicator-registry table, 
