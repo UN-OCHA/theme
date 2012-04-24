@@ -587,8 +587,8 @@ overflow:hidden;
 	color:#232323;
 }
 .field .field-label {
-	font-size:14px;
-	font-variant:small-caps;
+	font-size:16px;
+	text-decoration:underline;
 }
 
 /* Humanitarian Profile view */
