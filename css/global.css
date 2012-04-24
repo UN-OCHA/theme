@@ -602,14 +602,15 @@ overflow:hidden;
 	color:#666666;
 }
 .field-collection-container {
-border-bottom: none;
-margin-bottom: 0px;
+	border-bottom: none;
+	margin-bottom: 0px;
 }
 .field-items {
-padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 .views-field-title {
-border: solid 1px #ff0000;
+	background-color:#FFFFFF;
+	border:none;
 }
 
 /* Humanitarian Profile view */
