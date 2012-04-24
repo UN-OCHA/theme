@@ -589,6 +589,7 @@ overflow:hidden;
 .field .field-label {
 	font-size:14px;
 	font-weight:bold;
+	color:#FF0000;
 }
 .field .field-item {
 	text-align:justify;
