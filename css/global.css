@@ -612,7 +612,7 @@ overflow:hidden;
 
 /* Customize Indicator registry*/
 
-/*.container-12 .grid-3 {
+/*#block-search-form {
   float: right;
   margin-top: -50px;
   overflow: hidden;
@@ -620,31 +620,21 @@ overflow:hidden;
   top: 50px;
   z-index: 2;
 }
-#block-search-form {
-  float: right;
-  margin-top: -50px;
-  overflow: hidden;
-  text-align: right;
-  top: 50px;
-  z-index: 2;
-}
-/*#edit-search-block-form--2 {
+#edit-search-block-form--2 {
 	padding:2px;
 	background:#E6E7E8;
 	border:1px solid #ccc;
 	color:#232323;
 	font-size:12px;
 	font-weight:normal;
-}*/
+}
 
 #block-search-form {
   float: right;
-  margin-top: -50px;
+  margin-top: -80px;
   overflow: hidden;
-  text-align: right;
   top: 50px;
-  z-index: 2;
-}
+}*/
 
 .view-indicator-registry table, 
 .view-indicator-registry td, 
