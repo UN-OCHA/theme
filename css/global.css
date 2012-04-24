@@ -586,6 +586,11 @@ overflow:hidden;
 	font-weight:bold;
 	color:#232323;
 }
+.view-assessment-registry .views-field-title {
+	background-color:#FFFFFF;
+	border:none;
+}
+
 .field .field-label {
 	font-size:14px;
 	font-weight:bold;
@@ -607,10 +612,6 @@ overflow:hidden;
 }
 .field-items {
 	padding-bottom: 5px;
-}
-.views-field-title {
-	background-color:#FFFFFF;
-	border:none;
 }
 
 /* Humanitarian Profile view */
