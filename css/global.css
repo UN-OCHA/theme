@@ -646,6 +646,10 @@ overflow:hidden;
 	padding: 0;
 	margin: 0;
 }
+.field-type-list-text {
+	padding: 0;
+	margin: 0;
+}
 
 
 /* Humanitarian Profile view */
