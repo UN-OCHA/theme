@@ -1,5 +1,6 @@
 name = 'HumanitarianResponse'
 description = ''
+core = 7.x
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
