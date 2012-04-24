@@ -591,6 +591,11 @@ overflow:hidden;
 	text-decoration: underline;
 }
 
+.field .field-item {
+	text-align:justify;
+	margin-right:5px;
+}
+
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
   font-weight: normal;
