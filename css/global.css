@@ -588,8 +588,7 @@ overflow:hidden;
 }
 .field .field-label {
 	font-size:14px;
-	font-weight:normal;
-	text-decoration: underline;
+	font-weight:bold;
 }
 .field .field-item {
 	text-align:justify;
@@ -598,7 +597,6 @@ overflow:hidden;
 .field-collection-view .field-label {
 	font-size:12px;
 	font-weight:bold;
-	text-decoration: none;
 	margin-left:10px;
 	width:100%;
 }
