@@ -617,7 +617,10 @@ overflow:hidden;
 .view-indicator-registry th {
 	border:solid 1px #E6E7E8;
 }
-
+.view-indicator-registry thead {
+	font-weight:bold;
+	color:#232323;
+}
 
 
 /* Humanitarian Profile view */
