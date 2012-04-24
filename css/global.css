@@ -586,6 +586,9 @@ overflow:hidden;
 	font-weight:bold;
 	color:#232323;
 }
+.view-assessment-registry .field-label {
+	font-size:14px;
+}
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
