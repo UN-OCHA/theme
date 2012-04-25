@@ -330,6 +330,10 @@ a.follow-link-this-site {
 #zone-postscript .pane-block {
   border: 0;
 }
+#block-views-links-block .item-list ul li {
+    margin: 0 0 0.25em 0;
+    padding: 0;
+}
 
 /* Hide page title in home page */
 .front #page-title {
