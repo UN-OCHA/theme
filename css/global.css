@@ -615,6 +615,7 @@ overflow:hidden;
  
 #block-views-exp-indicator-registry-page {
 	max-width: 250px;
+	margin-top: 10px;
 }
 #block-views-exp-indicator-registry-page h2.block-title {
 	font-size:16px;
