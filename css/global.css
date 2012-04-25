@@ -597,14 +597,14 @@ overflow:hidden;
 	text-align:justify;
 	margin-left:10px;
 }
-/*.field-collection-view .field-label {
+.view-assessment-registry .field-collection-view .field-label {
 	font-size:12px;
 	font-weight:bold;
 	margin-left:10px;
 	width:100%;
 	color:#666666;
 
-}*/
+}
 .field-collection-container {
 	border-bottom: none;
 	margin-bottom: 0px;
