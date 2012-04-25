@@ -581,6 +581,7 @@ overflow:hidden;
 .view-assessment-registry td, 
 .view-assessment-registry th {
 	border:solid 1px #E6E7E8;
+	width:100%;
 }
 .view-assessment-registry thead {
 	font-weight:bold;
@@ -647,9 +648,6 @@ overflow:hidden;
 .field-type-list-text {
 	padding: 0;
 	margin: 0;
-}
-.field-collection-container .field-items .field-item {
-margin-bottom: none;
 }
 
 /* Humanitarian Profile view */
