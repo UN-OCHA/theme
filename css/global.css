@@ -597,7 +597,7 @@ overflow:hidden;
 	text-align:justify;
 	margin-left:10px;
 }
-.view-assessment-registry .field-collection-view .field-label {
+.field-collection-view .field-label {
 	font-size:12px;
 	font-weight:bold;
 	margin-left:10px;
@@ -638,10 +638,6 @@ overflow:hidden;
 	width:100px;
 }
 .field-collection-view {
-	padding: 0;
-	margin: 0;
-}
-.field-type-list-text {
 	padding: 0;
 	margin: 0;
 }
