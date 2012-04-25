@@ -614,8 +614,7 @@ overflow:hidden;
  /*Customize Filter*/
  
 #block-views-exp-indicator-registry-page {
-	border:1px solid #cc6666;
-	max-width: 200px;
+	max-width: 250px;
 }
 #block-views-exp-indicator-registry-page h2.block-title {
 	font-size:16px;
