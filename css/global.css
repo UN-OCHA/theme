@@ -648,7 +648,9 @@ overflow:hidden;
 	padding: 0;
 	margin: 0;
 }
-
+.field-collection-container .field-items .field-item {
+margin-bottom: none;
+}
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
