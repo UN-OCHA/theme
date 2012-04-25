@@ -324,7 +324,6 @@ a.follow-link-this-site {
 /* Postscript zone */
 #zone-postscript {
   border-top: solid 3px #E6E7E8;
-  float:right;
 }
 
 #zone-postscript .block,
