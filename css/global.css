@@ -656,6 +656,7 @@ td.in-progress  {
 #block-system-main table,
 #block-system-main td.submitted {
 	background-color: #99CC99 !important;
+	display:inline;
 }
 
 
