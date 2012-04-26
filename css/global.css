@@ -650,7 +650,10 @@ overflow:hidden;
  Customize CRF Form*/
 
 .in-progress td {
-	background-color:solid 1px #E6E7E8;
+	background-color:#B91222;
+}
+td.in-progress {
+	background-color:#000000;
 }
 
 
