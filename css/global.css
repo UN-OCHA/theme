@@ -653,7 +653,7 @@ overflow:hidden;
 tr.odd td.in-progress {
 	background-color:#B91222;
 }*/
-tr.even td.in-progress {
+td.in-progress !important {
 	background-color:#B91222;
 }
 
