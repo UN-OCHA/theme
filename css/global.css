@@ -653,8 +653,8 @@ overflow:hidden;
 tr.odd td.in-progress {
 	background-color:#B91222;
 }*/
-td.in-progress !important {
-	background-color:#B91222;
+td.in-progress  {
+	background-color:#B91222 !important;
 }
 
 /*tr:hover td.in-progress, 
