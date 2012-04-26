@@ -174,7 +174,7 @@
         'colgroups' => array(),
         'sticky' => array(),
         'empty' => array());
-      print theme_table($variables);
+      echo theme_table($variables);
     ?>
   </div>
 
