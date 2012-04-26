@@ -652,9 +652,11 @@ overflow:hidden;
 td.in-progress  {
 	background-color: #F7911E !important;
 }
-td.submitted  {
+
+#block-system-main td.submitted  {
 	background-color: #00804C !important;
 }
+
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
