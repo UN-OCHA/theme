@@ -170,7 +170,7 @@
         'header' => $headers,
         'rows' => $rows,
         'attributes' => array(),
-        'caption' => array(),
+        'caption' => '',
         'colgroups' => array(),
         'sticky' => array(),
         'empty' => array());
