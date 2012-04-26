@@ -149,15 +149,18 @@
             switch ($workflow->state) {
               case 'Save Draft':
                 $txt = 'In Progress';
+                $class = 'in-progress';
                 break;
               case 'Submit':
                 $txt = 'Submitted';
+                $class = 'submitted';
                 break;
-              case 'Approved':
+              case 'Approve':
                 $txt = 'Approved';
+                $class = 'approved';
                 break;
             }
-            $row[] = l($txt, 'node/'.$content_node->nid);
+            $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
           }
         }
         $rows[] = $row;
