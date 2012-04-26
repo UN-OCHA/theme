@@ -649,7 +649,7 @@ overflow:hidden;
  
  Customize CRF Form*/
 
-.in-progress td {
+tr.in-progress td {
 	background-color:#B91222;
 }
 td.in-progress {
