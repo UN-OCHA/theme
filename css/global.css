@@ -653,6 +653,9 @@ tr.even td.in-progress,
 tr.odd td.in-progress {
 	background-color:#B91222;
 }
+td.in-progress {
+	background-color:#B91222;
+}
 
 /*tr:hover td.in-progress, 
 tr.even:hover td.in-progress, 
