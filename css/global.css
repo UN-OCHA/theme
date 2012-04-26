@@ -652,10 +652,12 @@ overflow:hidden;
 td.in-progress  {
 	background-color: #F7911E !important;
 }
-
+td.approved  {
+	background-color: #99CC99 !important;
+}
 #block-system-main table,
 #block-system-main td.submitted {
-	background-color: #99CC99 !important;
+	background-color: #99CCFF !important;
 	display:table-cell;
 }
 
