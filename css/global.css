@@ -645,6 +645,14 @@ overflow:hidden;
 	margin: 0;
 }
 
+ /*Customize CRF 
+ 
+ Customize CRF Form*/
+
+.in-progress td {
+	background-color:solid 1px #E6E7E8;
+}
+
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
