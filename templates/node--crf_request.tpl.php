@@ -130,12 +130,22 @@
             ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
             ->execute();
           if (empty($result)) {
-            $row[] = '';
+            $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
+              array('query' => 
+                array(
+                  array('edit' => 
+                    array(
+                      'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
+                      'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
+                  ),
+                ),
+              )
+            );
           }
           else {
             $nodes = node_load_multiple(array_keys($result['node']));
-            $node = reset($nodes);
-            $workflow = workflow_get_workflow_states_by_sid($node->workflow);
+            $content_node = reset($nodes);
+            $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
             switch ($workflow->state) {
               case 'Save Draft':
                 $txt = 'In Progress';
@@ -147,7 +157,7 @@
                 $txt = 'Approved';
                 break;
             }
-            $row[] = l($txt, 'node/'.$node->nid);
+            $row[] = l($txt, 'node/'.$content_node->nid);
           }
         }
         $rows[] = $row;
