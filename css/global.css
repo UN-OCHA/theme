@@ -649,20 +649,12 @@ overflow:hidden;
  
  Customize CRF Form*/
 
-/*tr.even td.in-progress,
-tr.odd td.in-progress {
-	background-color:#B91222;
-}*/
 td.in-progress  {
-	background-color:#B91222 !important;
+	background-color: #F7911E !important;
 }
-
-/*tr:hover td.in-progress, 
-tr.even:hover td.in-progress, 
-tr.odd:hover td.in-progress {
-	background-color:#ffcccc;
+td.submitted  {
+	background-color: #00804C !important;
 }
-
 
 /* Humanitarian Profile view */
 .view-humanitarian-profile .field-label {
