@@ -654,7 +654,7 @@ overflow:hidden;
 	background-color: #666666;
 }*/
 
-.view-indicator-data thead tr{
+.view-indicator-data thead th {
 	background-color: #666666 !important;
 	color:#FFFFFF !important;
 }
