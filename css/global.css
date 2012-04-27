@@ -649,6 +649,10 @@ overflow:hidden;
  
  Customize CRF Form*/
 
+.view-indicator-data thead,
+.view-requests thead  {
+	background-color: #666666 !important;
+}
 td.in-progress  {
 	background-color: #F7911E !important;
 }
@@ -659,6 +663,7 @@ td.approved  {
 	background-color: #99CCFF !important;
 	display:table-cell;
 }
+
 
 
 /* Humanitarian Profile view */
