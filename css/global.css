@@ -655,8 +655,8 @@ overflow:hidden;
 }*/
 
 .view-indicator-data thead th {
-	background-color: #666666 !important;
-	color:#FFFFFF !important;
+	background-color: #666666;
+	color:#FFFFFF;
 }
 td.in-progress  {
 	background-color: #F7911E !important;
@@ -668,7 +668,12 @@ td.approved  {
 	background-color: #99CCFF !important;
 	display:table-cell;
 }
-
+.views-field-field-ind-target td,
+.views-field-field-ind-need td,
+.views-field-field-ind-coverage td {
+	text-align:right;
+	word-wrap: normal;
+}
 
 
 /* Humanitarian Profile view */
