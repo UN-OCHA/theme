@@ -654,9 +654,9 @@ overflow:hidden;
 	background-color: #666666;
 }*/
 
-.view-indicator-data thead tr {
-	color:#FFFFFF !important;
+.view-indicator-data thead {
 	background-color: #666666 !important;
+	color:#FFFFFF !important;
 }
 td.in-progress  {
 	background-color: #F7911E !important;
