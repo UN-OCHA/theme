@@ -653,11 +653,9 @@ overflow:hidden;
 	color:#FFFFFF;
 	background-color: #666666;
 }*/
-.view-indicator-data thead
-.view-indicator-data tr
-.view-requests thead
-.view-requests tr
- {
+.view-indicator-data table,
+.view-indicator-data thead,
+.view-indicator-data tr {
 	color:#FFFFFF;
 	background-color: #666666;
 }
