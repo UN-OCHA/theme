@@ -11,6 +11,12 @@ a:visited {
   color: #660000;
   text-decoration: none;
 }
+.front a,
+.front a:link,
+.front a:visited {
+  color: #232323;
+  text-decoration: none;
+}
 
 a:hover,
 a:focus {
