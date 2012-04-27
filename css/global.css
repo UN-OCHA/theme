@@ -470,6 +470,7 @@ overflow:hidden;
 .panels-flexible-region-new-right .view-documents .more-link a{ 			/* Customize More link on Key documents*/
     border-top:2px solid #B91222;
 	border-left: 2px solid #B91222;
+	background-color:#FFFFFF;
 	border-bottom:3px solid #fff;
 	border-right: 3px solid #fff;
     margin-right: -7px;
