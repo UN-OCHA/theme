@@ -653,11 +653,6 @@ overflow:hidden;
 	color:#FFFFFF;
 	background-color: #666666;
 }*/
-.view-indicator-data table,
-.view-indicator-data thead  {
-	color:#FFFFFF !important;
-	background-color: #666666 !important;
-}
 td.in-progress  {
 	background-color: #F7911E !important;
 }
