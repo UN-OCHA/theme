@@ -649,8 +649,12 @@ overflow:hidden;
  
  Customize CRF Form*/
 
-.view-indicator-data .views-table thead,
-.view-requests .views-table thead  {
+/*.view-requests .views-table thead  {
+	color:#FFFFFF;
+	background-color: #666666;
+}*/
+.view-indicator-data thead tr,
+.view-requests thead tr {
 	color:#FFFFFF;
 	background-color: #666666;
 }
