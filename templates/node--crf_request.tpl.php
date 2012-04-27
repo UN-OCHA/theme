@@ -128,6 +128,7 @@
             ->entityCondition('entity_type', 'node')
             ->entityCondition('bundle', $ctype->type)
             ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
+            ->fieldCondition('field_crf_request', 'entity_id', $node->nid)
             ->execute();
           if (empty($result)) {
             $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
