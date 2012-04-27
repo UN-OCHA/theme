@@ -656,8 +656,8 @@ overflow:hidden;
 .view-indicator-data table,
 .view-indicator-data thead,
 .view-indicator-data tr {
-	color:#FFFFFF;
-	background-color: #666666;
+	color:#FFFFFF !important;
+	background-color: #666666 !important;
 }
 td.in-progress  {
 	background-color: #F7911E !important;
