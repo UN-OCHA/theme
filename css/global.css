@@ -165,7 +165,7 @@ img {
 .search-form {
 	margin-bottom:0;
 }
-#search-block-form input[type=text] {
+#block-search-form form input[type=text] {
 	padding:2px;
 	background:#E6E7E8;
 	border:1px solid #ccc;
@@ -176,6 +176,7 @@ img {
 #search-block-form .form-actions input {
   margin-right: 0;
 }
+
 /*
 .form-item, .form-actions {
     display: inline;
@@ -716,3 +717,4 @@ td.approved  {
 .view-humanitarian-profile .field-name-field-humprofile-injured {
   margin-left: 1em;
 }
+
