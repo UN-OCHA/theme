@@ -153,9 +153,7 @@ img {
 #block-locale-language .language-switcher-locale-url{
 	list-style-type:none;
 }
-/* Search form 
-
-#block-search-api-page-search-page */
+/* Search form */
 #region-user-second {
   float: right;
   margin-top: -50px;
@@ -167,7 +165,7 @@ img {
 .search-form {
 	margin-bottom:0;
 }
-#edit-search-block-form--2 {
+#search-block-form input[type=text] {
 	padding:2px;
 	background:#E6E7E8;
 	border:1px solid #ccc;
