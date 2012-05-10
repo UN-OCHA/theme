@@ -1,6 +1,9 @@
 .block-superfish {
   overflow: visible;
 }
+.block-superfish .block-title {
+  display: none;
+}
 .sf-menu {
   float: left;
   margin: 0;
