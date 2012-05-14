@@ -181,9 +181,7 @@
 .sf-menu li ul.sf-megamenu li.sf-megamenu-wrapper {
   border-top-color: #e0e0e0;
 }
-.sf-menu li {
-  background: url('images/simple-background.png') repeat-x top left #eeeeee;
-}
+
 .sf-menu li:hover,
 .sf-menu li.sfHover {
   background: url('images/simple-background-active.png') repeat-x top left #fefefe;
