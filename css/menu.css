@@ -140,11 +140,11 @@
   margin: 5px 0 0 5px;
   padding: 0;
 }
-.sf-menu.sf-horizontal li,
+/*.sf-menu.sf-horizontal li,
 .sf-menu.sf-navbar li {
   border: 1px solid #e0e0e0;
   border-left-color: #ffffff;
-}
+}*/
 .sf-menu.sf-horizontal > li.first,
 .sf-menu.sf-navbar > li.first {
   border-left-color: #e0e0e0;
