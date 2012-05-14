@@ -411,7 +411,7 @@
   width: 120em;
 }
 
-/*configuration sub-menu*/
+//*configuration sub-menu*/
 .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
     background: none;
     border-bottom-left-radius: 0px;
