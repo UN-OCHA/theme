@@ -22,6 +22,13 @@ function humanitarianresponse_breadcrumb($variables) {
     }
   }
   
+  $nb_crumbs = count($breadcrumbs);
+  for ($i = 0; $i < $nb_crumbs; $i++) {
+    if ($breadcrumbs[$i] == '<none>') {
+      unset($breadcrumbs[$i]);
+    }
+  }
+  
   if (!empty($breadcrumb)) {
     // Provide a navigational heading to give context for breadcrumb links to
     // screen-reader users. Make the heading invisible with .element-invisible.
