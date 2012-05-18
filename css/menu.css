@@ -169,6 +169,7 @@
   border-right: 1px solid #e0e0e0;
 }
 .sf-menu.sf-vertical li,
+.sf-menu.sf-horizontal li li,
 .sf-menu.sf-navbar li li li {
   border: 1px solid #e0e0e0;
   border-top-color: #ffffff;
