@@ -22,10 +22,10 @@ function humanitarianresponse_breadcrumb($variables) {
     }
   }
   
-  $nb_crumbs = count($breadcrumbs);
+  $nb_crumbs = count($breadcrumb);
   for ($i = 0; $i < $nb_crumbs; $i++) {
-    if ($breadcrumbs[$i] == '<none>') {
-      unset($breadcrumbs[$i]);
+    if ($breadcrumb[$i] == '<none>') {
+      unset($breadcrumb[$i]);
     }
   }
   
