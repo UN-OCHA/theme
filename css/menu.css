@@ -182,10 +182,10 @@
   border-top-color: #e0e0e0;
 }
 
-.sf-menu li:hover,
+/*.sf-menu li:hover,
 .sf-menu li.sfHover {
   background: url('images/simple-background-active.png') repeat-x top left #fefefe;
-}
+}*/
 .sf-menu.sf-horizontal > li.first {
   -webkit-border-top-left-radius: 8px;
   -webkit-border-bottom-left-radius: 8px;
