@@ -13,7 +13,12 @@
  
 function humanitarianresponse_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
-  debug(arg(0));
-  debug($breadcrumb);
+  if (arg(0) == 'taxonomy' && arg(1) == 'term') {
+    $tid = arg(2);
+    $term = taxonomy_term_load($tid);
+    if (isset($breadcrumb[3])) {
+      unset($breadcrumb[3]);
+    }
+  }
   return $breadcrumb;
 }
