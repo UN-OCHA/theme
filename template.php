@@ -22,6 +22,8 @@ function humanitarianresponse_breadcrumb($variables) {
     }
   }
   
+  debug($breadcrumb);
+  
   $nb_crumbs = count($breadcrumb);
   for ($i = 0; $i < $nb_crumbs; $i++) {
     if ($breadcrumb[$i] == '<none>') {
