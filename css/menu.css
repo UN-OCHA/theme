@@ -336,11 +336,11 @@
   border-radius: 8px;
   border-top-left-radius: 0;
 }
-.sf-menu li ul.sf-megamenu  li.sf-megamenu-wrapper,
+/*.sf-menu li ul.sf-megamenu  li.sf-megamenu-wrapper,
 .sf-menu li ul.sf-megamenu  li.sf-megamenu-wrapper:hover,
 .sf-menu li ul.sf-megamenu  li.sf-megamenu-wrapper.sfHover {
   background: url('images/simple-background.png') repeat-x top left #eeeeee;
-}
+}*/
 .sf-menu li ul.sf-megamenu li.sf-megamenu-wrapper ol,
 .sf-menu li ul.sf-megamenu li.sf-megamenu-wrapper ol li {
   margin: 0;
