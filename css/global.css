@@ -241,7 +241,8 @@ html, body {
 /* Change followo us icon */
 a.follow-link-this-site {
     background-image: url("../../../../../misc/feed.png");
-	background-position: 0 5px}
+	background-position: 0 5px;
+}
 
 
 /* Main menu */
@@ -421,6 +422,11 @@ filter:alpha(opacity=90);
 opacity:0.9085;
 -moz-opacity:0.90;
 overflow:hidden;
+}
+
+/* Feed icon */
+div.feed-icon {
+  text-align: right;
 }
 
 /* Customize CLUSTER icons*/
