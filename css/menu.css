@@ -110,9 +110,8 @@
 .sf-menu a:visited  {
   color: #555555;
   font: normal 12px Arial, Helvetica, Tahoma, Verdana, Sans-serif;
-  padding: 1.4em 1.5em;
+  padding: 1.2em 1.5em;
   text-decoration: none;
-  text-shadow: 1px 1px 0 #ffffff;
 }
 .sf-menu a:focus,
 .sf-menu a:hover,
@@ -170,7 +169,6 @@
   border-right: 1px solid #e0e0e0;
 }
 .sf-menu.sf-vertical li,
-.sf-menu.sf-horizontal li li,
 .sf-menu.sf-navbar li li li {
   border: 1px solid #e0e0e0;
   border-top-color: #ffffff;
@@ -418,3 +416,4 @@
 .sf-menu.sf-navbar.sf-shadow ul ul {
     background: none;
  }
+ /*.sf-menu.sf-horizontal li li,*/
