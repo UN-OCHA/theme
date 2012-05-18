@@ -13,6 +13,7 @@
  
 function humanitarianresponse_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
+  debug(arg(0));
   debug($breadcrumb);
   return $breadcrumb;
 }
