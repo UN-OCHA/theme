@@ -10,3 +10,9 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+ 
+function humanitarianresponse_breadcrumb($variables) {
+  $breadcrumb = $variables['breadcrumb'];
+  debug($breadcrumb);
+  return $breadcrumb;
+}
