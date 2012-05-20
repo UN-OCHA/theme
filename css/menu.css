@@ -169,6 +169,7 @@
 .sf-menu.sf-navbar li li li {
   border: 1px solid #e0e0e0;
   border-top-color: #ffffff;
+  border-bottom-color: #FFFFFF;
 }
 .sf-menu.sf-vertical li.first,
 .sf-menu.sf-horizontal li li li.first,
