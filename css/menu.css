@@ -411,11 +411,8 @@
 .sf-menu.sf-horizontal > li > a:hover {
   border-bottom:solid 3px #B91222;
 }
-/*.sf-menu.sf-horizontal > li.first,
-.sf-menu.sf-navbar > li.first {
-  border-left-color: #e0e0e0;
+
+.sf-menu.sf-depth-2 {
+  padding: 0px;
+  margin: 0px;
 }
-a:focus,
-.sf-menu a:hover,
-.sf-menu a:active,
-*/
