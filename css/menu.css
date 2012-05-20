@@ -400,6 +400,10 @@
 
 /*configuration sub-menu*/
 
+.sf-menu {
+  font-size: 13px;
+}
+
 .sf-menu.sf-horizontal.sf-shadow ul, 
 .sf-menu.sf-vertical.sf-shadow ul, 
 .sf-menu.sf-navbar.sf-shadow ul ul {
