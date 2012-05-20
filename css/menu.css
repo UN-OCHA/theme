@@ -407,7 +407,8 @@
  }
  
 .sf-menu.sf-horizontal > li.first a:focus,
-.sf-menu.sf-horizontal > li.first a:active {
+.sf-menu.sf-horizontal > li.first a:active,
+.sf-menu.sf-horizontal > li.first a:hover {
   border-bottom:solid 3px #990000;
 }
 /*.sf-menu.sf-horizontal > li.first,
