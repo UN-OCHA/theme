@@ -169,7 +169,6 @@
 .sf-menu.sf-navbar li li li {
   border: 1px solid #e0e0e0;
   border-top-color: #ffffff;
-  border-bottom-color: #FFFFFF;
 }
 .sf-menu.sf-vertical li.first,
 .sf-menu.sf-horizontal li li li.first,
@@ -407,3 +406,15 @@
     background: #ffffff;
  }
  
+.sf-menu.sf-horizontal > li.first a:focus,
+.sf-menu.sf-horizontal > li.first a:active {
+  border-bottom:solid 3px #990000;
+}
+/*.sf-menu.sf-horizontal > li.first,
+.sf-menu.sf-navbar > li.first {
+  border-left-color: #e0e0e0;
+}
+a:focus,
+.sf-menu a:hover,
+.sf-menu a:active,
+*/
