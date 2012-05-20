@@ -122,7 +122,7 @@
 }
 .sf-menu li li a,
 .sf-menu.sf-vertical a {
-  padding: 1.2em 1.5em;
+  padding: 1.5em 1.5em;
 }
 .sf-menu a.sf-with-ul {
   padding-right: 3em;
@@ -152,10 +152,10 @@
 .sf-menu.sf-navbar.rtl > li.last {
   border-left-color: #e0e0e0;
 }
-/*.sf-menu.sf-navbar li > ul > li {
+.sf-menu.sf-navbar li > ul > li {
   border: 0 none;
   border-bottom: 1px solid #e0e0e0;
-}*/
+}
 .sf-menu.sf-navbar li > ul > li.first,
 .sf-menu.sf-navbar.rtl li > ul > li.last {
   border-left: 1px solid #e0e0e0;
