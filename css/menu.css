@@ -33,7 +33,7 @@
 .sf-menu.sf-horizontal.sf-shadow ul,
 .sf-menu.sf-vertical.sf-shadow ul,
 .sf-menu.sf-navbar.sf-shadow ul ul {
-  padding: 0 8px 7px 0 !important;
+  padding: 0 2px 7px 0 !important;
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-left-radius: 15px;
   -moz-border-radius-topright: 15px;
@@ -407,6 +407,3 @@
     background: #ffffff;
  }
  
-.sf-menu .sf-depth-2 {
-    border: none;
- }
