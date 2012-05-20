@@ -417,4 +417,7 @@
 .sf-menu.sf-navbar.sf-shadow ul ul {
     background: none;
  }
- /*.sf-menu.sf-horizontal li li,*/
+ 
+.sf-depth-2 {
+    border: none;
+ }
