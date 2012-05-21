@@ -22,9 +22,16 @@ function humanitarianresponse_breadcrumb($variables) {
     }
   }
   
-  foreach ($breadcrumb as $crumb) {
+  $items = array();
+  foreach ($breadcrumb as $i => $crumb) {
     $tmp = strip_tags($crumb);
-    debug($tmp);
+    if (empty($tmp)) {
+      $items[] = $i;
+    }
+  }
+  
+  foreach ($items as $item) {
+    unset($breadcrumb[$item]);
   }
   
   if (!empty($breadcrumb)) {
