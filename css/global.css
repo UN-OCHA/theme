@@ -302,6 +302,9 @@ a.follow-link-this-site {
 }
 
 /* Customize all views */
+.view-filters {
+  border-bottom: solid 1px #E6E7E8;
+}
 
 .field-name-field-news-image {			/* align image on the left */
 	float:left;
