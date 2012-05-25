@@ -302,9 +302,6 @@ a.follow-link-this-site {
 }
 
 /* Customize all views */
-.field-items {
-	padding-bottom: 10px;
-}
 
 .field-name-field-news-image {			/* align image on the left */
 	float:left;
@@ -549,10 +546,6 @@ div.feed-icon {
 	color:#232323;
 }
 
-.field .field-label {
-	font-size:14px;
-	font-weight:bold;
-}
 .field .field-item {
 	text-align:justify;
 	margin-left:10px;
