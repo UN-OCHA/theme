@@ -290,6 +290,16 @@ a.follow-link-this-site {
 }
 
 /* Documents */
+.field-name-field-file-languages {
+  display: inline-block;
+  height: 16px;
+  margin-top: 7px;
+}
+
+.field-name-field-document-files-file {
+  display: inline;
+}
+
 .field-name-field-file-languages .field-item:before {
   content: "( ";
 }
