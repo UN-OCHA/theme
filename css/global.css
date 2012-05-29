@@ -290,13 +290,13 @@ a.follow-link-this-site {
 }
 
 /* Documents */
-.field-name-field-document-files-file .field-items {
+/*.field-name-field-document-files-file .field-items {
   float: none;
 }
 
 .field-name-field-document-files-file .field-item {
   text-align: left !important;
-}
+}*/
 
 .field-name-field-file-languages {
   display: inline-block;
