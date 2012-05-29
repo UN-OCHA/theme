@@ -96,6 +96,10 @@ fieldset {
   font-weight: bold;
 }
 
+.sharethis-buttons {
+  margin-top: 2em;
+}
+
 
 /* Panels */
 h1.page-title {
