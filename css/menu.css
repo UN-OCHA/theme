@@ -101,11 +101,11 @@ section.block-superfish {
   color: #222222;
 }
 
-/*.sf-menu.sf-style-none > li > a:focus,
+.sf-menu.sf-style-none > li > a:focus,
 .sf-menu.sf-style-none > li > a:hover,
 .sf-menu.sf-style-none > li > a:active,
 .sf-menu.sf-style-none > li:hover > a,
-.sf-menu.sf-style-none > li.sfHover > a,*/
+.sf-menu.sf-style-none > li.sfHover > a,
 .sf-menu.sf-style-none > li.active-trail > a,
 .sf-menu.sf-style-none > li > a.active {
   border-bottom: solid 3px #B91222;
