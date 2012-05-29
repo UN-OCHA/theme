@@ -290,6 +290,10 @@ a.follow-link-this-site {
 }
 
 /* Documents */
+.field-label-inline .field-label, .field-label-inline .field-items {
+  float: none;
+}
+
 .field-name-field-file-languages {
   display: inline-block;
   height: 16px;
