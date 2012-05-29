@@ -290,7 +290,7 @@ a.follow-link-this-site {
 }
 
 /* Documents */
-.field-label-inline .field-label, .field-label-inline .field-items {
+.field-name-field-document-files-file .field-items {
   float: none;
 }
 
