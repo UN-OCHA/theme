@@ -304,7 +304,7 @@ a.follow-link-this-site {
     float: left;
     width: 65%;
 }
-
+c
 .pane-documents-panel-pane-9,
 .pane-maps-view-panel-pane-3,
 .pane-documents-panel-pane-8 {			/* border, height and padding */
@@ -467,7 +467,6 @@ div.feed-icon {
 }
 #block-views-clusters-block .block-inner {			/* Customize Cluster menu for internal pages*/
 	padding:5px;
-	margin-top:55px;
 	border:solid 1px #E6E7E8;
 }
 #block-menu-menu-cluster .block-inner{				/* Customize Cluster sub-menu for internal pages*/
