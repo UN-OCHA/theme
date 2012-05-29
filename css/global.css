@@ -316,11 +316,11 @@ a.follow-link-this-site {
 }
 
 .field-name-field-file-languages .field-item:before {
-  content: "( ";
+  content: " (";
 }
 
 .field-name-field-file-languages .field-item:after {
-  content: " )";
+  content: ") ";
 }
 
 .field-collection-item-field-document-files,
