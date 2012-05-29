@@ -312,7 +312,8 @@ a.follow-link-this-site {
 }
 
 .field-name-field-document-files-file {
-  display: inline;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .field-name-field-file-languages .field-item:before {
@@ -325,7 +326,7 @@ a.follow-link-this-site {
 
 .field-collection-item-field-document-files,
 .field-collection-item-field-document-files .content {
-  display: inline;
+  display: inline-block;
 }
 
 /* Hide page title in home page */
