@@ -290,9 +290,9 @@ a.follow-link-this-site {
 }
 
 /* Documents */
-.field-name-field-document-files-file .field-items {
+/*.field-name-field-document-files-file .field-items {
   float: none;
-}
+}*/
 
 .field-name-field-file-languages {
   display: inline-block;
