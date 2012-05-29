@@ -198,11 +198,6 @@ img {
   margin-right: 0;
 }
 
-/*
-.form-item, .form-actions {
-    display: inline;
-}*/
-
 #block-lang-dropdown-language {
   border: 0;
   display: inline-block;
@@ -323,6 +318,11 @@ a.follow-link-this-site {
 
 .field-name-field-file-languages .field-item:after {
   content: " )";
+}
+
+.field-collection-item-field-document-files,
+.field-collection-item-field-document-files .content {
+  display: inline;
 }
 
 /* Hide page title in home page */
