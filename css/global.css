@@ -595,8 +595,8 @@ div.feed-icon {
 }
 
 .field .field-item {
-	/*text-align:justify;
-	margin-left:10px;*/
+	/*text-align:justify;*/
+	margin-left:10px;
 }
 .field-collection-view .field-label {
 	font-size:12px;
