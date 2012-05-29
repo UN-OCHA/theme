@@ -295,10 +295,6 @@ a.follow-link-this-site {
   float: none;
 }
 
-.field-name-field-file-languages .field-item {
-  margin-left: 0 !important;
-}
-
 /*.field-name-field-document-files-file .field-item {
   text-align: left !important;
 }*/
@@ -599,8 +595,8 @@ div.feed-icon {
 }
 
 .field .field-item {
-	/*text-align:justify;*/
-	margin-left:10px;
+	/*text-align:justify;
+	margin-left:10px;*/
 }
 .field-collection-view .field-label {
 	font-size:12px;
