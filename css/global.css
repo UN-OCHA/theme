@@ -293,39 +293,36 @@ a.follow-link-this-site {
 }
 
 /* Documents */
-.field-name-field-document-files-file .field-items,
-.field-name-field-file-languages .field-items {
+.page-resources .field-name-field-document-files-file .field-items,
+.page-resources .field-name-field-file-languages .field-items {
   float: none;
 }
 
-/*.field-name-field-document-files-file .field-item {
-  margin-left: 0 !important;
-}*/
-.field-name-field-document-files .field-item {
+.page-resources .field-name-field-document-files .field-item {
   margin-left: 0 !important;
 }
 
-.field-name-field-file-languages {
+.page-resources .field-name-field-file-languages {
   display: inline-block;
   height: 16px;
   margin-top: 7px;
 }
 
-.field-name-field-document-files-file {
+.page-resources .field-name-field-document-files-file {
   display: inline-block;
   margin-right: 5px;
 }
 
-.field-name-field-file-languages .field-item:before {
+.page-resources .field-name-field-file-languages .field-item:before {
   content: " (";
 }
 
-.field-name-field-file-languages .field-item:after {
+.page-resources .field-name-field-file-languages .field-item:after {
   content: ") ";
 }
 
-.field-collection-item-field-document-files,
-.field-collection-item-field-document-files .content {
+.page-resources .field-collection-item-field-document-files,
+.page-resources .field-collection-item-field-document-files .content {
   display: inline-block;
 }
 
