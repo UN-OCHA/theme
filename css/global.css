@@ -295,43 +295,43 @@ a.follow-link-this-site {
 /* Documents */
 .page-resources .field-name-field-document-files-file .field-items,
 .page-resources .field-name-field-file-languages .field-items,
-.node-type-document .field-name-field-document-files-file .field-items,
-.node-type-document .field-name-field-file-languages .field-items {
+.node-document .field-name-field-document-files-file .field-items,
+.node-document .field-name-field-file-languages .field-items {
   float: none;
 }
 
 .page-resources .field-name-field-document-files .field-item,
-.node-type-document .field-name-field-document-files .field-item {
+.node-document .field-name-field-document-files .field-item {
   margin-left: 0 !important;
 }
 
 .page-resources .field-name-field-file-languages,
-.node-type-document .field-name-field-file-languages {
+.node-document .field-name-field-file-languages {
   display: inline-block;
   height: 16px;
   margin-top: 7px;
 }
 
 .page-resources .field-name-field-document-files-file,
-.node-type-document .field-name-field-document-files-file {
+.node-document .field-name-field-document-files-file {
   display: inline-block;
   margin-right: 5px;
 }
 
 .page-resources .field-name-field-file-languages .field-item:before,
-.node-type-document .field-name-field-file-languages .field-item:before {
+.node-document .field-name-field-file-languages .field-item:before {
   content: " (";
 }
 
 .page-resources .field-name-field-file-languages .field-item:after,
-.node-type-document .field-name-field-file-languages .field-item:after {
+.node-document .field-name-field-file-languages .field-item:after {
   content: ") ";
 }
 
 .page-resources .field-collection-item-field-document-files,
 .page-resources .field-collection-item-field-document-files .content,
-.node-type-document .field-collection-item-field-document-files,
-.node-type-document .field-collection-item-field-document-files .content {
+.node-document .field-collection-item-field-document-files,
+.node-document .field-collection-item-field-document-files .content {
   display: inline-block;
 }
 
