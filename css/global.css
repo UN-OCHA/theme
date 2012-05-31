@@ -412,7 +412,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 /*#views_slideshow_cycle_teaser_section_media-panel_pane_2 {
     width: 70%;
 	height:50%;
-}*/
+}
 #views_slideshow_cycle_main_media-panel_pane_2 {
     max-width: 754px;
 	height:408px;
@@ -421,7 +421,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 #views_slideshow_cycle_main_media-panel_pane_2 img{
     padding: 0px;
 
-}
+}*/
 .gallery-title {
 position: absolute;
 top:352px;
