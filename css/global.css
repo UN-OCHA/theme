@@ -349,6 +349,10 @@ a.follow-link-this-site {
   margin-top: 0.8em;
 }
 
+.front .view-media table {
+  margin-bottom: 0;
+}
+
 /* Date fields */
 .container-inline-date .form-required {
   display: none;
