@@ -340,6 +340,11 @@ a.follow-link-this-site {
   display: none;
 }
 
+.front .view-maps-view .view-content,
+.front .view-documents .view-content {
+  min-height: 142px;
+}
+
 /* Date fields */
 .container-inline-date .form-required {
   display: none;
