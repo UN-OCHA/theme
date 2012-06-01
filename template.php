@@ -21,6 +21,9 @@ function humanitarianresponse_breadcrumb($variables) {
       unset($breadcrumb[3]);
     }
   }
+  elseif (arg(0) == 'search') {
+    debug($breadcrumb);
+  }
   
   $items = array();
   foreach ($breadcrumb as $i => $crumb) {
