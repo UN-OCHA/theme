@@ -353,6 +353,10 @@ a.follow-link-this-site {
   margin-bottom: 0;
 }
 
+.front #breadcrumb {
+  display: none;
+}
+
 /* Date fields */
 .container-inline-date .form-required {
   display: none;
