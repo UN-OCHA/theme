@@ -22,7 +22,9 @@ function humanitarianresponse_breadcrumb($variables) {
     }
   }
   elseif (arg(0) == 'search') {
-    debug($breadcrumb);
+    if (strpos($breadcrumb[0], 'Home') !== FALSE && strpos($breadcrumb[1], 'Home') !== FALSE) {
+      unset($breadcrumb[0]);
+    }
   }
   
   $items = array();
