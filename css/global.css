@@ -382,6 +382,15 @@ a.follow-link-this-site {
     text-align: center;	
 }
 
+/* Search page */
+.search-results article {
+  border-bottom: solid 1px #E6E7E8;
+}
+
+.search-results .field {
+  margin-left: 10px;
+}
+
 /* Customize all views */
 .view-filters {
   border-bottom: solid 1px #E6E7E8;
