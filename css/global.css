@@ -15,17 +15,12 @@ a:visited {
 .front a:link,
 .front a:visited {
   color: #232323;
-  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   text-decoration: underline;
   color: #B91222;
-}
-
-.front a:hover {
-  text-decoration: underline;
 }
 
 h1,
