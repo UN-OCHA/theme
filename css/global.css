@@ -162,10 +162,6 @@ img {
 .breadcrumb a:visited {
   color: #B91222;
 }
-.breadcrumb a:hover,
-.breadcrumb a:focus {
-  text-decoration: underline;
-}
 
 /* Language dropdown block */
 #region-user-first {
