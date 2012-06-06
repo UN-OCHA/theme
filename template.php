@@ -17,7 +17,7 @@ function humanitarianresponse_breadcrumb($variables) {
     $tid = arg(2);
     $term = taxonomy_term_load($tid);
     $voc = taxonomy_vocabulary_load($term->vid);
-    if ($voc->machine_name == 'clusters' && isset($breadcrumb[3])) {
+    if (($voc->machine_name == 'clusters' || $voc->machine_name == 'funding') && isset($breadcrumb[3])) {
       unset($breadcrumb[3]);
     }
   }
