@@ -24,6 +24,10 @@ a:focus {
   color: #B91222;
 }
 
+.front a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -130,10 +134,6 @@ h2.node-title a,
 h2.node-title a:link,
 h2.node-title a:visited {
   color: #B91222;
-}
-h2.node-title a:hover,
-h2.node-title a:focus {
-  text-decoration: underline;
 }
 table, td, th {
     vertical-align: top;
