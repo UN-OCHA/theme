@@ -336,16 +336,69 @@ a.follow-link-this-site {
   min-height: 142px;
 }
 
-.front .view-clusters .views-field-name {
-  margin-top: 0.8em;
-}
-
 .front .view-media table {
   margin-bottom: 0;
 }
 
 .front #breadcrumb {
   display: none;
+}
+
+/* Cluster icons */
+.front .view-clusters .views-field-name {
+  margin-top: 0.8em;
+}
+
+.view-clusters .field-content {
+  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite.png') no-repeat top left;
+  display: block;
+  background-size: 48px;
+  padding-left: 48px;
+  height: 48px
+}
+
+.view-clusters .field-content.CM {
+  background-position: 0 0;
+}
+
+.view-clusters .field-content.E {
+  background-position: 0 -73px;
+}
+
+.view-clusters .field-content.ER {
+  background-position: 0 -146px;
+}
+
+.view-clusters .field-content.ES {
+  background-position: 0 -219px;
+}
+
+.view-clusters .field-content.ET {
+  background-position: 0 -292px;
+}
+
+.view-clusters .field-content.FS {
+  background-position: 0 -365px;
+}
+
+.view-clusters .field-content.H {
+  background-position: 0 -438px;
+}
+
+.view-clusters .field-content.L {
+  background-position: 0 -511px;
+}
+
+.view-clusters .field-content.N {
+  background-position: 0 -584px;
+}
+
+.view-clusters .field-content.P {
+  background-position: 0 -657px;
+}
+
+.view-clusters .field-content.W {
+  background-position: 0 -730px;
 }
 
 /* Date fields */
