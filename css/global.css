@@ -345,8 +345,10 @@ a.follow-link-this-site {
 }
 
 /* Cluster icons */
-.front .view-clusters .views-field-name {
-  margin-top: 0.8em;
+.view-clusters .field-content a {
+  margin-top: 1em;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .view-clusters .field-content {
