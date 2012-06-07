@@ -387,20 +387,24 @@ a.follow-link-this-site {
   background-position: 0 -438px;
 }
 
-.view-clusters .field-content.L {
+.view-clusters .field-content.IM {
   background-position: 0 -511px;
 }
 
-.view-clusters .field-content.N {
+.view-clusters .field-content.L {
   background-position: 0 -584px;
 }
 
-.view-clusters .field-content.P {
+.view-clusters .field-content.N {
   background-position: 0 -657px;
 }
 
-.view-clusters .field-content.W {
+.view-clusters .field-content.P {
   background-position: 0 -730px;
+}
+
+.view-clusters .field-content.W {
+  background-position: 0 -803px;
 }
 
 /* Date fields */
