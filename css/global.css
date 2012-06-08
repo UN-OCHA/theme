@@ -415,7 +415,7 @@ a.follow-link-this-site {
   padding: 2px 8px 6px;
 }
 
-.panels-flexible-region-new-right .more-link a{ 			/* Customize More link on right sidebar*/
+.pane-news-panel-pane-2 .more-link a{ 			/* Customize More link on right sidebar*/
     border-top:2px solid #E6E7E8;
 	border-left: 2px solid #E6E7E8;
 	border-bottom:3px solid #fff;
