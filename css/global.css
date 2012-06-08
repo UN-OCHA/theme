@@ -696,7 +696,7 @@ div.feed-icon {
 }
 
 .view-assessment-registry .field-type-file tr.odd td,
-.view-assessment-registry .field-type-filetr.odd,
+.view-assessment-registry .field-type-file tr.odd,
 .view-assessment-registry .field-type-file tr.even td,
 .view-assessment-registry .field-type-file tr.even {
   background: transparent;
