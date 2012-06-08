@@ -363,17 +363,12 @@ a.follow-link-this-site {
   display: none;
 }
 
-/*.panels-flexible-column-new-2 {
-    float: left;
-    width: 65%;
-}*/
-
-.pane-documents-panel-pane-9,
+.pane-documents-home-reports,
 .pane-maps-view-panel-pane-3,
-.pane-documents-panel-pane-8 {			/* border, height and padding */
-    border: 1px solid #E6E7E8;
-	height: 200px;
-    padding: 0 10px 10px;
+.pane-documents-home-featured {			/* border, height and padding */
+  border: 1px solid #E6E7E8;
+  height: 200px;
+  padding: 0 10px 10px;
 }
 
 .panels-flexible-column-new-2 .views-field-field-doc-thumbnail,
