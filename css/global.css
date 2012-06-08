@@ -443,6 +443,15 @@ a.follow-link-this-site {
   padding: 2px 8px 6px;
 }
 
+.pane-news-panel-pane-2 .views-field-created .field-content span {
+  float: right;
+}
+
+.pane-news-panel-pane-2 .views-row {
+  min-height: 1.5em;
+  clear: both;
+}
+
 /* Cluster icons */
 .view-clusters .views-field-name .field-content a {
   margin-top: 0.7em;
