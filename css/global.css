@@ -390,7 +390,8 @@ a.follow-link-this-site {
 .pane-boxes-home-calendar a:visited {
     color: #B91222;
 }
-.panels-flexible-region-new-right .pane-views-panes {
+.pane-documents-home-key,
+.pane-news-panel-pane-2 {
 	padding:5px;
 	margin-bottom:14px;
 	margin-top:5px;
