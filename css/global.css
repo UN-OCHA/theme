@@ -92,6 +92,12 @@ img {
   padding: 5px;
 }
 
+tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+  background: #DDD224;
+}
+
 .sharethis-buttons, .node-links {
 	margin-left:10px;
 }
