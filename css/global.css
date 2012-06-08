@@ -98,6 +98,12 @@ tr.odd:hover td.active {
   background: #DDD224;
 }
 
+.views-view-grid tr:hover td,
+.views-view-grid tr.even:hover td.active,
+.views-view-grid tr.odd:hover td.active {
+  background: none;
+}
+
 .sharethis-buttons, .node-links {
 	margin-left:10px;
 }
