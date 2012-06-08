@@ -373,7 +373,7 @@ a.follow-link-this-site {
 }
 
 .view-clusters .views-field-name .field-content {
-  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite.png') no-repeat top left;
+  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite_32.png') no-repeat top left;
   display: block;
   background-size: 32px;
   padding-left: 32px;
