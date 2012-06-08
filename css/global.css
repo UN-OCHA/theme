@@ -83,7 +83,7 @@ fieldset {
   border:1px solid #ccc;
 }
 
-.field .field-item, .sharethis-buttons, .node-links {
+.sharethis-buttons, .node-links {
 	margin-left:10px;
 }
 
