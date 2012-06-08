@@ -690,6 +690,19 @@ div.feed-icon {
 	font-weight:bold;
 	color:#232323;
 }
+
+.view-assessment-registry .field-type-file th {
+  display: none;
+}
+
+.view-assessment-registry .field-type-file tr.odd td,
+.view-assessment-registry .field-type-filetr.odd,
+.view-assessment-registry .field-type-file tr.even td,
+.view-assessment-registry .field-type-file tr.even {
+  background: transparent;
+  border: none;
+}
+
 .field-collection-view .field-label {
 	font-size:12px;
 	font-weight:bold;
