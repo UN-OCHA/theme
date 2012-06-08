@@ -377,24 +377,17 @@ a.follow-link-this-site {
     text-align: center;	
 }
 
-/*.panels-flexible-row-new-13-inside img{     
-	width:30px;
-	height:30px;
-	float:left;
-	padding:0px;
-}*/
-
-.panels-flexible-row-new-14-inside img{ 			/* Customize calendar-COD on right sidebar*/
+.pane-boxes-home-calendar img{ 			/* Customize calendar-COD on right sidebar*/
 	width:40px;
 	height:40px;
 	float:left;
 }
-.panels-flexible-row-new-14-inside p{ 			
+.pane-boxes-home-calendar p{ 			
 	text-align:left;
 }
-.panels-flexible-row-new-14-inside a, 
-.panels-flexible-row-new-14-inside a:link, 
-.panels-flexible-row-new-14-inside a:visited {
+.pane-boxes-home-calendar a, 
+.pane-boxes-home-calendar a:link, 
+.pane-boxes-home-calendar a:visited {
     color: #B91222;
 }
 .panels-flexible-region-new-right .pane-views-panes {
