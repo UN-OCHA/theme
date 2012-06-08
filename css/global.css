@@ -411,6 +411,19 @@ a.follow-link-this-site {
 	color:#B91222;
 	border-bottom: 1px solid #B91222;
 }
+
+.pane-documents-home-key th {
+  display: none;
+}
+
+.pane-documents-home-key tr.odd td,
+.pane-documents-home-key tr.odd,
+.pane-documents-home-key tr.even td,
+.pane-documents-home-key tr.even {
+  background: transparent;
+  border: none;
+}
+
 .pane-documents-home-key .more-link a{ 			/* Customize More link on Key documents*/
   border-top:2px solid #B91222;
   border-left: 2px solid #B91222;
