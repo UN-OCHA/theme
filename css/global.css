@@ -367,7 +367,7 @@ a.follow-link-this-site {
 
 /* Cluster icons */
 .view-clusters .views-field-name .field-content a {
-  margin-top: 1em;
+  margin-top: 0.7em;
   display: inline-block;
   margin-left: 5px;
 }
