@@ -397,12 +397,11 @@ a.follow-link-this-site {
 	border:solid 0.2em #E6E7E8;
 }
 
-.panels-flexible-region-new-right .pane-documents-panel-pane-7 {/* Customize Key documents block*/
-
-	border:0.2em solid #B91222;
-    background: #F2EEED;
+.pane-documents-home-key {/* Customize Key documents block*/
+  border:0.2em solid #B91222;
+  background: #F2EEED;
 }
-.pane-documents-panel-pane-7 h2.pane-title{
+.pane-documents-home-key h2.pane-title{
 	color:#B91222;
 	border-bottom: 1px solid #B91222;
 }
