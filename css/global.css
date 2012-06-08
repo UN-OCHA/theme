@@ -83,6 +83,15 @@ fieldset {
   border:1px solid #ccc;
 }
 
+table, td, th {
+  vertical-align: top;
+	border:none;
+}
+
+img {
+  padding: 5px;
+}
+
 .sharethis-buttons, .node-links {
 	margin-left:10px;
 }
@@ -101,6 +110,10 @@ fieldset {
 
 .item-list ul li {
   margin: 0;
+}
+
+img.file-icon {
+  padding: 0;
 }
 
 
@@ -133,14 +146,6 @@ h2.node-title a,
 h2.node-title a:link,
 h2.node-title a:visited {
   color: #B91222;
-}
-table, td, th {
-    vertical-align: top;
-	border:none;
-}
-
-img {
-    padding: 5px;
 }
 
 .block { 
