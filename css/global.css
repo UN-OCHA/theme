@@ -95,7 +95,7 @@ img {
 tr:hover td,
 tr.even:hover td.active,
 tr.odd:hover td.active {
-  background: #C4FFF9;
+  background: #A7A9AC;
 }
 
 .views-view-grid tr:hover td,
