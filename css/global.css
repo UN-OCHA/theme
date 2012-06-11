@@ -124,6 +124,10 @@ tr.odd:hover td.active {
   margin: 0;
 }
 
+.page-search .item-list ul li {
+  margin: 0 0 0.25em 1.5em;
+}
+
 img.file-icon {
   padding: 0;
 }
@@ -644,8 +648,8 @@ div.feed-icon {
 }
 
 #region-sidebar-second .item-list ul li.leaf {
-    list-style-image: none;
-    list-style-type: none;
+  list-style-image: none;
+  list-style-type: none;
 }
 
 .view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
