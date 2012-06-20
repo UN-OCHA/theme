@@ -83,6 +83,10 @@ fieldset {
   border:1px solid #ccc;
 }
 
+.front table {
+  margin-bottom: 0;
+}
+
 table, td, th {
   vertical-align: top;
 	border:none;
