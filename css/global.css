@@ -461,13 +461,15 @@ a.follow-link-this-site {
 }
 
 /* Cluster icons */
-.view-clusters .views-field-name .field-content a {
+.view-clusters .views-field-name .field-content a,
+.view-clusters .views-field-name-field .field-content a {
   margin-top: 0.7em;
   display: inline-block;
   margin-left: 5px;
 }
 
-.view-clusters .views-field-name .field-content {
+.view-clusters .views-field-name .field-content,
+.view-clusters .views-field-name-field .field-content {
   background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite_32.png') no-repeat top left;
   display: block;
   background-size: 32px;
@@ -475,51 +477,63 @@ a.follow-link-this-site {
   height: 32px
 }
 
-.view-clusters .views-field-name .field-content.CM {
+.view-clusters .views-field-name .field-content.CM,
+.view-clusters .views-field-name-field .field-content.CM {
   background-position: 0 0;
 }
 
-.view-clusters .views-field-name .field-content.ER {
+.view-clusters .views-field-name .field-content.ER,
+.view-clusters .views-field-name-field .field-content.ER {
   background-position: 0 -82px;
 }
 
-.view-clusters .views-field-name .field-content.ES {
+.view-clusters .views-field-name .field-content.ES,
+.view-clusters .views-field-name-field .field-content.ES {
   background-position: 0 -164px;
 }
 
-.view-clusters .views-field-name .field-content.ET {
+.view-clusters .views-field-name .field-content.ET,
+.view-clusters .views-field-name-field .field-content.ET {
   background-position: 0 -246px;
 }
 
-.view-clusters .views-field-name .field-content.E {
+.view-clusters .views-field-name .field-content.E,
+.view-clusters .views-field-name-field .field-content.E {
   background-position: 0 -328px;
 }
 
-.view-clusters .views-field-name .field-content.FS {
+.view-clusters .views-field-name .field-content.FS,
+.view-clusters .views-field-name-field .field-content.FS {
   background-position: 0 -410px;
 }
 
-.view-clusters .views-field-name .field-content.H {
+.view-clusters .views-field-name .field-content.H,
+.view-clusters .views-field-name-field .field-content.H {
   background-position: 0 -492px;
 }
 
-.view-clusters .views-field-name .field-content.IM {
+.view-clusters .views-field-name .field-content.IM,
+.view-clusters .views-field-name-field .field-content.IM {
   background-position: 0 -574px;
 }
 
-.view-clusters .views-field-name .field-content.L {
+.view-clusters .views-field-name .field-content.L,
+.view-clusters .views-field-name-field .field-content.L {
   background-position: 0 -656px;
 }
 
-.view-clusters .views-field-name .field-content.N {
+.view-clusters .views-field-name .field-content.N,
+.view-clusters .views-field-name-field .field-content.N {
   background-position: 0 -738px;
 }
 
-.view-clusters .views-field-name .field-content.P {
+.view-clusters .views-field-name .field-content.P,
+.view-clusters .views-field-name-field .field-content.P {
   background-position: 0 -820px;
 }
 
-.view-clusters .views-field-name .field-content.W {
+.view-clusters .views-field-name .field-content.W,
+.view-clusters .views-field-name-field .field-content.W {
   background-position: 0 -902px;
 }
 
