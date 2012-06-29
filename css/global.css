@@ -379,6 +379,15 @@ a.follow-link-this-site {
   padding: 0 10px 10px;
 }
 
+.pane-documents-home-reports .view-empty,
+.pane-documents-home-reports .view-content,
+.pane-maps-view-panel-pane-3 .view-empty,
+.pane-maps-view-panel-pane-3 .view-content,
+.pane-documents-home-featured .view-empty,
+.pane-documents-home-featured .view-content {
+  height: 240px;
+}
+
 .pane-maps-view-panel-pane-3 .views-field-field-doc-thumbnail,
 .pane-documents-home-featured .views-field-field-document-thumbnail{	
 	margin:auto;
