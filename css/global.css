@@ -361,6 +361,13 @@ a.follow-link-this-site {
   display: inline-block;
 }
 
+/* Events */
+.node-type-event .field-name-field-event-contact-person,
+.node-type-event .field-name-field-clusters {
+  margin-top: 1em;
+}
+
+
 /* Home page */
 .front #page-title {
   display: none;
