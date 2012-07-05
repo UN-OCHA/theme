@@ -25,73 +25,78 @@ function humanitarianresponse_preprocess_node(&$variables) {
         ->execute();
       $clusters =  taxonomy_term_load_multiple(array_keys($result['taxonomy_term']));
     
-      // Get list of content types checked
-      $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
-      $ctypes = array();
-      $headers = array('');
-      $rows = array();
-      foreach ($content_types as $ctype) {
-        $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
-        $ctypes[] = $tmp;
-        $headers[] = $tmp->name;
+      if (!isset($node->field_crf_req_contents[LANGUAGE_NONE])) {
+        $variables['crf_request_table'] = '';
       }
-      
-      foreach ($clusters as $cluster) {
-        $row = array($cluster->name);
-        foreach ($ctypes as $ctype) {
-          $query = new EntityFieldQuery();
-          $result = $query
-            ->entityCondition('entity_type', 'node')
-            ->entityCondition('bundle', $ctype->type)
-            ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
-            ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
-            ->execute();
-          if (empty($result)) {
-            $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
-              array('query' => 
-                array(
-                  array('edit' => 
-                    array(
-                      'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
-                      'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
-                  ),
-                ),
-              )
-            );
-          }
-          else {
-            $nodes = node_load_multiple(array_keys($result['node']));
-            $content_node = reset($nodes);
-            $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
-            switch ($workflow->state) {
-              case 'Save Draft':
-                $txt = 'In Progress';
-                $class = 'in-progress';
-                break;
-              case 'Submit':
-                $txt = 'Submitted';
-                $class = 'submitted';
-                break;
-              case 'Approve':
-                $txt = 'Approved';
-                $class = 'approved';
-                break;
-            }
-            $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
-          }
+      else {
+        // Get list of content types checked
+        $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
+        $ctypes = array();
+        $headers = array('');
+        $rows = array();
+        foreach ($content_types as $ctype) {
+          $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
+          $ctypes[] = $tmp;
+          $headers[] = $tmp->name;
         }
-        $rows[] = $row;
-      }
+      
+        foreach ($clusters as $cluster) {
+          $row = array($cluster->name);
+          foreach ($ctypes as $ctype) {
+            $query = new EntityFieldQuery();
+            $result = $query
+              ->entityCondition('entity_type', 'node')
+              ->entityCondition('bundle', $ctype->type)
+              ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
+              ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
+              ->execute();
+            if (empty($result)) {
+              $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
+                array('query' => 
+                  array(
+                    array('edit' => 
+                      array(
+                        'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
+                        'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
+                    ),
+                  ),
+                )
+              );
+            }
+            else {
+              $nodes = node_load_multiple(array_keys($result['node']));
+              $content_node = reset($nodes);
+              $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
+              switch ($workflow->state) {
+                case 'Save Draft':
+                  $txt = 'In Progress';
+                  $class = 'in-progress';
+                  break;
+                case 'Submit':
+                  $txt = 'Submitted';
+                  $class = 'submitted';
+                  break;
+                case 'Approve':
+                  $txt = 'Approved';
+                  $class = 'approved';
+                  break;
+              }
+              $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
+            }
+          }
+          $rows[] = $row;
+        }
     
-      $variables['crf_request_table'] = theme('table', array(
-        'header' => $headers,
-        'rows' => $rows,
-        'attributes' => array(),
-        'caption' => '',
-        'colgroups' => array(),
-        'sticky' => array(),
-        'empty' => array(),
-      ));
+        $variables['crf_request_table'] = theme('table', array(
+          'header' => $headers,
+          'rows' => $rows,
+          'attributes' => array(),
+          'caption' => '',
+          'colgroups' => array(),
+          'sticky' => array(),
+          'empty' => array(),
+        ));
+      }
 
       break;
   }
