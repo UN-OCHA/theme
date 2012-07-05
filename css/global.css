@@ -96,6 +96,10 @@ img {
   padding: 5px;
 }
 
+.openlayers-map img {
+  padding: 0;
+}
+
 tr:hover td,
 tr.even:hover td.active,
 tr.odd:hover td.active {
