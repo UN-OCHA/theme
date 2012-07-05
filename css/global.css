@@ -120,6 +120,10 @@ tr.odd:hover td.active {
   min-width: 100px;
 }
 
+.field-items {
+  margin-left: 5px;
+}
+
 .fieldset-legend {
   font-weight: bold;
 }
