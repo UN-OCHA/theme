@@ -117,7 +117,7 @@ tr.odd:hover td.active {
 }
 
 .field-label-inline .field-label {
-  min-width: 100px;
+  min-width: 120px;
 }
 
 .field-items {
