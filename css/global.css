@@ -653,12 +653,6 @@ div.feed-icon {
 	padding:5px;
 	border:solid 1px #E6E7E8;
 }
-#block-menu-menu-cluster .block-inner{				/* Customize Cluster sub-menu for internal pages*/
-	padding-left:5px;
-	padding-right: 5px;
-	margin-bottom:14px;
-	border:solid 1px #E6E7E8;
-}
 
 #block-menu-menu-cluster ul li.leaf {
     list-style-image: none;
@@ -668,7 +662,9 @@ div.feed-icon {
     margin: 0 0 0 0;
 }
 
-#block-views-funding-block .block-inner{			/* Customize Funding block menu for internal pages*/
+#block-menu-menu-cluster .block-inner,
+#block-views-funding-block .block-inner, 
+#block-views-emergencies-block .block-inner {			/* Customize Funding block menu for internal pages*/
 	padding-left:5px;
 	padding-right: 5px;
 	margin-bottom:14px;
