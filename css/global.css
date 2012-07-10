@@ -373,7 +373,6 @@ a.follow-link-this-site {
   display: none;
 }
 
-.front .view-maps-view .view-content,
 .front .view-documents .view-content {
   min-height: 142px;
 }
@@ -390,7 +389,7 @@ a.follow-link-this-site {
 .pane-maps-view-panel-pane-3,
 .pane-documents-home-featured {			/* border, height and padding */
   border: 1px solid #E6E7E8;
-  height: 300px;
+  height: 350px;
   padding: 0 10px 10px;
 }
 
@@ -400,13 +399,13 @@ a.follow-link-this-site {
 .pane-maps-view-panel-pane-3 .view-content,
 .pane-documents-home-featured .view-empty,
 .pane-documents-home-featured .view-content {
-  height: 240px;
+  height: 290px;
 }
 
 .pane-maps-view-panel-pane-3 .views-field-field-doc-thumbnail,
 .pane-documents-home-featured .views-field-field-document-thumbnail{	
 	margin:auto;
-    text-align: center;	
+  text-align: center;	
 }
 
 .pane-boxes-home-calendar img,
