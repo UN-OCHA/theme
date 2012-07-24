@@ -169,3 +169,14 @@ section.block-superfish {
 .sf-menu.sf-style-none li {
   background: white;
 }
+
+/** Fix for IE 7 **/
+#zone-menu-wrapper {
+  position: relative;
+  z-index: 5;
+}
+
+#section-content {
+  z-index: 1;
+}
+
