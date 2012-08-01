@@ -500,6 +500,14 @@ a.follow-link-this-site {
   height: 32px
 }
 
+.view-clusters td:hover {
+  background-color: #BA3538;
+}
+
+.view-clusters td:hover a {
+  color: #FFFFFF;
+}
+
 .view-clusters .views-field-name .field-content.CM,
 .view-clusters .views-field-name-field .field-content.CM {
   background-position: 0 0;
