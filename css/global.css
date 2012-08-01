@@ -500,7 +500,8 @@ a.follow-link-this-site {
   height: 32px
 }
 
-.view-clusters td:hover {
+.view-clusters tr.even:hover td.active,
+.view-cluster tr.odd:hover td.active {
   background-color: #BA3538;
 }
 
