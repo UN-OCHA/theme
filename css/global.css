@@ -510,13 +510,13 @@ a.follow-link-this-site {
   background-position: 0 -82px;
 }
 
-.view-clusters .views-field-name .field-content.ES,
-.view-clusters .views-field-name-field .field-content.ES {
+.view-clusters .views-field-name .field-content.ER,
+.view-clusters .views-field-name-field .field-content.ER {
   background-position: 0 -164px;
 }
 
-.view-clusters .views-field-name .field-content.ER,
-.view-clusters .views-field-name-field .field-content.ER {
+.view-clusters .views-field-name .field-content.ES,
+.view-clusters .views-field-name-field .field-content.ES {
   background-position: 0 -246px;
 }
 
