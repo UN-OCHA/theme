@@ -516,7 +516,7 @@ a.follow-link-this-site {
 }
 
 .view-clusters td:hover .views-field-name .field-content.CM,
-.view-clusters td:hover .views-field-name-field .field-content.CM {
+.view-clusters div.views-row:hover .views-field-name-field .field-content.CM {
   background-position: -32px 0;
 }
 
