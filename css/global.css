@@ -523,7 +523,7 @@ a.follow-link-this-site {
   background-position: 0 -82px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.E,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.E,
 .view-clusters td:hover .views-field-name-field .field-content.E {
   background-position: -32px -82px;
 }
@@ -532,7 +532,7 @@ a.follow-link-this-site {
   background-position: 0 -164px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.ER,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ER,
 .view-clusters td:hover .views-field-name-field .field-content.ER {
   background-position: -32px -164px;
 }
@@ -541,7 +541,7 @@ a.follow-link-this-site {
   background-position: 0 -246px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.ES,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ES,
 .view-clusters td:hover .views-field-name-field .field-content.ES {
   background-position: -32px -246px;
 }
@@ -550,7 +550,7 @@ a.follow-link-this-site {
   background-position: 0 -328px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.ET,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ET,
 .view-clusters td:hover .views-field-name-field .field-content.ET {
   background-position: -32px -328px;
 }
@@ -559,7 +559,7 @@ a.follow-link-this-site {
   background-position: 0 -410px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.FS,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.FS,
 .view-clusters td:hover .views-field-name-field .field-content.FS {
   background-position: -32px -410px;
 }
@@ -568,7 +568,7 @@ a.follow-link-this-site {
   background-position: 0 -492px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.H,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.H,
 .view-clusters td:hover .views-field-name-field .field-content.H {
   background-position: -32px -492px;
 }
@@ -577,7 +577,7 @@ a.follow-link-this-site {
   background-position: 0 -574px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.IM,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.IM,
 .view-clusters td:hover .views-field-name-field .field-content.IM {
   background-position: -32px -574px;
 }
@@ -586,7 +586,7 @@ a.follow-link-this-site {
   background-position: 0 -656px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.L,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.L,
 .view-clusters td:hover .views-field-name-field .field-content.L {
   background-position: -32px -656px;
 }
@@ -595,7 +595,7 @@ a.follow-link-this-site {
   background-position: 0 -738px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.N,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.N,
 .view-clusters td:hover .views-field-name-field .field-content.N {
   background-position: -32px -738px;
 }
@@ -604,7 +604,7 @@ a.follow-link-this-site {
   background-position: 0 -820px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.P,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.P,
 .view-clusters td:hover .views-field-name-field .field-content.P {
   background-position: -32px -820px;
 }
@@ -613,7 +613,7 @@ a.follow-link-this-site {
   background-position: 0 -902px;
 }
 
-.view-clusters td:hover .views-field-name .field-content.W,
+.view-clusters div.views-row:hover .views-field-name-field .field-content.W,
 .view-clusters td:hover .views-field-name-field .field-content.W {
   background-position: -32px -902px;
 }
