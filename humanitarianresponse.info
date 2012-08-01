@@ -46,6 +46,14 @@ css[menu.css][description] = 'This file holds styles for the main menu, based on
 css[clusters_hr_info.css][name] = 'Clusters styles'
 css[clusters_hr_info.css][description] = 'This file holds specific styles for the clusters.humanitarianresponse.info site.'
 
+; LIBRARIES
+libraries[hr_mobilemenu][name] = Mobile Menu
+libraries[hr_mobilemenu][description] = Provides a tiny JavaScript library for mobile menus.
+libraries[hr_mobilemenu][js][0][file] = jquery.mobilemenu.js
+libraries[hr_mobilemenu][js][0][options][weight] = -17
+libraries[hr_mobilemenu][js][1][file] = hr_mobilemenu.js
+libraries[hr_mobilemenu][js][1][options][weight] = -17
+
 
 ; FEATURES
 features[] = logo
@@ -85,6 +93,7 @@ settings[alpha_viewport_user_scaleable] = ''
 settings[alpha_libraries][omega_formalize] = 'omega_formalize'
 settings[alpha_libraries][omega_equalheights] = ''
 settings[alpha_libraries][omega_mediaqueries] = 'omega_mediaqueries'
+settings[alpha_libraries][hr_mobilemenu] = 'hr_mobilemenu'
 settings[alpha_css][alpha-reset.css] = 'alpha-reset.css'
 settings[alpha_css][alpha-mobile.css] = 'alpha-mobile.css'
 settings[alpha_css][alpha-alpha.css] = 'alpha-alpha.css'

@@ -151,6 +151,11 @@ h1.page-title {
 	float:left;
 }
 
+/* Hide main menu */
+#block-superfish-1 {
+  display: none;
+}
+
 /* Blocks */
 .pane-block,
 .block {

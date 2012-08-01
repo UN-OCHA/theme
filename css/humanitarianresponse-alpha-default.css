@@ -1,3 +1,12 @@
 /* Default style for website appearance
 This file will hold styles that are loaded using the same media query as the narrow grid. */
 
+/* Show main menu */
+#block-superfish-1 {
+  display: block;
+}
+
+/* Hide select menu */
+#main-menu-mobile {
+  display: none;
+}
