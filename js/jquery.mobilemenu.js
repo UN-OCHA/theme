@@ -37,8 +37,13 @@
                 liElems.each(function () {
 
                     var aElem = $(this).find("a").first();
-                    if (MENU.optionsList.indexOf("'" + aElem.attr("href") + "'") == -1)
-                        MENU.optionsList += "<option value='" + aElem.attr("href") + "'>" + spaces + aElem.text() + "</option> \n";
+                    if (MENU.optionsList.indexOf("'" + aElem.attr("href") + "'") == -1) {
+                        MENU.optionsList += "<option value='" + aElem.attr("href") + "'";
+                        if (aElem.hasClass('active')) {
+                          MENU.optionsList += " selected ";
+                        }
+                        MENU.optionsList += "'>" + spaces + aElem.text() + "</option> \n";
+                      }
 
                     // recursively get next level of li tags
                     if (level < maxLevel)
