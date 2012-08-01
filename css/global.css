@@ -500,11 +500,13 @@ a.follow-link-this-site {
   height: 32px
 }
 
-.view-clusters .views-view-grid td:hover {
+.view-clusters .views-view-grid td:hover,
+.view-clusters div.views-row:hover  {
   background-color: #BA3538;
 }
 
-.view-clusters td:hover a {
+.view-clusters td:hover a,
+.view-clusters div.views-row:hover a {
   color: #FFFFFF;
 }
 
