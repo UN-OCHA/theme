@@ -495,7 +495,7 @@ a.follow-link-this-site {
 .view-clusters .views-field-name-field .field-content {
   background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite_32.png') no-repeat top left;
   display: block;
-  background-size: 32px;
+  background-size: 64px;
   padding-left: 32px;
   height: 32px
 }
@@ -507,7 +507,7 @@ a.follow-link-this-site {
 
 .view-clusters .views-field-name .field-content.ER,
 .view-clusters .views-field-name-field .field-content.ER {
-  background-position: 0 -82px;
+  background-position: 0 -328px;
 }
 
 .view-clusters .views-field-name .field-content.ES,
@@ -522,7 +522,7 @@ a.follow-link-this-site {
 
 .view-clusters .views-field-name .field-content.E,
 .view-clusters .views-field-name-field .field-content.E {
-  background-position: 0 -328px;
+  background-position: 0 -82px;
 }
 
 .view-clusters .views-field-name .field-content.FS,
