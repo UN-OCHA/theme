@@ -505,9 +505,9 @@ a.follow-link-this-site {
   background-position: 0 0;
 }
 
-.view-clusters .views-field-name .field-content.ER,
-.view-clusters .views-field-name-field .field-content.ER {
-  background-position: 0 -328px;
+.view-clusters .views-field-name .field-content.E,
+.view-clusters .views-field-name-field .field-content.E {
+  background-position: 0 -82px;
 }
 
 .view-clusters .views-field-name .field-content.ES,
@@ -515,14 +515,14 @@ a.follow-link-this-site {
   background-position: 0 -164px;
 }
 
-.view-clusters .views-field-name .field-content.ET,
-.view-clusters .views-field-name-field .field-content.ET {
+.view-clusters .views-field-name .field-content.ER,
+.view-clusters .views-field-name-field .field-content.ER {
   background-position: 0 -246px;
 }
 
-.view-clusters .views-field-name .field-content.E,
-.view-clusters .views-field-name-field .field-content.E {
-  background-position: 0 -82px;
+.view-clusters .views-field-name .field-content.ET,
+.view-clusters .views-field-name-field .field-content.ET {
+  background-position: 0 -328px;
 }
 
 .view-clusters .views-field-name .field-content.FS,
