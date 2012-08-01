@@ -206,14 +206,6 @@ h2.node-title a:visited {
 	list-style-type:none;
 }
 /* Search form */
-#region-user-second {
-  float: right;
-  margin-top: -50px;
-  overflow: hidden;
-  text-align: right;
-  top: 50px;
-  z-index: 2;
-}
 .search-form {
 	margin-bottom:0;
 }
