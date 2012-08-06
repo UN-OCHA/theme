@@ -232,5 +232,5 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  debug($vars);
+  debug($vars['block']);
 }
