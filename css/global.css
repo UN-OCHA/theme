@@ -385,7 +385,7 @@ a.follow-link-this-site {
 }
 
 .pane-documents-home-reports,
-.pane-maps-view-panel-pane-3,
+#block-views-maps-view-visuals-home,
 .pane-documents-home-featured {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   height: 350px;
@@ -394,14 +394,14 @@ a.follow-link-this-site {
 
 .pane-documents-home-reports .view-empty,
 .pane-documents-home-reports .view-content,
-.pane-maps-view-panel-pane-3 .view-empty,
-.pane-maps-view-panel-pane-3 .view-content,
+#block-views-maps-view-visuals-home .view-empty,
+#block-views-maps-view-visuals-home .view-content,
 .pane-documents-home-featured .view-empty,
 .pane-documents-home-featured .view-content {
   height: 290px;
 }
 
-.pane-maps-view-panel-pane-3 .views-field-field-doc-thumbnail,
+#block-views-maps-view-visuals-home .views-field-field-doc-thumbnail,
 .pane-documents-home-featured .views-field-field-document-thumbnail{	
 	margin:auto;
   text-align: center;	
