@@ -499,7 +499,7 @@ a.follow-link-this-site {
   height: 32px
 }
 
-.view-clusters .views-view-grid li:hover,
+.view-clusters li:hover,
 .view-clusters div.views-row:hover  {
   background-color: #BA3538;
 }
