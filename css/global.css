@@ -438,7 +438,7 @@ a.follow-link-this-site {
   border:0.2em solid #B91222;
   background: #F2EEED;
 }
-#block-views-documents-documents-home-key h2.pane-title{
+#block-views-documents-documents-home-key h2.block-title {
 	color:#B91222;
 	border-bottom: 1px solid #B91222;
 }
