@@ -499,6 +499,10 @@ a.follow-link-this-site {
   height: 32px
 }
 
+.view-clusters ul {
+  list-style-type: none;
+}
+
 .view-clusters li:hover,
 .view-clusters div.views-row:hover  {
   background-color: #BA3538;
