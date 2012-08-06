@@ -407,22 +407,22 @@ a.follow-link-this-site {
   text-align: center;	
 }
 
-.pane-boxes-home-calendar img,
-.pane-boxes-home-cod img { 			/* Customize calendar-COD on right sidebar*/
+#boxes-box-home_calendar img,
+#boxes-box-home_cod img { 			/* Customize calendar-COD on right sidebar*/
 	width:40px;
 	height:40px;
 	float:left;
 }
-.pane-boxes-home-calendar p,
-.pane-boxes-home-cod p { 			
+#boxes-box-home_calendar p,
+#boxes-box-home_cod p { 			
 	text-align:left;
 }
-.pane-boxes-home-calendar a, 
-.pane-boxes-home-calendar a:link, 
-.pane-boxes-home-calendar a:visited,
-.pane-boxes-home-cod a,
-.pane-boxes-home-cod a:link,
-.pane-boxes-home-cod a:visited {
+#boxes-box-home_calendar a, 
+#boxes-box-home_calendar a:link, 
+#boxes-box-home_calendar a:visited,
+#boxes-box-home_cod a,
+#boxes-box-home_cod a:link,
+#boxes-box-home_cod a:visited {
     color: #B91222;
 }
 .pane-documents-home-key,
