@@ -235,7 +235,6 @@ function humanitarianresponse_preprocess_block(&$vars) {
   if ($vars['block']->module == 'views') {
     switch ($vars['block']->delta) {
       case 'documents-documents_home_rep':
-        debug($vars['classes_array']);
         $vars['classes_array'][] = 'grid-4';
         $vars['classes_array'][] = 'alpha';
         break;
@@ -247,5 +246,6 @@ function humanitarianresponse_preprocess_block(&$vars) {
         $vars['classes_array'][] = 'omega';
         break;
     }
+    debug($vars['classes_array']);
   }
 }
