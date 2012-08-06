@@ -655,7 +655,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 
 /* Customize view-content*/
-#block-system-main .view-content .views-row {				/* to display line dotted for views items*/
+#block-system-main .view-content .views-row,
+.front .view-content .views-row {				/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
   padding-bottom:5px;
   padding-top:5px;
@@ -663,7 +664,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
   list-style: none;
 }
 
-#block-system-main .view-content .views-row-last {			/* to not display line dotted for last views item*/
+#block-system-main .view-content .views-row-last,
+.front .view-content .views-row-last {			/* to not display line dotted for last views item*/
   border-bottom: none;
 }
 
