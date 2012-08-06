@@ -389,7 +389,7 @@ a.follow-link-this-site {
 #block-views-documents-documents-home-feat {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   height: 350px;
-  padding: 0 10px 10px;
+  /*padding: 0 10px 10px;*/
 }
 
 #block-views-documents-documents-home-rep .view-empty,
