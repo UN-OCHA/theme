@@ -231,4 +231,6 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $vars['chart_id'] = $chart_id;
 }
 
-
+function humanitarianresponse_preprocess_block(&$vars) {
+  debug($vars);
+}
