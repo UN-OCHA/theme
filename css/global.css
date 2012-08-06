@@ -384,25 +384,25 @@ a.follow-link-this-site {
   display: none;
 }
 
-.pane-documents-home-reports,
+#block-views-documents-documents-home-rep,
 #block-views-maps-view-visuals-home,
-.pane-documents-home-featured {			/* border, height and padding */
+#block-views-documents-documents-home-feat {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   height: 350px;
   padding: 0 10px 10px;
 }
 
-.pane-documents-home-reports .view-empty,
-.pane-documents-home-reports .view-content,
+#block-views-documents-documents-home-rep .view-empty,
+#block-views-documents-documents-home-rep .view-content,
 #block-views-maps-view-visuals-home .view-empty,
 #block-views-maps-view-visuals-home .view-content,
-.pane-documents-home-featured .view-empty,
-.pane-documents-home-featured .view-content {
+#block-views-documents-documents-home-feat .view-empty,
+#block-views-documents-documents-home-feat .view-content {
   height: 290px;
 }
 
 #block-views-maps-view-visuals-home .views-field-field-doc-thumbnail,
-.pane-documents-home-featured .views-field-field-document-thumbnail{	
+#block-views-documents-documents-home-feat .views-field-field-document-thumbnail{	
 	margin:auto;
   text-align: center;	
 }
