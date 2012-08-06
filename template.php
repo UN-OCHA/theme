@@ -232,5 +232,17 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  debug($vars['block']);
+  if ($vars['block']->module == 'views') {
+    switch ($vars['block']->delta) {
+      case 'documents-documents_home_rep':
+        $vars['classes'] .= 'grid-4 alpha';
+        break;
+      case 'maps_view-visuals_home':
+        $vars['classes'] .= 'grid-4';
+        break;
+      case 'documents-documents_home_feat':
+        $vars['classes'] .= 'grid-4 omega';
+        break;
+    }
+  }
 }
