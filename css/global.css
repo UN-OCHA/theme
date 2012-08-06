@@ -384,12 +384,12 @@ a.follow-link-this-site {
   display: none;
 }
 
-#block-views-documents-documents-home-rep,
-#block-views-maps-view-visuals-home,
-#block-views-documents-documents-home-feat {			/* border, height and padding */
+#block-views-documents-documents-home-rep .block-innner,
+#block-views-maps-view-visuals-home .block-inner,
+#block-views-documents-documents-home-feat .block-inner {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   height: 350px;
-  /*padding: 0 10px 10px;*/
+  padding: 0 10px 10px;
 }
 
 #block-views-documents-documents-home-rep .view-empty,
