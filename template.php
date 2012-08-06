@@ -236,13 +236,15 @@ function humanitarianresponse_preprocess_block(&$vars) {
     switch ($vars['block']->delta) {
       case 'documents-documents_home_rep':
         debug($vars['classes_array']);
-        array_push($vars['classes_array'], 'grid-4', 'alpha');
+        $vars['classes_array'][] = 'grid-4';
+        $vars['classes_array'][] = 'alpha';
         break;
       case 'maps_view-visuals_home':
-        array_push($vars['classes_array'], 'grid-4');
+        $vars['classes_array'][] = 'grid-4';
         break;
       case 'documents-documents_home_feat':
-        array_push($vars['classes_array'], 'grid-4', 'omega');
+        $vars['classes_array'][] = 'grid-4';
+        $vars['classes_array'][] = 'omega';
         break;
     }
   }
