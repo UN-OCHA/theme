@@ -160,6 +160,8 @@ h1.page-title {
 .pane-block,
 .block {
   border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   /*padding:5px;*/
 }
 
