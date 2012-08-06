@@ -160,7 +160,7 @@ h1.page-title {
 .pane-block,
 .block {
   border: none;
-  padding:5px;
+  /*padding:5px;*/
 }
 
 h2.block-title,
