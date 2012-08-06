@@ -425,7 +425,8 @@ a.follow-link-this-site {
 #boxes-box-home_cod a:visited {
     color: #B91222;
 }
-.pane-documents-home-key,
+
+#block-views-documents-documents-home-key,
 .pane-news-panel-pane-2 {
 	padding:5px;
 	margin-bottom:14px;
@@ -433,28 +434,28 @@ a.follow-link-this-site {
 	border:solid 0.2em #E6E7E8;
 }
 
-.pane-documents-home-key {/* Customize Key documents block*/
+#block-views-documents-documents-home-key {/* Customize Key documents block*/
   border:0.2em solid #B91222;
   background: #F2EEED;
 }
-.pane-documents-home-key h2.pane-title{
+#block-views-documents-documents-home-key h2.pane-title{
 	color:#B91222;
 	border-bottom: 1px solid #B91222;
 }
 
-.pane-documents-home-key th {
+#block-views-documents-documents-home-key th {
   display: none;
 }
 
-.pane-documents-home-key tr.odd td,
-.pane-documents-home-key tr.odd,
-.pane-documents-home-key tr.even td,
-.pane-documents-home-key tr.even {
+#block-views-documents-documents-home-key tr.odd td,
+#block-views-documents-documents-home-key tr.odd,
+#block-views-documents-documents-home-key tr.even td,
+#block-views-documents-documents-home-key tr.even {
   background: transparent;
   border: none;
 }
 
-.pane-documents-home-key .more-link a{ 			/* Customize More link on Key documents*/
+#block-views-documents-documents-home-key .more-link a{ 			/* Customize More link on Key documents*/
   border-top:2px solid #B91222;
   border-left: 2px solid #B91222;
   background-color:#FFFFFF;
