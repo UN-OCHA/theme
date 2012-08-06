@@ -479,7 +479,7 @@ a.follow-link-this-site {
 }
 
 #block-views-news-news-home .views-row {
-  min-height: 1.5em;
+  min-height: 2em;
   clear: both;
 }
 
@@ -665,7 +665,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 }
 
 #block-system-main .view-content .views-row-last,
-.front .view-content .views-row-last {			/* to not display line dotted for last views item*/
+.front .view-content .views-row-last,
+.front .view-clusters .views-row {			/* to not display line dotted for last views item*/
   border-bottom: none;
 }
 
