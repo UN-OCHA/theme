@@ -235,17 +235,16 @@ function humanitarianresponse_preprocess_block(&$vars) {
   if ($vars['block']->module == 'views') {
     switch ($vars['block']->delta) {
       case 'documents-documents_home_rep':
-        $vars['classes_array'][] = 'grid-4';
-        $vars['classes_array'][] = 'alpha';
+        $vars['attributes_array']['class'][] = 'grid-4';
+        $vars['attributes_array']['class'][] = 'alpha';
         break;
       case 'maps_view-visuals_home':
-        $vars['classes_array'][] = 'grid-4';
+        $vars['attributes_array']['class'][] = 'grid-4';
         break;
       case 'documents-documents_home_feat':
-        $vars['classes_array'][] = 'grid-4';
-        $vars['classes_array'][] = 'omega';
+        $vars['attributes_array']['class'][] = 'grid-4';
+        $vars['attributes_array']['class'][] = 'omega';
         break;
     }
-    debug($vars['classes_array']);
   }
 }
