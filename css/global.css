@@ -741,21 +741,17 @@ div.feed-icon {
 }
 
 .not-front .view-maps-view .views-row {
-  min-height: 200px;
+  min-height: 160px;
 }
 
-/*.view-id-clusters .item-list ul li img{
-	width:50px;
-	height:50px;
-}*/
-
-.pager {									/*Customize pagers*/
+/* Customize pagers */
+.pager {
 	background: #E6E7E8;
-    border:none;
+  border:none;
 }
 .pager li {											
-    color: #232323;
-    font: normal 12px Arial,sans-serif;
+  color: #232323;
+  font: normal 12px Arial,sans-serif;
 }
 .pager li a{											
 	background:none;
@@ -770,7 +766,7 @@ div.feed-icon {
 .pager li.pager-previous a, 
 .pager li.pager-next a, 
 .pager li.pager-last a {
-    width: 60px;
+  width: 60px;
 }
 
 /* Customize Assessment registry*/
