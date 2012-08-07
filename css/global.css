@@ -735,18 +735,19 @@ div.feed-icon {
   list-style-type: none;
 }
 
-.not-front .view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
+/* Customize map page*/
+.not-front .view-maps-view .views-field-field-doc-thumbnail img{
 	float:left;
 }
 
-/*.view-id-clusters .views-row{
-	min-height:50px;
-}*/
+.not-front .view-maps-view .views-row {
+  min-height: 200px;
+}
 
-.view-id-clusters .item-list ul li img{
+/*.view-id-clusters .item-list ul li img{
 	width:50px;
 	height:50px;
-}
+}*/
 
 .pager {									/*Customize pagers*/
 	background: #E6E7E8;
