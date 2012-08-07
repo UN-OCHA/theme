@@ -739,13 +739,13 @@ div.feed-icon {
 	font-weight:bold;
 }
 
-#region-sidebar-second {							/* Customize filter on right sidebar*/
+.not-front #region-sidebar-second {							/* Customize filter on right sidebar*/
 	background:#E6E7E8;
 	border:O.1em solid #ccc;
 	margin-bottom:10px;
 }
 
-#region-sidebar-second h2.block-title{
+.not-front #region-sidebar-second h2.block-title{
 	background:#F4F8F7;
 }
 
