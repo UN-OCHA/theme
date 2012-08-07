@@ -162,7 +162,6 @@ h1.page-title {
   border: none;
   padding-top: 5px;
   padding-bottom: 5px;
-  /*padding:5px;*/
 }
 
 h2.block-title,
@@ -699,8 +698,8 @@ div.feed-icon {
     padding: 3px 5px 2px;
 }
 
-.panels-flexible-column-new-6 .pane-views-panes {		/* Customize internal pages/right sidebar*/
-	padding-left:5px;
+/*.panels-flexible-column-new-6 .pane-views-panes {		/* Customize internal pages/right sidebar*/
+/*	padding-left:5px;
 	padding-right: 5px;
 	margin-bottom:14px;
 	border:solid 1px #E6E7E8;
@@ -712,7 +711,7 @@ div.feed-icon {
 .panels-flexible-column-new-6 {
     float: left;
     width: 30%;
-}
+}*/
 #block-views-clusters-block .block-inner {			/* Customize Cluster menu for internal pages*/
 	padding:5px;
 	border:solid 1px #E6E7E8;
@@ -735,9 +734,9 @@ div.feed-icon {
 	border:solid 1px #E6E7E8;
 }
 
-.panels-flexible-region-new-right .pane-views-panes .pane-title{
+/*.panels-flexible-region-new-right .pane-views-panes .pane-title{
 	font-weight:bold;
-}
+}*/
 
 .not-front #region-sidebar-second {							/* Customize filter on right sidebar*/
 	background:#E6E7E8;
@@ -754,12 +753,10 @@ div.feed-icon {
   list-style-type: none;
 }
 
-.view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
+.not-front .view-maps-view .views-field-field-doc-thumbnail img{	/* Customize map page*/
 	float:left;
 }
-.pane-maps-view-panel-pane-3 .views-field-field-doc-thumbnail img {
-    float: none;
-}
+
 /*.view-id-clusters .views-row{
 	min-height:50px;
 }*/
