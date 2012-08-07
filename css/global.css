@@ -698,20 +698,6 @@ div.feed-icon {
     padding: 3px 5px 2px;
 }
 
-/*.panels-flexible-column-new-6 .pane-views-panes {		/* Customize internal pages/right sidebar*/
-/*	padding-left:5px;
-	padding-right: 5px;
-	margin-bottom:14px;
-	border:solid 1px #E6E7E8;
-}
-.panels-flexible-column-new-4 {
-    float: left;
-    width: 70%;
-}
-.panels-flexible-column-new-6 {
-    float: left;
-    width: 30%;
-}*/
 #block-views-clusters-block .block-inner {			/* Customize Cluster menu for internal pages*/
 	padding:5px;
 	border:solid 1px #E6E7E8;
@@ -733,10 +719,6 @@ div.feed-icon {
 	margin-bottom:14px;
 	border:solid 1px #E6E7E8;
 }
-
-/*.panels-flexible-region-new-right .pane-views-panes .pane-title{
-	font-weight:bold;
-}*/
 
 .not-front #region-sidebar-second {							/* Customize filter on right sidebar*/
 	background:#E6E7E8;
