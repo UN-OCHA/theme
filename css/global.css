@@ -302,6 +302,10 @@ a.follow-link-this-site {
   color: #B91222;
 }
 
+#region-menu .region-inner {
+  text-align: center;
+}
+
 /* Postscript zone */
 #zone-postscript {
   border-top: solid 3px #E6E7E8;
