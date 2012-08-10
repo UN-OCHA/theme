@@ -112,6 +112,10 @@ tr.odd:hover td.active {
   background: none;
 }
 
+.openlayers-map td {
+  color: #232323;
+}
+
 .sharethis-buttons, .node-links {
 	margin-left:10px;
 }
