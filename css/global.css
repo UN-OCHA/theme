@@ -696,6 +696,11 @@ div.feed-icon {
   text-align: right;
 }
 
+/* Search page */
+div.search-api-page a.feed-icon {
+  float: right;
+}
+
 .node-links ul li a, .comment-links ul li a {
     background: none;
     border: none;
