@@ -247,7 +247,8 @@ h2.node-title a:visited {
   text-align: right;
 }
 
-#block-user-login h2.block-title {
+#block-user-login h2.block-title,
+#block-browserid-login h2.block-title {
   display: none;
 }
 
