@@ -13,88 +13,96 @@
 
 function humanitarianresponse_preprocess_node(&$variables) {
   $node = $variables['node'];
+  $callback = 'humanitarianresponse_preprocess_' . $node->type;
   switch ($node->type) {
     case 'crf_request':
+    case 'indicator_data_batch':
+      return $callback($node, $variables);
+  }
+}
 
-      // Get list of clusters
-      $voc = taxonomy_vocabulary_machine_name_load('clusters');
+function humanitarianresponse_preprocess_crf_request($node, &$variables) {
+  // Get list of clusters
+  $voc = taxonomy_vocabulary_machine_name_load('clusters');
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'taxonomy_term')
+    ->propertyCondition('vid', $voc->vid)
+    ->execute();
+  $clusters =  taxonomy_term_load_multiple(array_keys($result['taxonomy_term']));
+
+  // Get list of content types checked
+  $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
+  $ctypes = array();
+  $headers = array('');
+  $rows = array();
+  foreach ($content_types as $ctype) {
+    $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
+    $ctypes[] = $tmp;
+    $headers[] = $tmp->name;
+  }
+  
+  foreach ($clusters as $cluster) {
+    $row = array($cluster->name);
+    foreach ($ctypes as $ctype) {
       $query = new EntityFieldQuery();
       $result = $query
-        ->entityCondition('entity_type', 'taxonomy_term')
-        ->propertyCondition('vid', $voc->vid)
+        ->entityCondition('entity_type', 'node')
+        ->entityCondition('bundle', $ctype->type)
+        ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
+        ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
         ->execute();
-      $clusters =  taxonomy_term_load_multiple(array_keys($result['taxonomy_term']));
-    
-      // Get list of content types checked
-      $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
-      $ctypes = array();
-      $headers = array('');
-      $rows = array();
-      foreach ($content_types as $ctype) {
-        $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
-        $ctypes[] = $tmp;
-        $headers[] = $tmp->name;
-      }
-      
-      foreach ($clusters as $cluster) {
-        $row = array($cluster->name);
-        foreach ($ctypes as $ctype) {
-          $query = new EntityFieldQuery();
-          $result = $query
-            ->entityCondition('entity_type', 'node')
-            ->entityCondition('bundle', $ctype->type)
-            ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
-            ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
-            ->execute();
-          if (empty($result)) {
-            $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
-              array('query' => 
+      if (empty($result)) {
+        $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
+          array('query' => 
+            array(
+              array('edit' => 
                 array(
-                  array('edit' => 
-                    array(
-                      'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
-                      'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
-                  ),
-                ),
-              )
-            );
-          }
-          else {
-            $nodes = node_load_multiple(array_keys($result['node']));
-            $content_node = reset($nodes);
-            $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
-            switch ($workflow->state) {
-              case 'Save Draft':
-                $txt = 'In Progress';
-                $class = 'in-progress';
-                break;
-              case 'Submit':
-                $txt = 'Submitted';
-                $class = 'submitted';
-                break;
-              case 'Approve':
-                $txt = 'Approved';
-                $class = 'approved';
-                break;
-            }
-            $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
-          }
-        }
-        $rows[] = $row;
+                  'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
+                  'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
+              ),
+            ),
+          )
+        );
       }
-    
-      $variables['crf_request_table'] = theme('table', array(
-        'header' => $headers,
-        'rows' => $rows,
-        'attributes' => array(),
-        'caption' => '',
-        'colgroups' => array(),
-        'sticky' => array(),
-        'empty' => array(),
-      ));
-
-      break;
+      else {
+        $nodes = node_load_multiple(array_keys($result['node']));
+        $content_node = reset($nodes);
+        $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
+        switch ($workflow->state) {
+          case 'Save Draft':
+            $txt = 'In Progress';
+            $class = 'in-progress';
+            break;
+          case 'Submit':
+            $txt = 'Submitted';
+            $class = 'submitted';
+            break;
+          case 'Approve':
+            $txt = 'Approved';
+            $class = 'approved';
+            break;
+        }
+        $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
+      }
+    }
+    $rows[] = $row;
   }
+
+  $variables['crf_request_table'] = theme('table', array(
+    'header' => $headers,
+    'rows' => $rows,
+    'attributes' => array(),
+    'caption' => '',
+    'colgroups' => array(),
+    'sticky' => array(),
+    'empty' => array(),
+  ));
+}
+
+function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
+  $variables['print_link'] = print_insert_link(NULL, $node);
+  $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
 }
 
 function humanitarianresponse_breadcrumb($variables) {
@@ -248,3 +256,4 @@ function humanitarianresponse_preprocess_block(&$vars) {
     }
   }
 }
+
