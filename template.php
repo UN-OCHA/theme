@@ -226,6 +226,13 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   	}
   }
 
+  // Assign field labels
+  foreach (array_keys($vars['fields']) as $field_name) {
+    if (array_key_exists($field_name, $data)) {
+      $info = field_info_instance('node', $field_name, 'indicator_data');
+      $vars['fields'][$field_name]['label'] = $info['label'];
+    }
+  }
 
 	if (function_exists("highcharts_series_" . $options['format']['chart_type'])) {
 		//if there's a specialized data writer, return data from data writer
