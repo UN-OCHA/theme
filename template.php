@@ -101,7 +101,6 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
-  $variables['print_link'] = print_insert_link(NULL, $node);
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
 }
 
