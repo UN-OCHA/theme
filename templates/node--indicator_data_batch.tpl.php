@@ -96,7 +96,9 @@
   <?php endif; ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
-    <?php print $print_link; ?>
+    <?php if (isset($print_link)) : ?>
+      <?php print $print_link; ?>
+    <?php endif; ?>
     <?php print $indicator_data_batch_table; ?>
   </div>
 
