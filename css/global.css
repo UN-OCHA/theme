@@ -155,6 +155,12 @@ h1.page-title {
 	float:left;
 }
 
+/* Iframe: used when the URL has iframe = true */
+.iframe .breadcrumb,
+.iframe .region-menu {
+  display: none;
+}
+
 /* Hide main menu */
 #block-superfish-1 {
   display: none;
