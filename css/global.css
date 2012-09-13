@@ -217,7 +217,33 @@ h2.node-title a:visited {
 	list-style-type:none;
 }
 /* Search form */
-.search-form {
+#block-views-exp-search-page {
+  float: right;
+}
+
+#block-views-exp-search-page input[type="text"] {
+  background: none repeat scroll 0 0 #E6E7E8;
+  border: 1px solid #CCCCCC;
+  color: #232323;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 2px;
+  width: 150px;
+}
+
+#block-views-exp-search-page input[type="submit"] {
+  width: 16px;
+  height: 16px;
+  background-image: url('../images/search.png');
+  background-position: center;
+  border:none;
+  text-indent: -5000px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 0;
+}
+
+/*.search-form {
 	margin-bottom:0;
 }
 #block-search-form form input[type=text] {
@@ -244,7 +270,7 @@ h2.node-title a:visited {
 .dd_icon_right .ddChild a.selected,
 .dd_icon_right .ddChild a:hover {
   background-color: #B91222;
-}
+}*/
 
 /* User login block and logged in block */
 #block-user-login,
