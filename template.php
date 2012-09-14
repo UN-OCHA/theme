@@ -53,9 +53,11 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
         ->execute();
       if (empty($result)) {
-        $row[] = l(t('Add @ct', array('@ct' => $ctype->name)), 'node/add/'.str_replace('_', '-', $ctype->type), 
-          array('query' => 
-            array(
+        $label = t('Add @ct', array('@ct' => $ctype->name));
+        $plus_icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/plus.png', 'width' => '28', 'height' => '28', 'alt' => $label, 'title' => $label));
+        $row[] = l($plus_icon, 'node/add/' . str_replace('_', '-', $ctype->type), 
+          array('html' => TRUE,
+            'query' => array(
               array('edit' => 
                 array(
                   'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
@@ -72,18 +74,27 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         switch ($workflow->state) {
           case 'Save Draft':
             $txt = 'In Progress';
+            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
             $class = 'in-progress';
             break;
           case 'Submit':
             $txt = 'Submitted';
+            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
             $class = 'submitted';
             break;
-          case 'Approve':
-            $txt = 'Approved';
-            $class = 'approved';
+          case 'Finalise':
+            $txt = 'Finalised';
+            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+            $class = 'finalised';
+            break;
+          case 'Request Review':
+            $txt = 'Review Requested';
+            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-left.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+            $class = 'review-requested';
             break;
         }
-        $row[] = array('data' => l($txt, 'node/'.$content_node->nid), 'class' => $class);
+        $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+        $row[] = array('data' => $link, 'class' => $class);
       }
     }
     $rows[] = $row;

@@ -871,10 +871,11 @@ div.search-api-page a.feed-icon {
 	background-color: #666666;
 	color:#FFFFFF;
 }
-td.in-progress  {
+td.in-progress,
+td.review-requested  {
 	background-color: #FFFFCC !important;
 }
-td.approved  {
+td.finalised  {
 	background-color: #99CC99 !important;
 }
 #block-system-main td.submitted {
