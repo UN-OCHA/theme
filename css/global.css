@@ -157,7 +157,8 @@ h1.page-title {
 
 /* Iframe: used when the URL has iframe = true */
 .iframe .breadcrumb,
-.iframe .region-menu {
+.iframe .region-menu,
+.iframe .zone-user-wrapper {
   display: none;
 }
 
@@ -242,35 +243,6 @@ h2.node-title a:visited {
   display: block;
   margin-top: 0;
 }
-
-/*.search-form {
-	margin-bottom:0;
-}
-#block-search-form form input[type=text] {
-	padding:2px;
-	background:#E6E7E8;
-	border:1px solid #ccc;
-	color:#232323;
-	font-size:12px;
-	font-weight:normal;
-}
-#search-block-form .form-actions input {
-  margin-right: 0;
-}
-
-#block-lang-dropdown-language {
-  border: 0;
-  display: inline-block;
-}
-
-.dd_icon_right .ddTitle {
-  background: none;
-}
-
-.dd_icon_right .ddChild a.selected,
-.dd_icon_right .ddChild a:hover {
-  background-color: #B91222;
-}*/
 
 /* User login block and logged in block */
 #block-user-login,
