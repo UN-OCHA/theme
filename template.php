@@ -93,8 +93,13 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
             $class = 'review-requested';
             break;
         }
-        $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-        $row[] = array('data' => $link, 'class' => $class);
+        if (isset($icon)) {
+          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+          $row[] = array('data' => $link, 'class' => $class);
+        }
+        else {
+          $row[] = array();
+        }
       }
     }
     $rows[] = $row;
