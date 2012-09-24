@@ -126,6 +126,7 @@ tr.odd:hover td.active {
 
 .field-items {
   margin-left: 5px;
+  padding-bottom: 15px;
 }
 
 .fieldset-legend {

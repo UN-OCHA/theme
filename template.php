@@ -15,6 +15,8 @@ function humanitarianresponse_preprocess_node(&$variables) {
   $node = $variables['node'];
   $callback = 'humanitarianresponse_preprocess_' . $node->type;
   switch ($node->type) {
+    case 'assessments_batch':
+    case 'contacts_upload':
     case 'crf_request':
     case 'indicator_data_batch':
       return $callback($node, $variables);
@@ -39,7 +41,24 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   foreach ($content_types as $ctype) {
     $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
     $ctypes[] = $tmp;
-    $headers[] = $tmp->name;
+    switch ($tmp->name) {
+      case 'Situation Report':
+        $header_link = l($tmp->name, 'crf/cluster-content/hr_sitrep/' . $tmp->name);
+        break;
+      case 'Indicator Data':
+        $header_link = l($tmp->name, 'crf/indicator-data/table');
+        break;
+      case 'Sectoral Analysis':
+        $header_link = l($tmp->name, 'crf/cluster-content/sectoral_analysis/' . $tmp->name);
+        break;
+      case 'Contacts Upload':
+        $header_link = l($tmp->name, 'taxonomy/term/all/contacts');
+        break;
+      case 'Assessments':
+        $header_link = l($tmp->name, 'resources/assessment-registry');
+        break;
+    }
+    $headers[] = $header_link;
   }
   
   foreach ($clusters as $cluster) {
@@ -70,31 +89,40 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
       else {
         $nodes = node_load_multiple(array_keys($result['node']));
         $content_node = reset($nodes);
-        $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
-        switch ($workflow->state) {
-          case 'Save Draft':
-            $txt = 'In Progress';
-            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-            $class = 'in-progress';
-            break;
-          case 'Submit':
-            $txt = 'Submitted';
-            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-            $class = 'submitted';
-            break;
-          case 'Finalise':
-            $txt = 'Finalised';
-            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-            $class = 'finalised';
-            break;
-          case 'Request Review':
-            $txt = 'Review Requested';
-            $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-left.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-            $class = 'review-requested';
-            break;
+        if ($content_node->type == 'contacts_upload') {
+          $txt = 'Finalised';
+          $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+          $class = 'finalised';
         }
-        $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-        $row[] = array('data' => $link, 'class' => $class);
+        else {
+          $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
+          switch ($workflow->state) {
+            case 'Save Draft':
+              $txt = 'In Progress';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+              $class = 'in-progress';
+              break;
+            case 'Submit':
+              $txt = 'Submitted';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+              $class = 'submitted';
+              break;
+            case 'Finalise':
+              $txt = 'Finalised';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+              $class = 'finalised';
+              break;
+            case 'Request Review':
+              $txt = 'Review Requested';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-left.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
+              $class = 'review-requested';
+              break;
+          }
+        }
+        if (isset($icon)) {
+          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+          $row[] = array('data' => $link, 'class' => $class);
+        }
       }
     }
     $rows[] = $row;
@@ -111,6 +139,17 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   ));
 }
 
+function humanitarianresponse_preprocess_assessments_batch($node, &$variables) {
+  $variables['assessments_batch_table'] = views_embed_view('assessments_batch', 'table', $node->uuid);
+}
+
+function humanitarianresponse_preprocess_contacts_upload($node, &$variables) {
+  $cluster_tid = isset($node->field_cluster['und'][0]['tid']) ? $node->field_cluster['und'][0]['tid'] : NULL;
+  if ($cluster_tid) {
+    $variables['contacts_table'] = views_embed_view('contacts', 'page_2', $cluster_tid);
+  }
+}
+
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
 }
@@ -119,13 +158,15 @@ function humanitarianresponse_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   if (arg(0) == 'taxonomy' && arg(1) == 'term') {
     $tid = arg(2);
-    $term = taxonomy_term_load($tid);
-    $voc = taxonomy_vocabulary_load($term->vid);
-    if (($voc->machine_name == 'clusters' || $voc->machine_name == 'funding') && isset($breadcrumb[3])) {
-      unset($breadcrumb[3]);
-    }
-    elseif ($voc->machine_name == 'coordination_hubs' && isset($breadcrumb[4])) {
-      unset($breadcrumb[4]);
+    if ($tid != 'all') {
+      $term = taxonomy_term_load($tid);
+      $voc = taxonomy_vocabulary_load($term->vid);
+      if (($voc->machine_name == 'clusters' || $voc->machine_name == 'funding') && isset($breadcrumb[3])) {
+        unset($breadcrumb[3]);
+      }
+      elseif ($voc->machine_name == 'coordination_hubs' && isset($breadcrumb[4])) {
+        unset($breadcrumb[4]);
+      }
     }
   }
   elseif (arg(0) == 'search') {
@@ -235,6 +276,7 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   		$highcharts_config->xAxis->categories[] = $row["[".$options['x_axis']['dataset_label']."]"];		
   	}
   }
+
 
   // Assign field labels
   foreach (array_keys($vars['fields']) as $field_name) {
