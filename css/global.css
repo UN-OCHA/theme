@@ -541,11 +541,6 @@ a.follow-link-this-site {
   background-position: 0 0;
 }
 
-/*.view-clusters div.views-row:hover .views-field-name-field .field-content.CM,
-.view-clusters li:hover .views-field-name-field .field-content.CM {
-  background-position: -32px 0;
-}*/
-
 .view-clusters .views-field-name-field .field-content.E {
   background-position: 0 -82px;
 }
