@@ -510,9 +510,8 @@ a.follow-link-this-site {
 
 .view-clusters .views-field-name .field-content,
 .view-clusters .views-field-name-field .field-content {
-  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite_32.png') no-repeat top left;
+  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/red/sprite.png') no-repeat top left;
   display: block;
-  background-size: 64px;
   padding-left: 32px;
   height: 32px
 }
@@ -531,113 +530,118 @@ a.follow-link-this-site {
   color: #FFFFFF;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content,
+.view-clusters li:hover .views-field-name-field .field-content {
+  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png') no-repeat top left;
+}
+
 .view-clusters .views-field-name-field .field-content.CM {
   background-position: 0 0;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.CM,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.CM,
 .view-clusters li:hover .views-field-name-field .field-content.CM {
   background-position: -32px 0;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.E {
   background-position: 0 -82px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.E,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.E,
 .view-clusters li:hover .views-field-name-field .field-content.E {
   background-position: -32px -82px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.ER {
   background-position: 0 -164px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.ER,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.ER,
 .view-clusters li:hover .views-field-name-field .field-content.ER {
   background-position: -32px -164px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.ES {
   background-position: 0 -246px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.ES,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.ES,
 .view-clusters li:hover .views-field-name-field .field-content.ES {
   background-position: -32px -246px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.ET {
   background-position: 0 -328px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.ET,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.ET,
 .view-clusters li:hover .views-field-name-field .field-content.ET {
   background-position: -32px -328px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.FS {
   background-position: 0 -410px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.FS,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.FS,
 .view-clusters li:hover .views-field-name-field .field-content.FS {
   background-position: -32px -410px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.H {
   background-position: 0 -492px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.H,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.H,
 .view-clusters li:hover .views-field-name-field .field-content.H {
   background-position: -32px -492px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.IM {
   background-position: 0 -574px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.IM,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.IM,
 .view-clusters li:hover .views-field-name-field .field-content.IM {
   background-position: -32px -574px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.L {
   background-position: 0 -656px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.L,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.L,
 .view-clusters li:hover .views-field-name-field .field-content.L {
   background-position: -32px -656px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.N {
   background-position: 0 -738px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.N,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.N,
 .view-clusters li:hover .views-field-name-field .field-content.N {
   background-position: -32px -738px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.P {
   background-position: 0 -820px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.P,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.P,
 .view-clusters li:hover .views-field-name-field .field-content.P {
   background-position: -32px -820px;
-}
+}*/
 
 .view-clusters .views-field-name-field .field-content.W {
   background-position: 0 -902px;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content.W,
+/*.view-clusters div.views-row:hover .views-field-name-field .field-content.W,
 .view-clusters li:hover .views-field-name-field .field-content.W {
   background-position: -32px -902px;
-}
+}*/
 
 /* Date fields */
 .container-inline-date .form-required {
