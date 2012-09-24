@@ -533,7 +533,7 @@ a.follow-link-this-site {
 
 .view-clusters div.views-row:hover .views-field-name-field .field-content,
 .view-clusters li:hover .views-field-name-field .field-content {
-  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png') no-repeat top left;
+  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png') no-repeat top left;
 }
 
 .view-clusters .views-field-name-field .field-content.CM {
