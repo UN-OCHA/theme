@@ -501,6 +501,12 @@ a.follow-link-this-site {
   clear: both;
 }
 
+.front .region-sidebar-first .block-inner,
+.front .region-sidebar-second .block-inner,
+.front .region-content-second .block-inner {
+  background-color: #F2F2F2;
+}
+
 /* Cluster icons */
 .view-clusters .views-field-name .field-content a,
 .view-clusters .views-field-name-field .field-content a {
