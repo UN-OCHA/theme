@@ -47,6 +47,8 @@ css[menu.css][name] = 'Menu styles'
 css[menu.css][description] = 'This file holds styles for the main menu, based on Superfish.'
 css[clusters_hr_info.css][name] = 'Clusters styles'
 css[clusters_hr_info.css][description] = 'This file holds specific styles for the clusters.humanitarianresponse.info site.'
+css[www_hr_info.css][name] = 'WWW styles'
+css[www_hr_info.css][description] = 'This file holds specific styles for the www.humanitarianresponse.info site.'
 
 ; LIBRARIES
 libraries[hr_mobilemenu][name] = Mobile Menu
@@ -107,6 +109,7 @@ settings[alpha_css][omega-visuals.css] = 'omega-visuals.css'
 settings[alpha_css][global.css] = 'global.css'
 settings[alpha_css][menu.css] = 'menu.css'
 settings[alpha_css][clusters_hr_info.css] = ''
+settings[alpha_css][www_hr_info.css] = ''
 settings[alpha_debug_block_toggle] = '0'
 settings[alpha_debug_block_active] = '0'
 settings[alpha_debug_grid_toggle] = '0'
