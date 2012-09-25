@@ -415,6 +415,10 @@ a.follow-link-this-site {
   margin-bottom: 0;
 }
 
+.front .views-exposed-form .views-exposed-widget {
+  padding: 0;
+}
+
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {			/* border, height and padding */

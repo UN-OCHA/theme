@@ -299,20 +299,25 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  if ($vars['block']->module == 'views') {
-    switch ($vars['block']->delta) {
-      case 'documents-documents_home_rep':
-        $vars['attributes_array']['class'][] = 'grid-4';
-        $vars['attributes_array']['class'][] = 'alpha';
-        break;
-      case 'maps_view-visuals_home':
-        $vars['attributes_array']['class'][] = 'grid-4';
-        break;
-      case 'documents-documents_home_feat':
-        $vars['attributes_array']['class'][] = 'grid-4';
-        $vars['attributes_array']['class'][] = 'omega';
-        break;
-    }
+  switch ($vars['block']->module) {
+    case 'views':
+      switch ($vars['block']->delta) {
+        case 'documents-documents_home_rep':
+          $vars['attributes_array']['class'][] = 'grid-4';
+          $vars['attributes_array']['class'][] = 'alpha';
+          break;
+        case 'maps_view-visuals_home':
+          $vars['attributes_array']['class'][] = 'grid-4';
+          break;
+        case 'documents-documents_home_feat':
+          $vars['attributes_array']['class'][] = 'grid-4';
+          $vars['attributes_array']['class'][] = 'omega';
+          break;
+      }
+      break;
+    case 'browserid':
+      debug($vars['block']);
+      break;
   }
 }
 
