@@ -96,6 +96,10 @@ img {
   padding: 5px;
 }
 
+footer {
+  margin-top: 5px;
+}
+
 .openlayers-map img {
   padding: 0;
 }
