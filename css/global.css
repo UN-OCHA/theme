@@ -616,6 +616,21 @@ a.follow-link-this-site {
   list-style-type: none;
 }
 
+.view-cross-cutting-issues li:hover,
+.view-cross-cutting-issues div.views-row:hover  {
+  background-color: #BA3538;
+}
+
+.view-cross-cutting-issues li:hover a,
+.view-cross-cutting-issues div.views-row:hover a {
+  color: #FFFFFF;
+}
+
+.view-cross-cutting-issues div.views-row:hover .views-field-name-field .field-content,
+.view-cross-cutting-issues li:hover .views-field-name .field-content {
+  background-image: url('/sites/all/themes/humanitarianresponse/images/cross_cutting/32px/white/sprite.png');
+}
+
 .view-cross-cutting-issues .views-field-name .field-content.Age {
   background-position: 0 0;
 }
