@@ -385,11 +385,18 @@ a.follow-link-this-site {
 .front .region-sidebar-second .block-inner,
 .front .region-content-second .block-inner {
   background-color: #F2F2F2;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #block-boxes-home-cod .block-inner,
 .front .block-aggregator .block-inner {
   background-color: white;
+}
+
+#block-views-media-media-home-slideshow .views-row,
+#block-views-media-media-home-slideshow img {
+  padding: 0;
 }
 
 .front #page-title {
@@ -694,7 +701,8 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize view-content*/
 #block-system-main .view-content .views-row,
-.front .view-content .views-row {				/* to display line dotted for views items*/
+.front .view-content .views-row,
+.block-aggregator li {				/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
   padding-bottom:5px;
   padding-top:5px;
