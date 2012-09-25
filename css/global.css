@@ -381,6 +381,17 @@ a.follow-link-this-site {
 
 
 /* Home page */
+.front .region-sidebar-first .block-inner,
+.front .region-sidebar-second .block-inner,
+.front .region-content-second .block-inner {
+  background-color: #F2F2F2;
+}
+
+#block-boxes-home-cod .block-inner,
+.front .block-aggregator .block-inner {
+  background-color: white;
+}
+
 .front #page-title {
   display: none;
 }
@@ -499,12 +510,6 @@ a.follow-link-this-site {
 #block-views-news-news-home .views-row {
   min-height: 2em;
   clear: both;
-}
-
-.front .region-sidebar-first .block-inner,
-.front .region-sidebar-second .block-inner,
-.front .region-content-second .block-inner {
-  background-color: #F2F2F2;
 }
 
 /* Cluster icons */
