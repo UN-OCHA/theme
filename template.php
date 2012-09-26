@@ -316,7 +316,7 @@ function humanitarianresponse_preprocess_block(&$vars) {
       }
       break;
     case 'browserid':
-      debug($vars['block']);
+      debug($vars['content']);
       break;
   }
 }
