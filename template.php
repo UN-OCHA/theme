@@ -316,8 +316,15 @@ function humanitarianresponse_preprocess_block(&$vars) {
       }
       break;
     case 'browserid':
-      debug($vars['content']);
+      $vars['content'] = humanitarianresponse_browserid_login_button();
       break;
   }
 }
 
+function humanitarianresponse_browserid_login_button() {
+  $path = drupal_get_path('theme', 'humanitarianresponse');
+  drupal_add_js('https://browserid.org/include.js', 'external');
+  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with BrowserID'), 'attributes' => array('class' => array('browserid-button'), 'style' => 'cursor: pointer; display: none;'));
+  $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
+  return $img;
+}
