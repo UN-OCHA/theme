@@ -419,6 +419,10 @@ a.follow-link-this-site {
   padding: 0;
 }
 
+.front h2 {
+  padding-left: 0;
+}
+
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {			/* border, height and padding */
