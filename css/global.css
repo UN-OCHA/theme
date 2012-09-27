@@ -694,7 +694,7 @@ a.follow-link-this-site {
   border-bottom: solid 1px #E6E7E8;
 }
 
-.field-name-field-news-image {			/* align image on the left */
+article .field-name-field-news-image {			/* align image on the left */
 	float:left;
 	padding-right: 20px;
 }
