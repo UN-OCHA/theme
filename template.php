@@ -131,7 +131,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   $variables['crf_request_table'] = theme('table', array(
     'header' => $headers,
     'rows' => $rows,
-    'attributes' => array(),
+    'attributes' => array('class' => 'crf-request-table'),
     'caption' => '',
     'colgroups' => array(),
     'sticky' => array(),
@@ -299,32 +299,20 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  switch ($vars['block']->module) {
-    case 'views':
-      switch ($vars['block']->delta) {
-        case 'documents-documents_home_rep':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          $vars['attributes_array']['class'][] = 'alpha';
-          break;
-        case 'maps_view-visuals_home':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          break;
-        case 'documents-documents_home_feat':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          $vars['attributes_array']['class'][] = 'omega';
-          break;
-      }
-      break;
-    case 'browserid':
-      $vars['content'] = humanitarianresponse_browserid_login_button();
-      break;
+  if ($vars['block']->module == 'views') {
+    switch ($vars['block']->delta) {
+      case 'documents-documents_home_rep':
+        $vars['attributes_array']['class'][] = 'grid-4';
+        $vars['attributes_array']['class'][] = 'alpha';
+        break;
+      case 'maps_view-visuals_home':
+        $vars['attributes_array']['class'][] = 'grid-4';
+        break;
+      case 'documents-documents_home_feat':
+        $vars['attributes_array']['class'][] = 'grid-4';
+        $vars['attributes_array']['class'][] = 'omega';
+        break;
+    }
   }
 }
 
-function humanitarianresponse_browserid_login_button() {
-  $path = drupal_get_path('theme', 'humanitarianresponse');
-  drupal_add_js('https://browserid.org/include.js', 'external');
-  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with BrowserID'), 'attributes' => array('class' => array('browserid-button'), 'style' => 'cursor: pointer; display: none;'));
-  $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
-  return $img;
-}

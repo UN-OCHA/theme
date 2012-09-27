@@ -96,10 +96,6 @@ img {
   padding: 5px;
 }
 
-footer {
-  margin-top: 5px;
-}
-
 .openlayers-map img {
   padding: 0;
 }
@@ -385,16 +381,6 @@ a.follow-link-this-site {
 
 
 /* Home page */
-#block-boxes-home-cod .block-inner,
-.front .block-aggregator .block-inner {
-  background-color: white;
-}
-
-#block-views-media-media-home-slideshow .views-row,
-#block-views-media-media-home-slideshow img {
-  padding: 0;
-}
-
 .front #page-title {
   display: none;
 }
@@ -409,18 +395,6 @@ a.follow-link-this-site {
 
 .front #breadcrumb {
   display: none;
-}
-
-.front ul {
-  margin-bottom: 0;
-}
-
-.front .views-exposed-form .views-exposed-widget {
-  padding: 0;
-}
-
-.front h2 {
-  padding-left: 0;
 }
 
 #block-views-documents-documents-home-rep .block-inner,
@@ -537,9 +511,9 @@ a.follow-link-this-site {
 
 .view-clusters .views-field-name .field-content,
 .view-clusters .views-field-name-field .field-content {
-  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/red/sprite.png');
-  background-repeat: no-repeat;
+  background: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/sprite_32.png') no-repeat top left;
   display: block;
+  background-size: 64px;
   padding-left: 32px;
   height: 32px
 }
@@ -558,121 +532,112 @@ a.follow-link-this-site {
   color: #FFFFFF;
 }
 
-.view-clusters div.views-row:hover .views-field-name-field .field-content,
-.view-clusters li:hover .views-field-name-field .field-content {
-  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png');
-}
-
 .view-clusters .views-field-name-field .field-content.CM {
   background-position: 0 0;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.CM,
+.view-clusters li:hover .views-field-name-field .field-content.CM {
+  background-position: -32px 0;
 }
 
 .view-clusters .views-field-name-field .field-content.E {
   background-position: 0 -82px;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content.E,
+.view-clusters li:hover .views-field-name-field .field-content.E {
+  background-position: -32px -82px;
+}
+
 .view-clusters .views-field-name-field .field-content.ER {
   background-position: 0 -164px;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ER,
+.view-clusters li:hover .views-field-name-field .field-content.ER {
+  background-position: -32px -164px;
 }
 
 .view-clusters .views-field-name-field .field-content.ES {
   background-position: 0 -246px;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ES,
+.view-clusters li:hover .views-field-name-field .field-content.ES {
+  background-position: -32px -246px;
+}
+
 .view-clusters .views-field-name-field .field-content.ET {
   background-position: 0 -328px;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.ET,
+.view-clusters li:hover .views-field-name-field .field-content.ET {
+  background-position: -32px -328px;
 }
 
 .view-clusters .views-field-name-field .field-content.FS {
   background-position: 0 -410px;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content.FS,
+.view-clusters li:hover .views-field-name-field .field-content.FS {
+  background-position: -32px -410px;
+}
+
 .view-clusters .views-field-name-field .field-content.H {
   background-position: 0 -492px;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.H,
+.view-clusters li:hover .views-field-name-field .field-content.H {
+  background-position: -32px -492px;
 }
 
 .view-clusters .views-field-name-field .field-content.IM {
   background-position: 0 -574px;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content.IM,
+.view-clusters li:hover .views-field-name-field .field-content.IM {
+  background-position: -32px -574px;
+}
+
 .view-clusters .views-field-name-field .field-content.L {
   background-position: 0 -656px;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.L,
+.view-clusters li:hover .views-field-name-field .field-content.L {
+  background-position: -32px -656px;
 }
 
 .view-clusters .views-field-name-field .field-content.N {
   background-position: 0 -738px;
 }
 
+.view-clusters div.views-row:hover .views-field-name-field .field-content.N,
+.view-clusters li:hover .views-field-name-field .field-content.N {
+  background-position: -32px -738px;
+}
+
 .view-clusters .views-field-name-field .field-content.P {
   background-position: 0 -820px;
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.P,
+.view-clusters li:hover .views-field-name-field .field-content.P {
+  background-position: -32px -820px;
 }
 
 .view-clusters .views-field-name-field .field-content.W {
   background-position: 0 -902px;
 }
 
-/* Cross-cutting issues */
-.view-cross-cutting-issues .view-content .views-row {
-  border-bottom: 0 !important;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content a,
-.view-cross-cutting-issues .views-field-name-field .field-content a {
-  margin-top: 0.7em;
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content,
-.view-cross-cutting-issues .views-field-name-field .field-content {
-  background-image: url('/sites/all/themes/humanitarianresponse/images/cross_cutting/32px/red/sprite.png');
-  background-repeat: no-repeat;
-  display: block;
-  padding-left: 32px;
-  height: 32px
-}
-
-.view-cross-cutting-issues ul {
-  list-style-type: none;
-}
-
-.view-cross-cutting-issues li:hover,
-.view-cross-cutting-issues div.views-row:hover  {
-  background-color: #BA3538;
-}
-
-.view-cross-cutting-issues li:hover a,
-.view-cross-cutting-issues div.views-row:hover a {
-  color: #FFFFFF;
-}
-
-.view-cross-cutting-issues div.views-row:hover .views-field-name-field .field-content,
-.view-cross-cutting-issues li:hover .views-field-name .field-content {
-  background-image: url('/sites/all/themes/humanitarianresponse/images/cross_cutting/32px/white/sprite.png');
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.Age {
-  background-position: 0 0;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.Environment {
-  background-position: 0 -82px;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.GenCap {
-  background-position: 0 -164px;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.Gender {
-  background-position: 0 -246px;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.HIV-AIDS {
-  background-position: 0 -328px;
-}
-
-.view-cross-cutting-issues .views-field-name .field-content.Mental-Health---Psycho-Social-Support {
-  background-position: 0 -410px;
+.view-clusters div.views-row:hover .views-field-name-field .field-content.W,
+.view-clusters li:hover .views-field-name-field .field-content.W {
+  background-position: -32px -902px;
 }
 
 /* Date fields */
@@ -694,7 +659,7 @@ a.follow-link-this-site {
   border-bottom: solid 1px #E6E7E8;
 }
 
-article .field-name-field-news-image {			/* align image on the left */
+.field-name-field-news-image {			/* align image on the left */
 	float:left;
 	padding-right: 20px;
 }
@@ -709,8 +674,7 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 
 /* Customize view-content*/
 #block-system-main .view-content .views-row,
-.front .view-content .views-row,
-.block-aggregator li {				/* to display line dotted for views items*/
+.front .view-content .views-row {				/* to display line dotted for views items*/
   border-bottom: 1px dotted #A5977A;
   padding-bottom:5px;
   padding-top:5px;
@@ -902,6 +866,10 @@ div.search-api-page a.feed-icon {
  /*Customize CRF 
  
  Customize CRF Form*/
+
+.crf-request-table .front a, .front a:link, .front a:visited {
+  color: #FFFFFF;
+}
 
 .view-requests thead th,
 .view-indicator-data thead th {
