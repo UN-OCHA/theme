@@ -867,9 +867,7 @@ div.search-api-page a.feed-icon {
  
  Customize CRF Form*/
 
-.crf-request-table a,
-.crf-request-table a:link,
-.crf-request-table a:visited {
+.crf-request-table .front a, .front a:link, .front a:visited {
   color: #FFFFFF;
 }
 
