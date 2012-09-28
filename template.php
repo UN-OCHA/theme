@@ -131,7 +131,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   $variables['crf_request_table'] = theme('table', array(
     'header' => $headers,
     'rows' => $rows,
-    'attributes' => array(),
+    'attributes' => array('class' => 'crf-request-table'),
     'caption' => '',
     'colgroups' => array(),
     'sticky' => array(),

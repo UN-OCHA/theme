@@ -903,6 +903,12 @@ div.search-api-page a.feed-icon {
  
  Customize CRF Form*/
 
+.crf-request-table a,
+.crf-request-table a:link,
+.crf-request-table a:visited {
+  color: #FFFFFF;
+}
+
 .view-requests thead th,
 .view-indicator-data thead th {
 	background-color: #666666;
