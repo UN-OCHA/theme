@@ -796,12 +796,12 @@ div.search-api-page a.feed-icon {
 }
 
 /* Customize map page*/
-.not-front .view-maps-view .views-field-field-doc-thumbnail img{
-	float:left;
+.not-front .view-maps-view li.views-row {
+  height: 265px;
 }
 
-.not-front .view-maps-view .views-row {
-  min-height: 160px;
+.not-front .view-maps-view li .views-field-field-doc-thumbnail {
+  text-align: center;
 }
 
 /* Customize pagers */
