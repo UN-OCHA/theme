@@ -395,6 +395,11 @@ a.follow-link-this-site {
   border-bottom: 0 !important;
 }
 
+.front #region-sidebar-first,
+.front #region-sidebar-second {
+  padding-top: 10px;
+}
+
 .front #page-title {
   display: none;
 }
