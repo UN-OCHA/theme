@@ -69,6 +69,12 @@ features[] = favicon
 ; features[] = main_menu
 ; features[] = secondary_menu
 
+; BREAKPOINTS
+breakpoints[mobile] = (min-width: 0px)
+breakpoints[narrow] = all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)
+breakpoints[normal] = all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)
+breakpoints[wide] = all and (min-width: 1220px)
+
 ; SETTINGS
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
