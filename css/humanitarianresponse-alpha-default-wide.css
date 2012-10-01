@@ -4,3 +4,9 @@ This file will hold styles that are loaded using the same media query as the wid
 .front .views_slideshow_main {
   height: 470px;
 }
+
+#block-views-documents-documents-home-feat {
+  margin-top: 480px;
+  position: absolute;
+  top: 0;
+}
