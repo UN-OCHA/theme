@@ -390,9 +390,9 @@ a.follow-link-this-site {
   background-color: white;
 }
 
-#block-views-media-media-home-slideshow .views-row,
-#block-views-media-media-home-slideshow img {
+.views_slideshow_main .views-row {
   padding: 0;
+  border-bottom: 0 !important;
 }
 
 .front #page-title {
