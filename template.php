@@ -308,10 +308,10 @@ function humanitarianresponse_preprocess_block(&$vars) {
           break;
         case 'maps_view-visuals_home':
           $vars['attributes_array']['class'][] = 'grid-4';
+          $vars['attributes_array']['class'][] = 'omega';
           break;
         case 'documents-documents_home_feat':
           $vars['attributes_array']['class'][] = 'grid-4';
-          $vars['attributes_array']['class'][] = 'omega';
           break;
       }
       break;
