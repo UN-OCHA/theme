@@ -5,9 +5,9 @@ This file will hold styles that are loaded using the same media query as the wid
   height: 234px;
 }
 
-#block-views-documents-documents-home-feat,
+/*#block-views-documents-documents-home-feat,
 #block-views-maps-view-visuals-home {
   margin-top: 244px;
   position: absolute;
   top: 0;
-}
+}*/
