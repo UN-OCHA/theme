@@ -2,11 +2,12 @@
 This file will hold styles that are loaded using the same media query as the wide grid. */
 
 .front .views_slideshow_main {
-  height: 470px;
+  height: 234px;
 }
 
-#block-views-documents-documents-home-feat {
-  margin-top: 480px;
+#block-views-documents-documents-home-feat,
+#block-views-maps-view-visuals-home {
+  margin-top: 234px;
   position: absolute;
   top: 0;
 }
