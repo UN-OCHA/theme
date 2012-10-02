@@ -395,7 +395,7 @@ a.follow-link-this-site {
   border-bottom: 0 !important;
 }
 
-.front #region-sidebar-first,
+.front #region-content,
 .front #region-sidebar-second {
   padding-top: 10px;
 }
