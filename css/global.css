@@ -410,9 +410,15 @@ a.follow-link-this-site {
   padding-top: 10px;
 }
 
-.views_slideshow_main .views-field-title-field,
 .views_slideshow_main .views-field-body {
   background-color: #E6E7E8;
+  position: absolute;
+  left: 5px;
+}
+
+.views_slideshow_main h2 {
+  padding: 0;
+  margin: 0;
 }
 
 .views_slideshow_main img {
