@@ -400,6 +400,10 @@ a.follow-link-this-site {
   border-bottom: 0 !important;
 }
 
+.front .views_slideshow_main {
+  height: 560px;
+}
+
 .front #region-content,
 .front #region-sidebar-second {
   padding-top: 10px;
