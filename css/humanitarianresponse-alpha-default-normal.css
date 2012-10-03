@@ -11,3 +11,9 @@ This file will hold styles that are loaded using the same media query as the nor
   top: 50px;
   z-index: 2;
 }
+
+/* Front page */
+#block-views-documents-documents-home-key .view-empty,
+#block-views-documents-documents-home-key .view-content {
+  height: 150px;
+}
