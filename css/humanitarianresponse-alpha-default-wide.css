@@ -13,3 +13,18 @@ This file will hold styles that are loaded using the same media query as the wid
 #block-views-documents-documents-home-key {
   margin-bottom: 5px;
 }
+
+#block-views-documents-documents-home-rep .block-inner,
+#block-views-maps-view-visuals-home .block-inner,
+#block-views-documents-documents-home-feat .block-inner {
+  height: 350px;
+}
+
+#block-views-documents-documents-home-rep .view-empty,
+#block-views-documents-documents-home-rep .view-content,
+#block-views-maps-view-visuals-home .view-empty,
+#block-views-maps-view-visuals-home .view-content,
+#block-views-documents-documents-home-feat .view-empty,
+#block-views-documents-documents-home-feat .view-content {
+  height: 290px;
+}

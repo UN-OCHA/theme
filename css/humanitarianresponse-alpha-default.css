@@ -24,7 +24,7 @@ This file will hold styles that are loaded using the same media query as the nar
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {
-  height: 350px;
+  height: 455px;
 }
 
 #block-views-documents-documents-home-rep .view-empty,
@@ -33,5 +33,5 @@ This file will hold styles that are loaded using the same media query as the nar
 #block-views-maps-view-visuals-home .view-content,
 #block-views-documents-documents-home-feat .view-empty,
 #block-views-documents-documents-home-feat .view-content {
-  height: 290px;
+  height: 415px;
 }
