@@ -5,7 +5,8 @@ This file will hold styles that are loaded using the same media query as the wid
   height: 234px;
 }
 
-#block-views-documents-documents-home-key .view-empty {
+#block-views-documents-documents-home-key .view-empty,
+#block-views-documents-documents-home-key .view-content {
   height: 165px;
 }
 
