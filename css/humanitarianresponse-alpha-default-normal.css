@@ -17,3 +17,7 @@ This file will hold styles that are loaded using the same media query as the nor
 #block-views-documents-documents-home-key .view-content {
   height: 150px;
 }
+
+.front .views_slideshow_main {
+  height: 150px;
+}

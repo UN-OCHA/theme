@@ -17,6 +17,10 @@ This file will hold styles that are loaded using the same media query as the nar
   height: 220px;
 }
 
+.front .views_slideshow_main {
+  height: 220px;
+}
+
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {
