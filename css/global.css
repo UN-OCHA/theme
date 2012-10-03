@@ -101,6 +101,11 @@ img.resp-img-picture-mobile {
   height: auto;
 }
 
+picture {
+  height: 100% !important;
+  display: block;
+}
+
 footer {
   margin-top: 5px;
 }
@@ -398,10 +403,6 @@ a.follow-link-this-site {
 .views_slideshow_main .views-row {
   padding: 0;
   border-bottom: 0 !important;
-}
-
-.front .views_slideshow_main {
-  height: 560px;
 }
 
 .front #region-content,
