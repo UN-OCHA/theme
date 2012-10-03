@@ -96,6 +96,11 @@ img {
   padding: 5px;
 }
 
+img.resp-img-picture-mobile {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   margin-top: 5px;
 }
