@@ -12,8 +12,9 @@ This file will hold styles that are loaded using the same media query as the nar
 }
 
 /* Front page */
-.front .view-documents .view-content {
-  min-height: 142px;
+#block-views-documents-documents-home-key .view-empty,
+#block-views-documents-documents-home-key .view-content {
+  height: 220px;
 }
 
 #block-views-documents-documents-home-rep .block-inner,
