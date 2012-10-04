@@ -452,7 +452,8 @@ a.follow-link-this-site {
 
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
-#block-views-documents-documents-home-feat .block-inner {			/* border, height and padding */
+#block-views-documents-documents-home-feat .block-inner,
+#block-views-events-block-2 .block-inner {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   padding: 0 10px 10px;
 }
