@@ -3,6 +3,7 @@ This file will hold styles that are loaded using the same media query as the wid
 
 .front .views_slideshow_main {
   height: 234px;
+  margin-bottom: 15px;
 }
 
 .front .views_slideshow_main .views-field-body {
@@ -12,7 +13,7 @@ This file will hold styles that are loaded using the same media query as the wid
 }
 
 #block-views-events-block-2 {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   border: 0.2em solid;
   margin-top: 5px;
   padding: 5px;
@@ -26,7 +27,7 @@ This file will hold styles that are loaded using the same media query as the wid
 }
 
 #block-views-documents-documents-home-key {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 #block-views-documents-documents-home-rep .block-inner,
