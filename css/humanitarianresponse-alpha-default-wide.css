@@ -3,7 +3,7 @@ This file will hold styles that are loaded using the same media query as the wid
 
 .front .views_slideshow_main {
   height: 234px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .front .views_slideshow_main .views-field-body {
