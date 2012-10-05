@@ -486,15 +486,8 @@ a.follow-link-this-site {
   color: #B91222;
 }
 
-#block-views-documents-documents-home-key,
-#block-views-news-news-home {
-	padding:5px;
-	margin-bottom:14px;
-	margin-top:5px;
-	border:solid 0.2em #E6E7E8;
-}
-
 #block-views-documents-documents-home-key {/* Customize Key documents block*/
+  padding: 5px;
   border:0.2em solid #B91222;
   background: #F2EEED;
 }
