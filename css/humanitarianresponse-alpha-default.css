@@ -19,14 +19,14 @@ This file will hold styles that are loaded using the same media query as the nar
 }
 
 .front #block-views-news-block-2 {
-  height: 294px;
+  height: 369px;
 }
 
 .front #block-views-documents-documents-home-key .view-empty,
 .front #block-views-documents-documents-home-key .view-content,
 .front #block-views-events-block-2 .view-content,
 .front #block-views-events-block-2 .view-empty {
-  height: 240px;
+  height: 315px;
 }
 
 .front #block-views-events-block-2,
