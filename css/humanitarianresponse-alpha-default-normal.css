@@ -18,10 +18,6 @@ This file will hold styles that are loaded using the same media query as the nor
   height: 150px;
 }
 
-.front .views_slideshow_main {
-  height: 228px;
-}
-
 #block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {

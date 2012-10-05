@@ -1,17 +1,6 @@
 /* Using larger screen (more than 1024 px)
 This file will hold styles that are loaded using the same media query as the wide grid. */
 
-.front .views_slideshow_main {
-  height: 234px;
-  margin-bottom: 20px;
-}
-
-.front .views_slideshow_main .views-field-body {
-  width: 280px;
-  height: 49px;
-  top: 185px;
-}
-
 #block-views-events-block-2 {
   margin-bottom: 25px;
 }

@@ -414,14 +414,8 @@ a.follow-link-this-site {
   padding-top: 10px;
 }
 
-.views_slideshow_main .views-field-body {
-  background-color: #E6E7E8;
-  position: absolute;
-  left: 5px;
-  opacity: 0.8;
-}
-
-.views_slideshow_main h2 {
+.views_slideshow_main h2,
+.views_slideshow_main p {
   padding: 0;
   margin: 0;
 }
