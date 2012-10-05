@@ -24,12 +24,6 @@ This file will hold styles that are loaded using the same media query as the nor
   height: 240px;
 }
 
-/*.front #block-views-events-block-2,
-.front #block-views-documents-documents-home-key,
-.front #block-views-news-block-2 {
-  margin-bottom: 25px;
-}*/
-
 /*#block-views-documents-documents-home-key .view-empty,
 #block-views-documents-documents-home-key .view-content {
   height: 150px;

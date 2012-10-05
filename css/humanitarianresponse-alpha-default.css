@@ -12,11 +12,6 @@ This file will hold styles that are loaded using the same media query as the nar
 }
 
 /* Front page */
-/*.front #region-content,
-.front #region-sidebar-second,
-.front #region-sidebar-third {
-  margin-top: 10px;
-}*/
 
 .front #block-views-news-block-2 {
   height: 369px;
