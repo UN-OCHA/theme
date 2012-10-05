@@ -300,19 +300,6 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 
 function humanitarianresponse_preprocess_block(&$vars) {
   switch ($vars['block']->module) {
-    case 'views':
-      switch ($vars['block']->delta) {
-        case 'documents-documents_home_rep':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          break;
-        case 'maps_view-visuals_home':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          break;
-        case 'documents-documents_home_feat':
-          $vars['attributes_array']['class'][] = 'grid-4';
-          break;
-      }
-      break;
     case 'browserid':
       $vars['content'] = humanitarianresponse_browserid_login_button();
       break;
