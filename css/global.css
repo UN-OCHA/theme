@@ -419,6 +419,10 @@ a.follow-link-this-site {
   color: #ffffff;
 }
 
+#block-views-news-block-2 {
+  padding-top: 0;
+}
+
 .front .view-media .views-row {
   border-bottom: 0 !important;
 }
@@ -452,9 +456,8 @@ a.follow-link-this-site {
 #block-views-documents-documents-home-rep,
 #block-views-maps-view-visuals-home,
 #block-views-documents-documents-home-feat,
-#block-views-events-block-2 {			/* border, height and padding */
+#block-views-events-block-2 {
   border: 1px solid #E6E7E8;
-  /*padding: 0 10px 10px;*/
 }
 
 #block-views-maps-view-visuals-home .views-field-field-doc-thumbnail,
