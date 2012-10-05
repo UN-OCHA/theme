@@ -13,8 +13,10 @@ This file will hold styles that are loaded using the same media query as the nor
 }
 
 /* Front page */
-.front #block-views-news-block-2 .view-content,
-.front #block-views-news-block-2 .view-empty
+.front #block-views-news-block-2 {
+  height: 294px;
+}
+
 .front #block-views-documents-documents-home-key .view-empty,
 .front #block-views-documents-documents-home-key .view-content,
 .front #block-views-events-block-2 .view-content,
