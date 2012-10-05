@@ -12,7 +12,7 @@ This file will hold styles that are loaded using the same media query as the nar
 }
 
 /* Front page */
-#block-views-documents-documents-home-key .view-empty,
+/*#block-views-documents-documents-home-key .view-empty,
 #block-views-documents-documents-home-key .view-content {
   height: 220px;
 }
@@ -30,4 +30,4 @@ This file will hold styles that are loaded using the same media query as the nar
 #block-views-documents-documents-home-feat .view-empty,
 #block-views-documents-documents-home-feat .view-content {
   height: 415px;
-}
+}*/

@@ -1,7 +1,7 @@
 /* Using larger screen (more than 1024 px)
 This file will hold styles that are loaded using the same media query as the wide grid. */
 
-#block-views-events-block-2 {
+/*#block-views-events-block-2 {
   margin-bottom: 25px;
 }
 
@@ -29,4 +29,4 @@ This file will hold styles that are loaded using the same media query as the wid
 #block-views-documents-documents-home-feat .view-empty,
 #block-views-documents-documents-home-feat .view-content {
   height: 290px;
-}
+}*/
