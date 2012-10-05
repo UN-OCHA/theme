@@ -431,6 +431,11 @@ a.follow-link-this-site {
   border-bottom: 0 !important;
 }
 
+.front .block-media-media-home-block img {
+  width: 100%;
+  height: auto;
+}
+
 .front .block {
   margin-top: 10px;
 }
