@@ -490,9 +490,6 @@ a.follow-link-this-site {
 #boxes-box-quick_links a:link, 
 #boxes-box-quick_links a:visited {
   color: #B91222;
-  display: inline-block;
-  font-size: 0.95em;
-  margin-top: 1em;
 }
 
 #block-views-documents-documents-home-key {/* Customize Key documents block*/
