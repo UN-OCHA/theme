@@ -16,7 +16,7 @@ This file will hold styles that are loaded using the same media query as the wid
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {
   height: 350px;
-}
+}*/
 
 #block-views-documents-documents-home-rep .view-empty,
 #block-views-documents-documents-home-rep .view-content,
@@ -25,4 +25,4 @@ This file will hold styles that are loaded using the same media query as the wid
 #block-views-documents-documents-home-feat .view-empty,
 #block-views-documents-documents-home-feat .view-content {
   height: 290px;
-}*/
+}

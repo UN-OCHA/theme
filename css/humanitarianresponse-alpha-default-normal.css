@@ -24,16 +24,11 @@ This file will hold styles that are loaded using the same media query as the nor
   height: 240px;
 }
 
-/*#block-views-documents-documents-home-key .view-empty,
-#block-views-documents-documents-home-key .view-content {
-  height: 150px;
-}
-
-#block-views-documents-documents-home-rep .block-inner,
+/*#block-views-documents-documents-home-rep .block-inner,
 #block-views-maps-view-visuals-home .block-inner,
 #block-views-documents-documents-home-feat .block-inner {
   height: 350px;
-}
+}*/
 
 #block-views-documents-documents-home-rep .view-empty,
 #block-views-documents-documents-home-rep .view-content,
@@ -42,4 +37,4 @@ This file will hold styles that are loaded using the same media query as the nor
 #block-views-documents-documents-home-feat .view-empty,
 #block-views-documents-documents-home-feat .view-content {
   height: 310px;
-}*/
+}
