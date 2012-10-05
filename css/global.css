@@ -431,10 +431,9 @@ a.follow-link-this-site {
   border-bottom: 0 !important;
 }
 
-/*.front #region-content,
 .front #region-sidebar-first {
-  padding-top: 10px;
-}*/
+  margin-top: 10px;
+}
 
 .front #page-title,
 .front #breadcrumb {
