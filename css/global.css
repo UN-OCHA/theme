@@ -186,8 +186,7 @@ h1.page-title {
 .pane-block,
 .block {
   border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px;
 }
 
 h2.block-title,
@@ -450,10 +449,10 @@ a.follow-link-this-site {
   padding-left: 0;
 }
 
-#block-views-documents-documents-home-rep .block-inner,
-#block-views-maps-view-visuals-home .block-inner,
-#block-views-documents-documents-home-feat .block-inner,
-#block-views-events-block-2 .block-inner {			/* border, height and padding */
+#block-views-documents-documents-home-rep,
+#block-views-maps-view-visuals-home,
+#block-views-documents-documents-home-feat,
+#block-views-events-block-2 {			/* border, height and padding */
   border: 1px solid #E6E7E8;
   /*padding: 0 10px 10px;*/
 }
