@@ -419,6 +419,10 @@ a.follow-link-this-site {
   color: #ffffff;
 }
 
+.flexslider {
+  border: none;
+}
+
 #block-views-news-block-2 {
   padding-top: 0;
 }
@@ -428,7 +432,7 @@ a.follow-link-this-site {
 }
 
 /*.front #region-content,
-.front #region-sidebar-second {
+.front #region-sidebar-first {
   padding-top: 10px;
 }*/
 
