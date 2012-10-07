@@ -2,7 +2,7 @@
 This file will hold styles that are loaded using the same media query as the wide grid. */
 
 .front #block-views-news-block-2 {
-  height: auto;
+  height: 254px;
 }
 
 .front #block-views-documents-documents-home-key .view-empty,
