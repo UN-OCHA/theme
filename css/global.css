@@ -476,7 +476,8 @@ a.follow-link-this-site {
 
 
 /* Quick links */
-#boxes-box-quick_links img {
+#boxes-box-quick_links img,
+#boxes-box-home_cod img {
   width: 32px;
   height: 32px;
   float: left;
@@ -488,7 +489,10 @@ a.follow-link-this-site {
 
 #boxes-box-quick_links a, 
 #boxes-box-quick_links a:link, 
-#boxes-box-quick_links a:visited {
+#boxes-box-quick_links a:visited,
+#boxes-box-home_cod a, 
+#boxes-box-home_cod a:link, 
+#boxes-box-home_cod a:visited {
   color: #B91222;
 }
 
