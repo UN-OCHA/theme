@@ -888,6 +888,11 @@ div.search-api-page a.feed-icon {
 	margin-bottom: 0px;
 }
 
+/* Contacts view */
+.view-contacts.view-display-id-block_1 .views-row {
+  margin-bottom: 1em;
+}
+
 /* CUSTOMIZE INDICATOR REGISTRY
 
  /*Customize Filter*/
