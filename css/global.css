@@ -173,7 +173,8 @@ h1.page-title {
 /* Iframe: used when the URL has iframe = true */
 .iframe .breadcrumb,
 .iframe .region-menu,
-.iframe .zone-user-wrapper {
+.iframe .zone-user-wrapper,
+.iframe.unbranded #section-header {
   display: none;
 }
 
