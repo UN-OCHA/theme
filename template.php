@@ -40,25 +40,27 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   $rows = array();
   foreach ($content_types as $ctype) {
     $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
-    $ctypes[] = $tmp;
-    switch ($tmp->name) {
-      case 'Situation Report':
-        $header_link = l($tmp->name, 'crf/cluster-content/hr_sitrep/' . $tmp->name);
-        break;
-      case 'Indicator Data':
-        $header_link = l($tmp->name, 'crf/indicator-data/table');
-        break;
-      case 'Sectoral Analysis':
-        $header_link = l($tmp->name, 'crf/cluster-content/sectoral_analysis/' . $tmp->name);
-        break;
-      case 'Contacts Upload':
-        $header_link = l($tmp->name, 'taxonomy/term/all/contacts');
-        break;
-      case 'Assessments':
-        $header_link = l($tmp->name, 'resources/assessment-registry');
-        break;
+    if ($tmp) {    
+      $ctypes[] = $tmp;
+      switch ($tmp->name) {
+        case 'Situation Report':
+          $header_link = l($tmp->name, 'crf/cluster-content/hr_sitrep/' . $tmp->name);
+          break;
+        case 'Indicator Data':
+          $header_link = l($tmp->name, 'crf/indicator-data/table');
+          break;
+        case 'Sectoral Analysis':
+          $header_link = l($tmp->name, 'crf/cluster-content/sectoral_analysis/' . $tmp->name);
+          break;
+        case 'Contacts Upload':
+          $header_link = l($tmp->name, 'taxonomy/term/all/contacts');
+          break;
+        case 'Assessments':
+          $header_link = l($tmp->name, 'resources/assessment-registry');
+          break;
+      }
+      $headers[] = $header_link;
     }
-    $headers[] = $header_link;
   }
   
   foreach ($clusters as $cluster) {

@@ -173,7 +173,8 @@ h1.page-title {
 /* Iframe: used when the URL has iframe = true */
 .iframe .breadcrumb,
 .iframe .region-menu,
-.iframe .zone-user-wrapper {
+.iframe .zone-user-wrapper,
+.iframe.unbranded #section-header {
   display: none;
 }
 
@@ -887,6 +888,11 @@ div.search-api-page a.feed-icon {
 	margin-bottom: 0px;
 }
 
+/* Contacts view */
+.view-contacts.view-display-id-block_1 .views-row {
+  margin-bottom: 1em;
+}
+
 /* CUSTOMIZE INDICATOR REGISTRY
 
  /*Customize Filter*/
@@ -927,11 +933,16 @@ div.search-api-page a.feed-icon {
 .crf-request-table a:visited {
   color: #FFFFFF;
 }
-
+.crf-request-table thead th,
 .view-requests thead th,
 .view-indicator-data thead th {
 	background-color: #666666;
 	color:#FFFFFF;
+}
+.crf-request-table tr:hover td,
+.crf-request-table tr.even:hover td.active,
+.crf-request-table tr.odd:hover td.active {
+  background: #A7A9AC;
 }
 td.in-progress,
 td.review-requested  {
