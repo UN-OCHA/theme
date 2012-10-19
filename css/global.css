@@ -937,11 +937,16 @@ div.search-api-page a.feed-icon {
 .crf-request-table a:visited {
   color: #FFFFFF;
 }
-
+.crf-request-table thead th,
 .view-requests thead th,
 .view-indicator-data thead th {
 	background-color: #666666;
 	color:#FFFFFF;
+}
+.crf-request-table tr:hover td,
+.crf-request-table tr.even:hover td.active,
+.crf-request-table tr.odd:hover td.active {
+  background: #A7A9AC;
 }
 td.in-progress,
 td.review-requested  {
