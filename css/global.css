@@ -548,6 +548,10 @@ a.follow-link-this-site {
 }
 
 /* Cluster icons */
+.item-list .item-list {
+  margin-left: 1em;
+}
+
 .view-clusters .views-field-name .field-content a,
 .view-clusters .views-field-name-field .field-content a {
   margin-top: 0.7em;
