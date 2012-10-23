@@ -627,7 +627,11 @@ a.follow-link-this-site {
   background-position: 0 -738px;
 }
 
-.view-clusters .views-field-name-field .field-content.P {
+.view-clusters .views-field-name-field .field-content.P,
+.view-clusters .views-field-name-field .field-content.CP,
+.view-clusters .views-field-name-field .field-content.GBV,
+.view-clusters .views-field-name-field .field-content.HLP
+.view-clusters .views-field-name-field .field-content.MA {
   background-position: 0 -820px;
 }
 
