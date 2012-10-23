@@ -572,18 +572,18 @@ a.follow-link-this-site {
   list-style-type: none;
 }
 
-.view-clusters li:hover,
+.view-clusters li div.views-field:hover,
 .view-clusters div.views-row:hover  {
   background-color: #BA3538;
 }
 
-.view-clusters li:hover a,
+.view-clusters li div.views-field:hover a,
 .view-clusters div.views-row:hover a {
   color: #FFFFFF;
 }
 
 .view-clusters div.views-row:hover .views-field-name-field .field-content,
-.view-clusters li:hover .views-field-name-field .field-content {
+.view-clusters li div.views-field-name-field:hover .field-content {
   background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png');
 }
 
