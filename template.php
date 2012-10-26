@@ -104,7 +104,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'in-progress';
               break;
-            case 'Submit':
+            case 'Submit to OCHA':
               $txt = 'Submitted';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'submitted';
