@@ -548,6 +548,10 @@ a.follow-link-this-site {
 }
 
 /* Cluster icons */
+.item-list .item-list {
+  margin-left: 1em;
+}
+
 .view-clusters .views-field-name .field-content a,
 .view-clusters .views-field-name-field .field-content a {
   margin-top: 0.7em;
@@ -568,18 +572,18 @@ a.follow-link-this-site {
   list-style-type: none;
 }
 
-.view-clusters li:hover,
+.view-clusters li div.views-field:hover,
 .view-clusters div.views-row:hover  {
   background-color: #BA3538;
 }
 
-.view-clusters li:hover a,
+.view-clusters li div.views-field:hover a,
 .view-clusters div.views-row:hover a {
   color: #FFFFFF;
 }
 
 .view-clusters div.views-row:hover .views-field-name-field .field-content,
-.view-clusters li:hover .views-field-name-field .field-content {
+.view-clusters li div.views-field-name-field:hover .field-content {
   background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png');
 }
 
@@ -623,7 +627,11 @@ a.follow-link-this-site {
   background-position: 0 -738px;
 }
 
-.view-clusters .views-field-name-field .field-content.P {
+.view-clusters .views-field-name-field .field-content.P,
+.view-clusters .views-field-name-field .field-content.CP,
+.view-clusters .views-field-name-field .field-content.GBV,
+.view-clusters .views-field-name-field .field-content.HLP,
+.view-clusters .views-field-name-field .field-content.MA {
   background-position: 0 -820px;
 }
 
