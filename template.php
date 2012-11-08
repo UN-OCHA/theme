@@ -301,8 +301,9 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
+  debug($vars);
   if ($vars['block']->module == 'user' && $vars['block']->delta == 'login') {
-      $vars['content'] = humanitarianresponse_browserid_login_button();
+    $vars['content'] = humanitarianresponse_browserid_login_button();
   }
 }
 
