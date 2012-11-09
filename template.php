@@ -91,30 +91,32 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
       else {
         $nodes = node_load_multiple(array_keys($result['node']));
         $content_node = reset($nodes);
+        
         if ($content_node->type == 'contacts_upload') {
           $txt = 'Finalised';
           $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
           $class = 'finalised';
         }
         else {
-          $workflow = workflow_get_workflow_states_by_sid($content_node->workflow);
+          $workflow = $content_node->workbench_moderation['current'];          
           switch ($workflow->state) {
-            case 'Save Draft':
+            case 'draft':
               $txt = 'In Progress';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'in-progress';
               break;
-            case 'Submit to OCHA':
+            case 'submitted_to_ocha':
               $txt = 'Submitted';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'submitted';
               break;
-            case 'Finalise':
+            case 'finalised':
+            case 'published':
               $txt = 'Finalised';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'finalised';
               break;
-            case 'Request Review':
+            case 'needs_review':
               $txt = 'Review Requested';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-left.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'review-requested';
