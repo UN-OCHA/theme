@@ -1,0 +1,15 @@
+/**
+ * Styles for the kiosk.humanitarianresponse.info website
+ */
+
+.block {
+  padding: 0 !important;
+}
+
+.field-items {
+  margin-left: 0 !important;
+}
+
+#zone-content-second {
+  background-color: #F2F2F2;
+}
