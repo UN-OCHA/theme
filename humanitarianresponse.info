@@ -50,6 +50,8 @@ css[files_icons.css][name] = 'File icons'
 css[files_icons.css][description] = 'Iconize links to files'
 css[clusters_hr_info.css][name] = 'Clusters styles'
 css[clusters_hr_info.css][description] = 'This file holds specific styles for the clusters.humanitarianresponse.info site.'
+css[kiosk_hr_info.css][name] = 'Kiosk styles'
+css[kiosk_hr_info.css][description] = 'This file holds specific styles for the kiosk.humanitarianresponse.info site.'
 css[www_hr_info.css][name] = 'WWW styles'
 css[www_hr_info.css][description] = 'This file holds specific styles for the www.humanitarianresponse.info site.'
 
