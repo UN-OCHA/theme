@@ -18,6 +18,7 @@ function humanitarianresponse_preprocess_node(&$variables) {
     case 'assessments_batch':
     case 'contacts_upload':
     case 'crf_request':
+    case 'fts_message':
     case 'indicator_data_batch':
       return $callback($node, $variables);
   }
@@ -57,6 +58,9 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
           break;
         case 'Assessments':
           $header_link = l($tmp->name, 'resources/assessment-registry');
+          break;
+        case 'Financial Tracking Service Message':
+          $header_link = l($tmp->name, '');
           break;
       }
       $headers[] = $header_link;
@@ -152,6 +156,27 @@ function humanitarianresponse_preprocess_contacts_upload($node, &$variables) {
   if ($cluster_tid) {
     $variables['contacts_table'] = views_embed_view('contacts', 'page_2', $cluster_tid);
   }
+}
+
+function humanitarianresponse_preprocess_fts_message($node, &$variables) {  
+  $crf_request = $node->field_crf_request['und'][0]['entity'];
+  $emergencies_term = taxonomy_term_load($crf_request->field_emergencies['und'][0]['tid']);
+  
+  $cluster_term = $node->field_cluster['und'][0]['taxonomy_term'];  
+  if (!empty($cluster_term->field_information_focal_points)) {
+    $cluster_focal_point = node_load($cluster_term->field_information_focal_points['und'][0]['target_id']);
+    $cluster_contact_first_name = $cluster_focal_point->field_contact_first_name['und'][0]['value'];
+    $cluster_contact_last_name = $cluster_focal_point->field_contact_lastname['und'][0]['value'];
+  }
+  else {
+    $cluster_contact_first_name = '[first name]';
+    $cluster_contact_last_name = '[last name]';
+  }
+  
+  $variables['cluster_contact'] = $cluster_contact_first_name . ' ' . $cluster_contact_last_name;
+  $variables['date'] = isset($crf_request->field_fts_date['und'][0]['value']) ? $crf_request->field_fts_date['und'][0]['value'] : $crf_request->field_crf_req_date['und'][0]['value'];
+  $variables['emergency'] = $emergencies_term->name;
+  $variables['url'] = $crf_request->field_fts_url['und'][0]['url'];
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
@@ -303,14 +328,17 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  if ($vars['block']->module == 'user' && $vars['block']->delta == 'login') {
-    $vars['content'] = humanitarianresponse_persona_login_button();
+  switch ($vars['block']->module) {
+    case 'browserid':
+      $vars['content'] = humanitarianresponse_browserid_login_button();
+      break;
   }
 }
 
-function humanitarianresponse_persona_login_button() {
+function humanitarianresponse_browserid_login_button() {
   $path = drupal_get_path('theme', 'humanitarianresponse');
-  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with Persona'), 'attributes' => array('class' => array('persona-login'), 'style' => 'cursor: pointer;'));
+  drupal_add_js('https://browserid.org/include.js', 'external');
+  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with BrowserID'), 'attributes' => array('class' => array('browserid-button'), 'style' => 'cursor: pointer; display: none;'));
   $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
   return $img;
 }
