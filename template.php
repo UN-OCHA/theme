@@ -114,7 +114,6 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'submitted';
               break;
-            case 'finalised':
             case 'published':
               $txt = 'Finalised';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
