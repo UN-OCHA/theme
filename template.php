@@ -96,7 +96,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         $nodes = node_load_multiple(array_keys($result['node']));
         $content_node = reset($nodes);
         
-        if ($content_node->type == 'contacts_upload') {
+        if ($content_node->type == 'contacts_upload' || $content_node->type == 'fts_message') {
           $txt = 'Finalised';
           $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
           $class = 'finalised';
@@ -175,7 +175,7 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
   $variables['cluster_contact'] = $cluster_contact_first_name . ' ' . $cluster_contact_last_name;
   $variables['date'] = isset($crf_request->field_fts_date['und'][0]['value']) ? $crf_request->field_fts_date['und'][0]['value'] : $crf_request->field_crf_req_date['und'][0]['value'];
   $variables['emergency'] = $emergencies_term->name;
-  $variables['url'] = $crf_request->field_fts_url['und'][0]['url'];
+  $variables['url'] = !empty($crf_request->field_fts_url['und']) ? $crf_request->field_fts_url['und'][0]['url'] : '';
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
