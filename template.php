@@ -96,7 +96,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         $nodes = node_load_multiple(array_keys($result['node']));
         $content_node = reset($nodes);
         
-        if ($content_node->type == 'contacts_upload') {
+        if ($content_node->type == 'contacts_upload' || $content_node->type == 'fts_message') {
           $txt = 'Finalised';
           $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
           $class = 'finalised';
@@ -114,7 +114,6 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
               $class = 'submitted';
               break;
-            case 'finalised':
             case 'published':
               $txt = 'Finalised';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
@@ -176,7 +175,7 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
   $variables['cluster_contact'] = $cluster_contact_first_name . ' ' . $cluster_contact_last_name;
   $variables['date'] = isset($crf_request->field_fts_date['und'][0]['value']) ? $crf_request->field_fts_date['und'][0]['value'] : $crf_request->field_crf_req_date['und'][0]['value'];
   $variables['emergency'] = $emergencies_term->name;
-  $variables['url'] = $crf_request->field_fts_url['und'][0]['url'];
+  $variables['url'] = !empty($crf_request->field_fts_url['und']) ? $crf_request->field_fts_url['und'][0]['url'] : '';
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
@@ -328,17 +327,14 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
 }
 
 function humanitarianresponse_preprocess_block(&$vars) {
-  switch ($vars['block']->module) {
-    case 'browserid':
-      $vars['content'] = humanitarianresponse_browserid_login_button();
-      break;
+  if ($vars['block']->module == 'user' && $vars['block']->delta == 'login') {
+    $vars['content'] = humanitarianresponse_persona_login_button();
   }
 }
 
-function humanitarianresponse_browserid_login_button() {
+function humanitarianresponse_persona_login_button() {
   $path = drupal_get_path('theme', 'humanitarianresponse');
-  drupal_add_js('https://browserid.org/include.js', 'external');
-  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with BrowserID'), 'attributes' => array('class' => array('browserid-button'), 'style' => 'cursor: pointer; display: none;'));
+  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with Persona'), 'attributes' => array('class' => array('persona-login'), 'style' => 'cursor: pointer;'));
   $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
   return $img;
 }
