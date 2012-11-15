@@ -1,3 +1,7 @@
 .print-logo, .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon {
   display: none;
 }
+
+.view-calendar .view-header {
+  background-image: url('../logo.png');
+}
