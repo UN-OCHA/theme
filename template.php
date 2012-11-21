@@ -243,9 +243,13 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $data = array();
   $type = ($options['format']['chart_type'] == "pie") ? "pie" : "bar";
   $highcharts_config = json_decode(file_get_contents(drupal_get_path("module", "views_highcharts") . "/defaults/bar-basic.json"));
+  $highcharts_config->colors = array('#B91222');
   $highcharts_config->chart->defaultSeriesType = $options['format']['chart_type'];
   $highcharts_config->chart->width = '960';
+  $highcharts_config->chart->backgroundColor = '#fff';
   $highcharts_config->title->text = $options['format']['title'];
+  $highcharts_config->title->style->color = '#000';
+  $highcharts_config->title->style->font = '16px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif';
   $highcharts_config->subtitle->text = $options['format']['subtitle'];
 
   if (strtolower($options['format']['legend_enabled']) == "yes") {
@@ -253,7 +257,9 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
     $highcharts_config->legend->align = 'right';
     $highcharts_config->legend->verticalAlign = 'top';
     $highcharts_config->legend->x = 0;
-    $highcharts_config->legend->y = 100;
+    $highcharts_config->legend->y = 10;
+    $highcharts_config->legend->borderWidth = 0;
+    $highcharts_config->legend->shadow = FALSE;
   }
   else {
     $highcharts_config->legend->enabled = FALSE;
@@ -305,11 +311,21 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   	}
   }
 
+  $highcharts_config->xAxis->labels->style->color = '#000';
+  $highcharts_config->xAxis->labels->style->font = 'normal 10px Arial, Verdana, sans-serif';
+  $highcharts_config->xAxis->title->style->font = 'normal 10px Arial, Verdana, sans-serif';
+  
+  $highcharts_config->yAxis->labels->style->color = '#000';
+  $highcharts_config->yAxis->labels->style->font = 'normal 10px Arial, Verdana, sans-serif';
+  $highcharts_config->yAxis->title->style->font = 'normal 10px Arial, Verdana, sans-serif';
 
   // Assign field labels
   foreach (array_keys($vars['fields']) as $field_name) {
     if (array_key_exists($field_name, $data)) {
       $info = field_info_instance('node', $field_name, 'indicator_data');
+      if (empty($info)) {
+        $info = field_info_instance('node', $field_name, 'humanitarian_profile');
+      }      
       $vars['fields'][$field_name]['label'] = $info['label'];
     }
   }
