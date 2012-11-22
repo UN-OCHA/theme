@@ -244,7 +244,6 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $type = ($options['format']['chart_type'] == "pie") ? "pie" : "bar";
   $highcharts_config = json_decode(file_get_contents(drupal_get_path("module", "views_highcharts") . "/defaults/bar-basic.json"));
   $highcharts_config->chart->defaultSeriesType = $options['format']['chart_type'];
-  $highcharts_config->chart->width = '960';
   $highcharts_config->title->text = $options['format']['title'];
   $highcharts_config->subtitle->text = $options['format']['subtitle'];
 
