@@ -222,7 +222,8 @@ function humanitarianresponse_breadcrumb($variables) {
   return $breadcrumb;
 }
 
-function humanitarianresponse_preprocess_views_highcharts(&$vars) {
+function humanitarianresponse_preprocess_views_highcharts(&$vars) {  
+  $node = menu_get_object();
   
   $options = $vars['options'];
   module_load_include("module", "libraries", "libraries");
@@ -238,10 +239,18 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $data = array();
   $type = ($options['format']['chart_type'] == "pie") ? "pie" : "bar";
   $highcharts_config = json_decode(file_get_contents(drupal_get_path("module", "views_highcharts") . "/defaults/bar-basic.json"));
-  $highcharts_config->colors = array('#B91222');
+  $highcharts_config->colors = array('#B91222', '#B95222', '#B99222');
   $highcharts_config->chart->defaultSeriesType = $options['format']['chart_type'];
   $highcharts_config->chart->backgroundColor = '#fff';
-  $highcharts_config->title->text = $options['format']['title'];
+  
+  if (isset($node)){
+    $request = node_load($node->field_crf_request['und'][0]['target_id']);
+    $highcharts_config->title->text = t('Indicator Data for Request @title', array('@title' => $request->title));
+  }
+  else {
+    $highcharts_config->title->text = $options['format']['title'];
+  }
+  
   $highcharts_config->title->style->color = '#000';
   $highcharts_config->title->style->font = '16px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif';
   $highcharts_config->subtitle->text = $options['format']['subtitle'];
