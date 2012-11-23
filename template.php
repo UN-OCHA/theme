@@ -79,8 +79,8 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         ->execute();
       if (empty($result)) {
         $label = t('Add @ct', array('@ct' => $ctype->name));
-        $plus_icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/plus.png', 'width' => '28', 'height' => '28', 'alt' => $label, 'title' => $label));
-        $row[] = l($plus_icon, 'node/add/' . str_replace('_', '-', $ctype->type), 
+        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
+        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
           array('html' => TRUE,
             'query' => array(
               array('edit' => 
@@ -98,37 +98,32 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         
         if ($content_node->type == 'contacts_upload' || $content_node->type == 'fts_message') {
           $txt = 'Finalised';
-          $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-          $class = 'finalised';
+          $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
         }
         else {
-          $workflow = $content_node->workbench_moderation['current'];          
+          $workflow = $content_node->workbench_moderation['current'];
           switch ($workflow->state) {
             case 'draft':
               $txt = 'In Progress';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-right.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-              $class = 'in-progress';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/draft.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
             case 'submitted_to_ocha':
               $txt = 'Submitted';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/inbox.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-              $class = 'submitted';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
             case 'published':
               $txt = 'Finalised';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/check-mark.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-              $class = 'finalised';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
             case 'needs_review':
               $txt = 'Review Requested';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/arrow-left.png', 'width' => '28', 'height' => '28', 'alt' => $txt, 'title' => $txt));
-              $class = 'review-requested';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/review.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
           }
         }
         if (isset($icon)) {
           $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-          $row[] = array('data' => $link, 'class' => $class);
+          $row[] = array('data' => $link);
         }
       }
     }
