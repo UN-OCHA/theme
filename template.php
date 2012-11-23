@@ -243,7 +243,7 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $highcharts_config->chart->defaultSeriesType = $options['format']['chart_type'];
   $highcharts_config->chart->backgroundColor = '#fff';
   
-  if (isset($node)){
+  if (isset($node->field_crf_request)){
     $request = node_load($node->field_crf_request['und'][0]['target_id']);
     $highcharts_config->title->text = t('Indicator Data for Request @title', array('@title' => $request->title));
   }
