@@ -122,3 +122,8 @@ a[href$='.odp'] {
 	padding: 5px 0 5px 20px;
 	background: transparent url(../images/files_icons/odp.gif) no-repeat center left;
 }
+
+a[href$='.xml'] { 
+	padding: 5px 0 5px 20px;
+	background: transparent url(../images/files_icons/icon_xml.gif) no-repeat center left;
+}
