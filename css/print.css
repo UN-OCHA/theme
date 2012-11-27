@@ -1,4 +1,4 @@
-.print-logo, .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon, .view-calendar .view-header p {
+.print-logo .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon, .view-calendar .view-header p {
   display: none;
 }
 
@@ -8,3 +8,6 @@
   background-position: right top;
 }
 
+.ocha-logo .view-calendar .view-header {
+  background-image: url('../images/ocha-logo.jpg');
+}
