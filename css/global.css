@@ -951,15 +951,7 @@ div.search-api-page a.feed-icon {
 .crf-request-table tr.odd:hover td.active {
   background: #A7A9AC;
 }
-td.in-progress,
-td.review-requested  {
-	background-color: #FFFFCC !important;
-}
-td.finalised  {
-	background-color: #99CC99 !important;
-}
 #block-system-main td.submitted {
-	background-color: #99CCFF !important;
 	display:table-cell;
 }
 .views-field-field-ind-target td,
