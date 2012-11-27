@@ -1,8 +1,8 @@
-.print-logo, .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon, .view-calendar .view-header {
+.print-logo, .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon, .view-calendar .view-header p {
   display: none;
 }
 
-.view-calendar {
+.view-calendar .view-header {
   background-image: url('../logo.png');
   background-repeat: no-repeat;
   background-position: right top;
