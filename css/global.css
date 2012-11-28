@@ -998,6 +998,7 @@ div.search-api-page a.feed-icon {
   float: right;
   font-style: italic;
   color: #766A63;
+  max-width: 30%;
 }
 
 .node-teaser h2 {
