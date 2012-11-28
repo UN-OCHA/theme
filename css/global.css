@@ -1009,6 +1009,15 @@ div.search-api-page a.feed-icon {
   color: #B91222;
 }
 
+.node-teaser .field-items {
+  padding-bottom: 5px;
+}
+
+.node-teaser .field-name-node-link {
+  text-align: right;
+}
+  
+
 .node-teaser .field-name-field-event-date {
   font-weight: bold;
   color: #766A63;
