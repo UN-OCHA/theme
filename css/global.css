@@ -1029,12 +1029,12 @@ div.search-api-page a.feed-icon {
 
 .node-teaser .group-left {
   width: 20%;
-  clear: both;
+  clear: right;
 }
 
 .node-teaser .group-right {
   width: 80%;
-  clear: both;
+  clear: right;
 }
 
 .node-teaser .field-name-node-link {
