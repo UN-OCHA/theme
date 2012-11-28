@@ -13,3 +13,9 @@
 #zone-content-second {
   background-color: #F2F2F2;
 }
+
+/* Kiosk country pages */
+.kiosk-country-page #section-header,
+.kiosk-country-page #breadcrumb {
+  display: none;
+}

@@ -993,8 +993,23 @@ div.search-api-page a.feed-icon {
   margin-left: 1em;
 }
 
-/* Kiosk country pages */
-.kiosk-country-page #section-header,
-.kiosk-country-page #breadcrumb {
-  display: none;
+/* Node teasers */
+.node-teaser .field-name-teaser-labels {
+  float: right;
+  font-style: italic;
+  color: #766A63;
+}
+
+.node-teaser h2 {
+  padding-left: 0;
+  margin: 0 !important;
+}
+
+.node-teaser h2 a {
+  color: #B91222;
+}
+
+.node-teaser .field-name-field-event-date {
+  font-weight: bold;
+  color: #766A63;
 }
