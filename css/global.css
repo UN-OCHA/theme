@@ -1017,6 +1017,7 @@ div.search-api-page a.feed-icon {
 
 .node-teaser .group-left {
   width: 20%;
+  clear: both;
 }
 
 .node-teaser .group-right {
