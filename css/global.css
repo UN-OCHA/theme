@@ -997,7 +997,7 @@ div.search-api-page a.feed-icon {
 .node-teaser .field-name-teaser-labels {
   float: right;
   font-style: italic;
-  color: #766A63;
+  color: black;
 }
 
 .node-teaser h2 {
@@ -1011,14 +1011,19 @@ div.search-api-page a.feed-icon {
 
 .node-teaser .field-items {
   padding-bottom: 5px;
+  margin-left: 0;
 }
 
 .node-teaser .field-name-node-link {
   text-align: right;
 }
+
+.node-teaser .field-label {
+  color: #766A63;
+}
   
 
 .node-teaser .field-name-field-event-date {
   font-weight: bold;
-  color: #766A63;
+  color: black;
 }
