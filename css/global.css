@@ -1014,6 +1014,14 @@ div.search-api-page a.feed-icon {
   margin-left: 0;
 }
 
+.node-teaser .group-left {
+  width: 20%;
+}
+
+.node-teaser .group-right {
+  width: 80%;
+}
+
 .node-teaser .field-name-node-link {
   text-align: right;
 }
