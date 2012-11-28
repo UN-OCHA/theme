@@ -1034,6 +1034,7 @@ div.search-api-page a.feed-icon {
 
 .node-teaser .group-right {
   width: 80%;
+  clear: both;
 }
 
 .node-teaser .field-name-node-link {
