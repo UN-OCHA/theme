@@ -1,4 +1,11 @@
-.print-logo, .print-site_name, .print-breadcrumb, .view-calendar .pager, .print-hr, .view-calendar .feed-icon, .view-calendar .view-header p {
+.print-logo,
+.print-site_name,
+.print-breadcrumb,
+.view-calendar .pager,
+.print-hr,
+.view-calendar .feed-icon,
+.view-calendar .view-header p,
+.view-calendar .view-filters {
   display: none;
 }
 
