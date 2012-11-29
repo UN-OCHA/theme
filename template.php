@@ -460,3 +460,13 @@ function humanitarianresponse_persona_login_button() {
   $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
   return $img;
 }
+
+function humanitarianresponse_views_data_export_feed_icon($variables) {
+  extract($variables, EXTR_SKIP);
+  $url_options = array('html' => true);
+  if ($query) {
+    $url_options['query'] = $query;
+  }
+  $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
+  return l("", $url, $url_options);
+}
