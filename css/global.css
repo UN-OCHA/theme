@@ -993,6 +993,11 @@ div.search-api-page a.feed-icon {
   margin-left: 1em;
 }
 
+/* Print button */
+.print_html {
+  text-align: right;
+}
+
 /* Node teasers */
 .node-teaser .field-name-teaser-labels {
   float: right;
