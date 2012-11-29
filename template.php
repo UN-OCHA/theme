@@ -20,6 +20,7 @@ function humanitarianresponse_preprocess_node(&$variables) {
     case 'crf_request':
     case 'fts_message':
     case 'indicator_data_batch':
+    case 'non_cluster_request':
       return $callback($node, $variables);
   }
 }
@@ -130,7 +131,109 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
     $rows[] = $row;
   }
 
+  $icon_vars = array(
+    'path' => path_to_theme() . '/images/crf_request/cluster-request.png',
+    'alt' => 'Cluster Request',
+    'title' => 'Cluster Request',
+    'width' => '128',
+    'height' => '41',
+    'attributes' => array('class' => 'request-icon'),
+  );
+  $variables['cluster_request_icon'] = theme('image', $icon_vars);
   $variables['crf_request_table'] = theme('table', array(
+    'header' => $headers,
+    'rows' => $rows,
+    'attributes' => array('class' => 'crf-request-table'),
+    'caption' => '',
+    'colgroups' => array(),
+    'sticky' => array(),
+    'empty' => array(),
+  ));
+}
+
+function humanitarianresponse_preprocess_non_cluster_request($node, &$variables) {
+  $content_type = $node->field_nc_req_contents[LANGUAGE_NONE][0]['value'];  
+  $headers = array('');
+  $rows = array();
+  $job_title = '';
+  $ctype = node_type_load(str_replace('_', '-', $content_type));
+  if ($ctype) {    
+    switch ($ctype->name) {
+      case 'Humanitarian Bulletin':
+        $job_title = t('Public Info Officer');
+        $header_link = l($ctype->name, '');
+        break;
+      case 'Pipeline Monitoring':
+        $job_title = t('Pipeline Manager');
+        $header_link = l($ctype->name, '');
+        break;
+    }
+    $headers[] = $header_link;
+  }
+  
+  $row = array($job_title);
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', $ctype->type)
+    ->fieldCondition('field_nc_request', 'target_id', array($node->nid))
+    ->execute();
+  if (empty($result)) {
+    $label = t('Add @ct', array('@ct' => $ctype->name));
+    $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
+    $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
+      array('html' => TRUE,
+        'query' => array(
+          array('edit' => 
+            array(
+              'field_nc_request' => array(LANGUAGE_NONE => $node->nid),
+            ),
+          ),
+        )
+      )
+    );
+  }
+  else {
+    $nodes = node_load_multiple(array_keys($result['node']));
+    $content_node = reset($nodes);
+    
+    $workflow = $content_node->workbench_moderation['current'];
+    switch ($workflow->state) {
+      case 'draft':
+        $txt = 'In Progress';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/draft.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+        break;
+      case 'submitted_to_ocha':
+        $txt = 'Submitted';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+        break;
+      case 'published':
+        $txt = 'Finalised';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+        break;
+      case 'needs_review':
+        $txt = 'Review Requested';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/review.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+        break;
+    }
+
+    if (isset($icon)) {
+      $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+      $row[] = array('data' => $link);
+    }
+  }
+  $rows[] = $row;
+
+  $icon_vars = array(
+    'path' => path_to_theme() . '/images/crf_request/non-cluster-request.png',
+    'alt' => 'Non-Cluster Request',
+    'title' => 'Non-Cluster Request',
+    'width' => '128',
+    'height' => '41',
+    'attributes' => array('class' => 'request-icon'),
+  );
+  $variables['non_cluster_request_icon'] = theme('image', $icon_vars);
+  $variables['non_cluster_request_table'] = theme('table', array(
     'header' => $headers,
     'rows' => $rows,
     'attributes' => array('class' => 'crf-request-table'),
@@ -356,14 +459,4 @@ function humanitarianresponse_persona_login_button() {
   $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with Persona'), 'attributes' => array('class' => array('persona-login'), 'style' => 'cursor: pointer;'));
   $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
   return $img;
-}
-
-function humanitarianresponse_views_data_export_feed_icon($variables) {
-  extract($variables, EXTR_SKIP);
-  $url_options = array('html' => true);
-  if ($query) {
-    $url_options['query'] = $query;
-  }
-  $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
-  return l("", $url, $url_options);
 }

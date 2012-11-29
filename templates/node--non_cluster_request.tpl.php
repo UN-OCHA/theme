@@ -83,7 +83,7 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
-      <?php print $cluster_request_icon; ?>
+      <?php print $non_cluster_request_icon; ?>
       <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
     </h2>
   <?php endif; ?>
@@ -97,7 +97,7 @@
   <?php endif; ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
-    <?php print $crf_request_table; ?>
+    <?php print $non_cluster_request_table; ?>
   </div>
 
   <?php

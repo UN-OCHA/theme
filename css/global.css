@@ -935,6 +935,10 @@ div.search-api-page a.feed-icon {
  
  Customize CRF Form*/
 
+.request-icon {
+  vertical-align: middle;
+}
+
 .crf-request-table a,
 .crf-request-table a:link,
 .crf-request-table a:visited {
@@ -993,65 +997,8 @@ div.search-api-page a.feed-icon {
   margin-left: 1em;
 }
 
-/* Print button */
-.print_html {
-  text-align: right;
-}
-
-/* Node teasers */
-.node-teaser .field-name-teaser-labels {
-  float: right;
-  font-style: italic;
-  color: #766A63;
-  max-width: 30%;
-}
-
-.field-name-teaser-labels .clusters {
-  color: #862046;
-}
-
-.field-name-teaser-labels .locations {
-  color: #F59749;
-}
-
-.field-name-teaser-labels .themes {
-  color: #A3AE66;
-}
-
-.node-teaser h2 {
-  padding-left: 0;
-  margin: 0 !important;
-}
-
-.node-teaser h2 a {
-  color: #B91222;
-}
-
-.node-teaser .field-items {
-  padding-bottom: 5px;
-  margin-left: 0;
-}
-
-.node-teaser .group-left {
-  width: 20%;
-  clear: right;
-}
-
-.node-teaser .group-right {
-  width: 80%;
-  clear: right;
-}
-
-.node-teaser .field-name-node-link {
-  text-align: right;
-}
-
-.node-teaser .field-label {
-  color: #766A63;
-}
-  
-
-.node-teaser .field-name-field-event-date {
-  font-weight: bold;
-  color: black;
+/* Kiosk country pages */
+.kiosk-country-page #section-header,
+.kiosk-country-page #breadcrumb {
+  display: none;
 }
