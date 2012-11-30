@@ -197,25 +197,8 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
     $nodes = node_load_multiple(array_keys($result['node']));
     $content_node = reset($nodes);
     
-    $workflow = $content_node->workbench_moderation['current'];
-    switch ($workflow->state) {
-      case 'draft':
-        $txt = 'In Progress';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/draft.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-        break;
-      case 'submitted_to_ocha':
-        $txt = 'Submitted';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-        break;
-      case 'published':
-        $txt = 'Finalised';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-        break;
-      case 'needs_review':
-        $txt = 'Review Requested';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/review.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-        break;
-    }
+    $txt = 'Finalised';
+    $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
 
     if (isset($icon)) {
       $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
