@@ -159,6 +159,10 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
   $ctype = node_type_load(str_replace('_', '-', $content_type));
   if ($ctype) {    
     switch ($ctype->name) {
+      case 'CHF/ERF':
+        $job_title = t('Public Info Officer');
+        $header_link = l($ctype->name, '');
+        break;
       case 'Humanitarian Bulletin':
         $job_title = t('Public Info Officer');
         $header_link = l($ctype->name, '');
