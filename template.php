@@ -269,6 +269,7 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
+  $variables['situational_indicator_data_batch_table'] = views_embed_view('situational_indicator_data_batch', 'table', $node->uuid);
 }
 
 function humanitarianresponse_breadcrumb($variables) {
@@ -339,7 +340,11 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   
   if (isset($node->field_crf_request)){
     $request = node_load($node->field_crf_request['und'][0]['target_id']);
-    $highcharts_config->title->text = t('Indicator Data for Request @title', array('@title' => $request->title));
+    $indicator_data_type = t('Performance-related');
+    if ($view->name == 'situational_indicator_data_batch') {
+      $indicator_data_type = t('Situational');
+    }
+    $highcharts_config->title->text = t('@type Indicator Data for Request @title', array('@type' => $indicator_data_type, '@title' => $request->title));
   }
   else {
     $highcharts_config->title->text = $options['format']['title'];
