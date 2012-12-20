@@ -92,6 +92,10 @@ table, td, th {
 	border:none;
 }
 
+th {
+  font-weight: bold;
+}
+
 img {
   padding: 5px;
 }
