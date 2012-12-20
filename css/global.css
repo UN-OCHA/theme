@@ -1037,14 +1037,17 @@ div.search-api-page a.feed-icon {
 
 .field-name-teaser-labels .clusters {
   color: #862046;
+  font-weight: bold;
 }
 
 .field-name-teaser-labels .locations {
   color: #F59749;
+  font-weight: bold;
 }
 
 .field-name-teaser-labels .themes {
   color: #A3AE66;
+  font-weight: bold;
 }
 
 .node-teaser h2 {
