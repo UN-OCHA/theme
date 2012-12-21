@@ -92,6 +92,10 @@ table, td, th {
 	border:none;
 }
 
+th {
+  font-weight: bold;
+}
+
 img {
   padding: 5px;
 }
@@ -716,6 +720,31 @@ a.follow-link-this-site {
   margin-left: 10px;
 }
 
+#block-facetapi-shb0q1vwgcarrhrjhsztyhl2jaehijzw h2 {
+  background-color: #8D8866;
+  color: white;
+}
+
+#block-facetapi-srtvutasjhh8qrihe2nmbl3mm1s3qokp h2 {
+  background-color: #862046;
+  color: white;
+}
+
+#block-facetapi-urbbwtpm31dqgghrst9tjdnblkw12f6e h2 {
+  background-color: #F59749;
+  color: white;
+}
+
+#block-facetapi-jakzs3abss9kl1zrh6idqbcfj61z4spl h2 {
+  background-color: #7F8BA2;
+  color: white;
+}
+
+#block-facetapi-roo3lo2b480jna51cz03ijgoso6bbcbm h2 {
+  background-color: #A3AE66;
+  color: white;
+}
+
 /* Customize all views */
 .view-filters {
   border-bottom: solid 1px #E6E7E8;
@@ -1012,14 +1041,17 @@ div.search-api-page a.feed-icon {
 
 .field-name-teaser-labels .clusters {
   color: #862046;
+  font-weight: bold;
 }
 
 .field-name-teaser-labels .locations {
   color: #F59749;
+  font-weight: bold;
 }
 
 .field-name-teaser-labels .themes {
   color: #A3AE66;
+  font-weight: bold;
 }
 
 .node-teaser h2 {
