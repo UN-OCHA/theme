@@ -1124,9 +1124,27 @@ div.search-api-page a.feed-icon {
 .node-teaser .field-label {
   color: #766A63;
 }
-  
 
 .node-teaser .field-name-field-event-date {
   font-weight: bold;
   color: black;
+}
+
+.node-document .field-name-title h2,
+.node-event .field-name-title h2,
+.node-map .field-name-title h2 {
+  background-size: 24px;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+}
+.node-document .field-name-title h2 {
+  background-image: url('../images/types/document.png');
+}
+
+.node-event .field-name-title h2 {
+  background-image: url('../images/types/event.png');
+}
+
+.node-map .field-name-title h2 {
+  background-image: url('../images/types/event.png');
 }
