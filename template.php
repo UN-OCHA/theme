@@ -163,6 +163,10 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
         $job_title = t('Partners in the Field');
         $header_link = l($ctype->name, '');
         break;
+      case 'Baseline Data':
+        $job_title = t('Public Info Officer');
+        $header_link = l($ctype->name, '');
+        break;
       case 'CHF/ERF':
         $job_title = t('Public Info Officer');
         $header_link = l($ctype->name, '');
