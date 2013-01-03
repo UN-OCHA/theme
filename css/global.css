@@ -201,7 +201,8 @@ ul.primary li a {
     display: inline-block;
 }
 
-ul.primary li.active a {
+ul.primary li.active a,
+ul.primary li:hover a {
   color: white;
   background-color: black;
   font-weight: bold;
