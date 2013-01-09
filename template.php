@@ -27,13 +27,8 @@ function humanitarianresponse_preprocess_node(&$variables) {
 
 function humanitarianresponse_preprocess_crf_request($node, &$variables) {
   // Get list of clusters
-  $voc = taxonomy_vocabulary_machine_name_load('clusters');
-  $query = new EntityFieldQuery();
-  $result = $query
-    ->entityCondition('entity_type', 'taxonomy_term')
-    ->propertyCondition('vid', $voc->vid)
-    ->execute();
-  $clusters =  taxonomy_term_load_multiple(array_keys($result['taxonomy_term']));
+  $voc = taxonomy_vocabulary_machine_name_load('clusters');  
+  $clusters = taxonomy_get_tree($voc->vid, 0, NULL, TRUE);
 
   // Get list of content types checked
   $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
@@ -68,7 +63,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
     }
   }
   
-  foreach ($clusters as $cluster) {
+  foreach ($clusters as $cluster) {    
     $row = array($cluster->name);
     foreach ($ctypes as $ctype) {
       $query = new EntityFieldQuery();
