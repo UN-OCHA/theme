@@ -791,6 +791,10 @@ div.facetapi-active {
   background-image: url('../images/collapse.png');
 }
 
+.block-current-search-humanitarianresponse .block-title {
+  display: none;
+}
+
 /*#block-facetapi-shb0q1vwgcarrhrjhsztyhl2jaehijzw h2 {
   background-color: #8D8866;
   color: white;
@@ -1106,18 +1110,21 @@ div.feed-icon {
 }
 
 .field-name-teaser-labels .clusters {
-  color: #862046;
   font-weight: bold;
+  display: block;
+  text-align: right;
 }
 
 .field-name-teaser-labels .locations {
-  color: #F59749;
   font-weight: bold;
+  display: block;
+  text-align: right;
 }
 
 .field-name-teaser-labels .themes {
-  color: #A3AE66;
   font-weight: bold;
+  display: block;
+  text-align: right;
 }
 
 .node-teaser h2 {
@@ -1173,5 +1180,5 @@ div.feed-icon {
 }
 
 .node-map .field-name-title h2 {
-  background-image: url('../images/types/event.png');
+  background-image: url('../images/types/map.png');
 }
