@@ -40,10 +40,10 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
     if ($tmp) {    
       $ctypes[] = $tmp;
       switch ($tmp->name) {
-        case 'Situation Report':
+        case 'Situation Report Information':
           $header_link = l($tmp->name, 'crf/cluster-content/hr_sitrep/' . $tmp->name);
           break;
-        case 'Indicator Data':
+        case 'Indicator Values':
           $header_link = l($tmp->name, 'crf/indicator-data/table');
           break;
         case 'Sectoral Analysis':
