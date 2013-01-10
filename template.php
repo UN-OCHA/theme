@@ -49,7 +49,7 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
         case 'Sectoral Analysis':
           $header_link = l($tmp->name, 'crf/cluster-content/sectoral_analysis/' . $tmp->name);
           break;
-        case 'Contacts Upload':
+        case 'Contacts':
           $header_link = l($tmp->name, 'taxonomy/term/all/contacts');
           break;
         case 'Assessments':
