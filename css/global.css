@@ -342,12 +342,10 @@ html, body {
 	border-bottom:none;
 	padding:0px;
 }
-#zone-postscript-wrapper p{
-	text-align:left;
-}
+
 /* Change followo us icon */
 a.follow-link-this-site {
-    background-image: url("../../../../../misc/feed.png");
+  background-image: url("../../../../../misc/feed.png");
 	background-position: 0 5px;
 }
 
