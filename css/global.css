@@ -11,9 +11,9 @@ a:visited {
   color: #660000;
   text-decoration: none;
 }
-.front a,
-.front a:link,
-.front a:visited {
+.front #zone-content a,
+.front #zone-content a:link,
+.front #zone-content a:visited {
   color: #232323;
 }
 
@@ -343,9 +343,6 @@ html, body {
 	padding:0px;
 }
 
-#zone-postscript-wrapper a {
-  color: #660000;
-}
 
 /* Change followo us icon */
 a.follow-link-this-site {
