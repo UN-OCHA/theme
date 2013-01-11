@@ -343,6 +343,10 @@ html, body {
 	padding:0px;
 }
 
+#zone-postscript-wrapper a {
+  color: #660000;
+}
+
 /* Change followo us icon */
 a.follow-link-this-site {
   background-image: url("../../../../../misc/feed.png");
