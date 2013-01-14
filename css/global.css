@@ -1186,3 +1186,7 @@ div.feed-icon {
 .node-news .field-name-title h2 {
   background-image: url('../images/types/news.png');
 }
+
+.node-contact .field-name-title h2 {
+  background-image: url('../images/types/contact.png');
+}
