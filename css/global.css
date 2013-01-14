@@ -1190,3 +1190,7 @@ div.feed-icon {
 .node-contact .field-name-title h2 {
   background-image: url('../images/types/contact.png');
 }
+
+.node-highlight .field-name-title h2 {
+  background-image: url('../images/types/highlight.png');
+}
