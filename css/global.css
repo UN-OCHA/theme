@@ -1194,3 +1194,7 @@ div.feed-icon {
 .node-highlight .field-name-title h2 {
   background-image: url('../images/types/highlight.png');
 }
+
+.node-incident .field-name-title h2 {
+  background-image: url('../images/types/incident.png');
+}
