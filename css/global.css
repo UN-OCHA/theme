@@ -11,9 +11,9 @@ a:visited {
   color: #660000;
   text-decoration: none;
 }
-.front a,
-.front a:link,
-.front a:visited {
+.front #zone-content a,
+.front #zone-content a:link,
+.front #zone-content a:visited {
   color: #232323;
 }
 
@@ -77,6 +77,7 @@ h6 {
 
 p {
   text-align:justify;
+  margin-bottom: 0;
 }
 
 fieldset {
@@ -341,12 +342,11 @@ html, body {
 	border-bottom:none;
 	padding:0px;
 }
-#zone-postscript-wrapper p{
-	text-align:left;
-}
+
+
 /* Change followo us icon */
 a.follow-link-this-site {
-    background-image: url("../../../../../misc/feed.png");
+  background-image: url("../../../../../misc/feed.png");
 	background-position: 0 5px;
 }
 
@@ -1181,4 +1181,20 @@ div.feed-icon {
 
 .node-map .field-name-title h2 {
   background-image: url('../images/types/map.png');
+}
+
+.node-news .field-name-title h2 {
+  background-image: url('../images/types/news.png');
+}
+
+.node-contact .field-name-title h2 {
+  background-image: url('../images/types/contact.png');
+}
+
+.node-highlight .field-name-title h2 {
+  background-image: url('../images/types/highlight.png');
+}
+
+.node-incident .field-name-title h2 {
+  background-image: url('../images/types/incident.png');
 }
