@@ -93,7 +93,7 @@ table, td, th {
 	border:none;
 }
 
-th {
+table caption, th {
   font-weight: bold;
 }
 
@@ -1197,4 +1197,9 @@ div.feed-icon {
 
 .node-incident .field-name-title h2 {
   background-image: url('../images/types/incident.png');
+}
+
+/* Mapping styles */
+.olPopup a, .olPopup a:link, .olPopup a:visited {
+  color:white;
 }
