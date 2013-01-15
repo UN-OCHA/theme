@@ -97,6 +97,20 @@ table caption, th {
   font-weight: bold;
 }
 
+tr.even td {
+  background: none repeat scroll 0 0 #E0E0E0;
+}
+
+tr.odd td {
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+  background: #808080;
+}
+
 img {
   padding: 5px;
 }
@@ -117,12 +131,6 @@ footer {
 
 .openlayers-map img {
   padding: 0;
-}
-
-tr:hover td,
-tr.even:hover td.active,
-tr.odd:hover td.active {
-  background: #A7A9AC;
 }
 
 .views-view-grid tr:hover td,
