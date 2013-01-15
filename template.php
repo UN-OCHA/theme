@@ -177,42 +177,56 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
     }
     $headers[] = $header_link;
   }
-  
-  $row = array($job_title);
-  $query = new EntityFieldQuery();
-  $result = $query
-    ->entityCondition('entity_type', 'node')
-    ->entityCondition('bundle', $ctype->type)
-    ->fieldCondition('field_nc_request', 'target_id', array($node->nid))
-    ->execute();
-  if (empty($result)) {
-    $label = t('Add @ct', array('@ct' => $ctype->name));
-    $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
-    $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
-      array('html' => TRUE,
-        'query' => array(
-          array('edit' => 
-            array(
-              'field_nc_request' => array(LANGUAGE_NONE => $node->nid),
-            ),
-          ),
-        )
-      )
-    );
-  }
-  else {
-    $nodes = node_load_multiple(array_keys($result['node']));
-    $content_node = reset($nodes);
-    
-    $txt = 'Finalised';
-    $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
 
-    if (isset($icon)) {
-      $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-      $row[] = array('data' => $link);
+  foreach ($node->field_information_focal_points['und'] as $key => $contact) {
+    $account = user_load_by_mail($contact['entity']->field_contact_email['und'][0]['email']);
+    if ($account) {
+      $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
+      $row_title = t('@first_name @last_name', array(
+        '@first_name' => $account->field_first_name['und'][0]['value'],
+        '@last_name' => $account->field_last_name['und'][0]['value'],
+      ));
+      if ($job_title_term) {
+        $row_title .= t(' (@job_title)', array('@job_title' => $job_title_term->name));
+      }
+      $row = array($row_title);
+      $query = new EntityFieldQuery();
+      $result = $query
+        ->entityCondition('entity_type', 'node')
+        ->entityCondition('bundle', $ctype->type)
+        ->propertyCondition('uid', $account->uid)
+        ->fieldCondition('field_nc_request', 'target_id', array($node->nid))
+        ->execute();
+      if (empty($result)) {
+        $label = t('Add @ct', array('@ct' => $ctype->name));
+        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
+        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
+          array('html' => TRUE,
+            'query' => array(
+              array('edit' => 
+                array(
+                  'field_nc_request' => array(LANGUAGE_NONE => $node->nid),
+                ),
+              ),
+            )
+          )
+        );
+      }
+      else {
+        $nodes = node_load_multiple(array_keys($result['node']));
+        $content_node = reset($nodes);
+    
+        $txt = 'Finalised';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+
+        if (isset($icon)) {
+          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+          $row[] = array('data' => $link);
+        }
+      }
+      $rows[] = $row;
     }
   }
-  $rows[] = $row;
 
   $icon_vars = array(
     'path' => path_to_theme() . '/images/crf_request/non-cluster-request.png',
