@@ -1174,7 +1174,11 @@ div.feed-icon {
 
 .node-document .field-name-title h2,
 .node-event .field-name-title h2,
-.node-map .field-name-title h2 {
+.node-map .field-name-title h2,
+.node-news .field-name-title h2,
+.node-contact .field-name-title h2,
+.node-highlight .field-name-title h2,
+.node-incident .field-name-title h2 {
   background-size: 24px;
   background-repeat: no-repeat;
   padding-left: 26px;
