@@ -201,7 +201,7 @@ ul.primary li {
 ul.primary li a {
   background-color: #E0E0E0;
   border: 0 none;
-  color: black;
+  color: black !important;
   height: 2em;
   margin-right: 0.5em;
   padding: 0 1em;
@@ -212,7 +212,7 @@ ul.primary li a {
 
 ul.primary li.active a,
 ul.primary li:hover a {
-  color: white;
+  color: white !important;
   background-color: black;
   border: 0 none;
 }
