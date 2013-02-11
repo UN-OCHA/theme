@@ -282,7 +282,6 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
-  $variables['situational_indicator_data_batch_table'] = views_embed_view('situational_indicator_data_batch', 'table', $node->uuid);
 }
 
 function humanitarianresponse_breadcrumb($variables) {
