@@ -296,9 +296,9 @@ function humanitarianresponse_preprocess_internal_request($node, &$variables) {
   $rows[] = $row;
 
   $icon_vars = array(
-    'path' => path_to_theme() . '/images/crf_request/non-cluster-request.png',
-    'alt' => 'Non-Cluster Request',
-    'title' => 'Non-Cluster Request',
+    'path' => path_to_theme() . '/images/crf_request/ocha-request.png',
+    'alt' => 'OCHA Request',
+    'title' => 'OCHA Request',
     'width' => '128',
     'height' => '41',
     'attributes' => array('class' => 'request-icon'),
