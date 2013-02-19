@@ -99,6 +99,7 @@
     <?php if (isset($print_link)) : ?>
       <?php print $print_link; ?>
     <?php endif; ?>
+    <?php print l($graph_icon, 'node/' . $node->nid . '/graphs', array('html' => TRUE)); ?>
     <h3>Indicator Data</h3>
     <?php print $indicator_data_batch_table; ?>
   </div>

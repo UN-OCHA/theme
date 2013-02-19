@@ -349,6 +349,15 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
+  $icon_vars = array(
+    'path' => path_to_theme() . '/images/crf_request/indicator-data-batch-graph.png',
+    'alt' => 'Graphs',
+    'title' => 'Graphs',
+    'width' => '50',
+    'height' => '50',
+    'attributes' => array('class' => 'indicator-data-batch-graph-icon'),
+  );
+  $variables['graph_icon'] = theme('image', $icon_vars);
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
 }
 
