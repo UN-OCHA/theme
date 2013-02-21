@@ -99,10 +99,9 @@
     <?php if (isset($print_link)) : ?>
       <?php print $print_link; ?>
     <?php endif; ?>
-    <h3>Performance-related Indicator Data</h3>
+    <?php print l($graph_icon, 'node/' . $node->nid . '/graphs', array('html' => TRUE)); ?>
+    <h3>Indicator Data</h3>
     <?php print $indicator_data_batch_table; ?>
-    <h3>Situational Indicator Data</h3>
-    <?php print $situational_indicator_data_batch_table; ?>
   </div>
 
   <?php

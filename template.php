@@ -20,6 +20,7 @@ function humanitarianresponse_preprocess_node(&$variables) {
     case 'crf_request':
     case 'fts_message':
     case 'indicator_data_batch':
+    case 'internal_request':
     case 'non_cluster_request':
       return $callback($node, $variables);
   }
@@ -248,6 +249,73 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
   ));
 }
 
+
+function humanitarianresponse_preprocess_internal_request($node, &$variables) {
+  $headers = array('');
+  $rows = array();
+  $job_title = 'OCHA';
+  $ctype = node_type_load('internal_report');
+  $reporting_type_term = taxonomy_term_load($node->field_reporting_type['und'][0]['target_id']);
+  $headers[] = l($reporting_type_term->name, '');
+  $row = array($job_title);
+  
+  $query = new EntityFieldQuery();
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', $ctype->type)
+    ->fieldCondition('field_internal_request', 'target_id', array($node->nid))
+    ->execute();
+  
+  if (empty($result)) {
+    $label = t('Add @ct', array('@ct' => $ctype->name));
+    $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
+    $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
+      array('html' => TRUE,
+        'query' => array(
+          array('edit' => 
+            array(
+              'field_internal_request' => array(LANGUAGE_NONE => $node->nid),
+            ),
+          ),
+        )
+      )
+    );
+  }
+  else {
+    $nodes = node_load_multiple(array_keys($result['node']));
+    $content_node = reset($nodes);
+
+    $txt = 'Finalised';
+    $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+
+    if (isset($icon)) {
+      $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+      $row[] = array('data' => $link);
+    }
+  }
+  $rows[] = $row;
+
+  $icon_vars = array(
+    'path' => path_to_theme() . '/images/crf_request/ocha-request.png',
+    'alt' => 'OCHA Request',
+    'title' => 'OCHA Request',
+    'width' => '128',
+    'height' => '41',
+    'attributes' => array('class' => 'request-icon'),
+  );
+  $variables['non_cluster_request_icon'] = theme('image', $icon_vars);
+  $variables['internal_request_table'] = theme('table', array(
+    'header' => $headers,
+    'rows' => $rows,
+    'attributes' => array('class' => 'crf-request-table'),
+    'caption' => '',
+    'colgroups' => array(),
+    'sticky' => array(),
+    'empty' => array(),
+  ));
+}
+
+
 function humanitarianresponse_preprocess_assessments_batch($node, &$variables) {
   $variables['assessments_batch_table'] = views_embed_view('assessments_batch', 'table', $node->uuid);
 }
@@ -281,8 +349,16 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
+  $icon_vars = array(
+    'path' => path_to_theme() . '/images/crf_request/indicator-data-batch-graph.png',
+    'alt' => 'Graphs',
+    'title' => 'Graphs',
+    'width' => '50',
+    'height' => '50',
+    'attributes' => array('class' => 'indicator-data-batch-graph-icon'),
+  );
+  $variables['graph_icon'] = theme('image', $icon_vars);
   $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
-  $variables['situational_indicator_data_batch_table'] = views_embed_view('situational_indicator_data_batch', 'table', $node->uuid);
 }
 
 function humanitarianresponse_breadcrumb($variables) {

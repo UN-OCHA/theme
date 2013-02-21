@@ -1049,8 +1049,12 @@ div.feed-icon {
 .crf-request-table a,
 .crf-request-table a:link,
 .crf-request-table a:visited {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
+.crf-request-table a:hover {
+  text-decoration: underline;
+}
+
 .crf-request-table thead th,
 .view-requests thead th,
 .view-indicator-data thead th {

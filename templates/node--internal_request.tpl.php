@@ -83,8 +83,8 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
-      <?php print $cluster_request_icon; ?>
-      <?php print l($title, 'request/cluster/content/' . $node->nid); ?>
+      <?php print $non_cluster_request_icon; ?>
+      <?php print l($title, 'request/internal/content/' . $node->nid); ?>
     </h2>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
@@ -97,7 +97,7 @@
   <?php endif; ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
-    <?php print $crf_request_table; ?>
+    <?php print $internal_request_table; ?>
   </div>
 
   <?php
