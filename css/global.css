@@ -467,7 +467,7 @@ a.follow-link-this-site {
 .views_slideshow_main a,
 .views_slideshow_main a:link,
 .views_slideshow_main a:visited {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .flexslider {
