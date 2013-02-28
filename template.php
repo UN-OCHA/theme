@@ -358,7 +358,12 @@ function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables
     'attributes' => array('class' => 'indicator-data-batch-graph-icon'),
   );
   $variables['graph_icon'] = theme('image', $icon_vars);
-  $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
+  if (isset($node->view)) {
+    $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'teaser', $node->uuid);
+  }
+  else {
+    $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
+  }
 }
 
 function humanitarianresponse_breadcrumb($variables) {
