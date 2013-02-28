@@ -533,10 +533,13 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $vars['chart_id'] = $chart_id;
 }
 
-function humanitarianresponse_preprocess_block(&$vars) {
+function humanitarianresponse_preprocess_block(&$vars) {  
   if ($vars['block']->module == 'user' && $vars['block']->delta == 'login') {
     $vars['content'] = humanitarianresponse_persona_login_button();
   }
+  else if ($vars['block']->module == 'views' && $vars['block']->delta == '-exp-requests-page') {
+    $vars['block']->subject = t('Filter Requests');
+  }  
 }
 
 function humanitarianresponse_persona_login_button() {
