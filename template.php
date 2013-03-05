@@ -108,8 +108,12 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
               $txt = 'Submitted';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
-            case 'published':
+            case 'finalised':
               $txt = 'Finalised';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+              break;
+            case 'published':
+              $txt = 'Published';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
             case 'needs_review':
