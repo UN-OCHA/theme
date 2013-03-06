@@ -449,7 +449,7 @@ a.follow-link-this-site {
   background-color: white;
 }
 
-.views_slideshow_main .views-row {
+/*.views_slideshow_main .views-row {
   padding: 0;
   border-bottom: 0 !important;
 }
@@ -462,16 +462,20 @@ a.follow-link-this-site {
 
 .views_slideshow_main img {
   padding-bottom: 0;
-}
+}*/
 
-.views_slideshow_main a,
-.views_slideshow_main a:link,
-.views_slideshow_main a:visited {
+.flexslider .flex-caption a,
+.flexslider .flex-caption a:link,
+.flexslider .flex-caption a:visited {
   color: #ffffff !important;
 }
 
 .flexslider {
   border: none;
+}
+
+.flexslider .slides img {
+  padding: 0;
 }
 
 #block-views-news-block-2 {
