@@ -83,7 +83,7 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
-      <?php print $non_cluster_request_icon; ?>
+      <?php print $internal_request_icon; ?>
       <?php print l($title, 'request/internal/content/' . $node->nid); ?>
     </h2>
   <?php endif; ?>

@@ -108,8 +108,12 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
               $txt = 'Submitted';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
-            case 'published':
+            case 'finalised':
               $txt = 'Finalised';
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+              break;
+            case 'published':
+              $txt = 'Published';
               $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
               break;
             case 'needs_review':
@@ -253,47 +257,60 @@ function humanitarianresponse_preprocess_non_cluster_request($node, &$variables)
 function humanitarianresponse_preprocess_internal_request($node, &$variables) {
   $headers = array('');
   $rows = array();
-  $job_title = 'OCHA';
+  $job_title = '';
   $ctype = node_type_load('internal_report');
   $reporting_type_term = taxonomy_term_load($node->field_reporting_type['und'][0]['target_id']);
   $headers[] = l($reporting_type_term->name, '');
-  $row = array($job_title);
   
-  $query = new EntityFieldQuery();
-  $result = $query
-    ->entityCondition('entity_type', 'node')
-    ->entityCondition('bundle', $ctype->type)
-    ->fieldCondition('field_internal_request', 'target_id', array($node->nid))
-    ->execute();
+  foreach ($node->field_int_req_contact['und'] as $key => $contact) {
+    $account = $contact['entity'];
+    if ($account) {
+      $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
+      $row_title = t('@first_name @last_name', array(
+        '@first_name' => $account->field_first_name['und'][0]['value'],
+        '@last_name' => $account->field_last_name['und'][0]['value'],
+      ));
+      if ($job_title_term) {
+        $row_title .= t(' (@job_title)', array('@job_title' => $job_title_term->name));
+      }
+      $row = array($row_title);      
+      $query = new EntityFieldQuery();
+      $result = $query
+        ->entityCondition('entity_type', 'node')
+        ->entityCondition('bundle', $ctype->type)
+        ->fieldCondition('field_internal_request', 'target_id', array($node->nid))
+        ->execute();
   
-  if (empty($result)) {
-    $label = t('Add @ct', array('@ct' => $ctype->name));
-    $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
-    $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
-      array('html' => TRUE,
-        'query' => array(
-          array('edit' => 
-            array(
-              'field_internal_request' => array(LANGUAGE_NONE => $node->nid),
-            ),
-          ),
-        )
-      )
-    );
-  }
-  else {
-    $nodes = node_load_multiple(array_keys($result['node']));
-    $content_node = reset($nodes);
+      if (empty($result)) {
+        $label = t('Add @ct', array('@ct' => $ctype->name));
+        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
+        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
+          array('html' => TRUE,
+            'query' => array(
+              array('edit' => 
+                array(
+                  'field_internal_request' => array(LANGUAGE_NONE => $node->nid),
+                ),
+              ),
+            )
+          )
+        );
+      }
+      else {
+        $nodes = node_load_multiple(array_keys($result['node']));
+        $content_node = reset($nodes);
 
-    $txt = 'Finalised';
-    $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+        $txt = 'Finalised';
+        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
 
-    if (isset($icon)) {
-      $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-      $row[] = array('data' => $link);
+        if (isset($icon)) {
+          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+          $row[] = array('data' => $link);
+        }
+      }    
+      $rows[] = $row;
     }
   }
-  $rows[] = $row;
 
   $icon_vars = array(
     'path' => path_to_theme() . '/images/crf_request/ocha-request.png',
@@ -303,7 +320,7 @@ function humanitarianresponse_preprocess_internal_request($node, &$variables) {
     'height' => '41',
     'attributes' => array('class' => 'request-icon'),
   );
-  $variables['non_cluster_request_icon'] = theme('image', $icon_vars);
+  $variables['internal_request_icon'] = theme('image', $icon_vars);  
   $variables['internal_request_table'] = theme('table', array(
     'header' => $headers,
     'rows' => $rows,
@@ -358,7 +375,12 @@ function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables
     'attributes' => array('class' => 'indicator-data-batch-graph-icon'),
   );
   $variables['graph_icon'] = theme('image', $icon_vars);
-  $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
+  if (isset($node->view)) {
+    $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'teaser', $node->uuid);
+  }
+  else {
+    $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
+  }
 }
 
 function humanitarianresponse_breadcrumb($variables) {
@@ -533,10 +555,13 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $vars['chart_id'] = $chart_id;
 }
 
-function humanitarianresponse_preprocess_block(&$vars) {
+function humanitarianresponse_preprocess_block(&$vars) {  
   if ($vars['block']->module == 'user' && $vars['block']->delta == 'login') {
     $vars['content'] = humanitarianresponse_persona_login_button();
   }
+  else if ($vars['block']->module == 'views' && $vars['block']->delta == '-exp-requests-page') {
+    $vars['block']->subject = t('Filter Requests');
+  }  
 }
 
 function humanitarianresponse_persona_login_button() {
