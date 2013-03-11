@@ -266,6 +266,7 @@ function humanitarianresponse_preprocess_internal_request($node, &$variables) {
     $account = $contact['entity'];
     if ($account) {
       $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
+      $location_term = isset($account->field_locations['und'][0]['tid']) ? taxonomy_term_load($account->field_locations['und'][0]['tid']) : NULL;
       $row_title = t('@first_name @last_name', array(
         '@first_name' => $account->field_first_name['und'][0]['value'],
         '@last_name' => $account->field_last_name['und'][0]['value'],
@@ -273,11 +274,15 @@ function humanitarianresponse_preprocess_internal_request($node, &$variables) {
       if ($job_title_term) {
         $row_title .= t(' (@job_title)', array('@job_title' => $job_title_term->name));
       }
+      if ($location_term) {
+        $row_title .= t(' - @location', array('@location' => $location_term->name));
+      }
       $row = array($row_title);      
       $query = new EntityFieldQuery();
       $result = $query
         ->entityCondition('entity_type', 'node')
         ->entityCondition('bundle', $ctype->type)
+        ->propertyCondition('uid', $account->uid)
         ->fieldCondition('field_internal_request', 'target_id', array($node->nid))
         ->execute();
   
@@ -366,17 +371,9 @@ function humanitarianresponse_preprocess_fts_message($node, &$variables) {
 }
 
 function humanitarianresponse_preprocess_indicator_data_batch($node, &$variables) {
-  $icon_vars = array(
-    'path' => path_to_theme() . '/images/crf_request/indicator-data-batch-graph.png',
-    'alt' => 'Graphs',
-    'title' => 'Graphs',
-    'width' => '50',
-    'height' => '50',
-    'attributes' => array('class' => 'indicator-data-batch-graph-icon'),
-  );
-  $variables['graph_icon'] = theme('image', $icon_vars);
   if (isset($node->view)) {
     $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'teaser', $node->uuid);
+    $variables['indicator_data_batch_graphs'] = views_embed_view('indicator_data_batch', 'teaser_graphs', $node->uuid);
   }
   else {
     $variables['indicator_data_batch_table'] = views_embed_view('indicator_data_batch', 'table', $node->uuid);
@@ -449,7 +446,7 @@ function humanitarianresponse_preprocess_views_highcharts(&$vars) {
   $highcharts_config->chart->defaultSeriesType = $options['format']['chart_type'];
   $highcharts_config->chart->backgroundColor = '#fff';
   
-  if (isset($node->field_crf_request)){
+  if (isset($node->field_crf_request)) {
     $request = node_load($node->field_crf_request['und'][0]['target_id']);
     $indicator_data_type = t('Performance-related');
     if ($view->name == 'situational_indicator_data_batch') {
