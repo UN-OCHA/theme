@@ -18,6 +18,11 @@ a[href$='.xls'], a[href$='.xlsx'] {
 	background: transparent url(../images/files_icons/icon_xls.gif) no-repeat center left;
 }
 
+a[href$='.csv'] {
+	padding: 5px 0 5px 20px;
+	background: transparent url(../images/files_icons/icon_xls.gif) no-repeat center left;
+}
+
 a[href$='.rss'], a[href$='.atom'] { 
 	padding: 5px 0 5px 20px;
 	background: transparent url(../images/files_icons/icon_feed.gif) no-repeat center left;
