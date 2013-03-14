@@ -64,7 +64,7 @@ libraries[hr_mobilemenu][js][1][file] = hr_mobilemenu.js
 libraries[hr_mobilemenu][js][1][options][weight] = -17
 
 ; SCRIPTS
-scripts[] = utils.js
+scripts[] = js/utils.js
 
 
 ; FEATURES
