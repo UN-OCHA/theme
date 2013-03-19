@@ -54,6 +54,8 @@ css[kiosk_hr_info.css][name] = 'Kiosk styles'
 css[kiosk_hr_info.css][description] = 'This file holds specific styles for the kiosk.humanitarianresponse.info site.'
 css[www_hr_info.css][name] = 'WWW styles'
 css[www_hr_info.css][description] = 'This file holds specific styles for the www.humanitarianresponse.info site.'
+css[rowca.css][name] = 'ROWCA styles'
+css[rowca.css][description] = 'This file holds specific styles for the wca.humanitarianresponse.info site.'
 
 ; LIBRARIES
 libraries[hr_mobilemenu][name] = Mobile Menu
