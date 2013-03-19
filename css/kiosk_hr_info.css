@@ -14,6 +14,11 @@
   background-color: #F2F2F2;
 }
 
+.view-slideshow {
+  margin-bottom: 50px;
+}
+
+
 /* Kiosk country pages */
 .kiosk-country-page #section-header,
 .kiosk-country-page #breadcrumb {
