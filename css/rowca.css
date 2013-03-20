@@ -95,7 +95,7 @@ background-color: #fff;
 #block-views-documents-cluster-key .view-content{
 height: 250px;
 }
-#block-boxes-graphfunding-block .boxes-box-content {
+/*#block-boxes-graphfunding-block .boxes-box-content {
 height: 270px;
 }
 /*align .more-link on all block views*/
@@ -115,6 +115,7 @@ border: 1px solid #f1f1f1;
 background-color: #fff;
 margin-bottom: 10px;
 padding: 10px;
+height: 300px;
 box-shadow: 5px 5px 5px #f1f1f1;
 }
 /*center content in block views*/
@@ -160,7 +161,7 @@ text-indent: -9999px;
 }
 /*to add icons to menu items */
 li.leaf.cods a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/cod.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/cod2.png");
 background-repeat: no-repeat;
 }
 li.leaf.calendar a {
