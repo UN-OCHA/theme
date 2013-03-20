@@ -27,13 +27,13 @@ visibility: hidden;
 color: #b91222;
 padding-left: 3px;
 }
-#block-views-locations-block-1 a:hover, a:active, 
+/*#block-views-locations-block-1 a:hover, a:active, 
 #block-views-c2cf03c1a22e28f94841c88dd5f3026d a:hover, a:active {
 color: #fff;
 background-color: #b91222;
-}
-/*width:100%;
-display: block;*/
+width:100%;
+display: inline-block;
+}*/
 
 
 /*CLUSTERS BLOCK*/
@@ -90,10 +90,10 @@ background-color: #fff;
 
 /*Block views*/
 /*add height on all content for block views*/
-#block-views-maps-view-block-2 .view-content, .view-empty,
-#block-boxes-graphfunding-block .view-content, .view-empty, 
-#block-views-documents-funding-featured .view-content, .view-empty,
-#block-views-documents-cluster-key .view-content, .view-empty {
+#block-views-maps-view-block-2 .view-content, 
+#block-boxes-graphfunding-block .view-content,
+#block-views-documents-funding-featured .view-content,
+#block-views-documents-cluster-key .view-content{
 height: 250px;
 }
 /*align .more-link on all block views*/
