@@ -90,10 +90,10 @@ background-color: #fff;
 
 /*Block views*/
 /*add height on all content for block views*/
-#block-views-maps-view-block-2 .view-content, 
-#block-boxes-graphfunding-block .view-content,
-#block-views-documents-funding-featured .view-content,
-#block-views-documents-cluster-key .view-content{
+#block-views-maps-view-block-2 .view-content, .view-empty,
+#block-boxes-graphfunding-block .view-content, .view-empty, 
+#block-views-documents-funding-featured .view-content, .view-empty,
+#block-views-documents-cluster-key .view-content, .view-empty {
 height: 250px;
 }
 /*align .more-link on all block views*/
