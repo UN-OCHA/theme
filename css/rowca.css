@@ -170,19 +170,19 @@ background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/hum
 background-repeat: no-repeat;
 }
 li.leaf.assessment-registry a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/cod.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/assessment_registry.png");
 background-repeat: no-repeat;
 }
 li.leaf.crf a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/calendar.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/crf.png");
 background-repeat: no-repeat;
 }
 li.leaf.coordination-hub a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/contacts.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/coordination_hub.png");
 background-repeat: no-repeat;
 }
 li.leaf.media a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/contacts.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/media.png");
 background-repeat: no-repeat;
 }
 
