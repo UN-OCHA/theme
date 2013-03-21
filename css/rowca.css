@@ -91,10 +91,12 @@ background-color: #fff;
 /*Block views*/
 /*add height on all content for block views*/
 #block-views-maps-view-block-2 .view-content, 
-#block-boxes-graphfunding-block .view-content,
 #block-views-documents-funding-featured .view-content,
 #block-views-documents-cluster-key .view-content{
 height: 250px;
+}
+/*#block-boxes-graphfunding-block .boxes-box-content {
+height: 270px;
 }
 /*align .more-link on all block views*/
 #block-views-maps-view-block-2 .more-link, 
@@ -113,6 +115,7 @@ border: 1px solid #f1f1f1;
 background-color: #fff;
 margin-bottom: 10px;
 padding: 10px;
+height: 300px;
 box-shadow: 5px 5px 5px #f1f1f1;
 }
 /*center content in block views*/
@@ -158,7 +161,7 @@ text-indent: -9999px;
 }
 /*to add icons to menu items */
 li.leaf.cods a {
-background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/cod.png");
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/cod2.png");
 background-repeat: no-repeat;
 }
 li.leaf.calendar a {
@@ -169,7 +172,7 @@ li.leaf.contact-list a {
 background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/contacts.png");
 background-repeat: no-repeat;
 }
-li.leaf.assessment-registry a {
+li.leaf.assessments-registry a {
 background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/assessment_registry.png");
 background-repeat: no-repeat;
 }
@@ -177,7 +180,7 @@ li.leaf.crf a {
 background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/crf.png");
 background-repeat: no-repeat;
 }
-li.leaf.coordination-hub a {
+li.leaf.coordination-hubs a {
 background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/coordination_hub.png");
 background-repeat: no-repeat;
 }
@@ -185,6 +188,9 @@ li.leaf.media a {
 background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/media.png");
 background-repeat: no-repeat;
 }
-
+li.leaf.humanitarian-profile a {
+background-image: url("http://wca.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/humanitarian_profile.png");
+background-repeat: no-repeat;
+}
 
 
