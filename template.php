@@ -17,130 +17,162 @@ function humanitarianresponse_preprocess_node(&$variables) {
   switch ($node->type) {
     case 'assessments_batch':
     case 'contacts_upload':
-    case 'crf_request':
     case 'fts_message':
     case 'indicator_data_batch':
-    case 'internal_request':
-    case 'non_cluster_request':
+    case 'request':
       return $callback($node, $variables);
   }
 }
 
-function humanitarianresponse_preprocess_crf_request($node, &$variables) {
-  // Get list of clusters
-  $voc = taxonomy_vocabulary_machine_name_load('clusters');  
-  $clusters = taxonomy_get_tree($voc->vid, 0, NULL, TRUE);
-
-  // Get list of content types checked
-  $content_types = $node->field_crf_req_contents[LANGUAGE_NONE];
-  $ctypes = array();
+function humanitarianresponse_preprocess_request($node, &$variables) {
   $headers = array('');
   $rows = array();
-  foreach ($content_types as $ctype) {
-    $tmp = node_type_load(str_replace('_', '-', $ctype['value']));
-    if ($tmp) {    
-      $ctypes[] = $tmp;
-      switch ($tmp->name) {
-        case 'Situation Report Information':
-          $header_link = l($tmp->name, 'crf/cluster-content/hr_sitrep/' . $tmp->name);
-          break;
-        case 'Indicator Values':
-          $header_link = l($tmp->name, 'crf/indicator-data/table');
-          break;
-        case 'Sectoral Analysis':
-          $header_link = l($tmp->name, 'crf/cluster-content/sectoral_analysis/' . $tmp->name);
-          break;
-        case 'Contacts':
-          $header_link = l($tmp->name, 'taxonomy/term/all/contacts');
-          break;
-        case 'Assessments':
-          $header_link = l($tmp->name, 'resources/assessment-registry');
-          break;
-        case 'Financial Tracking Service Message':
-          $header_link = l($tmp->name, '');
-          break;
-      }
-      $headers[] = $header_link;
-    }
-  }
+  $reporting_types = array();
   
-  foreach ($clusters as $cluster) {    
-    $row = array($cluster->name);
-    foreach ($ctypes as $ctype) {
-      $query = new EntityFieldQuery();
-      $result = $query
-        ->entityCondition('entity_type', 'node')
-        ->entityCondition('bundle', $ctype->type)
-        ->fieldCondition('field_cluster', 'tid', array($cluster->tid))
-        ->fieldCondition('field_crf_request', 'target_id', array($node->nid))
-        ->execute();
-      if (empty($result)) {
-        $label = t('Add @ct', array('@ct' => $ctype->name));
-        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
-        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
-          array('html' => TRUE,
-            'query' => array(
-              array('edit' => 
-                array(
-                  'field_crf_request' => array(LANGUAGE_NONE => $node->nid),
-                  'field_cluster' => array(LANGUAGE_NONE => $cluster->tid)),
-              ),
-            ),
-          )
-        );
-      }
-      else {
-        $nodes = node_load_multiple(array_keys($result['node']));
-        $content_node = reset($nodes);
-        
-        if ($content_node->type == 'contacts_upload' || $content_node->type == 'fts_message') {
-          $txt = 'Finalised';
-          $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
+  foreach ($node->field_reporting_type['und'] as $reporting_type) {
+    $reporting_type_term = taxonomy_term_load($reporting_type['target_id']);
+    $reporting_types[$reporting_type_term->tid] = $reporting_type_term;
+    $headers[] = l($reporting_type_term->name, ''); 
+  }
+    
+  if (!empty($node->field_request_recipients)) {
+    foreach ($node->field_request_recipients['und'] as $key => $contact) {
+      $account = $contact['entity'];
+      if ($account) {
+        $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
+        $organisation_term = isset($account->field_organisation['und'][0]['tid']) ? taxonomy_term_load($account->field_organisation['und'][0]['tid']) : NULL;
+        $location_term = isset($account->field_locations['und'][0]['tid']) ? taxonomy_term_load($account->field_locations['und'][0]['tid']) : NULL;
+        $cluster_term = isset($account->field_clusters['und'][0]['tid']) ? taxonomy_term_load($account->field_clusters['und'][0]['tid']) : NULL;
+        $row_title = t('@first_name @last_name', array(
+          '@first_name' => $account->field_first_name['und'][0]['value'],
+          '@last_name' => $account->field_last_name['und'][0]['value'],
+        ));
+        if ($job_title_term || $organisation_term || $location_term || $cluster_term) {
+          $row_title .= ' (';
         }
-        else {
-          $workflow = $content_node->workbench_moderation['current'];
-          switch ($workflow->state) {
-            case 'draft':
-              $txt = 'In Progress';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/draft.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-              break;
-            case 'submitted_to_ocha':
+        if ($job_title_term) {
+          $row_title .= t('@job_title', array('@job_title' => $job_title_term->name));
+        }
+        if ($organisation_term) {
+          $row_title .= t(' - @organisation', array('@organisation' => $organisation_term->name));
+        }
+        if ($location_term) {
+          $row_title .= t(' - @location', array('@location' => $location_term->name));
+        }
+        if ($cluster_term) {
+          $row_title .= t(' - @cluster', array('@cluster' => $cluster_term->name));
+        }
+        if ($job_title_term || $organisation_term || $location_term || $cluster_term) {
+          $row_title .= ')';
+        }
+        $row = array($row_title);
+        
+        $ctype = node_type_load('report');
+        
+        foreach ($reporting_types as $reporting_type_tid => $reporting_type) {
+          if (empty($reporting_type->field_content_type)) {
+            $query = new EntityFieldQuery();
+            $result = $query
+              ->entityCondition('entity_type', 'node')
+              ->entityCondition('bundle', $ctype->type)
+              ->propertyCondition('uid', $account->uid)
+              ->fieldCondition('field_reporting_type', 'target_id', $reporting_type_tid)
+              ->fieldCondition('field_request', 'target_id', array($node->nid))
+              ->execute();
+  
+            if (empty($result)) {            
+              $label = t('Add @rt', array('@rt' => $reporting_type->name));
+              $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/non-workflow-not-submitted.png', 'width' => '20', 'height' => '20', 'alt' => $label, 'title' => $label));
+              $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
+                array('html' => TRUE,
+                  'query' => array(
+                    array('edit' => 
+                      array(
+                        'field_request' => array(LANGUAGE_NONE => $node->nid),
+                        'field_reporting_type' => array(LANGUAGE_NONE => $reporting_type_tid),
+                      ),
+                    ),
+                  )
+                )
+              );
+            }
+            else {
+              $nodes = node_load_multiple(array_keys($result['node']));
+              $content_node = reset($nodes);
+
               $txt = 'Submitted';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-              break;
-            case 'finalised':
-              $txt = 'Finalised';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-              break;
-            case 'published':
-              $txt = 'Published';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-              break;
-            case 'needs_review':
-              $txt = 'Review Requested';
-              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/review.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-              break;
+              $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/non-workflow-submitted.png', 'width' => '20', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+
+              if (isset($icon)) {
+                $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+                $row[] = array('data' => $link);
+              }
+            }
+          }
+          else {
+            $query = new EntityFieldQuery();
+            $result = $query
+              ->entityCondition('entity_type', 'node')
+              ->entityCondition('bundle', $reporting_type->field_content_type['und'][0]['value'])
+              ->fieldCondition('field_request', 'target_id', array($node->nid))
+              ->execute();
+  
+            if (empty($result)) {            
+              $label = t('Add @rt', array('@rt' => $reporting_type->name));
+              $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '66', 'height' => '20', 'alt' => $label, 'title' => $label));
+              $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $reporting_type->field_content_type['und'][0]['value']), 
+                array('html' => TRUE,
+                  'query' => array(
+                    array('edit' => 
+                      array(
+                        'field_request' => array(LANGUAGE_NONE => $node->nid),
+                      ),
+                    ),
+                  )
+                )
+              );
+            }
+            else {
+              $nodes = node_load_multiple(array_keys($result['node']));
+              $content_node = reset($nodes);
+              
+              $workflow = $content_node->workbench_moderation['current'];              
+              switch ($workflow->state) {
+                case 'draft':
+                  $txt = 'In Progress';
+                  $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/draft.png', 'width' => '66', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+                  break;
+                case 'submitted_to_ocha':
+                  $txt = 'Submitted';
+                  $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/submitted.png', 'width' => '66', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+                  break;
+                case 'finalised':
+                  $txt = 'Finalised';
+                  $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '66', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+                  break;
+                case 'published':
+                  $txt = 'Published';
+                  $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '66', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+                  break;
+                case 'needs_review':
+                  $txt = 'Review Requested';
+                  $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/review.png', 'width' => '66', 'height' => '20', 'alt' => $txt, 'title' => $txt));
+                  break;
+              }
+              
+              if (isset($icon)) {
+                $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
+                $row[] = array('data' => $link);
+              }
+            }
           }
         }
-        if (isset($icon)) {
-          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-          $row[] = array('data' => $link);
-        }
+        $rows[] = $row;
       }
     }
-    $rows[] = $row;
   }
 
-  $icon_vars = array(
-    'path' => path_to_theme() . '/images/crf_request/cluster-request.png',
-    'alt' => 'Cluster Request',
-    'title' => 'Cluster Request',
-    'width' => '128',
-    'height' => '41',
-    'attributes' => array('class' => 'request-icon'),
-  );
-  $variables['cluster_request_icon'] = theme('image', $icon_vars);
-  $variables['crf_request_table'] = theme('table', array(
+  $request_table = theme('table', array(
     'header' => $headers,
     'rows' => $rows,
     'attributes' => array('class' => 'crf-request-table'),
@@ -149,194 +181,36 @@ function humanitarianresponse_preprocess_crf_request($node, &$variables) {
     'sticky' => array(),
     'empty' => array(),
   ));
-}
 
-function humanitarianresponse_preprocess_non_cluster_request($node, &$variables) {
-  $content_type = $node->field_nc_req_contents[LANGUAGE_NONE][0]['value'];  
-  $headers = array('');
-  $rows = array();
-  $job_title = '';
-  $ctype = node_type_load(str_replace('_', '-', $content_type));
-  if ($ctype) {    
-    switch ($ctype->name) {
-      case '3W Data':
-        $job_title = t('Partners in the Field');
-        $header_link = l($ctype->name, '');
-        break;
-      case 'Baseline Data':
-        $job_title = t('Public Info Officer');
-        $header_link = l($ctype->name, '');
-        break;
-      case 'CHF/ERF Information':
-        $job_title = t('Public Info Officer');
-        $header_link = l($ctype->name, '');
-        break;
-      case 'Humanitarian Bulletin Information':
-        $job_title = t('Public Info Officer');
-        $header_link = l($ctype->name, '');
-        break;
-      case 'Pipeline Monitoring Information':
-        $job_title = t('Pipeline Manager');
-        $header_link = l($ctype->name, '');
-        break;
-    }
-    $headers[] = $header_link;
+  $icon_vars = array();
+  if ($node->field_request_type['und'][0]['value']) {
+    $icon_vars = array(
+      'path' => path_to_theme() . '/images/crf_request/internal-request.png',
+      'alt' => 'Internal Request',
+      'title' => 'Internal Request',
+      'width' => '128',
+      'height' => '41',
+      'attributes' => array('class' => 'request-icon'),
+    );
+  }
+  else {
+    $icon_vars = array(
+      'path' => path_to_theme() . '/images/crf_request/external-request.png',
+      'alt' => 'External Request',
+      'title' => 'External Request',
+      'width' => '128',
+      'height' => '41',
+      'attributes' => array('class' => 'request-icon'),
+    );
   }
 
-  foreach ($node->field_information_focal_points['und'] as $key => $contact) {
-    $account = user_load_by_mail($contact['entity']->field_contact_email['und'][0]['email']);
-    if ($account) {
-      $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
-      $row_title = t('@first_name @last_name', array(
-        '@first_name' => $account->field_first_name['und'][0]['value'],
-        '@last_name' => $account->field_last_name['und'][0]['value'],
-      ));
-      if ($job_title_term) {
-        $row_title .= t(' (@job_title)', array('@job_title' => $job_title_term->name));
-      }
-      $row = array($row_title);
-      $query = new EntityFieldQuery();
-      $result = $query
-        ->entityCondition('entity_type', 'node')
-        ->entityCondition('bundle', $ctype->type)
-        ->propertyCondition('uid', $account->uid)
-        ->fieldCondition('field_nc_request', 'target_id', array($node->nid))
-        ->execute();
-      if (empty($result)) {
-        $label = t('Add @ct', array('@ct' => $ctype->name));
-        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
-        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
-          array('html' => TRUE,
-            'query' => array(
-              array('edit' => 
-                array(
-                  'field_nc_request' => array(LANGUAGE_NONE => $node->nid),
-                ),
-              ),
-            )
-          )
-        );
-      }
-      else {
-        $nodes = node_load_multiple(array_keys($result['node']));
-        $content_node = reset($nodes);
-    
-        $txt = 'Finalised';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-
-        if (isset($icon)) {
-          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-          $row[] = array('data' => $link);
-        }
-      }
-      $rows[] = $row;
-    }
-  }
-
-  $icon_vars = array(
-    'path' => path_to_theme() . '/images/crf_request/non-cluster-request.png',
-    'alt' => 'Non-Cluster Request',
-    'title' => 'Non-Cluster Request',
-    'width' => '128',
-    'height' => '41',
-    'attributes' => array('class' => 'request-icon'),
-  );
-  $variables['non_cluster_request_icon'] = theme('image', $icon_vars);
-  $variables['non_cluster_request_table'] = theme('table', array(
-    'header' => $headers,
-    'rows' => $rows,
-    'attributes' => array('class' => 'crf-request-table'),
-    'caption' => '',
-    'colgroups' => array(),
-    'sticky' => array(),
-    'empty' => array(),
+  $variables['request_icon'] = theme('image', $icon_vars);
+  $variables['request_table'] = theme('ctools_collapsible', array(
+    'handle' => 'Expand to view request submissions', 
+    'content' => $request_table, 
+    'collapsed' => TRUE,
   ));
 }
-
-
-function humanitarianresponse_preprocess_internal_request($node, &$variables) {
-  $headers = array('');
-  $rows = array();
-  $job_title = '';
-  $ctype = node_type_load('internal_report');
-  $reporting_type_term = taxonomy_term_load($node->field_reporting_type['und'][0]['target_id']);
-  $headers[] = l($reporting_type_term->name, '');
-  
-  foreach ($node->field_int_req_contact['und'] as $key => $contact) {
-    $account = $contact['entity'];
-    if ($account) {
-      $job_title_term = isset($account->field_job_title['und'][0]['tid']) ? taxonomy_term_load($account->field_job_title['und'][0]['tid']) : NULL;
-      $location_term = isset($account->field_locations['und'][0]['tid']) ? taxonomy_term_load($account->field_locations['und'][0]['tid']) : NULL;
-      $row_title = t('@first_name @last_name', array(
-        '@first_name' => $account->field_first_name['und'][0]['value'],
-        '@last_name' => $account->field_last_name['und'][0]['value'],
-      ));
-      if ($job_title_term) {
-        $row_title .= t(' (@job_title)', array('@job_title' => $job_title_term->name));
-      }
-      if ($location_term) {
-        $row_title .= t(' - @location', array('@location' => $location_term->name));
-      }
-      $row = array($row_title);      
-      $query = new EntityFieldQuery();
-      $result = $query
-        ->entityCondition('entity_type', 'node')
-        ->entityCondition('bundle', $ctype->type)
-        ->propertyCondition('uid', $account->uid)
-        ->fieldCondition('field_internal_request', 'target_id', array($node->nid))
-        ->execute();
-  
-      if (empty($result)) {
-        $label = t('Add @ct', array('@ct' => $ctype->name));
-        $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '133', 'height' => '41', 'alt' => $label, 'title' => $label));
-        $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $ctype->type), 
-          array('html' => TRUE,
-            'query' => array(
-              array('edit' => 
-                array(
-                  'field_internal_request' => array(LANGUAGE_NONE => $node->nid),
-                ),
-              ),
-            )
-          )
-        );
-      }
-      else {
-        $nodes = node_load_multiple(array_keys($result['node']));
-        $content_node = reset($nodes);
-
-        $txt = 'Finalised';
-        $icon = theme('image', array('path' => path_to_theme() . '/images/crf_request/finalised.png', 'width' => '133', 'height' => '41', 'alt' => $txt, 'title' => $txt));
-
-        if (isset($icon)) {
-          $link = l($icon, 'node/' . $content_node->nid, array('html' => TRUE));
-          $row[] = array('data' => $link);
-        }
-      }    
-      $rows[] = $row;
-    }
-  }
-
-  $icon_vars = array(
-    'path' => path_to_theme() . '/images/crf_request/ocha-request.png',
-    'alt' => 'OCHA Request',
-    'title' => 'OCHA Request',
-    'width' => '128',
-    'height' => '41',
-    'attributes' => array('class' => 'request-icon'),
-  );
-  $variables['internal_request_icon'] = theme('image', $icon_vars);  
-  $variables['internal_request_table'] = theme('table', array(
-    'header' => $headers,
-    'rows' => $rows,
-    'attributes' => array('class' => 'crf-request-table'),
-    'caption' => '',
-    'colgroups' => array(),
-    'sticky' => array(),
-    'empty' => array(),
-  ));
-}
-
 
 function humanitarianresponse_preprocess_assessments_batch($node, &$variables) {
   $variables['assessments_batch_table'] = views_embed_view('assessments_batch', 'table', $node->uuid);

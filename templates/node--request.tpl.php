@@ -83,7 +83,7 @@
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
-      <?php print $internal_request_icon; ?>
+      <?php print $request_icon; ?>
       <?php print l($title, 'request/internal/content/' . $node->nid); ?>
     </h2>
   <?php endif; ?>
@@ -97,7 +97,7 @@
   <?php endif; ?>
 
   <div class="content clearfix"<?php print $content_attributes; ?>>
-    <?php print $internal_request_table; ?>
+    <?php print $request_table; ?>
   </div>
 
   <?php
