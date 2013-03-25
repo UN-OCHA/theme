@@ -84,7 +84,7 @@
   <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
       <?php print $request_icon; ?>
-      <?php print l($title, 'request/internal/content/' . $node->nid); ?>
+      <a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a>
     </h2>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
