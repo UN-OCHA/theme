@@ -186,6 +186,7 @@ h1.page-title {
 /* Persona button */
 .persona-button.humanitarianresponse {
   background: #b92025;
+  max-width: 100px;
   /*background: -moz-linear-gradient(top, #b92025, #b92025);
   background: -ms-linear-gradient(top, #b92025, #b92025);
   background: -o-linear-gradient(top, #b92025, #b92025);
@@ -194,12 +195,12 @@ h1.page-title {
 }
 
 .persona-button.humanitarianresponse:hover {
-  background: #2d2d2d;
-  background: -moz-linear-gradient(top, #484848, #2d2d2d);
+  background: #8B272A;
+  /*background: -moz-linear-gradient(top, #484848, #2d2d2d);
   background: -ms-linear-gradient(top, #484848, #2d2d2d);
   background: -o-linear-gradient(top, #484848, #2d2d2d);
   background: -webkit-linear-gradient(top, #484848, #2d2d2d);
-  background: linear-gradient(top, #484848, #2d2d2d);
+  background: linear-gradient(top, #484848, #2d2d2d);*/
 }
 
 .persona-button.humanitarianresponse span:before {
