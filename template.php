@@ -434,7 +434,7 @@ function humanitarianresponse_preprocess_block(&$vars) {
     $vars['block']->subject = t('Filter Requests');
   }
   elseif ($vars['block']->module == 'persona' && $vars['block']->delta == 'buttons') {
-    debug($vars['content']);
+    $vars['content'] = '<div style="cursor: pointer;" class="persona-sign_in persona-sign-in persona-button humanitarianresponse"><span>sign in</span></div>';
   }
 }
 
