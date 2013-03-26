@@ -434,10 +434,10 @@ function humanitarianresponse_preprocess_block(&$vars) {
     $vars['block']->subject = t('Filter Requests');
   }
   elseif ($vars['block']->module == 'persona' && $vars['block']->delta == 'buttons') {
-    $content = $vars['content'];
+    /*$content = $vars['content'];
     $pattern = '/<div style=\"(.*)\" class=\"(.*)\">/';
     $replacement = '<div style=\"$1\" class=\"$2 persona-button humanitarianresponse\">';
-    $vars['content'] = preg_replace($pattern, $replacement, $content);
+    $vars['content'] = preg_replace($pattern, $replacement, $content);*/
   }
 }
 
