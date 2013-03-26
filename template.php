@@ -439,7 +439,7 @@ function humanitarianresponse_preprocess_block(&$vars) {
     $patterns[1] = '/persona-sign-out/';
     $replacements[0] = 'persona-sign-in persona-button humanitarianresponse';
     $replacements[1] = 'persona-sign-out persona-button humanitarianresponse';
-    $vars['content'] = preg_replace($patterns, $replacement, $content);
+    $vars['content'] = preg_replace($patterns, $replacements, $content);
   }
 }
 
