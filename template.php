@@ -436,7 +436,7 @@ function humanitarianresponse_preprocess_block(&$vars) {
   elseif ($vars['block']->module == 'persona' && $vars['block']->delta == 'buttons') {
     $content = $vars['content'];
     $pattern = '/persona-sign-in/';
-    $replacement = 'persona-sign-in persona-button humanitarianresponse\"';
+    $replacement = 'persona-sign-in persona-button humanitarianresponse';
     $vars['content'] = preg_replace($pattern, $replacement, $content);
   }
 }
