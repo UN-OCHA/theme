@@ -432,7 +432,10 @@ function humanitarianresponse_preprocess_block(&$vars) {
   }
   else if ($vars['block']->module == 'views' && $vars['block']->delta == '-exp-requests-page') {
     $vars['block']->subject = t('Filter Requests');
-  }  
+  }
+  elseif ($vars['block']->module == 'persona' && $vars['block']->delta == 'buttons') {
+    debug($vars['content']);
+  }
 }
 
 function humanitarianresponse_persona_login_button() {
