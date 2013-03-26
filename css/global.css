@@ -185,12 +185,12 @@ h1.page-title {
 
 /* Persona button */
 .persona-button.humanitarianresponse {
-  background: #3c3c3c;
-  background: -moz-linear-gradient(top, #606060, #3c3c3c);
-  background: -ms-linear-gradient(top, #606060, #3c3c3c);
-  background: -o-linear-gradient(top, #606060, #3c3c3c);
-  background: -webkit-linear-gradient(top, #606060, #3c3c3c);
-  background: linear-gradient(top, #606060, #3c3c3c);
+  background: #b92025;
+  /*background: -moz-linear-gradient(top, #b92025, #b92025);
+  background: -ms-linear-gradient(top, #b92025, #b92025);
+  background: -o-linear-gradient(top, #b92025, #b92025);
+  background: -webkit-linear-gradient(top, #b92025, #b92025);
+  background: linear-gradient(top, #b92025, #b92025);*/
 }
 
 .persona-button.humanitarianresponse:hover {
@@ -204,18 +204,18 @@ h1.page-title {
 
 .persona-button.humanitarianresponse span:before {
   /* Icon BG */
-  background: #d34f2d;
-  background: -moz-linear-gradient(top, #ebac45, #d34f2d);
+  background: #e4e4e6;
+  /*background: -moz-linear-gradient(top, #ebac45, #d34f2d);
   background: -ms-linear-gradient(top, #ebac45, #d34f2d);
   background: -o-linear-gradient(top, #ebac45, #d34f2d);
   background: -webkit-linear-gradient(top, #ebac45, #d34f2d);
-  background: linear-gradient(top, #ebac45, #d34f2d);
+  background: linear-gradient(top, #ebac45, #d34f2d);*/
 }
 
 .persona-button.humanitarianresponse:before {
   /* Triangle */
-  background: #d34f2d;
-  background: -moz-linear-gradient(-45deg, #ebac45, #d34f2d);
+  background: #e4e4e6;
+  /*background: -moz-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -ms-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -o-linear-gradient(-45deg, #ebac45, #d34f2d);
   background: -webkit-linear-gradient(-45deg, #ebac45, #d34f2d);
