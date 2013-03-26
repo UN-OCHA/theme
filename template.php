@@ -563,7 +563,7 @@ function humanitarianresponse_preprocess_block(&$vars) {
 
 function humanitarianresponse_persona_login_button() {
   $path = drupal_get_path('theme', 'humanitarianresponse');
-  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with Persona'), 'attributes' => array('class' => array('persona-login'), 'style' => 'cursor: pointer;'));
+  $vars = array('width' => 79, 'height' => 22, 'alt' => t('Sign in with Persona'), 'attributes' => array('class' => array('persona-login persona-sign-in'), 'style' => 'cursor: pointer;'));
   $img = theme('image', $vars + array('path' => $path . '/images/sign_in_red.png'));
   return $img;
 }
