@@ -435,8 +435,9 @@ function humanitarianresponse_preprocess_block(&$vars) {
   }
   elseif ($vars['block']->module == 'persona' && $vars['block']->delta == 'buttons') {
     $content = $vars['content'];
-    $pattern = '/persona-sign-in/';
-    $replacement = 'persona-sign-in persona-button humanitarianresponse';
+    $patterns[0] = '/persona-sign-in/';
+    $patterns[1] = '/persona-sign-out/';
+    $replacement = '$1 persona-button humanitarianresponse';
     $vars['content'] = preg_replace($pattern, $replacement, $content);
   }
 }
