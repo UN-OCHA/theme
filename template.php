@@ -465,6 +465,6 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
  */
 function humanitarianresponse_preprocess_page(&$variables) {
   if (module_exists('highcharts')) {
-    drupal_add_js(drupal_get_path('theme', 'humanitarianresponse').'/js/highcharts/ocha.js');
+    drupal_add_js(drupal_get_path('theme', 'humanitarianresponse').'/js/highcharts/ocha.js', array('scope' => 'footer'));
   }
 }
