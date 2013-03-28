@@ -148,7 +148,7 @@ Highcharts.theme = {
 		}
 	},
 
-	exporting: {
+	/*exporting: {
 		buttons: {
 			exportButton: {
 				symbolFill: '#55BE3B'
@@ -157,7 +157,7 @@ Highcharts.theme = {
 				symbolFill: '#7797BE'
 			}
 		}
-	},
+	},*/
 
 	// scroll charts
 	rangeSelector: {
