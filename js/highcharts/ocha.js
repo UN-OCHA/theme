@@ -133,7 +133,7 @@ Highcharts.theme = {
 		}
 	},
 
-	navigation: {
+	/*navigation: {
 		buttonOptions: {
 			backgroundColor: {
 				linearGradient: [0, 0, 0, 20],
@@ -148,7 +148,7 @@ Highcharts.theme = {
 		}
 	},
 
-	/*exporting: {
+	exporting: {
 		buttons: {
 			exportButton: {
 				symbolFill: '#55BE3B'
