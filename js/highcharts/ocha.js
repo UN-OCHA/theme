@@ -11,13 +11,13 @@ Highcharts.theme = {
     '#C49C5B',
     '#A470B2'],
 	chart: {
-		backgroundColor: {
+		/*backgroundColor: {
 			linearGradient: [0, 0, 0, 400],
 			stops: [
 				[0, 'rgb(96, 96, 96)'],
 				[1, 'rgb(16, 16, 16)']
 			]
-		},
+		},*/
 		borderWidth: 0,
 		borderRadius: 15,
 		plotBackgroundColor: null,
@@ -26,7 +26,7 @@ Highcharts.theme = {
 	},
 	title: {
 		style: {
-			color: '#FFF',
+			color: '#3067BB',
 			font: '16px Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif'
 		}
 	},
