@@ -2,6 +2,8 @@
  * OCHA theme for Highcharts JS
  */
 
+if (typeof(Highcharts) !== 'undefined') {
+  
 Highcharts.theme = {
 	colors: [
     '#3067BB',
@@ -264,3 +266,5 @@ Highcharts.theme = {
 
 // Apply the theme
 var highchartsOptions = Highcharts.setOptions(Highcharts.theme);
+
+}
