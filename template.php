@@ -486,7 +486,7 @@ function humanitarianresponse_field__field_media__gallery($variables) {
       $classes .= ' alpha';
     }
     elseif ($tmp == 3) {
-      $classes .= 'omega';
+      $classes .= ' omega';
     }
     $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
   }
