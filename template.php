@@ -481,6 +481,13 @@ function humanitarianresponse_field__field_media__gallery($variables) {
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
   foreach ($variables['items'] as $delta => $item) {
     $classes = 'field-item grid-4 ' . ($delta % 2 ? 'odd' : 'even');
+    $tmp = $delta % 4;
+    if ($tmp == 0) {
+      $classes .= ' alpha';
+    }
+    elseif ($tmp == 3) {
+      $classes .= 'omega';
+    }
     $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
   }
   $output .= '</div>';
