@@ -469,7 +469,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
   }
 }
 
-function humanitarianresponse_field__field_media__gallery($vars) {
+function humanitarianresponse_field__field_media__gallery($variables) {
   $output = '';
 
   // Render the label, if it's not hidden.
