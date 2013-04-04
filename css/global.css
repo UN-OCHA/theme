@@ -1262,3 +1262,12 @@ div.feed-icon {
 .olPopup a, .olPopup a:link, .olPopup a:visited {
   color:white;
 }
+
+/* Gallery nodes */
+.node-type-gallery .block {
+  padding: 0;
+}
+
+.node-type-gallery .field-name-field-media .field-items {
+  margin: 0;
+}
