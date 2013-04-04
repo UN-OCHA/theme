@@ -490,16 +490,3 @@ function humanitarianresponse_field__field_media__gallery($variables) {
 
   return $output;
 }
-
-/**
- * Preprocess field_media
- */
-function humanitarianresponse_preprocess_field(&$vars) {
-  $name = $vars['element']['#field_name'];
-  $mode = $vars['element']['#view_mode'];
-  $bundle = $vars['element']['#bundle'];
-  
-  if ($mode == 'full' && $name == 'field_media' && $bundle == 'gallery') {
-    debug($vars);
-  }
-}
