@@ -468,3 +468,16 @@ function humanitarianresponse_preprocess_page(&$variables) {
     drupal_add_js(drupal_get_path('theme', 'humanitarianresponse').'/js/highcharts/ocha.js', array('scope' => 'footer'));
   }
 }
+
+/**
+ * Preprocess field_media
+ */
+function humanitarianresponse_preprocess_field(&$vars) {
+  $name = $vars['element']['#field_name'];
+  $mode = $vars['element']['#view_mode'];
+  $bundle = $vars['element']['#bundle'];
+  
+  if ($mode == 'default' && $name == 'field_media' && $bundle == 'gallery') {
+    debug($vars);
+  }
+}
