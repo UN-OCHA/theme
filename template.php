@@ -469,6 +469,28 @@ function humanitarianresponse_preprocess_page(&$variables) {
   }
 }
 
+function humanitarianresponse_field__field_media__gallery($vars) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$variables['label_hidden']) {
+    $output .= '<div class="field-label"' . $variables['title_attributes'] . '>' . $variables['label'] . ':&nbsp;</div>';
+  }
+
+  // Render the items.
+  $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
+  foreach ($variables['items'] as $delta => $item) {
+    $classes = 'field-item grid-4 ' . ($delta % 2 ? 'odd' : 'even');
+    $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+  }
+  $output .= '</div>';
+
+  // Render the top-level DIV.
+  $output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
+
+  return $output;
+}
+
 /**
  * Preprocess field_media
  */
@@ -477,7 +499,7 @@ function humanitarianresponse_preprocess_field(&$vars) {
   $mode = $vars['element']['#view_mode'];
   $bundle = $vars['element']['#bundle'];
   
-  if ($mode == 'default' && $name == 'field_media' && $bundle == 'gallery') {
+  if ($mode == 'full' && $name == 'field_media' && $bundle == 'gallery') {
     debug($vars);
   }
 }
