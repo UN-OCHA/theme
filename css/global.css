@@ -1271,3 +1271,12 @@ div.feed-icon {
 .node-type-gallery .field-name-field-media .field-items {
   margin: 0;
 }
+
+/* fixes on Register form */
+div.password-suggestions ul li {
+  margin-left: 20px;
+}
+
+.form-type-password-confirm .description {
+  display: none;
+}
