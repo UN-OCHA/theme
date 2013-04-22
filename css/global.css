@@ -203,6 +203,10 @@ h1.page-title {
   background: linear-gradient(top, #484848, #2d2d2d);*/
 }
 
+.persona-button.humanitarianresponse span {
+  color: white;
+}
+
 .persona-button.humanitarianresponse span:before {
   /* Icon BG */
   background: #e4e4e6;
