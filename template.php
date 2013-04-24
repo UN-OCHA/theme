@@ -34,7 +34,7 @@ function humanitarianresponse_preprocess_request($node, &$variables) {
     $reporting_types[$reporting_type_term->tid] = $reporting_type_term;
     $headers[] = l($reporting_type_term->name, ''); 
   }
-    
+
   if (!empty($node->field_request_recipients)) {
     foreach ($node->field_request_recipients['und'] as $key => $contact) {
       $account = $contact['entity'];
@@ -79,7 +79,6 @@ function humanitarianresponse_preprocess_request($node, &$variables) {
               ->fieldCondition('field_reporting_type', 'target_id', $reporting_type_tid)
               ->fieldCondition('field_request', 'target_id', array($node->nid))
               ->execute();
-  
             if (empty($result)) {            
               $label = t('Add @rt', array('@rt' => $reporting_type->name));
               $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/non-workflow-not-submitted.png', 'width' => '20', 'height' => '20', 'alt' => $label, 'title' => $label));
@@ -114,10 +113,11 @@ function humanitarianresponse_preprocess_request($node, &$variables) {
             $result = $query
               ->entityCondition('entity_type', 'node')
               ->entityCondition('bundle', $reporting_type->field_content_type['und'][0]['value'])
+              ->propertyCondition('uid', $account->uid)
               ->fieldCondition('field_request', 'target_id', array($node->nid))
               ->execute();
-  
-            if (empty($result)) {            
+
+            if (empty($result)) {
               $label = t('Add @rt', array('@rt' => $reporting_type->name));
               $information_requested = theme('image', array('path' => path_to_theme() . '/images/crf_request/requested.png', 'width' => '66', 'height' => '20', 'alt' => $label, 'title' => $label));
               $row[] = l($information_requested, 'node/add/' . str_replace('_', '-', $reporting_type->field_content_type['und'][0]['value']), 
