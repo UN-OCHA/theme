@@ -464,8 +464,12 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
  * Preprocess page: hack to add Highcharts theme that will need to be replaced in the future
  */
 function humanitarianresponse_preprocess_page(&$variables) {
-  if (module_exists('highcharts')) {
-    drupal_add_js(drupal_get_path('theme', 'humanitarianresponse').'/js/highcharts/ocha.js', array('scope' => 'footer'));
+  if (module_exists('libraries')) {
+    module_load_include('module', 'libraries', 'libraries');
+    $path = libraries_get_path('highcharts');
+    if (is_dir('./' . $path)) {
+      drupal_add_js(drupal_get_path('theme', 'humanitarianresponse').'/js/highcharts/ocha.js', array('scope' => 'footer'));
+    }
   }
 }
 
