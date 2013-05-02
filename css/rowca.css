@@ -196,4 +196,10 @@ background-image: url("../images/humanitarian_profile.png");
 background-repeat: no-repeat;
 }
 
+.view-display-id-cluster_key .item-list ul li {
+  list-style: disc;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted;
+  margin-left: 10px;
+}
 
