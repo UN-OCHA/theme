@@ -186,6 +186,6 @@ height: 0;
 
 /* Clusters list */
 #block-views-clusters-block .block-inner {
-  border: none;
-  padding: 0;
+  border: none !important;
+  padding: 0 !important;
 }
