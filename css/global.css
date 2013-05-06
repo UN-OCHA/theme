@@ -962,21 +962,6 @@ div.feed-icon {
 	border:solid 1px #E6E7E8;
 }
 
-.not-front #region-sidebar-second {							/* Customize filter on right sidebar*/
-	background:#E6E7E8;
-	border:O.1em solid #ccc;
-	margin-bottom:10px;
-}
-
-.not-front #region-sidebar-second h2.block-title{
-	background:#F4F8F7;
-}
-
-#region-sidebar-second .item-list ul li.leaf {
-  list-style-image: none;
-  list-style-type: none;
-}
-
 /* Customize map page*/
 .not-front .view-maps-view li.views-row {
   height: 265px;
