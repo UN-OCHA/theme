@@ -677,7 +677,7 @@ a.follow-link-this-site {
 
 .view-clusters li div.views-field:hover a,
 .view-clusters div.views-row:hover a {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .view-clusters div.views-row:hover .views-field-name-field .field-content,

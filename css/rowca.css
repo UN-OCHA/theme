@@ -83,12 +83,9 @@
   border: none !important;
 }
 
-.front #region-sidebar-first .block a:link,
-.front #region-sidebar-first .block a:visited,
-.context-locations #region-sidebar-first .block a:link,
-.context-locations #region-sidebar-first .block a:visited,
-.context-clusters #region-sidebar-first .block a:link,
-.context-clusters #region-sidebar-first .block a:visited {
+.front #region-sidebar-first .block a,
+.context-locations #region-sidebar-first .block a,
+.context-clusters #region-sidebar-first .block a {
   color: #B91222;
   padding-left: 3px;
 }
