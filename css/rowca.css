@@ -186,3 +186,9 @@ height: 0;
   border: none !important;
   padding: 0 !important;
 }
+
+/* Main block */
+#block-system-main {
+  display: none;
+  height: 0;
+}
