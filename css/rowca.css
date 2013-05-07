@@ -5,23 +5,20 @@
 }
 /*to specify menu dimension */
 #block-system-main-menu {
-  padding: 20px 0px 0px 0px;
-  height: 60px;
-  width: 100%;
+  margin: 10px;;
 }
 
 /*to get horizontal menu */
 #block-system-main-menu li {
   display: inline-block;
-  height: 70px;
   width: 70px;
 }
 
 #block-system-main-menu li a {
   display: inline-block;
-  height: 70px;
-  width: 70px;
-  background-size: 50%;
+  height: 40px;
+  width: 100%;
+  background-size: 40px;
   text-indent: -9999px;
   background-repeat: no-repeat;
 }
