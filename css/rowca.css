@@ -185,6 +185,10 @@ height: 0;
   padding: 0 !important;
 }
 
+#block-views-clusters-block a:hover {
+  color: white !important;
+}
+
 /* Main block */
 .front #block-system-main,
 .context-clusters #block-system-main,
