@@ -185,8 +185,9 @@ height: 0;
   padding: 0 !important;
 }
 
-#block-views-clusters-block a:hover {
-  color: white !important;
+#block-views-clusters-block li div.views-field:hover a,
+#block-views-clusters-block div.views-row:hover a {
+  color: #FFFFFF !important;
 }
 
 /* Main block */
