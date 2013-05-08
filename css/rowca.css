@@ -24,28 +24,28 @@
 }
 /*to add icons to menu items */
 #block-system-main-menu li.leaf.cods a {
-  background-image: url("../images/cod.png");
+  background-image: url("../images/tools/cod_40.png");
 }
 #block-system-main-menu li.leaf.calendar a {
-  background-image: url("../images/calendar.png");
+  background-image: url("../images/tools/calendar_40.png");
 }
 #block-system-main-menu li.leaf.contacts a {
-  background-image: url("../images/contacts.png");
+  background-image: url("../images/tools/contacts_40.png");
 }
 #block-system-main-menu li.leaf.assessments-registry a {
-  background-image: url("../images/assessment_registry.png");
+  background-image: url("../images/tools/assessment_registry_40.png");
 }
 #block-system-main-menu li.leaf.crf a {
-  background-image: url("../images/crf.png");
+  background-image: url("../images/tools/crf_40.png");
 }
 #block-system-main-menu li.leaf.coordination-hubs a {
-  background-image: url("../images/coordination_hub.png");
+  background-image: url("../images/tools/coordination_hub_40.png");
 }
 #block-system-main-menu li.leaf.media a {
-  background-image: url("../images/media.png");
+  background-image: url("../images/tools/media_40.png");
 }
 #block-system-main-menu li.leaf.humanitarian-profile a {
-  background-image: url("../images/humanitarian_profile.png");
+  background-image: url("../images/tools/humanitarian_profile_40.png");
 }
 
 /* BLOCKS */
