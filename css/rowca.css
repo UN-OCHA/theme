@@ -195,10 +195,10 @@ height: 0;
 
 /* Home key documents */
 #block-views-documents-documents-home-key h2.block-title {
-  border-bottom: 1px solid #E6E7E8;
-  color: #4B4B4B;
+  border-bottom: 1px solid #E6E7E8 !important;
+  color: #4B4B4B !important;
 }
 
 #block-views-documents-documents-home-key .more-link a {
-  border: none;
+  border: none !important;
 }
