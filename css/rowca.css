@@ -18,7 +18,6 @@
   display: inline-block;
   height: 40px;
   width: 100%;
-  background-size: 40px;
   text-indent: -9999px;
   background-repeat: no-repeat;
 }
@@ -74,6 +73,7 @@
   padding: 10px;
   height: 300px;
   box-shadow: 5px 5px 5px #f1f1f1;
+  behavior: url(../pie/PIE.htc);
 }
 
 .block-delta-blocks {
@@ -99,7 +99,7 @@ h2.block-title {
 .context-locations #region-sidebar-second .block .view-content,
 .context-locations #region-content .block .view-content,
 .context-clusters #region-sidebar-second .block .view-content,
-.context-clusters #region-content .block .view-content
+.context-clusters #region-content .block .view-content,
 .front .highcharts-chart,
 .context-locations .highcharts-chart,
 .context-clusters .highcharts-chart {
@@ -141,6 +141,7 @@ height: 0;
   font-size: medium;
   border-radius: 10px;
   height: 55px;
+  behavior: url(../pie/PIE.htc);
 }
 
 .front #region-content-second p,
@@ -185,7 +186,9 @@ height: 0;
 }
 
 /* Main block */
-#block-system-main {
+.front #block-system-main,
+.context-clusters #block-system-main,
+.context-locations #block-system-main {
   display: none;
   height: 0;
 }
