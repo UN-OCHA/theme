@@ -338,6 +338,8 @@ h2.node-title a:visited {
   width: 16px;
   height: 16px;
   background-image: url('../images/search.png');
+  -pie-background: url('../images/search.png') no-repeat;
+  behavior: url('../pie/PIE.htc');
   background-position: center;
   border:none;
   text-indent: -5000px;
