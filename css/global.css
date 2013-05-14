@@ -1143,8 +1143,9 @@ div.feed-icon {
   text-align: right;
 }
 
-/* Node teasers */
-.node-teaser .field-name-teaser-labels {
+/* Node teasers and search view mode */
+.node-teaser .field-name-teaser-labels,
+.view-mode-search .field-name-teaser-labels {
   float: right;
   font-style: italic;
   color: #766A63;
@@ -1169,39 +1170,47 @@ div.feed-icon {
   text-align: right;
 }
 
-.node-teaser h2 {
+.node-teaser h2,
+.view-mode-search h2 {
   padding-left: 0;
   margin: 0 !important;
 }
 
-.node-teaser h2 a {
+.node-teaser h2 a,
+.view-mode-search h2 a {
   color: #B91222;
 }
 
-.node-teaser .field-items {
+.node-teaser .field-items,
+.view-mode-search .field-items {
   padding-bottom: 5px;
   margin-left: 0;
 }
 
-.node-teaser .group-left {
+.node-teaser .group-left,
+.view-mode-search .group-left {
   width: 20%;
   clear: right;
 }
 
-.node-teaser .group-right {
+.node-teaser .group-right,
+.view-mode-search .group-right {
   width: 80%;
   clear: right;
 }
 
-.node-teaser .field-name-node-link {
+.node-teaser .field-name-node-link,
+.view-mode-search .field-name-node-link {
   text-align: right;
 }
 
-.node-teaser .field-label {
+.node-teaser .field-label,
+.view-mode-search .field-label {
   color: #766A63;
 }
 
-.node-teaser .field-name-field-event-date {
+.node-teaser .field-name-field-event-date,
+.view-mode-search .field-name-field-event-date {
   font-weight: bold;
   color: black;
 }
