@@ -457,7 +457,7 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
     $url_options['query'] = $query;
   }
   $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
-  if (in_array(substr($url, -3), array('csv', 'xls', 'xml'))) {
+  if (in_array(substr($url, -4), array('.csv', '.xls', '.xml'))) {
     return l("", $url, $url_options);
   }
   else {
