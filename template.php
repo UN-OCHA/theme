@@ -450,7 +450,7 @@ function humanitarianresponse_persona_login_button() {
   return $img;
 }
 
-function humanitarianresponse_views_data_export_feed_icon($variables) {
+/*function humanitarianresponse_views_data_export_feed_icon($variables) {
   extract($variables, EXTR_SKIP);
   $url_options = array('html' => true);
   if ($query) {
@@ -458,7 +458,7 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   }
   $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
   return l("", $url, $url_options);
-}
+}*/
 
 /**
  * Preprocess page: hack to add Highcharts theme that will need to be replaced in the future
