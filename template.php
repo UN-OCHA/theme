@@ -450,15 +450,20 @@ function humanitarianresponse_persona_login_button() {
   return $img;
 }
 
-/*function humanitarianresponse_views_data_export_feed_icon($variables) {
+function humanitarianresponse_views_data_export_feed_icon($variables) {
   extract($variables, EXTR_SKIP);
   $url_options = array('html' => true);
   if ($query) {
     $url_options['query'] = $query;
   }
   $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
-  return l("", $url, $url_options);
-}*/
+  if (in_array(substr($url, -3), array('csv', 'xls', 'xml'))) {
+    return l("", $url, $url_options);
+  }
+  else {
+    return l($image, $url, $url_options);
+  }
+}
 
 /**
  * Preprocess page: hack to add Highcharts theme that will need to be replaced in the future
