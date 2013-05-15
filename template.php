@@ -461,7 +461,7 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   }
   else {
     $path = drupal_get_path('theme', 'humanitarianresponse');
-    $ext = strtolowser($text);
+    $ext = strtolower($text);
     if ($ext == 'csv') {
       $ext = 'xls';
     }
