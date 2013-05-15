@@ -451,7 +451,6 @@ function humanitarianresponse_persona_login_button() {
 }
 
 function humanitarianresponse_views_data_export_feed_icon($variables) {
-  debug($variables);
   extract($variables, EXTR_SKIP);
   $url_options = array('html' => true);
   if ($query) {
