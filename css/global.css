@@ -230,7 +230,8 @@ h1.page-title {
   background-position: 10px center !important;
   background-repeat: no-repeat !important;
   background-size: auto auto !important;
-  
+  text-shadow: none;
+  float: right;
 }
 
 /* Tabs */
