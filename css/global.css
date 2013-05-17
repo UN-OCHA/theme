@@ -1187,14 +1187,14 @@ div.feed-icon {
   margin-left: 0;
 }
 
-.ds-2col-stacked-fluid .node-teaser .group-left,
-.ds-2col-stacked-fluid .view-mode-search .group-left {
+.ds-2col-stacked-fluid.node-teaser .group-left,
+.ds-2col-stacked-fluid.view-mode-search .group-left {
   width: 20%;
   clear: right;
 }
 
-.ds-2col-stacked-fluid .node-teaser .group-right,
-.ds-2col-stacked-fluid .view-mode-search .group-right {
+.ds-2col-stacked-fluid.node-teaser .group-right,
+.ds-2col-stacked-fluid.view-mode-search .group-right {
   width: 80%;
   clear: right;
 }
