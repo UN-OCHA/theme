@@ -350,7 +350,8 @@ h2.node-title a:visited {
   width: 150px;
 }
 
-.views-widget-filter-search_api_views_fulltext input[type="submit"] {
+#block-views-exp-search-page input[type="submit"],
+#block-views-exp-op-presence-master input[type="submit"] {
   width: 16px;
   height: 16px;
   background-image: url('../images/search.png');
