@@ -340,7 +340,7 @@ h2.node-title a:visited {
   float: right;
 }
 
-#block-views-exp-search-page input[type="text"] {
+.views-widget-filter-search_api_views_fulltext input[type="text"] {
   background: none repeat scroll 0 0 #E6E7E8;
   border: 1px solid #CCCCCC;
   color: #232323;
@@ -350,7 +350,7 @@ h2.node-title a:visited {
   width: 150px;
 }
 
-#block-views-exp-search-page input[type="submit"] {
+.views-widget-filter-search_api_views_fulltext input[type="submit"] {
   width: 16px;
   height: 16px;
   background-image: url('../images/search.png');
