@@ -351,7 +351,9 @@ h2.node-title a:visited {
 }
 
 #block-views-exp-search-page input[type="submit"],
-#block-views-exp-op-presence-master input[type="submit"] {
+#block-views-exp-op-presence-master input[type="submit"],
+#block-views-exp-op-presence-table input[type="submit"],
+#block-views-exp-op-blog-page input[type="submit"]   {
   width: 16px;
   height: 16px;
   background-image: url('../images/search.png');
