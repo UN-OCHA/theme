@@ -46,6 +46,9 @@
 #block-system-main-menu li.leaf.humanitarian-profile a {
   background-image: url("../images/tools/humanitarian_profile_40.png");
 }
+#block-system-main-menu li.leaf.blog a {
+  background-image: url("../images/tools/blog_40.png");
+}
 
 /* BLOCKS */
 .front #section-content .block,
