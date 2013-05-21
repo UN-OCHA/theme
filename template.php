@@ -212,8 +212,19 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   if ($query) {
     $url_options['query'] = $query;
   }
-  $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
-  return l("", $url, $url_options);
+  if (in_array(substr($url, -4), array('.csv', '.xls', '.xml'))) {
+    return l("", $url, $url_options);
+  }
+  else {
+    $path = drupal_get_path('theme', 'humanitarianresponse');
+    $ext = strtolower($text);
+    if ($ext == 'csv') {
+      $ext = 'xls';
+    }
+    $image_path = $path . '/images/files_icons/icon_'.$ext.'.gif';
+    $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
+    return l($image, $url, $url_options);
+  }
 }
 
 /**
