@@ -105,7 +105,10 @@ h2.block-title {
 .context-clusters #region-content .block .view-content,
 .front .highcharts-chart,
 .context-locations .highcharts-chart,
-.context-clusters .highcharts-chart {
+.context-clusters .highcharts-chart,
+.front .visualization-chart,
+.context-locations .visualization-chart,
+.context-clusters .visualization-chart {
   height: 250px;
 }
 
@@ -138,8 +141,8 @@ height: 0;
 }
 
 /* REGION CONTENT SECOND */
-.front #region-content-second .block,
-.context-locations #region-content-second .block {
+.front #region-content-second .block-boxes,
+.context-locations #region-content-second .block-boxes {
   background-color: #FDFC8F;
   font-size: medium;
   border-radius: 10px;
