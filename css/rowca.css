@@ -7,21 +7,18 @@
 /*to get horizontal menu */
 #block-system-main-menu li {
   display: inline-block;
-  width: 100px;
-  padding: 0;
+  width: auto;
+  padding-right: 20px;
 }
 
 #block-system-main-menu li a {
   display: inline-block;
-  padding-top: 40px;
-  width: 100px;
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  text-align: center;
-  vertical-align: bottom;
+  width: auto;
 }
 /*to add icons to menu items */
+/*#block-system-main-menu li.leaf.home a {
+  background-image: url("../images/tools/home_40.png");
+}
 #block-system-main-menu li.leaf.cods a {
   background-image: url("../images/tools/cod_40.png");
 }
@@ -48,7 +45,7 @@
 }
 #block-system-main-menu li.leaf.blog a {
   background-image: url("../images/tools/blog_40.png");
-}
+}*/
 
 /* BLOCKS */
 .front #section-content .block,
