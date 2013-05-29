@@ -3,23 +3,23 @@
 #block-system-main-menu h2.block-title {
   display: none;
 }
-/*to specify menu dimension */
-#block-system-main-menu {
-  margin: 10px;;
-}
 
 /*to get horizontal menu */
 #block-system-main-menu li {
   display: inline-block;
-  width: 70px;
+  width: 100px;
+  padding: 0;
 }
 
 #block-system-main-menu li a {
   display: inline-block;
+  padding-top: 40px;
+  width: 100px;
   height: 40px;
-  width: 100%;
-  text-indent: -9999px;
   background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  vertical-align: bottom;
 }
 /*to add icons to menu items */
 #block-system-main-menu li.leaf.cods a {
