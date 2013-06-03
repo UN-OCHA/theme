@@ -338,6 +338,7 @@ h2.node-title a:visited {
 /* Search form */
 #block-views-exp-search-page {
   float: right;
+  text-align: left;
 }
 
 .views-widget-filter-search_api_views_fulltext input[type="text"] {
