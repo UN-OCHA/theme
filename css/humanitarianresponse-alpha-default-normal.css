@@ -4,9 +4,7 @@ This file will hold styles that are loaded using the same media query as the nor
 /* Search form and user login */
 
 #region-user-second {
-  float: right;
   margin-top: -50px;
-  overflow: hidden;
   text-align: right;
   top: 50px;
   z-index: 10;
