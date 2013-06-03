@@ -210,3 +210,8 @@ height: 0;
 #block-views-documents-documents-home-key .more-link a {
   border: none !important;
 }
+
+/* Search block */
+#block-views-exp-search-page {
+  float: none !important;
+}
