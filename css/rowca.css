@@ -210,3 +210,11 @@ height: 0;
 #block-views-documents-documents-home-key .more-link a {
   border: none !important;
 }
+
+.view-display-id-cluster_key .views-row {
+  border-bottom: 1px dotted #A5977A;
+  padding-bottom:5px;
+  padding-top:5px;
+  margin-left:inherit;
+  list-style: none;
+}
