@@ -79,7 +79,7 @@ Highcharts.theme = {
 			color: '#4B4B4B'
 		},
 		itemHoverStyle: {
-			color: '#FFF'
+			color: '#B91222'
 		},
 		itemHiddenStyle: {
 			color: '#333'
