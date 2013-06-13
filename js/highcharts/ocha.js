@@ -83,7 +83,8 @@ Highcharts.theme = {
 		},
 		itemHiddenStyle: {
 			color: '#333'
-		}
+		},
+    borderWidth: 0
 	},
 	labels: {
 		style: {
