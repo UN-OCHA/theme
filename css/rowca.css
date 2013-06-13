@@ -99,14 +99,17 @@ h2.block-title {
 .context-locations #region-sidebar-second .block .view-content,
 .context-locations #region-content .block .view-content,
 .context-clusters #region-sidebar-second .block .view-content,
-.context-clusters #region-content .block .view-content,
+.context-clusters #region-content .block .view-content {
+  height: 250px;
+}
+
 .front .highcharts-chart,
 .context-locations .highcharts-chart,
 .context-clusters .highcharts-chart,
 .front .visualization-chart,
 .context-locations .visualization-chart,
 .context-clusters .visualization-chart {
-  height: 250px;
+  height: 240px;
 }
 
 /*align .more-link on all block views*/
