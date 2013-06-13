@@ -525,10 +525,6 @@ a.follow-link-this-site {
   height: auto;
 }
 
-.front .block {
-  margin-top: 10px;
-}
-
 .front #page-title,
 .front #breadcrumb {
   display: none;
@@ -1295,4 +1291,9 @@ div.password-suggestions ul li {
 
 .form-type-password-confirm .description {
   display: none;
+}
+
+/* COD Registry */
+table.cols-4 td {
+  width: 25%;
 }
