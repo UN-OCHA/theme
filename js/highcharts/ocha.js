@@ -76,7 +76,7 @@ Highcharts.theme = {
 	},
 	legend: {
 		itemStyle: {
-			color: '#CCC'
+			color: '#4B4B4B'
 		},
 		itemHoverStyle: {
 			color: '#FFF'
