@@ -15,42 +15,12 @@
   display: inline-block;
   width: auto;
 }
-/*to add icons to menu items */
-/*#block-system-main-menu li.leaf.home a {
-  background-image: url("../images/tools/home_40.png");
-}
-#block-system-main-menu li.leaf.cods a {
-  background-image: url("../images/tools/cod_40.png");
-}
-#block-system-main-menu li.leaf.calendar a {
-  background-image: url("../images/tools/calendar_40.png");
-}
-#block-system-main-menu li.leaf.contacts a {
-  background-image: url("../images/tools/contacts_40.png");
-}
-#block-system-main-menu li.leaf.assessments-registry a {
-  background-image: url("../images/tools/assessment_registry_40.png");
-}
-#block-system-main-menu li.leaf.crf a {
-  background-image: url("../images/tools/crf_40.png");
-}
-#block-system-main-menu li.leaf.coordination-hubs a {
-  background-image: url("../images/tools/coordination_hub_40.png");
-}
-#block-system-main-menu li.leaf.media a {
-  background-image: url("../images/tools/media_40.png");
-}
-#block-system-main-menu li.leaf.humanitarian-profile a {
-  background-image: url("../images/tools/humanitarian_profile_40.png");
-}
-#block-system-main-menu li.leaf.blog a {
-  background-image: url("../images/tools/blog_40.png");
-}*/
 
 /* BLOCKS */
 .front #section-content .block,
 .context-locations #section-content .block,
-.context-clusters #section-content .block {
+.context-clusters #section-content .block,
+.context-sectors #section-content .block {
   border: 1px solid #f1f1f1;
   background-color: #fff;
   margin-bottom: 10px;
@@ -58,7 +28,8 @@
 
 .front #region-sidebar-first .block,
 .context-locations #region-sidebar-first .block,
-.context-clusters #region-sidebar-first .block {
+.context-clusters #region-sidebar-first .block,
+.context-sectors #region-sidebar-first .block {
   padding: 5px;
   max-height: 300px;
   overflow: auto;
@@ -69,7 +40,9 @@
 .context-locations #region-sidebar-second .block, 
 .context-locations #region-content .block,
 .context-clusters #region-sidebar-second .block, 
-.context-clusters #region-content .block {
+.context-clusters #region-content .block,
+.context-sectors #region-sidebar-second .block, 
+.context-sectors #region-content .block {
   padding: 10px;
   height: 300px;
   box-shadow: 5px 5px 5px #f1f1f1;
@@ -82,7 +55,8 @@
 
 .front #region-sidebar-first .block a,
 .context-locations #region-sidebar-first .block a,
-.context-clusters #region-sidebar-first .block a {
+.context-clusters #region-sidebar-first .block a,
+.context-sectors #region-sidebar-first .block a {
   color: #B91222;
   padding-left: 3px;
 }
@@ -99,16 +73,16 @@ h2.block-title {
 .context-locations #region-sidebar-second .block .view-content,
 .context-locations #region-content .block .view-content,
 .context-clusters #region-sidebar-second .block .view-content,
-.context-clusters #region-content .block .view-content {
+.context-clusters #region-content .block .view-content,
+.context-sectors #region-sidebar-second .block .view-content,
+.context-sectors #region-content .block .view-content {
   height: 250px;
 }
 
-.front .highcharts-chart,
-.context-locations .highcharts-chart,
-.context-clusters .highcharts-chart,
 .front .visualization-chart,
 .context-locations .visualization-chart,
-.context-clusters .visualization-chart {
+.context-clusters .visualization-chart,
+.context-sectors .visualization-chart {
   height: 240px;
 }
 
@@ -118,7 +92,9 @@ h2.block-title {
 .context-locations #region-sidebar-second .block .more-link, 
 .context-locations #region-content .block .more-link,
 .context-clusters #region-sidebar-second .block .more-link, 
-.context-clusters #region-content .block .more-link {
+.context-clusters #region-content .block .more-link,
+.context-sectors #region-sidebar-second .block .more-link, 
+.context-sectors #region-content .block .more-link {
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -133,9 +109,11 @@ text-align: center;
 .front #region-content h1#page-title,
 .context-locations #region-content h1#page-title,
 .context-clusters #region-content h1#page-title,
+.context-sectors #region-content h1#page-title,
 .front #region-content div.feed-icon.clearfix,
 .context-locations #region-content div.feed-icon.clearfix,
-.context-clusters #region-content div.feed-icon.clearfix {
+.context-clusters #region-content div.feed-icon.clearfix,
+.context-sectors #region-content div.feed-icon.clearfix {
 display: none;
 height: 0;
 }
