@@ -365,7 +365,7 @@ h2.node-title a:visited {
   text-indent: -5000px;
   background-repeat: no-repeat;
   display: block;
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 /* User login block and logged in block */
