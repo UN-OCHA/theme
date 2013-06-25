@@ -277,6 +277,8 @@ ul.primary li.active a {
 .iframe .breadcrumb,
 .iframe .region-menu,
 .iframe .zone-user-wrapper,
+.iframe footer,
+.iframe #region-user-second,
 .iframe.unbranded #section-header {
   display: none;
 }
