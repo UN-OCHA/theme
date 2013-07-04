@@ -18,9 +18,9 @@
 
 /* BLOCKS */
 .front #section-content .block,
-.context-locations #section-content .block,
-.context-clusters #section-content .block,
-.context-sectors #section-content .block {
+.context-locations.page-taxonomy-term #section-content .block,
+.context-clusters.page-taxonomy-term #section-content .block,
+.context-sectors.page-taxonomy-term #section-content .block {
   border: 1px solid #f1f1f1;
   background-color: #fff;
   margin-bottom: 10px;
@@ -107,13 +107,13 @@ text-align: center;
 
 /*TO REMOVE PAGE TITLE AND RSS FEED */
 .front #region-content h1#page-title,
-.context-locations #region-content h1#page-title,
-.context-clusters #region-content h1#page-title,
-.context-sectors #region-content h1#page-title,
+.context-locations.page-taxonomy-term #region-content h1#page-title,
+.context-clusters.page-taxonomy-term #region-content h1#page-title,
+.context-sectors.page-taxonomy-term #region-content h1#page-title,
 .front #region-content div.feed-icon.clearfix,
-.context-locations #region-content div.feed-icon.clearfix,
-.context-clusters #region-content div.feed-icon.clearfix,
-.context-sectors #region-content div.feed-icon.clearfix {
+.context-locations.page-taxonomy-term #region-content div.feed-icon.clearfix,
+.context-clusters.page-taxonomy-term #region-content div.feed-icon.clearfix,
+.context-sectors.page-taxonomy-term #region-content div.feed-icon.clearfix {
 display: none;
 height: 0;
 }
