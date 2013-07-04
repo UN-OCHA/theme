@@ -231,7 +231,6 @@ h1.page-title {
   background-repeat: no-repeat !important;
   background-size: auto auto !important;
   text-shadow: none;
-  float: right;
 }
 
 /* Tabs */
@@ -289,14 +288,13 @@ ul.primary li.active a {
 }
 
 /* Blocks */
-.pane-block,
 .block {
   border: none;
   padding: 5px;
+  word-wrap: break-word;
 }
 
-h2.block-title,
-h2.pane-title {
+h2.block-title {
 	font-size: 14px;
 	font-weight:bold;
 	border-bottom:1px solid #E6E7E8;
@@ -311,10 +309,6 @@ h2.node-title a:visited {
   color: #B91222;
 }
 
-.block { 
-  word-wrap: break-word;
-}
-
 #block-system-main {
   border: 0;
 }
@@ -323,20 +317,12 @@ h2.node-title a:visited {
   font-size:13px;
 }
 
-/* Breadcrumb color */
 .breadcrumb a,
 .breadcrumb a:link,
 .breadcrumb a:visited {
   color: #B91222;
 }
 
-/* Language dropdown block */
-#region-user-first {
-  min-height: 1px;
-}
-#block-locale-language .language-switcher-locale-url{
-	list-style-type:none;
-}
 /* Search form */
 .region-user-second .block--exp-search-page {
   float: right;
@@ -379,6 +365,11 @@ h2.node-title a:visited {
 
 #block-user-login h2.block-title {
   display: none;
+}
+
+.lt_login_link,
+.lt_register_link {
+  text-transform: uppercase;
 }
 
 /* Sticky footer */
@@ -866,31 +857,6 @@ div.facetapi-active {
   display: none;
 }
 
-/*#block-facetapi-shb0q1vwgcarrhrjhsztyhl2jaehijzw h2 {
-  background-color: #8D8866;
-  color: white;
-}
-
-#block-facetapi-srtvutasjhh8qrihe2nmbl3mm1s3qokp h2 {
-  background-color: #862046;
-  color: white;
-}
-
-#block-facetapi-urbbwtpm31dqgghrst9tjdnblkw12f6e h2 {
-  background-color: #F59749;
-  color: white;
-}
-
-#block-facetapi-jakzs3abss9kl1zrh6idqbcfj61z4spl h2 {
-  background-color: #7F8BA2;
-  color: white;
-}
-
-#block-facetapi-roo3lo2b480jna51cz03ijgoso6bbcbm h2 {
-  background-color: #A3AE66;
-  color: white;
-}*/
-
 /* Customize all views */
 .view-filters {
   border-bottom: solid 1px #E6E7E8;
@@ -924,20 +890,6 @@ block-system-main .feed-icon img{			/* to display feed-icon on right*/
 .front .view-content .views-row-last,
 .front .view-clusters .views-row {			/* to not display line dotted for last views item*/
   border-bottom: none;
-}
-
-.gallery-title {
-position: absolute;
-top:352px;
-width: 100%;
-height:50px;
-background:#E6E7E8;
-text-align:left;
-padding-left:10px;
-filter:alpha(opacity=90); 
-opacity:0.9085;
--moz-opacity:0.90;
-overflow:hidden;
 }
 
 /* Feed icon */
