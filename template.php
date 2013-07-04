@@ -79,7 +79,7 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   }
 }
 
-function humanitarianresponse_views_pdf_icon($variables) {
+function humanitarianresponse_views_pdf_icon($vars) {
   $title = $vars['title'];
   $path = $vars['path'];
   $options = $vars['options'];
