@@ -79,6 +79,20 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   }
 }
 
+function humanitarianresponse_views_pdf_icon($variables) {
+  $title = $vars['title'];
+  $path = $vars['path'];
+  $options = $vars['options'];
+  $options['html'] = TRUE;
+  $options['attributes']['class'] = 'pdf-icon';
+
+  $imagePath = drupal_get_path('theme', 'humanitarianresponse') . '/images/files_icons/32px/pdf.png';
+
+  if ($image = theme('image', array('path' => $imagePath, 'title' => $title, 'alt' => $title))) {
+    return l($image, $path, $options);
+  }
+}
+
 /**
  * Preprocess page: hack to add Highcharts theme that will need to be replaced in the future
  */
