@@ -73,10 +73,7 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   else {
     $path = drupal_get_path('theme', 'humanitarianresponse');
     $ext = strtolower($text);
-    if ($ext == 'csv') {
-      $ext = 'xls';
-    }
-    $image_path = $path . '/images/files_icons/icon_'.$ext.'.gif';
+    $image_path = $path . '/images/files_icons/32px/'.$ext.'.png';
     $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
     return l($image, $url, $url_options);
   }
