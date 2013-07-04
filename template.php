@@ -67,16 +67,16 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   if ($query) {
     $url_options['query'] = $query;
   }
-  /*if (in_array(substr($url, -4), array('.csv', '.xls', '.xml'))) {
+  if (in_array(substr($url, -4), array('.csv', '.xls', '.xml'))) {
     return l("", $url, $url_options);
   }
-  else {*/
+  else {
     $path = drupal_get_path('theme', 'humanitarianresponse');
     $ext = strtolower($text);
     $image_path = $path . '/images/files_icons/32px/'.$ext.'.png';
     $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
     return l($image, $url, $url_options);
-  //}
+  }
 }
 
 function humanitarianresponse_views_pdf_icon($vars) {
