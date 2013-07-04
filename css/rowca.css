@@ -176,8 +176,9 @@ height: 0;
 
 /* Main block */
 .front #block-system-main,
-.context-clusters #block-system-main,
-.context-locations #block-system-main {
+.context-clusters.page-taxonomy-term #block-system-main,
+.context-locations.page-taxonomy-term #block-system-main,
+.context-sectors.page-taxonomy-term #block-system-main {
   display: none;
   height: 0;
 }
