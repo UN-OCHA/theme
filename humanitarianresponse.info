@@ -54,8 +54,8 @@ css[kiosk_hr_info.css][name] = 'Kiosk styles'
 css[kiosk_hr_info.css][description] = 'This file holds specific styles for the kiosk.humanitarianresponse.info site.'
 css[www_hr_info.css][name] = 'WWW styles'
 css[www_hr_info.css][description] = 'This file holds specific styles for the www.humanitarianresponse.info site.'
-css[rowca.css][name] = 'ROWCA styles'
-css[rowca.css][description] = 'This file holds specific styles for the wca.humanitarianresponse.info site.'
+css[rowca.css][name] = 'New design styles'
+css[rowca.css][description] = 'This file holds specific styles for the new design.'
 
 ; LIBRARIES
 libraries[hr_mobilemenu][name] = Mobile Menu
@@ -123,6 +123,7 @@ settings[alpha_css][omega-menu.css] = 'omega-menu.css'
 settings[alpha_css][omega-forms.css] = 'omega-forms.css'
 settings[alpha_css][omega-visuals.css] = 'omega-visuals.css'
 settings[alpha_css][global.css] = 'global.css'
+settings[alpha_css][rowca.css] = 'rowca.css'
 settings[alpha_css][menu.css] = 'menu.css'
 settings[alpha_css][files_icons.css] = 'files_icons.css'
 settings[alpha_css][clusters_hr_info.css] = ''
