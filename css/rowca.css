@@ -35,6 +35,11 @@
   overflow: auto;
 }
 
+/* Disable scrollbars in clusters block */
+#region-sidebar-first #block-views-clusters-block.block {
+  overflow: visible;
+}
+
 .front #region-sidebar-second .block,
 .front #region-content .block,
 .context-locations.page-taxonomy-term #region-sidebar-second .block, 
