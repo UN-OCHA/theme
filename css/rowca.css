@@ -110,19 +110,6 @@ h2.block-title {
 text-align: center;
 }
 
-/*TO REMOVE PAGE TITLE AND RSS FEED */
-.front #region-content h1#page-title,
-.context-locations.page-taxonomy-term #region-content h1#page-title,
-.context-clusters.page-taxonomy-term #region-content h1#page-title,
-.context-sectors.page-taxonomy-term #region-content h1#page-title,
-.front #region-content div.feed-icon.clearfix,
-.context-locations.page-taxonomy-term #region-content div.feed-icon.clearfix,
-.context-clusters.page-taxonomy-term #region-content div.feed-icon.clearfix,
-.context-sectors.page-taxonomy-term #region-content div.feed-icon.clearfix {
-display: none;
-height: 0;
-}
-
 /* REGION CONTENT SECOND */
 .front #region-content-second .block-boxes,
 .context-locations.page-taxonomy-term #region-content-second .block-boxes {
