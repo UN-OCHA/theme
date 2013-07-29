@@ -179,15 +179,6 @@ height: 0;
   color: #FFFFFF !important;
 }
 
-/* Main block */
-.front #block-system-main,
-.context-clusters.page-taxonomy-term #block-system-main,
-.context-locations.page-taxonomy-term #block-system-main,
-.context-sectors.page-taxonomy-term #block-system-main {
-  display: none;
-  height: 0;
-}
-
 /* Home key documents */
 #block-views-documents-documents-home-key h2.block-title {
   border-bottom: 1px solid #E6E7E8 !important;
