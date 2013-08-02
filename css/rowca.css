@@ -38,6 +38,7 @@
 /* Disable scrollbars in clusters block */
 #region-sidebar-first #block-views-clusters-block.block {
   overflow: visible;
+  max-height: none;
 }
 
 .front #region-sidebar-second .block,
