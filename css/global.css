@@ -812,6 +812,11 @@ a.follow-link-this-site {
   display: none;
 }
 
+/* Phone fields */
+.phone-container {
+  display: inline;
+}
+
 /* Search page */
 .search-results article {
   border-bottom: solid 1px #E6E7E8;
