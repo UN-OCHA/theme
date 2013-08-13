@@ -1007,9 +1007,22 @@ div.feed-icon {
 	margin-bottom: 0px;
 }
 
-/* Contacts view */
-.view-contacts.view-display-id-block_1 .views-row {
-  margin-bottom: 1em;
+/* Operational presence view */
+.view-op-presence .field-name-field-first-name div,
+.view-op-presence .field-name-field-first-name,
+.view-op-presence .field-name-field-last-name div,
+.view-op-presence .field-name-field-last-name {
+  display: inline;
+}
+
+.view-op-presence .field-name-field-last-name {
+  margin-left: 4px;
+}
+
+.view-op-presence .field-name-field-first-name a,
+.view-op-presence .field-name-field-last-name a {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /* CUSTOMIZE INDICATOR REGISTRY
