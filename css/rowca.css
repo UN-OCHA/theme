@@ -1,20 +1,3 @@
-/* MENU */
-/*to hide menu title */
-#block-system-main-menu h2.block-title {
-  display: none;
-}
-
-/*to get horizontal menu */
-#block-system-main-menu li {
-  display: inline-block;
-  width: auto;
-  padding-right: 20px;
-}
-
-#block-system-main-menu li a {
-  display: inline-block;
-  width: auto;
-}
 
 /* BLOCKS */
 .front #section-content .block,
@@ -33,12 +16,6 @@
   padding: 5px;
   max-height: 300px;
   overflow: auto;
-}
-
-/* Disable scrollbars in clusters block */
-#region-sidebar-first #block-views-clusters-block.block {
-  overflow: visible;
-  max-height: none;
 }
 
 .front #region-sidebar-second .block,
@@ -65,11 +42,6 @@
 .context-sectors.page-taxonomy-term #region-sidebar-first .block a {
   color: #B91222;
   padding-left: 3px;
-}
-
-/*align titles for all pane.block*/
-h2.block-title {
-  text-align: left;
 }
 
 /*Block views*/
@@ -103,12 +75,6 @@ h2.block-title {
 .context-sectors.page-taxonomy-term #region-content .block .more-link {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-/*center content in block views*/
-#block-views-maps-view-block-2, 
-#block-views-documents-funding-featured {
-text-align: center;
 }
 
 /* REGION CONTENT SECOND */
@@ -148,39 +114,3 @@ text-align: center;
   list-style: none;
 }
 
-/* Key documents */
-.view-display-id-cluster_key .item-list ul li {
-  list-style: disc !important;
-  padding-bottom: 10px !important;
-  border-bottom: 1px dotted !important;
-  margin-left: 10px !important;
-}
-
-/* Clusters list */
-#block-views-clusters-block .block-inner {
-  border: none !important;
-  padding: 0 !important;
-}
-
-#block-views-clusters-block li div.views-field:hover a,
-#block-views-clusters-block div.views-row:hover a {
-  color: #FFFFFF !important;
-}
-
-/* Home key documents */
-#block-views-documents-documents-home-key h2.block-title {
-  border-bottom: 1px solid #E6E7E8 !important;
-  color: #4B4B4B !important;
-}
-
-#block-views-documents-documents-home-key .more-link a {
-  border: none !important;
-}
-
-.view-display-id-cluster_key .views-row {
-  border-bottom: 1px dotted #A5977A;
-  padding-bottom:5px;
-  padding-top:5px;
-  margin-left:inherit;
-  list-style: none;
-}
