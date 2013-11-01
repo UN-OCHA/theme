@@ -514,6 +514,18 @@ a.follow-link-this-site {
 
 
 /* Home page */
+#boxes-box-home_cod img {
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
+#boxes-box-home_cod a,
+#boxes-box-home_cod a:link,
+#boxes-box-home_cod a:visited {
+  color: #B91222;
+}
+
 .front #zone-content a,
 .front #zone-content a:link,
 .front #zone-content a:visited {
