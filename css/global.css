@@ -1298,7 +1298,12 @@ div.password-suggestions ul li {
 }
 
 #user-register-form .field-name-field-emails-other,
-#user-register-form .field-name-field-salutation {
+#user-register-form .field-name-field-salutation,
+#user-register-form .field-name-field-other-contact-info,
+#user-register-form .field-name-field-coordination-hubs,
+#user-register-form .field-name-field-themes,
+#user-register-form .field-name-field-fundings,
+#user-register-form .field-name-field-emergencies {
   display: none;
 }
 
