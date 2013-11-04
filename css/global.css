@@ -1297,6 +1297,11 @@ div.password-suggestions ul li {
   display: none;
 }
 
+#user-register-form .field-name-field-emails-other,
+#user-register-form .field-name-field-salutation {
+  display: none;
+}
+
 /* COD Registry */
 table.cols-4 td {
   width: 25%;
