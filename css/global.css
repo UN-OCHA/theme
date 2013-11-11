@@ -384,12 +384,6 @@ html, body {
   padding-bottom: 150px;
 }
 
-#section-footer {
-    bottom: 0;
-	width: 100%;
-	height: 250px;
-}
-
 #zone-postscript-wrapper {
   position: absolute;
   bottom: 0;
