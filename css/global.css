@@ -1311,3 +1311,17 @@ div.password-suggestions ul li {
 table.cols-4 td {
   width: 25%;
 }
+
+/* Language switcher */
+#block-locale-language h2.block-title {
+  display: none;
+}
+
+#block-locale-language ul.language-switcher-locale-url {
+  list-style: none;
+}
+
+#block-locale-language ul.language-switcher-locale-url li {
+  display: inline-block;
+}
+
