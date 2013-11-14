@@ -712,6 +712,15 @@ a.follow-link-this-site {
   background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/sprite.png');
 }
 
+.view-clusters .views-field-name-field .field-content.AG {
+  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/red/AG.png');
+}
+
+.view-clusters div.views-row:hover .views-field-name-field .field-content.AG,
+.view-clusters li div.views-field-name-field:hover .field-content.AG {
+  background-image: url('/sites/all/themes/humanitarianresponse/images/cluster_icons/32px/white/AG.png');
+}
+
 .view-clusters .views-field-name-field .field-content.CM {
   background-position: 0 0;
 }
