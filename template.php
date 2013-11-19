@@ -72,6 +72,9 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   }
   else {
     $path = drupal_get_path('theme', 'humanitarianresponse');
+    if ($text == "Plain Text Document") {
+      $text = "TXT";
+    }
     $ext = strtolower($text);
     $image_path = $path . '/images/files_icons/32px/'.$ext.'.png';
     $image = theme('image', array('path' => $image_path, 'alt' => $text, 'title' => $text));
