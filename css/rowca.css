@@ -27,7 +27,7 @@
 .context-sectors.page-taxonomy-term #region-sidebar-second .block, 
 .context-sectors.page-taxonomy-term #region-content .block {
   padding: 10px;
-  height: 300px;
+  min-height: 300px;
   box-shadow: 5px 5px 5px #f1f1f1;
   behavior: url(../pie/PIE.htc);
 }
@@ -54,7 +54,7 @@
 .context-clusters.page-taxonomy-term #region-content .block .view-content,
 .context-sectors.page-taxonomy-term #region-sidebar-second .block .view-content,
 .context-sectors.page-taxonomy-term #region-content .block .view-content {
-  height: 250px;
+  min-height: 250px;
 }
 
 .front .visualization-chart,
