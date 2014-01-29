@@ -1,3 +1,10 @@
 // Menu
 // Styles for Menus and Navs
 // --------------------------------------------------
+
+// Hide titles of menu blocks
+.block-menu h2,
+.block-menu-block h2,
+.block-og-menu h2 {
+  display: none;
+}

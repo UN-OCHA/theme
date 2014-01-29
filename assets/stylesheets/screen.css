@@ -10343,7 +10343,7 @@ form .description {
 
 /* line 70, ../../extensions/compass_radix/stylesheets/compass_radix/_form.scss */
 html.js input.form-autocomplete {
-  background: url('../images/throbber.gif?1390375929') no-repeat right 8px white !important;
+  background: url('../images/throbber.gif?1390905602') no-repeat right 8px white !important;
 }
 /* line 73, ../../extensions/compass_radix/stylesheets/compass_radix/_form.scss */
 html.js input.throbbing {
@@ -10634,4 +10634,11 @@ html.js fieldset.collapsed {
 /* line 26, ../../extensions/compass_radix/stylesheets/compass_radix/_comment.scss */
 .comment .links {
   font-size: 0.80em;
+}
+
+/* line 8, ../sass/partials/_menu.scss */
+.block-menu h2,
+.block-menu-block h2,
+.block-og-menu h2 {
+  display: none;
 }
