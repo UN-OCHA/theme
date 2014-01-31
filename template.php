@@ -30,6 +30,19 @@ function humanitarianresponse_css_alter(&$css) {
  * Implements template_preprocess_page().
  */
 function humanitarianresponse_preprocess_page(&$variables) {
+  $main_menu_dropdown = menu_tree('main-menu');
+  $main_menu_dropdown['#theme_wrappers'] = array();
+  $variables['main_menu_dropdown'] = $main_menu_dropdown;
+  $variables['og_group'] = '';
+  if (module_exists('og_context')) {
+    $gid = og_context_determine_context('node');
+    if (!empty($gid)) {
+      $og_group = entity_load('node', array($gid));
+      $og_group = $og_group[$gid];
+      $uri = entity_uri('node', $og_group);
+      $variables['og_group'] = l($og_group->title, $uri['path'], $uri['options']);
+    }
+  }
   // Add copyright to theme.
   if ($copyright = theme_get_setting('copyright')) {
     $variables['copyright'] = check_markup($copyright['value'], $copyright['format']);

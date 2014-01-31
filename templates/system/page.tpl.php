@@ -13,6 +13,17 @@
 <header id="header" class="header" role="header">
   <div class="container">
     <div id="top">
+      <ul class="nav nav-tabs">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <?php print render($main_menu_dropdown); ?>
+          </ul>
+        </li>
+        <?php if ($og_group): ?>
+          <li class="active"><?php print $og_group; ?></li>
+        <?php endif; ?>
+      </ul>
       <?php print render($page['top']); ?>
     </div>
     <div id="branding">

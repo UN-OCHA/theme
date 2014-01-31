@@ -37,6 +37,6 @@ function humanitarianresponse_menu_tree__menu_block(&$variables) {
   return '<ul class="menu nav nav-pills">' . $variables['tree'] . '</ul>';
 }
 
-function humanitarianresponse_menu_tree__menu_block__tertiary_nav(&$variables) {
+function humanitarianresponse_menu_tree__og_menu_single(&$variables) {
   return _humanitarianresponse_menu_main_menu($variables);
 }
