@@ -11,21 +11,41 @@
  */
 ?>
 <header id="header" class="header" role="header">
-  <div class="container">
+  <div class="container-fluid">
     <div id="top">
-      <ul class="nav nav-tabs">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <?php print render($main_menu_dropdown); ?>
-          </ul>
-        </li>
-        <?php if ($og_group): ?>
-          <li class="active"><?php print $og_group; ?></li>
-        <?php endif; ?>
-      </ul>
-      <?php print render($page['top']); ?>
-    </div>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav nav-tabs navbar-left">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <?php print render($main_menu_dropdown); ?>
+                </ul>
+              </li>
+              <?php if ($og_group): ?>
+                <li class="active"><?php print $og_group; ?></li>
+              <?php endif; ?>
+            </ul>
+            <div class="navbar-right">
+              <?php print render($page['top']); ?>
+            </div>
+          </div><!-- .navbar-collapse -->
+        </div><!-- .container -->
+      </nav>
+    </div><!-- #top -->
+  </div><!-- .container-fluid -->
+  <div class="container">
     <div id="branding">
         <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" id="logo">

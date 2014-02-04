@@ -1,3 +1,11 @@
 //
 // Styles for main layout
 // --------------------------------------------------
+
+#block-locale-language,
+#block-system-user-menu,
+#block-hr-layout-hr-layout-checkin,
+#block-og-extras-node-links,
+#block-hr-layout-hr-layout-login {
+  display: inline-block;
+}

@@ -5,6 +5,11 @@
 // Hide titles of menu blocks
 .block-menu h2,
 .block-menu-block h2,
-.block-og-menu h2 {
+.block-og-menu h2,
+.block-locale h2 {
+  display: none;
+}
+
+#block-system-main-menu ul.menu ul {
   display: none;
 }

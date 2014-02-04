@@ -10636,9 +10636,24 @@ html.js fieldset.collapsed {
   font-size: 0.80em;
 }
 
-/* line 8, ../sass/partials/_menu.scss */
+/* line 9, ../sass/partials/_layout.scss */
+#block-locale-language,
+#block-system-user-menu,
+#block-hr-layout-hr-layout-checkin,
+#block-og-extras-node-links,
+#block-hr-layout-hr-layout-login {
+  display: inline-block;
+}
+
+/* line 9, ../sass/partials/_menu.scss */
 .block-menu h2,
 .block-menu-block h2,
-.block-og-menu h2 {
+.block-og-menu h2,
+.block-locale h2 {
+  display: none;
+}
+
+/* line 13, ../sass/partials/_menu.scss */
+#block-system-main-menu ul.menu ul {
   display: none;
 }
