@@ -11,12 +11,11 @@
  */
 ?>
 <header id="header" class="header" role="header">
-  <div class="container-fluid">
+  <div class="container">
     <div id="top">
       <nav class="navbar navbar-default">
-        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
+          <div class="navbar-header top">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -41,11 +40,10 @@
               <?php print render($page['top']); ?>
             </div>
           </div><!-- .navbar-collapse -->
-        </div><!-- .container -->
       </nav>
     </div><!-- #top -->
   </div><!-- .container-fluid -->
-  <div class="container">
+  <div class="container header">
     <div id="branding">
         <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" id="logo">
@@ -63,11 +61,6 @@
 <div id="main-wrapper">
   <div id="main" class="main">
     <div class="container">
-      <?php if ($breadcrumb): ?>
-        <div id="breadcrumb" class="visible-desktop">
-          <?php print $breadcrumb; ?>
-        </div>
-      <?php endif; ?>
       <?php if ($messages): ?>
         <div id="messages">
           <?php print $messages; ?>
@@ -96,7 +89,7 @@
             </ul>
           <?php endif; ?>
         </div>
-        <div id="content" class="<?php print (!$is_panel) ? 'container' : ''; ?>">
+        <div id="content" class="col-sm-12 <?php print (!$is_panel) ? 'container' : ''; ?>">
           <?php print render($page['content']); ?>
         </div>
       </div><!-- /#content-wrapper -->

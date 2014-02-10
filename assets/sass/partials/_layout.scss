@@ -9,3 +9,40 @@
 #block-hr-layout-hr-layout-login {
   display: inline-block;
 }
+
+aside.col-sm-3 {
+
+	padding: 0;
+
+	.block {
+		padding: 15px;
+		background-color: #dfdfdf;
+		font-size: 12px;
+
+		a {
+			color: #767676;
+			padding: 2px 14px;
+
+			&.active {
+				color: #bc2e3b;
+			}
+
+			.caret {
+				display: none;
+			}
+		}
+
+		li ul {
+			list-style-type: disc;
+			color: #A7A7A7;
+
+			a {
+				padding: 2px;
+			}
+		}
+	}
+
+
+
+
+}

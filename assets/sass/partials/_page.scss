@@ -1,3 +1,24 @@
 //
 // Styles for individual pages
 // --------------------------------------------------
+
+html {
+	background: url(../images/bg_noise.png) repeat top left #cccccc;
+	height: 100%;
+}
+
+body {
+	background: url(../images/bg_deg.png) repeat-y top left transparent;
+	height: 100%;
+	font-family: Tahoma;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+}
+
+.chosen-container.form-control {
+	width: 793px;
+	border: 0;
+	background: none;
+	padding: 0px 0px;
+	height: 22px;
+}
