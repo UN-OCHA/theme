@@ -15,6 +15,15 @@ body {
 	font-size: 12px;
 }
 
+a {
+	color: $p-main;
+
+	&:hover {
+		color: darken($p-main, 10%);
+		text-decoration: none;
+	}
+}
+
 .chosen-container.form-control {
 	width: 793px;
 	border: 0;
@@ -22,3 +31,99 @@ body {
 	padding: 0px 0px;
 	height: 22px;
 }
+
+body div.messages {
+	border: 0;
+	padding: 11px 15px;
+	background-image: none;
+	@include border-radius(4px);
+	color: white;
+	@include text-shadow(rgba(black, 0.4) 0px 1px 0);
+	font-weight: bold;
+
+	&.status {
+		background: $p-visuals;
+	}
+
+	&.warning {
+		background: $p-events;
+	}
+
+	&.error {
+		background: $p-main;
+	}
+}
+
+//pager
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+	background-color: $p-main;
+	border-color: $p-main;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: $p-main;
+}
+
+.pagination > li > a:hover {
+	color: darken($p-main, 10%);
+}
+
+.item-list ul.pagination > li a,
+.item-list ul.pagination > li span {
+	@include border-radius(4px);
+}
+
+//table
+
+body table, body .table {
+
+	&.table-bordered {
+		border-color: white;
+	}
+
+	thead {
+
+		tr {
+
+			border: 0;
+
+			th {
+				border: 0;
+				color: white;
+				background-color: $p-comp;
+			}
+		}
+	}
+
+	tbody {
+
+		border: 0;
+
+		tr {
+
+			border: 0;
+
+			td {
+				border: 0;
+				border-color: #FFFFFF;
+			}
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
