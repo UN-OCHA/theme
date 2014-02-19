@@ -30,7 +30,8 @@ function humanitarianresponse_css_alter(&$css) {
  * Implements template_preprocess_page().
  */
 function humanitarianresponse_preprocess_page(&$variables) {
-  $main_menu_dropdown = menu_tree('main-menu');
+  $tree = menu_tree_page_data('main-menu', 1);
+  $main_menu_dropdown = menu_tree_output($tree);
   $main_menu_dropdown['#theme_wrappers'] = array();
   $variables['main_menu_dropdown'] = $main_menu_dropdown;
   $variables['og_group'] = '';

@@ -10688,20 +10688,30 @@ aside.col-sm-3 .block li ul a {
 }
 
 /* line 13, ../sass/partials/_menu.scss */
+#block-system-main-menu ul.menu li ul {
+  display: none;
+}
+
+/* line 17, ../sass/partials/_menu.scss */
+#block-system-main-menu ul.menu li.active-trail ul {
+  display: inline-block;
+}
+
+/* line 22, ../sass/partials/_menu.scss */
 .navbar {
   min-height: 0;
 }
 
-/* line 17, ../sass/partials/_menu.scss */
+/* line 26, ../sass/partials/_menu.scss */
 .nav-tabs {
   margin: 0;
   border-bottom: none;
 }
-/* line 21, ../sass/partials/_menu.scss */
+/* line 30, ../sass/partials/_menu.scss */
 .nav-tabs > li {
   border: none;
 }
-/* line 25, ../sass/partials/_menu.scss */
+/* line 34, ../sass/partials/_menu.scss */
 .nav-tabs > li > a {
   padding: 4px 15px;
   text-transform: uppercase;
@@ -10714,31 +10724,31 @@ aside.col-sm-3 .block li ul a {
   font-family: Exo;
   font-size: 16px;
 }
-/* line 37, ../sass/partials/_menu.scss */
+/* line 46, ../sass/partials/_menu.scss */
 .nav-tabs > li > a.active, .nav-tabs > li > a:hover {
   color: #bc2e3b;
   background-color: #FFF;
 }
-/* line 45, ../sass/partials/_menu.scss */
+/* line 54, ../sass/partials/_menu.scss */
 .nav-tabs .open > a, .nav-tabs .open > a:focus {
   border: none;
   background: #AEAEAE;
   color: white;
 }
 
-/* line 52, ../sass/partials/_menu.scss */
+/* line 61, ../sass/partials/_menu.scss */
 .navbar-collapse {
   padding: 0;
 }
 
-/* line 56, ../sass/partials/_menu.scss */
+/* line 65, ../sass/partials/_menu.scss */
 .navbar-default {
   background-color: transparent;
   border: none;
   margin: 0;
 }
 
-/* line 64, ../sass/partials/_menu.scss */
+/* line 73, ../sass/partials/_menu.scss */
 .navbar button {
   background-color: #b4b4b4;
   color: white;
@@ -10757,16 +10767,16 @@ aside.col-sm-3 .block li ul a {
   top: -2px;
   padding: 6px 15px;
 }
-/* line 78, ../sass/partials/_menu.scss */
+/* line 87, ../sass/partials/_menu.scss */
 .navbar button:hover {
   background-color: #BBB;
 }
-/* line 82, ../sass/partials/_menu.scss */
+/* line 91, ../sass/partials/_menu.scss */
 .navbar button a {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 90, ../sass/partials/_menu.scss */
+/* line 99, ../sass/partials/_menu.scss */
 .navbar .btn-group button, .navbar .btn-group.open button {
   background-color: #aeadad;
   color: white;
@@ -10783,11 +10793,11 @@ aside.col-sm-3 .block li ul a {
   text-transform: none;
   position: static;
 }
-/* line 102, ../sass/partials/_menu.scss */
+/* line 111, ../sass/partials/_menu.scss */
 .navbar .btn-group button:hover, .navbar .btn-group.open button:hover {
   background-color: #BBB;
 }
-/* line 109, ../sass/partials/_menu.scss */
+/* line 118, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu {
   margin: 0;
   border: none;
@@ -10799,12 +10809,12 @@ aside.col-sm-3 .block li ul a {
   border-radius: 0px;
   margin: 0 2px 0 0;
 }
-/* line 116, ../sass/partials/_menu.scss */
+/* line 125, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul, .navbar .dropdown-menu li {
   margin: 0;
   padding: 0;
 }
-/* line 121, ../sass/partials/_menu.scss */
+/* line 130, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul a, .navbar .dropdown-menu li a {
   color: white;
   font-size: 12px;
@@ -10812,12 +10822,12 @@ aside.col-sm-3 .block li ul a {
   text-decoration: none;
   display: block;
 }
-/* line 128, ../sass/partials/_menu.scss */
+/* line 137, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul a:hover, .navbar .dropdown-menu li a:hover {
   background-color: #BBB;
 }
 
-/* line 139, ../sass/partials/_menu.scss */
+/* line 148, ../sass/partials/_menu.scss */
 .container.header {
   background-color: #FFFFFF;
   padding: 20px 22px 0;
@@ -10825,7 +10835,7 @@ aside.col-sm-3 .block li ul a {
   min-height: 120px;
   position: relative;
 }
-/* line 147, ../sass/partials/_menu.scss */
+/* line 156, ../sass/partials/_menu.scss */
 .container.header #navigation {
   left: 10px;
   bottom: 0px;
@@ -10833,16 +10843,12 @@ aside.col-sm-3 .block li ul a {
   line-height: 1;
   height: 45px;
 }
-/* line 155, ../sass/partials/_menu.scss */
+/* line 164, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu {
   position: relative;
   top: 17px;
 }
-/* line 160, ../sass/partials/_menu.scss */
-.container.header #navigation ul.menu ul {
-  display: none;
-}
-/* line 166, ../sass/partials/_menu.scss */
+/* line 175, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a {
   font-size: 12px;
   text-transform: uppercase;
@@ -10857,7 +10863,7 @@ aside.col-sm-3 .block li ul a {
   padding-bottom: 13px;
   font-family: Exo;
 }
-/* line 176, ../sass/partials/_menu.scss */
+/* line 185, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a.active, .container.header #navigation ul.menu li a:hover {
   color: #bc2e3b;
   background-color: transparent;

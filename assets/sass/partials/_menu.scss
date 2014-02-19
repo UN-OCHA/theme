@@ -10,6 +10,15 @@
 	display: none;
 }
 
+#block-system-main-menu ul.menu li ul {
+	display: none;
+}
+
+#block-system-main-menu ul.menu li.active-trail ul {
+	display: inline-block;
+}
+
+
 .navbar {
 	min-height: 0;
 }
@@ -156,10 +165,6 @@
 
 			position: relative;
 			top: 17px;
-
-			ul {
-				display: none;
-			}
 
 		 	li {
 
