@@ -10829,8 +10829,8 @@ aside.col-sm-3 .block li ul a {
   border-color: rgba(105, 105, 105, 0.4);
   padding-bottom: 8px;
 }
-/* line 193, ../sass/partials/_menu.scss */
-.container.header #navigation ul.menu li a ul li a {
+/* line 196, ../sass/partials/_menu.scss */
+.container.header #navigation ul.menu li ul li a {
   border: none;
 }
 
