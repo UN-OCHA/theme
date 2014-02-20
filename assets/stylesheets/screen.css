@@ -10817,8 +10817,9 @@ aside.col-sm-3 .block li ul a {
   padding: 8px 10px;
   padding-bottom: 13px;
   font-family: Exo;
+  background: none;
 }
-/* line 177, ../sass/partials/_menu.scss */
+/* line 178, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a.active, .container.header #navigation ul.menu li a:hover {
   color: #bc2e3b;
   background-color: transparent;
@@ -10826,7 +10827,7 @@ aside.col-sm-3 .block li ul a {
   border-color: rgba(105, 105, 105, 0.4);
   padding-bottom: 8px;
 }
-/* line 188, ../sass/partials/_menu.scss */
+/* line 189, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul {
   position: absolute;
   left: 0;
@@ -10835,24 +10836,23 @@ aside.col-sm-3 .block li ul a {
   top: 28px;
   height: 33px;
 }
-/* line 197, ../sass/partials/_menu.scss */
+/* line 198, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul li {
   border-top: 5px solid #b2b2b2;
   border-color: rgba(105, 105, 105, 0.4);
 }
-/* line 202, ../sass/partials/_menu.scss */
+/* line 203, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul li a.active {
   border: none;
 }
 
-/* line 7, ../sass/partials/_page.scss */
+/* line 6, ../sass/partials/_page.scss */
 html,
-body,
-#body-inner {
+body {
   height: 100%;
 }
 
-/* line 11, ../sass/partials/_page.scss */
+/* line 10, ../sass/partials/_page.scss */
 body {
   background: url(../images/bg_noise.png) repeat top left #cccccc;
   font-family: Tahoma;
@@ -10860,23 +10860,23 @@ body {
   font-size: 12px;
 }
 
-/* line 18, ../sass/partials/_page.scss */
+/* line 17, ../sass/partials/_page.scss */
 #body-inner {
   background: url(../images/bg_deg.png) repeat-y top left transparent;
   padding: 10px 0;
 }
 
-/* line 23, ../sass/partials/_page.scss */
+/* line 22, ../sass/partials/_page.scss */
 a {
   color: #bc2e3c;
 }
-/* line 26, ../sass/partials/_page.scss */
+/* line 25, ../sass/partials/_page.scss */
 a:hover {
   color: #93242f;
   text-decoration: none;
 }
 
-/* line 32, ../sass/partials/_page.scss */
+/* line 31, ../sass/partials/_page.scss */
 .chosen-container.form-control {
   width: 793px;
   border: 0;
@@ -10885,7 +10885,7 @@ a:hover {
   height: 22px;
 }
 
-/* line 40, ../sass/partials/_page.scss */
+/* line 39, ../sass/partials/_page.scss */
 body div.messages {
   border: 0;
   padding: 11px 15px;
@@ -10899,20 +10899,20 @@ body div.messages {
   text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0;
   font-weight: bold;
 }
-/* line 49, ../sass/partials/_page.scss */
+/* line 48, ../sass/partials/_page.scss */
 body div.messages.status {
   background: #60b75a;
 }
-/* line 53, ../sass/partials/_page.scss */
+/* line 52, ../sass/partials/_page.scss */
 body div.messages.warning {
   background: #ffb347;
 }
-/* line 57, ../sass/partials/_page.scss */
+/* line 56, ../sass/partials/_page.scss */
 body div.messages.error {
   background: #bc2e3c;
 }
 
-/* line 67, ../sass/partials/_page.scss */
+/* line 66, ../sass/partials/_page.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
 .pagination > .active > span,
 .pagination > .active > span:hover,
@@ -10921,17 +10921,17 @@ body div.messages.error {
   border-color: #bc2e3c;
 }
 
-/* line 72, ../sass/partials/_page.scss */
+/* line 71, ../sass/partials/_page.scss */
 .pagination > li > a, .pagination > li > span {
   color: #bc2e3c;
 }
 
-/* line 76, ../sass/partials/_page.scss */
+/* line 75, ../sass/partials/_page.scss */
 .pagination > li > a:hover {
   color: #93242f;
 }
 
-/* line 81, ../sass/partials/_page.scss */
+/* line 80, ../sass/partials/_page.scss */
 .item-list ul.pagination > li a,
 .item-list ul.pagination > li span {
   -webkit-border-radius: 4px;
@@ -10941,29 +10941,29 @@ body div.messages.error {
   border-radius: 4px;
 }
 
-/* line 89, ../sass/partials/_page.scss */
+/* line 88, ../sass/partials/_page.scss */
 body table.table-bordered, body .table.table-bordered {
   border-color: white;
 }
-/* line 95, ../sass/partials/_page.scss */
+/* line 94, ../sass/partials/_page.scss */
 body table thead tr, body .table thead tr {
   border: 0;
 }
-/* line 99, ../sass/partials/_page.scss */
+/* line 98, ../sass/partials/_page.scss */
 body table thead tr th, body .table thead tr th {
   border: 0;
   color: white;
   background-color: #54b1c8;
 }
-/* line 107, ../sass/partials/_page.scss */
+/* line 106, ../sass/partials/_page.scss */
 body table tbody, body .table tbody {
   border: 0;
 }
-/* line 111, ../sass/partials/_page.scss */
+/* line 110, ../sass/partials/_page.scss */
 body table tbody tr, body .table tbody tr {
   border: 0;
 }
-/* line 115, ../sass/partials/_page.scss */
+/* line 114, ../sass/partials/_page.scss */
 body table tbody tr td, body .table tbody tr td {
   border: 0;
   border-color: #FFFFFF;

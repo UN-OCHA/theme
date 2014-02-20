@@ -6,6 +6,7 @@
 
 	$(document).ready(function() {
 
+		//trigger resize
 		$(window).resize();
 
 	});
@@ -26,7 +27,7 @@
 		var ml = ulw/2 - $(".container.header #navigation ul.menu li ul").parent().width()/2;
 
 		$(".container.header #navigation ul.menu li ul li:first").css("margin-left", offparent-ml+"px");
-		
+
 	});
 
 })(jQuery);
