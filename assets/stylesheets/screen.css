@@ -10974,7 +10974,8 @@ body table tbody tr td, body .table tbody tr td {
   margin: 20px 0;
 }
 
-/* line 9, ../sass/partials/_view.scss */
+/* line 12, ../sass/partials/_view.scss */
+.views-catgroup .views-group,
 .views-icons .views-row {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -10984,27 +10985,29 @@ body table tbody tr td, body .table tbody tr td {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   min-height: 100px;
   position: relative;
+  float: left;
 }
-/* line 19, ../sass/partials/_view.scss */
-.views-icons .views-row .views-field-field-image {
+
+/* line 26, ../sass/partials/_view.scss */
+.views-icons .views-field-field-image {
   line-height: 0;
   padding: 11px;
 }
-/* line 26, ../sass/partials/_view.scss */
-.views-icons .views-row .views-field-title-field {
+/* line 33, ../sass/partials/_view.scss */
+.views-icons .views-field-title-field {
   position: absolute;
   left: 97px;
   top: 15px;
 }
-/* line 33, ../sass/partials/_view.scss */
-.views-icons .views-row .views-field-title-field a {
+/* line 40, ../sass/partials/_view.scss */
+.views-icons .views-field-title-field a {
   font-weight: bold;
   color: #5f5f5f;
   font-size: 14px;
   display: block;
   padding-right: 11px;
 }
-/* line 41, ../sass/partials/_view.scss */
-.views-icons .views-row .views-field-title-field a:hover {
+/* line 48, ../sass/partials/_view.scss */
+.views-icons .views-field-title-field a:hover {
   color: #bc2e3c;
 }
