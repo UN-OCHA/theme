@@ -10846,41 +10846,41 @@ aside.col-sm-3 .block li ul a {
   border: none;
 }
 
-/* line 5, ../sass/partials/_page.scss */
-* {
+/* line 4, ../sass/partials/_page.scss */
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: Tahoma;
 }
 
-/* line 10, ../sass/partials/_page.scss */
+/* line 9, ../sass/partials/_page.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 14, ../sass/partials/_page.scss */
+/* line 13, ../sass/partials/_page.scss */
 body {
   background: url(../images/bg_noise.png) repeat top left #cccccc;
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
 }
 
-/* line 20, ../sass/partials/_page.scss */
+/* line 19, ../sass/partials/_page.scss */
 #body-inner {
   background: url(../images/bg_deg.png) repeat-y top left transparent;
   padding: 10px 0;
 }
 
-/* line 25, ../sass/partials/_page.scss */
+/* line 24, ../sass/partials/_page.scss */
 a {
   color: #bc2e3c;
 }
-/* line 28, ../sass/partials/_page.scss */
+/* line 27, ../sass/partials/_page.scss */
 a:hover {
   color: #93242f;
   text-decoration: none;
 }
 
-/* line 34, ../sass/partials/_page.scss */
+/* line 33, ../sass/partials/_page.scss */
 .chosen-container.form-control {
   width: 793px;
   border: 0;
@@ -10889,7 +10889,7 @@ a:hover {
   height: 22px;
 }
 
-/* line 42, ../sass/partials/_page.scss */
+/* line 41, ../sass/partials/_page.scss */
 body div.messages {
   border: 0;
   padding: 11px 15px;
@@ -10903,20 +10903,20 @@ body div.messages {
   text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0;
   font-weight: bold;
 }
-/* line 51, ../sass/partials/_page.scss */
+/* line 50, ../sass/partials/_page.scss */
 body div.messages.status {
   background: #60b75a;
 }
-/* line 55, ../sass/partials/_page.scss */
+/* line 54, ../sass/partials/_page.scss */
 body div.messages.warning {
   background: #ffb347;
 }
-/* line 59, ../sass/partials/_page.scss */
+/* line 58, ../sass/partials/_page.scss */
 body div.messages.error {
   background: #bc2e3c;
 }
 
-/* line 69, ../sass/partials/_page.scss */
+/* line 68, ../sass/partials/_page.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
 .pagination > .active > span,
 .pagination > .active > span:hover,
@@ -10925,17 +10925,17 @@ body div.messages.error {
   border-color: #bc2e3c;
 }
 
-/* line 74, ../sass/partials/_page.scss */
+/* line 73, ../sass/partials/_page.scss */
 .pagination > li > a, .pagination > li > span {
   color: #bc2e3c;
 }
 
-/* line 78, ../sass/partials/_page.scss */
+/* line 77, ../sass/partials/_page.scss */
 .pagination > li > a:hover {
   color: #93242f;
 }
 
-/* line 83, ../sass/partials/_page.scss */
+/* line 82, ../sass/partials/_page.scss */
 .item-list ul.pagination > li a,
 .item-list ul.pagination > li span {
   -webkit-border-radius: 4px;
@@ -10945,29 +10945,29 @@ body div.messages.error {
   border-radius: 4px;
 }
 
-/* line 91, ../sass/partials/_page.scss */
+/* line 90, ../sass/partials/_page.scss */
 body table.table-bordered, body .table.table-bordered {
   border-color: white;
 }
-/* line 97, ../sass/partials/_page.scss */
+/* line 96, ../sass/partials/_page.scss */
 body table thead tr, body .table thead tr {
   border: 0;
 }
-/* line 101, ../sass/partials/_page.scss */
+/* line 100, ../sass/partials/_page.scss */
 body table thead tr th, body .table thead tr th {
   border: 0;
   color: white;
   background-color: #54b1c8;
 }
-/* line 109, ../sass/partials/_page.scss */
+/* line 108, ../sass/partials/_page.scss */
 body table tbody, body .table tbody {
   border: 0;
 }
-/* line 113, ../sass/partials/_page.scss */
+/* line 112, ../sass/partials/_page.scss */
 body table tbody tr, body .table tbody tr {
   border: 0;
 }
-/* line 117, ../sass/partials/_page.scss */
+/* line 116, ../sass/partials/_page.scss */
 body table tbody tr td, body .table tbody tr td {
   border: 0;
   border-color: #FFFFFF;
