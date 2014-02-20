@@ -11019,3 +11019,19 @@ body table tbody tr td, body .table tbody tr td {
   margin: 0;
   padding: 8px 25px 30px;
 }
+/* line 66, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-row {
+  padding: 20px;
+}
+/* line 70, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-row .views-field-field-image {
+  max-width: 38px;
+  height: auto;
+  margin-left: 20px;
+  float: left;
+}
+/* line 81, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-row .views-field-title-field a {
+  color: #54b1c8;
+  font-weight: bold;
+}
