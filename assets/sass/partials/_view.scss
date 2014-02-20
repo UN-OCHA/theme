@@ -101,18 +101,14 @@
 
 }
 
-.view-initiatives {
+.view-initiatives.views-catgroup .views-group {
 
-	.views-catgroup .views-group {
+	.views-row {
 
-		.views-row {
+		min-height: 38px;
 
-			min-height: 38px;
-
-			.views-group-title a {
-				color: $p-comp;
-			}
-
+		.views-group-title a {
+			color: $p-comp;
 		}
 
 	}
