@@ -11022,15 +11022,19 @@ body table tbody tr td, body .table tbody tr td {
 /* line 66, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row {
   padding: 20px;
+  clear: both;
 }
-/* line 70, ../sass/partials/_view.scss */
+/* line 71, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row .views-field-field-image {
-  max-width: 38px;
-  height: auto;
-  margin-left: 20px;
+  margin-right: 20px;
   float: left;
 }
-/* line 81, ../sass/partials/_view.scss */
+/* line 76, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-row .views-field-field-image img {
+  max-width: 38px;
+  height: auto;
+}
+/* line 85, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row .views-field-title-field a {
   color: #54b1c8;
   font-weight: bold;
