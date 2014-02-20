@@ -11017,7 +11017,7 @@ body table tbody tr td, body .table tbody tr td {
 }
 
 /* line 58, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-group-title {
+.views-catgroup .views-group-title {
   text-transform: uppercase;
   font-size: 16px;
   margin: 0;
@@ -11026,37 +11026,37 @@ body table tbody tr td, body .table tbody tr td {
   color: #5F5F5F;
 }
 /* line 67, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-group-title a {
+.views-catgroup .views-group-title a {
   color: #5F5F5F;
 }
 /* line 72, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-row {
+.views-catgroup .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
   min-height: 0px;
   clear: both;
 }
 /* line 79, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-row .views-field-field-image {
+.views-catgroup .views-row .views-field-field-image {
   margin-right: 20px;
   float: left;
 }
 /* line 84, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-row .views-field-field-image img {
+.views-catgroup .views-row .views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
 /* line 93, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-row .views-field-title-field a {
+.views-catgroup .views-row .views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
-/* line 103, ../sass/partials/_view.scss */
-.views-catgroup .views-group.view-initiatives .views-row {
+/* line 104, ../sass/partials/_view.scss */
+.views-catgroup.view-initiatives .views-row {
   min-height: 38px;
 }
-/* line 109, ../sass/partials/_view.scss */
-.views-catgroup .views-group.view-initiatives .views-row .views-field-title-field a {
+/* line 110, ../sass/partials/_view.scss */
+.views-catgroup.view-initiatives .views-row .views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
