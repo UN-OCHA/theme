@@ -11011,3 +11011,11 @@ body table tbody tr td, body .table tbody tr td {
 .views-icons .views-field-title-field a:hover {
   color: #bc2e3c;
 }
+
+/* line 58, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-group-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  padding: 8px 25px 30px;
+}
