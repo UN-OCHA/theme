@@ -65,7 +65,9 @@
 
 	.views-row {
 
-		padding: 20px;
+		padding: 0 20px;
+		margin-bottom: 20px;
+		min-height: 38px;
 		clear: both;
 
 		.views-field-field-image {

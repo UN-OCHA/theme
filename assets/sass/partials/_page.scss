@@ -2,6 +2,10 @@
 // Styles for individual pages
 // --------------------------------------------------
 
+* {
+	font-family: Tahoma;
+}
+
 html,
 body {
 	height: 100%;
@@ -9,7 +13,6 @@ body {
 
 body {
 	background: url(../images/bg_noise.png) repeat top left #cccccc;
-	font-family: Tahoma;
 	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
 }
