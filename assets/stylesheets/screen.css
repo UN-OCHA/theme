@@ -10831,9 +10831,15 @@ aside.col-sm-3 .block li ul a {
   left: 0;
   width: 100%;
   background-color: #E2E2E2;
+  top: 28px;
 }
-/* line 196, ../sass/partials/_menu.scss */
-.container.header #navigation ul.menu li ul li a {
+/* line 195, ../sass/partials/_menu.scss */
+.container.header #navigation ul.menu li ul li {
+  border-top: 5px solid #b2b2b2;
+  border-color: rgba(105, 105, 105, 0.4);
+}
+/* line 200, ../sass/partials/_menu.scss */
+.container.header #navigation ul.menu li ul li a.active {
   border: none;
 }
 
