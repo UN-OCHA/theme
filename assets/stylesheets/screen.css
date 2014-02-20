@@ -10771,7 +10771,7 @@ aside.col-sm-3 .block li ul a {
   display: block;
 }
 /* line 128, ../sass/partials/_menu.scss */
-.navbar .dropdown-menu ul a:hover, .navbar .dropdown-menu li a:hover {
+.navbar .dropdown-menu ul a:hover, .navbar .dropdown-menu ul a.active, .navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a.active {
   background-color: #BBB;
 }
 
