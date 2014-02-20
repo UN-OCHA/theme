@@ -101,7 +101,38 @@
 
 }
 
-.view-initiatives a {
-	color: $p-comp;
+.view-initiatives {
+
+	.views-row {
+
+		min-height: 0px;
+
+		.views-group-title a {
+			color: $p-comp;
+		}
+
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

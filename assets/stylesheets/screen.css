@@ -11052,7 +11052,11 @@ body table tbody tr td, body .table tbody tr td {
   font-weight: bold;
 }
 
-/* line 104, ../sass/partials/_view.scss */
-.view-initiatives a {
+/* line 106, ../sass/partials/_view.scss */
+.view-initiatives .views-row {
+  min-height: 0px;
+}
+/* line 110, ../sass/partials/_view.scss */
+.view-initiatives .views-row .views-group-title a {
   color: #54b1c8;
 }
