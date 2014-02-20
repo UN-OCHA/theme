@@ -2,17 +2,21 @@
 // Styles for individual pages
 // --------------------------------------------------
 
-html {
-	background: url(../images/bg_noise.png) repeat top left #cccccc;
+html,
+body,
+#body-inner {
 	height: 100%;
 }
 
 body {
-	background: url(../images/bg_deg.png) repeat-y top left transparent;
-	height: 100%;
+	background: url(../images/bg_noise.png) repeat top left #cccccc;
 	font-family: Tahoma;
 	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
+}
+
+#body-inner {
+	background: url(../images/bg_deg.png) repeat-y top left transparent;
 }
 
 a {
