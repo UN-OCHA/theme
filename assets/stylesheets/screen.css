@@ -11033,7 +11033,7 @@ body table tbody tr td, body .table tbody tr td {
 .views-catgroup .views-group .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
-  min-height: 38px;
+  min-height: 0px;
   clear: both;
 }
 /* line 79, ../sass/partials/_view.scss */
@@ -11054,7 +11054,7 @@ body table tbody tr td, body .table tbody tr td {
 
 /* line 106, ../sass/partials/_view.scss */
 .view-initiatives .views-row {
-  min-height: 0px;
+  min-height: 38px;
 }
 /* line 110, ../sass/partials/_view.scss */
 .view-initiatives .views-row .views-group-title a {
