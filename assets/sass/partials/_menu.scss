@@ -10,15 +10,6 @@
 	display: none;
 }
 
-#block-system-main-menu ul.menu li ul {
-	display: none;
-}
-
-#block-system-main-menu ul.menu li.active-trail ul {
-	display: inline-block;
-}
-
-
 .navbar {
 	min-height: 0;
 }
@@ -192,6 +183,11 @@
 
 
 	 			ul {
+
+					position: absolute;
+					left: 0;
+					width: 100%;
+					background-color: #E2E2E2;
 
 					li {
 
