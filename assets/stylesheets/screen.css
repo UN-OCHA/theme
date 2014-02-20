@@ -10968,3 +10968,9 @@ body table tbody tr td, body .table tbody tr td {
   border: 0;
   border-color: #FFFFFF;
 }
+
+/* line 5, ../sass/partials/_view.scss */
+.views-icons .views-row {
+  background-color: #f9f9f9;
+  border: 1px solid white;
+}
