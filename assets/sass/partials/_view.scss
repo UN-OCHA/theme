@@ -63,6 +63,10 @@
 		padding: 8px 25px 30px;
 		font-weight: bold;
 		color: #5F5F5F;
+
+		a {
+			color: #5F5F5F;
+		}
 	}
 
 	.views-row {
@@ -87,7 +91,7 @@
 		.views-field-title-field {
 
 			a {
-				color: $p-comp;
+				color: $p-main;
 				font-weight: bold;
 			}
 
@@ -95,5 +99,9 @@
 
 	}
 
+}
+
+.view-initiatives a {
+	color: $p-comp;
 }
 

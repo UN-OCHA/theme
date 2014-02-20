@@ -11025,25 +11025,34 @@ body table tbody tr td, body .table tbody tr td {
   font-weight: bold;
   color: #5F5F5F;
 }
-/* line 68, ../sass/partials/_view.scss */
+/* line 67, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-group-title a {
+  color: #5F5F5F;
+}
+/* line 72, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
   min-height: 38px;
   clear: both;
 }
-/* line 75, ../sass/partials/_view.scss */
+/* line 79, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row .views-field-field-image {
   margin-right: 20px;
   float: left;
 }
-/* line 80, ../sass/partials/_view.scss */
+/* line 84, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row .views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
-/* line 89, ../sass/partials/_view.scss */
+/* line 93, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-row .views-field-title-field a {
-  color: #54b1c8;
+  color: #bc2e3c;
   font-weight: bold;
+}
+
+/* line 104, ../sass/partials/_view.scss */
+.view-initiatives a {
+  color: #54b1c8;
 }
