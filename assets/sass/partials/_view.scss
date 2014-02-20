@@ -99,20 +99,22 @@
 
 	}
 
-}
+	&.view-initiatives {
+		.views-row {
 
-.view-initiatives.views-catgroup .views-group {
+			min-height: 38px;
 
-	.views-row {
+			.views-field-title-field {
 
-		min-height: 38px;
+				a {
+					color: $p-main;
+					font-weight: bold;
+				}
 
-		.views-group-title a {
-			color: $p-comp;
+			}
 		}
 
 	}
-
 }
 
 

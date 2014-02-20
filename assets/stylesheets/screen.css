@@ -11051,12 +11051,12 @@ body table tbody tr td, body .table tbody tr td {
   color: #bc2e3c;
   font-weight: bold;
 }
-
-/* line 106, ../sass/partials/_view.scss */
-.view-initiatives.views-catgroup .views-group .views-row {
+/* line 103, ../sass/partials/_view.scss */
+.views-catgroup .views-group.view-initiatives .views-row {
   min-height: 38px;
 }
-/* line 110, ../sass/partials/_view.scss */
-.view-initiatives.views-catgroup .views-group .views-row .views-group-title a {
-  color: #54b1c8;
+/* line 109, ../sass/partials/_view.scss */
+.views-catgroup .views-group.view-initiatives .views-row .views-field-title-field a {
+  color: #bc2e3c;
+  font-weight: bold;
 }
