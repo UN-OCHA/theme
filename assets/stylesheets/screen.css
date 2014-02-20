@@ -11052,11 +11052,11 @@ body table tbody tr td, body .table tbody tr td {
   font-weight: bold;
 }
 
-/* line 106, ../sass/partials/_view.scss */
-.view-initiatives .views-row {
+/* line 108, ../sass/partials/_view.scss */
+.view-initiatives .views-catgroup .views-group .views-row {
   min-height: 38px;
 }
-/* line 110, ../sass/partials/_view.scss */
-.view-initiatives .views-row .views-group-title a {
+/* line 112, ../sass/partials/_view.scss */
+.view-initiatives .views-catgroup .views-group .views-row .views-group-title a {
   color: #54b1c8;
 }

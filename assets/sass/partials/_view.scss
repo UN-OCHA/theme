@@ -103,12 +103,16 @@
 
 .view-initiatives {
 
-	.views-row {
+	.views-catgroup .views-group {
 
-		min-height: 38px;
+		.views-row {
 
-		.views-group-title a {
-			color: $p-comp;
+			min-height: 38px;
+
+			.views-group-title a {
+				color: $p-comp;
+			}
+
 		}
 
 	}
