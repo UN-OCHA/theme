@@ -10795,18 +10795,20 @@ aside.col-sm-3 .block li ul a {
 }
 /* line 156, ../sass/partials/_menu.scss */
 .container.header #navigation {
-  left: 10px;
+  left: 0px;
   bottom: 0px;
   position: absolute;
   line-height: 1;
   height: 45px;
+  width: 100%;
 }
-/* line 164, ../sass/partials/_menu.scss */
+/* line 165, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu {
   position: relative;
   top: 17px;
+  padding-left: 10px;
 }
-/* line 171, ../sass/partials/_menu.scss */
+/* line 173, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a {
   font-size: 12px;
   text-transform: uppercase;
@@ -10821,7 +10823,7 @@ aside.col-sm-3 .block li ul a {
   padding-bottom: 13px;
   font-family: Exo;
 }
-/* line 181, ../sass/partials/_menu.scss */
+/* line 183, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a.active, .container.header #navigation ul.menu li a:hover {
   color: #bc2e3b;
   background-color: transparent;
@@ -10829,7 +10831,7 @@ aside.col-sm-3 .block li ul a {
   border-color: rgba(105, 105, 105, 0.4);
   padding-bottom: 8px;
 }
-/* line 196, ../sass/partials/_menu.scss */
+/* line 198, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul li a {
   border: none;
 }

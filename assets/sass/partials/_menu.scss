@@ -155,16 +155,18 @@
 
 	#navigation {
 
-		left: 10px;
+		left: 0px;
 		bottom: 0px;
 		position: absolute;
 		line-height: 1;
 		height: 45px;
+		width: 100%;
 
 		ul.menu {
 
 			position: relative;
 			top: 17px;
+			padding-left: 10px;
 
 		 	li {
 
@@ -187,7 +189,7 @@
 		 			}
 
 		 		}
-	 		
+
 
 	 			ul {
 
