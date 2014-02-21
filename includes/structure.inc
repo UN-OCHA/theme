@@ -37,7 +37,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
       foreach ($variables['items'] as $delta => $item) {
         $id = $variables['element']['#items'][$delta]['value'];
         $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
-        $output .= '<li>'.l(t('download @title @language', array('@title' => $props['title'], '@language' => $props['language'])), $props['path']).'</a></li>';
+        $output .= '<li>'.l($props['title'].' '.$props['language'], $props['path']).'</a></li>';
       }
       $output .= '</ul>';
       $output .= '</div>';
