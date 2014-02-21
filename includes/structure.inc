@@ -46,7 +46,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
       $item = $variables['items'][0];
       $id = $variables['element']['#items'][0]['value'];
       $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
-      $output .= '<button type="button" class="btn btn-default">'.l(t('download @language', array('@language' => $props['language'])), $props['path']).'</button>';
+      $output .= l(t('download @language', array('@language' => $props['language'])), $props['path'], array('attributes' => array('class' => array('btn', 'btn-default'))));
     }
   }
   $output .= '</div>';
