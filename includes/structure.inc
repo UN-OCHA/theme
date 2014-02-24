@@ -37,7 +37,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
       foreach ($variables['items'] as $delta => $item) {
         $id = $variables['element']['#items'][$delta]['value'];
         $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
-        $output .= '<li>'.l($props['title'].' '.$props['language'], $props['path']).'</a></li>';
+        $output .= '<li>'.l($props['title'].' '.$props['language'], $props['path']).'</li>';
       }
       $output .= '</ul>';
       $output .= '</div>';
@@ -54,6 +54,37 @@ function humanitarianresponse_field__field_files_collection($variables) {
   // Render the top-level DIV.
   $output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
 
+  return $output;
+}
+
+/**
+ * Implements theme_views_view_field
+ */
+function humanitarianresponse_views_view_field__field_files_collection($variables) {
+  $doc = entity_metadata_wrapper('node', $variables['row']->_entity_properties['entity object']);
+  $output = '';
+  if (count($doc->field_files_collection) == 1) {
+    $file_url = $doc->field_files_collection[0]->field_file->file->url->value();
+    $file_language = $doc->field_files_collection[0]->field_language->value();
+    $file_language = empty($file_language['name_native']) ? '' : '(' . $file_language['name_native'] . ')';
+    $output .= l(t('download @language', array('@language' => $file_language)), $file_url, array('attributes' => array('class' => array('btn', 'btn-default'))));
+  }
+  else {
+    $output .= '<div class="btn-group">';
+    $output .= '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      download <span class="caret"></span>
+    </button>';
+    $output .= '<ul class="dropdown-menu">';
+    foreach ($doc->field_files_collection as $fc_collection) {
+      $file_url = $fc_collection->field_file->file->url->value();
+      $file_title = $fc_collection->field_file->file->name->value();
+      $file_language = $fc_collection->field_language->value();
+      $file_language = empty($file_language['name_native']) ? '' : '('.$file_language['name_native'].')';
+      $output .= '<li>'.l($file_title.' '.$file_language, $file_url).'</li>';
+    }
+    $output .= '</ul>';
+    $output .= '</div>';
+  }
   return $output;
 }
 
