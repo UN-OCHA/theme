@@ -27,7 +27,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
 
   // Render the items.
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
-  if ($variables['element']['#field_type'] == 'field_collection') {
+  if ($variables['element']['#field_type'] == 'field_collection' && $variables['element']['#view_mode'] == '_custom_display') {
     if (count($variables['items']) > 1) {
       $output .= '<div class="btn-group">';
       $output .= '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -49,6 +49,13 @@ function humanitarianresponse_field__field_files_collection($variables) {
       $output .= l(t('download @language', array('@language' => $props['language'])), $props['path'], array('attributes' => array('class' => array('btn', 'btn-default'))));
     }
   }
+  else {
+    foreach ($variables['items'] as $delta => $item) {
+      $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+      $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+    }
+  }
+
   $output .= '</div>';
 
   // Render the top-level DIV.
@@ -60,7 +67,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
 /**
  * Implements theme_views_view_field
  */
-function humanitarianresponse_views_view_field__field_files_collection($variables) {
+function humanitarianresponse_views_view_field__hr_documents__table__field_files_collection($variables) {
   $doc = entity_metadata_wrapper('node', $variables['row']->_entity_properties['entity object']);
   $output = '';
   if (count($doc->field_files_collection) == 1) {
