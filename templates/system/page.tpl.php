@@ -51,7 +51,9 @@
               <img src="<?php print $logo; ?>" alt="Humanitarianresponse Logo" />
             </a>
           <?php endif; ?>
-          <?php print render($page['branding']); ?>
+          <div class="pull-right">
+            <?php print render($page['branding']); ?>
+          </div>
       </div>
       <div id="navigation">
         <?php print render($page['navigation']); ?>
