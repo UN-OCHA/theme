@@ -95,3 +95,15 @@ function humanitarianresponse_views_view_field__hr_documents__table__field_files
   return $output;
 }
 
+/**
+ * Theme function for link with icon.
+ */
+function humanitarianresponse_link_icons_link($vars) {
+  $link_options = array(
+    'html' => TRUE,
+    'attributes' => array('title' => $vars['item']['title']),
+  );
+
+  return l('<i class="' . link_icons_get_icon($vars['item']['url']) . ' fa-2x"></i>', $vars['item']['url'], $link_options);
+}
+
