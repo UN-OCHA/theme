@@ -10637,44 +10637,40 @@ html.js fieldset.collapsed {
   font-size: 0.80em;
 }
 
-/* line 9, ../sass/partials/_layout.scss */
-#block-locale-language,
-#block-system-user-menu,
-#block-hr-layout-hr-layout-checkin,
-#block-hr-layout-hr-layout-create-links,
-#block-hr-layout-hr-layout-login {
+/* line 10, ../sass/partials/_layout.scss */
+div.region-top div.block {
   display: inline-block;
 }
 
-/* line 13, ../sass/partials/_layout.scss */
+/* line 14, ../sass/partials/_layout.scss */
 aside.col-sm-3 {
   padding: 0;
 }
-/* line 17, ../sass/partials/_layout.scss */
+/* line 18, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block {
   padding: 15px;
   background-color: #dfdfdf;
   font-size: 12px;
 }
-/* line 22, ../sass/partials/_layout.scss */
+/* line 23, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block a {
   color: #767676;
   padding: 2px 14px;
 }
-/* line 26, ../sass/partials/_layout.scss */
+/* line 27, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block a.active {
   color: #bc2e3b;
 }
-/* line 30, ../sass/partials/_layout.scss */
+/* line 31, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block a .caret {
   display: none;
 }
-/* line 35, ../sass/partials/_layout.scss */
+/* line 36, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block li ul {
   list-style-type: disc;
   color: #A7A7A7;
 }
-/* line 39, ../sass/partials/_layout.scss */
+/* line 40, ../sass/partials/_layout.scss */
 aside.col-sm-3 .block li ul a {
   padding: 2px;
 }
