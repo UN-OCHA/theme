@@ -11109,3 +11109,13 @@ body table tbody tr td, body .table tbody tr td {
   color: #54b1c8;
   font-weight: bold;
 }
+
+/* line 6, ../sass/partials/_node.scss */
+.flag-hr-follow a {
+  color: white !important;
+}
+
+/* line 10, ../sass/partials/_node.scss */
+#block-hr-notifications-hr-follow {
+  text-align: center;
+}
