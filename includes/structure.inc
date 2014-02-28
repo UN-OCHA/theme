@@ -31,7 +31,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
     if (count($variables['items']) > 1) {
       $output .= '<div class="btn-group">';
       $output .= '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-        download <span class="caret"></span>
+        <i class="fa fa-download"></i> download <span class="caret"></span>
       </button>';
       $output .= '<ul class="dropdown-menu">';
       foreach ($variables['items'] as $delta => $item) {
@@ -46,7 +46,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
       $item = $variables['items'][0];
       $id = $variables['element']['#items'][0]['value'];
       $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
-      $output .= l(t('download @language', array('@language' => $props['language'])), $props['path'], array('attributes' => array('class' => array('btn', 'btn-default'))));
+      $output .= l('<i class="fa fa-download"></i> '.t('download @language', array('@language' => $props['language'])), $props['path'], array('attributes' => array('class' => array('btn', 'btn-default')), 'html' => TRUE));
     }
   }
   else {
