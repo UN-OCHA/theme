@@ -10746,7 +10746,7 @@ aside.col-sm-3 .block li ul a {
 }
 
 /* line 64, ../sass/partials/_menu.scss */
-.navbar button {
+.navbar a.btn {
   background-color: #b4b4b4;
   color: white;
   border: 0;
@@ -10763,17 +10763,14 @@ aside.col-sm-3 .block li ul a {
   position: relative;
   top: -2px;
   padding: 6px 15px;
-}
-/* line 78, ../sass/partials/_menu.scss */
-.navbar button:hover {
-  background-color: #BBB;
-}
-/* line 82, ../sass/partials/_menu.scss */
-.navbar button a {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 90, ../sass/partials/_menu.scss */
+/* line 80, ../sass/partials/_menu.scss */
+.navbar a.btn:hover {
+  background-color: #BBB;
+}
+/* line 87, ../sass/partials/_menu.scss */
 .navbar .btn-group button, .navbar .btn-group.open button {
   background-color: #aeadad;
   color: white;
@@ -10790,11 +10787,11 @@ aside.col-sm-3 .block li ul a {
   text-transform: none;
   position: static;
 }
-/* line 102, ../sass/partials/_menu.scss */
+/* line 99, ../sass/partials/_menu.scss */
 .navbar .btn-group button:hover, .navbar .btn-group.open button:hover {
   background-color: #BBB;
 }
-/* line 109, ../sass/partials/_menu.scss */
+/* line 106, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu {
   margin: 0;
   border: none;
@@ -10806,12 +10803,12 @@ aside.col-sm-3 .block li ul a {
   border-radius: 0px;
   margin: 0 2px 0 0;
 }
-/* line 116, ../sass/partials/_menu.scss */
+/* line 113, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul, .navbar .dropdown-menu li {
   margin: 0;
   padding: 0;
 }
-/* line 121, ../sass/partials/_menu.scss */
+/* line 118, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul a, .navbar .dropdown-menu li a {
   color: white;
   font-size: 12px;
@@ -10819,12 +10816,12 @@ aside.col-sm-3 .block li ul a {
   text-decoration: none;
   display: block;
 }
-/* line 128, ../sass/partials/_menu.scss */
+/* line 125, ../sass/partials/_menu.scss */
 .navbar .dropdown-menu ul a:hover, .navbar .dropdown-menu ul a.active, .navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a.active {
   background-color: #BBB;
 }
 
-/* line 139, ../sass/partials/_menu.scss */
+/* line 136, ../sass/partials/_menu.scss */
 .container.header {
   background-color: #FFFFFF;
   padding: 20px 22px 0;
@@ -10832,7 +10829,7 @@ aside.col-sm-3 .block li ul a {
   min-height: 120px;
   position: relative;
 }
-/* line 147, ../sass/partials/_menu.scss */
+/* line 144, ../sass/partials/_menu.scss */
 .container.header #navigation {
   left: 0px;
   bottom: 0px;
@@ -10841,18 +10838,18 @@ aside.col-sm-3 .block li ul a {
   height: 45px;
   width: 100%;
 }
-/* line 156, ../sass/partials/_menu.scss */
+/* line 153, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu {
   position: relative;
   top: 17px;
   padding-left: 10px;
 }
-/* line 162, ../sass/partials/_menu.scss */
+/* line 159, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li {
   position: static;
   margin-left: 0;
 }
-/* line 167, ../sass/partials/_menu.scss */
+/* line 164, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a {
   font-size: 12px;
   text-transform: uppercase;
@@ -10868,7 +10865,7 @@ aside.col-sm-3 .block li ul a {
   font-family: Exo;
   background: none;
 }
-/* line 178, ../sass/partials/_menu.scss */
+/* line 175, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li a.active, .container.header #navigation ul.menu li a:hover {
   color: #bc2e3b;
   background-color: transparent;
@@ -10876,7 +10873,7 @@ aside.col-sm-3 .block li ul a {
   border-color: rgba(105, 105, 105, 0.4);
   padding-bottom: 8px;
 }
-/* line 189, ../sass/partials/_menu.scss */
+/* line 186, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul {
   position: absolute;
   left: 0;
@@ -10885,12 +10882,12 @@ aside.col-sm-3 .block li ul a {
   top: 28px;
   height: 33px;
 }
-/* line 198, ../sass/partials/_menu.scss */
+/* line 195, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul li {
   border-top: 5px solid #b2b2b2;
   border-color: rgba(105, 105, 105, 0.4);
 }
-/* line 203, ../sass/partials/_menu.scss */
+/* line 200, ../sass/partials/_menu.scss */
 .container.header #navigation ul.menu li ul li a.active {
   border: none;
 }

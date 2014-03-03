@@ -61,7 +61,7 @@
 
 .navbar {
 
-	button {
+	a.btn {
 		background-color: #b4b4b4;
 		color: white;
 		border: 0;
@@ -74,15 +74,12 @@
 		position: relative;
 		top: -2px;
 		padding: 6px 15px;
+		color: #FFFFFF;
+		text-decoration: none;
 
  		&:hover {
 			background-color: #BBB;
  		}
-
-		a {
-			color: #FFFFFF;
-			text-decoration: none
-		}
 	}
 
 	.btn-group, .btn-group.open {
