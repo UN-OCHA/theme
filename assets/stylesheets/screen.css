@@ -11077,6 +11077,15 @@ body table tbody tr td, body .table tbody tr td {
   font-weight: bold;
 }
 
+/* line 137, ../sass/partials/_view.scss */
+.view-hr-documents .views-row {
+  background-color: #F9F9F9;
+  border: 1px solid #FFF;
+  margin: 1%;
+  padding: 0;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
 /* line 6, ../sass/partials/_node.scss */
 #block-hr-notifications-hr-follow {
   text-align: center;
