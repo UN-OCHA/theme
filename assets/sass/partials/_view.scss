@@ -21,6 +21,11 @@
 	float: left;
 	height: 280px;
 	overflow: auto;
+
+	.views-group-content {
+		height: 260px;
+		overflow: auto;
+	}
 }
 
 .views-icons {
