@@ -10997,19 +10997,25 @@ body table tbody tr td, body .table tbody tr td {
   height: 280px;
   overflow: auto;
 }
+/* line 25, ../sass/partials/_view.scss */
+.views-catgroup .views-group .views-group-content,
+.views-icons .views-row .views-group-content {
+  height: 260px;
+  overflow: auto;
+}
 
-/* line 28, ../sass/partials/_view.scss */
+/* line 33, ../sass/partials/_view.scss */
 .views-icons .views-field-field-image {
   line-height: 0;
   padding: 11px;
 }
-/* line 35, ../sass/partials/_view.scss */
+/* line 40, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field {
   position: absolute;
   left: 97px;
   top: 15px;
 }
-/* line 42, ../sass/partials/_view.scss */
+/* line 47, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field a {
   font-weight: bold;
   color: #5f5f5f;
@@ -11017,12 +11023,12 @@ body table tbody tr td, body .table tbody tr td {
   display: block;
   padding-right: 11px;
 }
-/* line 50, ../sass/partials/_view.scss */
+/* line 55, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field a:hover {
   color: #bc2e3c;
 }
 
-/* line 60, ../sass/partials/_view.scss */
+/* line 65, ../sass/partials/_view.scss */
 .views-catgroup .views-group-title {
   text-transform: uppercase;
   font-size: 16px;
@@ -11031,37 +11037,37 @@ body table tbody tr td, body .table tbody tr td {
   font-weight: bold;
   color: #5F5F5F;
 }
-/* line 69, ../sass/partials/_view.scss */
+/* line 74, ../sass/partials/_view.scss */
 .views-catgroup .views-group-title a {
   color: #5F5F5F;
 }
-/* line 74, ../sass/partials/_view.scss */
+/* line 79, ../sass/partials/_view.scss */
 .views-catgroup .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
   min-height: 0px;
   clear: both;
 }
-/* line 81, ../sass/partials/_view.scss */
+/* line 86, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-field-image {
   margin-right: 20px;
   float: left;
 }
-/* line 86, ../sass/partials/_view.scss */
+/* line 91, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
-/* line 95, ../sass/partials/_view.scss */
+/* line 100, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
-/* line 106, ../sass/partials/_view.scss */
+/* line 111, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row {
   min-height: 38px;
 }
-/* line 112, ../sass/partials/_view.scss */
+/* line 117, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row .views-field-title-field a {
   color: #54b1c8;
   font-weight: bold;
