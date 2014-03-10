@@ -21,8 +21,9 @@
 	float: left;
 
 	.views-group-content {
-		height: 260px;
+		height: 240px;
 		overflow: auto;
+		margin: 0px 13px 20px;
 	}
 }
 
@@ -65,9 +66,14 @@
 		text-transform: uppercase;
 		font-size: 16px;
 		margin: 0;
-		padding: 8px 25px 30px;
+		padding: 8px 15px;
 		font-weight: bold;
 		color: #5F5F5F;
+		height: 60px;
+		line-height: 20px;
+		display: table-cell;
+		width: 100%;
+		vertical-align: middle;
 
 		a {
 			color: #5F5F5F;
