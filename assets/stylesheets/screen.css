@@ -10864,6 +10864,22 @@ aside.col-sm-3 .block li ul a {
   font-size: 15px;
   font-weight: normal;
 }
+/* line 228, ../sass/partials/_menu.scss */
+#sidebar-first .block ul {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+/* line 233, ../sass/partials/_menu.scss */
+#sidebar-first .block ul li {
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+/* line 238, ../sass/partials/_menu.scss */
+#sidebar-first .block ul li a {
+  color: black;
+}
 
 /* line 4, ../sass/partials/_page.scss */
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
