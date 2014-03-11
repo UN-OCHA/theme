@@ -11089,8 +11089,13 @@ body table tbody tr td, body .table tbody tr td {
 .view-hr-documents .views-row .views-row {
   border: 4px solid #FFF;
   float: left;
-  padding: 0;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+/* line 155, ../sass/partials/_view.scss */
+.view-hr-documents .views-row .panel-pane a.btn {
+  float: right;
+  background-color: #dddddd;
+  margin-right: 30px;
 }
 
 /* line 6, ../sass/partials/_node.scss */
