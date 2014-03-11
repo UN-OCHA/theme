@@ -11086,16 +11086,30 @@ body table tbody tr td, body .table tbody tr td {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
 /* line 145, ../sass/partials/_view.scss */
+.view-hr-documents .views-row h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+/* line 150, ../sass/partials/_view.scss */
 .view-hr-documents .views-row .views-row {
   border: 4px solid #FFF;
   float: left;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
-/* line 155, ../sass/partials/_view.scss */
+/* line 156, ../sass/partials/_view.scss */
+.view-hr-documents .views-row .views-row:after {
+  clear: none;
+}
+/* line 164, ../sass/partials/_view.scss */
 .view-hr-documents .views-row .panel-pane a.btn {
   float: right;
-  background-color: #dddddd;
+  background-color: #DDD;
   margin-right: 30px;
+  border: 0;
+  font-size: 12px;
+  padding: 3px 10px;
+  position: relative;
+  top: -50px;
 }
 
 /* line 6, ../sass/partials/_node.scss */
