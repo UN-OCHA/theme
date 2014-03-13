@@ -1,6 +1,10 @@
 //
 // Styles for individual pages
 // --------------------------------------------------
+@import "compass/layout/sticky-footer";
+
+@include sticky-footer(150px);
+
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: Tahoma;
 }
@@ -8,6 +12,13 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 html,
 body {
 	height: 100%;
+	#header {
+		margin-top: 0;
+		padding-top: 18px;
+	}
+	#footer {
+		margin: 0;
+	}
 }
 
 body {
@@ -16,7 +27,7 @@ body {
 	font-size: 12px;
 }
 
-#body-inner {
+#root {
 	background: url(../images/bg_deg.png) repeat-y top left transparent;
 	padding: 10px 0;
 }
@@ -122,14 +133,10 @@ body table, body .table {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#footer {
+	.container {
+		background-color: #FFFFFF;
+		height: 100%;
+		padding-top: 1em;
+	}
+}
