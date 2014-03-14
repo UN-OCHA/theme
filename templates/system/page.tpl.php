@@ -26,7 +26,7 @@
             </div>
 
             <div class="collapse navbar-collapse">
-              <ul class="nav nav-tabs navbar-left">
+              <ul id="hr-space-tab" class="nav nav-tabs navbar-left">
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -134,7 +134,8 @@
     </div>
     <div class="col-sm-3">
       <i class="fa fa-envelope"></i> <a href="mailto:info@humanitarianresponse.info">info@humanitarianresponse.info</a><br />
-      <i class="fa fa-info"></i> <a href="http://www.humanitarianresponse.info">humanitarianresponse.info</a><br />
+      <i class="fa fa-question-circle"></i> <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a><br />
+      <i class="fa fa-info-circle"></i> <a href="http://www.humanitarianresponse.info">humanitarianresponse.info</a><br />
       <i class="fa fa-rss-square"></i> <a href="http://www.humanitarianresponse.info/feed">RSS feed</a>
     </div>
   </div>
