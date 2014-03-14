@@ -106,7 +106,7 @@
 <footer id="footer" class="footer" role="footer">
   <div class="container">
     <div class="col-sm-3">
-      <p><a href="http://www.humanitarianresponse.info" target="_blank">HumanitarianResponse.info</a> is provided by UN OCHA to support humanitarian operations globally</p><p><a href="http://www.humanitarianresponse.info/about" target="_blank">Learn more about HumanitarianResponse.info</a></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="https://www.humanitarianresponse.info/sites/all/themes/humanitarianresponse/images/ocha.png"></a></p>
+      <p><a href="http://www.humanitarianresponse.info" target="_blank">HumanitarianResponse.info</a> is provided by UN OCHA to support humanitarian operations globally</p><p><a href="http://www.humanitarianresponse.info/about" target="_blank">Learn more about HumanitarianResponse.info</a></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
     </div>
     <div class="col-sm-6">
       <div class="col-sm-3">
