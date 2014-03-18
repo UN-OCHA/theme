@@ -10895,8 +10895,20 @@ aside.col-sm-3 .block li ul a {
   padding: 20px 22px 0;
   display: inline-block;
 }
+/* line 215, ../sass/partials/_menu.scss */
+.container.header #header-image {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+/* line 221, ../sass/partials/_menu.scss */
+.container.header .region-branding {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+}
 
-/* line 219, ../sass/partials/_menu.scss */
+/* line 231, ../sass/partials/_menu.scss */
 #sidebar-first .block {
   padding: 0;
   border-top: 1px solid #FEFEFE;
@@ -10904,30 +10916,30 @@ aside.col-sm-3 .block li ul a {
   margin: 0;
   background-color: transparent;
 }
-/* line 226, ../sass/partials/_menu.scss */
+/* line 238, ../sass/partials/_menu.scss */
 #sidebar-first .block h2 {
   margin: 9px 0;
   font-size: 15px;
   font-weight: normal;
 }
-/* line 232, ../sass/partials/_menu.scss */
+/* line 244, ../sass/partials/_menu.scss */
 #sidebar-first .block ul {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 237, ../sass/partials/_menu.scss */
+/* line 249, ../sass/partials/_menu.scss */
 #sidebar-first .block ul li {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 242, ../sass/partials/_menu.scss */
+/* line 254, ../sass/partials/_menu.scss */
 #sidebar-first .block ul li a {
   color: black;
   padding-left: 6px;
 }
-/* line 250, ../sass/partials/_menu.scss */
+/* line 262, ../sass/partials/_menu.scss */
 #sidebar-first .block .current-search-filter a {
   padding-left: 0;
   padding-right: 6px;

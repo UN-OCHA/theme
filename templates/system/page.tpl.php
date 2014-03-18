@@ -52,7 +52,7 @@
             </a>
           <?php endif; ?>
           <div class="pull-right">
-            <img src="/sites/all/themes/humanitarianresponse/assets/images/headers/MAPS/general.png" alt="Map" />
+            <div id="header-image"><img src="/sites/all/themes/humanitarianresponse/assets/images/headers/MAPS/general.png" alt="Map" /></div>
             <?php print render($page['branding']); ?>
           </div>
       </div>
