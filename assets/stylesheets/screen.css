@@ -11115,6 +11115,21 @@ body table tbody tr td, body .table tbody tr td {
   padding-top: 1em;
 }
 
+/* line 146, ../sass/partials/_page.scss */
+.front #main .container {
+  background-image: url("../images/banner_home.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* line 152, ../sass/partials/_page.scss */
+.front .container.header {
+  margin-bottom: 0;
+}
+/* line 156, ../sass/partials/_page.scss */
+.front #content-wrapper {
+  margin-top: 110px;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;

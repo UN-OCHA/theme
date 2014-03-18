@@ -140,3 +140,21 @@ body table, body .table {
 		padding-top: 1em;
 	}
 }
+
+// Front page
+.front {
+	#main .container {
+		background-image: url('../images/banner_home.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.container.header {
+		margin-bottom: 0;
+	}
+
+	#content-wrapper {
+		margin-top: 110px;
+	}
+}
+
