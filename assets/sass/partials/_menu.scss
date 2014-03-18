@@ -136,7 +136,6 @@
 .container.header {
 
 	background-color: #FFFFFF;
-	padding: 20px 22px 0;
 	margin-bottom: 35px;
 	min-height: 120px;
 	position: relative;
@@ -206,6 +205,11 @@
 	 			}
 		 	}
 		}
+	}
+
+	#logo {
+		padding: 20px 22px 0;
+		display: inline-block;
 	}
 }
 
