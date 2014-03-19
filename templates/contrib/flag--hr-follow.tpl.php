@@ -44,7 +44,7 @@
 <?php endif; ?>
 <span class="<?php print $flag_wrapper_classes; ?>">
   <?php if ($link_href): ?>
-    <a href="<?php print $link_href; ?>" title="<?php print $link_title; ?>" class="<?php print $flag_classes ?> btn btn-primary btn-lg" rel="nofollow"><i class="fa <?php $action == 'flag' ? print 'fa-heart' : print 'fa-heart-o'; ?>"></i> <?php print $link_text; ?></a><span class="flag-throbber">&nbsp;</span>
+    <a href="<?php print $link_href; ?>" title="<?php print $link_title; ?>" class="<?php print $flag_classes ?> btn btn-primary btn-lg" rel="nofollow"><?php print $link_text; ?> <i class="fa <?php $action == 'flag' ? print 'fa-check' : print 'fa-times'; ?>"></i></a><span class="flag-throbber">&nbsp;</span>
   <?php else: ?>
     <span class="<?php print $flag_classes ?>"><?php print $link_text; ?></span>
   <?php endif; ?>
