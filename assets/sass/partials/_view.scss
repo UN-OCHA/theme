@@ -8,32 +8,28 @@
 
 
 
-.views-catgroup,
-.views-icons {
+.views-catgroup .views-group,
+.views-icons .views-row {
+	background-color: #F9F9F9;
+	border: 1px solid #FFF;
+	margin: 1%;
+	padding: 0;
+	width: 31.333333%;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+	min-height: 100px;
+	position: relative;
+	float: left;
 
-	 .views-group,
-	 .views-row {
-		background-color: #F9F9F9;
-		border: 1px solid #FFF;
-		margin: 1%;
-		padding: 0;
-		width: 31.333333%;
-		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-		min-height: 100px;
-		position: relative;
-		float: left;
-
-		.views-group-content {
-			height: 240px;
-			overflow: auto;
-			margin: 0px 13px 20px;
-		}
+	.views-group-content {
+		height: 240px;
+		overflow: auto;
+		margin: 0px 13px 20px;
 	}
 }
 
 .col-sm-6 .views-catgroup .views-group,
 .col-sm-6 .views-icons .views-row {
-	width:auto;
+	width: auto;
 }
 
 .views-icons {

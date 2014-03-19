@@ -11287,10 +11287,8 @@ body .region-branding input.form-submit {
   margin: 20px 0;
 }
 
-/* line 15, ../sass/partials/_view.scss */
+/* line 12, ../sass/partials/_view.scss */
 .views-catgroup .views-group,
-.views-catgroup .views-row,
-.views-icons .views-group,
 .views-icons .views-row {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -11302,34 +11300,32 @@ body .region-branding input.form-submit {
   position: relative;
   float: left;
 }
-/* line 26, ../sass/partials/_view.scss */
+/* line 23, ../sass/partials/_view.scss */
 .views-catgroup .views-group .views-group-content,
-.views-catgroup .views-row .views-group-content,
-.views-icons .views-group .views-group-content,
 .views-icons .views-row .views-group-content {
   height: 240px;
   overflow: auto;
   margin: 0px 13px 20px;
 }
 
-/* line 35, ../sass/partials/_view.scss */
+/* line 31, ../sass/partials/_view.scss */
 .col-sm-6 .views-catgroup .views-group,
 .col-sm-6 .views-icons .views-row {
   width: auto;
 }
 
-/* line 41, ../sass/partials/_view.scss */
+/* line 37, ../sass/partials/_view.scss */
 .views-icons .views-field-field-image {
   line-height: 0;
   padding: 11px;
 }
-/* line 48, ../sass/partials/_view.scss */
+/* line 44, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field {
   position: absolute;
   left: 97px;
   top: 15px;
 }
-/* line 55, ../sass/partials/_view.scss */
+/* line 51, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field a {
   font-weight: bold;
   color: #5f5f5f;
@@ -11337,12 +11333,12 @@ body .region-branding input.form-submit {
   display: block;
   padding-right: 11px;
 }
-/* line 63, ../sass/partials/_view.scss */
+/* line 59, ../sass/partials/_view.scss */
 .views-icons .views-field-title-field a:hover {
   color: #bc2e3c;
 }
 
-/* line 73, ../sass/partials/_view.scss */
+/* line 69, ../sass/partials/_view.scss */
 .views-catgroup .views-group-title {
   text-transform: uppercase;
   font-size: 16px;
@@ -11356,43 +11352,43 @@ body .region-branding input.form-submit {
   width: 100%;
   vertical-align: middle;
 }
-/* line 87, ../sass/partials/_view.scss */
+/* line 83, ../sass/partials/_view.scss */
 .views-catgroup .views-group-title a {
   color: #5F5F5F;
 }
-/* line 92, ../sass/partials/_view.scss */
+/* line 88, ../sass/partials/_view.scss */
 .views-catgroup .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
   min-height: 0px;
   clear: both;
 }
-/* line 99, ../sass/partials/_view.scss */
+/* line 95, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-field-image {
   margin-right: 20px;
   float: left;
 }
-/* line 104, ../sass/partials/_view.scss */
+/* line 100, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
-/* line 113, ../sass/partials/_view.scss */
+/* line 109, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
-/* line 124, ../sass/partials/_view.scss */
+/* line 120, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row {
   min-height: 38px;
 }
-/* line 130, ../sass/partials/_view.scss */
+/* line 126, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row .views-field-title-field a {
   color: #54b1c8;
   font-weight: bold;
 }
 
-/* line 146, ../sass/partials/_view.scss */
+/* line 142, ../sass/partials/_view.scss */
 .view-hr-documents .views-row {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -11400,22 +11396,22 @@ body .region-branding input.form-submit {
   padding: 0;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
-/* line 154, ../sass/partials/_view.scss */
+/* line 150, ../sass/partials/_view.scss */
 .view-hr-documents .views-row h2 {
   font-size: 17px;
   font-weight: bold;
 }
-/* line 161, ../sass/partials/_view.scss */
+/* line 157, ../sass/partials/_view.scss */
 .view-hr-documents .views-row .row .views-row {
   border: 4px solid #FFF;
   float: left;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
-/* line 168, ../sass/partials/_view.scss */
+/* line 164, ../sass/partials/_view.scss */
 .view-hr-documents .views-row .row:after {
   clear: none;
 }
-/* line 176, ../sass/partials/_view.scss */
+/* line 172, ../sass/partials/_view.scss */
 .view-hr-documents .views-row .panel-pane a.btn {
   float: right;
   background-color: #DDD;
