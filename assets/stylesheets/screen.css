@@ -11207,10 +11207,12 @@ h1 {
 /* line 233, ../sass/partials/_page.scss */
 #edit-search-wrapper input.form-text {
   padding: 2px 4px;
-  font-size: 13px;
+  font-size: 12px;
   border-radius: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3) !important;
   border: 1px solid white;
+  height: auto;
+  box-shadow: 0;
 }
 
 /* line 9, ../sass/partials/_panel.scss */
