@@ -11087,11 +11087,46 @@ body table tbody tr td, body .table tbody tr td {
   margin-top: 110px;
 }
 
+/* line 162, ../sass/partials/_page.scss */
+.thumbnail {
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 1.428571429;
+  background-color: #FFF;
+  border: none;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 0;
+}
+/* line 174, ../sass/partials/_page.scss */
+.thumbnail p {
+  margin: 0;
+}
+/* line 178, ../sass/partials/_page.scss */
+.thumbnail .caption {
+  text-align: center;
+  background-color: #494949;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
 /* line 9, ../sass/partials/_panel.scss */
-.panel-panel.right .pane-title {
-  font-size: 12px;
-  color: #bc2e3b;
-  border-bottom: 1px dotted #bc2e3b;
+.panel-panel.right .panel-pane {
+  margin-bottom: 30px;
+}
+/* line 13, ../sass/partials/_panel.scss */
+.panel-panel.right .panel-pane .pane-title {
+  font-size: 13px;
+  color: #BC2E3B;
+  border-bottom: 1px dotted #BC2E3B;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
 }
 
 /* line 5, ../sass/partials/_view.scss */

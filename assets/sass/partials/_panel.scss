@@ -5,12 +5,23 @@
 .panel-panel {
 
 	&.right {
-		
-		.pane-title {
-			font-size: 12px;
-			color: #bc2e3b;
-			border-bottom: 1px dotted #bc2e3b;
+
+		.panel-pane {
+			
+			margin-bottom: 30px;
+
+			.pane-title {
+				font-size: 13px;
+				color: #BC2E3B;
+				border-bottom: 1px dotted #BC2E3B;
+				text-transform: uppercase;
+				font-weight: bold;
+				padding-bottom: 7px;
+				margin-bottom: 20px;
+			}
+
 		}
+		
 
 	}
 
