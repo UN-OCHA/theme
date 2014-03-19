@@ -21,7 +21,11 @@
 	width: 31.333333%;
 
 	.col-sm-6 & {
-		width: auto;
+		width: 100%;
+
+		.views-group-content {
+			height: auto;
+		}
 	}
 
 	.views-group-content {
