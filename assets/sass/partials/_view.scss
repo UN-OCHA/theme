@@ -14,22 +14,21 @@
 	border: 1px solid #FFF;
 	margin: 1%;
 	padding: 0;
-	width: 31.333333%;
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 	min-height: 100px;
 	position: relative;
 	float: left;
+
+	.col-sm-12 & {
+		width: 31.333333%;
+	}
 
 	.views-group-content {
 		height: 240px;
 		overflow: auto;
 		margin: 0px 13px 20px;
 	}
-}
 
-.col-sm-6 .views-catgroup .views-group,
-.col-sm-6 .views-icons .views-row {
-	width: auto;
 }
 
 .views-icons {
