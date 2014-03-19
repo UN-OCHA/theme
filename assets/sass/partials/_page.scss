@@ -173,7 +173,7 @@ body table, body .table {
 	border-radius: 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	@include box-shadow(rgba(black, 0.2) 1px 2px 0);
+	@include box-shadow(rgba(black, 0.2) 1px 2px 2px);
 
 	p {
 		margin: 0;
