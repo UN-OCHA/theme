@@ -11204,12 +11204,12 @@ h1 {
   margin: 0;
 }
 
-/* line 12, ../sass/partials/_panel.scss */
-.panel-display .panel-panel.right .panel-pane {
+/* line 9, ../sass/partials/_panel.scss */
+.panel-panel.right .panel-pane {
   margin-bottom: 30px;
 }
-/* line 16, ../sass/partials/_panel.scss */
-.panel-display .panel-panel.right .panel-pane .pane-title {
+/* line 13, ../sass/partials/_panel.scss */
+.panel-panel.right .panel-pane .pane-title {
   font-size: 13px;
   color: #bc2e3c;
   border-bottom: 1px dotted #bc2e3c;
@@ -11218,6 +11218,7 @@ h1 {
   padding-bottom: 7px;
   margin-bottom: 20px;
 }
+
 /* line 34, ../sass/partials/_panel.scss */
 .panel-display .pane-custom {
   background-color: #F9F9F9;
@@ -11225,6 +11226,15 @@ h1 {
   border: 1px solid #FFF;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
+}
+/* line 40, ../sass/partials/_panel.scss */
+.panel-display .pane-custom .pane-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #dedede;
 }
 
 /* line 5, ../sass/partials/_view.scss */
