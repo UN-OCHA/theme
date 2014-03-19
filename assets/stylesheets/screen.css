@@ -11364,7 +11364,7 @@ body .region-branding input.form-submit {
 .views-catgroup .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
-  min-height: 0px;
+  min-height: 38px;
   clear: both;
 }
 /* line 99, ../sass/partials/_view.scss */
