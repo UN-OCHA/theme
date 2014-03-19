@@ -112,6 +112,10 @@
 
 		.views-field-title-field {
 
+			display: inline-block;
+			*display: inline;
+			*zoom: 1;
+
 			a {
 				color: $p-main;
 				font-weight: bold;
