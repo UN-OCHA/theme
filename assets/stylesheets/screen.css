@@ -11119,9 +11119,13 @@ body table tbody tr td, body .table tbody tr td {
   color: white;
 }
 
-/* line 192, ../sass/partials/_page.scss */
-#footer .col-sm-6 .col-sm-3 img {
-  margin: 4px;
+/* line 189, ../sass/partials/_page.scss */
+#footer .container {
+  min-height: 210px;
+}
+/* line 196, ../sass/partials/_page.scss */
+#footer .container .col-sm-6 .col-sm-3 img {
+  margin: 10px;
 }
 
 /* line 9, ../sass/partials/_panel.scss */

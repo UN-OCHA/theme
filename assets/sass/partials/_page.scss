@@ -186,14 +186,19 @@ body table, body .table {
 
 #footer {
 
-	.col-sm-6 {
+	.container {
 
-		.col-sm-3 {
-			img {
-				margin: 4px;
+		min-height: 210px;
+
+		.col-sm-6 {
+
+			.col-sm-3 {
+				img {
+					margin: 10px;
+				}
 			}
-		}
 
+		}
 	}
 	
 }
