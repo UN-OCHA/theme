@@ -11234,6 +11234,11 @@ body .region-branding input.form-submit {
   left: -54px;
 }
 
+/* line 269, ../sass/partials/_page.scss */
+#block-current-search-hr-current-search h2 {
+  display: none;
+}
+
 /* line 9, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane {
   margin-bottom: 30px;
@@ -11283,8 +11288,8 @@ body .region-branding input.form-submit {
 }
 
 /* line 12, ../sass/partials/_view.scss */
-.views-catgroup .views-group,
-.views-icons .views-row {
+.col-sm-12 .views-catgroup .views-group,
+.col-sm-12 .views-icons .views-row {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
   margin: 1%;
@@ -11296,8 +11301,8 @@ body .region-branding input.form-submit {
   float: left;
 }
 /* line 23, ../sass/partials/_view.scss */
-.views-catgroup .views-group .views-group-content,
-.views-icons .views-row .views-group-content {
+.col-sm-12 .views-catgroup .views-group .views-group-content,
+.col-sm-12 .views-icons .views-row .views-group-content {
   height: 240px;
   overflow: auto;
   margin: 0px 13px 20px;
