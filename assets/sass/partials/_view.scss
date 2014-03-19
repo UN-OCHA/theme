@@ -18,9 +18,10 @@
 	min-height: 100px;
 	position: relative;
 	float: left;
+	width: 31.333333%;
 
-	.col-sm-12 & {
-		width: 31.333333%;
+	.col-sm-6 & {
+		width: auto;
 	}
 
 	.views-group-content {
