@@ -1,5 +1,5 @@
 3.2.14 (Media Mark)
-41ec05f25ba324480710657b1a356b9052990ee0
+18222cc454b5eaa8bde2dd877c7bb1dce5cea994
 o:Sass::Tree::RootNode
 :@template"îZ//
 // Variables
@@ -23,7 +23,7 @@ $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 // Brand colors
 // -------------------------
 
-$brand-primary:         #428bca !default;
+$brand-primary:         #55b1c8 !default;
 $brand-success:         #5cb85c !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
@@ -709,7 +709,7 @@ greeni :	bluei ;0;@;io:Sass::Script::Number:@denominator_units[ :@numer
 ;;;["/* #eee */;@;	[ ;io;
 
 ;;;["4/* Brand colors
- * ------------------------- */;@;	[ ;io;;"!default;"brand-primary;o;	;{	;iG;i;i‹;iÊ;0;@;i;@;	[ ;io;;"!default;"brand-success;o;	;{	;ia;i;i¸;ia;0;@;i;@;	[ ;io;;"!default;"brand-warning;o;	;{	;ið;i;i­;iS;0;@;i;@;	[ ;io;;"!default;"brand-danger;o;	;{	;iÙ;i;iX;iT;0;@;i;@;	[ ;io;;"!default;"brand-info;o;	;{	;i`;i;iÀ;iÞ;0;@;i ;@;	[ ;i o;
+ * ------------------------- */;@;	[ ;io;;"!default;"brand-primary;o;	;{	;iZ;i;i±;iÈ;0;@;i;@;	[ ;io;;"!default;"brand-success;o;	;{	;ia;i;i¸;ia;0;@;i;@;	[ ;io;;"!default;"brand-warning;o;	;{	;ið;i;i­;iS;0;@;i;@;	[ ;io;;"!default;"brand-danger;o;	;{	;iÙ;i;iX;iT;0;@;i;@;	[ ;io;;"!default;"brand-info;o;	;{	;i`;i;iÀ;iÞ;0;@;i ;@;	[ ;i o;
 
 ;;;["3/* Scaffolding
  * ------------------------- */;@;	[ ;i"o;;"!default;"body-bg;o;	;{	;iÿ;i;iÿ;iÿ;0;@;i%;@;	[ ;i%o;;"!default;"text-color;o:Sass::Script::Variable	;"gray-dark;@:@underscored_name"gray_dark;i&;@;	[ ;i&o;
