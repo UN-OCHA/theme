@@ -227,42 +227,54 @@
 #sidebar-first {
 
 	.block {
-		padding: 0;
-		border-top: 1px solid #FEFEFE;
-		border-bottom: 1px solid #d8d8d8;
-		margin: 0;
-		background-color: transparent;
 
-		h2 {
-			margin: 9px 0;
-			font-size: 15px;
-			font-weight: normal;
-		}
+		&.block-facetapi {
 
-		ul {
-			list-style: none;
-			list-style-type: none;
-			list-style-image: none;
+			padding: 0;
+			border-top: 1px solid #FEFEFE;
+			border-bottom: 1px solid #d8d8d8;
+			margin: 0;
+			background-color: transparent;
 
-			li {
+			h2 {
+				margin: 9px 0;
+				font-size: 15px;
+				font-weight: normal;
+			}
+
+			ul {
 				list-style: none;
 				list-style-type: none;
 				list-style-image: none;
 
+				li {
+					list-style: none;
+					list-style-type: none;
+					list-style-image: none;
+
+					a {
+						color: black;
+						padding-left: 6px;
+					}
+				}
+			}
+
+			.current-search-filter {
 				a {
-					color: black;
-					padding-left: 6px;
+					padding-left: 0;
+					padding-right: 6px;
 				}
 			}
 		}
 
-		.current-search-filter {
-			a {
-				padding-left: 0;
-				padding-right: 6px;
-			}
+		&.block-og-menu {
+
+			
+
 		}
 	}
+
+
 
 }
 
