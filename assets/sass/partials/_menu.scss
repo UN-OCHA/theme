@@ -274,16 +274,32 @@
 
 				li.expanded {
 					background-color: #dfdfdf;	
-					padding: 4px;
+					padding: 7px;
 					margin-bottom: 15px;
 
 					.nolink {
 						font-weight: bold;
 						text-transform: uppercase;
 						color: #525252;
+						font-size: 13px;
 
 						.caret {
 							float: right;
+							margin-top: 7px;
+							margin-right: 7px;
+						}
+					}
+
+					ul {
+						padding-left: 20px;
+						list-style: none;
+						list-style-image: none;
+						list-style-type: none;
+
+						li {
+							list-style: none;
+							list-style-image: none;
+							list-style-type: none;
 						}
 					}
 				}
