@@ -226,7 +226,7 @@ h1 {
 	margin: 0;
 }
 
-#edit-search-wrapper {
+#block-views-exp-hr-documents-list {
 
 	input {
 
@@ -242,6 +242,7 @@ h1 {
 			&:focus {
 				border-color: $p-main;
 				outline: 0 none;
+				box-shadow: 0;
 			}
 		}
 
