@@ -227,20 +227,21 @@
 #sidebar-first {
 
 	.block {
+		
+		margin: 0;
+		background-color: transparent;
+
+		h2 {
+			margin: 9px 0;
+			font-size: 15px;
+			font-weight: normal;
+		}
 
 		&.block-facetapi {
 
 			padding: 0;
 			border-top: 1px solid #FEFEFE;
 			border-bottom: 1px solid #d8d8d8;
-			margin: 0;
-			background-color: transparent;
-
-			h2 {
-				margin: 9px 0;
-				font-size: 15px;
-				font-weight: normal;
-			}
 
 			ul {
 				list-style: none;
