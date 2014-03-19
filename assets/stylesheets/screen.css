@@ -11200,11 +11200,16 @@ h1 {
 }
 
 /* line 225, ../sass/partials/_page.scss */
+h2 {
+  font-size: 26px;
+}
+
+/* line 229, ../sass/partials/_page.scss */
 .view-content.row {
   margin: 0;
 }
 
-/* line 233, ../sass/partials/_page.scss */
+/* line 237, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
@@ -11214,13 +11219,13 @@ body .region-branding input.form-text {
   height: auto;
   box-shadow: 0;
 }
-/* line 242, ../sass/partials/_page.scss */
+/* line 246, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
-/* line 249, ../sass/partials/_page.scss */
+/* line 253, ../sass/partials/_page.scss */
 body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
@@ -11234,7 +11239,7 @@ body .region-branding input.form-submit {
   left: -54px;
 }
 
-/* line 269, ../sass/partials/_page.scss */
+/* line 273, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
