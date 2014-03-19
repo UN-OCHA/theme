@@ -10633,8 +10633,8 @@ aside.col-sm-3 .block li ul a {
   padding: 2px;
 }
 
-/* line 46, ../sass/partials/_layout.scss */
-#content {
+/* line 47, ../sass/partials/_layout.scss */
+.front #content {
   margin-top: 40px;
 }
 
@@ -11117,6 +11117,11 @@ body table tbody tr td, body .table tbody tr td {
   text-transform: uppercase;
   font-weight: bold;
   color: white;
+}
+
+/* line 192, ../sass/partials/_page.scss */
+#footer .col-sm-6 .col-sm-3 img {
+  margin: 4px;
 }
 
 /* line 9, ../sass/partials/_panel.scss */
