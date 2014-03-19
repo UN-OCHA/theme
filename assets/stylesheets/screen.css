@@ -11235,6 +11235,7 @@ h1 {
   padding-bottom: 7px;
   margin-bottom: 20px;
   border-bottom: 1px dotted #dedede;
+  margin-top: 0;
 }
 
 /* line 5, ../sass/partials/_view.scss */
