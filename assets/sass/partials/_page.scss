@@ -226,7 +226,7 @@ h1 {
 	margin: 0;
 }
 
-#block-views-exp-hr-documents-list {
+.region-branding {
 
 	input {
 
@@ -251,7 +251,12 @@ h1 {
 			padding: 2px 4px;
 			text-indent: 999px;
 			border-radius: 0;
-			background: url(../images/search.png) no-repeat center center transparent;
+			background: url(../images/search.png) no-repeat center center rgba(0, 0, 0, 0);
+			width: 30px;
+			margin: 0;
+			position: relative;
+			top: 21px;
+			left: -54px;
 		}
 
 	}
