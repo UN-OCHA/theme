@@ -10922,25 +10922,29 @@ aside.col-sm-3 .block li ul a {
   text-transform: uppercase;
   color: #525252;
   font-size: 13px;
+  margin-bottom: 5px;
+  display: block;
 }
-/* line 286, ../sass/partials/_menu.scss */
+/* line 288, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
 }
-/* line 293, ../sass/partials/_menu.scss */
+/* line 295, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded ul {
   padding-left: 20px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 299, ../sass/partials/_menu.scss */
+/* line 301, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded ul li {
   list-style: none;
   list-style-image: none;
   list-style-type: none;
+  margin-bottom: 5px;
+  display: block;
 }
 
 /* line 10, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
