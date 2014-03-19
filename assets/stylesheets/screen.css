@@ -11205,7 +11205,7 @@ h1 {
 }
 
 /* line 233, ../sass/partials/_page.scss */
-.region-branding input.form-text {
+body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
   border-radius: 0;
@@ -11215,13 +11215,13 @@ h1 {
   box-shadow: 0;
 }
 /* line 242, ../sass/partials/_page.scss */
-.region-branding input.form-text:focus {
+body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
 /* line 249, ../sass/partials/_page.scss */
-.region-branding input.form-submit {
+body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
   text-indent: 999px;
