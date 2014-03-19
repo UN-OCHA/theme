@@ -11087,6 +11087,13 @@ body table tbody tr td, body .table tbody tr td {
   margin-top: 110px;
 }
 
+/* line 9, ../sass/partials/_panel.scss */
+.panel-panel.right .pane-title {
+  font-size: 12px;
+  color: #bc2e3b;
+  border-bottom: 1px dotted #bc2e3b;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
