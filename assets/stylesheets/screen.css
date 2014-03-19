@@ -11204,6 +11204,15 @@ h1 {
   margin: 0;
 }
 
+/* line 233, ../sass/partials/_page.scss */
+#edit-search-wrapper input.form-text {
+  padding: 2px 4px;
+  font-size: 13px;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+}
+
 /* line 9, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane {
   margin-bottom: 30px;
@@ -11243,7 +11252,8 @@ h1 {
 }
 /* line 53, ../sass/partials/_panel.scss */
 .panel-display .pane-custom .pane-content ul {
-  padding-left: 10px;
+  padding-left: 14px;
+  color: #54b1c8;
 }
 
 /* line 5, ../sass/partials/_view.scss */
