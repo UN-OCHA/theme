@@ -10871,39 +10871,39 @@ aside.col-sm-3 .block li ul a {
   right: 0;
 }
 
-/* line 229, ../sass/partials/_menu.scss */
-#sidebar-first .block {
+/* line 231, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi {
   padding: 0;
   border-top: 1px solid #FEFEFE;
   border-bottom: 1px solid #d8d8d8;
   margin: 0;
   background-color: transparent;
 }
-/* line 236, ../sass/partials/_menu.scss */
-#sidebar-first .block h2 {
+/* line 239, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi h2 {
   margin: 9px 0;
   font-size: 15px;
   font-weight: normal;
 }
-/* line 242, ../sass/partials/_menu.scss */
-#sidebar-first .block ul {
+/* line 245, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi ul {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 247, ../sass/partials/_menu.scss */
-#sidebar-first .block ul li {
+/* line 250, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi ul li {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 252, ../sass/partials/_menu.scss */
-#sidebar-first .block ul li a {
+/* line 255, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi ul li a {
   color: black;
   padding-left: 6px;
 }
-/* line 260, ../sass/partials/_menu.scss */
-#sidebar-first .block .current-search-filter a {
+/* line 263, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi .current-search-filter a {
   padding-left: 0;
   padding-right: 6px;
 }
