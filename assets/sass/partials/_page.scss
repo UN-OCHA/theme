@@ -226,12 +226,11 @@ h1 {
 	margin: 0;
 }
 
-#edit-search-wrapper {
+.region-branding {
 
 	input {
 
 		&.form-text {
-			outline: 0 none;
 			padding: 2px 4px;
 			font-size: 12px;
 			border-radius: 0;
@@ -242,15 +241,16 @@ h1 {
 
 			&:focus {
 				border-color: $p-main;
+				outline: 0 none;
 			}
 		}
 
 		&.form-submit {
-			background: white;
 			border: none;
 			padding: 2px 4px;
 			text-indent: 999px;
 			border-radius: 0;
+			background: url(../images/search.png) no-repeat center center transparent;
 		}
 
 	}

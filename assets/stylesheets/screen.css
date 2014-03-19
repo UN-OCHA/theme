@@ -11205,8 +11205,7 @@ h1 {
 }
 
 /* line 233, ../sass/partials/_page.scss */
-#edit-search-wrapper input.form-text {
-  outline: 0 none;
+.region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
   border-radius: 0;
@@ -11215,17 +11214,18 @@ h1 {
   height: auto;
   box-shadow: 0;
 }
-/* line 243, ../sass/partials/_page.scss */
-#edit-search-wrapper input.form-text:focus {
+/* line 242, ../sass/partials/_page.scss */
+.region-branding input.form-text:focus {
   border-color: #bc2e3c;
+  outline: 0 none;
 }
 /* line 248, ../sass/partials/_page.scss */
-#edit-search-wrapper input.form-submit {
-  background: white;
+.region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
   text-indent: 999px;
   border-radius: 0;
+  background: url(../images/search.png) no-repeat center center transparent;
 }
 
 /* line 9, ../sass/partials/_panel.scss */
