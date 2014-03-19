@@ -11237,6 +11237,14 @@ h1 {
   border-bottom: 1px dotted #dedede;
   margin-top: 2px;
 }
+/* line 50, ../sass/partials/_panel.scss */
+.panel-display .pane-custom .pane-content {
+  padding: 0 7px;
+}
+/* line 53, ../sass/partials/_panel.scss */
+.panel-display .pane-custom .pane-content ul {
+  padding-left: 10px;
+}
 
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
