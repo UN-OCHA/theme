@@ -11126,6 +11126,8 @@ body table tbody tr td, body .table tbody tr td {
 /* line 196, ../sass/partials/_page.scss */
 #footer .container .col-sm-6 .col-sm-3 img {
   margin: 10px;
+  max-width: 100px;
+  max-height: 45px;
 }
 
 /* line 9, ../sass/partials/_panel.scss */
