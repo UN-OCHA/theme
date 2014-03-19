@@ -205,7 +205,18 @@ body table, body .table {
 	
 }
 
+.page-header {
+	border: none;
+}
 
+h1, h2, h3, h4, h5, h6 {
+	color: $p-comp;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 28px;
+}
 
 
 

@@ -11130,6 +11130,22 @@ body table tbody tr td, body .table tbody tr td {
   max-height: 45px;
 }
 
+/* line 208, ../sass/partials/_page.scss */
+.page-header {
+  border: none;
+}
+
+/* line 212, ../sass/partials/_page.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #54b1c8;
+  font-weight: bold;
+}
+
+/* line 217, ../sass/partials/_page.scss */
+h1 {
+  font-size: 28px;
+}
+
 /* line 9, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane {
   margin-bottom: 30px;
@@ -11137,8 +11153,8 @@ body table tbody tr td, body .table tbody tr td {
 /* line 13, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane .pane-title {
   font-size: 13px;
-  color: #BC2E3B;
-  border-bottom: 1px dotted #BC2E3B;
+  color: #bc2e3c;
+  border-bottom: 1px dotted #bc2e3c;
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 7px;
