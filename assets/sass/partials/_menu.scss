@@ -227,7 +227,7 @@
 #sidebar-first {
 
 	.block {
-		
+
 		margin: 0;
 		background-color: transparent;
 
@@ -270,7 +270,25 @@
 
 		&.block-og-menu {
 
-			
+			ul.menu {
+
+				li.expanded {
+					background-color: #dfdfdf;	
+					padding: 4px;
+					margin-bottom: 15px;
+
+					.nolink {
+						font-weight: bold;
+						text-transform: uppercase;
+						color: #525252;
+
+						.caret {
+							float: right;
+						}
+					}
+				}
+
+			}
 
 		}
 	}

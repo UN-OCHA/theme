@@ -10910,6 +10910,22 @@ aside.col-sm-3 .block li ul a {
   padding-left: 0;
   padding-right: 6px;
 }
+/* line 275, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li.expanded {
+  background-color: #dfdfdf;
+  padding: 4px;
+  margin-bottom: 15px;
+}
+/* line 280, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li.expanded .nolink {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #525252;
+}
+/* line 285, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li.expanded .nolink .caret {
+  float: right;
+}
 
 /* line 10, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
