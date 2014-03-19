@@ -2,34 +2,40 @@
 // Styles for panels and panes.
 // --------------------------------------------------
 
-.panel-panel {
 
-	&.right {
+.panel-display {
 
-		.panel-pane {
+	.panel-panel {
+
+		&.right {
+
+			.panel-pane {
+				
+				margin-bottom: 30px;
+
+				.pane-title {
+					font-size: 13px;
+					color: $p-main;
+					border-bottom: 1px dotted $p-main;
+					text-transform: uppercase;
+					font-weight: bold;
+					padding-bottom: 7px;
+					margin-bottom: 20px;
+				}
+
+			}
 			
-			margin-bottom: 30px;
-
-			.pane-title {
-				font-size: 13px;
-				color: $p-main;
-				border-bottom: 1px dotted $p-main;
-				text-transform: uppercase;
-				font-weight: bold;
-				padding-bottom: 7px;
-				margin-bottom: 20px;
-			}
-
-			&.pane-custom {
-				background-color: #F9F9F9;
-				padding: 7px;
-				border: 1px solid #FFF;
-				@include box-shadow(rgba(black, 0.2) 1px 2px 2px);
-			}
 
 		}
-		
 
+	}
+	
+
+	.pane-custom {
+		background-color: #F9F9F9;
+		padding: 7px;
+		border: 1px solid #FFF;
+		@include box-shadow(rgba(black, 0.2) 1px 2px 2px);
 	}
 
 }
