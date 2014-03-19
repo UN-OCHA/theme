@@ -158,6 +158,10 @@ body table, body .table {
 }
 
 
+#content {
+	padding: 0;
+}
+
 // Divers
 .thumbnail {
 	display: block;
@@ -218,7 +222,9 @@ h1 {
 	font-size: 28px;
 }
 
-
+.view-content.row {
+	margin: 0;
+}
 
 
 
