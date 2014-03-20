@@ -11442,8 +11442,11 @@ body .region-branding input.form-submit {
 }
 /* line 187, ../sass/partials/_view.scss */
 .node-search-result.node-hr-document h2 {
-  background-image: url(../images/RECT_documents.png) a;
-  background-image-color: #27b298;
+  background-image: url(../images/RECT_documents.png);
+}
+/* line 189, ../sass/partials/_view.scss */
+.node-search-result.node-hr-document h2 a {
+  color: #27b298;
 }
 /* line 193, ../sass/partials/_view.scss */
 .node-search-result.node-hr-document:after {
