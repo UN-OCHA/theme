@@ -140,6 +140,12 @@
  
 	#navigation {
 
+		.navbar-collapse.in {
+			@media screen and (max-width : 768px) {
+				overflow: visible;
+			}
+		}
+
 		left: 0px;
 		bottom: 0px;
 		position: absolute;
