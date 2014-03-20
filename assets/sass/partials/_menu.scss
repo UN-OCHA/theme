@@ -289,7 +289,10 @@
 			background: url(../images/currentfilter.png) no-repeat right center transparent;
 
 			&:before {
-				
+				background-color: #FFF;
+				width: 1px;
+				display: block;
+				content :'';
 			}
 
 			.content {
