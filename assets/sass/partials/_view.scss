@@ -24,12 +24,6 @@
 	float: left;
 	width: 31.333333%;
 
-	@media screen and (max-width : 768px) {
-		width: 100%;
-		min-height: none;
-		height: auto;
-	}
-
 
 	.col-sm-6 & {
 		width: 100%;
@@ -45,6 +39,17 @@
 		margin: 0px 13px 20px;
 	}
 
+
+	@media screen and (max-width : 768px) {
+		width: 100%;
+		min-height: none;
+		height: auto;
+
+		.views-group-content {
+			height: auto;
+			overflow: visible;
+		}
+	}
 }
 
 .views-icons {
