@@ -301,13 +301,17 @@ a.fc-event, .fc-event-draggable {
 	.fc-event-inner {
 
 		.fc-event-time {
-			padding: 6px 6px 6px 6px;
+			padding: 5px;
 			background-color: #e0e0e0;
 			color: #525252;
+			display: block;
+			font-weight: normal;
+			border: 0;
 		}
 
 		.fc-event-title {
-			padding: 6px 6px 6px 6px;
+			padding: 5px;
+			display: block;
 		}
 	}
 }
