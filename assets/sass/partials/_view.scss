@@ -157,6 +157,11 @@
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 20px !important;
 
+	&:after {
+		content:'';
+		background-color: red;
+	}
+
 	h2 {
 		font-size: 16px;
 		font-weight: bold;
@@ -205,15 +210,10 @@
 			&.left {
 				position: absolute;
 				padding: 0;
-
-				&:after {
-					margin-bottom: 20px;
-					content:' ';
-				}
 			}
 
 			&.right {
-				padding-left: 13.3%;
+				padding-left: 11.8%;
 				width: 100%;
 			}
 
