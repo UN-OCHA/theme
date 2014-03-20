@@ -181,6 +181,11 @@
 			margin-top: -18px;
 			margin-left: 20px;
 			margin-bottom: 20px;
+
+			img {
+				max-width: 57px;
+				height: auto;
+			}
 		}
 
 		&:after {
@@ -192,8 +197,11 @@
 			display: inline-block;
 			*display: inline;
 			*zoom: 1;
+			float: none;
 
 			.panel-pane {
+
+				margin-bottom: 5px;
 
 				a.btn {
 					float: right;

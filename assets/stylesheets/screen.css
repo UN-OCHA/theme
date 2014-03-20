@@ -11435,17 +11435,27 @@ body .region-branding input.form-submit {
   margin-left: 20px;
   margin-bottom: 20px;
 }
-/* line 186, ../sass/partials/_view.scss */
+/* line 185, ../sass/partials/_view.scss */
+.node-search-result .row .views-row img {
+  max-width: 57px;
+  height: auto;
+}
+/* line 191, ../sass/partials/_view.scss */
 .node-search-result .row:after {
   clear: none;
 }
-/* line 190, ../sass/partials/_view.scss */
+/* line 195, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel {
   display: inline-block;
   *display: inline;
   *zoom: 1;
+  float: none;
 }
-/* line 198, ../sass/partials/_view.scss */
+/* line 202, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel .panel-pane {
+  margin-bottom: 5px;
+}
+/* line 206, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
