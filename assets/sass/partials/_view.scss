@@ -173,6 +173,8 @@
 
 	.row {
 
+		margin: 0;
+
 
 		.views-row {
 
@@ -201,13 +203,13 @@
 			float: none;
 
 			&.left {
-				width: 12%;
+				position: absolute;
 				padding-right: 0;
 			}
 
 			&.right {
-				padding-left: 7px;
-				width: 86%;
+				padding-left: 13.3%;
+				width: 100%;
 			}
 
 			.panel-pane {
@@ -217,12 +219,12 @@
 				a.btn {
 					float: right;
 					background-color: #DDD;
-					margin-right: 30px;
+					margin-left: 16px;
 					border: 0;
 					font-size: 12px;
 					padding: 3px 10px;
 					position: relative;
-					top: -50px;
+					top: -13px;
 				}
 
 				.field {
