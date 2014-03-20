@@ -11594,8 +11594,9 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   display: block;
   font-weight: normal;
   border: 0;
+  border-radius: 10px 10px 0px 0px;
 }
-/* line 312, ../sass/partials/_view.scss */
+/* line 313, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 5px;
   display: block;
