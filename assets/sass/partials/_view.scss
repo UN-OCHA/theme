@@ -164,7 +164,9 @@
 		background: url(../images/RECT_generic.png) no-repeat left center transparent;
 	}
 
+
 	.row {
+
 
 		.views-row {
 
@@ -180,22 +182,32 @@
 			clear: none;
 		}
 
-	}
+		.panel-panel {
 
-	.panel-pane {
+			display: inline-block;
+			*display: inline;
+			*zoom: 1;
 
-		a.btn {
-			float: right;
-			background-color: #DDD;
-			margin-right: 30px;
-			border: 0;
-			font-size: 12px;
-			padding: 3px 10px;
-			position: relative;
-			top: -50px;
+			.panel-pane {
+
+				a.btn {
+					float: right;
+					background-color: #DDD;
+					margin-right: 30px;
+					border: 0;
+					font-size: 12px;
+					padding: 3px 10px;
+					position: relative;
+					top: -50px;
+				}
+
+		}
+
 		}
 
 	}
+
+
 
 }
 
