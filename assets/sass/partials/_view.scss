@@ -195,6 +195,18 @@
 		}
 	}
 
+	&.node-hr-event {
+		h2 {
+			background-image: url(../images/RECT_events.png);
+			a {
+				color: $p-events;
+			}
+		}
+		&:after {
+			background-color: $p-events;
+		}
+	}
+
 	.row {
 
 		margin: 0;
@@ -249,6 +261,7 @@
 					padding: 3px 10px;
 					position: relative;
 					top: -13px;
+					right: 10px;
 				}
 
 				.field {
