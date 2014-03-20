@@ -205,6 +205,10 @@
 			&.left {
 				position: absolute;
 				padding: 0;
+
+				&:after {
+					margin-bottom: 20px;
+				}
 			}
 
 			&.right {
