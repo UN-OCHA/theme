@@ -11382,17 +11382,24 @@ body .region-branding input.form-submit {
   float: left;
   width: 31.333333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000327}}
+@media only screen and (max-device-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000316}}
+  .views-catgroup .views-group,
+  .views-icons .views-row {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000332}}
 .col-sm-6 .views-catgroup .views-group, .col-sm-6
 .views-icons .views-row {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000335}}
 .col-sm-6 .views-catgroup .views-group .views-group-content, .col-sm-6
 .views-icons .views-row .views-group-content {
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000340}}
 .views-catgroup .views-group .views-group-content,
 .views-icons .views-row .views-group-content {
   height: 240px;
@@ -11400,18 +11407,18 @@ body .region-branding input.form-submit {
   margin: 0px 13px 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000350}}
 .views-icons .views-field-field-image {
   line-height: 0;
   padding: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000357}}
 .views-icons .views-field-title-field {
   position: absolute;
   left: 97px;
   top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000364}}
 .views-icons .views-field-title-field a {
   font-weight: bold;
   color: #5f5f5f;
@@ -11419,12 +11426,12 @@ body .region-branding input.form-submit {
   display: block;
   padding-right: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000372}}
 .views-icons .views-field-title-field a:hover {
   color: #bc2e3c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000382}}
 .views-catgroup .views-group-title {
   text-transform: uppercase;
   font-size: 16px;
@@ -11438,51 +11445,51 @@ body .region-branding input.form-submit {
   width: 100%;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000396}}
 .views-catgroup .views-group-title a {
   color: #5F5F5F;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003101}}
 .views-catgroup .views-row {
   padding: 0 20px;
   margin-bottom: 20px;
   min-height: 0px;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003108}}
 .views-catgroup .views-row .views-field-field-image {
   margin-right: 20px;
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003115}}
 .views-catgroup .views-row .views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003122}}
 .views-catgroup .views-row .views-field-title-field {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003128}}
 .views-catgroup .views-row .views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003139}}
 .views-catgroup.view-initiatives .views-row {
   min-height: 38px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003145}}
 .views-catgroup.view-initiatives .views-row .views-field-title-field a {
   color: #54b1c8;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003160}}
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -11492,7 +11499,7 @@ body .region-branding input.form-submit {
   margin-bottom: 20px !important;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003170}}
 .node-search-result:after {
   content: '';
   background-color: #55B1C8;
@@ -11504,7 +11511,7 @@ body .region-branding input.form-submit {
   right: 0;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003182}}
 .node-search-result h2 {
   font-size: 16px;
   font-weight: bold;
@@ -11513,39 +11520,39 @@ body .region-branding input.form-submit {
   margin-left: 18px;
   margin-top: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003190}}
 .node-search-result h2 a {
   color: #55B1C8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003196}}
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003198}}
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003202}}
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003208}}
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003210}}
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003214}}
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003219}}
 .node-search-result .row {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003224}}
 .node-search-result .row .views-row {
   border: 4px solid #FFF;
   float: left;
@@ -11554,38 +11561,38 @@ body .region-branding input.form-submit {
   margin-left: 18px;
   margin-bottom: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003233}}
 .node-search-result .row .views-row img {
   max-width: 59px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003239}}
 .node-search-result .row:after {
   clear: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003243}}
 .node-search-result .row .panel-panel {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   float: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003250}}
 .node-search-result .row .panel-panel.left {
   position: absolute;
   padding: 0;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003256}}
 .node-search-result .row .panel-panel.right {
   padding-left: 98px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003261}}
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003265}}
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11597,7 +11604,7 @@ body .region-branding input.form-submit {
   top: 10px;
   right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003278}}
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11606,18 +11613,18 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003286}}
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003306}}
 a.fc-event, .fc-event-draggable {
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 10px 10px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003312}}
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
   padding: 4px 5px;
   background-color: #e0e0e0;
@@ -11628,7 +11635,7 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/maxime\/Desktop\/OCHA\/Git_OCHA\/theme\/assets\/sass\/partials\/_view\.scss}line{font-family:\00003323}}
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 4px 5px;
   display: block;
