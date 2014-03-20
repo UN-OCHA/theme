@@ -14,14 +14,6 @@
 			$(this).toggleClass('opened').next('.content').slideToggle('fast');
 		});
 
-
-		//documents list
-		if($(".node-search-result:has(.panel-panel.left)").length>0) {
-			$(".node-search-result:has(.panel-panel.left)").each(function() {
-				$(".panel-panel.right", this).css("min-height", $(".panel-panel.left .file", this).height()+"px");
-			});
-		}
-
 	});
 
 	$(window).resize(function() {
@@ -43,6 +35,15 @@
 			$(".container.header #navigation ul.menu li ul li:first").css("margin-left", offparent-ml+"px");
 		}
 
+	}).load(function() {
+
+		//documents list
+		if($(".node-search-result:has(.panel-panel.left)").length>0) {
+			$(".node-search-result:has(.panel-panel.left)").each(function() {
+				$(".panel-panel.right", this).css("min-height", $(".panel-panel.left .file", this).height()+"px");
+			});
+		}
+		
 	});
 
 })(jQuery);
