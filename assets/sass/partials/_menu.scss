@@ -292,11 +292,21 @@
 				background-color: #FFF;
 				width: 1px;
 				display: block;
-				content :'';
+				content: '';
+				height: 33px;
+				position: absolute;
+				left: 0;
+				margin-top: -9px;
+				color: #9b9b9b;
 			}
 
 			.content {
 				display: block;
+
+				.facetapi-active {
+					font-weight: bold;
+					color: $p-main;
+				}
 			}
 
 			a {
