@@ -153,10 +153,18 @@
 			top: 17px;
 			padding-left: 10px;
 
+			@media screen and (max-width : 768px) {
+				background: white;
+			}
+
 		 	li {
 
 		 		position: static;
 		 		margin-left: 0;
+
+		 		@media screen and (max-width : 768px) {
+					float:none;
+		 		}
 
 		 		a {
 		 			font-size: 12px;
