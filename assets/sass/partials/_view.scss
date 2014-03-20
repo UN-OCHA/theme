@@ -183,6 +183,17 @@
 		}
 	}
 
+	&.node-hr-document {
+		h2 {
+			background-image: url(../images/RECT_documents.png)
+			a {
+				color: $p-documents;
+			}
+		}
+		&:after {
+			background-color: $p-documents;
+		}
+	}
 
 	.row {
 
