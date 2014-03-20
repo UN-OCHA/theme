@@ -220,12 +220,30 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+$h1: 28px;
+
 h1 {
-	font-size: 28px;
+	font-size: $h1;
 }
 
 h2 {
-	font-size: 26px;
+	font-size: $h1*0.85;
+}
+
+h3 {
+	font-size: $h1*0.7;
+}
+
+h4 {
+	font-size: $h1*0.55;
+}
+
+h5 {
+	font-size: $h1*0.4;
+}
+
+h6 {
+	font-size: $h1*0.25;
 }
 
 .view-content.row {

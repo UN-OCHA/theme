@@ -11245,22 +11245,42 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 223, ../sass/partials/_page.scss */
+/* line 225, ../sass/partials/_page.scss */
 h1 {
   font-size: 28px;
 }
 
-/* line 227, ../sass/partials/_page.scss */
+/* line 229, ../sass/partials/_page.scss */
 h2 {
-  font-size: 26px;
+  font-size: 23.8px;
 }
 
-/* line 231, ../sass/partials/_page.scss */
+/* line 233, ../sass/partials/_page.scss */
+h3 {
+  font-size: 19.6px;
+}
+
+/* line 237, ../sass/partials/_page.scss */
+h4 {
+  font-size: 15.4px;
+}
+
+/* line 241, ../sass/partials/_page.scss */
+h5 {
+  font-size: 11.2px;
+}
+
+/* line 245, ../sass/partials/_page.scss */
+h6 {
+  font-size: 7px;
+}
+
+/* line 249, ../sass/partials/_page.scss */
 .view-content.row {
   margin: 0;
 }
 
-/* line 239, ../sass/partials/_page.scss */
+/* line 257, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
@@ -11270,13 +11290,13 @@ body .region-branding input.form-text {
   height: auto;
   box-shadow: 0;
 }
-/* line 248, ../sass/partials/_page.scss */
+/* line 266, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
-/* line 255, ../sass/partials/_page.scss */
+/* line 273, ../sass/partials/_page.scss */
 body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
@@ -11290,7 +11310,7 @@ body .region-branding input.form-submit {
   left: -54px;
 }
 
-/* line 275, ../sass/partials/_page.scss */
+/* line 293, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
