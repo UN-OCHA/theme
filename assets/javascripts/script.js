@@ -9,6 +9,11 @@
 		//trigger resize
 		$(window).resize();
 
+		//facets
+		$("#sidebar-first .block.block-facetapi h2").live("click", function() {
+			$(this).next('.content').slideToggle();
+		});
+
 	});
 
 	$(window).resize(function() {
