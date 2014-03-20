@@ -11169,34 +11169,27 @@ body table tbody tr td, body .table tbody tr td {
   border-color: #FFFFFF;
 }
 
-/* line 138, ../sass/partials/_page.scss */
-#footer .container {
-  background-color: #F8F8F8;
-  height: 100%;
-  padding-top: 1em;
-}
-
-/* line 147, ../sass/partials/_page.scss */
+/* line 141, ../sass/partials/_page.scss */
 .front #main .container {
   background-image: url("../images/banner_home.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 153, ../sass/partials/_page.scss */
+/* line 147, ../sass/partials/_page.scss */
 .front .container.header {
   margin-bottom: 0;
 }
-/* line 157, ../sass/partials/_page.scss */
+/* line 151, ../sass/partials/_page.scss */
 .front #content-wrapper {
   margin-top: 110px;
 }
 
-/* line 163, ../sass/partials/_page.scss */
+/* line 157, ../sass/partials/_page.scss */
 #content {
   padding: 0;
 }
 
-/* line 168, ../sass/partials/_page.scss */
+/* line 162, ../sass/partials/_page.scss */
 .thumbnail {
   display: block;
   padding: 10px;
@@ -11210,11 +11203,11 @@ body table tbody tr td, body .table tbody tr td {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
 }
-/* line 180, ../sass/partials/_page.scss */
+/* line 174, ../sass/partials/_page.scss */
 .thumbnail p {
   margin: 0;
 }
-/* line 184, ../sass/partials/_page.scss */
+/* line 178, ../sass/partials/_page.scss */
 .thumbnail .caption {
   text-align: center;
   background-color: #494949;
@@ -11223,8 +11216,15 @@ body table tbody tr td, body .table tbody tr td {
   color: white;
 }
 
-/* line 195, ../sass/partials/_page.scss */
+/* line 188, ../sass/partials/_page.scss */
+#footer {
+  min-height: 210px;
+}
+/* line 192, ../sass/partials/_page.scss */
 #footer .container {
+  background-color: #F8F8F8;
+  height: 100%;
+  padding-top: 1em;
   min-height: 210px;
 }
 /* line 202, ../sass/partials/_page.scss */
@@ -11317,7 +11317,7 @@ body .region-branding input.form-submit {
   border: 1px solid #FFF;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 /* line 41, ../sass/partials/_panel.scss */
 .panel-display .pane-custom .pane-title {

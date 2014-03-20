@@ -134,13 +134,7 @@ body table, body .table {
 	}
 }
 
-#footer {
-	.container {
-		background-color: #F8F8F8;
-		height: 100%;
-		padding-top: 1em;
-	}
-}
+
 
 // Front page
 .front {
@@ -190,10 +184,16 @@ body table, body .table {
 	}
 }
 
+
 #footer {
+
+	min-height: 210px;
 
 	.container {
 
+		background-color: #F8F8F8;
+		height: 100%;
+		padding-top: 1em;
 		min-height: 210px;
 
 		.col-sm-6 {
