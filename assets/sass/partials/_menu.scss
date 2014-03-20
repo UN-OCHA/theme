@@ -245,26 +245,41 @@
 
 			h2 {
 				color: black;
+				cursor: pointer;
+				background: url(../images/facet-down.png) no-repeat right center transparent;
 			}
 
-			ul {
-				list-style: none;
-				list-style-type: none;
-				list-style-image: none;
+			.content {
 
-				li {
+				display: none;
+
+
+
+				ul {
 					list-style: none;
 					list-style-type: none;
 					list-style-image: none;
 
-					a {
-						color: black;
-						padding-left: 6px;
+					li {
+						list-style: none;
+						list-style-type: none;
+						list-style-image: none;
+
+						a {
+							color: black;
+							padding-left: 6px;
+						}
 					}
 				}
+
 			}
 
-			.current-search-filter {
+			.block-current-search {
+
+				.content {
+					display: block;
+				}
+
 				a {
 					padding-left: 0;
 					padding-right: 6px;

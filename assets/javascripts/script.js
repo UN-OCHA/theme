@@ -11,7 +11,7 @@
 
 		//facets
 		$("#sidebar-first .block.block-facetapi h2").live("click", function() {
-			$(this).next('.content').slideToggle();
+			$(this).next('.content').slideToggle('fast');
 		});
 
 	});
