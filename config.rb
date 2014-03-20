@@ -30,4 +30,6 @@ line_comments = (environment == :development) ? true : false
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+
+# sass debug
+# sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
