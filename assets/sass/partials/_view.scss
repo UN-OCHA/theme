@@ -180,11 +180,11 @@
 			float: left;
 			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 			margin-top: -18px;
-			margin-left: 20px;
-			margin-bottom: 20px;
+			margin-left: 18px;
+			margin-bottom: 18px;
 
 			img {
-				max-width: 57px;
+				max-width: 59px;
 				height: auto;
 			}
 		}
@@ -200,6 +200,16 @@
 			*zoom: 1;
 			float: none;
 
+			&.left {
+				width: 12%;
+				padding-right: 0;
+			}
+
+			&.right {
+				padding-left: 7px;
+				width: 86%;
+			}
+
 			.panel-pane {
 
 				margin-bottom: 5px;
@@ -213,6 +223,20 @@
 					padding: 3px 10px;
 					position: relative;
 					top: -50px;
+				}
+
+				.field {
+					.field-label {
+						color: #8f8f8f;
+						font-weight: normal;
+						width: 130px;
+						display: inline-block;
+						*display: inline;
+						*zoom: 1;
+					}
+					.field-items {
+						color: #606060;
+					}
 				}
 
 		}

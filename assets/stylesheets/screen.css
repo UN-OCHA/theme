@@ -11433,12 +11433,12 @@ body .region-branding input.form-submit {
   float: left;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   margin-top: -18px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 18px;
+  margin-bottom: 18px;
 }
 /* line 186, ../sass/partials/_view.scss */
 .node-search-result .row .views-row img {
-  max-width: 57px;
+  max-width: 59px;
   height: auto;
 }
 /* line 192, ../sass/partials/_view.scss */
@@ -11453,10 +11453,20 @@ body .region-branding input.form-submit {
   float: none;
 }
 /* line 203, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel.left {
+  width: 12%;
+  padding-right: 0;
+}
+/* line 208, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel.right {
+  padding-left: 7px;
+  width: 86%;
+}
+/* line 213, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 207, ../sass/partials/_view.scss */
+/* line 217, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11466,6 +11476,19 @@ body .region-branding input.form-submit {
   padding: 3px 10px;
   position: relative;
   top: -50px;
+}
+/* line 229, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel .panel-pane .field .field-label {
+  color: #8f8f8f;
+  font-weight: normal;
+  width: 130px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/* line 237, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel .panel-pane .field .field-items {
+  color: #606060;
 }
 
 /* line 6, ../sass/partials/_node.scss */
