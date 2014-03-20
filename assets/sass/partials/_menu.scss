@@ -284,6 +284,12 @@
 
 			.block-current-search {
 
+				background: url(../images/currentfilter.png) no-repeat right center transparent;
+
+				&:before {
+					
+				}
+
 				.content {
 					display: block;
 				}
