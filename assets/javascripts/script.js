@@ -14,6 +14,12 @@
 			$(this).toggleClass('opened').next('.content').slideToggle('fast');
 		});
 
+		//documents list
+		if($(".node-search-result:has(.panel-panel.left)").length>0) {
+			$(".node-search-result:has(.panel-panel.left) .panel-panel.right", this).css("min-height", "100px");
+		}
+
+
 	});
 
 	$(window).resize(function() {
