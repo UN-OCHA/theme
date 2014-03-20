@@ -296,22 +296,23 @@
 
 a.fc-event, .fc-event-draggable {
 	border: 1px solid #FFF;
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-	border-radius: 10px !important;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 15px 15px 10px 10px !important;
 	.fc-event-inner {
 
 		.fc-event-time {
-			padding: 5px;
+			padding: 4px 5px;
 			background-color: #e0e0e0;
 			color: #525252;
 			display: block;
 			font-weight: normal;
 			border: 0;
 			border-radius: 10px 10px 0px 0px;
+			border-bottom: 1px solid #FFF;
 		}
 
 		.fc-event-title {
-			padding: 5px;
+			padding: 4px 5px;
 			display: block;
 		}
 	}
