@@ -11308,9 +11308,10 @@ body .region-branding input.form-submit {
   position: relative;
   top: 21px;
   left: -54px;
+  margin-top: 0 !important;
 }
 
-/* line 293, ../sass/partials/_page.scss */
+/* line 294, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
