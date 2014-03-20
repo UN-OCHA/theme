@@ -281,23 +281,24 @@
 				}
 
 			}
+		}
 
-			.block-current-search {
 
-				background: url(../images/currentfilter.png) no-repeat right center transparent;
+		&.block-current-search {
 
-				&:before {
-					
-				}
+			background: url(../images/currentfilter.png) no-repeat right center transparent;
 
-				.content {
-					display: block;
-				}
+			&:before {
+				
+			}
 
-				a {
-					padding-left: 0;
-					padding-right: 6px;
-				}
+			.content {
+				display: block;
+			}
+
+			a {
+				padding-left: 0;
+				padding-right: 6px;
 			}
 		}
 
