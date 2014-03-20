@@ -11147,49 +11147,51 @@ body table thead tr th, body table thead tr .ui-widget-header, body .table thead
   border: 0;
   color: white;
   background-color: #54b1c8;
+  background-image: none;
+  padding: 8px;
 }
-/* line 118, ../sass/partials/_page.scss */
+/* line 120, ../sass/partials/_page.scss */
 body table tbody, body .table tbody {
   border: 0;
 }
-/* line 122, ../sass/partials/_page.scss */
+/* line 124, ../sass/partials/_page.scss */
 body table tbody tr, body .table tbody tr {
   border: 0;
 }
-/* line 126, ../sass/partials/_page.scss */
+/* line 128, ../sass/partials/_page.scss */
 body table tbody tr td, body .table tbody tr td {
   border: 0;
   border-color: #FFFFFF;
 }
 
-/* line 136, ../sass/partials/_page.scss */
+/* line 138, ../sass/partials/_page.scss */
 #footer .container {
   background-color: #F8F8F8;
   height: 100%;
   padding-top: 1em;
 }
 
-/* line 145, ../sass/partials/_page.scss */
+/* line 147, ../sass/partials/_page.scss */
 .front #main .container {
   background-image: url("../images/banner_home.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 151, ../sass/partials/_page.scss */
+/* line 153, ../sass/partials/_page.scss */
 .front .container.header {
   margin-bottom: 0;
 }
-/* line 155, ../sass/partials/_page.scss */
+/* line 157, ../sass/partials/_page.scss */
 .front #content-wrapper {
   margin-top: 110px;
 }
 
-/* line 161, ../sass/partials/_page.scss */
+/* line 163, ../sass/partials/_page.scss */
 #content {
   padding: 0;
 }
 
-/* line 166, ../sass/partials/_page.scss */
+/* line 168, ../sass/partials/_page.scss */
 .thumbnail {
   display: block;
   padding: 10px;
@@ -11203,11 +11205,11 @@ body table tbody tr td, body .table tbody tr td {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
 }
-/* line 178, ../sass/partials/_page.scss */
+/* line 180, ../sass/partials/_page.scss */
 .thumbnail p {
   margin: 0;
 }
-/* line 182, ../sass/partials/_page.scss */
+/* line 184, ../sass/partials/_page.scss */
 .thumbnail .caption {
   text-align: center;
   background-color: #494949;
@@ -11216,44 +11218,44 @@ body table tbody tr td, body .table tbody tr td {
   color: white;
 }
 
-/* line 193, ../sass/partials/_page.scss */
+/* line 195, ../sass/partials/_page.scss */
 #footer .container {
   min-height: 210px;
 }
-/* line 200, ../sass/partials/_page.scss */
+/* line 202, ../sass/partials/_page.scss */
 #footer .container .col-sm-6 .col-sm-3 img {
   margin: 10px;
   max-width: 100px;
   max-height: 45px;
 }
 
-/* line 212, ../sass/partials/_page.scss */
+/* line 214, ../sass/partials/_page.scss */
 .page-header {
   border: none;
 }
 
-/* line 216, ../sass/partials/_page.scss */
+/* line 218, ../sass/partials/_page.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #54b1c8;
   font-weight: bold;
 }
 
-/* line 221, ../sass/partials/_page.scss */
+/* line 223, ../sass/partials/_page.scss */
 h1 {
   font-size: 28px;
 }
 
-/* line 225, ../sass/partials/_page.scss */
+/* line 227, ../sass/partials/_page.scss */
 h2 {
   font-size: 26px;
 }
 
-/* line 229, ../sass/partials/_page.scss */
+/* line 231, ../sass/partials/_page.scss */
 .view-content.row {
   margin: 0;
 }
 
-/* line 237, ../sass/partials/_page.scss */
+/* line 239, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
@@ -11263,13 +11265,13 @@ body .region-branding input.form-text {
   height: auto;
   box-shadow: 0;
 }
-/* line 246, ../sass/partials/_page.scss */
+/* line 248, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
-/* line 253, ../sass/partials/_page.scss */
+/* line 255, ../sass/partials/_page.scss */
 body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
@@ -11283,7 +11285,7 @@ body .region-branding input.form-submit {
   left: -54px;
 }
 
-/* line 273, ../sass/partials/_page.scss */
+/* line 275, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
@@ -11576,6 +11578,17 @@ body .region-branding input.form-submit {
 /* line 277, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
+}
+
+/* line 297, ../sass/partials/_view.scss */
+a.fc-event, .fc-event-draggable {
+  border: 1px solid #FFF;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px !important;
+}
+/* line 301, ../sass/partials/_view.scss */
+a.fc-event .fc-event-inner, .fc-event-draggable .fc-event-inner {
+  padding: 10px;
 }
 
 /* line 6, ../sass/partials/_node.scss */
