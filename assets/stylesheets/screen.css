@@ -11586,9 +11586,15 @@ a.fc-event, .fc-event-draggable {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 10px !important;
 }
-/* line 301, ../sass/partials/_view.scss */
-a.fc-event .fc-event-inner, .fc-event-draggable .fc-event-inner {
-  padding: 10px;
+/* line 303, ../sass/partials/_view.scss */
+a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
+  padding: 6px 6px 6px 6px;
+  background-color: #e0e0e0;
+  color: #525252;
+}
+/* line 309, ../sass/partials/_view.scss */
+a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
+  padding: 6px 6px 6px 6px;
 }
 
 /* line 6, ../sass/partials/_node.scss */

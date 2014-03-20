@@ -299,7 +299,16 @@ a.fc-event, .fc-event-draggable {
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 	border-radius: 10px !important;
 	.fc-event-inner {
-		padding: 10px;
+
+		.fc-event-time {
+			padding: 6px 6px 6px 6px;
+			background-color: #e0e0e0;
+			color: #525252;
+		}
+
+		.fc-event-title {
+			padding: 6px 6px 6px 6px;
+		}
 	}
 }
 
