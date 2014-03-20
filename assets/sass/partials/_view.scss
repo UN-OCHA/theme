@@ -203,8 +203,12 @@
 			float: none;
 
 			&.left {
-				position: absolute;
-				padding-right: 0;
+				padding: 0;
+				min-width: 100px;
+
+				.panel-pane {
+					position: absolute;
+				}
 			}
 
 			&.right {

@@ -11458,19 +11458,23 @@ body .region-branding input.form-submit {
 }
 /* line 205, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left {
-  position: absolute;
-  padding-right: 0;
+  padding: 0;
+  min-width: 100px;
 }
-/* line 210, ../sass/partials/_view.scss */
+/* line 208, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel.left .panel-pane {
+  position: absolute;
+}
+/* line 213, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
   padding-left: 13.3%;
   width: 100%;
 }
-/* line 215, ../sass/partials/_view.scss */
+/* line 218, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 219, ../sass/partials/_view.scss */
+/* line 222, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11481,7 +11485,7 @@ body .region-branding input.form-submit {
   position: relative;
   top: -13px;
 }
-/* line 231, ../sass/partials/_view.scss */
+/* line 234, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11490,7 +11494,7 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-/* line 239, ../sass/partials/_view.scss */
+/* line 242, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
