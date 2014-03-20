@@ -107,7 +107,7 @@ body table, body .table {
 
 			border: 0;
 
-			th {
+			th, .ui-widget-header {
 				border: 0;
 				color: white;
 				background-color: $p-comp;

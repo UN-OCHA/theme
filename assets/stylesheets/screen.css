@@ -11143,7 +11143,7 @@ body table thead tr, body .table thead tr {
   border: 0;
 }
 /* line 110, ../sass/partials/_page.scss */
-body table thead tr th, body .table thead tr th {
+body table thead tr th, body table thead tr .ui-widget-header, body .table thead tr th, body .table thead tr .ui-widget-header {
   border: 0;
   color: white;
   background-color: #54b1c8;
