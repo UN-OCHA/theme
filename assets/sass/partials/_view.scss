@@ -157,7 +157,6 @@
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 	margin-bottom: 20px !important;
 	position: relative;
-	z-index: 2;
 
 	&:after {
 		content: '';
@@ -242,6 +241,7 @@
 			&.left {
 				position: absolute;
 				padding: 0;
+				z-index: 2;
 			}
 
 			&.right {

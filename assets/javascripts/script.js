@@ -22,16 +22,19 @@
 		var ww = $(window).width();
 		var mw = $("#block-system-main-menu").width();
 		var dif = (ww-mw)/2;
-		var offparent = $(".container.header #navigation ul.menu li ul").parent().offset().left - dif;
-		var ulw = 0;
+		if($(".container.header #navigation ul.menu li ul").length>0) {
+			var offparent = $(".container.header #navigation ul.menu li ul").parent().offset().left - dif;
+			var ulw = 0;
 
-		$(".container.header #navigation ul.menu li ul li").each(function() {
-			ulw+= $(this).width();
-		});
+			$(".container.header #navigation ul.menu li ul li").each(function() {
+				ulw+= $(this).width();
+			});
 
-		var ml = ulw/2 - $(".container.header #navigation ul.menu li ul").parent().width()/2;
+			var ml = ulw/2 - $(".container.header #navigation ul.menu li ul").parent().width()/2;
 
-		$(".container.header #navigation ul.menu li ul li:first").css("margin-left", offparent-ml+"px");
+			$(".container.header #navigation ul.menu li ul li:first").css("margin-left", offparent-ml+"px");
+		}
+
 
 	});
 
