@@ -161,6 +161,8 @@
 
 			@media screen and (max-width : 768px) {
 				background: white;
+				z-index: 2;
+				margin-top: -23px;
 			}
 
 		 	li {
@@ -189,6 +191,10 @@
 		 				border-bottom: 5px solid #b2b2b2;
 		 				border-color: rgba(105,105,105, 0.4);
 		 				padding-bottom: 8px;
+
+				 		@media screen and (max-width : 768px) {
+							border:none;
+				 		}
 		 			}
 
 		 		}
