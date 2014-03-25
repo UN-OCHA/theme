@@ -11400,7 +11400,7 @@ body .region-branding input.form-submit {
 }
 
 /* line 34, ../sass/partials/_panel.scss */
-.panel-display .pane-custom {
+.panel-display .panel-pane {
   background-color: #F9F9F9;
   padding: 7px;
   border: 1px solid #FFF;
@@ -11409,7 +11409,7 @@ body .region-branding input.form-submit {
   margin: 20px 0px;
 }
 /* line 41, ../sass/partials/_panel.scss */
-.panel-display .pane-custom .pane-title {
+.panel-display .panel-pane .pane-title {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: bold;
@@ -11419,11 +11419,11 @@ body .region-branding input.form-submit {
   margin-top: 2px;
 }
 /* line 51, ../sass/partials/_panel.scss */
-.panel-display .pane-custom .pane-content {
+.panel-display .panel-pane .pane-content {
   padding: 0 7px;
 }
 /* line 54, ../sass/partials/_panel.scss */
-.panel-display .pane-custom .pane-content ul {
+.panel-display .panel-pane .pane-content ul {
   padding-left: 14px;
   color: #54b1c8;
 }
