@@ -345,7 +345,7 @@
 
 			ul.menu {
 
-				li.expanded {
+				li {
 					background-color: #dfdfdf;	
 					padding: 7px;
 					margin-bottom: 15px;
@@ -377,6 +377,8 @@
 							list-style-type: none;
 							margin-bottom: 5px;
 							display: block;
+							padding: 0;
+							margin-bottom: 0;
 
 							a {
 								padding-left: 18px;
