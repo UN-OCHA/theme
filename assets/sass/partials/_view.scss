@@ -228,20 +228,13 @@
 		margin: 0;
 
 		&:after {
-			clear: none;
+			clear: both;
 		}
 
 		.panel-panel {
 
-			display: inline-block;
-			*display: inline;
-			*zoom: 1;
-			float: none;
-
 			&.left {
-				position: absolute;
 				padding: 0;
-				z-index: 2;
 
 
 				a {
@@ -256,9 +249,7 @@
 			}
 
 			&.right {
-				padding-left: 148px;
-				width: 100%;
-				min-height: 125px;
+				width: 83%;
 			}
 
 			.panel-pane {
