@@ -11,3 +11,12 @@
   color: white !important;
 }
 
+// Responsive styles for images
+.field-name-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+

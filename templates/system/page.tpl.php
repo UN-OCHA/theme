@@ -111,33 +111,33 @@
     </div>
     <div class="col-sm-6">
       <div class="col-sm-3">
-        <div class="column"><a href="http://fts.unocha.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-fts.png"></a></div>
-        <div class="column"><a href="http://www.irinnews.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-irin.png"></a></div>
-        <div class="column"><a href="http://www.gdacs.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-gdacs.png"></a></div>
+        <div class="column"><a href="http://fts.unocha.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-fts.png"></a></div>
+        <div class="column"><a href="http://www.irinnews.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-irin.png"></a></div>
+        <div class="column"><a href="http://www.gdacs.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-gdacs.png"></a></div>
       </div>
 
       <div class="col-sm-3">
-        <div class="column"><a href="http://www.unocha.org/cerf/" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-cerf.png"></a></div>
-        <div class="column"><a href="http://www.unocha.org/cap/" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-cap.png"></a></div>
-        <div class="column"><a href="http://www.reliefweb.int/" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-footer.png"></a></div>
+        <div class="column"><a href="http://www.unocha.org/cerf/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-cerf.png"></a></div>
+        <div class="column"><a href="http://www.unocha.org/cap/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-cap.png"></a></div>
+        <div class="column"><a href="http://www.reliefweb.int/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-footer.png"></a></div>
       </div>
 
       <div class="col-sm-3">
-        <div class="column"><a href="http://www.humanitarianinfo.org/iasc/" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-iasc.png"></a></div>
-        <div class="column"><a href="http://www.redhum.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-redhum.png"></a></div>
-        <div class="column"><a href="http://www.preventionweb.net/" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-pw.png"></a></div>
+        <div class="column"><a href="http://www.humanitarianinfo.org/iasc/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-iasc.png"></a></div>
+        <div class="column"><a href="http://www.redhum.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-redhum.png"></a></div>
+        <div class="column"><a href="http://www.preventionweb.net/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-pw.png"></a></div>
       </div>
 
       <div class="col-sm-3">
-        <div class="column"><a href="http://www.hewsweb.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-hews.png"></a></div>
-        <div class="column"><a href="http://vosocc.unocha.org" target="_blank"><img src="https://www.reliefweb.int/profiles/reliefweb/themes/kobe/images/logo-vosocc.png"></a></div>
+        <div class="column"><a href="http://www.hewsweb.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-hews.png"></a></div>
+        <div class="column"><a href="http://vosocc.unocha.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-vosocc.png"></a></div>
       </div>
     </div>
     <div class="col-sm-3">
       <i class="fa fa-envelope"></i> <a href="mailto:info@humanitarianresponse.info">info@humanitarianresponse.info</a><br />
       <i class="fa fa-question-circle"></i> <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a><br />
       <i class="fa fa-info-circle"></i> <a href="http://www.humanitarianresponse.info">humanitarianresponse.info</a><br />
-      <i class="fa fa-rss-square"></i> <a href="http://www.humanitarianresponse.info/feed">RSS feed</a>
+      <i class="fa fa-rss-square"></i> <a href="/feed">RSS feed</a>
     </div>
   </div>
 </footer>
