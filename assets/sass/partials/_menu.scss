@@ -235,6 +235,11 @@
 		position: absolute;
 		right: 0;
 		z-index: 0;
+
+		@media screen and (max-width : 768px) {
+			height: 61px;
+			overflow: hidden;
+		}
 	}
 
 	.region-branding {
