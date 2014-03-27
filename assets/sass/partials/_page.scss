@@ -159,6 +159,7 @@ body table, body .table {
 }
 
 // Divers
+
 .thumbnail {
 	display: block;
 	padding: 10px;
@@ -181,6 +182,12 @@ body table, body .table {
 		text-transform: uppercase;
 		font-weight: bold;
 		color:white;
+
+		@media (min-width: 768px) {
+			font-size: 10px;
+			padding-left: 0;
+			padding-right: 0;
+		}
 	}
 }
 
