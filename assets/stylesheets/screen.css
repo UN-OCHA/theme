@@ -11289,7 +11289,7 @@ body table tbody tr td, body .table tbody tr td {
 /* line 199, ../sass/partials/_page.scss */
 #footer .container {
   background-color: #F8F8F8;
-  height: 100%;
+  padding-bottom: 20px;
   padding-top: 1em;
   min-height: 210px;
 }
