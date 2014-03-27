@@ -11102,7 +11102,7 @@ body {
 /* line 29, ../sass/partials/_page.scss */
 #root {
   background: url(../images/bg_deg.png) repeat-y top left transparent;
-  padding: 10px 0;
+  padding: 10px 0 0;
 }
 
 /* line 34, ../sass/partials/_page.scss */
