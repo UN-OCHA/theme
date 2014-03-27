@@ -10989,14 +10989,22 @@ aside.col-sm-3 .block li ul a {
 /* line 348, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
-  padding: 2px 7px;
 }
-/* line 352, ../sass/partials/_menu.scss */
+/* line 351, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li.first {
+  margin-top: 7px;
+}
+/* line 355, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li.last {
+  margin-bottom: 7px;
+}
+/* line 359, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   padding: 7px;
   margin-bottom: 15px;
+  margin-top: 0;
 }
-/* line 357, ../sass/partials/_menu.scss */
+/* line 365, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
   font-weight: bold;
   text-transform: uppercase;
@@ -11005,20 +11013,20 @@ aside.col-sm-3 .block li ul a {
   margin-bottom: 5px;
   display: block;
 }
-/* line 365, ../sass/partials/_menu.scss */
+/* line 373, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
 }
-/* line 372, ../sass/partials/_menu.scss */
+/* line 380, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul {
   padding-left: 0px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 378, ../sass/partials/_menu.scss */
+/* line 386, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11028,12 +11036,12 @@ aside.col-sm-3 .block li ul a {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 387, ../sass/partials/_menu.scss */
+/* line 395, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a {
   padding-left: 18px;
   display: block;
 }
-/* line 391, ../sass/partials/_menu.scss */
+/* line 399, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
