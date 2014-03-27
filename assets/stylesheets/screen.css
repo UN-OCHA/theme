@@ -11629,7 +11629,7 @@ body .region-branding input.form-submit {
 }
 /* line 249, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left .view {
-  margin: 0;
+  margin: 0 !important;
 }
 /* line 254, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
