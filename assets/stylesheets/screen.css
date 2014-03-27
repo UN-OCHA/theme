@@ -11609,47 +11609,44 @@ body .region-branding input.form-submit {
 .node-search-result .row {
   margin: 0;
 }
-/* line 231, ../sass/partials/_view.scss */
-.node-search-result .row .views-row {
-  border: 4px solid #FFF;
-  float: left;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-  margin-top: -18px;
-  margin-left: 18px;
-  margin-bottom: 18px;
-}
-/* line 240, ../sass/partials/_view.scss */
-.node-search-result .row .views-row img {
-  max-width: 59px;
-  height: auto;
-}
-/* line 246, ../sass/partials/_view.scss */
+/* line 230, ../sass/partials/_view.scss */
 .node-search-result .row:after {
   clear: none;
 }
-/* line 250, ../sass/partials/_view.scss */
+/* line 234, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   float: none;
 }
-/* line 257, ../sass/partials/_view.scss */
+/* line 241, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left {
   position: absolute;
   padding: 0;
   z-index: 2;
 }
-/* line 263, ../sass/partials/_view.scss */
+/* line 247, ../sass/partials/_view.scss */
+.node-search-result .row .panel-panel.left a {
+  border: 4px solid #FFF;
+  float: left;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  margin-top: -18px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+  line-height: 0;
+}
+/* line 259, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
   padding-left: 98px;
   width: 100%;
+  min-height: 125px;
 }
-/* line 268, ../sass/partials/_view.scss */
+/* line 265, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 272, ../sass/partials/_view.scss */
+/* line 269, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11661,7 +11658,7 @@ body .region-branding input.form-submit {
   top: 10px;
   right: 10px;
 }
-/* line 285, ../sass/partials/_view.scss */
+/* line 282, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11670,18 +11667,18 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-/* line 293, ../sass/partials/_view.scss */
+/* line 290, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 313, ../sass/partials/_view.scss */
+/* line 310, ../sass/partials/_view.scss */
 a.fc-event, .fc-event-draggable {
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 10px 10px !important;
 }
-/* line 319, ../sass/partials/_view.scss */
+/* line 316, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
   padding: 4px 5px;
   background-color: #e0e0e0;
@@ -11692,7 +11689,7 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid #FFF;
 }
-/* line 330, ../sass/partials/_view.scss */
+/* line 327, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 4px 5px;
   display: block;

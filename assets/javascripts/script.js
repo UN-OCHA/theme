@@ -41,7 +41,7 @@
 			$(".container.header #navigation ul.menu li ul li:first").css("margin-left", offparent-ml+"px");
 		}
 
-	}).load(function() {
+	})/*.load(function() {
 
 		//documents list
 		if($(".node-search-result:has(.panel-panel.left)").length>0) {
@@ -50,6 +50,6 @@
 			});
 		}
 
-	});
+	})*/;
 
 })(jQuery);
