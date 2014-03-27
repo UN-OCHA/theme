@@ -210,13 +210,26 @@
 					top: 28px;
 					height: 33px;
 
+					@media screen and (max-width : 768px) {
+						position: static;
+						background-color: #EAEAEA;
+					}
+
 					li {
 
 		 				border-top: 5px solid #b2b2b2;
 		 				border-color: rgba(105,105,105, 0.4);
 
+						@media screen and (max-width : 768px) {
+							border: none;
+						}
+
 						a.active {
 							border: none;
+
+							@media screen and (max-width : 768px) {
+								padding-left: 30px;
+							}
 						}
 
 					}
