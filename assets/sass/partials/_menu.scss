@@ -229,17 +229,19 @@
 	#logo {
 		padding: 20px 22px 0;
 		display: inline-block;
+
+		@media screen and (max-width : 768px) {
+			img {
+				max-width: 250px;
+				height: auto; 
+			}
+		}
 	}
 
 	#header-image {
 		position: absolute;
 		right: 0;
 		z-index: 0;
-
-		@media screen and (max-width : 768px) {
-			height: 61px;
-			overflow: hidden;
-		}
 	}
 
 	.region-branding {
