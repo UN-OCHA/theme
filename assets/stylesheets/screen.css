@@ -11054,6 +11054,14 @@ aside.col-sm-3 .block li ul a {
 #top .navbar-toggle {
   display: none !important;
 }
+/* line 424, ../sass/partials/_menu.scss */
+#top .navbar-left {
+  float: left !important;
+}
+/* line 427, ../sass/partials/_menu.scss */
+#top .navbar-right {
+  float: right !important;
+}
 
 /* line 10, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
