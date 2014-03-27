@@ -10875,7 +10875,7 @@ aside.col-sm-3 .block li ul a {
   /* line 204, ../sass/partials/_menu.scss */
   .container.header #navigation ul.menu li ul {
     position: static;
-    background-color: #EAEAEA;
+    background-color: #FAFAFA;
     height: auto;
   }
 }
@@ -10892,7 +10892,7 @@ aside.col-sm-3 .block li ul a {
   /* line 219, ../sass/partials/_menu.scss */
   .container.header #navigation ul.menu li ul li {
     border: none;
-    padding-left: 20px;
+    padding-left: 13px;
   }
 }
 /* line 240, ../sass/partials/_menu.scss */
