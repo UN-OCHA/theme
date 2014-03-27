@@ -11636,17 +11636,17 @@ body .region-branding input.form-submit {
   margin-bottom: 18px;
   line-height: 0;
 }
-/* line 259, ../sass/partials/_view.scss */
+/* line 258, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
   padding-left: 98px;
   width: 100%;
   min-height: 125px;
 }
-/* line 265, ../sass/partials/_view.scss */
+/* line 264, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 269, ../sass/partials/_view.scss */
+/* line 268, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11658,7 +11658,7 @@ body .region-branding input.form-submit {
   top: 10px;
   right: 10px;
 }
-/* line 282, ../sass/partials/_view.scss */
+/* line 281, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11667,18 +11667,18 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-/* line 290, ../sass/partials/_view.scss */
+/* line 289, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 310, ../sass/partials/_view.scss */
+/* line 309, ../sass/partials/_view.scss */
 a.fc-event, .fc-event-draggable {
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 10px 10px !important;
 }
-/* line 316, ../sass/partials/_view.scss */
+/* line 315, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
   padding: 4px 5px;
   background-color: #e0e0e0;
@@ -11689,7 +11689,7 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid #FFF;
 }
-/* line 327, ../sass/partials/_view.scss */
+/* line 326, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 4px 5px;
   display: block;
