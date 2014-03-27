@@ -11588,7 +11588,7 @@ body .region-branding input.form-submit {
 /* line 116, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
 }
 /* line 121, ../sass/partials/_view.scss */
 .views-catgroup .views-row .views-field.views-field-field-image {
