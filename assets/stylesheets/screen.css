@@ -11056,7 +11056,7 @@ aside.col-sm-3 .block li ul a {
 }
 /* line 424, ../sass/partials/_menu.scss */
 #top .navbar-left {
-  float: left !important;
+  display: none;
 }
 /* line 427, ../sass/partials/_menu.scss */
 #top .navbar-right {
