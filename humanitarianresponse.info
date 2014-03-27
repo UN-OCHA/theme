@@ -29,6 +29,7 @@ stylesheets-conditional[IE 8][all][] = assets/stylesheets/ie8.css
 
 ; Javascript
 scripts[] = assets/javascripts/script.js
+scripts[] = assets/javascripts/respond.min.js
 
 ; Information added by Drupal.org packaging script on 2014-01-22
 version = "7.x-3.x-dev"
