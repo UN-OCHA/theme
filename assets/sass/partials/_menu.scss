@@ -347,19 +347,19 @@
 
 				li {
 					background-color: #dfdfdf;	
+					padding: 0 7px;
 
 					&.first {
-						margin-top: 7px;
+						padding-top: 7px;
 					}	
 
 					&.last {
-						margin-bottom: 7px;
+						padding-bottom: 7px;
 					}
 
 					&.expanded {
 						padding: 7px;
 						margin-bottom: 15px;
-						margin-top: 0;
 					}
 
 					.nolink {

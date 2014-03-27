@@ -10989,20 +10989,20 @@ aside.col-sm-3 .block li ul a {
 /* line 348, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
+  padding: 0 7px;
 }
-/* line 351, ../sass/partials/_menu.scss */
+/* line 352, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.first {
-  margin-top: 7px;
+  padding-top: 7px;
 }
-/* line 355, ../sass/partials/_menu.scss */
+/* line 356, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.last {
-  margin-bottom: 7px;
+  padding-bottom: 7px;
 }
-/* line 359, ../sass/partials/_menu.scss */
+/* line 360, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   padding: 7px;
   margin-bottom: 15px;
-  margin-top: 0;
 }
 /* line 365, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
