@@ -41,7 +41,7 @@
 
 			@media screen and (max-width : 768px) {
 				border-radius: 0;
-				border: 0;
+				border: 0 !important;
 	 		}
 
 			&.active, &:hover {
