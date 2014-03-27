@@ -11258,7 +11258,7 @@ body table tbody tr td, body .table tbody tr td {
   padding-left: 0;
   padding-right: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* line 179, ../sass/partials/_page.scss */
   .thumbnail .caption {
     font-size: 10px;
@@ -11638,7 +11638,7 @@ body .region-branding input.form-submit {
 }
 /* line 258, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
-  padding-left: 98px;
+  padding-left: 148px;
   width: 100%;
   min-height: 125px;
 }
