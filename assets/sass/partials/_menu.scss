@@ -348,7 +348,10 @@
 				li {
 					background-color: #dfdfdf;	
 					padding: 7px;
-					margin-bottom: 15px;
+
+					&.expanded {
+						margin-bottom: 15px;
+					}
 
 					.nolink {
 						font-weight: bold;
