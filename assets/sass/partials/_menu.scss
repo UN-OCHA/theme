@@ -22,6 +22,10 @@
 
 		border: none;
 
+		@media screen and (max-width : 768px) {
+			float:none;
+ 		}
+
 		> a {
 			padding: 4px 15px;
 			text-transform: uppercase;
@@ -33,6 +37,12 @@
 			background-color: rgba(145, 145, 145, 0.25);
 			font-family: Exo;
 			font-size: 16px;
+
+
+			@media screen and (max-width : 768px) {
+				border-radius: 0;
+				border: 0;
+	 		}
 
 			&.active, &:hover {
 				color: #bc2e3b;
