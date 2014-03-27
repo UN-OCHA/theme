@@ -46,7 +46,7 @@
 		//documents list
 		if($(".node-search-result:has(.panel-panel.left)").length>0) {
 			$(".node-search-result:has(.panel-panel.left)").each(function() {
-				$(".panel-panel.right", this).css("min-height", 25+$(".panel-panel.left .file", this).height()+"px");
+				$(".panel-panel.right", this).css("min-height", 25+$(".panel-panel.left a", this).height()+"px");
 			});
 		}
 

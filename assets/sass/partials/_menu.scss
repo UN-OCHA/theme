@@ -194,6 +194,7 @@
 
 				 		@media screen and (max-width : 768px) {
 							border:none;
+		 					padding-bottom: 13px;
 				 		}
 		 			}
 
@@ -344,10 +345,22 @@
 
 			ul.menu {
 
-				li.expanded {
+				li {
 					background-color: #dfdfdf;	
-					padding: 7px;
-					margin-bottom: 15px;
+					padding: 0 7px;
+
+					&.first {
+						padding-top: 7px;
+					}	
+
+					&.last {
+						padding-bottom: 7px;
+					}
+
+					&.expanded {
+						padding: 7px;
+						margin-bottom: 15px;
+					}
 
 					.nolink {
 						font-weight: bold;
@@ -376,6 +389,8 @@
 							list-style-type: none;
 							margin-bottom: 5px;
 							display: block;
+							padding: 0;
+							margin-bottom: 0;
 
 							a {
 								padding-left: 18px;
