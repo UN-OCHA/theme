@@ -182,11 +182,11 @@ body table, body .table {
 		text-transform: uppercase;
 		font-weight: bold;
 		color:white;
+		padding-left: 0;
+		padding-right: 0;
 
 		@media (min-width: 768px) {
 			font-size: 10px;
-			padding-left: 0;
-			padding-right: 0;
 		}
 	}
 }
