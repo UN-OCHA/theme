@@ -11310,54 +11310,60 @@ body table tbody tr td, body .table tbody tr td {
     float: left;
   }
 }
+@media screen and (max-width: 768px) {
+  /* line 230, ../sass/partials/_page.scss */
+  #footer .container .col-sm-6:after {
+    clear: both;
+  }
+}
 
-/* line 232, ../sass/partials/_page.scss */
+/* line 238, ../sass/partials/_page.scss */
 .page-header {
   border: none;
 }
 
-/* line 236, ../sass/partials/_page.scss */
+/* line 242, ../sass/partials/_page.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #54b1c8;
   font-weight: bold;
 }
 
-/* line 243, ../sass/partials/_page.scss */
+/* line 249, ../sass/partials/_page.scss */
 h1 {
   font-size: 28px;
 }
 
-/* line 247, ../sass/partials/_page.scss */
+/* line 253, ../sass/partials/_page.scss */
 h2 {
   font-size: 23.8px;
 }
 
-/* line 251, ../sass/partials/_page.scss */
+/* line 257, ../sass/partials/_page.scss */
 h3 {
   font-size: 19.6px;
 }
 
-/* line 255, ../sass/partials/_page.scss */
+/* line 261, ../sass/partials/_page.scss */
 h4 {
   font-size: 15.4px;
 }
 
-/* line 259, ../sass/partials/_page.scss */
+/* line 265, ../sass/partials/_page.scss */
 h5 {
   font-size: 11.2px;
 }
 
-/* line 263, ../sass/partials/_page.scss */
+/* line 269, ../sass/partials/_page.scss */
 h6 {
   font-size: 7px;
 }
 
-/* line 267, ../sass/partials/_page.scss */
+/* line 273, ../sass/partials/_page.scss */
 .view-content.row {
   margin: 0;
 }
 
-/* line 275, ../sass/partials/_page.scss */
+/* line 281, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
@@ -11367,13 +11373,13 @@ body .region-branding input.form-text {
   height: auto;
   box-shadow: 0;
 }
-/* line 284, ../sass/partials/_page.scss */
+/* line 290, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
-/* line 291, ../sass/partials/_page.scss */
+/* line 297, ../sass/partials/_page.scss */
 body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
@@ -11388,7 +11394,7 @@ body .region-branding input.form-submit {
   margin-top: 0 !important;
 }
 
-/* line 312, ../sass/partials/_page.scss */
+/* line 318, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
