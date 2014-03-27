@@ -347,10 +347,11 @@
 
 				li {
 					background-color: #dfdfdf;	
+					padding: 2px 7px;
 
 					&.expanded {
-						margin-bottom: 15px;
 						padding: 7px;
+						margin-bottom: 15px;
 					}
 
 					.nolink {
