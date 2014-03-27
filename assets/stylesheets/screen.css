@@ -11624,18 +11624,17 @@ body .region-branding input.form-submit {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   margin-top: -18px;
   margin-left: 18px;
-  margin-bottom: 18px;
   line-height: 0;
 }
-/* line 251, ../sass/partials/_view.scss */
+/* line 250, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 255, ../sass/partials/_view.scss */
+/* line 254, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 259, ../sass/partials/_view.scss */
+/* line 258, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11644,10 +11643,10 @@ body .region-branding input.form-submit {
   font-size: 12px;
   padding: 3px 10px;
   position: relative;
-  top: 10px;
   right: 10px;
+  margin-bottom: 18px;
 }
-/* line 272, ../sass/partials/_view.scss */
+/* line 271, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11656,18 +11655,18 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-/* line 280, ../sass/partials/_view.scss */
+/* line 279, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 300, ../sass/partials/_view.scss */
+/* line 299, ../sass/partials/_view.scss */
 a.fc-event, .fc-event-draggable {
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 10px 10px !important;
 }
-/* line 306, ../sass/partials/_view.scss */
+/* line 305, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
   padding: 4px 5px;
   background-color: #e0e0e0;
@@ -11678,7 +11677,7 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid #FFF;
 }
-/* line 317, ../sass/partials/_view.scss */
+/* line 316, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 4px 5px;
   display: block;
