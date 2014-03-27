@@ -11399,8 +11399,8 @@ body .region-branding input.form-submit {
   margin-bottom: 20px;
 }
 
-/* line 34, ../sass/partials/_panel.scss */
-.panel-display .hr-highlighted {
+/* line 32, ../sass/partials/_panel.scss */
+.hr-highlighted {
   background-color: #F9F9F9;
   padding: 7px;
   border: 1px solid #FFF;
@@ -11408,8 +11408,8 @@ body .region-branding input.form-submit {
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   margin: 20px 0px;
 }
-/* line 41, ../sass/partials/_panel.scss */
-.panel-display .hr-highlighted .pane-title {
+/* line 39, ../sass/partials/_panel.scss */
+.hr-highlighted .pane-tite {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: bold;
@@ -11418,12 +11418,12 @@ body .region-branding input.form-submit {
   border-bottom: 1px dotted #dedede;
   margin-top: 2px;
 }
-/* line 51, ../sass/partials/_panel.scss */
-.panel-display .hr-highlighted .pane-content {
+/* line 49, ../sass/partials/_panel.scss */
+.hr-highlighted .pane-content {
   padding: 0 7px;
 }
-/* line 54, ../sass/partials/_panel.scss */
-.panel-display .hr-highlighted .pane-content ul {
+/* line 52, ../sass/partials/_panel.scss */
+.hr-highlighted .pane-content ul {
   padding-left: 14px;
   color: #54b1c8;
 }
