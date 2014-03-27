@@ -10694,7 +10694,7 @@ aside.col-sm-3 .block li ul a {
   /* line 29, ../sass/partials/_menu.scss */
   .nav-tabs > li > a {
     border-radius: 0;
-    border: 0;
+    border: 0 !important;
   }
 }
 /* line 47, ../sass/partials/_menu.scss */
