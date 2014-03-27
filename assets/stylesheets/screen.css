@@ -11258,7 +11258,7 @@ body table tbody tr td, body .table tbody tr td {
   padding-left: 0;
   padding-right: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   /* line 179, ../sass/partials/_page.scss */
   .thumbnail .caption {
     font-size: 10px;
