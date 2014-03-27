@@ -10989,11 +10989,11 @@ aside.col-sm-3 .block li ul a {
 /* line 348, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
-  padding: 7px;
 }
-/* line 352, ../sass/partials/_menu.scss */
+/* line 351, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   margin-bottom: 15px;
+  padding: 7px;
 }
 /* line 356, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
