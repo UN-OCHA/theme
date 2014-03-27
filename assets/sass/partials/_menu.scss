@@ -213,6 +213,7 @@
 					@media screen and (max-width : 768px) {
 						position: static;
 						background-color: #EAEAEA;
+						height: auto;
 					}
 
 					li {
@@ -220,16 +221,13 @@
 		 				border-top: 5px solid #b2b2b2;
 		 				border-color: rgba(105,105,105, 0.4);
 
-						@media screen and (max-width : 768px) {
+						a.active {
 							border: none;
 						}
 
-						a.active {
+						@media screen and (max-width : 768px) {
 							border: none;
-
-							@media screen and (max-width : 768px) {
-								padding-left: 30px;
-							}
+							padding-left: 20px;
 						}
 
 					}
