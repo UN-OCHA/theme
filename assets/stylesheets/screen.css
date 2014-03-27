@@ -11046,6 +11046,11 @@ aside.col-sm-3 .block li ul a {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* line 418, ../sass/partials/_menu.scss */
+#top .navbar-collapse.collapse {
+  display: block !important;
+}
+
 /* line 10, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
