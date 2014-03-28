@@ -3,7 +3,7 @@
 // --------------------------------------------------
 @import "compass/layout/sticky-footer";
 
-@include sticky-footer(150px);
+@include sticky-footer(210px);
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: Tahoma;
@@ -194,14 +194,11 @@ body table, body .table {
 
 #footer {
 
-	min-height: 210px;
-
 	.container {
 
 		background-color: #F8F8F8;
 		padding-bottom: 20px;
 		padding-top: 1em;
-		min-height: 210px;
 
 		&:after {
 			clear: both;
