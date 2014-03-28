@@ -11621,41 +11621,38 @@ body .region-branding input.form-submit {
   margin-bottom: 20px;
   min-height: 0px;
   clear: both;
+  display: table;
 }
-/* line 115, ../sass/partials/_view.scss */
-.views-catgroup .views-row .views-field-field-image {
-  margin-right: 20px;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
+/* line 116, ../sass/partials/_view.scss */
+.views-catgroup .views-row .views-field {
+  display: table-cell;
+  vertical-align: middle;
 }
-/* line 122, ../sass/partials/_view.scss */
-.views-catgroup .views-row .views-field-field-image img {
+/* line 121, ../sass/partials/_view.scss */
+.views-catgroup .views-row .views-field.views-field-field-image {
+  padding-right: 20px;
+}
+/* line 125, ../sass/partials/_view.scss */
+.views-catgroup .views-row .views-field.views-field-field-image img {
   max-width: 38px;
   height: auto;
 }
-/* line 129, ../sass/partials/_view.scss */
-.views-catgroup .views-row .views-field-title-field {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-/* line 135, ../sass/partials/_view.scss */
-.views-catgroup .views-row .views-field-title-field a {
+/* line 134, ../sass/partials/_view.scss */
+.views-catgroup .views-row .views-field.views-field-title-field a {
   color: #bc2e3c;
   font-weight: bold;
 }
-/* line 146, ../sass/partials/_view.scss */
+/* line 147, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row {
   min-height: 38px;
 }
-/* line 152, ../sass/partials/_view.scss */
+/* line 153, ../sass/partials/_view.scss */
 .views-catgroup.view-initiatives .views-row .views-field-title-field a {
   color: #54b1c8;
   font-weight: bold;
 }
 
-/* line 167, ../sass/partials/_view.scss */
+/* line 168, ../sass/partials/_view.scss */
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -11665,7 +11662,7 @@ body .region-branding input.form-submit {
   margin-bottom: 20px !important;
   position: relative;
 }
-/* line 177, ../sass/partials/_view.scss */
+/* line 178, ../sass/partials/_view.scss */
 .node-search-result:after {
   content: '';
   background-color: #55B1C8;
@@ -11677,7 +11674,7 @@ body .region-branding input.form-submit {
   right: 0;
   height: 100%;
 }
-/* line 189, ../sass/partials/_view.scss */
+/* line 190, ../sass/partials/_view.scss */
 .node-search-result h2 {
   font-size: 16px;
   font-weight: bold;
@@ -11686,48 +11683,48 @@ body .region-branding input.form-submit {
   margin-left: 18px;
   margin-top: 16px;
 }
-/* line 197, ../sass/partials/_view.scss */
+/* line 198, ../sass/partials/_view.scss */
 .node-search-result h2 a {
   color: #55B1C8;
 }
-/* line 203, ../sass/partials/_view.scss */
+/* line 204, ../sass/partials/_view.scss */
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-/* line 205, ../sass/partials/_view.scss */
+/* line 206, ../sass/partials/_view.scss */
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-/* line 209, ../sass/partials/_view.scss */
+/* line 210, ../sass/partials/_view.scss */
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-/* line 215, ../sass/partials/_view.scss */
+/* line 216, ../sass/partials/_view.scss */
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-/* line 217, ../sass/partials/_view.scss */
+/* line 218, ../sass/partials/_view.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 221, ../sass/partials/_view.scss */
+/* line 222, ../sass/partials/_view.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 226, ../sass/partials/_view.scss */
+/* line 227, ../sass/partials/_view.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 230, ../sass/partials/_view.scss */
+/* line 231, ../sass/partials/_view.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 236, ../sass/partials/_view.scss */
+/* line 237, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 240, ../sass/partials/_view.scss */
+/* line 241, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left a {
   border: 4px solid #FFF;
   float: left;
@@ -11736,19 +11733,19 @@ body .region-branding input.form-submit {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 249, ../sass/partials/_view.scss */
+/* line 250, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 254, ../sass/partials/_view.scss */
+/* line 255, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 258, ../sass/partials/_view.scss */
+/* line 259, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 262, ../sass/partials/_view.scss */
+/* line 263, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane a.btn {
   float: right;
   background-color: #DDD;
@@ -11760,7 +11757,7 @@ body .region-branding input.form-submit {
   right: 10px;
   margin-bottom: 18px;
 }
-/* line 275, ../sass/partials/_view.scss */
+/* line 276, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -11769,18 +11766,18 @@ body .region-branding input.form-submit {
   *display: inline;
   *zoom: 1;
 }
-/* line 283, ../sass/partials/_view.scss */
+/* line 284, ../sass/partials/_view.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 303, ../sass/partials/_view.scss */
+/* line 304, ../sass/partials/_view.scss */
 a.fc-event, .fc-event-draggable {
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 10px 10px !important;
 }
-/* line 309, ../sass/partials/_view.scss */
+/* line 310, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time {
   padding: 4px 5px;
   background-color: #e0e0e0;
@@ -11791,7 +11788,7 @@ a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .
   border-radius: 10px 10px 0px 0px;
   border-bottom: 1px solid #FFF;
 }
-/* line 320, ../sass/partials/_view.scss */
+/* line 321, ../sass/partials/_view.scss */
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title {
   padding: 4px 5px;
   display: block;
