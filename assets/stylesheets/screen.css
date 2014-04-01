@@ -11513,6 +11513,24 @@ body .region-branding input.form-submit {
   color: #54b1c8;
 }
 
+/* line 67, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher .baseLbl,
+#hr-bundles-layer-switcher .baseLayersDiv,
+#hr-bundles-layer-switcher .dataLbl,
+#hr-bundles-layer-switcher br,
+#hr-bundles-layer-switcher span,
+#hr-bundles-layer-switcher input.olButton {
+  display: none !important;
+}
+/* line 71, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher label.olButton {
+  cursor: pointer;
+}
+/* line 75, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher .dataLayersDiv {
+  text-align: center;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
