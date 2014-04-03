@@ -11530,6 +11530,103 @@ body .region-branding input.form-submit {
 #hr-bundles-layer-switcher .dataLayersDiv {
   text-align: center;
 }
+/* line 79, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[type="checkbox"] + label {
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px;
+  display: inline-block;
+  text-indent: -999px;
+  overflow: hidden;
+}
+/* line 88, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Camp Coordination / Management"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/cccm.png");
+}
+/* line 92, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Camp Coordination / Management"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/cccm.png");
+}
+/* line 96, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Early Recovery"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/early-recovery.png");
+}
+/* line 100, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Early Recovery"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/early-recovery.png");
+}
+/* line 104, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Education"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/education.png");
+}
+/* line 108, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Education"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/education.png");
+}
+/* line 112, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/shelters.png");
+}
+/* line 116, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/shelters.png");
+}
+/* line 120, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Food Security"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/food-security.png");
+}
+/* line 124, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Food Security"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/food-security.png");
+}
+/* line 128, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Health"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/health.png");
+}
+/* line 132, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Health"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/health.png");
+}
+/* line 136, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Logistics"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/logistics.png");
+}
+/* line 140, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Logistics"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/logistics.png");
+}
+/* line 144, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Nutrition"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/nutrition.png");
+}
+/* line 148, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Nutrition"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/nutrition.png");
+}
+/* line 152, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Protection"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/protection.png");
+}
+/* line 156, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Protection"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/protection.png");
+}
+/* line 161, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/wash.png");
+}
+/* line 165, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/wash.png");
+}
+/* line 169, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/emergency-telecommunications.png");
+}
+/* line 173, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"]:checked + label {
+  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/emergency-telecommunications.png");
+}
 
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {

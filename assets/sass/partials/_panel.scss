@@ -75,5 +75,103 @@
   .dataLayersDiv {
     text-align: center;
   }
+
+  input[type="checkbox"] + label {
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+  }
+
+  input[name="Camp Coordination / Management"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/cccm.png');
+  }
+
+  input[name="Camp Coordination / Management"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/cccm.png');
+  }
+
+  input[name="Early Recovery"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/early-recovery.png');
+  }
+
+  input[name="Early Recovery"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/early-recovery.png');
+  }
+
+  input[name="Education"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/education.png');
+  }
+
+  input[name="Education"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/education.png');
+  }
+
+  input[name="Emergency Shelter and NFI"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/shelters.png');
+  }
+
+  input[name="Emergency Shelter and NFI"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/shelters.png');
+  }
+
+  input[name="Food Security"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/food-security.png');
+  }
+
+  input[name="Food Security"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/food-security.png');
+  }
+
+  input[name="Health"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/health.png');
+  }
+
+  input[name="Health"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/health.png');
+  }
+
+  input[name="Logistics"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/logistics.png');
+  }
+
+  input[name="Logistics"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/logistics.png');
+  }
+
+  input[name="Nutrition"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/nutrition.png');
+  }
+
+  input[name="Nutrition"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/nutrition.png');
+  }
+
+  input[name="Protection"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/protection.png');
+  }
+
+  input[name="Protection"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/protection.png');
+  }
+
+
+  input[name="Water Sanitation Hygiene"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/wash.png');
+  }
+
+  input[name="Water Sanitation Hygiene"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/wash.png');
+  }
+
+  input[name="Emergency Telecommunications"] + label {
+    background-image: url($images-path + '/icons/38/Clusters/grey/emergency-telecommunications.png');
+  }
+
+  input[name="Emergency Telecommunications"]:checked + label {
+    background-image: url($images-path + '/icons/38/Clusters/emergency-telecommunications.png');
+  }
 }
 
