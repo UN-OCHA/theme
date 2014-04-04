@@ -1,6 +1,9 @@
 //
 // Styles for panels and panes.
 // --------------------------------------------------
+@import "compass/utilities/sprites";
+@import "icons/38/Clusters/grey/*.png";
+@import "icons/38/Clusters/*.png";
 
 .panel-panel {
 
@@ -86,92 +89,103 @@
   }
 
   input[name="Camp Coordination / Management"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/cccm.png');
+    @include grey-sprite(cccm);
   }
 
-  input[name="Camp Coordination / Management"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/cccm.png');
+  input[name="Camp Coordination / Management"]:checked + label,
+  input[name="Camp Coordination / Management"] + label:hover {
+    @include Clusters-sprite(cccm);
   }
 
   input[name="Early Recovery"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/early-recovery.png');
+    @include grey-sprite(early-recovery);
   }
 
-  input[name="Early Recovery"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/early-recovery.png');
+  input[name="Early Recovery"]:checked + label,
+  input[name="Early Recovery"] + label:hover {
+    @include Clusters-sprite(early-recovery);
   }
 
   input[name="Education"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/education.png');
+    @include grey-sprite(education);
   }
 
-  input[name="Education"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/education.png');
+  input[name="Education"]:checked + label,
+  input[name="Education"] + label:hover {
+    @include Clusters-sprite(education);
   }
 
   input[name="Emergency Shelter and NFI"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/shelters.png');
+    @include grey-sprite(shelters);
   }
 
-  input[name="Emergency Shelter and NFI"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/shelters.png');
+  input[name="Emergency Shelter and NFI"]:checked + label,
+  input[name="Emergency Shelter and NFI"] + label:hover {
+    @include Clusters-sprite(shelters);
   }
 
   input[name="Food Security"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/food-security.png');
+    @include grey-sprite(food-security);
   }
 
-  input[name="Food Security"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/food-security.png');
+  input[name="Food Security"]:checked + label,
+  input[name="Food Security"] + label:hover {
+    @include Clusters-sprite(food-security);
   }
 
   input[name="Health"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/health.png');
+    @include grey-sprite(health);
   }
 
-  input[name="Health"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/health.png');
+  input[name="Health"]:checked + label,
+  input[name="Health"] + label:hover {
+    @include Clusters-sprite(health);
   }
 
   input[name="Logistics"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/logistics.png');
+    @include grey-sprite(logistics);
   }
 
-  input[name="Logistics"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/logistics.png');
+  input[name="Logistics"]:checked + label,
+  input[name="Logistics"] + label:hover {
+    @include Clusters-sprite(logistics);
   }
 
   input[name="Nutrition"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/nutrition.png');
+    @include grey-sprite(nutrition);
   }
 
-  input[name="Nutrition"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/nutrition.png');
+  input[name="Nutrition"]:checked + label,
+  input[name="Nutrition"] + label:hover {
+    @include Clusters-sprite(nutrition);
   }
 
   input[name="Protection"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/protection.png');
+    @include grey-sprite(protection);
   }
 
-  input[name="Protection"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/protection.png');
+  input[name="Protection"]:checked + label,
+  input[name="Protection"] + label:hover {
+    @include Clusters-sprite(protection);
   }
 
 
   input[name="Water Sanitation Hygiene"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/wash.png');
+    @include grey-sprite(wash);
   }
 
-  input[name="Water Sanitation Hygiene"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/wash.png');
+  input[name="Water Sanitation Hygiene"]:checked + label,
+  input[name="Water Sanitation Hygiene"] + label:hover {
+    @include Clusters-sprite(wash);
   }
 
   input[name="Emergency Telecommunications"] + label {
-    background-image: url($images-path + '/icons/38/Clusters/grey/emergency-telecommunications.png');
+    @include grey-sprite(emergency-telecommunications);
   }
 
-  input[name="Emergency Telecommunications"]:checked + label {
-    background-image: url($images-path + '/icons/38/Clusters/emergency-telecommunications.png');
+  input[name="Emergency Telecommunications"]:checked + label,
+  input[name="Emergency Telecommunications"] + label:hover {
+    @include Clusters-sprite(emergency-telecommunications);
   }
 }
 

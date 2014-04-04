@@ -11469,11 +11469,32 @@ body .region-branding input.form-submit {
   display: none;
 }
 
-/* line 9, ../sass/partials/_panel.scss */
+/* line 130, icons/38/Clusters/grey/*.png */
+.grey-sprite, #hr-bundles-layer-switcher input[name="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[name="Early Recovery"] + label, #hr-bundles-layer-switcher input[name="Education"] + label, #hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[name="Food Security"] + label, #hr-bundles-layer-switcher input[name="Health"] + label, #hr-bundles-layer-switcher input[name="Logistics"] + label, #hr-bundles-layer-switcher input[name="Nutrition"] + label, #hr-bundles-layer-switcher input[name="Protection"] + label, #hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label {
+  background: url('../images/icons/38/Clusters/grey-s8e6e32aa57.png') no-repeat;
+}
+
+/* line 138, icons/38/Clusters/*.png */
+.Clusters-sprite, #hr-bundles-layer-switcher input[name="Camp Coordination / Management"]:checked + label,
+#hr-bundles-layer-switcher input[name="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[name="Early Recovery"]:checked + label,
+#hr-bundles-layer-switcher input[name="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[name="Education"]:checked + label,
+#hr-bundles-layer-switcher input[name="Education"] + label:hover, #hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"]:checked + label,
+#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[name="Food Security"]:checked + label,
+#hr-bundles-layer-switcher input[name="Food Security"] + label:hover, #hr-bundles-layer-switcher input[name="Health"]:checked + label,
+#hr-bundles-layer-switcher input[name="Health"] + label:hover, #hr-bundles-layer-switcher input[name="Logistics"]:checked + label,
+#hr-bundles-layer-switcher input[name="Logistics"] + label:hover, #hr-bundles-layer-switcher input[name="Nutrition"]:checked + label,
+#hr-bundles-layer-switcher input[name="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[name="Protection"]:checked + label,
+#hr-bundles-layer-switcher input[name="Protection"] + label:hover, #hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"]:checked + label,
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[name="Emergency Telecommunications"]:checked + label,
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label:hover {
+  background: url('../images/icons/38/Clusters-s1797119ec0.png') no-repeat;
+}
+
+/* line 12, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane {
   margin-bottom: 30px;
 }
-/* line 13, ../sass/partials/_panel.scss */
+/* line 16, ../sass/partials/_panel.scss */
 .panel-panel.right .panel-pane .pane-title {
   font-size: 13px;
   color: #bc2e3c;
@@ -11484,7 +11505,7 @@ body .region-branding input.form-submit {
   margin-bottom: 20px;
 }
 
-/* line 32, ../sass/partials/_panel.scss */
+/* line 35, ../sass/partials/_panel.scss */
 .hr-highlighted {
   background-color: #F9F9F9;
   padding: 7px;
@@ -11493,7 +11514,7 @@ body .region-branding input.form-submit {
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   margin: 20px 0px;
 }
-/* line 39, ../sass/partials/_panel.scss */
+/* line 42, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-tite {
   font-size: 13px;
   text-transform: uppercase;
@@ -11503,17 +11524,17 @@ body .region-branding input.form-submit {
   border-bottom: 1px dotted #dedede;
   margin-top: 2px;
 }
-/* line 49, ../sass/partials/_panel.scss */
+/* line 52, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-content {
   padding: 0 7px;
 }
-/* line 52, ../sass/partials/_panel.scss */
+/* line 55, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-content ul {
   padding-left: 14px;
   color: #54b1c8;
 }
 
-/* line 67, ../sass/partials/_panel.scss */
+/* line 70, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher .baseLbl,
 #hr-bundles-layer-switcher .baseLayersDiv,
 #hr-bundles-layer-switcher .dataLbl,
@@ -11522,15 +11543,15 @@ body .region-branding input.form-submit {
 #hr-bundles-layer-switcher input.olButton {
   display: none !important;
 }
-/* line 71, ../sass/partials/_panel.scss */
+/* line 74, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher label.olButton {
   cursor: pointer;
 }
-/* line 75, ../sass/partials/_panel.scss */
+/* line 78, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher .dataLayersDiv {
   text-align: center;
 }
-/* line 79, ../sass/partials/_panel.scss */
+/* line 82, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[type="checkbox"] + label {
   background-repeat: no-repeat;
   height: 38px;
@@ -11539,93 +11560,104 @@ body .region-branding input.form-submit {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 88, ../sass/partials/_panel.scss */
+/* line 91, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Camp Coordination / Management"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/cccm.png");
-}
-/* line 92, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Camp Coordination / Management"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/cccm.png");
+  background-position: 0 -38px;
 }
 /* line 96, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Early Recovery"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/early-recovery.png");
+#hr-bundles-layer-switcher input[name="Camp Coordination / Management"]:checked + label,
+#hr-bundles-layer-switcher input[name="Camp Coordination / Management"] + label:hover {
+  background-position: 0 -456px;
 }
 /* line 100, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Early Recovery"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/early-recovery.png");
+#hr-bundles-layer-switcher input[name="Early Recovery"] + label {
+  background-position: 0 -342px;
 }
-/* line 104, ../sass/partials/_panel.scss */
+/* line 105, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Early Recovery"]:checked + label,
+#hr-bundles-layer-switcher input[name="Early Recovery"] + label:hover {
+  background-position: 0 -798px;
+}
+/* line 109, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Education"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/education.png");
+  background-position: 0 -380px;
 }
-/* line 108, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Education"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/education.png");
+/* line 114, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Education"]:checked + label,
+#hr-bundles-layer-switcher input[name="Education"] + label:hover {
+  background-position: 0 -836px;
 }
-/* line 112, ../sass/partials/_panel.scss */
+/* line 118, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/shelters.png");
+  background-position: 0 -418px;
 }
-/* line 116, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/shelters.png");
+/* line 123, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"]:checked + label,
+#hr-bundles-layer-switcher input[name="Emergency Shelter and NFI"] + label:hover {
+  background-position: 0 -874px;
 }
-/* line 120, ../sass/partials/_panel.scss */
+/* line 127, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Food Security"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/food-security.png");
-}
-/* line 124, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Food Security"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/food-security.png");
-}
-/* line 128, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Health"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/health.png");
+  background-position: 0 -76px;
 }
 /* line 132, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Health"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/health.png");
+#hr-bundles-layer-switcher input[name="Food Security"]:checked + label,
+#hr-bundles-layer-switcher input[name="Food Security"] + label:hover {
+  background-position: 0 -494px;
 }
 /* line 136, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Health"] + label {
+  background-position: 0 0;
+}
+/* line 141, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Health"]:checked + label,
+#hr-bundles-layer-switcher input[name="Health"] + label:hover {
+  background-position: 0 -532px;
+}
+/* line 145, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Logistics"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/logistics.png");
+  background-position: 0 -114px;
 }
-/* line 140, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Logistics"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/logistics.png");
+/* line 150, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Logistics"]:checked + label,
+#hr-bundles-layer-switcher input[name="Logistics"] + label:hover {
+  background-position: 0 -646px;
 }
-/* line 144, ../sass/partials/_panel.scss */
+/* line 154, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Nutrition"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/nutrition.png");
+  background-position: 0 -190px;
 }
-/* line 148, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Nutrition"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/nutrition.png");
+/* line 159, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Nutrition"]:checked + label,
+#hr-bundles-layer-switcher input[name="Nutrition"] + label:hover {
+  background-position: 0 -684px;
 }
-/* line 152, ../sass/partials/_panel.scss */
+/* line 163, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[name="Protection"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/protection.png");
+  background-position: 0 -152px;
 }
-/* line 156, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Protection"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/protection.png");
-}
-/* line 161, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/wash.png");
-}
-/* line 165, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/wash.png");
-}
-/* line 169, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/grey/emergency-telecommunications.png");
+/* line 168, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Protection"]:checked + label,
+#hr-bundles-layer-switcher input[name="Protection"] + label:hover {
+  background-position: 0 -608px;
 }
 /* line 173, ../sass/partials/_panel.scss */
-#hr-bundles-layer-switcher input[name="Emergency Telecommunications"]:checked + label {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/icons/38/Clusters/emergency-telecommunications.png");
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label {
+  background-position: 0 -304px;
+}
+/* line 178, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"]:checked + label,
+#hr-bundles-layer-switcher input[name="Water Sanitation Hygiene"] + label:hover {
+  background-position: 0 -722px;
+}
+/* line 182, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label {
+  background-position: 0 -266px;
+}
+/* line 187, ../sass/partials/_panel.scss */
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"]:checked + label,
+#hr-bundles-layer-switcher input[name="Emergency Telecommunications"] + label:hover {
+  background-position: 0 -760px;
 }
 
 /* line 5, ../sass/partials/_view.scss */
