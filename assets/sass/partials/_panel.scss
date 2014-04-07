@@ -79,7 +79,7 @@
     text-align: center;
   }
 
-  input[type="checkbox"] + label {
+  input[type="radio"] + label {
     background-repeat: no-repeat;
     height: 38px;
     width: 38px;
@@ -88,103 +88,103 @@
     overflow: hidden;
   }
 
-  input[name="Camp Coordination / Management"] + label {
+  input[value="Camp Coordination / Management"] + label {
     @include grey-sprite(cccm);
   }
 
-  input[name="Camp Coordination / Management"]:checked + label,
-  input[name="Camp Coordination / Management"] + label:hover {
+  input[value="Camp Coordination / Management"]:checked + label,
+  input[value="Camp Coordination / Management"] + label:hover {
     @include Clusters-sprite(cccm);
   }
 
-  input[name="Early Recovery"] + label {
+  input[value="Early Recovery"] + label {
     @include grey-sprite(early-recovery);
   }
 
-  input[name="Early Recovery"]:checked + label,
-  input[name="Early Recovery"] + label:hover {
+  input[value="Early Recovery"]:checked + label,
+  input[value="Early Recovery"] + label:hover {
     @include Clusters-sprite(early-recovery);
   }
 
-  input[name="Education"] + label {
+  input[value="Education"] + label {
     @include grey-sprite(education);
   }
 
-  input[name="Education"]:checked + label,
-  input[name="Education"] + label:hover {
+  input[value="Education"]:checked + label,
+  input[value="Education"] + label:hover {
     @include Clusters-sprite(education);
   }
 
-  input[name="Emergency Shelter and NFI"] + label {
+  input[value="Emergency Shelter and NFI"] + label {
     @include grey-sprite(shelters);
   }
 
-  input[name="Emergency Shelter and NFI"]:checked + label,
-  input[name="Emergency Shelter and NFI"] + label:hover {
+  input[value="Emergency Shelter and NFI"]:checked + label,
+  input[value="Emergency Shelter and NFI"] + label:hover {
     @include Clusters-sprite(shelters);
   }
 
-  input[name="Food Security"] + label {
+  input[value="Food Security"] + label {
     @include grey-sprite(food-security);
   }
 
-  input[name="Food Security"]:checked + label,
-  input[name="Food Security"] + label:hover {
+  input[value="Food Security"]:checked + label,
+  input[value="Food Security"] + label:hover {
     @include Clusters-sprite(food-security);
   }
 
-  input[name="Health"] + label {
+  input[value="Health"] + label {
     @include grey-sprite(health);
   }
 
-  input[name="Health"]:checked + label,
-  input[name="Health"] + label:hover {
+  input[value="Health"]:checked + label,
+  input[value="Health"] + label:hover {
     @include Clusters-sprite(health);
   }
 
-  input[name="Logistics"] + label {
+  input[value="Logistics"] + label {
     @include grey-sprite(logistics);
   }
 
-  input[name="Logistics"]:checked + label,
-  input[name="Logistics"] + label:hover {
+  input[value="Logistics"]:checked + label,
+  input[value="Logistics"] + label:hover {
     @include Clusters-sprite(logistics);
   }
 
-  input[name="Nutrition"] + label {
+  input[value="Nutrition"] + label {
     @include grey-sprite(nutrition);
   }
 
-  input[name="Nutrition"]:checked + label,
-  input[name="Nutrition"] + label:hover {
+  input[value="Nutrition"]:checked + label,
+  input[value="Nutrition"] + label:hover {
     @include Clusters-sprite(nutrition);
   }
 
-  input[name="Protection"] + label {
+  input[value="Protection"] + label {
     @include grey-sprite(protection);
   }
 
-  input[name="Protection"]:checked + label,
-  input[name="Protection"] + label:hover {
+  input[value="Protection"]:checked + label,
+  input[value="Protection"] + label:hover {
     @include Clusters-sprite(protection);
   }
 
 
-  input[name="Water Sanitation Hygiene"] + label {
+  input[value="Water Sanitation Hygiene"] + label {
     @include grey-sprite(wash);
   }
 
-  input[name="Water Sanitation Hygiene"]:checked + label,
-  input[name="Water Sanitation Hygiene"] + label:hover {
+  input[value="Water Sanitation Hygiene"]:checked + label,
+  input[value="Water Sanitation Hygiene"] + label:hover {
     @include Clusters-sprite(wash);
   }
 
-  input[name="Emergency Telecommunications"] + label {
+  input[value="Emergency Telecommunications"] + label {
     @include grey-sprite(emergency-telecommunications);
   }
 
-  input[name="Emergency Telecommunications"]:checked + label,
-  input[name="Emergency Telecommunications"] + label:hover {
+  input[value="Emergency Telecommunications"]:checked + label,
+  input[value="Emergency Telecommunications"] + label:hover {
     @include Clusters-sprite(emergency-telecommunications);
   }
 }
