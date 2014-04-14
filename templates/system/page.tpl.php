@@ -71,11 +71,11 @@
           </div>
         <?php endif; ?>
         <?php if (!empty($page['sidebar_first'])): ?>
-          <aside id="sidebar-first" class="col-sm-3" role="complementary">
+          <aside id="sidebar-first" class="col-md-3" role="complementary">
             <?php print render($page['sidebar_first']); ?>
           </aside>
         <?php endif; ?>
-        <div id="content-wrapper" <?php if(!empty($page['sidebar_first'])) print 'class="col-sm-9"'; ?>>
+        <div id="content-wrapper" <?php if(!empty($page['sidebar_first'])) print 'class="col-md-9"'; ?>>
           <div id="page-header">
             <?php if ($title): ?>
               <div class="page-header">
@@ -93,7 +93,7 @@
               </ul>
             <?php endif; ?>
           </div>
-          <div id="content" class="col-sm-12 <?php print (!$is_panel) ? 'container' : ''; ?>">
+          <div id="content" class="col-md-12 <?php print (!$is_panel) ? 'container' : ''; ?>">
             <?php print render($page['content']); ?>
           </div>
         </div><!-- /#content-wrapper -->
@@ -106,34 +106,34 @@
 
 <footer id="footer" class="footer" role="footer">
   <div class="container">
-    <div class="col-sm-3">
+    <div id="footer-first" class="col-md-3">
       <p><a href="http://www.humanitarianresponse.info" target="_blank">HumanitarianResponse.info</a> is provided by UN OCHA to support humanitarian operations globally</p><p><a href="http://www.humanitarianresponse.info/about" target="_blank">Learn more about HumanitarianResponse.info</a></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
     </div>
-    <div class="col-sm-6">
-      <div class="col-sm-3">
+    <div id="footer-second" class="col-md-6">
+      <div class="col-md-3">
         <div class="column"><a href="http://fts.unocha.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-fts.png"></a></div>
         <div class="column"><a href="http://www.irinnews.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-irin.png"></a></div>
         <div class="column"><a href="http://www.gdacs.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-gdacs.png"></a></div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="column"><a href="http://www.unocha.org/cerf/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-cerf.png"></a></div>
         <div class="column"><a href="http://www.unocha.org/cap/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-cap.png"></a></div>
         <div class="column"><a href="http://www.reliefweb.int/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-footer.png"></a></div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="column"><a href="http://www.humanitarianinfo.org/iasc/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-iasc.png"></a></div>
         <div class="column"><a href="http://www.redhum.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-redhum.png"></a></div>
         <div class="column"><a href="http://www.preventionweb.net/" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-pw.png"></a></div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="column"><a href="http://www.hewsweb.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-hews.png"></a></div>
         <div class="column"><a href="http://vosocc.unocha.org" target="_blank"><img src="/sites/all/themes/humanitarianresponse/assets/images/footer/logo-vosocc.png"></a></div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div id = "footer-third" class="col-md-3">
       <i class="fa fa-envelope"></i> <a href="mailto:info@humanitarianresponse.info">info@humanitarianresponse.info</a><br />
       <i class="fa fa-question-circle"></i> <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a><br />
       <i class="fa fa-info-circle"></i> <a href="http://www.humanitarianresponse.info">humanitarianresponse.info</a><br />
