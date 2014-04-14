@@ -11329,7 +11329,7 @@ body table tbody tr td, body .table tbody tr td {
 }
 
 /* line 141, ../sass/partials/_page.scss */
-.front #main .container {
+.front #main > .container {
   background-image: url("../images/banner_home.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -11500,11 +11500,11 @@ body .region-branding input.form-submit {
 }
 
 /* line 12, ../sass/partials/_panel.scss */
-.panel-panel.right .panel-pane {
+.front .sidebar .panel-pane {
   margin-bottom: 30px;
 }
 /* line 16, ../sass/partials/_panel.scss */
-.panel-panel.right .panel-pane .pane-title {
+.front .sidebar .panel-pane .pane-title {
   font-size: 13px;
   color: #bc2e3c;
   border-bottom: 1px dotted #bc2e3c;
