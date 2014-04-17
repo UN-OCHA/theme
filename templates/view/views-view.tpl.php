@@ -34,16 +34,21 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 
-  <?php if ($feed_icon): ?>
-    <div class="feed-icon pull-right">
-      <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          <i class="fa fa-gears"></i> <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <?php print $feed_icon; ?>
-        </ul>
-      </div>
+  <?php if ($feed_icon || $feed_icons): ?>
+    <div class="feed-icon text-right">
+      <?php if ($feed_icons): ?>
+        <?php print $feed_icons; ?>
+      <?php endif; ?>
+      <?php if ($feed_icon): ?>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-gears"></i> <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <?php print $feed_icon; ?>
+          </ul>
+        </div>
+      <?php endif; ?>
     </div>
   <?php endif; ?>
 
