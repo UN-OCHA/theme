@@ -42,7 +42,7 @@
       <?php if ($feed_icon): ?>
         <div class="btn-group">
           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-gears"></i> <span class="caret"></span>
+            <i class="fa fa-download"></i> <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <?php print $feed_icon; ?>
