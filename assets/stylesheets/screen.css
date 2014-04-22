@@ -11450,7 +11450,7 @@ body .region-branding input.form-submit {
 }
 
 /* line 309, ../sass/partials/_page.scss */
-.openlayers-tooltip-description {
+.openlayers-tooltip-description strong {
   color: #a6a6a6;
   font-weight: normal;
 }
@@ -11458,6 +11458,11 @@ body .region-branding input.form-submit {
 /* line 313, ../sass/partials/_page.scss */
 #popup a {
   color: white;
+}
+
+/* line 316, ../sass/partials/_page.scss */
+#popup a:hover {
+  color: #e6e6e6;
 }
 
 /* line 130, icons/38/Clusters/grey/*.png */

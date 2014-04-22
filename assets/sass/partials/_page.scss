@@ -306,12 +306,15 @@ body .region-branding {
 	margin-bottom: 5px;
 	padding-bottom: 3px;
 }
-.openlayers-tooltip-description {
+.openlayers-tooltip-description strong {
 	color: #a6a6a6;
 	font-weight: normal;
 }
 #popup a {
 	color: white;
+}
+#popup a:hover {
+	color: darken(white, 10%);
 }
 
 
