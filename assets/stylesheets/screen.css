@@ -11436,6 +11436,13 @@ body .region-branding input.form-submit {
   display: none;
 }
 
+/* line 302, ../sass/partials/_page.scss */
+.openlayers-popup .openlayers-tooltip-name,
+.openlayers-popup .openlayers-tooltip-name a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /* line 130, icons/38/Clusters/grey/*.png */
 .grey-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label, #hr-bundles-layer-switcher input[value="Education"] + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[value="Food Security"] + label, #hr-bundles-layer-switcher input[value="Health"] + label, #hr-bundles-layer-switcher input[value="Logistics"] + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label, #hr-bundles-layer-switcher input[value="Protection"] + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label {
   background: url('../images/icons/38/Clusters/grey-s8e6e32aa57.png') no-repeat;
