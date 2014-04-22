@@ -301,6 +301,16 @@
 
 //calendar 
 
+.page-node-events #block-system-main {
+	.pane-title {
+		display: none;
+	}
+
+	ul.nav-pills {
+		margin: 15px 0;
+	}
+}
+
 a.fc-event, .fc-event-draggable {
 	border: 1px solid #FFF;
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
