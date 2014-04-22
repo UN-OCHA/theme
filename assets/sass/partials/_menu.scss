@@ -201,6 +201,8 @@
 		 				border-bottom: 5px solid #b2b2b2;
 		 				border-color: rgba(105,105,105, 0.4);
 		 				padding-bottom: 8px;
+		 				position: relative;
+						z-index: 2;
 
 				 		@media screen and (max-width : 768px) {
 							border:none;
@@ -228,7 +230,7 @@
 
 					li {
 
-		 				border-top: 5px solid #b2b2b2;
+		 				padding-top: 5px;
 		 				border-color: rgba(105,105,105, 0.4);
 
 						a.active {
