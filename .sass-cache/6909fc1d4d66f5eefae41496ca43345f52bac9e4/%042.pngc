@@ -1,0 +1,219 @@
+3.2.14 (Media Mark)
+7dfc3f4763ba32170ccf0ebe4fce8a63c17dd2d9
+o:Sass::Tree::RootNode
+:@template"@import "compass/utilities/sprites/base";
+
+// General Sprite Defaults
+// You can override them before you import this file.
+$Clusters-sprite-base-class: ".Clusters-sprite" !default;
+$Clusters-sprite-dimensions: false !default;
+$Clusters-position: 0% !default;
+$Clusters-spacing: 0 !default;
+$Clusters-repeat: no-repeat !default;
+$Clusters-prefix: '' !default;
+$Clusters-clean-up: true !default;
+$Clusters-layout:vertical !default;
+$Clusters-inline: false !default;
+
+  
+ // These variables control the generated sprite output
+ // You can override them selectively before you import this file.
+ 
+   $Clusters-cccm-position: $Clusters-position !default;
+   $Clusters-cccm-spacing:  $Clusters-spacing !default;
+   $Clusters-cccm-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-coordination-position: $Clusters-position !default;
+   $Clusters-coordination-spacing:  $Clusters-spacing !default;
+   $Clusters-coordination-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-early-recovery-position: $Clusters-position !default;
+   $Clusters-early-recovery-spacing:  $Clusters-spacing !default;
+   $Clusters-early-recovery-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-education-position: $Clusters-position !default;
+   $Clusters-education-spacing:  $Clusters-spacing !default;
+   $Clusters-education-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-emergency-telecommunications-position: $Clusters-position !default;
+   $Clusters-emergency-telecommunications-spacing:  $Clusters-spacing !default;
+   $Clusters-emergency-telecommunications-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-food-security-position: $Clusters-position !default;
+   $Clusters-food-security-spacing:  $Clusters-spacing !default;
+   $Clusters-food-security-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-grey-s8e6e32aa57-position: $Clusters-position !default;
+   $Clusters-grey-s8e6e32aa57-spacing:  $Clusters-spacing !default;
+   $Clusters-grey-s8e6e32aa57-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-health-position: $Clusters-position !default;
+   $Clusters-health-spacing:  $Clusters-spacing !default;
+   $Clusters-health-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-logistics-position: $Clusters-position !default;
+   $Clusters-logistics-spacing:  $Clusters-spacing !default;
+   $Clusters-logistics-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-nutrition-position: $Clusters-position !default;
+   $Clusters-nutrition-spacing:  $Clusters-spacing !default;
+   $Clusters-nutrition-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-protection-position: $Clusters-position !default;
+   $Clusters-protection-spacing:  $Clusters-spacing !default;
+   $Clusters-protection-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-shelters-position: $Clusters-position !default;
+   $Clusters-shelters-spacing:  $Clusters-spacing !default;
+   $Clusters-shelters-repeat:   $Clusters-repeat !default;
+ 
+   $Clusters-wash-position: $Clusters-position !default;
+   $Clusters-wash-spacing:  $Clusters-spacing !default;
+   $Clusters-wash-repeat:   $Clusters-repeat !default;
+ 
+
+ $Clusters-sprites: sprite-map("icons/38/Clusters/*.png",
+ 
+   $Clusters-cccm-position: $Clusters-cccm-position, 
+   $Clusters-cccm-spacing:  $Clusters-cccm-spacing, 
+   $Clusters-cccm-repeat:   $Clusters-cccm-repeat,
+ 
+   $Clusters-coordination-position: $Clusters-coordination-position, 
+   $Clusters-coordination-spacing:  $Clusters-coordination-spacing, 
+   $Clusters-coordination-repeat:   $Clusters-coordination-repeat,
+ 
+   $Clusters-early-recovery-position: $Clusters-early-recovery-position, 
+   $Clusters-early-recovery-spacing:  $Clusters-early-recovery-spacing, 
+   $Clusters-early-recovery-repeat:   $Clusters-early-recovery-repeat,
+ 
+   $Clusters-education-position: $Clusters-education-position, 
+   $Clusters-education-spacing:  $Clusters-education-spacing, 
+   $Clusters-education-repeat:   $Clusters-education-repeat,
+ 
+   $Clusters-emergency-telecommunications-position: $Clusters-emergency-telecommunications-position, 
+   $Clusters-emergency-telecommunications-spacing:  $Clusters-emergency-telecommunications-spacing, 
+   $Clusters-emergency-telecommunications-repeat:   $Clusters-emergency-telecommunications-repeat,
+ 
+   $Clusters-food-security-position: $Clusters-food-security-position, 
+   $Clusters-food-security-spacing:  $Clusters-food-security-spacing, 
+   $Clusters-food-security-repeat:   $Clusters-food-security-repeat,
+ 
+   $Clusters-grey-s8e6e32aa57-position: $Clusters-grey-s8e6e32aa57-position, 
+   $Clusters-grey-s8e6e32aa57-spacing:  $Clusters-grey-s8e6e32aa57-spacing, 
+   $Clusters-grey-s8e6e32aa57-repeat:   $Clusters-grey-s8e6e32aa57-repeat,
+ 
+   $Clusters-health-position: $Clusters-health-position, 
+   $Clusters-health-spacing:  $Clusters-health-spacing, 
+   $Clusters-health-repeat:   $Clusters-health-repeat,
+ 
+   $Clusters-logistics-position: $Clusters-logistics-position, 
+   $Clusters-logistics-spacing:  $Clusters-logistics-spacing, 
+   $Clusters-logistics-repeat:   $Clusters-logistics-repeat,
+ 
+   $Clusters-nutrition-position: $Clusters-nutrition-position, 
+   $Clusters-nutrition-spacing:  $Clusters-nutrition-spacing, 
+   $Clusters-nutrition-repeat:   $Clusters-nutrition-repeat,
+ 
+   $Clusters-protection-position: $Clusters-protection-position, 
+   $Clusters-protection-spacing:  $Clusters-protection-spacing, 
+   $Clusters-protection-repeat:   $Clusters-protection-repeat,
+ 
+   $Clusters-shelters-position: $Clusters-shelters-position, 
+   $Clusters-shelters-spacing:  $Clusters-shelters-spacing, 
+   $Clusters-shelters-repeat:   $Clusters-shelters-repeat,
+ 
+   $Clusters-wash-position: $Clusters-wash-position, 
+   $Clusters-wash-spacing:  $Clusters-wash-spacing, 
+   $Clusters-wash-repeat:   $Clusters-wash-repeat,
+ 
+ $layout: $Clusters-layout,
+ $cleanup: $Clusters-clean-up
+ );
+
+
+// All sprites should extend this class
+// The Clusters-sprite mixin will do so for you.
+@if $Clusters-inline {
+  #{$Clusters-sprite-base-class} {
+    background-image: inline-sprite($Clusters-sprites);
+  } 
+} @else {
+  #{$Clusters-sprite-base-class} {
+    background: $Clusters-sprites no-repeat;
+  }
+}
+//sass functions to return the dimensions of a sprite image as units
+
+  @function Clusters-sprite-width($name) {
+    $file: sprite_file($Clusters-sprites, $name);
+    @return image-width($file);
+  }
+
+  @function Clusters-sprite-height($name) {
+    $file: sprite_file($Clusters-sprites, $name);
+    @return image-height($file);
+  }
+
+
+// Use this to set the dimensions of an element
+// based on the size of the original image.
+@mixin Clusters-sprite-dimensions($name) {
+  @include sprite-dimensions($Clusters-sprites, $name)
+}
+
+// Move the background position to display the sprite.
+@mixin Clusters-sprite-position($name, $offset-x: 0, $offset-y: 0) {
+  @include sprite-background-position($Clusters-sprites, $name, $offset-x, $offset-y)
+}
+
+// Extends the sprite base class and set the background position for the desired sprite.
+// It will also apply the image dimensions if $dimensions is true.
+@mixin Clusters-sprite($name, $dimensions: $Clusters-sprite-dimensions, $offset-x: 0, $offset-y: 0) {
+  @extend #{$Clusters-sprite-base-class};
+  @include sprite($Clusters-sprites, $name, $dimensions, $offset-x, $offset-y)
+}
+
+@mixin Clusters-sprites($sprite-names, $dimensions: $Clusters-sprite-dimensions, $prefix: sprite-map-name($Clusters-sprites), $offset-x: 0, $offset-y: 0) {
+  @include sprites($Clusters-sprites, $sprite-names, $Clusters-sprite-base-class, $dimensions, $prefix, $offset-x, $offset-y)
+}
+
+// Generates a class for each sprited image.
+@mixin all-Clusters-sprites($dimensions: $Clusters-sprite-dimensions, $prefix: sprite-map-name($Clusters-sprites), $offset-x: 0, $offset-y: 0) {
+  @include Clusters-sprites(cccm coordination early-recovery education emergency-telecommunications food-security grey-s8e6e32aa57 health logistics nutrition protection shelters wash, $dimensions, $prefix, $offset-x, $offset-y);
+}:@has_childrenT:@options{ :@children[Go:Sass::Tree::ImportNode:@imported_file0:@imported_filename"#compass/utilities/sprites/base;0;@;	[ :
+@lineio:Sass::Tree::CommentNode
+:
+@type:silent:@value["X/* General Sprite Defaults
+ * You can override them before you import this file. */;@;	[ ;io:Sass::Tree::VariableNode:@guarded"!default:
+@name"Clusters-sprite-base-class:
+@expro:Sass::Script::String	;:string;".Clusters-sprite;@;i
+;@;	[ ;i
+o;;"!default;"Clusters-sprite-dimensions;o:Sass::Script::Bool;F;@;i;@;	[ ;io;;"!default;"Clusters-position;o:Sass::Script::Number:@denominator_units[ :@numerator_units["%;i :@original"0%;@;i;@;	[ ;io;;"!default;"Clusters-spacing;o;;[ ;[ ;i ;"0;@;i;@;	[ ;io;;"!default;"Clusters-repeat;o;	;:identifier;"no-repeat;@;i;@;	[ ;io;;"!default;"Clusters-prefix;o;	;;;" ;@;i;@;	[ ;io;;"!default;"Clusters-clean-up;o;;T;@;i;@;	[ ;io;;"!default;"Clusters-layout;o;	;;;"vertical;@;i;@;	[ ;io;;"!default;"Clusters-inline;o;;F;@;i;@;	[ ;io;
+;;;["{/* These variables control the generated sprite output
+ * You can override them selectively before you import this file. */;@;	[ ;io;;"!default;"Clusters-cccm-position;o:Sass::Script::Variable	;"Clusters-position;@:@underscored_name"Clusters_position;i;@;	[ ;io;;"!default;"Clusters-cccm-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i;@;	[ ;io;;"!default;"Clusters-cccm-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i;@;	[ ;io;;"!default;"#Clusters-coordination-position;o;	;"Clusters-position;@;"Clusters_position;i;@;	[ ;io;;"!default;""Clusters-coordination-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i;@;	[ ;io;;"!default;"!Clusters-coordination-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i;@;	[ ;io;;"!default;"%Clusters-early-recovery-position;o;	;"Clusters-position;@;"Clusters_position;i ;@;	[ ;i o;;"!default;"$Clusters-early-recovery-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i!;@;	[ ;i!o;;"!default;"#Clusters-early-recovery-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i";@;	[ ;i"o;;"!default;" Clusters-education-position;o;	;"Clusters-position;@;"Clusters_position;i$;@;	[ ;i$o;;"!default;"Clusters-education-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i%;@;	[ ;i%o;;"!default;"Clusters-education-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i&;@;	[ ;i&o;;"!default;"3Clusters-emergency-telecommunications-position;o;	;"Clusters-position;@;"Clusters_position;i(;@;	[ ;i(o;;"!default;"2Clusters-emergency-telecommunications-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i);@;	[ ;i)o;;"!default;"1Clusters-emergency-telecommunications-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i*;@;	[ ;i*o;;"!default;"$Clusters-food-security-position;o;	;"Clusters-position;@;"Clusters_position;i,;@;	[ ;i,o;;"!default;"#Clusters-food-security-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i-;@;	[ ;i-o;;"!default;""Clusters-food-security-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i.;@;	[ ;i.o;;"!default;"'Clusters-grey-s8e6e32aa57-position;o;	;"Clusters-position;@;"Clusters_position;i0;@;	[ ;i0o;;"!default;"&Clusters-grey-s8e6e32aa57-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i1;@;	[ ;i1o;;"!default;"%Clusters-grey-s8e6e32aa57-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i2;@;	[ ;i2o;;"!default;"Clusters-health-position;o;	;"Clusters-position;@;"Clusters_position;i4;@;	[ ;i4o;;"!default;"Clusters-health-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i5;@;	[ ;i5o;;"!default;"Clusters-health-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i6;@;	[ ;i6o;;"!default;" Clusters-logistics-position;o;	;"Clusters-position;@;"Clusters_position;i8;@;	[ ;i8o;;"!default;"Clusters-logistics-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i9;@;	[ ;i9o;;"!default;"Clusters-logistics-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i:;@;	[ ;i:o;;"!default;" Clusters-nutrition-position;o;	;"Clusters-position;@;"Clusters_position;i<;@;	[ ;i<o;;"!default;"Clusters-nutrition-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;i=;@;	[ ;i=o;;"!default;"Clusters-nutrition-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;i>;@;	[ ;i>o;;"!default;"!Clusters-protection-position;o;	;"Clusters-position;@;"Clusters_position;i@;@;	[ ;i@o;;"!default;" Clusters-protection-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;iA;@;	[ ;iAo;;"!default;"Clusters-protection-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;iB;@;	[ ;iBo;;"!default;"Clusters-shelters-position;o;	;"Clusters-position;@;"Clusters_position;iD;@;	[ ;iDo;;"!default;"Clusters-shelters-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;iE;@;	[ ;iEo;;"!default;"Clusters-shelters-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;iF;@;	[ ;iFo;;"!default;"Clusters-wash-position;o;	;"Clusters-position;@;"Clusters_position;iH;@;	[ ;iHo;;"!default;"Clusters-wash-spacing;o;	;"Clusters-spacing;@;"Clusters_spacing;iI;@;	[ ;iIo;;"!default;"Clusters-wash-repeat;o;	;"Clusters-repeat;@;"Clusters_repeat;iJ;@;	[ ;iJo;;0;"Clusters-sprites;o:Sass::Script::Funcall;"sprite-map:@keywords{."!Clusters_protection_positiono;	;"!Clusters-protection-position;@;"!Clusters_protection_position;iw"Clusters_nutrition_repeato;	;"Clusters-nutrition-repeat;@;"Clusters_nutrition_repeat;iu" Clusters_logistics_positiono;	;" Clusters-logistics-position;@;" Clusters_logistics_position;io"Clusters_wash_positiono;	;"Clusters-wash-position;@;"Clusters_wash_position;i"Clusters_logistics_repeato;	;"Clusters-logistics-repeat;@;"Clusters_logistics_repeat;iq"$Clusters_food_security_positiono;	;"$Clusters-food-security-position;@;"$Clusters_food_security_position;ic" Clusters_education_positiono;	;" Clusters-education-position;@;" Clusters_education_position;i["!Clusters_coordination_repeato;	;"!Clusters-coordination-repeat;@;"!Clusters_coordination_repeat;iU"Clusters_health_spacingo;	;"Clusters-health-spacing;@;"Clusters_health_spacing;il"#Clusters_food_security_spacingo;	;"#Clusters-food-security-spacing;@;"#Clusters_food_security_spacing;id"1Clusters_emergency_telecommunications_repeato;	;"1Clusters-emergency-telecommunications-repeat;@;"1Clusters_emergency_telecommunications_repeat;ia"Clusters_cccm_repeato;	;"Clusters-cccm-repeat;@;"Clusters_cccm_repeat;iQ"cleanupo;	;"Clusters-clean-up;@;"Clusters_clean_up;i"Clusters_health_repeato;	;"Clusters-health-repeat;@;"Clusters_health_repeat;im"&Clusters_grey_s8e6e32aa57_spacingo;	;"&Clusters-grey-s8e6e32aa57-spacing;@;"&Clusters_grey_s8e6e32aa57_spacing;ih"%Clusters_early_recovery_positiono;	;"%Clusters-early-recovery-position;@;"%Clusters_early_recovery_position;iW"Clusters_shelters_spacingo;	;"Clusters-shelters-spacing;@;"Clusters_shelters_spacing;i|"Clusters_nutrition_spacingo;	;"Clusters-nutrition-spacing;@;"Clusters_nutrition_spacing;it" Clusters_nutrition_positiono;	;" Clusters-nutrition-position;@;" Clusters_nutrition_position;is""Clusters_food_security_repeato;	;""Clusters-food-security-repeat;@;""Clusters_food_security_repeat;ie"2Clusters_emergency_telecommunications_spacingo;	;"2Clusters-emergency-telecommunications-spacing;@;"2Clusters_emergency_telecommunications_spacing;i`"Clusters_cccm_positiono;	;"Clusters-cccm-position;@;"Clusters_cccm_position;iO" Clusters_protection_spacingo;	;" Clusters-protection-spacing;@;" Clusters_protection_spacing;ix"'Clusters_grey_s8e6e32aa57_positiono;	;"'Clusters-grey-s8e6e32aa57-position;@;"'Clusters_grey_s8e6e32aa57_position;ig"#Clusters_early_recovery_repeato;	;"#Clusters-early-recovery-repeat;@;"#Clusters_early_recovery_repeat;iY""Clusters_coordination_spacingo;	;""Clusters-coordination-spacing;@;""Clusters_coordination_spacing;iT"layouto;	;"Clusters-layout;@;"Clusters_layout;i~"Clusters_shelters_repeato;	;"Clusters-shelters-repeat;@;"Clusters_shelters_repeat;i}"Clusters_cccm_spacingo;	;"Clusters-cccm-spacing;@;"Clusters_cccm_spacing;iP"Clusters_wash_repeato;	;"Clusters-wash-repeat;@;"Clusters_wash_repeat;i|"%Clusters_grey_s8e6e32aa57_repeato;	;"%Clusters-grey-s8e6e32aa57-repeat;@;"%Clusters_grey_s8e6e32aa57_repeat;ii"3Clusters_emergency_telecommunications_positiono;	;"3Clusters-emergency-telecommunications-position;@;"3Clusters_emergency_telecommunications_position;i_"Clusters_education_repeato;	;"Clusters-education-repeat;@;"Clusters_education_repeat;i]"$Clusters_early_recovery_spacingo;	;"$Clusters-early-recovery-spacing;@;"$Clusters_early_recovery_spacing;iX"Clusters_wash_spacingo;	;"Clusters-wash-spacing;@;"Clusters_wash_spacing;i{"Clusters_shelters_positiono;	;"Clusters-shelters-position;@;"Clusters_shelters_position;i{"Clusters_protection_repeato;	;"Clusters-protection-repeat;@;"Clusters_protection_repeat;iy"Clusters_logistics_spacingo;	;"Clusters-logistics-spacing;@;"Clusters_logistics_spacing;ip"Clusters_health_positiono;	;"Clusters-health-position;@;"Clusters_health_position;ik"#Clusters_coordination_positiono;	;"#Clusters-coordination-position;@;"#Clusters_coordination_position;iS"Clusters_education_spacingo;	;"Clusters-education-spacing;@;"Clusters_education_spacing;i\;@:@splat0;i€:
+@args[o;	;;;"icons/38/Clusters/*.png;@;iM;@;	[ ;i€o;
+;;;["`/* All sprites should extend this class
+ * The Clusters-sprite mixin will do so for you. */;@;	[ ;iƒu:Sass::Tree::IfNodeÞ[o:Sass::Script::Variable	:
+@name"Clusters-inline:@options{ :@underscored_name"Clusters_inline:
+@linei…u:Sass::Tree::IfNodeÚ[00[o:Sass::Tree::RuleNode:@has_childrenT:@options{ :
+@tabsi :@children[o:Sass::Tree::PropNode:
+@name["background:@valueo:Sass::Script::List	;[o:Sass::Script::Variable	;"Clusters-sprites;@:@underscored_name"Clusters_sprites:
+@linei‹o:Sass::Script::String	:
+@type:identifier;"no-repeat;@;i‹;@:@separator:
+space;i‹:@prop_syntax:new;@;i ;	[ ;i‹;iŠ:
+@rule[o;	;"Clusters-sprite-base-class;@;"Clusters_sprite_base_class;iŠ[o:Sass::Tree::RuleNode:@has_childrenT;@:
+@tabsi :@children[o:Sass::Tree::PropNode;["background-image:@valueo:Sass::Script::Funcall;"inline-sprite:@keywords{ ;@:@splat0;	i‡:
+@args[o; 	;"Clusters-sprites;@;"Clusters_sprites;	i‡:@prop_syntax:new;@;i ;[ ;	i‡;	i†:
+@rule[o; 	;"Clusters-sprite-base-class;@;"Clusters_sprite_base_class;	i†o;
+;;;["L/*sass functions to return the dimensions of a sprite image as units */;@;	[ ;iŽo:Sass::Tree::FunctionNode;"Clusters-sprite-width;T;@;	[o;;0;"	file;o; ;"sprite_file;!{ ;@;"0;i‘;#[o;	;"Clusters-sprites;@;"Clusters_sprites;i‘o;	;"	name;@;"	name;i‘;@;	[ ;i‘o:Sass::Tree::ReturnNode	;o; ;"image-width;!{ ;@;"0;i’;#[o;	;"	file;@;"	file;i’;@;	[ ;i’;"0;i;#[[o;;"	name;@;"	name0o;%;"Clusters-sprite-height;T;@;	[o;;0;"	file;o; ;"sprite_file;!{ ;@;"0;i–;#[o;	;"Clusters-sprites;@;"Clusters_sprites;i–o;	;"	name;@;"	name;i–;@;	[ ;i–o;&	;o; ;"image-height;!{ ;@;"0;i—;#[o;	;"	file;@;"	file;i—;@;	[ ;i—;"0;i•;#[[o;;"	name;@;"	name0o;
+;;;["c/* Use this to set the dimensions of an element
+ * based on the size of the original image. */;@;	[ ;i›o:Sass::Tree::MixinDefNode;"Clusters-sprite-dimensions;T;@;	[o:Sass::Tree::MixinNode;"sprite-dimensions;!{ ;@;	[ ;"0;iŸ;#[o;	;"Clusters-sprites;@;"Clusters_sprites;ižo;	;"	name;@;"	name;iž;"0;i;#[[o;;"	name;@;"	name0o;
+;;;[">/* Move the background position to display the sprite. */;@;	[ ;i¡o;';"Clusters-sprite-position;T;@;	[o;(;"sprite-background-position;!{ ;@;	[ ;"0;i¤;#[	o;	;"Clusters-sprites;@;"Clusters_sprites;i£o;	;"	name;@;"	name;i£o;	;"offset-x;@;"offset_x;i£o;	;"offset-y;@;"offset_y;i£;"0;i¢;#[[o;;"	name;@;"	name0[o;;"offset-x;@;"offset_xo;;@(;[ ;i ;"0;@;i¢[o;;"offset-y;@;"offset_yo;;@(;[ ;i ;"0;@;i¢o;
+;;;["ž/* Extends the sprite base class and set the background position for the desired sprite.
+ * It will also apply the image dimensions if $dimensions is true. */;@;	[ ;i¦o;';"Clusters-sprite;T;@;	[o:Sass::Tree::ExtendNode
+:@selector[o;	;"Clusters-sprite-base-class;@;"Clusters_sprite_base_class;i©:@optionalF;@;	[ ;i©o;(;"sprite;!{ ;@;	[ ;"0;i«;#[
+o;	;"Clusters-sprites;@;"Clusters_sprites;iªo;	;"	name;@;"	name;iªo;	;"dimensions;@;"dimensions;iªo;	;"offset-x;@;"offset_x;iªo;	;"offset-y;@;"offset_y;iª;"0;i¨;#[	[o;;"	name;@;"	name0[o;;"dimensions;@;"dimensionso;	;"Clusters-sprite-dimensions;@;"Clusters_sprite_dimensions;i¨[o;;"offset-x;@;"offset_xo;;@(;[ ;i ;"0;@;i¨[o;;"offset-y;@;"offset_yo;;@(;[ ;i ;"0;@;i¨o;';"Clusters-sprites;T;@;	[o;(;"sprites;!{ ;@;	[ ;"0;i¯;#[o;	;"Clusters-sprites;@;"Clusters_sprites;i®o;	;"sprite-names;@;"sprite_names;i®o;	;"Clusters-sprite-base-class;@;"Clusters_sprite_base_class;i®o;	;"dimensions;@;"dimensions;i®o;	;"prefix;@;"prefix;i®o;	;"offset-x;@;"offset_x;i®o;	;"offset-y;@;"offset_y;i®;"0;i­;#[
+[o;;"sprite-names;@;"sprite_names0[o;;"dimensions;@;"dimensionso;	;"Clusters-sprite-dimensions;@;"Clusters_sprite_dimensions;i­[o;;"prefix;@;"prefixo; ;"sprite-map-name;!{ ;@;"0;i­;#[o;	;"Clusters-sprites;@;"Clusters_sprites;i­[o;;"offset-x;@;"offset_xo;;@(;[ ;i ;"0;@;i­[o;;"offset-y;@;"offset_yo;;@(;[ ;i ;"0;@;i­o;
+;;;["4/* Generates a class for each sprited image. */;@;	[ ;i±o;';"all-Clusters-sprites;T;@;	[o;(;"Clusters-sprites;!{ ;@;	[ ;"0;i³;#[
+o:Sass::Script::List	;[o;	;;;"	cccm;@;i³o;	;;;"coordination;@;i³o;	;;;"early-recovery;@;i³o;	;;;"education;@;i³o;	;;;"!emergency-telecommunications;@;i³o;	;;;"food-security;@;i³o;	;;;"grey-s8e6e32aa57;@;i³o;	;;;"health;@;i³o;	;;;"logistics;@;i³o;	;;;"nutrition;@;i³o;	;;;"protection;@;i³o;	;;;"shelters;@;i³o;	;;;"	wash;@;i³;@:@separator:
+space;i³o;	;"dimensions;@;"dimensions;i³o;	;"prefix;@;"prefix;i³o;	;"offset-x;@;"offset_x;i³o;	;"offset-y;@;"offset_y;i³;"0;i²;#[	[o;;"dimensions;@;"dimensionso;	;"Clusters-sprite-dimensions;@;"Clusters_sprite_dimensions;i²[o;;"prefix;@;"prefixo; ;"sprite-map-name;!{ ;@;"0;i²;#[o;	;"Clusters-sprites;@;"Clusters_sprites;i²[o;;"offset-x;@;"offset_xo;;@(;[ ;i ;"0;@;i²[o;;"offset-y;@;"offset_yo;;@(;[ ;i ;"0;@;i²;i
