@@ -107,7 +107,7 @@
 <footer id="footer" class="footer" role="footer">
   <div class="container">
     <div id="footer-first" class="col-md-3">
-      <p><a href="http://www.humanitarianresponse.info" target="_blank">HumanitarianResponse.info</a> is provided by UN OCHA to support humanitarian operations globally</p><p><a href="http://www.humanitarianresponse.info/about" target="_blank">Learn more about HumanitarianResponse.info</a></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
+      <p><a href="http://www.humanitarianresponse.info" target="_blank">HumanitarianResponse.info</a> is provided by UN OCHA to support humanitarian operations globally</p><p><a href="http://www.humanitarianresponse.info/about" target="_blank">Learn more about HumanitarianResponse.info</a></p><p><a href="https://www.humanitarianresponse.info/about/news">Read our Blog</a></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
     </div>
     <div id="footer-second" class="col-md-6">
       <div class="col-md-3">
@@ -137,7 +137,8 @@
       <i class="fa fa-envelope"></i> <a href="mailto:info@humanitarianresponse.info">info@humanitarianresponse.info</a><br />
       <i class="fa fa-question-circle"></i> <a href="mailto:help@humanitarianresponse.info">help@humanitarianresponse.info</a><br />
       <i class="fa fa-info-circle"></i> <a href="http://www.humanitarianresponse.info">humanitarianresponse.info</a><br />
-      <i class="fa fa-rss-square"></i> <a href="/feed">RSS feed</a>
+      <i class="fa fa-rss-square"></i> <a href="/feed">RSS feed</a><br />
+      <i class="fa <?php ($follow_us_link_status == 'flag') ? print 'fa-check' : print 'fa-times'; ?>"></i> <a href="<?php print $follow_us_link_href; ?>"><?php print $follow_us_link_title; ?></a>
     </div>
   </div>
 </footer>

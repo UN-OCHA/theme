@@ -56,8 +56,58 @@ function humanitarianresponse_preprocess_page(&$variables) {
     'alt' => 'Header image',
   ));
 
-  // Add copyright to theme.
-  if ($copyright = theme_get_setting('copyright')) {
-    $variables['copyright'] = check_markup($copyright['value'], $copyright['format']);
+  if (user_is_anonymous()) {
+    $variables['follow_us_link_href'] = 'user/login';
+    $variables['follow_us_link_title'] = t('Login to follow us');
+    $variables['follow_us_link_status'] = 'flag';
   }
+  else {
+    $temp = _humanitarianresponse_flag_follow_us();
+    $variables['follow_us_link_href'] = $temp['link_href'];
+    $variables['follow_us_link_title'] = $temp['link_title'];
+    $variables['follow_us_link_status'] = $temp['link_status'];
+  }
+}
+
+function _humanitarianresponse_flag_follow_us() {
+  global $user;
+  // Some typing shotcuts:
+  $flag = flag_get_flag('hr_follow');
+  $entity_id = 2490; // Hardcoded nid of the "About" space
+  $action = $flag->is_flagged($entity_id) ? 'unflag' : 'flag';
+
+  // Generate the link URL.
+  $link_type = $flag->get_link_type();
+  $link = module_invoke($link_type['module'], 'flag_link', $flag, $action, $entity_id);
+  if (isset($link['title']) && empty($link['html'])) {
+    $link['title'] = check_plain($link['title']);
+  }
+
+  // Replace the link with the access denied text if unable to flag.
+  if ($action == 'unflag' && !$flag->access($entity_id, 'unflag')) {
+    $link['title'] = $flag->get_label('unflag_denied_text', $entity_id);
+    unset($link['href']);
+  }
+
+  // Anonymous users always need the JavaScript to maintain their flag state.
+  if ($user->uid == 0) {
+    $link_type['uses standard js'] = TRUE;
+  }
+
+  // Load the JavaScript/CSS, if the link type requires it.
+  if (!isset($initialized[$link_type['name']])) {
+    if ($link_type['uses standard css']) {
+      drupal_add_css(drupal_get_path('module', 'flag') . '/theme/flag.css');
+    }
+    if ($link_type['uses standard js']) {
+      drupal_add_js(drupal_get_path('module', 'flag') . '/theme/flag.js');
+    }
+    $initialized[$link_type['name']] = TRUE;
+  }
+
+  $vars['link_href'] = isset($link['href']) ? check_url(url($link['href'], $link)) : FALSE;
+  $vars['link_title'] = ($action == 'flag' ? t('Follow Us') : t('Stop following us'));
+  $vars['link_status'] = $action;
+  return $vars;
+
 }
