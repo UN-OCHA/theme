@@ -11886,7 +11886,7 @@ body .region-branding input.form-submit {
 }
 /* line 309, ../sass/partials/_view.scss */
 .page-node-events #block-system-main ul.nav-pills {
-  margin: 15px 0;
+  margin: 5px 15px 15px;
 }
 
 /* line 314, ../sass/partials/_view.scss */
