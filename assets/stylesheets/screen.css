@@ -11440,6 +11440,7 @@ body .region-branding input.form-submit {
 
 /* line 300, ../sass/partials/_page.scss */
 .openlayers-tooltip-name {
+  font-family: Exo;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
@@ -11448,7 +11449,7 @@ body .region-branding input.form-submit {
   padding-bottom: 3px;
 }
 
-/* line 308, ../sass/partials/_page.scss */
+/* line 309, ../sass/partials/_page.scss */
 #popup a {
   color: white;
 }
