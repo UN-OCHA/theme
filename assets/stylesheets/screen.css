@@ -11923,6 +11923,17 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   display: block;
 }
 
+/* line 352, ../sass/partials/_view.scss */
+.view-id-hr_users .views-row {
+  padding: 10px;
+  min-height: 90px;
+}
+/* line 356, ../sass/partials/_view.scss */
+.view-id-hr_users .views-row .views-field-picture {
+  float: left;
+  margin-right: 10px;
+}
+
 /* line 6, ../sass/partials/_node.scss */
 #block-hr-notifications-hr-follow {
   text-align: center;
