@@ -297,13 +297,16 @@ body .region-branding {
 
 
 //openlayer map 
-.openlayers-tooltip-name, 
-.openlayers-tooltip-name a {
-	font-size: 16px;
+.openlayers-tooltip-name {
+	font-size: 15px;
 	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #FFF;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
 }
 #popup a {
-	color: lighten($p-main, 10%);
+	color: white;
 }
 
 
