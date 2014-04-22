@@ -11441,7 +11441,11 @@ body .region-branding input.form-submit {
 .openlayers-tooltip-name a {
   font-size: 16px;
   font-weight: bold;
-  color: #dd737e;
+}
+
+/* line 305, ../sass/partials/_page.scss */
+#popup a {
+  color: #d34a58;
 }
 
 /* line 130, icons/38/Clusters/grey/*.png */
