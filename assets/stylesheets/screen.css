@@ -11450,6 +11450,12 @@ body .region-branding input.form-submit {
 }
 
 /* line 309, ../sass/partials/_page.scss */
+.openlayers-tooltip-description {
+  color: #a6a6a6;
+  font-weight: normal;
+}
+
+/* line 313, ../sass/partials/_page.scss */
 #popup a {
   color: white;
 }
