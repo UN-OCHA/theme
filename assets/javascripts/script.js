@@ -14,6 +14,10 @@
 			$(this).toggleClass('opened').next('.content').slideToggle('fast');
 		});
 
+		$("#sidebar-first .block.block-facetapi .facetapi-active").each(function() {
+			$(this).closest('.content').show().prev("h2").addClass("opened");
+		});
+
 
 	});
 
