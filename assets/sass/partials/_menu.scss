@@ -342,8 +342,12 @@
 								color: $p-main;
 								width: 11px;
 								height: 11px;
-								text-indent: 99px;
-								background: url(../images/bgfilteractive.png) no-repeat center center transparent;
+								background: url(../images/bgfilteractive.png) no-repeat center center rgba(0, 0, 0, 0);
+								display: inline-block;
+								position: absolute;
+								font-size: 0;
+								top: 4px;
+								left: -15px;
 							}
 						}
 					}
