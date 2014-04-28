@@ -397,6 +397,10 @@
 					background-color: #dfdfdf;	
 					padding: 0 7px;
 
+					a {
+						padding-left: 14px;
+					}
+
 					&.first {
 						padding-top: 7px;
 					}	
@@ -419,7 +423,7 @@
 						text-transform: uppercase;
 						color: #525252;
 						font-size: 13px;
-						margin-bottom: 5px;
+						margin-bottom: 0px;
 						display: block;
 
 						.caret {
@@ -446,16 +450,10 @@
 
 							a {
 								display: block;
-								padding-left: 13px;
+								padding-left: 20px;
 
 								&:hover {
 									background-color: rgba(255,255,255,0.2);
-								}
-							}
-
-							li {
-								a {
-									padding-left: 20px;
 								}
 							}
 						}
