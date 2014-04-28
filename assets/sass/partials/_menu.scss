@@ -333,6 +333,17 @@
 								padding-right: 6px;
 							}
 						}
+
+						&.redactive {
+							color:$p-main;
+							a {
+								color: $p-main;
+								width: 11px;
+								height: 11px;
+								text-indent: 99px;
+								background: url(../images/bgfilteractive.png) no-repeat center center transparent;
+							}
+						}
 					}
 				}
 

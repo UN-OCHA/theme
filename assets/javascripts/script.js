@@ -16,8 +16,8 @@
 
 		$("#sidebar-first .block.block-facetapi .facetapi-active").each(function() {
 			$(this).closest('.content').show().prev("h2").addClass("opened");
+			$(this).parent().addClass('redactive');
 		});
-
 
 	});
 
