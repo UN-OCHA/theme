@@ -410,6 +410,10 @@
 						margin-bottom: 15px;
 					}
 
+					&.expanded + li {
+						margin-top: -15px;
+					}
+
 					.nolink {
 						font-weight: bold;
 						text-transform: uppercase;
@@ -448,9 +452,11 @@
 								}
 							}
 
-							li {
-								a {
-									padding-left: 13px;
+							ul {
+								li {
+									a {
+										padding-left: 13px;
+									}
 								}
 							}
 						}
