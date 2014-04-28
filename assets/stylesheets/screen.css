@@ -11130,21 +11130,18 @@ div.region-top div.block {
 /* line 450, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover, #sidebar-first .block.block-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
-}
-/* line 457, ../sass/partials/_menu.scss */
-#sidebar-first .block.block-og-menu ul.menu li ul li ul li a, #sidebar-first .block.block-menu ul.menu li ul li ul li a {
   padding-left: 13px;
 }
 
-/* line 477, ../sass/partials/_menu.scss */
+/* line 470, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 480, ../sass/partials/_menu.scss */
+/* line 473, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 483, ../sass/partials/_menu.scss */
+/* line 476, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
