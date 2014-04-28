@@ -319,6 +319,7 @@
 						list-style: none;
 						list-style-type: none;
 						list-style-image: none;
+						position: relative;
 
 						a {
 							color: black;
@@ -336,6 +337,7 @@
 
 						&.redactive {
 							color:$p-main;
+							margin-left: 23px;
 							a {
 								color: $p-main;
 								width: 11px;
