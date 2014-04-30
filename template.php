@@ -43,7 +43,12 @@ function humanitarianresponse_preprocess_page(&$variables) {
       $og_group = entity_load('node', array($gid));
       $og_group = $og_group[$gid];
       $uri = entity_uri('node', $og_group);
-      $variables['og_group'] = l($og_group->title, $uri['path'], $uri['options']);
+      if ($og_group->status) { // Group is published
+        $variables['og_group'] = l($og_group->title, $uri['path'], $uri['options']);
+      }
+      else {
+        $variables['og_group'] = '<a href="#">'.$og_group->title.'</a>';
+      }
       $group_img_path = '/assets/images/headers/'.$og_group->type.'/'.strtolower(str_replace(array(' ','/'), '-', $og_group->title)).'.png';
       if (file_exists(dirname(__FILE__).$group_img_path)) {
         $header_img_path = $theme_path.$group_img_path;
