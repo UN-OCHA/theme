@@ -12278,6 +12278,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   margin-right: 10px;
 }
 
+/* line 364, ../sass/partials/_view.scss */
+.block-mefibs .views-submit-button {
+  display: none;
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;

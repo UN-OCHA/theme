@@ -360,15 +360,7 @@ a.fc-event, .fc-event-draggable {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+// Hide submit button from exposed sorts
+.block-mefibs .views-submit-button {
+  display: none;
+}
