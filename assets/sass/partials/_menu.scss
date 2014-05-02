@@ -338,7 +338,8 @@
 						&.redactive {
 							color:$p-main;
 							margin-left: 23px;
-							a {
+							margin-top: 5px;
+							> a {
 								color: $p-main;
 								width: 11px;
 								height: 11px;
