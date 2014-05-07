@@ -33,6 +33,7 @@ body {
 
 a {
 	color: $p-main;
+	word-wrap: break-word;
 
 	&:hover {
 		color: darken($p-main, 10%);
