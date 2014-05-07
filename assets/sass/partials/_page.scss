@@ -97,6 +97,9 @@ body div.messages {
 
 body table, body .table {
 
+	table-layout: fixed;
+	word-wrap: break-word;
+
 	&.table-bordered {
 		border-color: white;
 	}
