@@ -11610,27 +11610,32 @@ body table tbody tr td, body .table tbody tr td {
   border-color: #FFFFFF;
 }
 
-/* line 145, ../sass/partials/_page.scss */
+/* line 141, ../sass/partials/_page.scss */
+.form-item table {
+  table-layout: auto;
+}
+
+/* line 148, ../sass/partials/_page.scss */
 .front #main > .container {
   background-image: url("../images/banner_home.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 151, ../sass/partials/_page.scss */
+/* line 154, ../sass/partials/_page.scss */
 .front .container.header {
   margin-bottom: 0;
 }
-/* line 155, ../sass/partials/_page.scss */
+/* line 158, ../sass/partials/_page.scss */
 .front #content-wrapper {
   margin-top: 110px;
 }
 
-/* line 161, ../sass/partials/_page.scss */
+/* line 164, ../sass/partials/_page.scss */
 #content {
   padding: 0;
 }
 
-/* line 167, ../sass/partials/_page.scss */
+/* line 170, ../sass/partials/_page.scss */
 .thumbnail {
   display: block;
   padding: 10px;
@@ -11644,11 +11649,11 @@ body table tbody tr td, body .table tbody tr td {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
 }
-/* line 179, ../sass/partials/_page.scss */
+/* line 182, ../sass/partials/_page.scss */
 .thumbnail p {
   margin: 0;
 }
-/* line 183, ../sass/partials/_page.scss */
+/* line 186, ../sass/partials/_page.scss */
 .thumbnail .caption {
   text-align: center;
   background-color: #494949;
@@ -11659,72 +11664,72 @@ body table tbody tr td, body .table tbody tr td {
   padding-right: 0;
 }
 @media screen and (max-width: 1200px) {
-  /* line 183, ../sass/partials/_page.scss */
+  /* line 186, ../sass/partials/_page.scss */
   .thumbnail .caption {
     font-size: 10px;
   }
 }
 
-/* line 201, ../sass/partials/_page.scss */
+/* line 204, ../sass/partials/_page.scss */
 #footer .container {
   background-color: #F8F8F8;
   padding-bottom: 20px;
   padding-top: 1em;
 }
-/* line 208, ../sass/partials/_page.scss */
+/* line 211, ../sass/partials/_page.scss */
 #footer .container #footer-second img {
   margin: 10px;
   max-width: 100%;
   max-height: 45px;
 }
 
-/* line 217, ../sass/partials/_page.scss */
+/* line 220, ../sass/partials/_page.scss */
 .page-header {
   border: none;
 }
 
-/* line 221, ../sass/partials/_page.scss */
+/* line 224, ../sass/partials/_page.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #54b1c8;
   font-weight: bold;
 }
 
-/* line 228, ../sass/partials/_page.scss */
+/* line 231, ../sass/partials/_page.scss */
 h1 {
   font-size: 28px;
 }
 
-/* line 232, ../sass/partials/_page.scss */
+/* line 235, ../sass/partials/_page.scss */
 h2 {
   font-size: 23.8px;
 }
 
-/* line 236, ../sass/partials/_page.scss */
+/* line 239, ../sass/partials/_page.scss */
 h3 {
   font-size: 19.6px;
 }
 
-/* line 240, ../sass/partials/_page.scss */
+/* line 243, ../sass/partials/_page.scss */
 h4 {
   font-size: 15.4px;
 }
 
-/* line 244, ../sass/partials/_page.scss */
+/* line 247, ../sass/partials/_page.scss */
 h5 {
   font-size: 11.2px;
 }
 
-/* line 248, ../sass/partials/_page.scss */
+/* line 251, ../sass/partials/_page.scss */
 h6 {
   font-size: 7px;
 }
 
-/* line 252, ../sass/partials/_page.scss */
+/* line 255, ../sass/partials/_page.scss */
 .view-content.row {
   margin: 0;
 }
 
-/* line 260, ../sass/partials/_page.scss */
+/* line 263, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   padding: 2px 4px;
   font-size: 12px;
@@ -11734,13 +11739,13 @@ body .region-branding input.form-text {
   height: auto;
   box-shadow: 0;
 }
-/* line 269, ../sass/partials/_page.scss */
+/* line 272, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
   outline: 0 none;
   box-shadow: 0;
 }
-/* line 276, ../sass/partials/_page.scss */
+/* line 279, ../sass/partials/_page.scss */
 body .region-branding input.form-submit {
   border: none;
   padding: 2px 4px;
@@ -11755,12 +11760,12 @@ body .region-branding input.form-submit {
   margin-top: 0 !important;
 }
 
-/* line 297, ../sass/partials/_page.scss */
+/* line 300, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
 
-/* line 304, ../sass/partials/_page.scss */
+/* line 307, ../sass/partials/_page.scss */
 .openlayers-tooltip-name {
   font-family: Exo;
   font-size: 15px;
@@ -11771,18 +11776,18 @@ body .region-branding input.form-submit {
   padding-bottom: 3px;
 }
 
-/* line 313, ../sass/partials/_page.scss */
+/* line 316, ../sass/partials/_page.scss */
 .openlayers-tooltip-description strong {
   color: #a6a6a6;
   font-weight: normal;
 }
 
-/* line 317, ../sass/partials/_page.scss */
+/* line 320, ../sass/partials/_page.scss */
 #popup a {
   color: white;
 }
 
-/* line 320, ../sass/partials/_page.scss */
+/* line 323, ../sass/partials/_page.scss */
 #popup a:hover {
   color: #e6e6e6;
 }
