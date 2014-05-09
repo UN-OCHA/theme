@@ -12140,7 +12140,7 @@ body .region-branding input.form-submit {
   height: 100%;
 }
 /* line 190, ../sass/partials/_view.scss */
-.node-search-result h2 {
+.node-search-result > h2 {
   font-size: 16px;
   font-weight: bold;
   background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
@@ -12149,7 +12149,7 @@ body .region-branding input.form-submit {
   margin-top: 16px;
 }
 /* line 198, ../sass/partials/_view.scss */
-.node-search-result h2 a {
+.node-search-result > h2 a {
   color: #55B1C8;
 }
 /* line 204, ../sass/partials/_view.scss */
