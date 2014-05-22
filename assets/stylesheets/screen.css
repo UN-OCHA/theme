@@ -12195,7 +12195,7 @@ label {
 }
 
 /* line 24, ../sass/partials/_node.scss */
-.page-node.node-type-hr-document #page-header {
+.page-node.node-type-hr-document #page-header .title {
   display: none;
 }
 
