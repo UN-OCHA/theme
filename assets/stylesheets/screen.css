@@ -12295,6 +12295,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   display: none;
 }
 
+/* line 369, ../sass/partials/_view.scss */
+.hr-highlighted .pane-content .openlayers-popup ul {
+  color: #EEEEEE;
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;
