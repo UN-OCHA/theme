@@ -21,11 +21,13 @@
 }
 
 // Content types
-.page-node.node-type-hr-document #page-header .title {
+.page-node.node-type-hr-document #page-header .title,
+.page-node.node-type-hr-infographic #page-header .title {
   display: none;
 }
 
-.node-full.node-hr-document {
+.node-full.node-hr-document,
+.node-full.node-hr-infographic {
 
   .container {
     background-color: #F9F9F9;
@@ -106,6 +108,22 @@
       }
     }
   }
+
+  &.node-hr-infographic .container {
+    border-right: 5px solid $p-visuals;
+    .row .content .pane-node-title h2 {
+      background-image: url(../images/RECT_visuals.png);
+      color: $p-visuals;
+    }
+    .sidebar {
+      .field {
+        .field-item,
+        .field-item a {
+          color: $p-visuals;
+        }
+      }
+    }
+  }
 }
 
 // Search results
@@ -165,6 +183,17 @@
                 }
                 &:after {
                         background-color: $p-events;
+                }
+        }
+        &.node-hr-infographic {
+                h2 {
+                        background-image: url(../images/RECT_visuals.png);
+                        a {
+                                color: $p-visuals;
+                        }
+                }
+                &:after {
+                        background-color: $p-visuals;
                 }
         }
 
