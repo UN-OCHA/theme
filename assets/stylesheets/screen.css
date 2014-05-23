@@ -12194,129 +12194,163 @@ label {
   margin-right: auto;
 }
 
-/* line 25, ../sass/partials/_node.scss */
+/* line 26, ../sass/partials/_node.scss */
 .page-node.node-type-hr-document #page-header .title,
-.page-node.node-type-hr-infographic #page-header .title {
+.page-node.node-type-hr-infographic #page-header .title,
+.page-node.node-type-hr-news #page-header .title {
   display: none;
 }
 
-/* line 32, ../sass/partials/_node.scss */
+/* line 34, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container,
-.node-full.node-hr-infographic .container {
+.node-full.node-hr-infographic .container,
+.node-full.node-hr-news .container {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   border-right: 5px solid #55B1C8;
 }
-/* line 38, ../sass/partials/_node.scss */
+/* line 40, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row,
-.node-full.node-hr-infographic .container .row {
+.node-full.node-hr-infographic .container .row,
+.node-full.node-hr-news .container .row {
   overflow: hidden;
 }
-/* line 41, ../sass/partials/_node.scss */
+/* line 43, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content,
-.node-full.node-hr-infographic .container .row .content {
+.node-full.node-hr-infographic .container .row .content,
+.node-full.node-hr-news .container .row .content {
   min-height: 400px;
 }
-/* line 43, ../sass/partials/_node.scss */
+/* line 45, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .panel-separator,
-.node-full.node-hr-infographic .container .row .content .panel-separator {
+.node-full.node-hr-infographic .container .row .content .panel-separator,
+.node-full.node-hr-news .container .row .content .panel-separator {
   display: inline-block;
 }
-/* line 47, ../sass/partials/_node.scss */
+/* line 49, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title,
-.node-full.node-hr-infographic .container .row .content .pane-node-title {
+.node-full.node-hr-infographic .container .row .content .pane-node-title,
+.node-full.node-hr-news .container .row .content .pane-node-title {
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 50, ../sass/partials/_node.scss */
+/* line 52, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-infographic .container .row .content .pane-node-title h2 {
+.node-full.node-hr-infographic .container .row .content .pane-node-title h2,
+.node-full.node-hr-news .container .row .content .pane-node-title h2 {
   font-size: 18px;
   font-weight: bold;
   background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
   color: #55B1C8;
   padding: 20px 20px 20px 79px;
 }
-/* line 60, ../sass/partials/_node.scss */
+/* line 62, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-hr-core-share-button,
 .node-full.node-hr-document .container .row .content .pane-node-field-files-collection,
 .node-full.node-hr-infographic .container .row .content .pane-node-hr-core-share-button,
-.node-full.node-hr-infographic .container .row .content .pane-node-field-files-collection {
+.node-full.node-hr-infographic .container .row .content .pane-node-field-files-collection,
+.node-full.node-hr-news .container .row .content .pane-node-hr-core-share-button,
+.node-full.node-hr-news .container .row .content .pane-node-field-files-collection {
   display: inline-block;
 }
-/* line 65, ../sass/partials/_node.scss */
+/* line 67, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar,
-.node-full.node-hr-infographic .container .row .sidebar {
+.node-full.node-hr-infographic .container .row .sidebar,
+.node-full.node-hr-news .container .row .sidebar {
   margin-bottom: -99999px;
   padding: 0;
   padding-bottom: 99999px;
   background-color: #F1F1F1;
 }
-/* line 71, ../sass/partials/_node.scss */
-.node-full.node-hr-document .container .row .sidebar .field,
-.node-full.node-hr-infographic .container .row .sidebar .field {
+/* line 73, ../sass/partials/_node.scss */
+.node-full.node-hr-document .container .row .sidebar .panel-pane,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane,
+.node-full.node-hr-news .container .row .sidebar .panel-pane {
   padding-bottom: 2em;
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 75, ../sass/partials/_node.scss */
-.node-full.node-hr-document .container .row .sidebar .field .field-label,
-.node-full.node-hr-infographic .container .row .sidebar .field .field-label {
+/* line 78, ../sass/partials/_node.scss */
+.node-full.node-hr-document .container .row .sidebar .panel-pane .field-label,
+.node-full.node-hr-document .container .row .sidebar .panel-pane .pane-title,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-label,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .pane-title,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .field-label,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .pane-title {
   color: #8f8f8f;
   font-weight: normal;
+  font-size: 12px;
 }
-/* line 81, ../sass/partials/_node.scss */
-.node-full.node-hr-document .container .row .sidebar .field .field-item,
-.node-full.node-hr-document .container .row .sidebar .field .field-item a,
-.node-full.node-hr-infographic .container .row .sidebar .field .field-item,
-.node-full.node-hr-infographic .container .row .sidebar .field .field-item a {
+/* line 85, ../sass/partials/_node.scss */
+.node-full.node-hr-document .container .row .sidebar .panel-pane .field-item,
+.node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .pane-content,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .field-item,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .pane-content {
   padding-left: 10px;
   font-size: 12px;
-  color: #55B1C8;
+  color: #555555;
   font-weight: bold;
 }
-/* line 88, ../sass/partials/_node.scss */
-.node-full.node-hr-document .container .row .sidebar .field.field-name-og-group-ref,
-.node-full.node-hr-infographic .container .row .sidebar .field.field-name-og-group-ref {
+/* line 90, ../sass/partials/_node.scss */
+.node-full.node-hr-document .container .row .sidebar .panel-pane .field-item a,
+.node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content a,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item a,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane .pane-content a,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .field-item a,
+.node-full.node-hr-news .container .row .sidebar .panel-pane .pane-content a {
+  color: #55B1C8;
+}
+/* line 95, ../sass/partials/_node.scss */
+.node-full.node-hr-document .container .row .sidebar .panel-pane.pane-node-og-group-ref,
+.node-full.node-hr-infographic .container .row .sidebar .panel-pane.pane-node-og-group-ref,
+.node-full.node-hr-news .container .row .sidebar .panel-pane.pane-node-og-group-ref {
   background-color: #E0E0E0;
 }
-/* line 96, ../sass/partials/_node.scss */
+/* line 103, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container,
-.node-full.node-hr-infographic.node-hr-document .container {
+.node-full.node-hr-infographic.node-hr-document .container,
+.node-full.node-hr-news.node-hr-document .container {
   border-right: 5px solid #27b298;
+  /*.sidebar {
+    .field {
+      .field-item,
+      .field-item a {
+        color: $p-documents;
+      }
+    }
+  }*/
 }
-/* line 98, ../sass/partials/_node.scss */
+/* line 105, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2 {
+.node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2,
+.node-full.node-hr-news.node-hr-document .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_documents.png);
   color: #27b298;
 }
-/* line 105, ../sass/partials/_node.scss */
-.node-full.node-hr-document.node-hr-document .container .sidebar .field .field-item,
-.node-full.node-hr-document.node-hr-document .container .sidebar .field .field-item a,
-.node-full.node-hr-infographic.node-hr-document .container .sidebar .field .field-item,
-.node-full.node-hr-infographic.node-hr-document .container .sidebar .field .field-item a {
-  color: #27b298;
-}
-/* line 112, ../sass/partials/_node.scss */
+/* line 119, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container,
-.node-full.node-hr-infographic.node-hr-infographic .container {
+.node-full.node-hr-infographic.node-hr-infographic .container,
+.node-full.node-hr-news.node-hr-infographic .container {
   border-right: 5px solid #60b75a;
+  /*.sidebar {
+    .field {
+      .field-item,
+      .field-item a {
+        color: $p-visuals;
+      }
+    }
+  }*/
 }
-/* line 114, ../sass/partials/_node.scss */
+/* line 121, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container .row .content .pane-node-title h2,
-.node-full.node-hr-infographic.node-hr-infographic .container .row .content .pane-node-title h2 {
+.node-full.node-hr-infographic.node-hr-infographic .container .row .content .pane-node-title h2,
+.node-full.node-hr-news.node-hr-infographic .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_visuals.png);
   color: #60b75a;
 }
-/* line 121, ../sass/partials/_node.scss */
-.node-full.node-hr-document.node-hr-infographic .container .sidebar .field .field-item,
-.node-full.node-hr-document.node-hr-infographic .container .sidebar .field .field-item a,
-.node-full.node-hr-infographic.node-hr-infographic .container .sidebar .field .field-item,
-.node-full.node-hr-infographic.node-hr-infographic .container .sidebar .field .field-item a {
-  color: #60b75a;
-}
 
-/* line 131, ../sass/partials/_node.scss */
+/* line 138, ../sass/partials/_node.scss */
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -12326,7 +12360,7 @@ label {
   margin-bottom: 20px !important;
   position: relative;
 }
-/* line 141, ../sass/partials/_node.scss */
+/* line 148, ../sass/partials/_node.scss */
 .node-search-result:after {
   content: '';
   background-color: #55B1C8;
@@ -12338,7 +12372,7 @@ label {
   right: 0;
   height: 100%;
 }
-/* line 153, ../sass/partials/_node.scss */
+/* line 160, ../sass/partials/_node.scss */
 .node-search-result > h2 {
   font-size: 16px;
   font-weight: bold;
@@ -12347,60 +12381,60 @@ label {
   margin-left: 18px;
   margin-top: 16px;
 }
-/* line 161, ../sass/partials/_node.scss */
+/* line 168, ../sass/partials/_node.scss */
 .node-search-result > h2 a {
   color: #55B1C8;
 }
-/* line 167, ../sass/partials/_node.scss */
+/* line 174, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-/* line 169, ../sass/partials/_node.scss */
+/* line 176, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-/* line 173, ../sass/partials/_node.scss */
+/* line 180, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-/* line 178, ../sass/partials/_node.scss */
+/* line 185, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-/* line 180, ../sass/partials/_node.scss */
+/* line 187, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 184, ../sass/partials/_node.scss */
+/* line 191, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 189, ../sass/partials/_node.scss */
+/* line 196, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 {
   background-image: url(../images/RECT_visuals.png);
 }
-/* line 191, ../sass/partials/_node.scss */
+/* line 198, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 a {
   color: #60b75a;
 }
-/* line 195, ../sass/partials/_node.scss */
+/* line 202, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic:after {
   background-color: #60b75a;
 }
-/* line 200, ../sass/partials/_node.scss */
+/* line 207, ../sass/partials/_node.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 204, ../sass/partials/_node.scss */
+/* line 211, ../sass/partials/_node.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 210, ../sass/partials/_node.scss */
+/* line 217, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 214, ../sass/partials/_node.scss */
+/* line 221, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12409,29 +12443,29 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 223, ../sass/partials/_node.scss */
+/* line 230, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 228, ../sass/partials/_node.scss */
+/* line 235, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 231, ../sass/partials/_node.scss */
+/* line 238, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 235, ../sass/partials/_node.scss */
+/* line 242, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 238, ../sass/partials/_node.scss */
+/* line 245, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 245, ../sass/partials/_node.scss */
+/* line 252, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
   background-color: #DDD;
@@ -12444,7 +12478,7 @@ label {
   margin-bottom: 18px;
   color: #333333;
 }
-/* line 259, ../sass/partials/_node.scss */
+/* line 266, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12453,7 +12487,7 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 267, ../sass/partials/_node.scss */
+/* line 274, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }

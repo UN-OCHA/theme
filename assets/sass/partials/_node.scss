@@ -22,12 +22,14 @@
 
 // Content types
 .page-node.node-type-hr-document #page-header .title,
-.page-node.node-type-hr-infographic #page-header .title {
+.page-node.node-type-hr-infographic #page-header .title,
+.page-node.node-type-hr-news #page-header .title {
   display: none;
 }
 
 .node-full.node-hr-document,
-.node-full.node-hr-infographic {
+.node-full.node-hr-infographic,
+.node-full.node-hr-news {
 
   .container {
     background-color: #F9F9F9;
@@ -68,24 +70,29 @@
         padding-bottom: 99999px;
         background-color: #F1F1F1;
 
-        .field {
+        .panel-pane {
           padding-bottom: 2em;
           border-bottom: 1px dotted #8f8f8f;
 
-          .field-label {
+          .field-label,
+          .pane-title {
             color: #8f8f8f;
             font-weight: normal;
+            font-size: 12px;
           }
 
           .field-item,
-          .field-item a {
+          .pane-content {
             padding-left: 10px;
             font-size: 12px;
-            color: #55B1C8;
+            color: #555555;
             font-weight: bold;
+            a {
+              color: #55B1C8;
+            }
           }
 
-          &.field-name-og-group-ref {
+          &.pane-node-og-group-ref {
             background-color: #E0E0E0;
           }
         }
@@ -99,14 +106,14 @@
       background-image: url(../images/RECT_documents.png);
       color: $p-documents;
     }
-    .sidebar {
+    /*.sidebar {
       .field {
         .field-item,
         .field-item a {
           color: $p-documents;
         }
       }
-    }
+    }*/
   }
 
   &.node-hr-infographic .container {
@@ -115,14 +122,14 @@
       background-image: url(../images/RECT_visuals.png);
       color: $p-visuals;
     }
-    .sidebar {
+    /*.sidebar {
       .field {
         .field-item,
         .field-item a {
           color: $p-visuals;
         }
       }
-    }
+    }*/
   }
 }
 
