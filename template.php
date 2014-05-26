@@ -39,11 +39,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
   $header_img_path = $theme_path.'/assets/images/headers/general.png';
   if (module_exists('og_context')) {
     $gid = og_context_determine_context('node');
-    $nid = arg(1);
-    $node = node_load($nid);
-    $types = array('hr_event');
     if (!empty($gid)) {
-      if ($node && !in_array($node->type, $types)) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
         $uri = entity_uri('node', $og_group);
@@ -58,7 +54,6 @@ function humanitarianresponse_preprocess_page(&$variables) {
           $header_img_path = $theme_path.$group_img_path;
         }
       }
-    }
   }
 
   $variables['og_group_header_image'] = theme('image', array(
