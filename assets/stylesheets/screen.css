@@ -12608,9 +12608,10 @@ label {
   color: #606060;
 }
 
-/* line 297, ../sass/partials/_node.scss */
+/* line 298, ../sass/partials/_node.scss */
 .pane-node-hr-core-share-button .btn,
-.pane-node-field-files-collection .btn {
+.pane-node-field-files-collection .btn,
+.views-field-field-files-collection .btn {
   background-color: #DDD;
   margin-left: 16px;
   border: 0;

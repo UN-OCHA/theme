@@ -30,7 +30,6 @@ function humanitarianresponse_field__field_files_collection($variables) {
   // Render the items.
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
   if ($variables['element']['#field_type'] == 'field_collection' && $variables['element']['#view_mode'] == '_custom_display') {
-    if (count($variables['items']) > 1) {
       $output .= '<div class="btn-group">';
       $output .= '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
         <i class="fa fa-download"></i> download <span class="caret"></span>
@@ -45,15 +44,6 @@ function humanitarianresponse_field__field_files_collection($variables) {
       }
       $output .= '</ul>';
       $output .= '</div>';
-    }
-    else {
-      $item = $variables['items'][0];
-      $id = $variables['element']['#items'][0]['value'];
-      $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
-      if (!empty($props)) {
-        $output .= l('<i class="fa fa-download"></i> '.t('download @language', array('@language' => $props['language'])), $props['path'], array('attributes' => array('class' => array('btn', 'btn-default')), 'html' => TRUE));
-      }
-    }
   }
   else {
     foreach ($variables['items'] as $delta => $item) {
@@ -77,13 +67,6 @@ function humanitarianresponse_views_view_field__hr_documents__table__field_files
   $output = '';
   try {
     $doc = entity_metadata_wrapper('node', $variables['row']->_entity_properties['entity object']);
-    if (count($doc->field_files_collection) == 1) {
-      $file_url = $doc->field_files_collection[0]->field_file->file->url->value();
-      $file_language = $doc->field_files_collection[0]->field_language->value();
-      $file_language = empty($file_language['name_native']) ? '' : '(' . $file_language['name_native'] . ')';
-      $output .= l(t('download @language', array('@language' => $file_language)), $file_url, array('attributes' => array('class' => array('btn', 'btn-default'))));
-    }
-    else {
       $output .= '<div class="btn-group">';
       $output .= '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
         download <span class="caret"></span>
@@ -98,7 +81,6 @@ function humanitarianresponse_views_view_field__hr_documents__table__field_files
       }
       $output .= '</ul>';
       $output .= '</div>';
-    }
   }
   catch (Exception $e) {
   }
