@@ -41,9 +41,9 @@ function humanitarianresponse_preprocess_page(&$variables) {
     $gid = og_context_determine_context('node');
     $nid = arg(1);
     $node = node_load($nid);
-    $types = array('hr_news', 'hr_event', 'hr_document');
+    $types = array('hr_event');
     if (!empty($gid)) {
-      if ($gid != 1506 || ($gid == 1506 && $node && !in_array($node->type, $types))) { // Test on sandbox space
+      if ($node && !in_array($node->type, $types)) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
         $uri = entity_uri('node', $og_group);
