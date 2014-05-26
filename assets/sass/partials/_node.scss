@@ -270,15 +270,6 @@
 
                                 .btn {
                                         float: right;
-                                        background-color: #DDD;
-                                        margin-left: 16px;
-                                        border: 0;
-                                        font-size: 12px;
-                                        padding: 3px 10px;
-                                        position: relative;
-                                        right: 10px;
-                                        margin-bottom: 18px;
-                                        color: #333333;
                                 }
 
                                 .field {
@@ -302,3 +293,15 @@
 
 }
 
+.pane-node-hr-core-share-button .btn,
+.pane-node-field-files-collection .btn {
+  background-color: #DDD;
+  margin-left: 16px;
+  border: 0;
+  font-size: 12px;
+  padding: 3px 10px;
+  //position: relative;
+  //right: 10px;
+  margin-bottom: 18px;
+  color: #333333;
+}

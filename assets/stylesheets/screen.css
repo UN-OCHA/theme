@@ -12593,17 +12593,8 @@ label {
 /* line 271, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
-  background-color: #DDD;
-  margin-left: 16px;
-  border: 0;
-  font-size: 12px;
-  padding: 3px 10px;
-  position: relative;
-  right: 10px;
-  margin-bottom: 18px;
-  color: #333333;
 }
-/* line 285, ../sass/partials/_node.scss */
+/* line 276, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12612,9 +12603,21 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 293, ../sass/partials/_node.scss */
+/* line 284, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
+}
+
+/* line 297, ../sass/partials/_node.scss */
+.pane-node-hr-core-share-button .btn,
+.pane-node-field-files-collection .btn {
+  background-color: #DDD;
+  margin-left: 16px;
+  border: 0;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin-bottom: 18px;
+  color: #333333;
 }
 
 /* line 5, ../sass/partials/_user.scss */
