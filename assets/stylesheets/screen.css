@@ -12194,64 +12194,71 @@ label {
   margin-right: auto;
 }
 
-/* line 27, ../sass/partials/_node.scss */
+/* line 28, ../sass/partials/_node.scss */
 .page-node.node-type-hr-document #page-header .title,
 .page-node.node-type-hr-infographic #page-header .title,
 .page-node.node-type-hr-news #page-header .title,
-.page-node.node-type-hr-event #page-header .title {
+.page-node.node-type-hr-event #page-header .title,
+.page-node.node-type-hr-dataset #page-header .title {
   display: none;
 }
 
-/* line 36, ../sass/partials/_node.scss */
+/* line 38, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container,
 .node-full.node-hr-infographic .container,
 .node-full.node-hr-news .container,
-.node-full.node-hr-event .container {
+.node-full.node-hr-event .container,
+.node-full.node-hr-dataset .container {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   border-right: 5px solid #55B1C8;
 }
-/* line 42, ../sass/partials/_node.scss */
+/* line 44, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row,
 .node-full.node-hr-infographic .container .row,
 .node-full.node-hr-news .container .row,
-.node-full.node-hr-event .container .row {
+.node-full.node-hr-event .container .row,
+.node-full.node-hr-dataset .container .row {
   overflow: hidden;
 }
-/* line 45, ../sass/partials/_node.scss */
+/* line 47, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content,
 .node-full.node-hr-infographic .container .row .content,
 .node-full.node-hr-news .container .row .content,
-.node-full.node-hr-event .container .row .content {
+.node-full.node-hr-event .container .row .content,
+.node-full.node-hr-dataset .container .row .content {
   min-height: 400px;
 }
-/* line 47, ../sass/partials/_node.scss */
+/* line 49, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .panel-separator,
 .node-full.node-hr-infographic .container .row .content .panel-separator,
 .node-full.node-hr-news .container .row .content .panel-separator,
-.node-full.node-hr-event .container .row .content .panel-separator {
+.node-full.node-hr-event .container .row .content .panel-separator,
+.node-full.node-hr-dataset .container .row .content .panel-separator {
   display: inline-block;
 }
-/* line 51, ../sass/partials/_node.scss */
+/* line 53, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title,
 .node-full.node-hr-infographic .container .row .content .pane-node-title,
 .node-full.node-hr-news .container .row .content .pane-node-title,
-.node-full.node-hr-event .container .row .content .pane-node-title {
+.node-full.node-hr-event .container .row .content .pane-node-title,
+.node-full.node-hr-dataset .container .row .content .pane-node-title {
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 54, ../sass/partials/_node.scss */
+/* line 56, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-news .container .row .content .pane-node-title h2,
-.node-full.node-hr-event .container .row .content .pane-node-title h2 {
+.node-full.node-hr-event .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset .container .row .content .pane-node-title h2 {
   font-size: 18px;
   font-weight: bold;
   background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
   color: #55B1C8;
   padding: 20px 20px 20px 79px;
 }
-/* line 64, ../sass/partials/_node.scss */
+/* line 66, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-hr-core-share-button,
 .node-full.node-hr-document .container .row .content .pane-node-field-files-collection,
 .node-full.node-hr-infographic .container .row .content .pane-node-hr-core-share-button,
@@ -12259,28 +12266,32 @@ label {
 .node-full.node-hr-news .container .row .content .pane-node-hr-core-share-button,
 .node-full.node-hr-news .container .row .content .pane-node-field-files-collection,
 .node-full.node-hr-event .container .row .content .pane-node-hr-core-share-button,
-.node-full.node-hr-event .container .row .content .pane-node-field-files-collection {
+.node-full.node-hr-event .container .row .content .pane-node-field-files-collection,
+.node-full.node-hr-dataset .container .row .content .pane-node-hr-core-share-button,
+.node-full.node-hr-dataset .container .row .content .pane-node-field-files-collection {
   display: inline-block;
 }
-/* line 69, ../sass/partials/_node.scss */
+/* line 71, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar,
 .node-full.node-hr-infographic .container .row .sidebar,
 .node-full.node-hr-news .container .row .sidebar,
-.node-full.node-hr-event .container .row .sidebar {
+.node-full.node-hr-event .container .row .sidebar,
+.node-full.node-hr-dataset .container .row .sidebar {
   margin-bottom: -99999px;
   padding: 0;
   padding-bottom: 99999px;
   background-color: #F1F1F1;
 }
-/* line 75, ../sass/partials/_node.scss */
+/* line 77, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane,
 .node-full.node-hr-news .container .row .sidebar .panel-pane,
-.node-full.node-hr-event .container .row .sidebar .panel-pane {
+.node-full.node-hr-event .container .row .sidebar .panel-pane,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane {
   padding-bottom: 2em;
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 80, ../sass/partials/_node.scss */
+/* line 82, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-label,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-title,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-label,
@@ -12288,12 +12299,14 @@ label {
 .node-full.node-hr-news .container .row .sidebar .panel-pane .field-label,
 .node-full.node-hr-news .container .row .sidebar .panel-pane .pane-title,
 .node-full.node-hr-event .container .row .sidebar .panel-pane .field-label,
-.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-title {
+.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-title,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .field-label,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .pane-title {
   color: #8f8f8f;
   font-weight: normal;
   font-size: 12px;
 }
-/* line 87, ../sass/partials/_node.scss */
+/* line 89, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-item,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item,
@@ -12301,13 +12314,15 @@ label {
 .node-full.node-hr-news .container .row .sidebar .panel-pane .field-item,
 .node-full.node-hr-news .container .row .sidebar .panel-pane .pane-content,
 .node-full.node-hr-event .container .row .sidebar .panel-pane .field-item,
-.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-content {
+.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-content,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .field-item,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .pane-content {
   padding-left: 10px;
   font-size: 12px;
   color: #555555;
   font-weight: bold;
 }
-/* line 92, ../sass/partials/_node.scss */
+/* line 94, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-item a,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content a,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item a,
@@ -12315,63 +12330,72 @@ label {
 .node-full.node-hr-news .container .row .sidebar .panel-pane .field-item a,
 .node-full.node-hr-news .container .row .sidebar .panel-pane .pane-content a,
 .node-full.node-hr-event .container .row .sidebar .panel-pane .field-item a,
-.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-content a {
+.node-full.node-hr-event .container .row .sidebar .panel-pane .pane-content a,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .field-item a,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane .pane-content a {
   color: #55B1C8;
 }
-/* line 97, ../sass/partials/_node.scss */
+/* line 99, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-news .container .row .sidebar .panel-pane.pane-node-og-group-ref,
-.node-full.node-hr-event .container .row .sidebar .panel-pane.pane-node-og-group-ref {
+.node-full.node-hr-event .container .row .sidebar .panel-pane.pane-node-og-group-ref,
+.node-full.node-hr-dataset .container .row .sidebar .panel-pane.pane-node-og-group-ref {
   background-color: #E0E0E0;
 }
-/* line 105, ../sass/partials/_node.scss */
+/* line 107, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container,
 .node-full.node-hr-infographic.node-hr-document .container,
 .node-full.node-hr-news.node-hr-document .container,
-.node-full.node-hr-event.node-hr-document .container {
+.node-full.node-hr-event.node-hr-document .container,
+.node-full.node-hr-dataset.node-hr-document .container {
   border-right: 5px solid #27b298;
 }
-/* line 107, ../sass/partials/_node.scss */
+/* line 109, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-event.node-hr-document .container .row .content .pane-node-title h2 {
+.node-full.node-hr-event.node-hr-document .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset.node-hr-document .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_documents.png);
   color: #27b298;
 }
-/* line 113, ../sass/partials/_node.scss */
+/* line 115, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container,
 .node-full.node-hr-infographic.node-hr-infographic .container,
 .node-full.node-hr-news.node-hr-infographic .container,
-.node-full.node-hr-event.node-hr-infographic .container {
+.node-full.node-hr-event.node-hr-infographic .container,
+.node-full.node-hr-dataset.node-hr-infographic .container {
   border-right: 5px solid #60b75a;
 }
-/* line 115, ../sass/partials/_node.scss */
+/* line 117, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-infographic .container .row .content .pane-node-title h2,
-.node-full.node-hr-event.node-hr-infographic .container .row .content .pane-node-title h2 {
+.node-full.node-hr-event.node-hr-infographic .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset.node-hr-infographic .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_visuals.png);
   color: #60b75a;
 }
-/* line 121, ../sass/partials/_node.scss */
+/* line 123, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container,
 .node-full.node-hr-infographic.node-hr-event .container,
 .node-full.node-hr-news.node-hr-event .container,
-.node-full.node-hr-event.node-hr-event .container {
+.node-full.node-hr-event.node-hr-event .container,
+.node-full.node-hr-dataset.node-hr-event .container {
   border-right: 5px solid #ffb347;
 }
-/* line 123, ../sass/partials/_node.scss */
+/* line 125, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-event .container .row .content .pane-node-title h2,
-.node-full.node-hr-event.node-hr-event .container .row .content .pane-node-title h2 {
+.node-full.node-hr-event.node-hr-event .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset.node-hr-event .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_events.png);
   color: #ffb347;
 }
 
-/* line 132, ../sass/partials/_node.scss */
+/* line 134, ../sass/partials/_node.scss */
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -12381,7 +12405,7 @@ label {
   margin-bottom: 20px !important;
   position: relative;
 }
-/* line 142, ../sass/partials/_node.scss */
+/* line 144, ../sass/partials/_node.scss */
 .node-search-result:after {
   content: '';
   background-color: #55B1C8;
@@ -12393,7 +12417,7 @@ label {
   right: 0;
   height: 100%;
 }
-/* line 154, ../sass/partials/_node.scss */
+/* line 156, ../sass/partials/_node.scss */
 .node-search-result > h2 {
   font-size: 16px;
   font-weight: bold;
@@ -12402,60 +12426,60 @@ label {
   margin-left: 18px;
   margin-top: 16px;
 }
-/* line 162, ../sass/partials/_node.scss */
+/* line 164, ../sass/partials/_node.scss */
 .node-search-result > h2 a {
   color: #55B1C8;
 }
-/* line 168, ../sass/partials/_node.scss */
+/* line 170, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-/* line 170, ../sass/partials/_node.scss */
+/* line 172, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-/* line 174, ../sass/partials/_node.scss */
+/* line 176, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-/* line 179, ../sass/partials/_node.scss */
+/* line 181, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-/* line 181, ../sass/partials/_node.scss */
+/* line 183, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 185, ../sass/partials/_node.scss */
+/* line 187, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 190, ../sass/partials/_node.scss */
+/* line 192, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 {
   background-image: url(../images/RECT_visuals.png);
 }
-/* line 192, ../sass/partials/_node.scss */
+/* line 194, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 a {
   color: #60b75a;
 }
-/* line 196, ../sass/partials/_node.scss */
+/* line 198, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic:after {
   background-color: #60b75a;
 }
-/* line 201, ../sass/partials/_node.scss */
+/* line 203, ../sass/partials/_node.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 205, ../sass/partials/_node.scss */
+/* line 207, ../sass/partials/_node.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 211, ../sass/partials/_node.scss */
+/* line 213, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 215, ../sass/partials/_node.scss */
+/* line 217, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12464,29 +12488,29 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 224, ../sass/partials/_node.scss */
+/* line 226, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 229, ../sass/partials/_node.scss */
+/* line 231, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 232, ../sass/partials/_node.scss */
+/* line 234, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 236, ../sass/partials/_node.scss */
+/* line 238, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 239, ../sass/partials/_node.scss */
+/* line 241, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 246, ../sass/partials/_node.scss */
+/* line 248, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
   background-color: #DDD;
@@ -12499,7 +12523,7 @@ label {
   margin-bottom: 18px;
   color: #333333;
 }
-/* line 260, ../sass/partials/_node.scss */
+/* line 262, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12508,7 +12532,7 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 268, ../sass/partials/_node.scss */
+/* line 270, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }

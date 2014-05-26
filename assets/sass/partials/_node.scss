@@ -24,14 +24,16 @@
 .page-node.node-type-hr-document #page-header .title,
 .page-node.node-type-hr-infographic #page-header .title,
 .page-node.node-type-hr-news #page-header .title,
-.page-node.node-type-hr-event #page-header .title {
+.page-node.node-type-hr-event #page-header .title,
+.page-node.node-type-hr-dataset #page-header .title {
   display: none;
 }
 
 .node-full.node-hr-document,
 .node-full.node-hr-infographic,
 .node-full.node-hr-news,
-.node-full.node-hr-event {
+.node-full.node-hr-event,
+.node-full.node-hr-dataset {
 
   .container {
     background-color: #F9F9F9;
