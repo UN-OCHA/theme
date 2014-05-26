@@ -23,13 +23,15 @@
 // Content types
 .page-node.node-type-hr-document #page-header .title,
 .page-node.node-type-hr-infographic #page-header .title,
-.page-node.node-type-hr-news #page-header .title {
+.page-node.node-type-hr-news #page-header .title,
+.page-node.node-type-hr-event #page-header .title {
   display: none;
 }
 
 .node-full.node-hr-document,
 .node-full.node-hr-infographic,
-.node-full.node-hr-news {
+.node-full.node-hr-news,
+.node-full.node-hr-event {
 
   .container {
     background-color: #F9F9F9;
@@ -106,14 +108,6 @@
       background-image: url(../images/RECT_documents.png);
       color: $p-documents;
     }
-    /*.sidebar {
-      .field {
-        .field-item,
-        .field-item a {
-          color: $p-documents;
-        }
-      }
-    }*/
   }
 
   &.node-hr-infographic .container {
@@ -122,14 +116,14 @@
       background-image: url(../images/RECT_visuals.png);
       color: $p-visuals;
     }
-    /*.sidebar {
-      .field {
-        .field-item,
-        .field-item a {
-          color: $p-visuals;
-        }
-      }
-    }*/
+  }
+
+  &.node-hr-event .container {
+    border-right: 5px solid $p-events;
+    .row .content .pane-node-title h2 {
+      background-image: url(../images/RECT_events.png);
+      color: $p-events;
+    }
   }
 }
 
