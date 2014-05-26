@@ -25,7 +25,9 @@
 .page-node.node-type-hr-infographic #page-header .title,
 .page-node.node-type-hr-news #page-header .title,
 .page-node.node-type-hr-event #page-header .title,
-.page-node.node-type-hr-dataset #page-header .title {
+.page-node.node-type-hr-dataset #page-header .title,
+.page-node.node-type-hr-indicator #page-header .title,
+.page-node.node-type-hr-contact #page-header .title {
   display: none;
 }
 
@@ -33,7 +35,9 @@
 .node-full.node-hr-infographic,
 .node-full.node-hr-news,
 .node-full.node-hr-event,
-.node-full.node-hr-dataset {
+.node-full.node-hr-dataset,
+.node-full.node-hr-indicator,
+.node-full.node-hr-contact {
 
   .container {
     background-color: #F9F9F9;
@@ -127,6 +131,14 @@
       color: $p-events;
     }
   }
+
+  &.node-hr-contact .container {
+    border-right: 5px solid $p-contacts;
+    .row .content .pane-node-title h2 {
+      background-image: url(../images/RECT_contacts.png);
+      color: $p-contacts;
+    }
+  }
 }
 
 // Search results
@@ -197,6 +209,17 @@
                 }
                 &:after {
                         background-color: $p-visuals;
+                }
+        }
+	&.node-hr-contact {
+                h2 {
+                        background-image: url(../images/RECT_contacts.png);
+                        a {
+                                color: $p-contacts;
+                        }
+                }
+                &:after {
+                        background-color: $p-contacts;
                 }
         }
 
