@@ -43,7 +43,7 @@
     background-color: #F9F9F9;
     border: 1px solid #FFF;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-    border-right: 5px solid #55B1C8;
+    border-right: 5px solid $p-comp;
 
     .row {
       overflow: hidden;
@@ -61,7 +61,7 @@
             font-size: 18px;
             font-weight: bold;
             background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
-            color: #55B1C8;
+            color: $p-comp;
             padding: 20px 20px 20px 79px;
           }
         }
@@ -155,7 +155,7 @@
 
         &:after {
                 content: '';
-                background-color: #55B1C8;
+                background-color: $p-comp;
                 display: block;
                 width: 5px;
                 height: 10px;
@@ -174,7 +174,7 @@
                 margin-top: 16px;
 
                 a {
-                        color: #55B1C8;
+                        color: $p-comp;
                 }
         }
 
