@@ -27,7 +27,8 @@
 .page-node.node-type-hr-event #page-header .title,
 .page-node.node-type-hr-dataset #page-header .title,
 .page-node.node-type-hr-indicator #page-header .title,
-.page-node.node-type-hr-contact #page-header .title {
+.page-node.node-type-hr-contact #page-header .title,
+.page-node.node-type-hr-assessment #page-header .title {
   display: none;
 }
 
@@ -37,7 +38,8 @@
 .node-full.node-hr-event,
 .node-full.node-hr-dataset,
 .node-full.node-hr-indicator,
-.node-full.node-hr-contact {
+.node-full.node-hr-contact,
+.node-full.node-hr-assessment {
 
   .container {
     background-color: #F9F9F9;
@@ -139,6 +141,14 @@
       color: $p-contacts;
     }
   }
+
+  &.node-hr-assessment .container {
+    border-right: 5px solid $p-assessments;
+    .row .content .pane-node-title h2 {
+      background-image: url(../images/RECT_assessments.png);
+      color: $p-assessments;
+    }
+  }
 }
 
 // Search results
@@ -220,6 +230,18 @@
                 }
                 &:after {
                         background-color: $p-contacts;
+                }
+        }
+
+	&.node-hr-assessment {
+                h2 {
+                        background-image: url(../images/RECT_assessments.png);
+                        a {
+                                color: $p-assessments;
+                        }
+                }
+                &:after {
+                        background-color: $p-assessments;
                 }
         }
 
