@@ -12396,7 +12396,18 @@ label {
 .node-full.node-hr-assessment .container .row .sidebar .panel-pane.pane-node-og-group-ref {
   background-color: #E0E0E0;
 }
-/* line 113, ../sass/partials/_node.scss */
+/* line 114, ../sass/partials/_node.scss */
+.node-full.node-hr-document.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-infographic.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-news.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-event.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-indicator.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-contact.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-assessment.node-hr-news .container .row .content .pane-node-title h2 {
+  background-image: url(../images/RECT_blog.png);
+}
+/* line 119, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container,
 .node-full.node-hr-infographic.node-hr-document .container,
 .node-full.node-hr-news.node-hr-document .container,
@@ -12407,7 +12418,7 @@ label {
 .node-full.node-hr-assessment.node-hr-document .container {
   border-right: 5px solid #27b298;
 }
-/* line 115, ../sass/partials/_node.scss */
+/* line 121, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-document .container .row .content .pane-node-title h2,
@@ -12419,7 +12430,7 @@ label {
   background-image: url(../images/RECT_documents.png);
   color: #27b298;
 }
-/* line 121, ../sass/partials/_node.scss */
+/* line 127, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container,
 .node-full.node-hr-infographic.node-hr-infographic .container,
 .node-full.node-hr-news.node-hr-infographic .container,
@@ -12430,7 +12441,7 @@ label {
 .node-full.node-hr-assessment.node-hr-infographic .container {
   border-right: 5px solid #60b75a;
 }
-/* line 123, ../sass/partials/_node.scss */
+/* line 129, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-infographic .container .row .content .pane-node-title h2,
@@ -12442,7 +12453,7 @@ label {
   background-image: url(../images/RECT_visuals.png);
   color: #60b75a;
 }
-/* line 129, ../sass/partials/_node.scss */
+/* line 135, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container,
 .node-full.node-hr-infographic.node-hr-event .container,
 .node-full.node-hr-news.node-hr-event .container,
@@ -12453,7 +12464,7 @@ label {
 .node-full.node-hr-assessment.node-hr-event .container {
   border-right: 5px solid #ffb347;
 }
-/* line 131, ../sass/partials/_node.scss */
+/* line 137, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-event .container .row .content .pane-node-title h2,
@@ -12465,7 +12476,7 @@ label {
   background-image: url(../images/RECT_events.png);
   color: #ffb347;
 }
-/* line 137, ../sass/partials/_node.scss */
+/* line 143, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-contact .container,
 .node-full.node-hr-infographic.node-hr-contact .container,
 .node-full.node-hr-news.node-hr-contact .container,
@@ -12476,7 +12487,7 @@ label {
 .node-full.node-hr-assessment.node-hr-contact .container {
   border-right: 5px solid #a494d8;
 }
-/* line 139, ../sass/partials/_node.scss */
+/* line 145, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-contact .container .row .content .pane-node-title h2,
@@ -12488,7 +12499,7 @@ label {
   background-image: url(../images/RECT_contacts.png);
   color: #a494d8;
 }
-/* line 145, ../sass/partials/_node.scss */
+/* line 151, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-assessment .container,
 .node-full.node-hr-infographic.node-hr-assessment .container,
 .node-full.node-hr-news.node-hr-assessment .container,
@@ -12499,7 +12510,7 @@ label {
 .node-full.node-hr-assessment.node-hr-assessment .container {
   border-right: 5px solid #a8b761;
 }
-/* line 147, ../sass/partials/_node.scss */
+/* line 153, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-assessment .container .row .content .pane-node-title h2,
@@ -12512,7 +12523,7 @@ label {
   color: #a8b761;
 }
 
-/* line 156, ../sass/partials/_node.scss */
+/* line 162, ../sass/partials/_node.scss */
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -12522,7 +12533,7 @@ label {
   margin-bottom: 20px !important;
   position: relative;
 }
-/* line 166, ../sass/partials/_node.scss */
+/* line 172, ../sass/partials/_node.scss */
 .node-search-result:after {
   content: '';
   background-color: #54b1c8;
@@ -12534,7 +12545,7 @@ label {
   right: 0;
   height: 100%;
 }
-/* line 178, ../sass/partials/_node.scss */
+/* line 184, ../sass/partials/_node.scss */
 .node-search-result > h2 {
   font-size: 16px;
   font-weight: bold;
@@ -12543,84 +12554,88 @@ label {
   margin-left: 18px;
   margin-top: 16px;
 }
-/* line 186, ../sass/partials/_node.scss */
+/* line 192, ../sass/partials/_node.scss */
 .node-search-result > h2 a {
   color: #54b1c8;
 }
-/* line 192, ../sass/partials/_node.scss */
+/* line 198, ../sass/partials/_node.scss */
+.node-search-result.node-hr-news h2 {
+  background-image: url(../images/RECT_blog.png);
+}
+/* line 204, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-/* line 194, ../sass/partials/_node.scss */
+/* line 206, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-/* line 198, ../sass/partials/_node.scss */
+/* line 210, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-/* line 203, ../sass/partials/_node.scss */
+/* line 215, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-/* line 205, ../sass/partials/_node.scss */
+/* line 217, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 209, ../sass/partials/_node.scss */
+/* line 221, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 214, ../sass/partials/_node.scss */
+/* line 226, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 {
   background-image: url(../images/RECT_visuals.png);
 }
-/* line 216, ../sass/partials/_node.scss */
+/* line 228, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 a {
   color: #60b75a;
 }
-/* line 220, ../sass/partials/_node.scss */
+/* line 232, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic:after {
   background-color: #60b75a;
 }
-/* line 225, ../sass/partials/_node.scss */
+/* line 237, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 {
   background-image: url(../images/RECT_contacts.png);
 }
-/* line 227, ../sass/partials/_node.scss */
+/* line 239, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 a {
   color: #a494d8;
 }
-/* line 231, ../sass/partials/_node.scss */
+/* line 243, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact:after {
   background-color: #a494d8;
 }
-/* line 237, ../sass/partials/_node.scss */
+/* line 249, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 {
   background-image: url(../images/RECT_assessments.png);
 }
-/* line 239, ../sass/partials/_node.scss */
+/* line 251, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 a {
   color: #a8b761;
 }
-/* line 243, ../sass/partials/_node.scss */
+/* line 255, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment:after {
   background-color: #a8b761;
 }
-/* line 248, ../sass/partials/_node.scss */
+/* line 260, ../sass/partials/_node.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 252, ../sass/partials/_node.scss */
+/* line 264, ../sass/partials/_node.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 258, ../sass/partials/_node.scss */
+/* line 270, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 262, ../sass/partials/_node.scss */
+/* line 274, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12629,33 +12644,33 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 271, ../sass/partials/_node.scss */
+/* line 283, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 276, ../sass/partials/_node.scss */
+/* line 288, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 279, ../sass/partials/_node.scss */
+/* line 291, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 283, ../sass/partials/_node.scss */
+/* line 295, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 286, ../sass/partials/_node.scss */
+/* line 298, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 293, ../sass/partials/_node.scss */
+/* line 305, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
 }
-/* line 298, ../sass/partials/_node.scss */
+/* line 310, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12664,12 +12679,12 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 306, ../sass/partials/_node.scss */
+/* line 318, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 320, ../sass/partials/_node.scss */
+/* line 332, ../sass/partials/_node.scss */
 .pane-node-hr-core-share-button .btn,
 .pane-node-field-files-collection .btn,
 .views-field-field-files-collection .btn {

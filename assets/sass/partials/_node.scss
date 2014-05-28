@@ -110,6 +110,12 @@
     }
   }
 
+  &.node-hr-news .container {
+    .row .content .pane-node-title h2 {
+      background-image: url(../images/RECT_blog.png);
+    }
+  }
+
   &.node-hr-document .container {
     border-right: 5px solid $p-documents;
     .row .content .pane-node-title h2 {
@@ -185,6 +191,12 @@
 
                 a {
                         color: $p-comp;
+                }
+        }
+
+	&.node-hr-news {
+                h2 {
+                        background-image: url(../images/RECT_blog.png);
                 }
         }
 
