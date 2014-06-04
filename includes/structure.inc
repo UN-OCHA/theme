@@ -87,6 +87,10 @@ function humanitarianresponse_views_view_field__hr_documents__table__field_files
   return $output;
 }
 
+function humanitarianresponse_views_view_field__hr_infographics__table__field_files_collection($variables) {
+  return humanitarianresponse_views_view_field__hr_documents__table__field_files_collection($variables);
+}
+
 /**
  * Theme function for link with icon.
  */
