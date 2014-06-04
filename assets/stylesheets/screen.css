@@ -12193,7 +12193,7 @@ label {
   margin-right: auto;
 }
 
-/* line 31, ../sass/partials/_node.scss */
+/* line 32, ../sass/partials/_node.scss */
 .page-node.node-type-hr-document #page-header .title,
 .page-node.node-type-hr-infographic #page-header .title,
 .page-node.node-type-hr-news #page-header .title,
@@ -12201,11 +12201,12 @@ label {
 .page-node.node-type-hr-dataset #page-header .title,
 .page-node.node-type-hr-indicator #page-header .title,
 .page-node.node-type-hr-contact #page-header .title,
-.page-node.node-type-hr-assessment #page-header .title {
+.page-node.node-type-hr-assessment #page-header .title,
+.page-node.node-type-hr-office #page-header .title {
   display: none;
 }
 
-/* line 44, ../sass/partials/_node.scss */
+/* line 46, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container,
 .node-full.node-hr-infographic .container,
 .node-full.node-hr-news .container,
@@ -12213,13 +12214,14 @@ label {
 .node-full.node-hr-dataset .container,
 .node-full.node-hr-indicator .container,
 .node-full.node-hr-contact .container,
-.node-full.node-hr-assessment .container {
+.node-full.node-hr-assessment .container,
+.node-full.node-hr-office .container {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   border-right: 5px solid #54b1c8;
 }
-/* line 50, ../sass/partials/_node.scss */
+/* line 52, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row,
 .node-full.node-hr-infographic .container .row,
 .node-full.node-hr-news .container .row,
@@ -12227,10 +12229,11 @@ label {
 .node-full.node-hr-dataset .container .row,
 .node-full.node-hr-indicator .container .row,
 .node-full.node-hr-contact .container .row,
-.node-full.node-hr-assessment .container .row {
+.node-full.node-hr-assessment .container .row,
+.node-full.node-hr-office .container .row {
   overflow: hidden;
 }
-/* line 53, ../sass/partials/_node.scss */
+/* line 55, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content,
 .node-full.node-hr-infographic .container .row .content,
 .node-full.node-hr-news .container .row .content,
@@ -12238,10 +12241,11 @@ label {
 .node-full.node-hr-dataset .container .row .content,
 .node-full.node-hr-indicator .container .row .content,
 .node-full.node-hr-contact .container .row .content,
-.node-full.node-hr-assessment .container .row .content {
+.node-full.node-hr-assessment .container .row .content,
+.node-full.node-hr-office .container .row .content {
   min-height: 400px;
 }
-/* line 55, ../sass/partials/_node.scss */
+/* line 57, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .panel-separator,
 .node-full.node-hr-infographic .container .row .content .panel-separator,
 .node-full.node-hr-news .container .row .content .panel-separator,
@@ -12249,10 +12253,11 @@ label {
 .node-full.node-hr-dataset .container .row .content .panel-separator,
 .node-full.node-hr-indicator .container .row .content .panel-separator,
 .node-full.node-hr-contact .container .row .content .panel-separator,
-.node-full.node-hr-assessment .container .row .content .panel-separator {
+.node-full.node-hr-assessment .container .row .content .panel-separator,
+.node-full.node-hr-office .container .row .content .panel-separator {
   display: inline-block;
 }
-/* line 59, ../sass/partials/_node.scss */
+/* line 61, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title,
 .node-full.node-hr-infographic .container .row .content .pane-node-title,
 .node-full.node-hr-news .container .row .content .pane-node-title,
@@ -12260,10 +12265,11 @@ label {
 .node-full.node-hr-dataset .container .row .content .pane-node-title,
 .node-full.node-hr-indicator .container .row .content .pane-node-title,
 .node-full.node-hr-contact .container .row .content .pane-node-title,
-.node-full.node-hr-assessment .container .row .content .pane-node-title {
+.node-full.node-hr-assessment .container .row .content .pane-node-title,
+.node-full.node-hr-office .container .row .content .pane-node-title {
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 62, ../sass/partials/_node.scss */
+/* line 64, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-news .container .row .content .pane-node-title h2,
@@ -12271,14 +12277,15 @@ label {
 .node-full.node-hr-dataset .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment .container .row .content .pane-node-title h2,
+.node-full.node-hr-office .container .row .content .pane-node-title h2 {
   font-size: 18px;
   font-weight: bold;
   background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
   color: #54b1c8;
   padding: 20px 20px 20px 79px;
 }
-/* line 72, ../sass/partials/_node.scss */
+/* line 74, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .content .pane-node-hr-core-share-button,
 .node-full.node-hr-document .container .row .content .pane-node-field-files-collection,
 .node-full.node-hr-infographic .container .row .content .pane-node-hr-core-share-button,
@@ -12294,10 +12301,12 @@ label {
 .node-full.node-hr-contact .container .row .content .pane-node-hr-core-share-button,
 .node-full.node-hr-contact .container .row .content .pane-node-field-files-collection,
 .node-full.node-hr-assessment .container .row .content .pane-node-hr-core-share-button,
-.node-full.node-hr-assessment .container .row .content .pane-node-field-files-collection {
+.node-full.node-hr-assessment .container .row .content .pane-node-field-files-collection,
+.node-full.node-hr-office .container .row .content .pane-node-hr-core-share-button,
+.node-full.node-hr-office .container .row .content .pane-node-field-files-collection {
   display: inline-block;
 }
-/* line 77, ../sass/partials/_node.scss */
+/* line 79, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar,
 .node-full.node-hr-infographic .container .row .sidebar,
 .node-full.node-hr-news .container .row .sidebar,
@@ -12305,13 +12314,14 @@ label {
 .node-full.node-hr-dataset .container .row .sidebar,
 .node-full.node-hr-indicator .container .row .sidebar,
 .node-full.node-hr-contact .container .row .sidebar,
-.node-full.node-hr-assessment .container .row .sidebar {
+.node-full.node-hr-assessment .container .row .sidebar,
+.node-full.node-hr-office .container .row .sidebar {
   margin-bottom: -99999px;
   padding: 0;
   padding-bottom: 99999px;
   background-color: #F1F1F1;
 }
-/* line 83, ../sass/partials/_node.scss */
+/* line 85, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane,
 .node-full.node-hr-news .container .row .sidebar .panel-pane,
@@ -12319,11 +12329,12 @@ label {
 .node-full.node-hr-dataset .container .row .sidebar .panel-pane,
 .node-full.node-hr-indicator .container .row .sidebar .panel-pane,
 .node-full.node-hr-contact .container .row .sidebar .panel-pane,
-.node-full.node-hr-assessment .container .row .sidebar .panel-pane {
+.node-full.node-hr-assessment .container .row .sidebar .panel-pane,
+.node-full.node-hr-office .container .row .sidebar .panel-pane {
   padding-bottom: 2em;
   border-bottom: 1px dotted #8f8f8f;
 }
-/* line 88, ../sass/partials/_node.scss */
+/* line 90, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-label,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-title,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-label,
@@ -12339,12 +12350,14 @@ label {
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .field-label,
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .pane-title,
 .node-full.node-hr-assessment .container .row .sidebar .panel-pane .field-label,
-.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-title {
+.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-title,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .field-label,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .pane-title {
   color: #8f8f8f;
   font-weight: normal;
   font-size: 12px;
 }
-/* line 95, ../sass/partials/_node.scss */
+/* line 97, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-item,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item,
@@ -12360,13 +12373,15 @@ label {
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .field-item,
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .pane-content,
 .node-full.node-hr-assessment .container .row .sidebar .panel-pane .field-item,
-.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-content {
+.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-content,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .field-item,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .pane-content {
   padding-left: 10px;
   font-size: 12px;
   color: #555555;
   font-weight: bold;
 }
-/* line 100, ../sass/partials/_node.scss */
+/* line 102, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane .field-item a,
 .node-full.node-hr-document .container .row .sidebar .panel-pane .pane-content a,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane .field-item a,
@@ -12382,10 +12397,12 @@ label {
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .field-item a,
 .node-full.node-hr-contact .container .row .sidebar .panel-pane .pane-content a,
 .node-full.node-hr-assessment .container .row .sidebar .panel-pane .field-item a,
-.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-content a {
+.node-full.node-hr-assessment .container .row .sidebar .panel-pane .pane-content a,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .field-item a,
+.node-full.node-hr-office .container .row .sidebar .panel-pane .pane-content a {
   color: #55B1C8;
 }
-/* line 105, ../sass/partials/_node.scss */
+/* line 107, ../sass/partials/_node.scss */
 .node-full.node-hr-document .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-infographic .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-news .container .row .sidebar .panel-pane.pane-node-og-group-ref,
@@ -12393,10 +12410,11 @@ label {
 .node-full.node-hr-dataset .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-indicator .container .row .sidebar .panel-pane.pane-node-og-group-ref,
 .node-full.node-hr-contact .container .row .sidebar .panel-pane.pane-node-og-group-ref,
-.node-full.node-hr-assessment .container .row .sidebar .panel-pane.pane-node-og-group-ref {
+.node-full.node-hr-assessment .container .row .sidebar .panel-pane.pane-node-og-group-ref,
+.node-full.node-hr-office .container .row .sidebar .panel-pane.pane-node-og-group-ref {
   background-color: #E0E0E0;
 }
-/* line 114, ../sass/partials/_node.scss */
+/* line 116, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-news .container .row .content .pane-node-title h2,
@@ -12404,10 +12422,11 @@ label {
 .node-full.node-hr-dataset.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-news .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-news .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-news .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_blog.png);
 }
-/* line 119, ../sass/partials/_node.scss */
+/* line 121, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container,
 .node-full.node-hr-infographic.node-hr-document .container,
 .node-full.node-hr-news.node-hr-document .container,
@@ -12415,10 +12434,11 @@ label {
 .node-full.node-hr-dataset.node-hr-document .container,
 .node-full.node-hr-indicator.node-hr-document .container,
 .node-full.node-hr-contact.node-hr-document .container,
-.node-full.node-hr-assessment.node-hr-document .container {
+.node-full.node-hr-assessment.node-hr-document .container,
+.node-full.node-hr-office.node-hr-document .container {
   border-right: 5px solid #27b298;
 }
-/* line 121, ../sass/partials/_node.scss */
+/* line 123, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-document .container .row .content .pane-node-title h2,
@@ -12426,11 +12446,12 @@ label {
 .node-full.node-hr-dataset.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-document .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-document .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-document .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_documents.png);
   color: #27b298;
 }
-/* line 127, ../sass/partials/_node.scss */
+/* line 129, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container,
 .node-full.node-hr-infographic.node-hr-infographic .container,
 .node-full.node-hr-news.node-hr-infographic .container,
@@ -12438,10 +12459,11 @@ label {
 .node-full.node-hr-dataset.node-hr-infographic .container,
 .node-full.node-hr-indicator.node-hr-infographic .container,
 .node-full.node-hr-contact.node-hr-infographic .container,
-.node-full.node-hr-assessment.node-hr-infographic .container {
+.node-full.node-hr-assessment.node-hr-infographic .container,
+.node-full.node-hr-office.node-hr-infographic .container {
   border-right: 5px solid #60b75a;
 }
-/* line 129, ../sass/partials/_node.scss */
+/* line 131, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-infographic .container .row .content .pane-node-title h2,
@@ -12449,11 +12471,12 @@ label {
 .node-full.node-hr-dataset.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-infographic .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-infographic .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-infographic .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-infographic .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_visuals.png);
   color: #60b75a;
 }
-/* line 135, ../sass/partials/_node.scss */
+/* line 137, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container,
 .node-full.node-hr-infographic.node-hr-event .container,
 .node-full.node-hr-news.node-hr-event .container,
@@ -12461,10 +12484,11 @@ label {
 .node-full.node-hr-dataset.node-hr-event .container,
 .node-full.node-hr-indicator.node-hr-event .container,
 .node-full.node-hr-contact.node-hr-event .container,
-.node-full.node-hr-assessment.node-hr-event .container {
+.node-full.node-hr-assessment.node-hr-event .container,
+.node-full.node-hr-office.node-hr-event .container {
   border-right: 5px solid #ffb347;
 }
-/* line 137, ../sass/partials/_node.scss */
+/* line 139, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-event .container .row .content .pane-node-title h2,
@@ -12472,11 +12496,12 @@ label {
 .node-full.node-hr-dataset.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-event .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-event .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-event .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-event .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_events.png);
   color: #ffb347;
 }
-/* line 143, ../sass/partials/_node.scss */
+/* line 145, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-contact .container,
 .node-full.node-hr-infographic.node-hr-contact .container,
 .node-full.node-hr-news.node-hr-contact .container,
@@ -12484,10 +12509,11 @@ label {
 .node-full.node-hr-dataset.node-hr-contact .container,
 .node-full.node-hr-indicator.node-hr-contact .container,
 .node-full.node-hr-contact.node-hr-contact .container,
-.node-full.node-hr-assessment.node-hr-contact .container {
+.node-full.node-hr-assessment.node-hr-contact .container,
+.node-full.node-hr-office.node-hr-contact .container {
   border-right: 5px solid #a494d8;
 }
-/* line 145, ../sass/partials/_node.scss */
+/* line 147, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-contact .container .row .content .pane-node-title h2,
@@ -12495,11 +12521,12 @@ label {
 .node-full.node-hr-dataset.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-contact .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-contact .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-contact .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-contact .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_contacts.png);
   color: #a494d8;
 }
-/* line 151, ../sass/partials/_node.scss */
+/* line 153, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-assessment .container,
 .node-full.node-hr-infographic.node-hr-assessment .container,
 .node-full.node-hr-news.node-hr-assessment .container,
@@ -12507,10 +12534,11 @@ label {
 .node-full.node-hr-dataset.node-hr-assessment .container,
 .node-full.node-hr-indicator.node-hr-assessment .container,
 .node-full.node-hr-contact.node-hr-assessment .container,
-.node-full.node-hr-assessment.node-hr-assessment .container {
+.node-full.node-hr-assessment.node-hr-assessment .container,
+.node-full.node-hr-office.node-hr-assessment .container {
   border-right: 5px solid #a8b761;
 }
-/* line 153, ../sass/partials/_node.scss */
+/* line 155, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-news.node-hr-assessment .container .row .content .pane-node-title h2,
@@ -12518,12 +12546,13 @@ label {
 .node-full.node-hr-dataset.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-assessment .container .row .content .pane-node-title h2,
-.node-full.node-hr-assessment.node-hr-assessment .container .row .content .pane-node-title h2 {
+.node-full.node-hr-assessment.node-hr-assessment .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-assessment .container .row .content .pane-node-title h2 {
   background-image: url(../images/RECT_assessments.png);
   color: #a8b761;
 }
 
-/* line 162, ../sass/partials/_node.scss */
+/* line 164, ../sass/partials/_node.scss */
 .node-search-result {
   background-color: #F9F9F9;
   border: 1px solid #FFF;
@@ -12533,7 +12562,7 @@ label {
   margin-bottom: 20px !important;
   position: relative;
 }
-/* line 172, ../sass/partials/_node.scss */
+/* line 174, ../sass/partials/_node.scss */
 .node-search-result:after {
   content: '';
   background-color: #54b1c8;
@@ -12545,7 +12574,7 @@ label {
   right: 0;
   height: 100%;
 }
-/* line 184, ../sass/partials/_node.scss */
+/* line 186, ../sass/partials/_node.scss */
 .node-search-result > h2 {
   font-size: 16px;
   font-weight: bold;
@@ -12554,88 +12583,88 @@ label {
   margin-left: 18px;
   margin-top: 16px;
 }
-/* line 192, ../sass/partials/_node.scss */
+/* line 194, ../sass/partials/_node.scss */
 .node-search-result > h2 a {
   color: #54b1c8;
 }
-/* line 198, ../sass/partials/_node.scss */
+/* line 200, ../sass/partials/_node.scss */
 .node-search-result.node-hr-news h2 {
   background-image: url(../images/RECT_blog.png);
 }
-/* line 204, ../sass/partials/_node.scss */
+/* line 206, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 {
   background-image: url(../images/RECT_documents.png);
 }
-/* line 206, ../sass/partials/_node.scss */
+/* line 208, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document h2 a {
   color: #27b298;
 }
-/* line 210, ../sass/partials/_node.scss */
+/* line 212, ../sass/partials/_node.scss */
 .node-search-result.node-hr-document:after {
   background-color: #27b298;
 }
-/* line 215, ../sass/partials/_node.scss */
+/* line 217, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 {
   background-image: url(../images/RECT_events.png);
 }
-/* line 217, ../sass/partials/_node.scss */
+/* line 219, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 221, ../sass/partials/_node.scss */
+/* line 223, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 226, ../sass/partials/_node.scss */
+/* line 228, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 {
   background-image: url(../images/RECT_visuals.png);
 }
-/* line 228, ../sass/partials/_node.scss */
+/* line 230, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 a {
   color: #60b75a;
 }
-/* line 232, ../sass/partials/_node.scss */
+/* line 234, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic:after {
   background-color: #60b75a;
 }
-/* line 237, ../sass/partials/_node.scss */
+/* line 239, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 {
   background-image: url(../images/RECT_contacts.png);
 }
-/* line 239, ../sass/partials/_node.scss */
+/* line 241, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 a {
   color: #a494d8;
 }
-/* line 243, ../sass/partials/_node.scss */
+/* line 245, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact:after {
   background-color: #a494d8;
 }
-/* line 249, ../sass/partials/_node.scss */
+/* line 251, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 {
   background-image: url(../images/RECT_assessments.png);
 }
-/* line 251, ../sass/partials/_node.scss */
+/* line 253, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 a {
   color: #a8b761;
 }
-/* line 255, ../sass/partials/_node.scss */
+/* line 257, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment:after {
   background-color: #a8b761;
 }
-/* line 260, ../sass/partials/_node.scss */
+/* line 262, ../sass/partials/_node.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 264, ../sass/partials/_node.scss */
+/* line 266, ../sass/partials/_node.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 270, ../sass/partials/_node.scss */
+/* line 272, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 274, ../sass/partials/_node.scss */
+/* line 276, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12644,33 +12673,33 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 283, ../sass/partials/_node.scss */
+/* line 285, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 288, ../sass/partials/_node.scss */
+/* line 290, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 291, ../sass/partials/_node.scss */
+/* line 293, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 295, ../sass/partials/_node.scss */
+/* line 297, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 298, ../sass/partials/_node.scss */
+/* line 300, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 305, ../sass/partials/_node.scss */
+/* line 307, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
 }
-/* line 310, ../sass/partials/_node.scss */
+/* line 312, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12679,12 +12708,12 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 318, ../sass/partials/_node.scss */
+/* line 320, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
 
-/* line 332, ../sass/partials/_node.scss */
+/* line 334, ../sass/partials/_node.scss */
 .pane-node-hr-core-share-button .btn,
 .pane-node-field-files-collection .btn,
 .views-field-field-files-collection .btn {

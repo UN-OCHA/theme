@@ -28,7 +28,8 @@
 .page-node.node-type-hr-dataset #page-header .title,
 .page-node.node-type-hr-indicator #page-header .title,
 .page-node.node-type-hr-contact #page-header .title,
-.page-node.node-type-hr-assessment #page-header .title {
+.page-node.node-type-hr-assessment #page-header .title,
+.page-node.node-type-hr-office #page-header .title {
   display: none;
 }
 
@@ -39,7 +40,8 @@
 .node-full.node-hr-dataset,
 .node-full.node-hr-indicator,
 .node-full.node-hr-contact,
-.node-full.node-hr-assessment {
+.node-full.node-hr-assessment,
+.node-full.node-hr-office {
 
   .container {
     background-color: #F9F9F9;
