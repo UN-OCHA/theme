@@ -11982,6 +11982,12 @@ body .region-branding input.form-submit {
   background-position: 0 -760px;
 }
 
+/* Linkit fix */
+/* line 193, ../sass/partials/_panel.scss */
+.linkit-wrapper {
+  z-index: 5000;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
