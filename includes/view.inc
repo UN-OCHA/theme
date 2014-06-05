@@ -33,6 +33,6 @@ function humanitarianresponse_views_pdf_icon($vars) {
   $title = $vars['title'];
   $path = $vars['path'];
   $options = $vars['options'];
-  return l('PDF', $path, $options);
+  return '<li>'.l('PDF', $path, $options).'</li>';
 }
 
