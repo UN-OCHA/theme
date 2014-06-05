@@ -26,3 +26,13 @@ function humanitarianresponse_views_data_export_feed_icon($variables) {
   return '<li>'.l($text, $url, $url_options).'</li>';
 }
 
+/**
+ * Theme function for the PDF icon of appended PDFs.
+ */
+function humanitarianresponse_views_pdf_icon($vars) {
+  $title = $vars['title'];
+  $path = $vars['path'];
+  $options = $vars['options'];
+  return l('PDF', $path, $options);
+}
+
