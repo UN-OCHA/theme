@@ -36,3 +36,19 @@ function humanitarianresponse_views_pdf_icon($vars) {
   return '<li>'.l('PDF', $path, $options).'</li>';
 }
 
+/**
+ * Theme function for ical icon
+ */
+function humanitarianresponse_date_ical_icon($variables) {
+  if (empty($variables['tooltip'])) {
+    $variables['tooltip'] = t('Add this event to my calendar');
+  }
+  return '<li>'.l('ICAL', $variables['url']).'</li>';
+  /*if ($image = theme('image', $variables)) {
+    return "<a href='{$variables['url']}' class='ical-icon'>$image</a>";
+  }
+  else {
+    return "<a href='{$variables['url']}' class='ical-icon'>{$variables['tooltip']}</a>";
+  }*/
+}
+
