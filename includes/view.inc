@@ -44,11 +44,16 @@ function humanitarianresponse_date_ical_icon($variables) {
     $variables['tooltip'] = t('Add this event to my calendar');
   }
   return '<li>'.l('ICAL', $variables['url']).'</li>';
-  /*if ($image = theme('image', $variables)) {
-    return "<a href='{$variables['url']}' class='ical-icon'>$image</a>";
-  }
-  else {
-    return "<a href='{$variables['url']}' class='ical-icon'>{$variables['tooltip']}</a>";
-  }*/
+}
+
+/**
+ * More links
+ */
+function humanitarianresponse_views_more__hr_documents_panes__list($view) {
+  return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/documents').'</div>';
+}
+
+function humanitarianresponse_views_more__hr_infogrpahics_panes__list($view) {
+  return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/infographics').'</div>';
 }
 
