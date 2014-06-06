@@ -194,3 +194,20 @@
   z-index: 5000;
 }
 
+/* Featured documents and maps */
+.fieldable-panels-pane .node-teaser .container {
+  background-image: url('/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+
+  .pane-node-title {
+    background-color: #67A3AB;
+    min-height: 50px;
+    opacity: 0.5;
+
+    a {
+      color: white;
+    }
+  }
+}
+
