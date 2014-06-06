@@ -39,7 +39,7 @@
 	@include box-shadow(rgba(black, 0.2) 1px 2px 2px);
 	margin: 20px 0px;
 
-	.pane-tite {
+	.pane-title {
 		font-size: 13px;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -198,15 +198,24 @@
 .fieldable-panels-pane .node-teaser .container {
   background-image: url('/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg');
   background-repeat: no-repeat;
-  background-position-x: 15px;
+  padding-right: 0;
+  padding-left: 0;
+
+  .pane-hr-infographics-panes-thumbnail,
+  .pane-hr-documents-panes-thumbnail {
+    height: 120px;
+  }
 
   .pane-node-title {
     background-color: #67A3AB;
     min-height: 50px;
     opacity: 0.5;
+    text-align: center;
+    padding-top: 1em;
 
     a {
       color: white;
+      font-weight: bold;
     }
   }
 }
