@@ -78,7 +78,8 @@ function humanitarianresponse_menu_link($variables) {
   if (!empty($element['#below'])) {
     // Wrap in dropdown-menu.
     unset($element['#below']['#theme_wrappers']);
-    $sub_menu = '<ul>' . drupal_render($element['#below']) . '</ul>';
+    $item_id = humanitarianresponse_menu_unique_id();
+    $sub_menu = '<ul class="collapse in" id="'.$item_id.'">' . drupal_render($element['#below']) . '</ul>';
     //$element['#localized_options']['attributes']['class'][] = 'dropdown-toggle';
     //$element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
 
@@ -92,7 +93,8 @@ function humanitarianresponse_menu_link($variables) {
       $element['#title'] .= '<span class="caret"></span>';
     }
 
-    $element['#localized_options']['attributes']['data-target'] = '#';
+    $element['#localized_options']['attributes']['data-target'] = '#'.$item_id;
+    $element['#localized_options']['attributes']['data-toggle'] = 'collapse';
   }
 
   // Fix for active class.
@@ -108,6 +110,12 @@ function humanitarianresponse_menu_link($variables) {
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
+
+function humanitarianresponse_menu_unique_id() {
+  static $item_id = 0;
+  $item_id += 1;
+  return 'hr-menu-item-custom-id-' . $item_id;
+}  
 
 /**
  * Implements theme_menu_link().
