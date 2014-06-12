@@ -12014,6 +12014,13 @@ body .region-branding input.form-submit {
   font-weight: bold;
 }
 
+/* Lists of documents */
+/* line 224, ../sass/partials/_panel.scss */
+.fieldable-panels-pane .field-name-field-documents .field-item {
+  display: list-item;
+  list-style-type: disc;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
