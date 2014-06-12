@@ -12019,6 +12019,7 @@ body .region-branding input.form-submit {
 .fieldable-panels-pane .field-name-field-documents .field-item {
   display: list-item;
   list-style-type: disc;
+  color: #54b1c8;
 }
 
 /* line 5, ../sass/partials/_view.scss */
