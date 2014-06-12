@@ -11377,33 +11377,28 @@ div.region-top div.block {
   padding-bottom: 7px;
 }
 /* line 413, ../sass/partials/_menu.scss */
-#sidebar-first .block.block-og-menu ul.menu li.expanded, #sidebar-first .block.block-menu ul.menu li.expanded {
-  padding: 7px;
-  margin-bottom: 15px;
-}
-/* line 418, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink, #sidebar-first .block.block-menu ul.menu li .nolink {
   font-weight: bold;
   text-transform: uppercase;
   color: #525252;
   font-size: 13px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   display: block;
 }
-/* line 426, ../sass/partials/_menu.scss */
+/* line 421, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret, #sidebar-first .block.block-menu ul.menu li .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
 }
-/* line 433, ../sass/partials/_menu.scss */
+/* line 428, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul, #sidebar-first .block.block-menu ul.menu li ul {
-  padding-left: 0px;
+  padding-left: 14px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 439, ../sass/partials/_menu.scss */
+/* line 434, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li, #sidebar-first .block.block-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11413,25 +11408,33 @@ div.region-top div.block {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 448, ../sass/partials/_menu.scss */
+/* line 443, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li ul li.first, #sidebar-first .block.block-menu ul.menu li ul li.first {
+  padding-top: 0;
+}
+/* line 446, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li ul li.last, #sidebar-first .block.block-menu ul.menu li ul li.last {
+  padding-bottom: 0;
+}
+/* line 450, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a, #sidebar-first .block.block-menu ul.menu li ul li a {
   display: block;
   padding-left: 20px;
 }
-/* line 452, ../sass/partials/_menu.scss */
+/* line 454, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover, #sidebar-first .block.block-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 471, ../sass/partials/_menu.scss */
+/* line 473, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 474, ../sass/partials/_menu.scss */
+/* line 476, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 477, ../sass/partials/_menu.scss */
+/* line 479, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
