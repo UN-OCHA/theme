@@ -389,8 +389,7 @@
 			}
 		}
 
-		&.block-og-menu,
-		&.block-menu {
+		&.block-og-menu {
 
 			ul.menu {
 
@@ -408,6 +407,10 @@
 
 					&.last {
 						padding-bottom: 7px;
+					}
+
+					&.expanded {
+						margin-bottom: 15px;
 					}
 
 					.nolink {
