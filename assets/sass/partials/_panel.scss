@@ -189,8 +189,9 @@
   }
 }
 
-/* Linkit fix */
-.linkit-wrapper {
+/* Linkit and media fix */
+.linkit-wrapper,
+.media-wrapper {
   z-index: 5000;
 }
 

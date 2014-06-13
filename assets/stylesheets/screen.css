@@ -11993,14 +11993,15 @@ body .region-branding input.form-submit {
   background-position: 0 -760px;
 }
 
-/* Linkit fix */
-/* line 193, ../sass/partials/_panel.scss */
-.linkit-wrapper {
+/* Linkit and media fix */
+/* line 194, ../sass/partials/_panel.scss */
+.linkit-wrapper,
+.media-wrapper {
   z-index: 5000;
 }
 
 /* Featured documents and maps */
-/* line 199, ../sass/partials/_panel.scss */
+/* line 200, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
 .fieldable-panels-pane .node-teaser.node-hr-document .container {
   background-image: url("/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg");
@@ -12008,14 +12009,14 @@ body .region-branding input.form-submit {
   padding-right: 0;
   padding-left: 0;
 }
-/* line 206, ../sass/partials/_panel.scss */
+/* line 207, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-infographics-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-documents-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-infographics-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-documents-panes-thumbnail {
   height: 120px;
 }
-/* line 210, ../sass/partials/_panel.scss */
+/* line 211, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title {
   background-color: #67A3AB;
@@ -12024,7 +12025,7 @@ body .region-branding input.form-submit {
   text-align: center;
   padding-top: 1em;
 }
-/* line 217, ../sass/partials/_panel.scss */
+/* line 218, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title a,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title a {
   color: white;
