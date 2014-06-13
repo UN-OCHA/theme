@@ -425,6 +425,14 @@
 							float: right;
 							margin-top: 7px;
 							margin-right: 7px;
+							border-top: 4px solid white;
+						}
+
+						&.collapsed > .caret {
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							border-top: 0;
+							border-bottom: 4px solid white;
 						}
 					}
 

@@ -11394,15 +11394,23 @@ div.region-top div.block {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
+  border-top: 4px solid white;
 }
 /* line 431, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-og-menu ul.menu li .nolink.collapsed > .caret {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 0;
+  border-bottom: 4px solid white;
+}
+/* line 439, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul {
   padding-left: 14px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 437, ../sass/partials/_menu.scss */
+/* line 445, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11412,33 +11420,33 @@ div.region-top div.block {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 446, ../sass/partials/_menu.scss */
+/* line 454, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.first {
   padding-top: 0;
 }
-/* line 449, ../sass/partials/_menu.scss */
+/* line 457, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.last {
   padding-bottom: 0;
 }
-/* line 453, ../sass/partials/_menu.scss */
+/* line 461, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a {
   display: block;
   padding-left: 20px;
 }
-/* line 457, ../sass/partials/_menu.scss */
+/* line 465, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 476, ../sass/partials/_menu.scss */
+/* line 484, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 479, ../sass/partials/_menu.scss */
+/* line 487, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 482, ../sass/partials/_menu.scss */
+/* line 490, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
