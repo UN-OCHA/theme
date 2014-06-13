@@ -12020,6 +12020,7 @@ body .region-branding input.form-submit {
   display: list-item;
   list-style-type: disc;
   color: #54b1c8;
+  margin-left: 5px;
 }
 
 /* line 5, ../sass/partials/_view.scss */
