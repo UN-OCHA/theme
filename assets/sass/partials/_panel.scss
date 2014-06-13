@@ -195,7 +195,8 @@
 }
 
 /* Featured documents and maps */
-.fieldable-panels-pane .node-teaser .container {
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container,
+.fieldable-panels-pane .node-teaser.node-hr-document .container {
   background-image: url('/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg');
   background-repeat: no-repeat;
   padding-right: 0;

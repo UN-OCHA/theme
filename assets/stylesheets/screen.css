@@ -12000,28 +12000,33 @@ body .region-branding input.form-submit {
 }
 
 /* Featured documents and maps */
-/* line 198, ../sass/partials/_panel.scss */
-.fieldable-panels-pane .node-teaser .container {
+/* line 199, ../sass/partials/_panel.scss */
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container,
+.fieldable-panels-pane .node-teaser.node-hr-document .container {
   background-image: url("/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg");
   background-repeat: no-repeat;
   padding-right: 0;
   padding-left: 0;
 }
-/* line 205, ../sass/partials/_panel.scss */
-.fieldable-panels-pane .node-teaser .container .pane-hr-infographics-panes-thumbnail,
-.fieldable-panels-pane .node-teaser .container .pane-hr-documents-panes-thumbnail {
+/* line 206, ../sass/partials/_panel.scss */
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-infographics-panes-thumbnail,
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-documents-panes-thumbnail,
+.fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-infographics-panes-thumbnail,
+.fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-documents-panes-thumbnail {
   height: 120px;
 }
-/* line 209, ../sass/partials/_panel.scss */
-.fieldable-panels-pane .node-teaser .container .pane-node-title {
+/* line 210, ../sass/partials/_panel.scss */
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title,
+.fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title {
   background-color: #67A3AB;
   min-height: 50px;
   opacity: 0.8;
   text-align: center;
   padding-top: 1em;
 }
-/* line 216, ../sass/partials/_panel.scss */
-.fieldable-panels-pane .node-teaser .container .pane-node-title a {
+/* line 217, ../sass/partials/_panel.scss */
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title a,
+.fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title a {
   color: white;
   font-weight: bold;
 }
