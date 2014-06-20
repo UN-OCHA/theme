@@ -11437,16 +11437,55 @@ div.region-top div.block {
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+/* line 479, ../sass/partials/_menu.scss */
+#sidebar-first .item-list {
+  background-color: #dfdfdf;
+}
+/* line 482, ../sass/partials/_menu.scss */
+#sidebar-first .item-list h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #525252;
+  margin-bottom: 0;
+  display: block;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+/* line 492, ../sass/partials/_menu.scss */
+#sidebar-first .item-list ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-type: none;
+}
+/* line 497, ../sass/partials/_menu.scss */
+#sidebar-first .item-list ul li {
+  list-style: none;
+  list-style-image: none;
+  list-style-type: none;
+  margin-bottom: 5px;
+  display: block;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 506, ../sass/partials/_menu.scss */
+#sidebar-first .item-list ul li a {
+  display: block;
+  padding-left: 20px;
+}
+/* line 510, ../sass/partials/_menu.scss */
+#sidebar-first .item-list ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
-/* line 484, ../sass/partials/_menu.scss */
+/* line 523, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 487, ../sass/partials/_menu.scss */
+/* line 526, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 490, ../sass/partials/_menu.scss */
+/* line 529, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
