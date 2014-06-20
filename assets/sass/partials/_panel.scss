@@ -222,6 +222,19 @@
   }
 }
 
+.fieldable-panels-pane .node-teaser.node-hr-contact .container {
+  .pane-node-title {
+    margin-top: 1em;
+  }
+
+  .pane-node-field-organizations,
+  .pane-node-field-job-title-other,
+  .pane-node-field-email,
+  .pane-node-field-phones {
+    padding-left: 10px;
+  }
+}
+
 /* Lists of documents */
 /*.fieldable-panels-pane .field-name-field-documents .field-item {
   display: list-item;
