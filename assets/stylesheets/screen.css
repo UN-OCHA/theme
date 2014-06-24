@@ -12043,7 +12043,7 @@ body .region-branding input.form-submit {
 /* line 200, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
 .fieldable-panels-pane .node-teaser.node-hr-document .container {
-  background-image: url("/sites/all/themes/humanitarianresponse/assets/images/backgrounds/BG_beige_grey.jpg");
+  background-image: url("../images/backgrounds/BG_beige_grey.jpg");
   background-repeat: no-repeat;
   padding-right: 0;
   padding-left: 0;
@@ -12083,13 +12083,13 @@ body .region-branding input.form-submit {
   padding-left: 10px;
 }
 
-/* Lists of documents */
-/*.fieldable-panels-pane .field-name-field-documents .field-item {
-  display: list-item;
-  list-style-type: disc;
-  color: $p-comp;
-  margin-left: 5px;
-}*/
+/* Philippines */
+/* line 241, ../sass/partials/_panel.scss */
+.og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
+.og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-document .container {
+  background-image: url("../images/backgrounds/BG_green_2.jpg");
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
