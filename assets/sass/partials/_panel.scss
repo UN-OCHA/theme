@@ -272,6 +272,12 @@
   .views-field-field-links{
     @extend .views-field-body;
   }
+  .views-field-title{
+    @extend .views-field-body;
+  }
+  h3.views-group-title{
+    @extend .views-field-body;
+  }
 }
 
 
