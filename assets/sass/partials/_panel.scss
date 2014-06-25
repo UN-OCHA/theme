@@ -242,3 +242,37 @@
     background-image: url('../images/backgrounds/BG_green_2.jpg');
   }
 }
+
+/*Toolbox page*/
+
+.pane-hr-toolbox-panes-items {
+  img[class="file-icon"]{
+    content:url('sites/all/themes/humanitarianresponse/assets/images/icons/38/Applications/APP_tools.png');
+    margin-left: 20px;
+    width:40px;
+    height:40px;
+  }
+  a{
+    color:$brand-primary;
+  }
+  
+  .views-field-field-image{
+    width:25%;
+    float:right;
+    padding: 5px;
+  }
+  .views-field-body{
+    width:75%;
+    float:left;
+    padding-bottom: 20px;
+  }
+  .views-field-field-files{
+    @extend .views-field-body;
+  }
+  .views-field-field-links{
+    @extend .views-field-body;
+  }
+}
+
+
+
