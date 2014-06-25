@@ -7,7 +7,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="views-group hr-toolbox-<?php print strtolower($title); ?>">
+<div class="views-group hr-toolbox-<?php print strtolower($title); ?> <?php if ($title == 'Tools') { print 'hr-highlighted'; } ?>">
 	<?php if (!empty($title)): ?>
 	  <h3 class="views-group-title"><?php print $title; ?></h3>
 	<?php endif; ?>
