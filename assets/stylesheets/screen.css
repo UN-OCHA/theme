@@ -12101,11 +12101,25 @@ body .region-branding input.form-submit {
   background-image: none;
 }
 /* line 303, ../sass/partials/_panel.scss */
+.page-node-22 .carousel .carousel-indicators {
+  text-align: right;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  margin-left: 0;
+}
+/* line 311, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-caption {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #55b1c8;
+  background-color: rgba(85, 177, 200, 0.6);
+  bottom: -15px;
+}
+/* line 318, ../sass/partials/_panel.scss */
+.page-node-22 .carousel .carousel-caption h3 {
+  color: white;
+  text-align: left;
 }
 
 /* line 5, ../sass/partials/_view.scss */

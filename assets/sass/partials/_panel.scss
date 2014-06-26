@@ -300,10 +300,24 @@
     background-image: none;
   }
 
+  .carousel-indicators {
+    text-align: right;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    margin-left: 0;
+  }
+
   .carousel-caption {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: $brand-primary;
+    background-color: rgba(85, 177, 200, 0.6);
+    bottom: -15px;
+
+    h3 {
+      color: white;
+      text-align: left;
+    }
   }
 }
