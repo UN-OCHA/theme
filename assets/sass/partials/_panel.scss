@@ -250,14 +250,24 @@
     display: none;
   }
 
-  .hr-toolbox-tools span.file{
-    display: inline-block;
-    background-image: url('../images/icons/38/Applications/APP_tools.png');
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    padding-top: 10px;
-    height:40px;
-  }
+  .hr-toolbox-tools {
+    .views-field-field-files {
+      ul {
+        list-style-type: none;
+      }
+
+      span.file{
+        display: inline-block;
+        background-image: url('../images/icons/38/Applications/APP_tools.png');
+        background-repeat: no-repeat;
+        padding-left: 50px;
+        padding-top: 10px;
+        height:40px;
+        font-weight: bold;
+        color: $brand-primary;
+      }
+    }
+  } 
 
   a{
     color:$brand-primary;
