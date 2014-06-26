@@ -12087,6 +12087,13 @@ body .region-branding input.form-submit {
   color: #55b1c8;
 }
 
+/* Carousel */
+/* line 292, ../sass/partials/_panel.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
