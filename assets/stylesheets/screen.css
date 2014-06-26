@@ -11437,55 +11437,16 @@ div.region-top div.block {
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-/* line 480, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list {
-  background-color: #dfdfdf;
-}
-/* line 483, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list h4 {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #525252;
-  margin-bottom: 0;
-  display: block;
-  padding-top: 7px;
-  padding-left: 7px;
-}
-/* line 493, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list ul {
-  list-style: none;
-  list-style-image: none;
-  list-style-type: none;
-}
-/* line 498, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list ul li {
-  list-style: none;
-  list-style-image: none;
-  list-style-type: none;
-  margin-bottom: 5px;
-  display: block;
-  padding: 0;
-  margin-bottom: 0;
-}
-/* line 507, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list ul li a {
-  display: block;
-  padding-left: 20px;
-}
-/* line 511, ../sass/partials/_menu.scss */
-#sidebar-first .view-hr-toolbox-categories .item-list ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
 
-/* line 525, ../sass/partials/_menu.scss */
+/* line 483, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 528, ../sass/partials/_menu.scss */
+/* line 486, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 531, ../sass/partials/_menu.scss */
+/* line 489, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
@@ -12091,32 +12052,6 @@ body .region-branding input.form-submit {
 }
 
 /*Toolbox page*/
-/* line 248, ../sass/partials/_panel.scss */
-.pane-hr-toolbox-panes-items {
-  /* 
-  .views-field-field-image{
-    width:25%;
-    float:right;
-    padding: 5px;
-  }
-  .views-field-body{
-    width:75%;
-    float:left;
-    padding-bottom: 20px;
-  }
-  .views-field-field-files{
-    @extend .views-field-body;
-  }
-  .views-field-field-links{
-    @extend .views-field-body;
-  }
-  .views-field-title{
-    @extend .views-field-body;
-  }
-  h3.views-group-title{
-    padding-bottom: 20px;
-  }*/
-}
 /* line 250, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .views-field-title {
   color: #525252;

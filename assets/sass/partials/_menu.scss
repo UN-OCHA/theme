@@ -475,48 +475,6 @@
 		}
 		
 	}
-//@TODO place hard coded colors in the _variables partial.
-	.view-hr-toolbox-categories{
-		.item-list{
-			background-color: #dfdfdf;
-
-			h4{
-				font-weight: bold;
-				text-transform: uppercase;
-				color: #525252;
-				margin-bottom: 0;
-				display: block;
-				padding-top: 7px;
-				padding-left: 7px;			
-			}
-		
-			ul{
-				list-style: none;
-				list-style-image: none;
-				list-style-type: none;
-
-					li{
-						list-style: none;
-						list-style-image: none;
-						list-style-type: none;
-						margin-bottom: 5px;
-						display: block;
-						padding: 0;
-						margin-bottom: 0;
-
-							a {
-								display: block;
-								padding-left: 20px;
-
-									&:hover {
-										background-color: rgba(255,255,255,0.2);
-									}
-							}
-					}
-			}
-
-		}
-	}
 	
 }
 
