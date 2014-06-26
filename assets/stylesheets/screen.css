@@ -12117,15 +12117,19 @@ body .region-branding input.form-submit {
     padding-bottom: 20px;
   }*/
 }
-/* line 249, ../sass/partials/_panel.scss */
+/* line 250, ../sass/partials/_panel.scss */
+.pane-hr-toolbox-panes-items .views-field-field-files li {
+  color: #55b1c8;
+}
+/* line 254, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items img.file-icon {
   display: none;
 }
-/* line 255, ../sass/partials/_panel.scss */
+/* line 260, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files ul {
   list-style-type: none;
 }
-/* line 259, ../sass/partials/_panel.scss */
+/* line 264, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files span.file {
   display: inline-block;
   background-image: url("../images/icons/38/Applications/APP_tools.png");
@@ -12134,9 +12138,8 @@ body .region-branding input.form-submit {
   padding-top: 10px;
   height: 40px;
   font-weight: bold;
-  color: #55b1c8;
 }
-/* line 272, ../sass/partials/_panel.scss */
+/* line 276, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items a {
   color: #55b1c8;
 }

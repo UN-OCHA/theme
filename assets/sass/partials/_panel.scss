@@ -246,6 +246,11 @@
 /*Toolbox page*/
 
 .pane-hr-toolbox-panes-items {
+
+  .views-field-field-files li {
+    color: $brand-primary;
+  }
+
   img.file-icon {
     display: none;
   }
@@ -264,7 +269,6 @@
         padding-top: 10px;
         height:40px;
         font-weight: bold;
-        color: $brand-primary;
       }
     }
   } 
