@@ -12092,29 +12092,28 @@ body .region-branding input.form-submit {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   margin: auto;
+  width: 100%;
 }
 
 /* Toolbox slideshow */
-/* line 299, ../sass/partials/_panel.scss */
-.page-node-22 .carousel .carousel-control.left,
-.page-node-22 .carousel .carousel-control.right {
-  background-image: none;
-}
-/* line 303, ../sass/partials/_panel.scss */
+/* line 300, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-indicators {
   text-align: right;
   left: 0;
   width: 100%;
   text-align: right;
   margin-left: 0;
+  bottom: 0;
 }
-/* line 311, ../sass/partials/_panel.scss */
+/* line 309, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-caption {
   left: 0;
   right: 0;
   width: 100%;
   background-color: rgba(85, 177, 200, 0.6);
   bottom: -15px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 /* line 318, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-caption h3 {
