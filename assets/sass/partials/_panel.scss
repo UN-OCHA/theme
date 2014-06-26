@@ -247,7 +247,14 @@
 
 .pane-hr-toolbox-panes-items {
 
-  .views-field-field-files li {
+  .views-field-title {
+    color: #525252;
+    margin-top: 1em;
+    display: inline-block;
+  }
+
+  .views-field-field-files li,
+  .views-field-field-links li {
     color: $brand-primary;
   }
 
