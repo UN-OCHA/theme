@@ -293,3 +293,17 @@
   margin: auto;
 }
 
+/* Toolbox slideshow */
+.page-node-22 .carousel {
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+  }
+
+  .carousel-caption {
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: $brand-primary;
+  }
+}

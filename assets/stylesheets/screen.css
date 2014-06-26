@@ -12094,6 +12094,20 @@ body .region-branding input.form-submit {
   margin: auto;
 }
 
+/* Toolbox slideshow */
+/* line 299, ../sass/partials/_panel.scss */
+.page-node-22 .carousel .carousel-control.left,
+.page-node-22 .carousel .carousel-control.right {
+  background-image: none;
+}
+/* line 303, ../sass/partials/_panel.scss */
+.page-node-22 .carousel .carousel-caption {
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #55b1c8;
+}
+
 /* line 5, ../sass/partials/_view.scss */
 #block-system-main .view {
   margin: 20px 0;
