@@ -12120,23 +12120,24 @@ body .region-branding input.form-submit {
 /* line 250, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .views-field-title {
   color: #525252;
-  margin-top: 1em;
+  margin-top: 3em;
+  margin-bottom: 2em;
   display: inline-block;
 }
-/* line 257, ../sass/partials/_panel.scss */
+/* line 258, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .views-field-field-files li,
 .pane-hr-toolbox-panes-items .views-field-field-links li {
   color: #55b1c8;
 }
-/* line 261, ../sass/partials/_panel.scss */
+/* line 262, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items img.file-icon {
   display: none;
 }
-/* line 267, ../sass/partials/_panel.scss */
+/* line 268, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files ul {
   list-style-type: none;
 }
-/* line 271, ../sass/partials/_panel.scss */
+/* line 272, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files span.file {
   display: inline-block;
   background-image: url("../images/icons/38/Applications/APP_tools.png");
@@ -12146,7 +12147,7 @@ body .region-branding input.form-submit {
   height: 40px;
   font-weight: bold;
 }
-/* line 283, ../sass/partials/_panel.scss */
+/* line 284, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items a {
   color: #55b1c8;
 }
