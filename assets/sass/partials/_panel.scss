@@ -311,13 +311,19 @@
     right: 0;
     width: 100%;
     background-color: rgba(85, 177, 200, 0.6);
-    bottom: -15px;
+    bottom: 0;
     padding-bottom: 0;
     padding-top: 0;
 
     h3 {
       color: white;
       text-align: left;
+    }
+  }
+
+  .carousel-control {
+    span {
+      padding-top: 80px;
     }
   }
 }

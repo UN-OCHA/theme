@@ -12111,7 +12111,7 @@ body .region-branding input.form-submit {
   right: 0;
   width: 100%;
   background-color: rgba(85, 177, 200, 0.6);
-  bottom: -15px;
+  bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -12119,6 +12119,10 @@ body .region-branding input.form-submit {
 .page-node-22 .carousel .carousel-caption h3 {
   color: white;
   text-align: left;
+}
+/* line 325, ../sass/partials/_panel.scss */
+.page-node-22 .carousel .carousel-control span {
+  padding-top: 80px;
 }
 
 /* line 5, ../sass/partials/_view.scss */
