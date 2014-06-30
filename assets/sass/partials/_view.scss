@@ -222,3 +222,26 @@ a.fc-event, .fc-event-draggable {
   color: #EEEEEE;
 }
 
+// export button for feeds.
+
+.feed-icon {
+  .btn{
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background: gray;
+    color: #fff;
+  }
+  
+  button.btn.btn-default.dropdown-toggle:before{
+    content:"\f064";
+	font-family: FontAwesome;
+	font-style: inherit;
+	font-weight: normal;
+	text-decoration: inherit;
+  }
+
+  .fa-download:before{
+    content:"export";
+   }
+
+}

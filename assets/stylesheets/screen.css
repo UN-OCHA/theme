@@ -12318,6 +12318,26 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   color: #EEEEEE;
 }
 
+/* line 228, ../sass/partials/_view.scss */
+.feed-icon .btn {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background: gray;
+  color: #fff;
+}
+/* line 235, ../sass/partials/_view.scss */
+.feed-icon button.btn.btn-default.dropdown-toggle:before {
+  content: "\f064";
+  font-family: FontAwesome;
+  font-style: inherit;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+/* line 243, ../sass/partials/_view.scss */
+.feed-icon .fa-download:before {
+  content: "export";
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;
