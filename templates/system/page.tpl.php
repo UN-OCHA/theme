@@ -107,7 +107,7 @@
 <footer id="footer" class="footer" role="footer">
   <div class="container">
     <div id="footer-first" class="col-md-3">
-      <p><?php print l('HumanitarianResponse.info', '<front>', array('attributes' => array('target' => '_blank'))); ?> is provided by UN OCHA to support humanitarian operations globally</p><p><?php print l(t('Learn more about HumanitarianResponse.info'), 'about'); ?></p><p><?php print l(t('Read our Blog'), 'about/blog'); ?></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
+      <p><?php print l('HumanitarianResponse.info', '<front>', array('attributes' => array('target' => '_blank'))); ?> is provided by UN OCHA to support humanitarian operations globally</p><p><?php print l(t('Learn more about HumanitarianResponse.info'), 'about', array('alias' => TRUE)); ?></p><p><?php print l(t('Read our Blog'), 'about/blog'); ?></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
     </div>
     <div id="footer-second" class="col-md-6">
       <div class="col-md-3">
