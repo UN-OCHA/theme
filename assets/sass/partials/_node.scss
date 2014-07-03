@@ -74,6 +74,10 @@
         .pane-node-field-files-collection {
           display: inline-block;
         }
+
+        .field-name-field-users-ref .content {
+          min-height: 0;
+        }
       }
 
       .sidebar {
