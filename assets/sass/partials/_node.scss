@@ -346,3 +346,11 @@
   margin-bottom: 18px;
   color: #333333;
 }
+
+.node-hr-dataset {
+  .panel-panel-inner{
+    .pane-node-field-ds-datasources{
+      border-bottom: 1px dotted #8f8f8f;
+    }
+  }
+} 
