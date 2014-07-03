@@ -48,7 +48,8 @@
     border: 1px solid #FFF;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
     border-right: 5px solid $p-comp;
-
+    border-bottom: 1px dotted #8f8f8f;
+    
     .row {
       overflow: hidden;
 
@@ -346,11 +347,3 @@
   margin-bottom: 18px;
   color: #333333;
 }
-
-.node-hr-dataset {
-  .panel-panel-inner{
-    .pane-node-field-ds-datasources{
-      border-bottom: 1px dotted #8f8f8f;
-    }
-  }
-} 
