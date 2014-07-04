@@ -70,29 +70,6 @@
 }
 
 .navbar {
-/*
-	a.btn {
-		background-color: #b4b4b4;
-		color: white;
-		border: 0;
-		margin-right: 2px;
-		border: none;
-	 	@include border-radius(4px);
-		font-size: 12px;
-		text-transform: uppercase;
-		font-size: 11px;
-		position: relative;
-		top: -2px;
-		padding: 6px 15px;
-		color: #FFFFFF;
-		text-decoration: none;
-
- 		&:hover {
-			background-color: #BBB;
- 		}
-	}
-*/
-
 	button, a.btn {
 		background-color: #aeadad;
 		color: white;
@@ -339,23 +316,25 @@
 								display: inline-block;
 								padding-left: 14px;
 							}
+
+							&.facetapi-inactive:hover {
+								background: url('../images/check_on.png') no-repeat scroll left center rgba(0,0,0,0);
+							}
 						}
 
 						&.redactive {
 							color:$p-main;
-							/*margin-left: 14px;
-							margin-top: 5px;*/
 							> a {
 								color: $p-main;
 								width: 11px;
 								height: 11px;
-								background: url(../images/check_on.png) no-repeat left center rgba(0, 0, 0, 0);
+								background: url('../images/check_on.png') no-repeat left center rgba(0, 0, 0, 0);
 								display: inline-block;
 								text-indent: -9999px;
-								/*position: absolute;
-								font-size: 0;
-								top: 4px;
-								left: -15px;*/
+							}
+
+							> a:hover {
+								background: url('../images/check_off.png') no-repeat left center rgba(0, 0, 0, 0);
 							}
 						}
 					}
