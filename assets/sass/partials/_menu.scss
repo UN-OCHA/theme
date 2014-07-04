@@ -320,18 +320,21 @@
 						list-style-type: none;
 						list-style-image: none;
 						position: relative;
+						margin-left: 1px;
 
 						a {
 							color: black;
-							padding-left: 6px;
 							display: block;
+							background: url(../images/check_off.png) no-repeat -1px 6px rgba(0, 0, 0, 0);
 							&:hover {
 								background-color: rgba(0,0,0,0.1);
+								background: url(../images/check_on.png) no-repeat -1px 6px rgba(0, 0, 0, 0);
 							}
 
 							&.facetapi-active {
 								display: inline;
 								padding-right: 6px;
+								background: url(../images/check_on.png) no-repeat -1px 6px rgba(0, 0, 0, 0);
 							}
 						}
 
@@ -343,7 +346,7 @@
 								color: $p-main;
 								width: 11px;
 								height: 11px;
-								background: url(../images/bgfilteractive.png) no-repeat center center rgba(0, 0, 0, 0);
+								background: url(../images/check_on.png) no-repeat center center rgba(0, 0, 0, 0);
 								display: inline-block;
 								position: absolute;
 								font-size: 0;
@@ -360,7 +363,7 @@
 
 		&.block-current-search {
 
-			background: url(../images/currentfilter.png) no-repeat right center transparent;
+			background: url(../images/currentfilter.png) no-repeat right 7px transparent;
 
 			&:before {
 				background-color: #FFF;
@@ -376,6 +379,21 @@
 
 			.content {
 				display: block;
+
+				.current-reset-filter {
+					padding-top: 22px;
+					margin-left: -14px;
+					color: #BC2E3C;
+					a {
+					    padding-left: 15px;
+						margin-right: 4px;
+						background: url(../images/cross.png) no-repeat center center rgba(0, 0, 0, 0);
+					  }
+				  }
+
+				    .current-search-filter {
+					   padding-top: -5px;
+				     }
 
 				.facetapi-active {
 					font-weight: bold;
