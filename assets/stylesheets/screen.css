@@ -11311,29 +11311,36 @@ div.region-top div.block {
   display: inline;
   padding-right: 6px;
 }
-/* line 338, ../sass/partials/_menu.scss */
+/* line 337, ../sass/partials/_menu.scss */
+#sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive {
+  background: url("../images/check_off.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  display: inline-block;
+  padding-left: 14px;
+}
+/* line 344, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive {
   color: #bc2e3c;
-  margin-left: 23px;
-  margin-top: 5px;
+  /*margin-left: 14px;
+  margin-top: 5px;*/
 }
-/* line 342, ../sass/partials/_menu.scss */
+/* line 348, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive > a {
   color: #bc2e3c;
   width: 11px;
   height: 11px;
-  background: url(../images/check_on.png) no-repeat center center rgba(0, 0, 0, 0);
+  background: url(../images/check_on.png) no-repeat left center rgba(0, 0, 0, 0);
   display: inline-block;
-  position: absolute;
+  text-indent: -9999px;
+  /*position: absolute;
   font-size: 0;
   top: 4px;
-  left: -15px;
+  left: -15px;*/
 }
-/* line 361, ../sass/partials/_menu.scss */
+/* line 368, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search {
   background: url(../images/currentfilter.png) no-repeat right center transparent;
 }
-/* line 365, ../sass/partials/_menu.scss */
+/* line 372, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search:before {
   background-color: #FFF;
   width: 1px;
@@ -11345,42 +11352,42 @@ div.region-top div.block {
   margin-top: -9px;
   color: #9b9b9b;
 }
-/* line 377, ../sass/partials/_menu.scss */
+/* line 384, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content {
   display: block;
 }
-/* line 380, ../sass/partials/_menu.scss */
+/* line 387, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .facetapi-active {
   font-weight: bold;
   color: #bc2e3c;
 }
-/* line 386, ../sass/partials/_menu.scss */
+/* line 393, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search a {
   padding-left: 0;
   padding-right: 6px;
 }
-/* line 396, ../sass/partials/_menu.scss */
+/* line 403, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
   padding: 0 7px;
 }
-/* line 400, ../sass/partials/_menu.scss */
+/* line 407, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li a {
   padding-left: 14px;
 }
-/* line 404, ../sass/partials/_menu.scss */
+/* line 411, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.first {
   padding-top: 7px;
 }
-/* line 408, ../sass/partials/_menu.scss */
+/* line 415, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.last {
   padding-bottom: 7px;
 }
-/* line 412, ../sass/partials/_menu.scss */
+/* line 419, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   margin-bottom: 15px;
 }
-/* line 416, ../sass/partials/_menu.scss */
+/* line 423, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
   font-weight: bold;
   text-transform: uppercase;
@@ -11389,28 +11396,28 @@ div.region-top div.block {
   margin-bottom: 0;
   display: block;
 }
-/* line 424, ../sass/partials/_menu.scss */
+/* line 431, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
   border-top: 4px solid white;
 }
-/* line 431, ../sass/partials/_menu.scss */
+/* line 438, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink.collapsed > .caret {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 0;
   border-bottom: 4px solid white;
 }
-/* line 439, ../sass/partials/_menu.scss */
+/* line 446, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul {
   padding-left: 14px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 445, ../sass/partials/_menu.scss */
+/* line 452, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11420,33 +11427,33 @@ div.region-top div.block {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 454, ../sass/partials/_menu.scss */
+/* line 461, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.first {
   padding-top: 0;
 }
-/* line 457, ../sass/partials/_menu.scss */
+/* line 464, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.last {
   padding-bottom: 0;
 }
-/* line 461, ../sass/partials/_menu.scss */
+/* line 468, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a {
   display: block;
   padding-left: 20px;
 }
-/* line 465, ../sass/partials/_menu.scss */
+/* line 472, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 483, ../sass/partials/_menu.scss */
+/* line 490, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 486, ../sass/partials/_menu.scss */
+/* line 493, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 489, ../sass/partials/_menu.scss */
+/* line 496, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
