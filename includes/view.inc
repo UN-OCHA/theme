@@ -53,7 +53,7 @@ function humanitarianresponse_views_more__hr_documents_panes__list($view) {
   return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/documents').'</div>';
 }
 
-function humanitarianresponse_views_more__hr_infogrpahics_panes__list($view) {
+function humanitarianresponse_views_more__hr_infographics_panes__list($view) {
   return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/infographics').'</div>';
 }
 
