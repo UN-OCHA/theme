@@ -12927,8 +12927,7 @@ label {
   color: #606060;
 }
 
-/* line 340, ../sass/partials/_node.scss */
-.pane-node-hr-core-share-button .btn,
+/*.pane-node-hr-core-share-button .btn,
 .pane-node-field-files-collection .btn,
 .views-field-field-files-collection .btn {
   background-color: #DDD;
@@ -12940,13 +12939,11 @@ label {
   color: #333333;
 }
 
-/* line 351, ../sass/partials/_node.scss */
 .pane-node-field-files-collection .btn,
 .views-field-files-collection .btn {
-  background-color: #55b1c8;
+  background-color: $brand-primary;
   color: #ffffff;
-}
-
+}*/
 /* line 5, ../sass/partials/_user.scss */
 .user-teaser h3 {
   display: none;
