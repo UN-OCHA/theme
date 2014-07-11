@@ -273,6 +273,11 @@
                         clear: both;
                 }
 
+		.col-md-9 > .panel-panel-inner {
+	                min-height: 150px;
+	        }
+
+
                 .panel-panel {
 
                         &.left {
@@ -335,7 +340,23 @@
                                         }
                                 }
 
-                }
+        	        }
+
+			.pane-node-field-files-collection,
+			.pane-node-hr-core-share-button,
+			.pane-node-hr-core-read-more-button {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+
+			.pane-node-hr-core-share-button {
+				right: 120px;
+			}
+
+			.pane-node-hr-core-read-more-button {
+				right: 200px;
+			}
 
                 }
         }

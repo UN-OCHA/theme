@@ -12856,12 +12856,16 @@ label {
 .node-search-result .row:after {
   clear: both;
 }
-/* line 278, ../sass/partials/_node.scss */
+/* line 276, ../sass/partials/_node.scss */
+.node-search-result .row .col-md-9 > .panel-panel-inner {
+  min-height: 150px;
+}
+/* line 283, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 282, ../sass/partials/_node.scss */
+/* line 287, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12870,40 +12874,40 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 291, ../sass/partials/_node.scss */
+/* line 296, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 296, ../sass/partials/_node.scss */
+/* line 301, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 299, ../sass/partials/_node.scss */
+/* line 304, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 304, ../sass/partials/_node.scss */
+/* line 309, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .form-item,
 .node-search-result .row .panel-panel .panel-pane .form-group {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 309, ../sass/partials/_node.scss */
+/* line 314, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 312, ../sass/partials/_node.scss */
+/* line 317, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 319, ../sass/partials/_node.scss */
+/* line 324, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
   margin: 8px;
 }
-/* line 325, ../sass/partials/_node.scss */
+/* line 330, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12912,9 +12916,25 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 333, ../sass/partials/_node.scss */
+/* line 338, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
+}
+/* line 347, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .pane-node-field-files-collection,
+.node-search-result .row .panel-panel .pane-node-hr-core-share-button,
+.node-search-result .row .panel-panel .pane-node-hr-core-read-more-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* line 353, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .pane-node-hr-core-share-button {
+  right: 120px;
+}
+/* line 357, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .pane-node-hr-core-read-more-button {
+  right: 200px;
 }
 
 /*.pane-node-hr-core-share-button .btn,
