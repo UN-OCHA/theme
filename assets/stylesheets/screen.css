@@ -12882,22 +12882,28 @@ label {
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 303, ../sass/partials/_node.scss */
+/* line 304, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .panel-pane .form-item,
+.node-search-result .row .panel-panel .panel-pane .form-group {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 309, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 306, ../sass/partials/_node.scss */
+/* line 312, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 313, ../sass/partials/_node.scss */
+/* line 319, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
   margin: 8px;
 }
-/* line 319, ../sass/partials/_node.scss */
+/* line 325, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12906,7 +12912,7 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 327, ../sass/partials/_node.scss */
+/* line 333, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
