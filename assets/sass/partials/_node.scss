@@ -273,9 +273,9 @@
                         clear: both;
                 }
 
-		.col-md-9 > .panel-panel-inner {
+		/*.col-md-9 > .panel-panel-inner {
 	                min-height: 150px;
-	        }
+	        }*/
 
 
                 .panel-panel {
@@ -344,9 +344,6 @@
 
 			.pane-hr-node-links {
 				text-align: right;
-				position: absolute;
-				bottom: 0;
-				right: 0;
 			}
 
 			.pane-hr-node-links div {
