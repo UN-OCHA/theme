@@ -12889,8 +12889,9 @@ label {
 /* line 313, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
+  margin: 8px;
 }
-/* line 318, ../sass/partials/_node.scss */
+/* line 319, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12899,7 +12900,7 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 326, ../sass/partials/_node.scss */
+/* line 327, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
