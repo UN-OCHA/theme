@@ -31,7 +31,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
   if ($variables['element']['#field_type'] == 'field_collection' && $variables['element']['#view_mode'] == '_custom_display') {
       $output .= '<div class="btn-group">';
-      $output .= '<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+      $output .= '<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
         <i class="fa fa-download"></i> download <span class="caret"></span>
       </button>';
       $output .= '<ul class="dropdown-menu">';
@@ -68,7 +68,7 @@ function humanitarianresponse_views_view_field__hr_documents__table__field_files
   try {
     $doc = entity_metadata_wrapper('node', $variables['row']->_entity_properties['entity object']);
       $output .= '<div class="btn-group">';
-      $output .= '<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+      $output .= '<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
         download <span class="caret"></span>
       </button>';
       $output .= '<ul class="dropdown-menu">';
