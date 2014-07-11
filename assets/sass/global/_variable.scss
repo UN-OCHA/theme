@@ -122,12 +122,16 @@ $table-border-color:                 #ddd !default; // table and cell border
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #333 !default;
-$btn-default-bg:                 #ddd !default;
+$btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+$btn-secondary-color:		 #333 !default;
+$btn-secondary-bg: 		 #ddd !default;
+$btn-secondary-border:		 #ccc !default;
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;

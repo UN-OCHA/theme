@@ -3999,13 +3999,13 @@ select[multiple].input-lg,
 /* line 57, ../../../../../../../lib/gems/1.8/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: #333333;
-  background-color: #dddddd;
+  background-color: white;
   border-color: #cccccc;
 }
 /* line 15, ../../../../../../../lib/gems/1.8/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: #333333;
-  background-color: #c4c4c4;
+  background-color: #e6e6e6;
   border-color: #adadad;
 }
 /* line 22, ../../../../../../../lib/gems/1.8/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -4014,12 +4014,12 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../../../lib/gems/1.8/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #dddddd;
+  background-color: white;
   border-color: #cccccc;
 }
 /* line 38, ../../../../../../../lib/gems/1.8/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: #dddddd;
+  color: white;
   background-color: #333333;
 }
 
@@ -10964,6 +10964,12 @@ div.region-top div.block {
 #block-hr-layout-hr-layout-space-links .space-social-media,
 #block-hr-layout-hr-layout-space-links .field-name-field-email {
   text-align: center;
+}
+
+/* line 17, ../sass/partials/_structure.scss */
+.btn-secondary {
+  color: #333333;
+  background-color: #dddddd;
 }
 
 /* line 9, ../sass/partials/_menu.scss */
