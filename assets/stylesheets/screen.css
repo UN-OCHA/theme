@@ -12904,9 +12904,10 @@ label {
 }
 /* line 324, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
+  float: right;
   margin: 8px;
 }
-/* line 329, ../sass/partials/_node.scss */
+/* line 330, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12915,18 +12916,18 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 337, ../sass/partials/_node.scss */
+/* line 338, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
-/* line 344, ../sass/partials/_node.scss */
+/* line 345, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .pane-hr-node-links {
   text-align: right;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-/* line 351, ../sass/partials/_node.scss */
+/* line 352, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .pane-hr-node-links div {
   display: inline-block;
 }
