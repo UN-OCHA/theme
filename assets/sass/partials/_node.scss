@@ -322,7 +322,6 @@
                                 }
 
                                 .btn {
-                                        float: right;
 					margin: 8px;
                                 }
 
@@ -342,22 +341,13 @@
 
         	        }
 
-			.pane-node-field-files-collection,
-			.pane-node-hr-core-share-button,
-			.pane-node-hr-core-read-more-button {
-				position: absolute;
-				bottom: 0;
-				right: 0;
+			.pane-hr-node-links {
+				text-align: right;
 			}
 
-			.pane-node-hr-core-share-button {
-				right: 120px;
+			.pane-hr-node-links div {
+				display: inline-block;
 			}
-
-			.pane-node-hr-core-read-more-button {
-				right: 200px;
-			}
-
                 }
         }
 

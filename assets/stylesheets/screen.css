@@ -12904,10 +12904,9 @@ label {
 }
 /* line 324, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
-  float: right;
   margin: 8px;
 }
-/* line 330, ../sass/partials/_node.scss */
+/* line 329, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -12916,25 +12915,17 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 338, ../sass/partials/_node.scss */
+/* line 337, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
-/* line 347, ../sass/partials/_node.scss */
-.node-search-result .row .panel-panel .pane-node-field-files-collection,
-.node-search-result .row .panel-panel .pane-node-hr-core-share-button,
-.node-search-result .row .panel-panel .pane-node-hr-core-read-more-button {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+/* line 344, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .pane-hr-node-links {
+  text-align: right;
 }
-/* line 353, ../sass/partials/_node.scss */
-.node-search-result .row .panel-panel .pane-node-hr-core-share-button {
-  right: 120px;
-}
-/* line 357, ../sass/partials/_node.scss */
-.node-search-result .row .panel-panel .pane-node-hr-core-read-more-button {
-  right: 200px;
+/* line 348, ../sass/partials/_node.scss */
+.node-search-result .row .panel-panel .pane-hr-node-links div {
+  display: inline-block;
 }
 
 /*.pane-node-hr-core-share-button .btn,
