@@ -11456,8 +11456,8 @@ div.region-top div.block {
 }
 
 /* line 122, footer-logos/*.png */
-.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-ocha, .footer-logos-pw, .footer-logos-redhum, .footer-logos-vosocc {
-  background: url('../images/footer-logos-s22d92ab4de.png') no-repeat;
+.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc {
+  background: url('../images/footer-logos-se8c014b2f1.png') no-repeat;
 }
 
 /* line 10, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -11521,11 +11521,6 @@ html, body {
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.footer-logos-ocha {
-  background-position: 0 0;
-}
-
-/* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-pw {
   background-position: 0 -361px;
 }
@@ -11533,6 +11528,11 @@ html, body {
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-redhum {
   background-position: 0 -282px;
+}
+
+/* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.footer-logos-reliefweb {
+  background-position: 0 0;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
