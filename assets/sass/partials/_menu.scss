@@ -2,6 +2,9 @@
 // Styles for Menus and Navs
 // --------------------------------------------------
 
+@import "compass/utilities/sprites";
+@import "search/*.png";
+
 // Hide titles of menu blocks
 .block-menu h2,
 .block-menu-block h2,
@@ -274,10 +277,12 @@
 			h2 {
 				color: black;
 				cursor: pointer;
-				background: url(../images/facet-down.png) no-repeat right center transparent;
+				//background: url(../images/facet-down.png) no-repeat right center transparent;
+				@include search-sprite(facet-down);
 
 				&.opened {
-					background-image: url(../images/facet-up.png);
+					@include search-sprite(facet-up);
+					//background-image: url(../images/facet-up.png);
 				}
 			}
 
