@@ -72,6 +72,7 @@
             @include node-sprite(generic);
             color: $p-comp;
             padding: 20px 20px 20px 79px;
+            max-height: 55px;
           }
         }
 
@@ -196,8 +197,8 @@
                 font-size: 16px;
                 font-weight: bold;
                 @include node-sprite(generic);
-                //background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
                 padding: 20px 20px 20px 79px;
+                max-height: 55px;
                 margin-left: 18px;
                 margin-top: 16px;
 
