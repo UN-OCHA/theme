@@ -11457,7 +11457,7 @@ div.region-top div.block {
 
 /* line 122, footer-logos/*.png */
 .footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc {
-  background: url('../images/footer-logos-se8c014b2f1.png') no-repeat;
+  background: url('../images/footer-logos-sa4fd949d7b.png') no-repeat;
 }
 
 /* line 10, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
@@ -11487,27 +11487,27 @@ html, body {
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-cap {
-  background-position: 0 -87px;
+  background-position: 0 -200px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-cerf {
-  background-position: 0 -165px;
+  background-position: 0 -160px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-fts {
-  background-position: 0 -204px;
+  background-position: 0 -120px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-gdacs {
-  background-position: 0 -126px;
+  background-position: 0 -40px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-hews {
-  background-position: 0 -38px;
+  background-position: 0 0;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -11517,27 +11517,27 @@ html, body {
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-irin {
-  background-position: 0 -243px;
+  background-position: 0 -280px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-pw {
-  background-position: 0 -361px;
+  background-position: 0 -360px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-redhum {
-  background-position: 0 -282px;
+  background-position: 0 -320px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-reliefweb {
-  background-position: 0 0;
+  background-position: 0 -80px;
 }
 
 /* line 60, ../../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .footer-logos-vosocc {
-  background-position: 0 -321px;
+  background-position: 0 -240px;
 }
 
 /* line 11, ../sass/partials/_page.scss */
