@@ -123,7 +123,7 @@
 
   &.node-hr-news .container {
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_blog.png);
+      @include node-sprite(blog);
     }
   }
 
@@ -226,7 +226,6 @@
         &.node-hr-event {
                 h2 {
 			@include node-sprite(event);
-                        background-image: url(../images/RECT_events.png);
                         a {
                                 color: $p-events;
                         }

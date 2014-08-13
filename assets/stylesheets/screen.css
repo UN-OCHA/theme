@@ -12421,34 +12421,36 @@ label {
 .node-full.node-hr-indicator .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment .container .row .content .pane-node-title h2,
-.node-full.node-hr-office .container .row .content .pane-node-title h2,
+.node-full.node-hr-office .container .row .content .pane-node-title h2, .node-full.node-hr-document.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-infographic.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-event.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-dataset.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-indicator.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-contact.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-assessment.node-hr-news .container .row .content .pane-node-title h2,
+.node-full.node-hr-office.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-infographic.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-news.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-event.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-dataset.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment.node-hr-document .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-document .container .row .content .pane-node-title h2,
-.node-full.node-hr-news.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-event.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-dataset.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment.node-hr-infographic .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-infographic .container .row .content .pane-node-title h2,
-.node-full.node-hr-news.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-dataset.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-contact.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment.node-hr-event .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-event .container .row .content .pane-node-title h2,
-.node-full.node-hr-news.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-dataset.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment.node-hr-contact .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-contact .container .row .content .pane-node-title h2,
-.node-full.node-hr-news.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-dataset.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-indicator.node-hr-assessment .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-assessment .container .row .content .pane-node-title h2, .node-search-result > h2, .node-search-result.node-hr-news h2, .node-search-result.node-hr-document h2, .node-search-result.node-hr-event h2, .node-search-result.node-hr-infographic h2, .node-search-result.node-hr-contact h2, .node-search-result.node-hr-assessment h2 {
@@ -12729,7 +12731,7 @@ label {
 .node-full.node-hr-contact.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-assessment.node-hr-news .container .row .content .pane-node-title h2,
 .node-full.node-hr-office.node-hr-news .container .row .content .pane-node-title h2 {
-  background-image: url(../images/RECT_blog.png);
+  background-position: 0 -55px;
 }
 /* line 130, ../sass/partials/_node.scss */
 .node-full.node-hr-document.node-hr-document .container,
@@ -12911,66 +12913,65 @@ label {
 /* line 227, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 {
   background-position: 0 -385px;
-  background-image: url(../images/RECT_events.png);
 }
-/* line 230, ../sass/partials/_node.scss */
+/* line 229, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event h2 a {
   color: #ffb347;
 }
-/* line 234, ../sass/partials/_node.scss */
+/* line 233, ../sass/partials/_node.scss */
 .node-search-result.node-hr-event:after {
   background-color: #ffb347;
 }
-/* line 239, ../sass/partials/_node.scss */
+/* line 238, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 {
   background-position: 0 -220px;
 }
-/* line 241, ../sass/partials/_node.scss */
+/* line 240, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic h2 a {
   color: #60b75a;
 }
-/* line 245, ../sass/partials/_node.scss */
+/* line 244, ../sass/partials/_node.scss */
 .node-search-result.node-hr-infographic:after {
   background-color: #60b75a;
 }
-/* line 250, ../sass/partials/_node.scss */
+/* line 249, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 {
   background-position: 0 0;
 }
-/* line 252, ../sass/partials/_node.scss */
+/* line 251, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact h2 a {
   color: #a494d8;
 }
-/* line 256, ../sass/partials/_node.scss */
+/* line 255, ../sass/partials/_node.scss */
 .node-search-result.node-hr-contact:after {
   background-color: #a494d8;
 }
-/* line 262, ../sass/partials/_node.scss */
+/* line 261, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 {
   background-position: 0 -275px;
 }
-/* line 264, ../sass/partials/_node.scss */
+/* line 263, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment h2 a {
   color: #a8b761;
 }
-/* line 268, ../sass/partials/_node.scss */
+/* line 267, ../sass/partials/_node.scss */
 .node-search-result.node-hr-assessment:after {
   background-color: #a8b761;
 }
-/* line 273, ../sass/partials/_node.scss */
+/* line 272, ../sass/partials/_node.scss */
 .node-search-result .row {
   margin: 0;
 }
-/* line 277, ../sass/partials/_node.scss */
+/* line 276, ../sass/partials/_node.scss */
 .node-search-result .row:after {
   clear: both;
 }
-/* line 284, ../sass/partials/_node.scss */
+/* line 283, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left {
   padding: 0;
   margin: 20px 0;
 }
-/* line 288, ../sass/partials/_node.scss */
+/* line 287, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left img {
   border: 4px solid #FFF;
   float: left;
@@ -12979,40 +12980,40 @@ label {
   margin-left: 18px;
   line-height: 0;
 }
-/* line 297, ../sass/partials/_node.scss */
+/* line 296, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.left .view {
   margin: 0 !important;
 }
-/* line 302, ../sass/partials/_node.scss */
+/* line 301, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel.right {
   width: 83%;
 }
-/* line 305, ../sass/partials/_node.scss */
+/* line 304, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane {
   margin-bottom: 5px;
 }
-/* line 310, ../sass/partials/_node.scss */
+/* line 309, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .form-item,
 .node-search-result .row .panel-panel .panel-pane .form-group {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 315, ../sass/partials/_node.scss */
+/* line 314, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group {
   float: right;
 }
-/* line 318, ../sass/partials/_node.scss */
+/* line 317, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn-group .dropdown-menu {
   margin-top: -16px;
   margin-left: 6px;
   font-size: 11px;
 }
-/* line 325, ../sass/partials/_node.scss */
+/* line 324, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .btn {
   float: right;
   margin: 8px;
 }
-/* line 331, ../sass/partials/_node.scss */
+/* line 330, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-label {
   color: #8f8f8f;
   font-weight: normal;
@@ -13021,15 +13022,15 @@ label {
   *display: inline;
   *zoom: 1;
 }
-/* line 339, ../sass/partials/_node.scss */
+/* line 338, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .panel-pane .field .field-items {
   color: #606060;
 }
-/* line 346, ../sass/partials/_node.scss */
+/* line 345, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .pane-hr-node-links {
   text-align: right;
 }
-/* line 350, ../sass/partials/_node.scss */
+/* line 349, ../sass/partials/_node.scss */
 .node-search-result .row .panel-panel .pane-hr-node-links div {
   display: inline-block;
 }
