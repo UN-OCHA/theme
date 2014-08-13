@@ -279,6 +279,7 @@
 				cursor: pointer;
 				//background: url(../images/facet-down.png) no-repeat right center transparent;
 				@include search-sprite(facet-down);
+				background-position: right center;
 
 				&.opened {
 					@include search-sprite(facet-up);
