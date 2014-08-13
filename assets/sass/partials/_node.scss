@@ -70,7 +70,6 @@
             font-size: 18px;
             font-weight: bold;
             @include node-sprite(generic);
-            //background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
             color: $p-comp;
             padding: 20px 20px 20px 79px;
           }
@@ -132,7 +131,6 @@
     border-right: 5px solid $p-documents;
     .row .content .pane-node-title h2 {
       @include node-sprite(document);
-      //background-image: url(../images/RECT_documents.png);
       color: $p-documents;
     }
   }
@@ -140,7 +138,7 @@
   &.node-hr-infographic .container {
     border-right: 5px solid $p-visuals;
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_visuals.png);
+      @include node-sprite(visual);
       color: $p-visuals;
     }
   }
@@ -148,7 +146,7 @@
   &.node-hr-event .container {
     border-right: 5px solid $p-events;
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_events.png);
+      @include node-sprite(event);
       color: $p-events;
     }
   }
@@ -156,7 +154,7 @@
   &.node-hr-contact .container {
     border-right: 5px solid $p-contacts;
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_contacts.png);
+      @include node-sprite(contact);
       color: $p-contacts;
     }
   }
@@ -164,7 +162,7 @@
   &.node-hr-assessment .container {
     border-right: 5px solid $p-assessments;
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_assessments.png);
+      @include node-sprite(assessment);
       color: $p-assessments;
     }
   }
@@ -197,7 +195,8 @@
         > h2 {
                 font-size: 16px;
                 font-weight: bold;
-                background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
+                @include node-sprite(generic);
+                //background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
                 padding: 20px 20px 20px 79px;
                 margin-left: 18px;
                 margin-top: 16px;
@@ -209,13 +208,13 @@
 
 	&.node-hr-news {
                 h2 {
-                        background-image: url(../images/RECT_blog.png);
+			@include node-sprite(blog);
                 }
         }
 
         &.node-hr-document {
                 h2 {
-                        background-image: url(../images/RECT_documents.png);
+			@include node-sprite(document);
                         a {
                                 color: $p-documents;
                         }
@@ -226,6 +225,7 @@
         }
         &.node-hr-event {
                 h2 {
+			@include node-sprite(event);
                         background-image: url(../images/RECT_events.png);
                         a {
                                 color: $p-events;
@@ -237,7 +237,7 @@
         }
         &.node-hr-infographic {
                 h2 {
-                        background-image: url(../images/RECT_visuals.png);
+			@include node-sprite(visual);
                         a {
                                 color: $p-visuals;
                         }
@@ -248,7 +248,7 @@
         }
 	&.node-hr-contact {
                 h2 {
-                        background-image: url(../images/RECT_contacts.png);
+			@include node-sprite(contact);
                         a {
                                 color: $p-contacts;
                         }
@@ -260,7 +260,7 @@
 
 	&.node-hr-assessment {
                 h2 {
-                        background-image: url(../images/RECT_assessments.png);
+			@include node-sprite(assessment);
                         a {
                                 color: $p-assessments;
                         }
@@ -277,10 +277,6 @@
                 &:after {
                         clear: both;
                 }
-
-		/*.col-md-9 > .panel-panel-inner {
-	                min-height: 150px;
-	        }*/
 
 
                 .panel-panel {
@@ -358,21 +354,3 @@
         }
 
 }
-
-/*.pane-node-hr-core-share-button .btn,
-.pane-node-field-files-collection .btn,
-.views-field-field-files-collection .btn {
-  background-color: #DDD;
-  margin-left: 16px;
-  border: 0;
-  font-size: 12px;
-  padding: 3px 10px;
-  margin-bottom: 18px;
-  color: #333333;
-}
-
-.pane-node-field-files-collection .btn,
-.views-field-files-collection .btn {
-  background-color: $brand-primary;
-  color: #ffffff;
-}*/
