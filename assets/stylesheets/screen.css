@@ -10973,7 +10973,7 @@ div.region-top div.block {
 }
 
 /* line 82, search/*.png */
-.search-sprite, #sidebar-first .block.block-facetapi h2, #sidebar-first .block.block-facetapi h2.opened {
+.search-sprite, #sidebar-first .block.block-facetapi h2, #sidebar-first .block.block-facetapi h2.opened, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover {
   background: url('../images/search-s7f5466269b.png') no-repeat;
 }
 
@@ -11260,59 +11260,58 @@ div.region-top div.block {
   color: black;
   cursor: pointer;
   background-position: 0 -35px;
-  background-position: right center;
 }
-/* line 284, ../sass/partials/_menu.scss */
+/* line 283, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi h2.opened {
   background-position: 0 -42px;
 }
-/* line 290, ../sass/partials/_menu.scss */
+/* line 289, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content {
   display: none;
 }
-/* line 295, ../sass/partials/_menu.scss */
+/* line 294, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 300, ../sass/partials/_menu.scss */
+/* line 299, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li {
   list-style: none;
   list-style-type: none;
   list-style-image: none;
   position: relative;
 }
-/* line 306, ../sass/partials/_menu.scss */
+/* line 305, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a {
   color: black;
   padding-left: 6px;
   display: block;
 }
-/* line 310, ../sass/partials/_menu.scss */
+/* line 309, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 314, ../sass/partials/_menu.scss */
+/* line 313, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a.facetapi-active {
   display: inline;
   padding-right: 6px;
 }
-/* line 319, ../sass/partials/_menu.scss */
+/* line 318, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive {
-  background: url("../images/check_off.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  background-position: 0 -79px;
   display: inline-block;
   padding-left: 14px;
 }
 /* line 325, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover {
-  background: url("../images/check_on.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  background-position: 0 -68px;
 }
-/* line 330, ../sass/partials/_menu.scss */
+/* line 331, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive {
   color: #bc2e3c;
 }
-/* line 332, ../sass/partials/_menu.scss */
+/* line 333, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive > a {
   color: #bc2e3c;
   width: 11px;
@@ -11321,15 +11320,15 @@ div.region-top div.block {
   display: inline-block;
   text-indent: -9999px;
 }
-/* line 341, ../sass/partials/_menu.scss */
+/* line 342, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive > a:hover {
   background: url("../images/check_off.png") no-repeat left center rgba(0, 0, 0, 0);
 }
-/* line 352, ../sass/partials/_menu.scss */
+/* line 353, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search {
   background: url(../images/currentfilter.png) no-repeat right 12% transparent;
 }
-/* line 356, ../sass/partials/_menu.scss */
+/* line 357, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search:before {
   background-color: #FFF;
   width: 1px;
@@ -11341,16 +11340,16 @@ div.region-top div.block {
   margin-top: -9px;
   color: #9b9b9b;
 }
-/* line 368, ../sass/partials/_menu.scss */
+/* line 369, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content {
   display: block;
 }
-/* line 371, ../sass/partials/_menu.scss */
+/* line 372, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .current-reset-filter {
   padding-top: 22px;
   color: #BC2E3C;
 }
-/* line 375, ../sass/partials/_menu.scss */
+/* line 376, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .current-reset-filter a {
   height: 19px;
   width: 19px;
@@ -11359,38 +11358,38 @@ div.region-top div.block {
   float: left;
   margin-right: 5px;
 }
-/* line 385, ../sass/partials/_menu.scss */
+/* line 386, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .facetapi-active {
   font-weight: bold;
   color: #bc2e3c;
 }
-/* line 391, ../sass/partials/_menu.scss */
+/* line 392, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search a {
   padding-left: 0;
   padding-right: 6px;
 }
-/* line 401, ../sass/partials/_menu.scss */
+/* line 402, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
   padding: 0 7px;
 }
-/* line 405, ../sass/partials/_menu.scss */
+/* line 406, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li a {
   padding-left: 14px;
 }
-/* line 409, ../sass/partials/_menu.scss */
+/* line 410, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.first {
   padding-top: 7px;
 }
-/* line 413, ../sass/partials/_menu.scss */
+/* line 414, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.last {
   padding-bottom: 7px;
 }
-/* line 417, ../sass/partials/_menu.scss */
+/* line 418, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   margin-bottom: 15px;
 }
-/* line 421, ../sass/partials/_menu.scss */
+/* line 422, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
   font-weight: bold;
   text-transform: uppercase;
@@ -11399,28 +11398,28 @@ div.region-top div.block {
   margin-bottom: 0;
   display: block;
 }
-/* line 429, ../sass/partials/_menu.scss */
+/* line 430, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
   border-top: 4px solid white;
 }
-/* line 436, ../sass/partials/_menu.scss */
+/* line 437, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink.collapsed > .caret {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 0;
   border-bottom: 4px solid white;
 }
-/* line 444, ../sass/partials/_menu.scss */
+/* line 445, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul {
   padding-left: 14px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 450, ../sass/partials/_menu.scss */
+/* line 451, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11430,33 +11429,33 @@ div.region-top div.block {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 459, ../sass/partials/_menu.scss */
+/* line 460, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.first {
   padding-top: 0;
 }
-/* line 462, ../sass/partials/_menu.scss */
+/* line 463, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.last {
   padding-bottom: 0;
 }
-/* line 466, ../sass/partials/_menu.scss */
+/* line 467, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a {
   display: block;
   padding-left: 20px;
 }
-/* line 470, ../sass/partials/_menu.scss */
+/* line 471, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 488, ../sass/partials/_menu.scss */
+/* line 489, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 491, ../sass/partials/_menu.scss */
+/* line 492, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 494, ../sass/partials/_menu.scss */
+/* line 495, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
