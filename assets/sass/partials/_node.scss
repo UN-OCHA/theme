@@ -2,6 +2,9 @@
 // Styles for Nodes
 // --------------------------------------------------
 
+@import "compass/utilities/sprites";
+@import "node/*.png";
+
 // Follow flag
 #block-hr-notifications-hr-follow {
   text-align: center;
@@ -66,7 +69,8 @@
           h2 {
             font-size: 18px;
             font-weight: bold;
-            background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
+            @include node-sprite(generic);
+            //background: url(../images/RECT_generic.png) no-repeat left top rgba(0, 0, 0, 0);
             color: $p-comp;
             padding: 20px 20px 20px 79px;
           }
@@ -127,7 +131,8 @@
   &.node-hr-document .container {
     border-right: 5px solid $p-documents;
     .row .content .pane-node-title h2 {
-      background-image: url(../images/RECT_documents.png);
+      @include node-sprite(document);
+      //background-image: url(../images/RECT_documents.png);
       color: $p-documents;
     }
   }
