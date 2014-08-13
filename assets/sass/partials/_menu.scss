@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 @import "compass/utilities/sprites";
-@import "search/*.png";
+@import "search/checks/*.png";
 
 // Hide titles of menu blocks
 .block-menu h2,
@@ -277,12 +277,12 @@
 			h2 {
 				color: black;
 				cursor: pointer;
-				//background: url(../images/facet-down.png) no-repeat right center transparent;
-				@include search-sprite(facet-down);
+				background: url(../images/facet-down.png) no-repeat right center transparent;
+				//@include search-sprite(facet-down);
 
 				&.opened {
-					@include search-sprite(facet-up);
-					//background-image: url(../images/facet-up.png);
+					//@include search-sprite(facet-up);
+					background-image: url(../images/facet-up.png);
 				}
 			}
 
@@ -316,14 +316,14 @@
 							}
 
 							&.facetapi-inactive {
-								@include search-sprite(check_off);
+								@include checks-sprite(check_off);
 								//background: url('../images/check_off.png') no-repeat scroll left center rgba(0,0,0,0);
 								display: inline-block;
 								padding-left: 14px;
 							}
 
 							&.facetapi-inactive:hover {
-								@include search-sprite(check_on);
+								@include checks-sprite(check_on);
 								//background: url('../images/check_on.png') no-repeat scroll left center rgba(0,0,0,0);
 							}
 						}
@@ -334,13 +334,15 @@
 								color: $p-main;
 								width: 11px;
 								height: 14px;
-								background: url('../images/check_on.png') no-repeat left center rgba(0, 0, 0, 0);
+								//background: url('../images/check_on.png') no-repeat left center rgba(0, 0, 0, 0);
+								@include checks-sprite(check_on);
 								display: inline-block;
 								text-indent: -9999px;
 							}
 
 							> a:hover {
-								background: url('../images/check_off.png') no-repeat left center rgba(0, 0, 0, 0);
+								@include checks-sprite(check_off);
+								//background: url('../images/check_off.png') no-repeat left center rgba(0, 0, 0, 0);
 							}
 						}
 					}

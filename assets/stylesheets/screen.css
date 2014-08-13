@@ -10972,9 +10972,9 @@ div.region-top div.block {
   background-color: #dddddd;
 }
 
-/* line 82, search/*.png */
-.search-sprite, #sidebar-first .block.block-facetapi h2, #sidebar-first .block.block-facetapi h2.opened, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover {
-  background: url('../images/search-s7f5466269b.png') no-repeat;
+/* line 50, search/checks/*.png */
+.checks-sprite, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover, #sidebar-first .block.block-facetapi .content ul li.redactive > a, #sidebar-first .block.block-facetapi .content ul li.redactive > a:hover {
+  background: url('../images/search/checks-s2fcaacbae3.png') no-repeat;
 }
 
 /* line 12, ../sass/partials/_menu.scss */
@@ -11259,11 +11259,11 @@ div.region-top div.block {
 #sidebar-first .block.block-facetapi h2 {
   color: black;
   cursor: pointer;
-  background-position: 0 -35px;
+  background: url(../images/facet-down.png) no-repeat right center transparent;
 }
 /* line 283, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi h2.opened {
-  background-position: 0 -42px;
+  background-image: url(../images/facet-up.png);
 }
 /* line 289, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content {
@@ -11299,13 +11299,13 @@ div.region-top div.block {
 }
 /* line 318, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive {
-  background-position: 0 -79px;
+  background-position: 0 -11px;
   display: inline-block;
   padding-left: 14px;
 }
 /* line 325, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover {
-  background-position: 0 -68px;
+  background-position: 0 0;
 }
 /* line 331, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive {
@@ -11316,19 +11316,19 @@ div.region-top div.block {
   color: #bc2e3c;
   width: 11px;
   height: 14px;
-  background: url("../images/check_on.png") no-repeat left center rgba(0, 0, 0, 0);
+  background-position: 0 0;
   display: inline-block;
   text-indent: -9999px;
 }
-/* line 342, ../sass/partials/_menu.scss */
+/* line 343, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-facetapi .content ul li.redactive > a:hover {
-  background: url("../images/check_off.png") no-repeat left center rgba(0, 0, 0, 0);
+  background-position: 0 -11px;
 }
-/* line 353, ../sass/partials/_menu.scss */
+/* line 355, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search {
   background: url(../images/currentfilter.png) no-repeat right 12% transparent;
 }
-/* line 357, ../sass/partials/_menu.scss */
+/* line 359, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search:before {
   background-color: #FFF;
   width: 1px;
@@ -11340,16 +11340,16 @@ div.region-top div.block {
   margin-top: -9px;
   color: #9b9b9b;
 }
-/* line 369, ../sass/partials/_menu.scss */
+/* line 371, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content {
   display: block;
 }
-/* line 372, ../sass/partials/_menu.scss */
+/* line 374, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .current-reset-filter {
   padding-top: 22px;
   color: #BC2E3C;
 }
-/* line 376, ../sass/partials/_menu.scss */
+/* line 378, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .current-reset-filter a {
   height: 19px;
   width: 19px;
@@ -11358,38 +11358,38 @@ div.region-top div.block {
   float: left;
   margin-right: 5px;
 }
-/* line 386, ../sass/partials/_menu.scss */
+/* line 388, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search .content .facetapi-active {
   font-weight: bold;
   color: #bc2e3c;
 }
-/* line 392, ../sass/partials/_menu.scss */
+/* line 394, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-current-search a {
   padding-left: 0;
   padding-right: 6px;
 }
-/* line 402, ../sass/partials/_menu.scss */
+/* line 404, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li {
   background-color: #dfdfdf;
   padding: 0 7px;
 }
-/* line 406, ../sass/partials/_menu.scss */
+/* line 408, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li a {
   padding-left: 14px;
 }
-/* line 410, ../sass/partials/_menu.scss */
+/* line 412, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.first {
   padding-top: 7px;
 }
-/* line 414, ../sass/partials/_menu.scss */
+/* line 416, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.last {
   padding-bottom: 7px;
 }
-/* line 418, ../sass/partials/_menu.scss */
+/* line 420, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li.expanded {
   margin-bottom: 15px;
 }
-/* line 422, ../sass/partials/_menu.scss */
+/* line 424, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink {
   font-weight: bold;
   text-transform: uppercase;
@@ -11398,28 +11398,28 @@ div.region-top div.block {
   margin-bottom: 0;
   display: block;
 }
-/* line 430, ../sass/partials/_menu.scss */
+/* line 432, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret {
   float: right;
   margin-top: 7px;
   margin-right: 7px;
   border-top: 4px solid white;
 }
-/* line 437, ../sass/partials/_menu.scss */
+/* line 439, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li .nolink.collapsed > .caret {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 0;
   border-bottom: 4px solid white;
 }
-/* line 445, ../sass/partials/_menu.scss */
+/* line 447, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul {
   padding-left: 14px;
   list-style: none;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 451, ../sass/partials/_menu.scss */
+/* line 453, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li {
   list-style: none;
   list-style-image: none;
@@ -11429,33 +11429,33 @@ div.region-top div.block {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 460, ../sass/partials/_menu.scss */
+/* line 462, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.first {
   padding-top: 0;
 }
-/* line 463, ../sass/partials/_menu.scss */
+/* line 465, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li.last {
   padding-bottom: 0;
 }
-/* line 467, ../sass/partials/_menu.scss */
+/* line 469, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a {
   display: block;
   padding-left: 20px;
 }
-/* line 471, ../sass/partials/_menu.scss */
+/* line 473, ../sass/partials/_menu.scss */
 #sidebar-first .block.block-og-menu ul.menu li ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 489, ../sass/partials/_menu.scss */
+/* line 491, ../sass/partials/_menu.scss */
 #top .navbar-collapse.collapse {
   display: block !important;
 }
-/* line 492, ../sass/partials/_menu.scss */
+/* line 494, ../sass/partials/_menu.scss */
 #top .navbar-toggle {
   display: none !important;
 }
-/* line 495, ../sass/partials/_menu.scss */
+/* line 497, ../sass/partials/_menu.scss */
 #top .navbar-right {
   float: right !important;
 }
