@@ -84,6 +84,6 @@
           <?php print $reset_button; ?>
         </div>
       <?php endif; ?>
-    <?php endif; ?>
+    <?php } ?>
   </div>
 </div
