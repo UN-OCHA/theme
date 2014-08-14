@@ -28,9 +28,9 @@
 <?php endif; ?>
 <div class="views-exposed-form">
   <div class="views-exposed-widgets clearfix">
-    <?php if (in_array('search_api_views_fulltext', array_keys($widgets))) { ?>
-      <?php $widget = $widgets['search_api_views_fulltext']; ?>
-      <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-search_api_views_fulltext form-group">
+    <?php if (in_array('filter-search_api_views_fulltext', array_keys($widgets))) { ?>
+      <?php $widget = $widgets['filter-search_api_views_fulltext']; ?>
+      <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext form-group">
         <div class="input-group">
           <?php print $widget->widget; ?>
         </div>
