@@ -34,7 +34,7 @@
         <div class="input-group">
           <input class="form-control form-text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" type="text" placeholder="<?php print $widget->label; ?>" />
           <span class="input-group-btn">
-            <button class="btn btn-default" type="button">Go!</button>
+            <input type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
           </span>
         </div>
       </div>
