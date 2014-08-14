@@ -268,22 +268,22 @@ body .region-branding {
 	input {
 
 		&.form-text {
-			padding: 2px 4px;
+			//padding: 2px 4px;
 			font-size: 12px;
-			border-radius: 0;
+			//border-radius: 0;
 			background: rgba(0,0,0,0.1) !important;
-			border: 1px solid white;
-			height: auto;
+			//border: 1px solid white;
+			/*height: auto;
 			box-shadow: 0;
 
 			&:focus {
 				border-color: $p-main;
 				outline: 0 none;
 				box-shadow: 0;
-			}
+			}*/
 		}
 
-		&.form-submit {
+		/*&.form-submit {
 			border: none;
 			padding: 2px 4px;
 			text-indent: 999px;
@@ -295,7 +295,7 @@ body .region-branding {
 			top: 21px;
 			left: -54px;
 			margin-top: 0 !important;
-		}
+		}*/
 
 	}
 

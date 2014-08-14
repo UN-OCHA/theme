@@ -11814,35 +11814,34 @@ h6 {
   margin: 0;
 }
 
+/* line 268, ../sass/partials/_page.scss */
+body .region-branding input {
+  /*&.form-submit {
+  	border: none;
+  	padding: 2px 4px;
+  	text-indent: 999px;
+  	border-radius: 0;
+  	background: url(../images/search.png) no-repeat center center rgba(0, 0, 0, 0);
+  	width: 30px;
+  	margin: 0;
+  	position: relative;
+  	top: 21px;
+  	left: -54px;
+  	margin-top: 0 !important;
+  }*/
+}
 /* line 270, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
-  padding: 2px 4px;
   font-size: 12px;
-  border-radius: 0;
   background: rgba(0, 0, 0, 0.1) !important;
-  border: 1px solid white;
-  height: auto;
-  box-shadow: 0;
-}
-/* line 279, ../sass/partials/_page.scss */
-body .region-branding input.form-text:focus {
-  border-color: #bc2e3c;
-  outline: 0 none;
-  box-shadow: 0;
-}
-/* line 286, ../sass/partials/_page.scss */
-body .region-branding input.form-submit {
-  border: none;
-  padding: 2px 4px;
-  text-indent: 999px;
-  border-radius: 0;
-  background: url(../images/search.png) no-repeat center center rgba(0, 0, 0, 0);
-  width: 30px;
-  margin: 0;
-  position: relative;
-  top: 21px;
-  left: -54px;
-  margin-top: 0 !important;
+  			/*height: auto;
+  			box-shadow: 0;
+  
+  			&:focus {
+  				border-color: $p-main;
+  				outline: 0 none;
+  				box-shadow: 0;
+  			}*/
 }
 
 /* line 307, ../sass/partials/_page.scss */
