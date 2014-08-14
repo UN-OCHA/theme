@@ -11815,6 +11815,10 @@ h6 {
 }
 
 /* line 268, ../sass/partials/_page.scss */
+body .region-branding .views-exposed-widgets {
+  margin-top: 1em;
+}
+/* line 272, ../sass/partials/_page.scss */
 body .region-branding input {
   /*&.form-submit {
   	border: none;
@@ -11830,22 +11834,22 @@ body .region-branding input {
   	margin-top: 0 !important;
   }*/
 }
-/* line 270, ../sass/partials/_page.scss */
+/* line 274, ../sass/partials/_page.scss */
 body .region-branding input.form-text {
   font-size: 12px;
   background: rgba(0, 0, 0, 0.1) !important;
 }
-/* line 279, ../sass/partials/_page.scss */
+/* line 283, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
 }
 
-/* line 307, ../sass/partials/_page.scss */
+/* line 311, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
 
-/* line 314, ../sass/partials/_page.scss */
+/* line 318, ../sass/partials/_page.scss */
 .openlayers-tooltip-name {
   font-family: Exo;
   font-size: 15px;
@@ -11856,18 +11860,18 @@ body .region-branding input.form-text:focus {
   padding-bottom: 3px;
 }
 
-/* line 323, ../sass/partials/_page.scss */
+/* line 327, ../sass/partials/_page.scss */
 .openlayers-tooltip-description strong {
   color: #a6a6a6;
   font-weight: normal;
 }
 
-/* line 327, ../sass/partials/_page.scss */
+/* line 331, ../sass/partials/_page.scss */
 #popup a {
   color: white;
 }
 
-/* line 330, ../sass/partials/_page.scss */
+/* line 334, ../sass/partials/_page.scss */
 #popup a:hover {
   color: #e6e6e6;
 }
