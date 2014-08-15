@@ -167,6 +167,18 @@
       color: $p-assessments;
     }
   }
+
+  &.node-hr-office .container {
+    .row .content .pane-node-title h2 {
+      @include node-sprite(office);
+    }
+  }
+
+  &.node-hr-dataset .container {
+    .row .content .pane-node-title h2 {
+      @include node-sprite(dataset);
+    }
+  }
 }
 
 // Search results
@@ -269,6 +281,18 @@
                         background-color: $p-assessments;
                 }
         }
+
+	&.node-hr-office {
+		h2 {
+			@include node-sprite(office);
+		}
+	}
+
+	&.node-hr-dataset {
+		h2 {
+			@include node-sprite(dataset);
+		}
+	}
 
         .row {
 
