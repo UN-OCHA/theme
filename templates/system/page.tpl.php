@@ -14,7 +14,6 @@
   <header id="header" class="header" role="header">
     <div class="container">
       <div id="top">
-        <?php print $hr_favorite_spaces; ?>
         <nav class="navbar navbar-default">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header top">
@@ -27,6 +26,7 @@
             </div>
 
             <div class="collapse navbar-collapse">
+              <?php print $hr_favorite_spaces; ?>
               <ul id="hr-space-tab" class="nav nav-tabs navbar-left">
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
