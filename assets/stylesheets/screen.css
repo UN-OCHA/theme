@@ -11460,6 +11460,10 @@ div.region-top div.block {
 #top .navbar-right {
   float: right !important;
 }
+/* line 496, ../sass/partials/_menu.scss */
+#top #block-hr-bookmarks-hr-favorite-spaces {
+  float: left;
+}
 
 /* line 122, footer-logos/*.png */
 .footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc {
