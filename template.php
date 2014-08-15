@@ -72,6 +72,8 @@ function humanitarianresponse_preprocess_page(&$variables) {
     $variables['follow_us_link_title'] = $temp['link_title'];
     $variables['follow_us_link_status'] = $temp['link_status'];
   }
+
+  $variables['hr_favorite_spaces'] = _humanitarianresponse_block_render('hr_bookmarks', 'hr_favorite_spaces');
 }
 
 function _humanitarianresponse_flag_follow_us() {
@@ -115,4 +117,15 @@ function _humanitarianresponse_flag_follow_us() {
   $vars['link_status'] = $action;
   return $vars;
 
+}
+
+/**
+ * Custom function to render a block so I can manually position it in the markup
+ */
+function _humanitarianresponse_block_render($module, $block_id) {
+  $block = block_load($module, $block_id);
+  $block_content = _block_render_blocks(array($block));
+  $build = _block_get_renderable_array($block_content);
+  $block_rendered = drupal_render($build);
+  return $block_rendered;
 }
