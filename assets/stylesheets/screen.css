@@ -11838,18 +11838,20 @@ body .region-branding input {
 body .region-branding input.form-text {
   font-size: 12px;
   background: rgba(0, 0, 0, 0.1) !important;
+  width: 260px;
+  float: right;
 }
-/* line 283, ../sass/partials/_page.scss */
+/* line 285, ../sass/partials/_page.scss */
 body .region-branding input.form-text:focus {
   border-color: #bc2e3c;
 }
 
-/* line 311, ../sass/partials/_page.scss */
+/* line 313, ../sass/partials/_page.scss */
 #block-current-search-hr-current-search h2 {
   display: none;
 }
 
-/* line 318, ../sass/partials/_page.scss */
+/* line 320, ../sass/partials/_page.scss */
 .openlayers-tooltip-name {
   font-family: Exo;
   font-size: 15px;
@@ -11860,18 +11862,18 @@ body .region-branding input.form-text:focus {
   padding-bottom: 3px;
 }
 
-/* line 327, ../sass/partials/_page.scss */
+/* line 329, ../sass/partials/_page.scss */
 .openlayers-tooltip-description strong {
   color: #a6a6a6;
   font-weight: normal;
 }
 
-/* line 331, ../sass/partials/_page.scss */
+/* line 333, ../sass/partials/_page.scss */
 #popup a {
   color: white;
 }
 
-/* line 334, ../sass/partials/_page.scss */
+/* line 336, ../sass/partials/_page.scss */
 #popup a:hover {
   color: #e6e6e6;
 }
