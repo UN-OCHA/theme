@@ -3356,6 +3356,7 @@ label { display: block; }
 .node-search-result > h2 { font-size: 16px; font-weight: bold; background-position: 0 -220px; padding: 20px 20px 20px 79px; max-height: 55px; margin-left: 18px; margin-top: 16px; }
 .node-search-result > h2 a { color: #54b1c8; }
 .node-search-result.node-hr-news h2 { background-position: 0 -110px; }
+.node-search-result.node-hr-news .container .row:first-child { padding-left: 70px; margin-top: -2em; margin-bottom: 1em; }
 .node-search-result.node-hr-document h2 { background-position: 0 -165px; }
 .node-search-result.node-hr-document h2 a { color: #27b298; }
 .node-search-result.node-hr-document:after { background-color: #27b298; }
