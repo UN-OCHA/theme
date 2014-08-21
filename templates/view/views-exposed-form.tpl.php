@@ -32,7 +32,7 @@
       <?php $widget = $widgets['filter-search_api_views_fulltext']; ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext form-group">
         <div class="input-group">
-          <input class="form-control form-text" id="edit-search-api-views-fulltext" name="search_api_views_fulltext" value="" size="30" maxlength="128" type="text" placeholder="<?php print $widget->label; ?>" />
+          <input class="form-control form-text" id="edit-search-api-views-fulltext" name="search" value="" size="30" maxlength="128" type="text" placeholder="<?php print $widget->label; ?>" />
           <span class="input-group-btn">
             <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
           </span>
