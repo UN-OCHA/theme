@@ -181,7 +181,6 @@
 		 				color: #bc2e3b;
 		 				background-color: transparent;
 		 				border-bottom: 5px solid #b2b2b2;
-		 				border-color: rgba(105,105,105, 0.4);
 		 				padding-bottom: 8px;
 		 				position: relative;
 						z-index: 2;
@@ -212,8 +211,7 @@
 
 					li {
 
-		 				padding-top: 5px;
-		 				border-color: rgba(105,105,105, 0.4);
+		 				border-top: 5px solid #B2B2B2;
 
 						a.active {
 							border: none;
