@@ -11344,7 +11344,7 @@ a:hover {
   color: #93242f;
 }
 /* line 54, ../sass/partials/_page.scss */
-.btn a {
+a.btn {
   color: white;
 }
 /* line 58, ../sass/partials/_page.scss */
