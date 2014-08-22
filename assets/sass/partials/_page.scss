@@ -29,6 +29,15 @@ body {
 	font-size: 12px;
 }
 
+.container-outer.header {
+	background-color: #FFF;
+}
+
+#front-banner {
+	background: url("../images/banner_home.png") repeat-x center center white;
+	height: 104px;
+}
+
 #root {
 	background: url(../images/bg_deg.png) repeat-y top left transparent;
 	padding: 10px 0 0;
@@ -147,18 +156,9 @@ body table, body .table {
 
 // Front page
 .front {
-	#main > .container {
-		background-image: url('../images/banner_home.png');
-		background-repeat: no-repeat;
-		background-size: 100%;
-	}
 
 	.container.header {
 		margin-bottom: 0;
-	}
-
-	#content-wrapper {
-		margin-top: 110px;
 	}
 }
 

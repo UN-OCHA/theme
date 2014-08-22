@@ -3043,6 +3043,10 @@ html #footer, body #footer { margin: 0; }
 
 body { background: url(../images/bg_noise.png) repeat top left #cccccc; -webkit-font-smoothing: antialiased; font-size: 12px; }
 
+.container-outer.header { background-color: #FFF; }
+
+#front-banner { background: url("../images/banner_home.png") repeat-x center center white; height: 104px; }
+
 #root { background: url(../images/bg_deg.png) repeat-y top left transparent; padding: 10px 0 0; }
 
 a { color: #bc2e3c; word-wrap: break-word; }
@@ -3073,9 +3077,7 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 
 .form-item table { table-layout: auto; }
 
-.front #main > .container { background-image: url("../images/banner_home.png"); background-repeat: no-repeat; background-size: 100%; }
 .front .container.header { margin-bottom: 0; }
-.front #content-wrapper { margin-top: 110px; }
 
 #content { padding: 0; }
 
