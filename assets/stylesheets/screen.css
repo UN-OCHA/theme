@@ -11664,8 +11664,12 @@ body .region-branding input.form-text:focus {
   padding-bottom: 7px;
   margin-bottom: 20px;
 }
+/* line 27, ../sass/partials/_panel.scss */
+.front .sidebar .panel-pane .pane-content a {
+  color: #bc2e3c;
+}
 
-/* line 35, ../sass/partials/_panel.scss */
+/* line 41, ../sass/partials/_panel.scss */
 .hr-highlighted {
   background-color: #F9F9F9;
   padding: 7px;
@@ -11674,7 +11678,7 @@ body .region-branding input.form-text:focus {
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px;
   margin: 20px 0px;
 }
-/* line 42, ../sass/partials/_panel.scss */
+/* line 48, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-title {
   font-size: 13px;
   text-transform: uppercase;
@@ -11684,17 +11688,17 @@ body .region-branding input.form-text:focus {
   border-bottom: 1px dotted #dedede;
   margin-top: 2px;
 }
-/* line 52, ../sass/partials/_panel.scss */
+/* line 58, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-content {
   padding: 0 7px;
 }
-/* line 55, ../sass/partials/_panel.scss */
+/* line 61, ../sass/partials/_panel.scss */
 .hr-highlighted .pane-content ul {
   padding-left: 14px;
   color: #333333;
 }
 
-/* line 65, ../sass/partials/_panel.scss */
+/* line 71, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher .baseLbl,
 #hr-bundles-layer-switcher .baseLayersDiv,
 #hr-bundles-layer-switcher .dataLbl,
@@ -11703,15 +11707,15 @@ body .region-branding input.form-text:focus {
 #hr-bundles-layer-switcher input.olButton {
   display: none !important;
 }
-/* line 74, ../sass/partials/_panel.scss */
+/* line 80, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher label.olButton {
   cursor: pointer;
 }
-/* line 78, ../sass/partials/_panel.scss */
+/* line 84, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher .dataLayersDiv {
   text-align: center;
 }
-/* line 82, ../sass/partials/_panel.scss */
+/* line 88, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[type="radio"] + label {
   background-repeat: no-repeat;
   height: 38px;
@@ -11720,115 +11724,115 @@ body .region-branding input.form-text:focus {
   text-indent: -999px;
   overflow: hidden;
 }
-/* line 91, ../sass/partials/_panel.scss */
+/* line 97, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label {
   background-position: 0 -38px;
 }
-/* line 95, ../sass/partials/_panel.scss */
+/* line 101, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label,
 #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover {
   background-position: 0 -456px;
 }
-/* line 100, ../sass/partials/_panel.scss */
+/* line 106, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Early Recovery"] + label {
   background-position: 0 -342px;
 }
-/* line 104, ../sass/partials/_panel.scss */
+/* line 110, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label,
 #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover {
   background-position: 0 -798px;
 }
-/* line 109, ../sass/partials/_panel.scss */
+/* line 115, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Education"] + label {
   background-position: 0 -380px;
 }
-/* line 113, ../sass/partials/_panel.scss */
+/* line 119, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Education"]:checked + label,
 #hr-bundles-layer-switcher input[value="Education"] + label:hover {
   background-position: 0 -836px;
 }
-/* line 118, ../sass/partials/_panel.scss */
+/* line 124, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label {
   background-position: 0 -418px;
 }
-/* line 122, ../sass/partials/_panel.scss */
+/* line 128, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label,
 #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover {
   background-position: 0 -874px;
 }
-/* line 127, ../sass/partials/_panel.scss */
+/* line 133, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Food Security"] + label {
   background-position: 0 -76px;
 }
-/* line 131, ../sass/partials/_panel.scss */
+/* line 137, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Food Security"]:checked + label,
 #hr-bundles-layer-switcher input[value="Food Security"] + label:hover {
   background-position: 0 -494px;
 }
-/* line 136, ../sass/partials/_panel.scss */
+/* line 142, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Health"] + label {
   background-position: 0 0;
 }
-/* line 140, ../sass/partials/_panel.scss */
+/* line 146, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Health"]:checked + label,
 #hr-bundles-layer-switcher input[value="Health"] + label:hover {
   background-position: 0 -532px;
 }
-/* line 145, ../sass/partials/_panel.scss */
+/* line 151, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Logistics"] + label {
   background-position: 0 -114px;
 }
-/* line 149, ../sass/partials/_panel.scss */
+/* line 155, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Logistics"]:checked + label,
 #hr-bundles-layer-switcher input[value="Logistics"] + label:hover {
   background-position: 0 -646px;
 }
-/* line 154, ../sass/partials/_panel.scss */
+/* line 160, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Nutrition"] + label {
   background-position: 0 -190px;
 }
-/* line 158, ../sass/partials/_panel.scss */
+/* line 164, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label,
 #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover {
   background-position: 0 -684px;
 }
-/* line 163, ../sass/partials/_panel.scss */
+/* line 169, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Protection"] + label {
   background-position: 0 -152px;
 }
-/* line 167, ../sass/partials/_panel.scss */
+/* line 173, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Protection"]:checked + label,
 #hr-bundles-layer-switcher input[value="Protection"] + label:hover {
   background-position: 0 -608px;
 }
-/* line 173, ../sass/partials/_panel.scss */
+/* line 179, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label {
   background-position: 0 -304px;
 }
-/* line 177, ../sass/partials/_panel.scss */
+/* line 183, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label,
 #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover {
   background-position: 0 -722px;
 }
-/* line 182, ../sass/partials/_panel.scss */
+/* line 188, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label {
   background-position: 0 -266px;
 }
-/* line 186, ../sass/partials/_panel.scss */
+/* line 192, ../sass/partials/_panel.scss */
 #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label,
 #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover {
   background-position: 0 -760px;
 }
 
 /* Linkit and media fix */
-/* line 193, ../sass/partials/_panel.scss */
+/* line 199, ../sass/partials/_panel.scss */
 .linkit-wrapper,
 .media-wrapper {
   z-index: 5000;
 }
 
 /* Featured documents and maps */
-/* line 199, ../sass/partials/_panel.scss */
+/* line 205, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
 .fieldable-panels-pane .node-teaser.node-hr-document .container {
   background-image: url("../images/backgrounds/BG_beige_grey.jpg");
@@ -11836,14 +11840,14 @@ body .region-branding input.form-text:focus {
   padding-right: 0;
   padding-left: 0;
 }
-/* line 206, ../sass/partials/_panel.scss */
+/* line 212, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-infographics-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-documents-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-infographics-panes-thumbnail,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-documents-panes-thumbnail {
   height: 120px;
 }
-/* line 211, ../sass/partials/_panel.scss */
+/* line 217, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title {
   background-color: #67A3AB;
@@ -11852,18 +11856,18 @@ body .region-branding input.form-text:focus {
   text-align: center;
   padding-top: 1em;
 }
-/* line 218, ../sass/partials/_panel.scss */
+/* line 224, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title a,
 .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title a {
   color: white;
   font-weight: bold;
 }
 
-/* line 226, ../sass/partials/_panel.scss */
+/* line 232, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-title {
   margin-top: 1em;
 }
-/* line 230, ../sass/partials/_panel.scss */
+/* line 236, ../sass/partials/_panel.scss */
 .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-organizations,
 .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-job-title-other,
 .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-email,
@@ -11872,34 +11876,34 @@ body .region-branding input.form-text:focus {
 }
 
 /* Philippines */
-/* line 240, ../sass/partials/_panel.scss */
+/* line 246, ../sass/partials/_panel.scss */
 .og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
 .og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-document .container {
   background-image: url("../images/backgrounds/BG_green_2.jpg");
 }
 
 /*Toolbox page*/
-/* line 250, ../sass/partials/_panel.scss */
+/* line 256, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .views-field-title {
   color: #525252;
   margin-top: 1em;
   margin-bottom: 1em;
   display: inline-block;
 }
-/* line 257, ../sass/partials/_panel.scss */
+/* line 263, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .views-field-field-files li,
 .pane-hr-toolbox-panes-items .views-field-field-links li {
   color: #55b1c8;
 }
-/* line 262, ../sass/partials/_panel.scss */
+/* line 268, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items img.file-icon {
   display: none;
 }
-/* line 268, ../sass/partials/_panel.scss */
+/* line 274, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files ul {
   list-style-type: none;
 }
-/* line 272, ../sass/partials/_panel.scss */
+/* line 278, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files span.file {
   display: inline-block;
   background-image: url("../images/icons/38/Applications/APP_tools.png");
@@ -11909,13 +11913,13 @@ body .region-branding input.form-text:focus {
   height: 40px;
   font-weight: bold;
 }
-/* line 284, ../sass/partials/_panel.scss */
+/* line 290, ../sass/partials/_panel.scss */
 .pane-hr-toolbox-panes-items a {
   color: #55b1c8;
 }
 
 /* Carousel */
-/* line 291, ../sass/partials/_panel.scss */
+/* line 297, ../sass/partials/_panel.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   margin: auto;
@@ -11923,7 +11927,7 @@ body .region-branding input.form-text:focus {
 }
 
 /* Toolbox slideshow */
-/* line 300, ../sass/partials/_panel.scss */
+/* line 306, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-indicators {
   text-align: right;
   left: 0;
@@ -11932,7 +11936,7 @@ body .region-branding input.form-text:focus {
   margin-left: 0;
   bottom: 0;
 }
-/* line 309, ../sass/partials/_panel.scss */
+/* line 315, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-caption {
   left: 0;
   right: 0;
@@ -11942,18 +11946,18 @@ body .region-branding input.form-text:focus {
   padding-bottom: 0;
   padding-top: 0;
 }
-/* line 318, ../sass/partials/_panel.scss */
+/* line 324, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-caption h3 {
   color: white;
   text-align: left;
 }
-/* line 325, ../sass/partials/_panel.scss */
+/* line 331, ../sass/partials/_panel.scss */
 .page-node-22 .carousel .carousel-control span {
   padding-top: 80px;
 }
 
 /* Toolbox homepage - Bottom text headers */
-/* line 333, ../sass/partials/_panel.scss */
+/* line 339, ../sass/partials/_panel.scss */
 .hr-toolbox-homepage-bottom-text-header h4 {
   color: #333333;
 }

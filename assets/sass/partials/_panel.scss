@@ -10,7 +10,7 @@
 	.sidebar {
 
 		.panel-pane {
-			
+
 			margin-bottom: 30px;
 
 			.pane-title {
@@ -23,8 +23,14 @@
 				margin-bottom: 20px;
 			}
 
+      .pane-content {
+        a {
+          color: $p-main;
+        }
+      }
+
 		}
-		
+
 
 	}
 
@@ -279,12 +285,12 @@
         font-weight: bold;
       }
     }
-  } 
+  }
 
   a{
     color:$brand-primary;
   }
-  
+
 }
 
 /* Carousel */
