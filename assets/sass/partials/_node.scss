@@ -53,71 +53,71 @@
     border: 1px solid #FFF;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
     border-right: 5px solid $p-comp;
-    
+
     .row {
       overflow: hidden;
 
       .content {
-        min-height: 400px;
-        .panel-separator {
-          display: inline-block;
-        }
+  min-height: 400px;
+  .panel-separator {
+    display: inline-block;
+  }
 
-        .pane-node-title {
-          border-bottom: 1px dotted #8f8f8f;
+  .pane-node-title {
+    border-bottom: 1px dotted #8f8f8f;
 
-          h2 {
-            font-size: 18px;
-            font-weight: bold;
-            @include node-sprite(generic);
-            color: $p-comp;
-            padding: 20px 20px 20px 79px;
-            max-height: 55px;
-          }
-        }
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      @include node-sprite(generic);
+      color: $p-comp;
+      padding: 20px 20px 20px 79px;
+      max-height: 55px;
+    }
+  }
 
-        .pane-node-hr-core-share-button,
-        .pane-node-field-files-collection {
-          display: inline-block;
-        }
+  .pane-node-hr-core-share-button,
+  .pane-node-field-files-collection {
+    display: inline-block;
+  }
 
-        .field-name-field-users-ref .content {
-          min-height: 0;
-        }
+  .field-name-field-users-ref .content {
+    min-height: 0;
+  }
       }
 
       .sidebar {
-        margin-bottom: -99999px;
-        padding: 0;
-        padding-bottom: 99999px;
-        background-color: #F1F1F1;
+  margin-bottom: -99999px;
+  padding: 0;
+  padding-bottom: 99999px;
+  background-color: #F1F1F1;
 
-        .panel-pane {
-          padding-bottom: 2em;
-          border-bottom: 1px dotted #8f8f8f;
+  .panel-pane {
+    padding-bottom: 2em;
+    border-bottom: 1px dotted #8f8f8f;
 
-          .field-label,
-          .pane-title {
-            color: #8f8f8f;
-            font-weight: normal;
-            font-size: 12px;
-          }
+    .field-label,
+    .pane-title {
+      color: #8f8f8f;
+      font-weight: normal;
+      font-size: 12px;
+    }
 
-          .field-item,
-          .pane-content {
-            padding-left: 10px;
-            font-size: 12px;
-            color: #555555;
-            font-weight: bold;
-            a {
-              color: #55B1C8;
-            }
-          }
+    .field-item,
+    .pane-content {
+      padding-left: 10px;
+      font-size: 12px;
+      color: #555555;
+      font-weight: bold;
+      a {
+        color: #55B1C8;
+      }
+    }
 
-          &.pane-node-og-group-ref {
-            background-color: #E0E0E0;
-          }
-        }
+    &.pane-node-og-group-ref {
+      background-color: #E0E0E0;
+    }
+  }
       }
     }
   }
@@ -185,202 +185,213 @@
 
 .node-search-result {
 
-        background-color: #F9F9F9;
-        border: 1px solid #FFF;
-        margin: 1%;
+  background-color: #F9F9F9;
+  border: 1px solid #FFF;
+  margin: 1%;
+  padding: 0;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px !important;
+  position: relative;
+
+  &:after {
+    content: '';
+    background-color: $p-comp;
+    display: block;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  > h2 {
+    font-size: 16px;
+    font-weight: bold;
+    @include node-sprite(generic);
+    padding: 20px 20px 20px 79px;
+    max-height: 55px;
+    margin-left: 18px;
+    margin-top: 16px;
+
+    a {
+      color: $p-comp;
+    }
+  }
+
+  &.node-hr-news {
+    h2 {
+      @include node-sprite(blog);
+    }
+
+    .container .row:first-child {
+      padding-left: 70px;
+      margin-top: -2em;
+      margin-bottom: 1em;
+    }
+  }
+
+  &.node-hr-document {
+    h2 {
+      @include node-sprite(document);
+      a {
+        color: $p-documents;
+      }
+    }
+    &:after {
+      background-color: $p-documents;
+    }
+  }
+  &.node-hr-event {
+    h2 {
+      @include node-sprite(event);
+      a {
+        color: $p-events;
+      }
+    }
+    &:after {
+      background-color: $p-events;
+    }
+  }
+  &.node-hr-infographic {
+    h2 {
+      @include node-sprite(visual);
+      a {
+        color: $p-visuals;
+      }
+    }
+    &:after {
+      background-color: $p-visuals;
+    }
+  }
+  &.node-hr-contact {
+    h2 {
+      @include node-sprite(contact);
+      a {
+        color: $p-contacts;
+      }
+    }
+    &:after {
+      background-color: $p-contacts;
+    }
+  }
+
+  &.node-hr-assessment {
+    h2 {
+      @include node-sprite(assessment);
+      a {
+        color: $p-assessments;
+      }
+    }
+    &:after {
+      background-color: $p-assessments;
+    }
+  }
+
+  &.node-hr-office {
+    h2 {
+      @include node-sprite(office);
+    }
+  }
+
+  &.node-hr-dataset {
+    h2 {
+      @include node-sprite(dataset);
+    }
+  }
+
+  .row {
+
+    margin: 0;
+
+    &:after {
+      clear: both;
+    }
+
+
+    .panel-panel {
+
+      &.left {
         padding: 0;
-        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px !important;
-        position: relative;
+        margin: 20px 0;
 
-        &:after {
-                content: '';
-                background-color: $p-comp;
-                display: block;
-                width: 5px;
-                height: 10px;
-                position: absolute;
-                top: 0;
-                right: 0;
-                height: 100%;
+        img {
+          border: 4px solid #FFF;
+          float: left;
+          box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+          margin-top: -18px;
+          margin-left: 18px;
+          line-height: 0;
         }
 
-        > h2 {
-                font-size: 16px;
-                font-weight: bold;
-                @include node-sprite(generic);
-                padding: 20px 20px 20px 79px;
-                max-height: 55px;
-                margin-left: 18px;
-                margin-top: 16px;
+        .view {
+          margin: 0 !important;
+        }
+      }
 
-                a {
-                        color: $p-comp;
-                }
+      &.right {
+        width: 83%;
+      }
+      .panel-pane {
+
+        margin-bottom: 5px;
+
+        .form-item,
+        .form-group {
+          margin-top: 0;
+          margin-bottom: 0;
         }
 
-	&.node-hr-news {
-                h2 {
-			@include node-sprite(blog);
-                }
+        .btn-group {
+          float: right;
 
-		.container .row:first-child {
-			padding-left: 70px;
-			margin-top: -2em;
-			margin-bottom: 1em;
-		}
+          .dropdown-menu {
+            margin-top: -16px;
+            margin-left: 6px;
+            font-size: 11px;
+          }
         }
 
-        &.node-hr-document {
-                h2 {
-			@include node-sprite(document);
-                        a {
-                                color: $p-documents;
-                        }
-                }
-                &:after {
-                        background-color: $p-documents;
-                }
-        }
-        &.node-hr-event {
-                h2 {
-			@include node-sprite(event);
-                        a {
-                                color: $p-events;
-                        }
-                }
-                &:after {
-                        background-color: $p-events;
-                }
-        }
-        &.node-hr-infographic {
-                h2 {
-			@include node-sprite(visual);
-                        a {
-                                color: $p-visuals;
-                        }
-                }
-                &:after {
-                        background-color: $p-visuals;
-                }
-        }
-	&.node-hr-contact {
-                h2 {
-			@include node-sprite(contact);
-                        a {
-                                color: $p-contacts;
-                        }
-                }
-                &:after {
-                        background-color: $p-contacts;
-                }
+        .btn {
+          float: right;
+          margin: 8px;
         }
 
-	&.node-hr-assessment {
-                h2 {
-			@include node-sprite(assessment);
-                        a {
-                                color: $p-assessments;
-                        }
-                }
-                &:after {
-                        background-color: $p-assessments;
-                }
+        .field {
+          .field-label {
+            color: #8f8f8f;
+            font-weight: normal;
+            width: 130px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+          }
+          .field-items {
+            color: #606060;
+          }
         }
 
-	&.node-hr-office {
-		h2 {
-			@include node-sprite(office);
-		}
-	}
+      }
 
-	&.node-hr-dataset {
-		h2 {
-			@include node-sprite(dataset);
-		}
-	}
+      .pane-hr-node-links {
+        text-align: right;
+      }
 
-        .row {
-
-                margin: 0;
-
-                &:after {
-                        clear: both;
-                }
-
-
-                .panel-panel {
-
-                        &.left {
-                                padding: 0;
-                                margin: 20px 0;
-
-                                img {
-                                        border: 4px solid #FFF;
-                                        float: left;
-                                        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-                                        margin-top: -18px;
-                                        margin-left: 18px;
-                                        line-height: 0;
-                                }
-
-                                .view {
-                                        margin: 0 !important;
-                                }
-                        }
-
-                        &.right {
-                                width: 83%;
-                        }
-                        .panel-pane {
-
-                                margin-bottom: 5px;
-
-				.form-item,
-				.form-group {
-					margin-top: 0;
-					margin-bottom: 0;
-				}
-
-                                .btn-group {
-                                        float: right;
-
-                                        .dropdown-menu {
-                                                margin-top: -16px;
-                                                margin-left: 6px;
-                                                font-size: 11px;
-                                        }
-                                }
-
-                                .btn {
-					float: right;
-					margin: 8px;
-                                }
-
-                                .field {
-                                        .field-label {
-                                                color: #8f8f8f;
-                                                font-weight: normal;
-                                                width: 130px;
-                                                display: inline-block;
-                                                *display: inline;
-                                                *zoom: 1;
-                                        }
-                                        .field-items {
-                                                color: #606060;
-                                        }
-                                }
-
-        	        }
-
-			.pane-hr-node-links {
-				text-align: right;
-			}
-
-			.pane-hr-node-links div {
-				display: inline-block;
-			}
-                }
-        }
+      .pane-hr-node-links div {
+        display: inline-block;
+      }
+    }
+  }
 
 }
+
+.node-type-hr-operation {
+  #page-header {
+    display: none;
+  }
+}
+
+
+
+
+

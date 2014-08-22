@@ -12875,6 +12875,11 @@ label {
   display: inline-block;
 }
 
+/* line 389, ../sass/partials/_node.scss */
+.node-type-hr-operation #page-header {
+  display: none;
+}
+
 /* line 5, ../sass/partials/_user.scss */
 .user-teaser h3 {
   display: none;
