@@ -269,6 +269,10 @@ a.fc-event, .fc-event-draggable {
 			left: 0;
 			width: 100%;
 		}
+		.views-field-field-image {
+			position: relative;
+			z-index: 2;
+		}
 	}
 }
 

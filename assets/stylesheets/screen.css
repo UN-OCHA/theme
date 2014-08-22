@@ -12194,6 +12194,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   left: 0;
   width: 100%;
 }
+/* line 272, ../sass/partials/_view.scss */
+.view-hr-sectors .views-row .views-field-field-image {
+  position: relative;
+  z-index: 2;
+}
 
 /* line 5, ../sass/partials/_form.scss */
 label {
