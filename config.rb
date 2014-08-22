@@ -3,7 +3,7 @@ require 'bootstrap-sass';
 # require "compass_radix";
 
 # Set environment [development, production]
-environment = :production
+environment = :development
 
 # Set this to the root of your project when deployed:
 http_path = "/"
