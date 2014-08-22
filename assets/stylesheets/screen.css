@@ -12199,6 +12199,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   width: 97px;
 }
 
+/* line 283, ../sass/partials/_view.scss */
+.view-hr-spaces .views-row .views-field-title-field a {
+  color: #5F5F5F;
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;
