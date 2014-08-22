@@ -44,7 +44,8 @@
             </div><!-- .navbar-collapse -->
         </nav>
       </div><!-- #top -->
-    </div><!-- .container-fluid -->
+    </div><!-- .container -->
+    <div class="container-outer header">
     <div class="container header">
       <div id="branding">
           <?php if ($logo): ?>
@@ -61,7 +62,14 @@
         <?php print render($page['navigation']); ?>
       </div><!-- /.navigation -->
     </div> <!-- /.container -->
+    </div> <!-- /.container-outer -->
   </header>
+
+  <?php if($is_front): ?>
+
+    <div id="front-banner"></div>
+
+  <?php endif; ?>
 
   <div id="main-wrapper">
     <div id="main" class="main">
