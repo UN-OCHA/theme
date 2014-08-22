@@ -12880,17 +12880,20 @@ label {
   display: none;
 }
 /* line 393, ../sass/partials/_node.scss */
-.node-type-hr-operation hr-highlighted .pane-content ul li {
-  margin-bottom: 5px;
+.node-type-hr-operation .hr-highlighted .pane-content ul {
   padding-left: 19px;
+}
+/* line 395, ../sass/partials/_node.scss */
+.node-type-hr-operation .hr-highlighted .pane-content ul li {
+  margin-bottom: 5px;
   color: #333333;
 }
-/* line 401, ../sass/partials/_node.scss */
+/* line 403, ../sass/partials/_node.scss */
 .node-type-hr-operation .pane-hr-documents-panes-list .view,
 .node-type-hr-operation .pane-hr-infographics-panes-list .view {
   margin: 0 !important;
 }
-/* line 403, ../sass/partials/_node.scss */
+/* line 405, ../sass/partials/_node.scss */
 .node-type-hr-operation .pane-hr-documents-panes-list .view ul,
 .node-type-hr-operation .pane-hr-infographics-panes-list .view ul {
   padding-left: 0;

@@ -390,10 +390,12 @@
     display: none;
   }
 
-  hr-highlighted .pane-content ul li {
-    margin-bottom: 5px;
+  .hr-highlighted .pane-content ul {
     padding-left: 19px;
-    color: #333333;
+    li {
+      margin-bottom: 5px;
+      color: #333333;
+    }
   }
 
   .pane-hr-documents-panes-list,
