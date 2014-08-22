@@ -50,6 +50,10 @@ a {
 	&:hover {
 		color: darken($p-main, 10%);
 	}
+
+	.region-content & {
+		color: $p-comp;
+	}
 }
 
 .chosen-container.form-control {
