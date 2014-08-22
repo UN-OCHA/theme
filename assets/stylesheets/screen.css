@@ -12165,6 +12165,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   content: "export";
 }
 
+/* line 252, ../sass/partials/_view.scss */
+.view-hr-operations .views-row a {
+  color: #54b1c8;
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;
