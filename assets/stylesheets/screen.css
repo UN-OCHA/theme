@@ -12200,7 +12200,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 }
 
 /* line 283, ../sass/partials/_view.scss */
-.view-hr-spaces .views-row .views-field-title-field a {
+.view-hr-spaces .views-row .views-field.views-field-title-field a {
   color: #5F5F5F;
 }
 
