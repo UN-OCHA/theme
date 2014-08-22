@@ -127,7 +127,7 @@
 	margin-bottom: 35px;
 	min-height: 120px;
 	position: relative;
- 
+
 	#navigation {
 
 		.navbar-collapse.in {
@@ -175,7 +175,9 @@
 					font-family: Exo;
 					background: none;
 
-		 			&.active, &:hover {
+		 			&.active-trail,
+		 			&.active,
+		 			&:hover {
 		 				color: #bc2e3b;
 		 				background-color: transparent;
 		 				border-bottom: 5px solid #b2b2b2;
@@ -236,7 +238,7 @@
 		@media screen and (max-width : 768px) {
 			img {
 				max-width: 250px;
-				height: auto; 
+				height: auto;
 			}
 		}
 	}
@@ -397,7 +399,7 @@
 			ul.menu {
 
 				li {
-					background-color: #dfdfdf;	
+					background-color: #dfdfdf;
 					padding: 0 7px;
 
 					a {
@@ -406,7 +408,7 @@
 
 					&.first {
 						padding-top: 7px;
-					}	
+					}
 
 					&.last {
 						padding-bottom: 7px;
@@ -476,9 +478,9 @@
 			}
 
 		}
-		
+
 	}
-	
+
 }
 
 
