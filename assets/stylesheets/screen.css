@@ -12165,8 +12165,8 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   content: "export";
 }
 
-/* line 252, ../sass/partials/_view.scss */
-.view-hr-operations .views-row a {
+/* line 253, ../sass/partials/_view.scss */
+.view-hr-operations .views-row .views-field.views-field-title-field a {
   color: #54b1c8;
 }
 

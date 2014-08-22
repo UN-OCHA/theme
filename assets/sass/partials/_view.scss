@@ -249,8 +249,10 @@ a.fc-event, .fc-event-draggable {
 
 .view-hr-operations {
 	.views-row {
-		a {
-			color: $p-comp;
+		.views-field.views-field-title-field {
+			a {
+				color: $p-comp;
+			}
 		}
 	}
 }
