@@ -33,3 +33,5 @@ line_comments = (environment == :development) ? true : false
 
 # sass debug
 # sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+
+sass_options = (environment == :development) ? {:sourcemap => true} : {:always_update => true}
