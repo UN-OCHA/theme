@@ -390,15 +390,16 @@
     display: none;
   }
 
+  hr-highlighted .pane-content ul li {
+    margin-bottom: 5px;
+    padding-left: 19px;
+    color: #333333;
+  }
+
   .pane-hr-documents-panes-list,
   .pane-hr-infographics-panes-list {
-    hr-highlighted .pane-content ul li {
-      margin-bottom: 5px;
-      padding-left: 19px;
-      color: #333333;
-    }
     .view {
-      margin: 0;
+      margin: 0 !important;
       ul {
         padding-left: 0;
       }
