@@ -12198,6 +12198,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .view-hr-sectors .views-row .views-field-field-image {
   position: relative;
   z-index: 2;
+  width: 97px;
 }
 
 /* line 5, ../sass/partials/_form.scss */
