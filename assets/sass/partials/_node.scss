@@ -389,6 +389,21 @@
   #page-header {
     display: none;
   }
+
+  .pane-hr-documents-panes-list,
+  .pane-hr-infographics-panes-list {
+    hr-highlighted .pane-content ul li {
+      margin-bottom: 5px;
+      padding-left: 19px;
+      color: #333333;
+    }
+    .view {
+      margin: 0;
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 

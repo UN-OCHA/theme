@@ -12879,6 +12879,23 @@ label {
 .node-type-hr-operation #page-header {
   display: none;
 }
+/* line 395, ../sass/partials/_node.scss */
+.node-type-hr-operation .pane-hr-documents-panes-list hr-highlighted .pane-content ul li,
+.node-type-hr-operation .pane-hr-infographics-panes-list hr-highlighted .pane-content ul li {
+  margin-bottom: 5px;
+  padding-left: 19px;
+  color: #333333;
+}
+/* line 400, ../sass/partials/_node.scss */
+.node-type-hr-operation .pane-hr-documents-panes-list .view,
+.node-type-hr-operation .pane-hr-infographics-panes-list .view {
+  margin: 0;
+}
+/* line 402, ../sass/partials/_node.scss */
+.node-type-hr-operation .pane-hr-documents-panes-list .view ul,
+.node-type-hr-operation .pane-hr-infographics-panes-list .view ul {
+  padding-left: 0;
+}
 
 /* line 5, ../sass/partials/_user.scss */
 .user-teaser h3 {
