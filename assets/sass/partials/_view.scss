@@ -256,3 +256,22 @@ a.fc-event, .fc-event-draggable {
 		}
 	}
 }
+
+.view-hr-sectors {
+	.views-row {
+		&:after {
+			background-color: #e7e7e7;
+			content:"";
+			display: block;
+			height: 24px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+}
+
+
+
+
+

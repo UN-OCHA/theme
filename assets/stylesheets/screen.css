@@ -12183,6 +12183,17 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
   color: #54b1c8;
 }
 
+/* line 262, ../sass/partials/_view.scss */
+.view-hr-sectors .views-row:after {
+  background-color: #e7e7e7;
+  content: "";
+  display: block;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* line 5, ../sass/partials/_form.scss */
 label {
   display: block;
