@@ -6,11 +6,8 @@
 @import "icons/38/Clusters/*.png";
 
 .front {
-
 	.sidebar {
-
 		.panel-pane {
-
 			margin-bottom: 30px;
 
 			.pane-title {
@@ -28,12 +25,8 @@
           color: $p-main;
         }
       }
-
 		}
-
-
 	}
-
 }
 
 
@@ -45,23 +38,35 @@
 	@include box-shadow(rgba(black, 0.2) 1px 2px 2px);
 	margin: 20px 0px;
 
-	.pane-title {
-		font-size: 13px;
-		text-transform: uppercase;
-		font-weight: bold;
-		padding-bottom: 7px;
-		margin-bottom: 10px;
-		border-bottom: 1px dotted #dedede;
-		margin-top: 2px;
-	}
+  .panel-pane {
+    &.pane-hr-infographics-panes-list {
+      .pane-title { &:after {  content: "\f041"; } } // map-marker
+    }
+    &.pane-hr-documents-panes-list {
+      .pane-title { &:after {  content: "\f016"; } } // file-o
+    }
+  	.pane-title {
+  		font-size: 13px;
+  		text-transform: uppercase;
+  		font-weight: bold;
+  		padding-bottom: 7px;
+  		margin-bottom: 10px;
+  		border-bottom: 1px dotted #dedede;
+  		margin-top: 2px;
+      &:after {
+        font-family: FontAwesome;
+        float: right;
+      }
+  	}
 
-	.pane-content {
-		padding: 0 7px;
+  	.pane-content {
+  		padding: 0 7px;
 
-		ul {
-			padding-left: 14px;
-			color: $gray-dark;
-		}
+  		ul {
+  			padding-left: 14px;
+  			color: $gray-dark;
+  		}
+    }
 	}
 }
 

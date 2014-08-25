@@ -3163,9 +3163,12 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .front .sidebar .panel-pane .pane-content a { color: #bc2e3c; }
 
 .hr-highlighted { background-color: #F9F9F9; padding: 7px; border: 1px solid #FFF; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; margin: 20px 0px; }
-.hr-highlighted .pane-title { font-size: 13px; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 10px; border-bottom: 1px dotted #dedede; margin-top: 2px; }
-.hr-highlighted .pane-content { padding: 0 7px; }
-.hr-highlighted .pane-content ul { padding-left: 14px; color: #333333; }
+.hr-highlighted .panel-pane.pane-hr-infographics-panes-list .pane-title:after { content: "\f041"; }
+.hr-highlighted .panel-pane.pane-hr-documents-panes-list .pane-title:after { content: "\f016"; }
+.hr-highlighted .panel-pane .pane-title { font-size: 13px; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 10px; border-bottom: 1px dotted #dedede; margin-top: 2px; }
+.hr-highlighted .panel-pane .pane-title:after { font-family: FontAwesome; float: right; }
+.hr-highlighted .panel-pane .pane-content { padding: 0 7px; }
+.hr-highlighted .panel-pane .pane-content ul { padding-left: 14px; color: #333333; }
 
 #hr-bundles-layer-switcher .baseLbl, #hr-bundles-layer-switcher .baseLayersDiv, #hr-bundles-layer-switcher .dataLbl, #hr-bundles-layer-switcher br, #hr-bundles-layer-switcher span, #hr-bundles-layer-switcher input.olButton { display: none !important; }
 #hr-bundles-layer-switcher label.olButton { cursor: pointer; }
