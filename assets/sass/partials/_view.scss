@@ -52,6 +52,11 @@
 		}
 	}
 }
+.views-catgroup .views-group {
+	&.col-md-6 {
+		width: 48%;
+	}
+}
 
 .views-icons {
 
