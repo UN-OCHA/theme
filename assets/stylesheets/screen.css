@@ -3150,8 +3150,9 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .page-operations .hr-highlighted { margin-top: 0; }
 
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail { position: relative; }
-.front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a { display: block; height: 100%; overflow: hidden; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
-.front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a:hover { -webkit-transform: scale(1.12, 1.12); -ms-transform: scale(1.12, 1.12); transform: scale(1.12, 1.12); }
+.front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a { display: block; height: 100%; overflow: hidden; }
+.front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a img { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); }
+.front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a:hover img { -webkit-transform: scale(1.12, 1.12); -ms-transform: scale(1.12, 1.12); transform: scale(1.12, 1.12); }
 
 .grey-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label, #hr-bundles-layer-switcher input[value="Education"] + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[value="Food Security"] + label, #hr-bundles-layer-switcher input[value="Health"] + label, #hr-bundles-layer-switcher input[value="Logistics"] + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label, #hr-bundles-layer-switcher input[value="Protection"] + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label { background: url('../images/icons/38/Clusters/grey-s8e6e32aa57.png') no-repeat; }
 

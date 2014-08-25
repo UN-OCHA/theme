@@ -364,10 +364,14 @@ body .region-branding {
 				display: block;
 				height: 100%;
 				overflow: hidden;
-				@include scale(1, 1);
-				@include transition(all 0.2s ease-in-out);
+				img {
+					@include transition(all 0.2s ease-in-out);
+					@include scale(1, 1);
+				}
 				&:hover {
-					@include scale(1.12, 1.12);
+					img {
+						@include scale(1.12, 1.12);
+					}
 				}
 			}
 			.caption {
