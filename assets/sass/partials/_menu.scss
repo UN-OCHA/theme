@@ -62,6 +62,14 @@
 	}
 }
 
+#hr-space-tab {
+	&.white {
+		a.dropdown-toggle {
+			background: #FFF;
+		}
+	}
+}
+
 .navbar-collapse {
 	padding: 0;
 }

@@ -19,6 +19,13 @@
 			$(this).parent().addClass('redactive');
 		});
 
+		//Top 'HR' tab
+		$("#hr-space-tab li a").each(function() {
+			if($(this).hasClass('active')) {
+				$("#hr-space-tab").addClass('white');
+			}
+		});
+
 	});
 
 	$(window).resize(function() {

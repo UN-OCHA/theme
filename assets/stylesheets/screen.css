@@ -2930,6 +2930,8 @@ div.region-top div.block { display: inline-block; }
 .nav-tabs > li > a.active, .nav-tabs > li > a:hover { color: #bc2e3b; background-color: #FFF; }
 .nav-tabs .open > a, .nav-tabs .open > a:focus { border: none; background: #AEAEAE; color: white; }
 
+#hr-space-tab.white a.dropdown-toggle { background: #FFF; }
+
 .navbar-collapse { padding: 0; }
 
 .navbar-default { background-color: transparent; border: none; margin: 0; }
