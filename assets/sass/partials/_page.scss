@@ -229,6 +229,11 @@ body table, body .table {
 		.footer-logo {
 			margin: 10px;
 			height: 40px;
+			opacity: 1;
+			@include transition(all 0.2s ease-in-out);
+			&:hover {
+				opacity: 0.8;
+			}
 		}
 	}
 }
