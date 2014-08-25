@@ -81,6 +81,7 @@
 			border-radius: 0px 0px 5px 5px;
 			li {
 				&.first {
+					margin-top: -8px;
 					&:before,
 					&:after {
 						background-color: #dbdbdb;
@@ -88,6 +89,7 @@
 						display: block;
 						content: '';
 						box-shadow: 0px 1px 0px #FFF;
+						margin: 4px 10px;
 					}
 				}
 				a {
