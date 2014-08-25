@@ -20,7 +20,7 @@
 		});
 
 		//Top 'HR' tab
-		$("#hr-space-tab li a").each(function() {
+		$("#hr-space-tab > li > ul:first a").each(function() {
 			if($(this).hasClass('active')) {
 				$("#hr-space-tab").addClass('white');
 			}
