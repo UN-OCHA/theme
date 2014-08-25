@@ -232,7 +232,7 @@ body table, body .table {
 			opacity: 1;
 			@include transition(all 0.2s ease-in-out);
 			&:hover {
-				opacity: 0.8;
+				opacity: 0.7;
 			}
 		}
 	}
