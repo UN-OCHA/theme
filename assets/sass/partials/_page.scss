@@ -355,5 +355,26 @@ body .region-branding {
 	}
 }
 
+//liens homepage
+.front .radix-moscone-flipped .col-md-12  {
+	.col-sm-2 {
+		.thumbnail {
+			position: relative;
+			a {
+				display: block;
+				height: 100%;
+				overflow: hidden;
+				@include scale(1, 1);
+				@include transition(all 0.2s ease-in-out);
+				&:hover {
+					@include scale(1.12, 1.12);
+				}
+			}
+			.caption {
+
+			}
+		}
+	}
+}
 
 
