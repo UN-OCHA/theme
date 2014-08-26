@@ -2942,8 +2942,8 @@ div.region-top div.block { display: inline-block; }
 
 .navbar-default { background-color: transparent; border: none; margin: 0; }
 
-.navbar button, .navbar a.btn { background-color: #aeadad; color: white; border: 0; margin-right: 2px; line-height: 1.428571429; border: 1px solid rgba(0, 0, 0, 0); -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; font-size: 12px; text-transform: none; position: static; }
-.navbar button:hover, .navbar a.btn:hover { background-color: #BBB; }
+.navbar button, .navbar a.btn.btn-default { background-color: #aeadad; color: white; border: 0; margin-right: 2px; line-height: 1.428571429; border: 1px solid rgba(0, 0, 0, 0); -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; -ms-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; font-size: 12px; text-transform: none; position: static; }
+.navbar button:hover, .navbar a.btn.btn-default:hover { background-color: #BBB; }
 .navbar .dropdown-menu { margin: 0; border: none; background: #aeaeae; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; margin: 0 2px 0 0; }
 .navbar .dropdown-menu ul, .navbar .dropdown-menu li { margin: 0; padding: 0; }
 .navbar .dropdown-menu ul a, .navbar .dropdown-menu li a { color: white; font-size: 12px; padding: 2px 16px; text-decoration: none; display: block; }
