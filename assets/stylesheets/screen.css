@@ -3284,7 +3284,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .view-hr-sectors .views-row .views-field-field-image { position: relative; z-index: 2; width: 97px; }
 .view-hr-sectors .views-row .views-field-title-field a { color: #54b1c8; }
 
-.view-hr-spaces .views-row .views-field.views-field-title-field a { color: #5F5F5F; }
+.view-hr-spaces .views-row .views-field.views-field-title-field a { color: #54b1c8; }
 
 label { display: block; }
 
