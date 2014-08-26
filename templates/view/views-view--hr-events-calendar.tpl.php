@@ -71,7 +71,7 @@
   <?php endif; ?>
 
   <?php if (user_is_logged_in()): ?>
-    <p class="text-right"><strong><a href="/help/register-and-check-emergency#timezone"><?php print t('Wrong timezone ?'); ?></a></strong></p>
+    <p class="text-right"><strong><a href="/help/register-and-check-emergency#timezone"><?php debug(date_default_timezone()); print t('Wrong timezone ?'); ?></a></strong></p>
   <?php endif; ?>
 
   <?php if ($rows): ?>
