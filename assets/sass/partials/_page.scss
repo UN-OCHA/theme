@@ -60,6 +60,9 @@ a {
 
 	&.btn {
 		color: white;
+		&.btn-default {
+			color: #333;
+		}
 	}
 }
 
