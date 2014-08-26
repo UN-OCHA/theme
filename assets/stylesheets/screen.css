@@ -3277,6 +3277,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .feed-icon button.btn.btn-default.dropdown-toggle:before { content: "\f064"; font-family: FontAwesome; font-style: inherit; font-weight: normal; text-decoration: inherit; }
 .feed-icon .fa-download:before { content: "export"; }
 
+.view-hr-operations .views-row { margin-bottom: 13px; }
 .view-hr-operations .views-row .views-field.views-field-title-field a { color: #54b1c8; }
 
 .view-hr-sectors .views-row:after { background-color: #e7e7e7; content: ""; display: block; height: 24px; position: absolute; bottom: 0; left: 0; width: 100%; }
