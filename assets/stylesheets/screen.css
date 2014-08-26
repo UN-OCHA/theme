@@ -3051,7 +3051,7 @@ html #footer, body #footer { margin: 0; }
 
 body { background: url(../images/bg_noise.png) repeat top left #cccccc; -webkit-font-smoothing: antialiased; font-size: 12px; }
 
-.container-outer.header { background-color: #FFF; }
+.container-outer.header { background-color: #FFF; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 4px; }
 
 #front-banner { background: url("../images/banner_home.png") repeat-x center center white; height: 104px; }
 
