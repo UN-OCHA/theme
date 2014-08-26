@@ -3060,7 +3060,7 @@ body { background: url(../images/bg_noise.png) repeat top left #cccccc; -webkit-
 
 a { color: #bc2e3c; word-wrap: break-word; }
 a:hover { color: #93242f; }
-.region-content a { color: #54b1c8; }
+.region-content a { color: #bc2e3c; }
 a.btn { color: white; }
 a.btn.btn-default { color: #333; }
 
