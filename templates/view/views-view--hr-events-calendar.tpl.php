@@ -70,9 +70,7 @@
     </div>
   <?php endif; ?>
 
-  <?php if (user_is_logged_in()): ?>
-    <p class="text-right"><strong><a href="/help/register-and-check-emergency#timezone"><?php debug(date_default_timezone()); print t('Wrong timezone ?'); ?></a></strong></p>
-  <?php endif; ?>
+  <p class="text-right"><?php print t('Timezone'); ?> : <strong><?php print date_default_timezone(); ?></strong></p>
 
   <?php if ($rows): ?>
     <div class="<?php print $view_content_class; ?>">
