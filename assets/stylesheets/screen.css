@@ -2968,6 +2968,7 @@ div.region-top div.block { display: inline-block; }
 @media screen and (max-width: 768px) { .container.header #logo img { max-width: 250px; height: auto; } }
 .container.header #header-image { position: absolute; right: 0; z-index: 0; }
 .container.header .region-branding { position: absolute; z-index: 5; right: 0; }
+.container.header .region-branding form { margin-right: 5px; margin-top: 14px; }
 
 #sidebar-first .block { margin: 0; background-color: transparent; }
 #sidebar-first .block h2 { margin: 9px 0; font-size: 15px; font-weight: normal; }
