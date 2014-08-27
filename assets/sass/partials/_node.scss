@@ -445,6 +445,15 @@
       color:$p-comp;
       text-align: center;
     }
+    .space-follow {
+      position: relative;
+      .flag-throbber {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+      }
+    }
   }
 
   a.btn {
