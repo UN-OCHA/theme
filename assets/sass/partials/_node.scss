@@ -410,12 +410,35 @@
 #block-hr-layout-hr-layout-share-links {
 
   .content {
+    h2 {
+      margin: 0 0 -10px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1em;
+      span {
+        text-transform: uppercase;
+      }
+    }
     border-radius: 10px;
     background-color: #bbd9e1;
     color: $p-comp;
     padding: 10px;
     hr {
       border-top: 1px dotted white;
+      clear: both;
+    }
+    .cluster {
+      margin: -10px 27px -10px 56px;
+      text-align: right;
+      font-weight: bold;
+      .image {
+        width: 38px;
+        height: 38px;
+        background: grey;
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
     }
     .manager {
       font-size: 0.9em;

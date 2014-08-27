@@ -3376,7 +3376,11 @@ label { display: block; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view ul, .node-type-hr-operation .pane-hr-infographics-panes-list .view ul { padding-left: 0; }
 
 #block-hr-layout-hr-layout-share-links .content { border-radius: 10px; background-color: #bbd9e1; color: #54b1c8; padding: 10px; }
-#block-hr-layout-hr-layout-share-links .content hr { border-top: 1px dotted white; }
+#block-hr-layout-hr-layout-share-links .content h2 { margin: 0 0 -10px; text-align: center; font-weight: bold; font-size: 1.1em; }
+#block-hr-layout-hr-layout-share-links .content h2 span { text-transform: uppercase; }
+#block-hr-layout-hr-layout-share-links .content hr { border-top: 1px dotted white; clear: both; }
+#block-hr-layout-hr-layout-share-links .content .cluster { margin: -10px 27px -10px 56px; text-align: right; font-weight: bold; }
+#block-hr-layout-hr-layout-share-links .content .cluster .image { width: 38px; height: 38px; background: grey; float: right; margin-left: 10px; margin-bottom: 10px; }
 #block-hr-layout-hr-layout-share-links .content .manager { font-size: 0.9em; color: #54b1c8; text-align: center; }
 #block-hr-layout-hr-layout-share-links a.btn { color: white; display: block; margin: 6px 27px; font-size: 0.95em; text-transform: uppercase; text-align: left; }
 #block-hr-layout-hr-layout-share-links a.btn i { float: right; font-size: 1.4em; }
