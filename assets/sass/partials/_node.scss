@@ -447,17 +447,23 @@
     }
     .space-follow {
       position: relative;
+      .flag-throbber {
+        position: absolute;
+      }
       .flag-wrapper.flag-waiting {
         display: block;
         .flag-throbber {
-          position: absolute;
           right: 41px;
           top: 2px;
           background: none;
-          width: 16px;
+          width: 18px;
           height: 16px;
           line-height: 16px;
+          color:white;
+          font-size: 1.4em;
           text-align: center;
+          -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
           a {
             i {
               display: none;
@@ -466,8 +472,6 @@
           &:after {
             font-family: FontAwesome;
             content:"\f110";
-            -webkit-animation: fa-spin 2s infinite linear;
-            animation: fa-spin 2s infinite linear;
           }
         }
       }
