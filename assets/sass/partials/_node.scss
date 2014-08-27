@@ -24,6 +24,7 @@
 }
 
 // Content types
+.page-node.node-type-hr-operation #page-header .title,
 .page-node.node-type-hr-document #page-header .title,
 .page-node.node-type-hr-infographic #page-header .title,
 .page-node.node-type-hr-news #page-header .title,
@@ -386,9 +387,6 @@
 }
 
 .node-type-hr-operation {
-  #page-header {
-    display: none;
-  }
 
   .hr-highlighted .pane-content ul {
     padding-left: 19px;
