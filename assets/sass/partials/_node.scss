@@ -507,7 +507,10 @@
     font-size: 0.95em;
     text-transform: uppercase;
     text-align: left;
+    position: relative;
     i {
+      position: absolute;
+      right: 10px;
       float: right;
       font-size: 1.4em;
     }
