@@ -407,6 +407,26 @@
   }
 }
 
+#block-hr-layout-hr-layout-space-links {
+
+  .content {
+    background-color: #bbd9e1;
+    color: $p-comp;
+    padding: 0 10px;
+  }
+
+  .btn {
+    color:white;
+    display: block;
+    margin: 3px 17px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: left;
+    i {
+      float: right;
+    }
+  }
+}
 
 
 
