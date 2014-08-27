@@ -487,9 +487,13 @@
           -moz-animation: fa-spin 2s infinite linear;
           -ms-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
+          display: block;
+          font-size: 0;
+          padding: 0;
           &:after {
             font-family: FontAwesome;
             content:"\f110";
+            font-size: 17px;
           }
         }
       }
