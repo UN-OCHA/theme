@@ -452,6 +452,21 @@
       }
       .flag-wrapper.flag-waiting {
         display: block;
+        a {
+          i {
+            display: none;
+          }
+        }
+        @-webkit-keyframes fa-spin {
+          0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          100% {
+            -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+          }
+        }
         .flag-throbber {
           right: 41px;
           top: 2px;
@@ -464,11 +479,6 @@
           text-align: center;
           -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
-          a {
-            i {
-              display: none;
-            }
-          }
           &:after {
             font-family: FontAwesome;
             content:"\f110";
