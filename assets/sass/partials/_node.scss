@@ -447,11 +447,12 @@
     }
     .space-follow {
       position: relative;
-      .flag-throbber {
-        position: absolute;
-        right: 0;
-        top: 0;
-
+      .flag-wrapper {
+        .flag-throbber {
+          position: absolute;
+          right: 41px;
+          top: 0;
+        }
       }
     }
   }
