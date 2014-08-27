@@ -457,27 +457,35 @@
             display: none;
           }
         }
-        @-webkit-keyframes fa-spin {
-          0% {
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-          }
-          100% {
-            -webkit-transform: rotate(359deg);
-            transform: rotate(359deg);
-          }
+        @-ms-keyframes spin {
+          from { -ms-transform: rotate(0deg); }
+          to { -ms-transform: rotate(360deg); }
+        }
+        @-moz-keyframes spin {
+          from { -moz-transform: rotate(0deg); }
+          to { -moz-transform: rotate(360deg); }
+        }
+        @-webkit-keyframes spin {
+          from { -webkit-transform: rotate(0deg); }
+          to { -webkit-transform: rotate(360deg); }
+        }
+        @keyframes spin {
+          from {transform:rotate(0deg);}
+          to {transform:rotate(360deg);}
         }
         .flag-throbber {
           right: 41px;
           top: 2px;
           background: none;
-          width: 18px;
+          width: 21px;
           height: 16px;
           line-height: 16px;
           color:white;
           font-size: 1.4em;
           text-align: center;
           -webkit-animation: fa-spin 2s infinite linear;
+          -moz-animation: fa-spin 2s infinite linear;
+          -ms-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
           &:after {
             font-family: FontAwesome;

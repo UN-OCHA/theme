@@ -3384,11 +3384,17 @@ label { display: block; }
 #block-hr-layout-hr-layout-share-links .content .manager { font-size: 0.9em; color: #54b1c8; text-align: center; }
 #block-hr-layout-hr-layout-share-links .content .space-follow { position: relative; }
 #block-hr-layout-hr-layout-share-links .content .space-follow .flag-throbber { position: absolute; }
-#block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting { display: block; @-webkit-keyframes fa-spin { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(359deg); transform: rotate(359deg); } }
+#block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting { display: block; @-ms-keyframes spin { from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); } }
+ @-moz-keyframes spin { from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); } }
+ @-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); } }
+ @keyframes spin { from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); } }
  }
 #block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting a i { display: none; }
-#block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting .flag-throbber { right: 41px; top: 2px; background: none; width: 18px; height: 16px; line-height: 16px; color: white; font-size: 1.4em; text-align: center; -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear; }
+#block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting .flag-throbber { right: 41px; top: 2px; background: none; width: 21px; height: 16px; line-height: 16px; color: white; font-size: 1.4em; text-align: center; -webkit-animation: fa-spin 2s infinite linear; -moz-animation: fa-spin 2s infinite linear; -ms-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear; }
 #block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting .flag-throbber:after { font-family: FontAwesome; content: "\f110"; }
 #block-hr-layout-hr-layout-share-links a.btn { color: white; display: block; margin: 6px 27px; font-size: 0.95em; text-transform: uppercase; text-align: left; }
 #block-hr-layout-hr-layout-share-links a.btn i { float: right; font-size: 1.4em; }
