@@ -410,9 +410,18 @@
 #block-hr-layout-hr-layout-share-links {
 
   .content {
+    border-radius: 10px;
     background-color: #bbd9e1;
     color: $p-comp;
     padding: 10px;
+    hr {
+      border-top: 1px dotted white;
+    }
+    .manager {
+      font-size: 0.9em;
+      color:$p-comp;
+      text-align: center;
+    }
   }
 
   a.btn {

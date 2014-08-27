@@ -3375,7 +3375,9 @@ label { display: block; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view, .node-type-hr-operation .pane-hr-infographics-panes-list .view { margin: 0 !important; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view ul, .node-type-hr-operation .pane-hr-infographics-panes-list .view ul { padding-left: 0; }
 
-#block-hr-layout-hr-layout-share-links .content { background-color: #bbd9e1; color: #54b1c8; padding: 10px; }
+#block-hr-layout-hr-layout-share-links .content { border-radius: 10px; background-color: #bbd9e1; color: #54b1c8; padding: 10px; }
+#block-hr-layout-hr-layout-share-links .content hr { border-top: 1px dotted white; }
+#block-hr-layout-hr-layout-share-links .content .manager { font-size: 0.9em; color: #54b1c8; text-align: center; }
 #block-hr-layout-hr-layout-share-links a.btn { color: white; display: block; margin: 6px 27px; font-size: 0.95em; text-transform: uppercase; text-align: left; }
 #block-hr-layout-hr-layout-share-links a.btn i { float: right; font-size: 1.4em; }
 
