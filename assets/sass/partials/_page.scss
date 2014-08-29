@@ -232,6 +232,9 @@ body table, body .table {
 			@media screen and (max-width: $screen-md) {
 				.col-md-3 {
 					float: left;
+					.column {
+						float: left;
+					}
 				}
 			}
 		}
