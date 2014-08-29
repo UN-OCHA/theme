@@ -3105,8 +3105,8 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 #footer .container #footer-second img { margin: 10px; max-width: 100%; max-height: 45px; }
 @media screen and (max-width: 992px) { #footer .container #footer-second .col-md-3 { float: left; }
   #footer .container #footer-second .col-md-3 .column { width: 105px; float: left; } }
-@media screen and (max-width: 992px) { #footer .container #footer-second { clear: both; }
-  #footer .container #footer-second:after { clear: both; content: ''; } }
+@media screen and (max-width: 992px) { #footer .container #footer-third { clear: both; }
+  #footer .container #footer-third:after { clear: both; content: ''; } }
 #footer .container .footer-logo { margin: 10px; height: 40px; opacity: 1; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 #footer .container .footer-logo:hover { opacity: 0.7; }
 
