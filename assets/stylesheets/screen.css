@@ -3101,6 +3101,7 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 @media screen and (max-width: 1200px) { .thumbnail .caption { font-size: 10px; } }
 
 #footer { background-color: #F8F8F8; }
+@media screen and (max-width: 992px) { #footer { height: auto; } }
 #footer .container { padding-bottom: 20px; padding-top: 1em; }
 #footer .container #footer-second img { margin: 10px; max-width: 100%; max-height: 45px; }
 @media screen and (max-width: 992px) { #footer .container #footer-second .col-md-3 { float: left; }

@@ -218,6 +218,10 @@ body table, body .table {
 #footer {
 	background-color: #F8F8F8;
 
+	@media screen and (max-width: $screen-md) {
+		height: auto;
+	}
+
 	.container {
 
 		padding-bottom: 20px;
