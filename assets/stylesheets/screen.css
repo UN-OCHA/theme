@@ -3131,7 +3131,7 @@ h6 { font-size: 7px; }
 
 body .region-branding { width: 100%; }
 body .region-branding .block { position: absolute; top: 0; right: 0; }
-@media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 35px; width: 305px; top: 45px; } }
+@media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 35px; width: 252px; top: 45px; } }
 body .region-branding input { /*&.form-submit {
 	border: none;
 	padding: 2px 4px;
