@@ -224,12 +224,6 @@
     h2 {
       @include node-sprite(blog);
     }
-
-    .container .row:first-child {
-      padding-left: 70px;
-      margin-top: -2em;
-      margin-bottom: 1em;
-    }
   }
 
   &.node-hr-document {
