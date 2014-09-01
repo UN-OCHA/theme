@@ -66,6 +66,11 @@
 	&.white {
 		a.dropdown-toggle {
 			background: #FFF;
+			position: relative;
+			z-index: 1;
+			&:hover {
+				border-color: #FFF;
+			}
 		}
 	}
 	li.open {
