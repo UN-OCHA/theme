@@ -2996,7 +2996,7 @@ div.region-top div.block { display: inline-block; }
 #sidebar-first .block.block-current-search .content .current-reset-filter a { height: 19px; width: 19px; background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0); display: inline-block; float: left; margin-right: 5px; }
 #sidebar-first .block.block-current-search .content .facetapi-active { font-weight: bold; color: #bc2e3c; }
 #sidebar-first .block.block-current-search a { padding-left: 0; padding-right: 6px; }
-#sidebar-first .block.block-og-menu ul.menu > li.expanded { margin-bottom: 28px; padding-top: 7px; padding-bottom: 7px; }
+#sidebar-first .block.block-og-menu ul.menu > li.expanded { margin-bottom: 15px; padding-top: 12px; padding-bottom: 12px; }
 #sidebar-first .block.block-og-menu ul.menu li { background-color: #ececec; padding: 0 7px; }
 #sidebar-first .block.block-og-menu ul.menu li a { padding-left: 14px; }
 #sidebar-first .block.block-og-menu ul.menu li .nolink { font-weight: bold; text-transform: uppercase; color: #525252; font-size: 13px; margin-bottom: 5px; display: block; }
@@ -3101,7 +3101,7 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 .thumbnail .caption { text-align: center; background-color: #494949; text-transform: uppercase; font-weight: bold; color: white; padding-left: 0; padding-right: 0; }
 @media screen and (max-width: 1200px) { .thumbnail .caption { font-size: 10px; } }
 
-#footer { background-color: #F8F8F8; }
+#footer { margin: 20px 0 0; background-color: #F8F8F8; }
 @media screen and (max-width: 992px) { #footer { height: auto; } }
 #footer .container { padding-bottom: 20px; padding-top: 1em; }
 #footer .container #footer-second img { margin: 10px; max-width: 100%; max-height: 45px; }
@@ -3245,7 +3245,6 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 /* Toolbox homepage - Bottom text headers */
 .hr-toolbox-homepage-bottom-text-header h4 { color: #333333; }
 
-#block-system-main .view { margin: 20px 0; }
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 
 .views-catgroup .views-group, .views-icons .views-row { background-color: #F9F9F9; border: 1px solid #FFF; margin: 1%; padding: 0; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); min-height: 100px; position: relative; float: left; width: 31.333333%; }
