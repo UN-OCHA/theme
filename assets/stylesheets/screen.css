@@ -3129,6 +3129,7 @@ h6 { font-size: 7px; }
 
 .view-content.row { margin: 0; }
 
+body .region-branding { width: 100%; }
 body .region-branding .block { position: absolute; top: 0; right: 0; }
 @media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 35px; width: 270px; top: 45px; } }
 body .region-branding input { /*&.form-submit {
@@ -3145,6 +3146,7 @@ body .region-branding input { /*&.form-submit {
 	margin-top: 0 !important;
 }*/ }
 body .region-branding input.form-text { font-size: 12px; background: rgba(0, 0, 0, 0.1) !important; width: 260px; float: right; }
+@media screen and (max-width: 768px) { body .region-branding input.form-text { width: auto; } }
 body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 
 #block-current-search-hr-current-search h2 { display: none; }

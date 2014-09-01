@@ -306,6 +306,8 @@ h6 {
 
 body .region-branding {
 
+	width: 100%;
+
 	.block {
 		position: absolute;
 		top: 0;
@@ -322,15 +324,13 @@ body .region-branding {
 	input {
 
 		&.form-text {
-			//padding: 2px 4px;
 			font-size: 12px;
-			//border-radius: 0;
 			background: rgba(0,0,0,0.1) !important;
 			width: 260px;
 			float: right;
-			//border: 1px solid white;
-			//height: auto;
-			//box-shadow: 0;
+			@media screen and (max-width: $screen-sm) {
+				width: auto;
+			}
 
 			&:focus {
 				border-color: $p-main;
