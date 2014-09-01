@@ -28,6 +28,7 @@ body {
 body {
 	background: url(../images/BG_ocha.png) repeat-y top center #FFFFFF;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	font-size: 12px;
 }
 
@@ -53,7 +54,6 @@ a {
 	&:hover {
 		color: darken($p-main, 10%);
 	}
-
 
 	.region-content & {
 		color: $p-comp;
