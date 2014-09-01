@@ -8,8 +8,10 @@
 @include sticky-footer(210px);
 @include all-footer-logos-sprites;
 
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: Tahoma;
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+input,
+select {
+	font-family: $font-family-sans-serif;
 }
 
 html,
@@ -54,7 +56,8 @@ a {
 
 
 	.region-content & {
-		color: $p-main;
+		color: $p-comp;
+		font-weight: bold;
 	}
 
 	&.btn {
