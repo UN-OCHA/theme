@@ -3094,7 +3094,7 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 
 .front .container.header { margin-bottom: 0; }
 
-#content { padding: 0; }
+#content { padding: 0; margin-top: 40px; }
 
 .thumbnail { display: block; padding: 10px; margin-bottom: 20px; line-height: 1.428571429; background-color: #FFF; border: none; border-radius: 0; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; }
 .thumbnail p { margin: 0; }
@@ -3160,6 +3160,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 
 #popup a:hover { color: #e6e6e6; }
 
+.page-operations #content { margin-top: 0px; }
 .page-operations .hr-highlighted { margin-top: 0; }
 
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail { position: relative; }

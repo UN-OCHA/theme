@@ -185,6 +185,7 @@ body table, body .table {
 
 #content {
 	padding: 0;
+	margin-top: 40px;
 }
 
 // Divers
@@ -394,6 +395,9 @@ body .region-branding {
 }
 
 .page-operations {
+	#content {
+		margin-top: 0px;
+	}
 	.hr-highlighted {
 		margin-top: 0;
 	}
