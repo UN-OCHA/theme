@@ -2998,7 +2998,7 @@ div.region-top div.block { display: inline-block; }
 #sidebar-first .block.block-og-menu ul.menu > li.expanded { margin-bottom: 15px; padding-top: 7px; padding-bottom: 7px; }
 #sidebar-first .block.block-og-menu ul.menu li { background-color: #ececec; padding: 0 7px; }
 #sidebar-first .block.block-og-menu ul.menu li a { padding-left: 14px; }
-#sidebar-first .block.block-og-menu ul.menu li .nolink { font-weight: bold; text-transform: uppercase; color: #525252; font-size: 13px; margin-bottom: 0; display: block; }
+#sidebar-first .block.block-og-menu ul.menu li .nolink { font-weight: bold; text-transform: uppercase; color: #525252; font-size: 13px; margin-bottom: 5px; display: block; }
 #sidebar-first .block.block-og-menu ul.menu li .nolink .caret { float: right; margin-top: 7px; margin-right: 7px; border-top: 4px solid white; }
 #sidebar-first .block.block-og-menu ul.menu li .nolink.collapsed > .caret { border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 0; border-bottom: 4px solid white; }
 #sidebar-first .block.block-og-menu ul.menu li ul { padding-left: 14px; list-style: none; list-style-image: none; list-style-type: none; }
