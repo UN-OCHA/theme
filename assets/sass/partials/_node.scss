@@ -382,11 +382,14 @@
 
 .node-type-hr-operation {
 
-  .hr-highlighted .pane-content ul {
-    padding-left: 19px;
-    li {
-      margin-bottom: 5px;
-      color: #333333;
+  .hr-highlighted {
+    margin-top: -11px;
+    .pane-content ul {
+      padding-left: 19px;
+      li {
+        margin-bottom: 5px;
+        color: #333333;
+      }
     }
   }
 

@@ -3377,6 +3377,7 @@ label { display: block; }
 .node-search-result .row .panel-panel .pane-hr-node-links { text-align: right; }
 .node-search-result .row .panel-panel .pane-hr-node-links div { display: inline-block; }
 
+.node-type-hr-operation .hr-highlighted { margin-top: -11px; }
 .node-type-hr-operation .hr-highlighted .pane-content ul { padding-left: 19px; }
 .node-type-hr-operation .hr-highlighted .pane-content ul li { margin-bottom: 5px; color: #333333; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view, .node-type-hr-operation .pane-hr-infographics-panes-list .view { margin: 0 !important; }
