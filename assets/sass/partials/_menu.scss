@@ -448,8 +448,10 @@
 
 			ul.menu {
 
-				> li .expanded {
+				> li.expanded {
 					margin-bottom: 15px;
+					padding-top: 7px;
+					padding-bottom: 7px;
 				}
 
 				li {
@@ -458,11 +460,6 @@
 
 					a {
 						padding-left: 14px;
-					}
-
-					&.dropdown {
-						padding-top: 7px;
-						padding-bottom: 7px;
 					}
 
 					.nolink {
