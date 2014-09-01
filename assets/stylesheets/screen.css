@@ -3129,7 +3129,8 @@ h6 { font-size: 7px; }
 
 .view-content.row { margin: 0; }
 
-body .region-branding .views-exposed-widgets { margin-top: 1em; }
+body .region-branding .block { position: absolute; top: 0; right: 0; }
+@media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 35px; width: 270px; top: 45px; } }
 body .region-branding input { /*&.form-submit {
 	border: none;
 	padding: 2px 4px;
