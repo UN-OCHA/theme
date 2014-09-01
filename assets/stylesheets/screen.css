@@ -3062,7 +3062,7 @@ body { background: url(../images/BG_ocha.png) repeat-y top center white; -webkit
 
 a { color: #bc2e3c; word-wrap: break-word; }
 a:hover { color: #93242f; }
-.region-content a { color: #54b1c8; font-weight: bold; }
+.region-content a { color: #0fa4de; font-weight: bold; }
 a.btn { color: white; }
 a.btn.btn-default { color: #333; }
 
@@ -3084,7 +3084,7 @@ body div.messages.error { background: #bc2e3c; }
 body table, body .table { table-layout: fixed; word-wrap: break-word; }
 body table.table-bordered, body .table.table-bordered { border-color: white; }
 body table thead tr, body .table thead tr { border: 0; }
-body table thead tr th, body table thead tr .ui-widget-header, body .table thead tr th, body .table thead tr .ui-widget-header { border: 0; color: white; background-color: #54b1c8; background-image: none; padding: 8px; }
+body table thead tr th, body table thead tr .ui-widget-header, body .table thead tr th, body .table thead tr .ui-widget-header { border: 0; color: white; background-color: #0fa4de; background-image: none; padding: 8px; }
 body table tbody, body .table tbody { border: 0; }
 body table tbody tr, body .table tbody tr { border: 0; }
 body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFFFF; }
@@ -3113,7 +3113,7 @@ body table tbody tr td, body .table tbody tr td { border: 0; border-color: #FFFF
 
 .page-header { border: none; }
 
-h1, h2, h3, h4, h5, h6 { color: #54b1c8; font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { color: #0fa4de; font-weight: bold; }
 
 h1 { font-size: 28px; }
 
@@ -3269,7 +3269,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .views-catgroup .views-row .views-field.views-field-field-image img { max-width: 38px; height: auto; }
 .views-catgroup .views-row .views-field.views-field-title-field a { color: #bc2e3c; font-weight: bold; }
 .views-catgroup.view-initiatives .views-row { min-height: 38px; }
-.views-catgroup.view-initiatives .views-row .views-field-title-field a { color: #54b1c8; font-weight: bold; }
+.views-catgroup.view-initiatives .views-row .views-field-title-field a { color: #0fa4de; font-weight: bold; }
 
 .page-node-events #block-system-main .pane-title { display: none; }
 .page-node-events #block-system-main ul.nav-pills { margin: 5px 15px 15px; }
@@ -3311,12 +3311,12 @@ label { display: block; }
 .page-node.node-type-hr-operation #page-header .title, .page-node.node-type-hr-document #page-header .title, .page-node.node-type-hr-infographic #page-header .title, .page-node.node-type-hr-news #page-header .title, .page-node.node-type-hr-event #page-header .title, .page-node.node-type-hr-dataset #page-header .title, .page-node.node-type-hr-indicator #page-header .title, .page-node.node-type-hr-contact #page-header .title, .page-node.node-type-hr-assessment #page-header .title, .page-node.node-type-hr-office #page-header .title { display: none; }
 
 .node-full.node-hr-document, .node-full.node-hr-infographic, .node-full.node-hr-news, .node-full.node-hr-event, .node-full.node-hr-dataset, .node-full.node-hr-indicator, .node-full.node-hr-contact, .node-full.node-hr-assessment, .node-full.node-hr-office { padding-bottom: 10px; }
-.node-full.node-hr-document .container, .node-full.node-hr-infographic .container, .node-full.node-hr-news .container, .node-full.node-hr-event .container, .node-full.node-hr-dataset .container, .node-full.node-hr-indicator .container, .node-full.node-hr-contact .container, .node-full.node-hr-assessment .container, .node-full.node-hr-office .container { background-color: #F9F9F9; border: 1px solid #FFF; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); border-right: 5px solid #54b1c8; }
+.node-full.node-hr-document .container, .node-full.node-hr-infographic .container, .node-full.node-hr-news .container, .node-full.node-hr-event .container, .node-full.node-hr-dataset .container, .node-full.node-hr-indicator .container, .node-full.node-hr-contact .container, .node-full.node-hr-assessment .container, .node-full.node-hr-office .container { background-color: #F9F9F9; border: 1px solid #FFF; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); border-right: 5px solid #0fa4de; }
 .node-full.node-hr-document .container .row, .node-full.node-hr-infographic .container .row, .node-full.node-hr-news .container .row, .node-full.node-hr-event .container .row, .node-full.node-hr-dataset .container .row, .node-full.node-hr-indicator .container .row, .node-full.node-hr-contact .container .row, .node-full.node-hr-assessment .container .row, .node-full.node-hr-office .container .row { overflow: hidden; }
 .node-full.node-hr-document .container .row .content, .node-full.node-hr-infographic .container .row .content, .node-full.node-hr-news .container .row .content, .node-full.node-hr-event .container .row .content, .node-full.node-hr-dataset .container .row .content, .node-full.node-hr-indicator .container .row .content, .node-full.node-hr-contact .container .row .content, .node-full.node-hr-assessment .container .row .content, .node-full.node-hr-office .container .row .content { min-height: 400px; }
 .node-full.node-hr-document .container .row .content .panel-separator, .node-full.node-hr-infographic .container .row .content .panel-separator, .node-full.node-hr-news .container .row .content .panel-separator, .node-full.node-hr-event .container .row .content .panel-separator, .node-full.node-hr-dataset .container .row .content .panel-separator, .node-full.node-hr-indicator .container .row .content .panel-separator, .node-full.node-hr-contact .container .row .content .panel-separator, .node-full.node-hr-assessment .container .row .content .panel-separator, .node-full.node-hr-office .container .row .content .panel-separator { display: inline-block; }
 .node-full.node-hr-document .container .row .content .pane-node-title, .node-full.node-hr-infographic .container .row .content .pane-node-title, .node-full.node-hr-news .container .row .content .pane-node-title, .node-full.node-hr-event .container .row .content .pane-node-title, .node-full.node-hr-dataset .container .row .content .pane-node-title, .node-full.node-hr-indicator .container .row .content .pane-node-title, .node-full.node-hr-contact .container .row .content .pane-node-title, .node-full.node-hr-assessment .container .row .content .pane-node-title, .node-full.node-hr-office .container .row .content .pane-node-title { border-bottom: 1px dotted #8f8f8f; }
-.node-full.node-hr-document .container .row .content .pane-node-title h2, .node-full.node-hr-infographic .container .row .content .pane-node-title h2, .node-full.node-hr-news .container .row .content .pane-node-title h2, .node-full.node-hr-event .container .row .content .pane-node-title h2, .node-full.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-indicator .container .row .content .pane-node-title h2, .node-full.node-hr-contact .container .row .content .pane-node-title h2, .node-full.node-hr-assessment .container .row .content .pane-node-title h2, .node-full.node-hr-office .container .row .content .pane-node-title h2 { font-size: 18px; font-weight: bold; background-position: 0 -220px; color: #54b1c8; padding: 20px 20px 20px 79px; max-height: 55px; }
+.node-full.node-hr-document .container .row .content .pane-node-title h2, .node-full.node-hr-infographic .container .row .content .pane-node-title h2, .node-full.node-hr-news .container .row .content .pane-node-title h2, .node-full.node-hr-event .container .row .content .pane-node-title h2, .node-full.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-indicator .container .row .content .pane-node-title h2, .node-full.node-hr-contact .container .row .content .pane-node-title h2, .node-full.node-hr-assessment .container .row .content .pane-node-title h2, .node-full.node-hr-office .container .row .content .pane-node-title h2 { font-size: 18px; font-weight: bold; background-position: 0 -220px; color: #0fa4de; padding: 20px 20px 20px 79px; max-height: 55px; }
 .node-full.node-hr-document .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-document .container .row .content .pane-node-field-files-collection, .node-full.node-hr-infographic .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-infographic .container .row .content .pane-node-field-files-collection, .node-full.node-hr-news .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-news .container .row .content .pane-node-field-files-collection, .node-full.node-hr-event .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-event .container .row .content .pane-node-field-files-collection, .node-full.node-hr-dataset .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-dataset .container .row .content .pane-node-field-files-collection, .node-full.node-hr-indicator .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-indicator .container .row .content .pane-node-field-files-collection, .node-full.node-hr-contact .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-contact .container .row .content .pane-node-field-files-collection, .node-full.node-hr-assessment .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-assessment .container .row .content .pane-node-field-files-collection, .node-full.node-hr-office .container .row .content .pane-node-hr-core-share-button, .node-full.node-hr-office .container .row .content .pane-node-field-files-collection { display: inline-block; }
 .node-full.node-hr-document .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-infographic .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-news .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-event .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-dataset .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-indicator .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-contact .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-assessment .container .row .content .field-name-field-users-ref .content, .node-full.node-hr-office .container .row .content .field-name-field-users-ref .content { min-height: 0; }
 .node-full.node-hr-document .container .row .sidebar, .node-full.node-hr-infographic .container .row .sidebar, .node-full.node-hr-news .container .row .sidebar, .node-full.node-hr-event .container .row .sidebar, .node-full.node-hr-dataset .container .row .sidebar, .node-full.node-hr-indicator .container .row .sidebar, .node-full.node-hr-contact .container .row .sidebar, .node-full.node-hr-assessment .container .row .sidebar, .node-full.node-hr-office .container .row .sidebar { margin-bottom: -99999px; padding: 0; padding-bottom: 99999px; background-color: #F1F1F1; }
@@ -3340,9 +3340,9 @@ label { display: block; }
 .node-full.node-hr-document.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-infographic.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-news.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-event.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-dataset.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-indicator.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-contact.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-assessment.node-hr-dataset .container .row .content .pane-node-title h2, .node-full.node-hr-office.node-hr-dataset .container .row .content .pane-node-title h2 { background-position: 0 0; }
 
 .node-search-result { background-color: #F9F9F9; border: 1px solid #FFF; margin: 1%; padding: 0; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); margin-bottom: 20px !important; position: relative; }
-.node-search-result:after { content: ''; background-color: #54b1c8; display: block; width: 5px; height: 10px; position: absolute; top: 0; right: 0; height: 100%; }
+.node-search-result:after { content: ''; background-color: #0fa4de; display: block; width: 5px; height: 10px; position: absolute; top: 0; right: 0; height: 100%; }
 .node-search-result > h2 { font-size: 16px; font-weight: bold; background-position: 0 -220px; padding: 20px 20px 20px 79px; max-height: 55px; margin-left: 18px; margin-top: 16px; }
-.node-search-result > h2 a { color: #54b1c8; }
+.node-search-result > h2 a { color: #0fa4de; }
 .node-search-result.node-hr-news h2 { background-position: 0 -110px; }
 .node-search-result.node-hr-document h2 { background-position: 0 -165px; }
 .node-search-result.node-hr-document h2 a { color: #27b298; }
@@ -3382,13 +3382,13 @@ label { display: block; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view, .node-type-hr-operation .pane-hr-infographics-panes-list .view { margin: 0 !important; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view ul, .node-type-hr-operation .pane-hr-infographics-panes-list .view ul { padding-left: 0; }
 
-#block-hr-layout-hr-layout-share-links .content { border-radius: 10px; background-color: #bbd9e1; color: #54b1c8; padding: 10px; }
+#block-hr-layout-hr-layout-share-links .content { border-radius: 10px; background-color: #bbd9e1; color: #0fa4de; padding: 10px; }
 #block-hr-layout-hr-layout-share-links .content h2 { margin: 0 0 -10px; text-align: center; font-weight: bold; font-size: 1.1em; }
 #block-hr-layout-hr-layout-share-links .content h2 span { text-transform: uppercase; }
 #block-hr-layout-hr-layout-share-links .content hr { border-top: 1px dotted white; clear: both; }
 #block-hr-layout-hr-layout-share-links .content .cluster { margin: 0px 27px -10px 56px; text-align: right; font-weight: bold; }
 #block-hr-layout-hr-layout-share-links .content .cluster .image { width: 38px; height: 38px; background: grey; float: right; margin-left: 10px; margin-bottom: 10px; }
-#block-hr-layout-hr-layout-share-links .content .manager { font-size: 0.9em; color: #54b1c8; text-align: center; }
+#block-hr-layout-hr-layout-share-links .content .manager { font-size: 0.9em; color: #0fa4de; text-align: center; }
 #block-hr-layout-hr-layout-share-links .content .space-follow { position: relative; }
 #block-hr-layout-hr-layout-share-links .content .space-follow .flag-throbber { position: absolute; }
 #block-hr-layout-hr-layout-share-links .content .space-follow .flag-wrapper.flag-waiting { display: block; @-ms-keyframes spin { from { -ms-transform: rotate(0deg); }
