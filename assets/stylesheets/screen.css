@@ -2995,7 +2995,7 @@ div.region-top div.block { display: inline-block; }
 #sidebar-first .block.block-current-search .content .current-reset-filter a { height: 19px; width: 19px; background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0); display: inline-block; float: left; margin-right: 5px; }
 #sidebar-first .block.block-current-search .content .facetapi-active { font-weight: bold; color: #bc2e3c; }
 #sidebar-first .block.block-current-search a { padding-left: 0; padding-right: 6px; }
-#sidebar-first .block.block-og-menu ul.menu li { background-color: #dfdfdf; padding: 0 7px; }
+#sidebar-first .block.block-og-menu ul.menu li { background-color: #ececec; padding: 0 7px; }
 #sidebar-first .block.block-og-menu ul.menu li a { padding-left: 14px; }
 #sidebar-first .block.block-og-menu ul.menu li.first { padding-top: 7px; }
 #sidebar-first .block.block-og-menu ul.menu li.last { padding-bottom: 7px; }
