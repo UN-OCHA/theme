@@ -66,6 +66,10 @@ function humanitarianresponse_links__locale_block(&$variables) {
   $after = '</ul>
     </div>';
 
+  foreach ($variables['links'] as &$link) {
+    $link['title'] = strtoupper($link['language']->language);
+  }
+
   return $before.theme_links($variables).$after;
 }
 
