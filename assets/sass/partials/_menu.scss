@@ -448,6 +448,10 @@
 
 			ul.menu {
 
+				> li .expanded {
+					margin-bottom: 15px;
+				}
+
 				li {
 					background-color: #ececec;
 					padding: 0 7px;
@@ -456,16 +460,9 @@
 						padding-left: 14px;
 					}
 
-					&.first {
+					&.dropdown {
 						padding-top: 7px;
-					}
-
-					&.last {
 						padding-bottom: 7px;
-					}
-
-					&.expanded {
-						margin-bottom: 15px;
 					}
 
 					.nolink {
