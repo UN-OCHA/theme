@@ -25,6 +25,20 @@
           color: $p-main;
         }
       }
+      @media screen and (max-width : $screen-sm) {
+        .row {
+          width: 50%;
+          float: left;
+          margin: 0;
+          .col-sm-6 {
+            text-align: left;
+            width: 100px;
+          }
+        }
+        br {
+          display: none;
+        }
+      }
 		}
 	}
 }

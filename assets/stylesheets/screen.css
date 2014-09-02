@@ -3181,6 +3181,9 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .front .sidebar .panel-pane { margin-bottom: 30px; }
 .front .sidebar .panel-pane .pane-title { font-size: 13px; color: #bc2e3c; border-bottom: 1px dotted #bc2e3c; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
 .front .sidebar .panel-pane .pane-content a { color: #bc2e3c; }
+@media screen and (max-width: 768px) { .front .sidebar .panel-pane .row { width: 50%; float: left; margin: 0; }
+  .front .sidebar .panel-pane .row .col-sm-6 { text-align: left; width: 100px; }
+  .front .sidebar .panel-pane br { display: none; } }
 
 .hr-highlighted { background-color: #F9F9F9; padding: 7px; border: 1px solid #FFF; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; margin: 20px 0px; }
 .hr-highlighted .panel-pane.pane-hr-infographics-panes-list .pane-title:after { content: "\f041"; }
