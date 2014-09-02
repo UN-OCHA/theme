@@ -2932,7 +2932,7 @@ div.region-top div.block { display: inline-block; }
 .nav-tabs > li > a.active, .nav-tabs > li > a:hover { color: #bc2e3b; background-color: #FFF; }
 .nav-tabs .open > a, .nav-tabs .open > a:focus { border: none; background: #AEAEAE; color: white; }
 
-.tabs .nav-tabs.primary { background-color: #dcdcdc; padding-top: 5px; }
+.tabs .nav-tabs.primary { margin-top: -11px; background-color: #dcdcdc; padding-top: 5px; }
 .tabs .nav-tabs.primary > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #888888; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
 .tabs .nav-tabs.primary > li > a.active, .tabs .nav-tabs.primary > li > a:hover { border: none; color: #0fa4de; background-color: #F3F3F3; }
 
