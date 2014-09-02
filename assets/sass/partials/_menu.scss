@@ -37,7 +37,7 @@
 			font-weight: bold;
 			min-width: 110px;
 			text-align: center;
-			color: $p-comp;
+			color: #888888;
 			background: none;
 			font-size: 14px;
 			border-radius: 0;
@@ -51,6 +51,7 @@
 	 		}
 
 			&.active, &:hover {
+				border:none;
 				color: $p-comp;
 				background-color: #f6f6f6;
 			}
