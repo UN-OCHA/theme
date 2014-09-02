@@ -3291,13 +3291,13 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .feed-icon .fa-download:before { content: "export"; }
 
 .view-hr-operations .views-row { margin-bottom: 13px; }
-.view-hr-operations .views-row .views-field.views-field-title-field a { color: #bc2e3c; }
+.view-hr-operations .views-row .views-field.views-field-title-field a { color: #0fa4de; }
 
 .view-hr-sectors .views-row:after { background-color: #e7e7e7; content: ""; display: block; height: 24px; position: absolute; bottom: 0; left: 0; width: 100%; }
 .view-hr-sectors .views-row .views-field-field-image { position: relative; z-index: 2; width: 97px; }
-.view-hr-sectors .views-row .views-field-title-field a { color: #bc2e3c; }
+.view-hr-sectors .views-row .views-field-title-field a { color: #0fa4de; }
 
-.view-hr-spaces .views-row .views-field.views-field-title-field a { color: #bc2e3c; }
+.view-hr-spaces .views-row .views-field.views-field-title-field a { color: #0fa4de; }
 
 label { display: block; }
 
