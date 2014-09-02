@@ -20,8 +20,6 @@
 .nav-tabs {
 	margin: 0;
 	border-bottom: none;
-	background-color: #dcdcdc;
-	padding-top: 5px;
 
 	> li {
 
@@ -34,15 +32,14 @@
 		> a {
 			padding: 4px 15px;
 			text-transform: uppercase;
-			font-weight: bold;
-			min-width: 110px;
+			font-weight: 600;
+			min-width: 130px;
 			text-align: center;
-			color: #888888;
-			background: none;
-			font-size: 14px;
-			border-radius: 0;
-			margin: 0;
-			border:none;
+			color: #707070;
+			background-color: #C1C1C1;
+			background-color: rgba(145, 145, 145, 0.25);
+			font-family: Exo;
+			font-size: 16px;
 
 
 			@media screen and (max-width : 768px) {
@@ -51,9 +48,8 @@
 	 		}
 
 			&.active, &:hover {
-				border:none;
-				color: $p-comp;
-				background-color: #f6f6f6;
+				color: #bc2e3b;
+				background-color: #FFF;
 			}
 		}
 
@@ -63,6 +59,33 @@
 		border: none;
 		background: #AEAEAE;
 		color: white;
+	}
+}
+
+.tabs {
+	.nav-tabs.primary {
+	  background-color: #dcdcdc;
+	  padding-top: 5px;
+	  > li {
+	  	> a {
+	      padding: 4px 15px;
+	      text-transform: uppercase;
+	      font-weight: bold;
+	      min-width: 110px;
+	      text-align: center;
+	      color: #888888;
+	      background: none;
+	      font-size: 14px;
+	      border-radius: 0;
+	      margin: 0;
+	      border:none;
+	      &.active, &:hover {
+	        border:none;
+	        color: $p-comp;
+	        background-color: #f6f6f6;
+	      }
+	  	}
+	  }
 	}
 }
 
