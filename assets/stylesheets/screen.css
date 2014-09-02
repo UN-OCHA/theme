@@ -2924,12 +2924,12 @@ div.region-top div.block { display: inline-block; }
 
 .navbar { min-height: 0; }
 
-.nav-tabs { margin: 0; border-bottom: none; }
+.nav-tabs { margin: 0; border-bottom: none; background-color: #dcdcdc; padding-top: 5px; }
 .nav-tabs > li { border: none; }
 @media screen and (max-width: 768px) { .nav-tabs > li { float: none; } }
-.nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: 600; min-width: 130px; text-align: center; color: #707070; background-color: #C1C1C1; background-color: rgba(145, 145, 145, 0.25); font-family: Exo; font-size: 16px; }
+.nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #0fa4de; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; }
 @media screen and (max-width: 768px) { .nav-tabs > li > a { border-radius: 0; border: 0 !important; } }
-.nav-tabs > li > a.active, .nav-tabs > li > a:hover { color: #bc2e3b; background-color: #FFF; }
+.nav-tabs > li > a.active, .nav-tabs > li > a:hover { color: #0fa4de; background-color: #f6f6f6; }
 .nav-tabs .open > a, .nav-tabs .open > a:focus { border: none; background: #AEAEAE; color: white; }
 
 #hr-space-tab.white a.dropdown-toggle { background: #FFF; position: relative; z-index: 1; }
