@@ -87,7 +87,7 @@
     .pane-content {
       font-size: 18px;
       font-weight: bold;
-      @include node-sprite(generic);
+      @include node-sprite(user);
       color: $p-comp;
       padding: 20px 20px 20px 79px;
       max-height: 55px;
