@@ -24,17 +24,20 @@
 }
 
 // Content types
-.page-node.node-type-hr-operation #page-header .title,
-.page-node.node-type-hr-document #page-header .title,
-.page-node.node-type-hr-infographic #page-header .title,
-.page-node.node-type-hr-news #page-header .title,
-.page-node.node-type-hr-event #page-header .title,
-.page-node.node-type-hr-dataset #page-header .title,
-.page-node.node-type-hr-indicator #page-header .title,
-.page-node.node-type-hr-contact #page-header .title,
-.page-node.node-type-hr-assessment #page-header .title,
-.page-node.node-type-hr-office #page-header .title {
-  display: none;
+.page-node.node-type-hr-operation,
+.page-node.node-type-hr-document,
+.page-node.node-type-hr-infographic,
+.page-node.node-type-hr-news,
+.page-node.node-type-hr-event,
+.page-node.node-type-hr-dataset,
+.page-node.node-type-hr-indicator,
+.page-node.node-type-hr-contact,
+.page-node.node-type-hr-assessment,
+.page-node.node-type-hr-office,
+.page-user {
+  #page-header .title {
+    display: none;
+  }
 }
 
 .node-full.node-hr-document,
