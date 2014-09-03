@@ -3486,6 +3486,8 @@ label { display: block; }
 
 .panel-2col-stacked .user-teaser .panel-separator { margin-bottom: 0; }
 
+.user-full .pane-user-picture i { font-size: 15em; background-color: #E1E1E1; }
+
 /*.panelizer-view-mode .user .user-full .panel-panel-inner{
 	margin-bottom: -99999px;
 	padding: 0;
