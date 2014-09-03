@@ -78,6 +78,20 @@
     }
   }
 
+  .pane-user-name {
+    border-bottom: 1px dotted #8f8f8f;
+
+    .pane-content {
+      font-size: 18px;
+      font-weight: bold;
+      @include node-sprite(generic);
+      color: $p-comp;
+      padding: 20px 20px 20px 79px;
+      max-height: 55px;
+    }
+  }
+
+
   .pane-node-hr-core-share-button,
   .pane-node-field-files-collection {
     display: inline-block;
