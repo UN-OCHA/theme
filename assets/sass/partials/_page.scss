@@ -429,8 +429,11 @@ body .region-branding {
 	}
 }
 
-.table-responsive {
-	border: none;
-	overflow-x: auto;
+
+@media screen and (max-width: $screen-sm) {
+	.table-responsive {
+		border: none;
+		overflow-x: auto;
+	}
 }
 
