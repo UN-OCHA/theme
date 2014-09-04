@@ -233,6 +233,11 @@
     margin-left: 18px;
     margin-top: 16px;
 
+    @media screen and (max-width : $screen-sm) {
+      font-size: 14px;
+      padding-top: 5px;
+    }
+
     a {
       color: $p-comp;
     }
