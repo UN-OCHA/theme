@@ -3018,8 +3018,8 @@ div.region-top div.block { display: inline-block; }
 #top .navbar-right { float: right !important; }
 #top #block-hr-bookmarks-hr-favorite-spaces { float: left; }
 
-@media screen and (max-width: 768px) { #block-system-main-menu .navbar-toggle { border-radius: 4px; border: none; margin-right: 20px; margin-top: -9px; }
-  #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
+@media screen and (max-width: 768px) { #block-og-menu-single-menu .navbar-toggle, #block-system-main-menu .navbar-toggle { border-radius: 4px; border: none; margin-right: 20px; margin-top: -9px; }
+  #block-og-menu-single-menu .navbar-toggle .icon-bar, #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
 #block-locale-language button, #block-locale-language a { text-transform: lowercase; }
 
 .footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc { background: url('../images/footer-logos-sa4fd949d7b.png') no-repeat; }

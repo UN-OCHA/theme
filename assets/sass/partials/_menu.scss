@@ -585,6 +585,7 @@
 }
 
 @media screen and (max-width : $screen-sm) {
+	#block-og-menu-single-menu,
 	#block-system-main-menu {
 		.navbar-toggle {
 			border-radius: 4px;
