@@ -313,6 +313,11 @@
     }
   }
 
+  @media screen and (max-width : $screen-sm) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .row {
 
     margin: 0;

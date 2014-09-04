@@ -97,6 +97,21 @@
 	}
 }
 
+.page-node-contacts,
+.page-node-documents {
+	#content {
+		@media screen and (max-width : $screen-sm) {
+			max-width: 100%
+		}
+	}
+	.nav-tabs.primary {
+		margin-top: 6px;
+		@media screen and (max-width : $screen-sm) {
+			margin-top: 36px;
+		}
+	}
+}
+
 #hr-space-tab {
 	&.white {
 		a.dropdown-toggle {
