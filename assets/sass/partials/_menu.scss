@@ -104,6 +104,10 @@
 .page-node-events,
 .page-node-contacts,
 .page-node-documents {
+	#content-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	#content {
 		@media screen and (max-width : $screen-md) {
 			max-width: 100%;
