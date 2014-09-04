@@ -2936,9 +2936,9 @@ div.region-top div.block { display: inline-block; }
 .tabs .nav-tabs.primary > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #888888; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
 .tabs .nav-tabs.primary > li > a.active, .tabs .nav-tabs.primary > li > a:hover { border: none; color: #0fa4de; background-color: #F3F3F3; }
 
-@media screen and (max-width: 768px) { .page-node-contacts #content, .page-node-documents #content { max-width: 100%; } }
+@media screen and (max-width: 992px) { .page-node-contacts #content, .page-node-documents #content { max-width: 100%; } }
 .page-node-contacts .nav-tabs.primary, .page-node-documents .nav-tabs.primary { margin-top: 6px; }
-@media screen and (max-width: 768px) { .page-node-contacts .nav-tabs.primary, .page-node-documents .nav-tabs.primary { margin-top: 36px; } }
+@media screen and (max-width: 992px) { .page-node-contacts .nav-tabs.primary, .page-node-documents .nav-tabs.primary { margin-top: 36px; } }
 
 #hr-space-tab.white a.dropdown-toggle { background: #FFF; position: relative; z-index: 1; }
 #hr-space-tab.white a.dropdown-toggle:hover { border-color: #FFF; }

@@ -100,13 +100,13 @@
 .page-node-contacts,
 .page-node-documents {
 	#content {
-		@media screen and (max-width : $screen-sm) {
-			max-width: 100%
+		@media screen and (max-width : $screen-md) {
+			max-width: 100%;
 		}
 	}
 	.nav-tabs.primary {
 		margin-top: 6px;
-		@media screen and (max-width : $screen-sm) {
+		@media screen and (max-width : $screen-md) {
 			margin-top: 36px;
 		}
 	}
