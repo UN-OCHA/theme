@@ -47,9 +47,15 @@
 				border: 0 !important;
 	 		}
 
-			&.active, &:hover {
+			&.active,
+			&.active:hover,
+			&:hover {
 				color: #bc2e3b;
 				background-color: #FFF;
+				border: 0;
+				border-bottom: 1px solid #FFF;
+				position: relative;
+				z-index: 2;
 			}
 		}
 

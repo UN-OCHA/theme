@@ -2929,7 +2929,7 @@ div.region-top div.block { display: inline-block; }
 @media screen and (max-width: 768px) { .nav-tabs > li { float: none; } }
 .nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: 600; min-width: 130px; text-align: center; color: #707070; background-color: #C1C1C1; background-color: rgba(145, 145, 145, 0.25); font-family: Exo; font-size: 16px; }
 @media screen and (max-width: 768px) { .nav-tabs > li > a { border-radius: 0; border: 0 !important; } }
-.nav-tabs > li > a.active, .nav-tabs > li > a:hover { color: #bc2e3b; background-color: #FFF; }
+.nav-tabs > li > a.active, .nav-tabs > li > a.active:hover, .nav-tabs > li > a:hover { color: #bc2e3b; background-color: #FFF; border: 0; border-bottom: 1px solid #FFF; position: relative; z-index: 2; }
 .nav-tabs .open > a, .nav-tabs .open > a:focus { border: none; background: #AEAEAE; color: white; }
 
 .tabs .nav-tabs.primary { margin-top: -11px; background-color: #dcdcdc; padding-top: 5px; }
