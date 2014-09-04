@@ -3361,7 +3361,7 @@ label { display: block; }
 
 .node-search-result { background-color: #F9F9F9; border: 1px solid #FFF; margin: 1%; padding: 0; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); margin-bottom: 20px !important; position: relative; }
 .node-search-result:after { content: ''; background-color: #0fa4de; display: block; width: 5px; height: 10px; position: absolute; top: 0; right: 0; height: 100%; }
-.node-search-result > h2 { font-size: 16px; font-weight: bold; background-position: 0 -275px; padding: 20px 20px 20px 79px; max-height: 55px; margin-left: 18px; margin-top: 16px; }
+.node-search-result > h2 { font-size: 16px; font-weight: bold; background-position: 0 -275px; padding: 20px 20px 20px 79px; max-height: 55px; margin-left: 18px; margin-top: 16px; min-height: 55px; }
 @media screen and (max-width: 768px) { .node-search-result > h2 { font-size: 14px; padding-top: 5px; } }
 .node-search-result > h2 a { color: #0fa4de; }
 .node-search-result.node-hr-news h2 { background-position: 0 -165px; }
