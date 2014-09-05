@@ -475,36 +475,48 @@
 				height: 33px;
 				position: absolute;
 				left: 0;
-				margin-top: -9px;
+				margin-top: -1px;
 				color: #9b9b9b;
 			}
 
 			.content {
 				display: block;
 
-				  .current-reset-filter {
-				     padding-top: 22px;
-				     color: #BC2E3C;
+				    .current-reset-filter {
+				       height: 33px;
+				       line-height: 33px;
+				       color: #BC2E3C;
 
-				       a {
-				         height: 19px;
-				         width: 19px;
-				         background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0);
-				         display: inline-block;
-				         float: left;
-				         margin-right: 5px
-						 }
-				  }
+				         a {
+				           height: 28px;
+				           width: 19px;
+				           background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0);
+				           float: left;
+				           margin-right: 5px
+						   }
+				    }
+
+                    .current-search-filter {
+                       height: 33px;
+                       line-height: 33px;
+                    }
+
+                    .current-selected-item {
+                       color: #BC2E3C;
+                       list-style: none outside none;
+                       height: 50px;
+                    }
 
 				.facetapi-active {
-					font-weight: bold;
-					color: $p-main;
+				   font-weight: bold;
+				   color: $p-main;
 				}
 			}
 
 			a {
 				padding-left: 0;
-				padding-right: 6px;
+				color: #BC2E3C;
+				padding-right: 2px;
 			}
 		}
 
