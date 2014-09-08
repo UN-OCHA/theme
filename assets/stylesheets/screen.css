@@ -3379,6 +3379,8 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 
 .view-hr-spaces .views-row .views-field.views-field-title-field a { color: #0fa4de; }
 
+.view-hr-news-pane .views-field-field-image a { margin: 10px; }
+
 label { display: block; }
 
 .chosen-container { max-width: 100%; }
