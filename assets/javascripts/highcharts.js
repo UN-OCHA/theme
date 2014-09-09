@@ -127,6 +127,16 @@ Highcharts.theme = {
 		},
 		candlestick: {
 			lineColor: 'white'
+		},
+		pie: {
+			size: '50%'
+		},
+		bar: {
+			dataLabels: {
+				style: {
+					display: 'none'
+				}
+			}
 		}
 	},
 
