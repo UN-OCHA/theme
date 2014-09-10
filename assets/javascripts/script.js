@@ -26,6 +26,21 @@
 			}
 		});
 
+		//Table responsive
+		$(".table-responsive").each(function() {
+			var head = $("th", this);
+			var i = 0;
+			$("td").each(function() {
+				if(i >= head.length) {
+					i = 0;
+				}
+				if($.trim($(this).text()) != "") {
+					$(this).attr('data-title',$(head[i]).text());
+				}
+				i++;
+			});
+		});
+
 	});
 
 	$(window).resize(function() {
