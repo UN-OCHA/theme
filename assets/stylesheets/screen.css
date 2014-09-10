@@ -2978,7 +2978,7 @@ div.region-top div.block { display: inline-block; }
 @media screen and (max-width: 768px) { .container.header #navigation ul.menu li ul li { border: none; padding-left: 13px; } }
 .container.header #logo { padding: 20px 22px 0; display: inline-block; }
 @media screen and (max-width: 768px) { .container.header #logo img { max-width: 250px; height: auto; } }
-.container.header #header-image { position: absolute; right: 0; z-index: 0; }
+.container.header #header-image { position: absolute; right: 0; z-index: 0; top: 0; }
 .container.header .region-branding { position: absolute; z-index: 5; right: 0; }
 .container.header .region-branding form { margin-right: 5px; margin-top: 14px; }
 
@@ -3025,7 +3025,7 @@ div.region-top div.block { display: inline-block; }
 #top .navbar-right { float: right !important; }
 #top #block-hr-bookmarks-hr-favorite-spaces { float: left; }
 
-@media screen and (max-width: 768px) { #block-og-menu-single-menu .navbar-toggle, #block-system-main-menu .navbar-toggle { border-radius: 4px; border: none; margin-right: 20px; margin-top: -9px; }
+@media screen and (max-width: 768px) { #block-og-menu-single-menu .navbar-toggle, #block-system-main-menu .navbar-toggle { border-radius: 4px; border: none; margin-right: 20px; margin-top: -9px; z-index: 9; position: relative; }
   #block-og-menu-single-menu .navbar-toggle .icon-bar, #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
 #block-locale-language button, #block-locale-language a { text-transform: lowercase; }
 
@@ -3147,7 +3147,8 @@ h6 { font-size: 7px; }
 
 body .region-branding { width: 100%; }
 body .region-branding .block { position: absolute; top: 0; right: 0; }
-@media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 35px; width: 252px; top: 45px; } }
+@media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 0; width: 100%; top: -4px; }
+  body .region-branding .block form { margin-right: 65px; } }
 body .region-branding input { /*&.form-submit {
 	border: none;
 	padding: 2px 4px;
@@ -3162,7 +3163,7 @@ body .region-branding input { /*&.form-submit {
 	margin-top: 0 !important;
 }*/ }
 body .region-branding input.form-text { font-size: 12px; background: rgba(0, 0, 0, 0.1) !important; width: 260px; float: right; }
-@media screen and (max-width: 768px) { body .region-branding input.form-text { width: 215px; } }
+@media screen and (max-width: 768px) { body .region-branding input.form-text { width: 100%; float: none; margin-left: 30px; } }
 body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 
 #block-current-search-hr-current-search h2 { display: none; }

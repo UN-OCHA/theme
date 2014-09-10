@@ -323,9 +323,13 @@ body .region-branding {
 
 		@media screen and (max-width: $screen-sm) {
 			right: auto;
-			left: 35px;
-			width: 252px;
-			top: 45px;
+			left: 0;
+			width: 100%;
+			top: -4px;
+
+			form {
+				margin-right: 65px;
+			}
 		}
 	}
 
@@ -337,7 +341,9 @@ body .region-branding {
 			width: 260px;
 			float: right;
 			@media screen and (max-width: $screen-sm) {
-				width: 215px;
+				width: 100%;
+				float: none;
+				margin-left: 30px;
 			}
 
 			&:focus {

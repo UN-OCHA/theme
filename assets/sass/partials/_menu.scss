@@ -356,6 +356,7 @@
 		position: absolute;
 		right: 0;
 		z-index: 0;
+		top: 0;
 	}
 
 	.region-branding {
@@ -628,6 +629,8 @@
 			border: none;
 			margin-right: 20px;
 			margin-top: -9px;
+			z-index: 9;
+			position: relative;
 			.icon-bar {
 				background-color: #FFF;
 			}
