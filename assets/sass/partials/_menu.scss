@@ -363,6 +363,11 @@
 		position: absolute;
 		z-index: 5;
 		right: 0;
+		top: 0;
+
+		@media screen and (max-width : $screen-sm) {
+			top: 49px;
+		}
 
 		form {
 			margin-right: 5px;

@@ -332,7 +332,7 @@ body .region-branding {
 
 		form {
 			@media screen and (max-width: $screen-sm) {
-				margin-right: 65px;
+				margin-right: 65px !important;
 			}
 		}
 	}
