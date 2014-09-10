@@ -3149,6 +3149,8 @@ h6 { font-size: 7px; }
 body .region-branding { width: 100%; }
 body .region-branding .block { right: auto; left: 0; width: 100%; top: -4px; }
 @media screen and (max-width: 768px) { body .region-branding .block { right: auto; left: 0; width: 100%; top: -4px; } }
+body .region-branding .block .views-exposed-form .views-exposed-widget { float: right; }
+@media screen and (max-width: 768px) { body .region-branding .block .views-exposed-form .views-exposed-widget { float: left; } }
 @media screen and (max-width: 768px) { body .region-branding .block form { margin-right: 65px !important; } }
 body .region-branding input { /*&.form-submit {
 	border: none;

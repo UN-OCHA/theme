@@ -327,7 +327,13 @@ body .region-branding {
 			left: 0;
 			width: 100%;
 			top: -4px;
+		}
 
+		.views-exposed-form .views-exposed-widget {
+			float: right;
+			@media screen and (max-width: $screen-sm) {
+				float: left;
+			}
 		}
 
 		form {
