@@ -34,7 +34,7 @@
 				if(i >= head.length) {
 					i = 0;
 				}
-				if($.trim($(this).text()) != "") {
+				if($.trim($(this).html()) != "") {
 					$(this).attr('data-title',$(head[i]).text());
 				}
 				i++;
