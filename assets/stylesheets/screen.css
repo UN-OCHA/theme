@@ -3192,8 +3192,8 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
   /* Hide table headers (but not display: none;, for accessibility) */
   thead tr { position: absolute; top: -9999px; left: -9999px; }
   tr { border: 1px solid #ccc; }
-  td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 40% !important; white-space: normal; text-align: left; }
-  td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 35%; padding-right: 10px; white-space: nowrap; text-align: left; font-weight: bold; }
+  td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 40% !important; white-space: normal !important; text-align: left; }
+  td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 35%; padding-right: 10px; text-align: left; font-weight: bold; }
   /* Label the data */
   td:before { content: attr(data-title); } }
 .grey-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label, #hr-bundles-layer-switcher input[value="Education"] + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[value="Food Security"] + label, #hr-bundles-layer-switcher input[value="Health"] + label, #hr-bundles-layer-switcher input[value="Logistics"] + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label, #hr-bundles-layer-switcher input[value="Protection"] + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label { background: url('../images/icons/38/Clusters/grey-s8e6e32aa57.png') no-repeat; }

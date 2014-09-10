@@ -471,7 +471,7 @@ body .region-branding {
 		border-bottom: 1px solid #eee;
 		position: relative;
 		padding-left: 40% !important;
-		white-space: normal;
+		white-space: normal !important;
 		text-align:left;
 	}
 
@@ -483,7 +483,6 @@ body .region-branding {
 		left: 6px;
 		width: 35%;
 		padding-right: 10px;
-		white-space: nowrap;
 		text-align:left;
 		font-weight: bold;
 	}
