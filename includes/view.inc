@@ -46,14 +46,27 @@ function humanitarianresponse_date_ical_icon($variables) {
   return '<li>'.l('ICAL', $variables['url']).'</li>';
 }
 
+function _humanitarianresponse_views_get_node_gid($nid) {
+  $space_nid = 0;
+  $node = node_load($nid);
+  if (!in_array($node->type, array('hr_space', 'hr_operation', 'hr_sector'))) {
+    $space_nid = $node->og_group_ref[LANGUAGE_NONE][0]['target_id'];
+  }
+  else {
+    $space_nid = $nid;
+  }
+  return $space_nid;
+}
 /**
  * More links
  */
 function humanitarianresponse_views_more__hr_documents_panes__list($view) {
-  return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/documents').'</div>';
+  $space_nid = _humanitarianresponse_views_get_node_gid(arg(1));
+  return '<div class="more-link">'.l(t('more'), 'node/'.$space_nid.'/documents').'</div>';
 }
 
 function humanitarianresponse_views_more__hr_infographics_panes__list($view) {
-  return '<div class="more-link">'.l(t('more'), 'node/'.arg(1).'/infographics').'</div>';
+  $space_nid = _humanitarianresponse_views_get_node_gid(arg(1));
+  return '<div class="more-link">'.l(t('more'), 'node/'.$space_nid.'/infographics').'</div>';
 }
 
