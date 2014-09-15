@@ -129,7 +129,12 @@ Highcharts.theme = {
 			lineColor: 'white'
 		},
 		pie: {
-			size: '50%'
+			size: '50%',
+			dataLabels: {
+				style: {
+					width: '90px'
+				}
+			}
 		},
 		bar: {
 			dataLabels: {
