@@ -132,7 +132,7 @@ Highcharts.theme = {
 			size: '50%',
 			dataLabels: {
 				style: {
-					width: '90px'
+					display: 'none'
 				}
 			}
 		},
