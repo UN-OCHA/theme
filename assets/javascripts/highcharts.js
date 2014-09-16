@@ -131,10 +131,7 @@ Highcharts.theme = {
 		pie: {
 			size: '50%',
 			dataLabels: {
-				enabled: false,
-				style: {
-					display: 'none'
-				}
+				enabled: 'false',
 			}
 		},
 		bar: {
