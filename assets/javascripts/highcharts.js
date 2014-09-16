@@ -129,6 +129,7 @@ Highcharts.theme = {
 			lineColor: 'white'
 		},
 		pie: {
+			size: '100%',
 			dataLabels: {
 				connectorWidth: '0',
 				style: {
