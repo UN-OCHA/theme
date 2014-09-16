@@ -140,6 +140,7 @@
       <div class="col-md-3">
         <div class="column"><a href="http://www.hewsweb.org" target="_blank"><div class="footer-logo footer-logos-hews"></div></a></div>
         <div class="column"><a href="http://vosocc.unocha.org" target="_blank"><div class="footer-logo footer-logos-vosocc"></div></a></div>
+	<div class="column"><a href="http://www.worldhumanitariansummit.org" target="_blank"><div class="footer-logo footer-logos-whs"></div></a></div>
       </div>
     </div>
     <div id = "footer-third" class="col-md-3">
