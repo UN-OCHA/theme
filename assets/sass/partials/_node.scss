@@ -360,6 +360,17 @@
 
         margin-bottom: 5px;
 
+        .pane-title{
+            color: #8F8F8F;
+            font-weight: normal;
+            font-size: 13px;
+            margin-bottom: 0.5px;
+        }
+
+        .pane-content {
+            position: relative;
+            display: block;
+        }
         .form-item,
         .form-group {
           margin-top: 0;
