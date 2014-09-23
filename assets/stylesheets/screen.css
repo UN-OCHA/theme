@@ -3369,6 +3369,9 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 /* Toolbox homepage - Bottom text headers */
 .hr-toolbox-homepage-bottom-text-header h4 { color: #333333; }
 
+/* Add existing content add button */
+.panels-section-column .panel-default > .panel-heading { display: block; clear: both; float: left; }
+
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 
 .views-catgroup .views-group, .views-icons .views-row { background-color: #F9F9F9; border: 1px solid #FFF; margin: 1%; padding: 0; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); min-height: 100px; position: relative; float: left; width: 31.333333%; }

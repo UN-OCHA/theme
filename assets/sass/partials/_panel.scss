@@ -358,3 +358,16 @@
 .hr-toolbox-homepage-bottom-text-header h4{
   color: $gray-dark;
 }
+
+/* Add existing content add button */
+.panels-section-column {
+
+.panel-default {
+
+ > .panel-heading {
+      display: block;
+	    clear: both;
+	    float: left;
+    }
+  }
+}
