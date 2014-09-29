@@ -3090,7 +3090,7 @@ div.region-top div.block { display: inline-block; }
   #block-og-menu-single-menu .navbar-toggle .icon-bar, #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
 #block-locale-language button, #block-locale-language a { text-transform: lowercase; }
 
-.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc { background: url('../images/footer-logos-sa4fd949d7b.png') no-repeat; }
+.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc, .footer-logos-whs { background: url('../images/footer-logos-se797fd7128.png') no-repeat; }
 
 html, body { height: 100%; }
 
@@ -3099,27 +3099,29 @@ html, body { height: 100%; }
 
 #footer { clear: both; position: relative; height: 210px; }
 
-.footer-logos-cap { background-position: 0 -200px; }
+.footer-logos-cap { background-position: 0 -240px; }
 
-.footer-logos-cerf { background-position: 0 -160px; }
+.footer-logos-cerf { background-position: 0 -200px; }
 
-.footer-logos-fts { background-position: 0 -120px; }
+.footer-logos-fts { background-position: 0 -160px; }
 
 .footer-logos-gdacs { background-position: 0 -40px; }
 
 .footer-logos-hews { background-position: 0 0; }
 
-.footer-logos-iasc { background-position: 0 -400px; }
+.footer-logos-iasc { background-position: 0 -440px; }
 
-.footer-logos-irin { background-position: 0 -280px; }
+.footer-logos-irin { background-position: 0 -320px; }
 
-.footer-logos-pw { background-position: 0 -360px; }
+.footer-logos-pw { background-position: 0 -400px; }
 
-.footer-logos-redhum { background-position: 0 -320px; }
+.footer-logos-redhum { background-position: 0 -360px; }
 
 .footer-logos-reliefweb { background-position: 0 -80px; }
 
-.footer-logos-vosocc { background-position: 0 -240px; }
+.footer-logos-vosocc { background-position: 0 -280px; }
+
+.footer-logos-whs { background-position: 0 -120px; }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, input, select { font-family: Arial, Tahoma, sans-serif; }
 
