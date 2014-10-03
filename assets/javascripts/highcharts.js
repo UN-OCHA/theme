@@ -7,7 +7,7 @@ if (typeof(Highcharts) !== 'undefined') {
 Highcharts.theme = {
 	colors: [
     '#3067BB',
-    '#595959',
+    '#999999',
     '#58AE6E',
     '#D23646',
     '#C49C5B',
