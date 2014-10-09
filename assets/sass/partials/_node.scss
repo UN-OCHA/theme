@@ -50,7 +50,7 @@
 .node-full.node-hr-contact,
 .node-full.node-hr-assessment,
 .node-full.node-hr-office,
-.node-full.node-hr-disaster:not(.og-context),
+.node-type-hr-disaster:not(.og-context) .node-full.node-hr-disaster,
 .user-full {
 
   padding-bottom: 10px;
