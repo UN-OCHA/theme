@@ -35,6 +35,7 @@
 .page-node.node-type-hr-assessment,
 .page-node.node-type-hr-office,
 .page-node.node-type-hr-disaster:not(.og-context),
+.page-node.node-type-acc-incident,
 .page-user {
   #page-header .title {
     display: none;
@@ -51,6 +52,7 @@
 .node-full.node-hr-assessment,
 .node-full.node-hr-office,
 .node-type-hr-disaster:not(.og-context) .node-full.node-hr-disaster,
+.node-full.node-acc-incident,
 .user-full {
 
   padding-bottom: 10px;
