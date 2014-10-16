@@ -81,8 +81,11 @@ function humanitarianresponse_preprocess_page(&$variables) {
  */
 function humanitarianresponse_preprocess_html(&$variables) {
   if ($node = menu_get_object()) {
-    $entity = reset(entity_load('node', array($node->nid)));
-    $variables['classes_array'][] = 'hr-group-context';
+    $nids = array($node->nid);
+    $entity = reset(entity_load('node', $nids));
+    if (og_is_group('node', $entity)) {
+      $variables['classes_array'][] = 'hr-group-context';
+    }
   }
 }
 
