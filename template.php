@@ -80,12 +80,8 @@ function humanitarianresponse_preprocess_page(&$variables) {
  * Implements template_preprocess_html().
  */
 function humanitarianresponse_preprocess_html(&$variables) {
-  if ($node = menu_get_object()) {
-    $nids = array($node->nid);
-    $entity = reset(entity_load('node', $nids));
-    if (og_is_group('node', $entity)) {
+  if ($node = menu_get_object() && og_is_group('node', $node->nid)) {
       $variables['classes_array'][] = 'hr-group-context';
-    }
   }
 }
 
