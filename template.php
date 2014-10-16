@@ -76,6 +76,15 @@ function humanitarianresponse_preprocess_page(&$variables) {
   $variables['hr_favorite_spaces'] = _humanitarianresponse_block_render('hr_bookmarks', 'hr_favorite_spaces');
 }
 
+/**
+ * Implements template_preprocess_html().
+ */
+function humanitarianresponse_preprocess_html(&$variables) {
+  if ($node = menu_get_object() && og_is_group('node', $node)) {
+    $variables['classes_array'][] = 'hr-group-context';
+  }
+}
+
 function _humanitarianresponse_flag_follow_us() {
   global $user;
   // Some typing shotcuts:
