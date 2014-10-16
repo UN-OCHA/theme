@@ -34,7 +34,7 @@
 .page-node.node-type-hr-contact,
 .page-node.node-type-hr-assessment,
 .page-node.node-type-hr-office,
-.page-node.node-type-hr-disaster,
+.page-node.node-type-hr-disaster:not(.hr-group-context),
 .page-node.node-type-acc-incident,
 .page-user {
   #page-header .title {
@@ -51,7 +51,7 @@
 .node-full.node-hr-contact,
 .node-full.node-hr-assessment,
 .node-full.node-hr-office,
-.node-full.node-hr-disaster:not(.hr-group-context),
+.page-node.node-type-hr-disaster:not(.hr-group-context) .node-full.node-hr-disaster,
 .node-full.node-acc-incident,
 .user-full {
 
