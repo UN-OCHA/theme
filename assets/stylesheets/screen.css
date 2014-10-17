@@ -3090,7 +3090,7 @@ div.region-top div.block { display: inline-block; }
   #block-og-menu-single-menu .navbar-toggle .icon-bar, #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
 #block-locale-language button, #block-locale-language a { text-transform: lowercase; }
 
-.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hdx, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc, .footer-logos-whs { background: url('../images/footer-logos-s5f5bfc426c.png') no-repeat; }
+.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hdx, .footer-logos-hews, .footer-logos-iasc, .footer-logos-insarag, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc, .footer-logos-whs { background: url('../images/footer-logos-sc020837cb3.png') no-repeat; }
 
 html, body { height: 100%; }
 
@@ -3099,31 +3099,33 @@ html, body { height: 100%; }
 
 #footer { clear: both; position: relative; height: 210px; }
 
-.footer-logos-cap { background-position: 0 -200px; }
+.footer-logos-cap { background-position: 0 -239px; }
 
-.footer-logos-cerf { background-position: 0 -160px; }
+.footer-logos-cerf { background-position: 0 -199px; }
 
-.footer-logos-fts { background-position: 0 -120px; }
+.footer-logos-fts { background-position: 0 -159px; }
 
-.footer-logos-gdacs { background-position: 0 -40px; }
+.footer-logos-gdacs { background-position: 0 -79px; }
 
-.footer-logos-hdx { background-position: 0 -440px; }
+.footer-logos-hdx { background-position: 0 -479px; }
 
-.footer-logos-hews { background-position: 0 0; }
+.footer-logos-hews { background-position: 0 -39px; }
 
-.footer-logos-iasc { background-position: 0 -471px; }
+.footer-logos-iasc { background-position: 0 -510px; }
 
-.footer-logos-irin { background-position: 0 -280px; }
+.footer-logos-insarag { background-position: 0 0; }
 
-.footer-logos-pw { background-position: 0 -400px; }
+.footer-logos-irin { background-position: 0 -319px; }
 
-.footer-logos-redhum { background-position: 0 -360px; }
+.footer-logos-pw { background-position: 0 -439px; }
 
-.footer-logos-reliefweb { background-position: 0 -80px; }
+.footer-logos-redhum { background-position: 0 -399px; }
 
-.footer-logos-vosocc { background-position: 0 -240px; }
+.footer-logos-reliefweb { background-position: 0 -119px; }
 
-.footer-logos-whs { background-position: 0 -320px; }
+.footer-logos-vosocc { background-position: 0 -279px; }
+
+.footer-logos-whs { background-position: 0 -359px; }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, input, select { font-family: Arial, Tahoma, sans-serif; }
 

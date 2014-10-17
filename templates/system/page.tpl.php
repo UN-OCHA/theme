@@ -130,6 +130,7 @@
         <div class="column"><a href="http://www.unocha.org/cerf/" target="_blank"><div class="footer-logo footer-logos-cerf"></div></a></div>
         <div class="column"><a href="http://www.unocha.org/cap/" target="_blank"><div class="footer-logo footer-logos-cap"></div></a></div>
         <div class="column"><a href="http://www.reliefweb.int/" target="_blank"><div class="footer-logo footer-logos-reliefweb"></div></a></div>
+        <div class="column"><a href="http://www.insarag.org/" target="_blank"><div class="footer-logo footer-logos-insarag"></div></a></div>
       </div>
 
       <div class="col-md-3">
