@@ -3090,7 +3090,7 @@ div.region-top div.block { display: inline-block; }
   #block-og-menu-single-menu .navbar-toggle .icon-bar, #block-system-main-menu .navbar-toggle .icon-bar { background-color: #FFF; } }
 #block-locale-language button, #block-locale-language a { text-transform: lowercase; }
 
-.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc, .footer-logos-whs { background: url('../images/footer-logos-sa261980356.png') no-repeat; }
+.footer-logos-sprite, .footer-logos-cap, .footer-logos-cerf, .footer-logos-fts, .footer-logos-gdacs, .footer-logos-hdx, .footer-logos-hews, .footer-logos-iasc, .footer-logos-irin, .footer-logos-pw, .footer-logos-redhum, .footer-logos-reliefweb, .footer-logos-vosocc, .footer-logos-whs { background: url('../images/footer-logos-s5f5bfc426c.png') no-repeat; }
 
 html, body { height: 100%; }
 
@@ -3107,9 +3107,11 @@ html, body { height: 100%; }
 
 .footer-logos-gdacs { background-position: 0 -40px; }
 
+.footer-logos-hdx { background-position: 0 -440px; }
+
 .footer-logos-hews { background-position: 0 0; }
 
-.footer-logos-iasc { background-position: 0 -440px; }
+.footer-logos-iasc { background-position: 0 -471px; }
 
 .footer-logos-irin { background-position: 0 -280px; }
 
