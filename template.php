@@ -27,6 +27,16 @@ function humanitarianresponse_css_alter(&$css) {
 }
 
 /**
+ * Implementation of template_preprocess_html().
+ */
+function humanitarianresponse_preprocess_html(&$variables) {
+  radix_preprocess_html($variables);
+
+  // Add the ngApp attribute to the body tag to invoke the ContactsId app.
+  $variables['attributes_array']['ng-app'] = 'contactsId';
+}
+
+/**
  * Implements template_preprocess_page().
  */
 function humanitarianresponse_preprocess_page(&$variables) {
