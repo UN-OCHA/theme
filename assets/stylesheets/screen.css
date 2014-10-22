@@ -3137,7 +3137,7 @@ body { background: url(../images/BG_ocha.png) repeat-y top center white; -webkit
 
 .container-outer.header { background-color: #FFF; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 4px; position: relative; }
 
-#front-banner { background: url("../images/banner_home.png") repeat-x center center white; height: 104px; }
+#front-banner { background: url("../images/banner_home.jpg") repeat-x center center white; height: 104px; }
 
 #root { padding: 10px 0 0; }
 
