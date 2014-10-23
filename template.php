@@ -42,6 +42,11 @@ function humanitarianresponse_preprocess_page(&$variables) {
     if (!empty($gid)) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
+        if ($og_group->type == 'hr_operation') {
+          // Determine the region of the operation
+          debug($og_group);
+          // Add the region to the tabs
+        }
         $uri = entity_uri('node', $og_group);
         if ($og_group->status) { // Group is published
           $variables['hr_tabs'][] = l($og_group->title, $uri['path'], $uri['options']);
