@@ -36,7 +36,7 @@
                 </li>
                 <?php if ($hr_tabs): ?>
                   <?php $num_hr_tabs = count($hr_tabs); foreach ($hr_tabs as $i => $hr_tab) { ?>
-                    <li <?php if ($i == $num_hr_tabs - 1) { print 'class="active"'; }><?php print $hr_tab; ?></li>
+                    <li <?php if ($i == $num_hr_tabs - 1) { print 'class="active"'; } ?>><?php print $hr_tab; ?></li>
                   <?php } ?>
                 <?php endif; ?>
               </ul>
