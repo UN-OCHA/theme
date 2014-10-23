@@ -48,8 +48,19 @@ function humanitarianresponse_preprocess_page(&$variables) {
             $region_id = $og_group->field_operation_region[LANGUAGE_NONE][0]['target_id'];
             $region = reset(entity_load('node', array($region_id)));
             $region_uri = entity_uri('node', $region);
-            // Add the region to the tabs
-            $variables['hr_tabs'][] = l($region->title, $region_uri['path'], $region_uri['options']);
+            $region_status = $region->field_operation_status[LANGUAGE_NONE][0]['value'];
+            switch ($region_status) {
+              case 'active':
+                // Add the region to the tabs
+                $variables['hr_tabs'][] = l($region->title, $region_uri['path'], $region_uri['options']);
+                break;
+              case 'inactive':
+                // Add the region to the tabs
+                $variables['hr_tabs'][] = $region->title;
+                break;
+              case 'archived':
+                break;
+            }
           }
         }
         $uri = entity_uri('node', $og_group);
