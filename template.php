@@ -43,9 +43,14 @@ function humanitarianresponse_preprocess_page(&$variables) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
         if ($og_group->type == 'hr_operation') {
-          // Determine the region of the operation
-          debug($og_group);
-          // Add the region to the tabs
+          if (isset($og_group->field_operation_type) && isset($og_group->field_operation_region) && $og_group->field_operation_type[LANGUAGE_NONE][0]['value'] == 'country') {
+            // Determine the region of the operation
+            $region_id = $og_group->field_operation_region[LANGUAGE_NONE][0]['target_id'];
+            $region = reset(entity_load('node', array($region_id)));
+            $region_uri = entity_uri('node', $region);
+            // Add the region to the tabs
+            $variables['hr_tabs'][] = l($region->title, $region_uri['path'], $region_uri['options']);
+          }
         }
         $uri = entity_uri('node', $og_group);
         if ($og_group->status) { // Group is published
