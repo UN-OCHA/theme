@@ -34,8 +34,10 @@
                     <?php print render($main_menu_dropdown); ?>
                   </ul>
                 </li>
-                <?php if ($og_group): ?>
-                  <li class="active"><?php print $og_group; ?></li>
+                <?php if ($hr_tabs): ?>
+                  <?php $num_hr_tabs = count($hr_tabs); foreach ($hr_tabs as $i => $hr_tab) { ?>
+                    <li <?php if ($i == $num_hr_tabs - 1) { print 'class="active"'; }><?php print $hr_tab; ?></li>
+                  <?php } ?>
                 <?php endif; ?>
               </ul>
               <div class="navbar-right">

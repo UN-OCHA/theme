@@ -35,7 +35,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
   $main_menu_dropdown = menu_tree_output($tree);
   $main_menu_dropdown['#theme_wrappers'] = array();
   $variables['main_menu_dropdown'] = $main_menu_dropdown;
-  $variables['og_group'] = '';
+  $variables['hr_tabs'] = array();
   $header_img_path = $theme_path.'/assets/images/headers/general.png';
   if (module_exists('og_context')) {
     $gid = og_context_determine_context('node');
@@ -44,10 +44,10 @@ function humanitarianresponse_preprocess_page(&$variables) {
         $og_group = $og_group[$gid];
         $uri = entity_uri('node', $og_group);
         if ($og_group->status) { // Group is published
-          $variables['og_group'] = l($og_group->title, $uri['path'], $uri['options']);
+          $variables['hr_tabs'][] = l($og_group->title, $uri['path'], $uri['options']);
         }
         else {
-          $variables['og_group'] = '<a href="#">'.$og_group->title.'</a>';
+          $variables['hr_tabs'][] = '<a href="#">'.$og_group->title.'</a>';
         }
         $group_img_path = '/assets/images/headers/'.$og_group->type.'/'.strtolower(str_replace(array(' ','/'), '-', $og_group->title)).'.png';
         if (file_exists(dirname(__FILE__).$group_img_path)) {
