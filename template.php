@@ -55,8 +55,6 @@ function humanitarianresponse_preprocess_page(&$variables) {
                 $variables['hr_tabs'][] = l($region->title, $region_uri['path'], $region_uri['options']);
                 break;
               case 'inactive':
-                // Add the region to the tabs
-                //$variables['hr_tabs'][] = '<a href="#">'.$region->title.'</a>';
                 break;
               case 'archived':
                 break;
