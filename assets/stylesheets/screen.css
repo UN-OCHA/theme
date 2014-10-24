@@ -2978,6 +2978,12 @@ div.region-top div.block { display: inline-block; }
 
 .btn-secondary { color: #333333; background-color: #dddddd; }
 
+#block-search-api-sorts-search-sorts { text-align: right; display: inline-block; float: right; }
+#block-search-api-sorts-search-sorts h2 { display: inline; font-weight: normal; font-size: inherit; color: inherit; }
+#block-search-api-sorts-search-sorts .content, #block-search-api-sorts-search-sorts .content div, #block-search-api-sorts-search-sorts .content .form-control, #block-search-api-sorts-search-sorts .content form { display: inline; width: auto; }
+
+#block-search-api-sorts-search-sorts + * { clear: right; }
+
 .checks-sprite, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover, #sidebar-first .block.block-facetapi .content ul li.redactive > a, #sidebar-first .block.block-facetapi .content ul li.redactive > a:hover { background: url('../images/search/checks-s2fcaacbae3.png') no-repeat; }
 
 .block-menu h2, .block-menu-block h2, .block-og-menu h2, .block-locale h2 { display: none; }

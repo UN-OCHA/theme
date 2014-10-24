@@ -19,3 +19,30 @@
   background-color: $btn-secondary-bg;
 }
 
+
+// Sorts block
+#block-search-api-sorts-search-sorts {
+  text-align: right;
+  display: inline-block;
+  float: right;
+
+  h2 {
+    display: inline;
+    font-weight: normal;
+    font-size: inherit;
+    color: inherit;
+  }
+
+  .content,
+  .content div,
+  .content .form-control,
+  .content form {
+    display: inline;
+    width: auto;
+  }
+}
+
+#block-search-api-sorts-search-sorts + * {
+    clear: right;
+}
+
