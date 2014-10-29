@@ -43,6 +43,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
     if (!empty($gid)) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
+        debug($og_group->type);
         if ($og_group->type == 'hr_operation') {
           if (isset($og_group->field_operation_type) && isset($og_group->field_operation_region) && $og_group->field_operation_type[LANGUAGE_NONE][0]['value'] == 'country') {
             // Determine the region of the operation
