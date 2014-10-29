@@ -61,6 +61,12 @@ function humanitarianresponse_preprocess_page(&$variables) {
             }
           }
         }
+        elseif ($og_group->type == 'hr_disaster') {
+          $glide = $og_group->field_glide_number[LANGUAGE_NONE][0]['value'];
+          if ($glide == 'ep-2014-000041-gin') {
+            $variables['logo'] = '/sites/all/themes/humanitarianresponse/assets/images/unmeer_logo.png';
+          }
+        }
         $uri = entity_uri('node', $og_group);
         if ($og_group->status) { // Group is published
           $variables['hr_tabs'][] = l($og_group->title, $uri['path'], $uri['options']);
