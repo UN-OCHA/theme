@@ -64,6 +64,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
         }
         elseif ($og_group->type == 'hr_disaster') {
           $glide = $og_group->field_glide_number[LANGUAGE_NONE][0]['value'];
+          debug($glide);
           if ($glide == 'ep-2014-000041-gin') {
             $variables['logo'] = '/sites/all/themes/humanitarianresponse/assets/images/unmeer_logo.png';
           }
