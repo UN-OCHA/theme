@@ -31,6 +31,7 @@ function humanitarianresponse_css_alter(&$css) {
  */
 function humanitarianresponse_preprocess_page(&$variables) {
   global $theme_path;
+  debug($variables);
   $tree = menu_tree_page_data('main-menu', 1);
   $main_menu_dropdown = menu_tree_output($tree);
   $main_menu_dropdown['#theme_wrappers'] = array();
