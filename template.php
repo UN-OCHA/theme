@@ -31,7 +31,6 @@ function humanitarianresponse_css_alter(&$css) {
  */
 function humanitarianresponse_preprocess_page(&$variables) {
   global $theme_path;
-  debug($variables);
   $tree = menu_tree_page_data('main-menu', 1);
   $main_menu_dropdown = menu_tree_output($tree);
   $main_menu_dropdown['#theme_wrappers'] = array();
@@ -43,7 +42,6 @@ function humanitarianresponse_preprocess_page(&$variables) {
     if (!empty($gid)) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
-        debug($og_group->type);
         if ($og_group->type == 'hr_operation') {
           if (isset($og_group->field_operation_type) && isset($og_group->field_operation_region) && $og_group->field_operation_type[LANGUAGE_NONE][0]['value'] == 'country') {
             // Determine the region of the operation
@@ -65,8 +63,8 @@ function humanitarianresponse_preprocess_page(&$variables) {
         }
         elseif ($og_group->type == 'hr_disaster') {
           $glide = $og_group->field_glide_number[LANGUAGE_NONE][0]['value'];
-          debug($glide);
-          if ($glide == 'ep-2014-000041-gin') {
+          if ($glide == 'EP-2014-000041-GIN') {
+            debug(array_keys($variables));
             $variables['logo'] = '/sites/all/themes/humanitarianresponse/assets/images/unmeer_logo.png';
           }
         }
