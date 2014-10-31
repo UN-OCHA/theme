@@ -343,7 +343,9 @@
 	#logo {
 		padding: 20px 22px 0;
 		display: inline-block;
-                max-height: 70px;
+		img {
+			max-height: 70px;
+		}
 
 		@media screen and (max-width : $screen-sm) {
 			img {
