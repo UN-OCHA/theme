@@ -19,6 +19,8 @@
 
 .nav-tabs {
         background-color: #E4E4E4;
+
+        > li.active > a,
 	> li > a {
 		padding: 4px 15px;
                 text-transform: uppercase;
