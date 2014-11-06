@@ -2990,8 +2990,9 @@ div.region-top div.block { display: inline-block; }
 
 .navbar { min-height: 0; }
 
+.nav-tabs { background-color: #E4E4E4; }
 .nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #888888; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
-.nav-tabs > li > a.active, .nav-tabs > li > a:hover { border: none; color: #0fa4de; background-color: #F3F3F3; }
+.nav-tabs > li > a.active, .nav-tabs > li > a:hover { border: none; color: #0fa4de; background-color: #DBDBDB; }
 
 /*.nav-tabs {
 	margin: 0;
