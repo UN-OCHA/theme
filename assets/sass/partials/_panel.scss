@@ -377,7 +377,12 @@
 .hr-layout-operation-standard {
   height: 400px;
 
-  .tab-content {
+  .nav-tabs {
+    margin-bottom: 0;
+  }
+
+  .tab-content,
+  .tab-pane {
     background-color: #DEDEDE;
   }
 
