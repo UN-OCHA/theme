@@ -2994,7 +2994,7 @@ div.region-top div.block { display: inline-block; }
 .nav-tabs > li.active > a, .nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #888888; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
 .nav-tabs > li.active > a.active, .nav-tabs > li.active > a:hover, .nav-tabs > li > a.active, .nav-tabs > li > a:hover { border: none; color: #6A6A6A; background-color: #DBDBDB; }
 
-#top .nav-tabs { margin: 0; border-bottom: none; }
+#top .nav-tabs { margin: 0; border-bottom: none; background-color: transparent; }
 #top .nav-tabs > li { border: none; }
 @media screen and (max-width: 768px) { #top .nav-tabs > li { float: none; } }
 #top .nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: 600; min-width: 130px; text-align: center; color: #707070; background-color: #C1C1C1; background-color: rgba(145, 145, 145, 0.25); font-family: Exo; font-size: 16px; border-radius: 4px 4px 0px 0px; border: 1px solid transparent; margin-right: 2px; }
