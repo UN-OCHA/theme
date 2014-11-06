@@ -17,7 +17,7 @@
 	min-height: 0;
 }
 
-/*.nav-tabs {
+.nav-tabs {
 	margin: 0;
 	border-bottom: none;
 
@@ -66,36 +66,36 @@
 		background: #AEAEAE;
 		color: white;
 	}
-}*/
+}
 
-//.tabs {
-	.nav-tabs {
+.tabs {
+	.nav-tabs.primary {
 		margin-top: -11px;
-	  background-color: #dcdcdc;
-	  padding-top: 5px;
-	  > li {
-	  	> a {
-	      padding: 4px 15px;
-	      text-transform: uppercase;
-	      font-weight: bold;
-	      min-width: 110px;
-	      text-align: center;
-	      color: #888888;
-	      background: none;
-	      font-size: 14px;
-	      border-radius: 0;
-	      margin: 0;
-	      border:none;
-				font-family: $font-family-sans-serif;
-	      &.active, &:hover {
-	        border:none;
-	        color: $p-comp;
-	        background-color: #F3F3F3;
-	      }
-	  	}
-	  }
+		background-color: #dcdcdc;
+		padding-top: 5px;
+
+		> li > a {
+			padding: 4px 15px;
+			text-transform: uppercase;
+			font-weight: bold;
+			min-width: 110px;
+			text-align: center;
+			color: #888888;
+			background: none;
+			font-size: 14px;
+			border-radius: 0;
+			margin: 0;
+			border:none;
+			font-family: $font-family-sans-serif;
+
+			&.active, &:hover {
+				border:none;
+				color: $p-comp;
+				background-color: #F3F3F3;
+			}
+		}
 	}
-//}
+}
 
 .page-node-blog,
 .page-node-offices,
