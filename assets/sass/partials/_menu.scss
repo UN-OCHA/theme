@@ -65,6 +65,9 @@
                         background-color: rgba(145, 145, 145, 0.25);
                         font-family: Exo;
                         font-size: 16px;
+                        border-radius: 4px 4px 0px 0px;
+                        border: 1px solid transparent;
+                        margin-right: 2px;
 
 
                         @media screen and (max-width : $screen-sm) {
