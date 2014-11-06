@@ -41,7 +41,9 @@
                 }
         }
 
-        > li.active > a {
+        > li.active > a,
+        > li.active > a:hover,
+        > li.active > a:focus {
                 color: #6A6A6A;
                 background-color: #DBDBDB;
         }
