@@ -3358,6 +3358,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .hr-layout-operation-standard .nav-tabs { margin-bottom: 0; }
 .hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { height: 350px; background-color: #DEDEDE; }
 .hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #555; }
+.hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #0fa4de; background-color: white; border-radius: 0; }
 
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 

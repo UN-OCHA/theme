@@ -390,6 +390,14 @@
     border: none;
     background-color: transparent;
     color: #555;
+
+    &.active,
+    &.active:hover,
+    &.active:focus {
+      color: $p-comp;
+      background-color: white;
+      border-radius: 0;
+    }
   }
 
 }
