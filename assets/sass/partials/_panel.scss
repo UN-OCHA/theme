@@ -396,7 +396,7 @@
     &.active:hover,
     &.active:focus {
       color: $p-comp;
-      @include background-image(linear-gradient(to bottom right, white, #dddddd));
+      @include background-image(linear-gradient(to bottom right, white, #dedede));
       border-radius: 0;
     }
   }

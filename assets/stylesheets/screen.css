@@ -3358,7 +3358,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .hr-layout-operation-standard .nav-tabs { margin-bottom: 0; }
 .hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { height: 350px; background-color: #DEDEDE; }
 .hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #555; }
-.hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #0fa4de; background-image: -webkit-gradient(linear, to bottom right, to top left, color-stop(0%, #ffffff), color-stop(100%, #dddddd)); background-image: -webkit-linear-gradient(to bottom right, #ffffff, #dddddd); background-image: -moz-linear-gradient(to bottom right, #ffffff, #dddddd); background-image: -o-linear-gradient(to bottom right, #ffffff, #dddddd); background-image: linear-gradient(to bottom right, #ffffff, #dddddd); border-radius: 0; }
+.hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #0fa4de; background-image: -webkit-gradient(linear, to bottom right, to top left, color-stop(0%, #ffffff), color-stop(100%, #dedede)); background-image: -webkit-linear-gradient(to bottom right, #ffffff, #dedede); background-image: -moz-linear-gradient(to bottom right, #ffffff, #dedede); background-image: -o-linear-gradient(to bottom right, #ffffff, #dedede); background-image: linear-gradient(to bottom right, #ffffff, #dedede); border-radius: 0; }
 
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 
