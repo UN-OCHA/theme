@@ -3356,7 +3356,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 
 /* HR layout standard block */
 .hr-layout-operation-standard .nav-tabs { margin-bottom: 0; }
-.hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { background-color: #e4e4e4; height: 270px; }
+.hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { background-color: #dbdbdb; height: 270px; }
 .hr-layout-operation-standard .hr-thumbnail { padding-top: 0.5em; padding-bottom: 0.5em; }
 .hr-layout-operation-standard img { max-height: 250px; margin-left: auto; margin-right: auto; }
 .hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #a0a0a0; }
