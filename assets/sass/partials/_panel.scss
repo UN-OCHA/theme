@@ -383,7 +383,7 @@
 
   .tab-content,
   .tab-pane {
-    background-color: #DEDEDE;
+    background-color: #DBDBDB;
     height: 270px;
   }
 
@@ -401,13 +401,13 @@
   a.list-group-item {
     border: none;
     background-color: transparent;
-    color: #555;
+    color: #A0A0A0;
 
     &.active,
     &.active:hover,
     &.active:focus {
       color: $p-comp;
-      @include background-image(linear-gradient(to bottom right, white, #dedede));
+      @include background-image(linear-gradient(to bottom right, #ffffff, #e7e7e7));
       border-radius: 0;
     }
   }
