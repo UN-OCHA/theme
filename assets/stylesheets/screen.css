@@ -2990,10 +2990,10 @@ div.region-top div.block { display: inline-block; }
 
 .navbar { min-height: 0; }
 
-.nav-tabs { background-color: #E4E4E4; }
-.nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #A0A0A0; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
-.nav-tabs > li > a.active, .nav-tabs > li > a:hover { border: none; color: #6A6A6A; background-color: #DBDBDB; }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #6A6A6A; background-color: #DBDBDB; }
+.nav-tabs { background-color: #e4e4e4; }
+.nav-tabs > li > a { padding: 4px 15px; text-transform: uppercase; font-weight: bold; min-width: 110px; text-align: center; color: #a0a0a0; background: none; font-size: 14px; border-radius: 0; margin: 0; border: none; font-family: Arial, Tahoma, sans-serif; }
+.nav-tabs > li > a.active, .nav-tabs > li > a:hover { border: none; color: #6a6a6a; background-color: #dbdbdb; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #6a6a6a; background-color: #dbdbdb; }
 
 #top .nav-tabs { margin: 0; border-bottom: none; background-color: transparent; }
 #top .nav-tabs > li { border: none; }
@@ -3356,10 +3356,10 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 
 /* HR layout standard block */
 .hr-layout-operation-standard .nav-tabs { margin-bottom: 0; }
-.hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { background-color: #DBDBDB; height: 270px; }
+.hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { background-color: #e4e4e4; height: 270px; }
 .hr-layout-operation-standard .hr-thumbnail { padding-top: 0.5em; padding-bottom: 0.5em; }
 .hr-layout-operation-standard img { max-height: 250px; margin-left: auto; margin-right: auto; }
-.hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #A0A0A0; }
+.hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #a0a0a0; }
 .hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #0fa4de; background-image: -webkit-gradient(linear, to bottom right, to top left, color-stop(0%, #ffffff), color-stop(100%, #e7e7e7)); background-image: -webkit-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -moz-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -o-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: linear-gradient(to bottom right, #ffffff, #e7e7e7); border-radius: 0; }
 
 #block-system-main .view.view-hr-events { margin: 0 15px; }
