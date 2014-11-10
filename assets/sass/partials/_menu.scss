@@ -96,6 +96,13 @@
 
         }
 
+	> li.active > a,
+	> li.active > a:hover,
+	> li.active > a:focus {
+		color: #bc2e3b;
+		background-color: #fff;
+	}
+
         .open > a, .open > a:focus {
                 border: none;
                 background: #AEAEAE;
