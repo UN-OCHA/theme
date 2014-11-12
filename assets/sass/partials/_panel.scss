@@ -384,7 +384,7 @@
   .tab-content,
   .tab-pane {
     background-color: $tabs-active-background;
-    height: 270px;
+    height: 280px;
   }
 
   .hr-thumbnail {
@@ -396,6 +396,11 @@
     max-height: 250px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  a.hr-layout-see-more {
+    display: block;
+    text-align: center;
   }
 
   a.list-group-item {
