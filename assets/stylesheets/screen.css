@@ -3360,9 +3360,9 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .hr-layout-operation-standard .tab-content, .hr-layout-operation-standard .tab-pane { background-color: #dbdbdb; height: 300px; }
 .hr-layout-operation-standard .hr-thumbnail { padding-top: 0.5em; padding-bottom: 0.5em; }
 .hr-layout-operation-standard img { max-height: 250px; margin-left: auto; margin-right: auto; }
-.hr-layout-operation-standard a.hr-layout-see-more { display: block; text-align: center; }
+.hr-layout-operation-standard a.hr-layout-see-more { display: block; text-align: center; margin-top: 1em; }
 .hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #a0a0a0; }
-.hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #0fa4de; background-image: -webkit-gradient(linear, to bottom right, to top left, color-stop(0%, #ffffff), color-stop(100%, #e7e7e7)); background-image: -webkit-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -moz-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -o-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: linear-gradient(to bottom right, #ffffff, #e7e7e7); border-radius: 0; }
+.hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #6a6a6a; background-image: -webkit-gradient(linear, to bottom right, to top left, color-stop(0%, #ffffff), color-stop(100%, #e7e7e7)); background-image: -webkit-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -moz-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: -o-linear-gradient(to bottom right, #ffffff, #e7e7e7); background-image: linear-gradient(to bottom right, #ffffff, #e7e7e7); border-radius: 0; }
 
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 

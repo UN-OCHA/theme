@@ -401,6 +401,7 @@
   a.hr-layout-see-more {
     display: block;
     text-align: center;
+    margin-top: 1em;
   }
 
   a.list-group-item {
@@ -411,7 +412,7 @@
     &.active,
     &.active:hover,
     &.active:focus {
-      color: $p-comp;
+      color: $tabs-active-text;
       @include background-image(linear-gradient(to bottom right, #ffffff, #e7e7e7));
       border-radius: 0;
     }
