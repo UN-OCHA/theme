@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700);
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
@@ -2889,7 +2889,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1392824685') no-repeat right 8px white !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1416174349') no-repeat right 8px white !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3337,7 +3337,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .pane-hr-toolbox-panes-items .views-field-field-files li, .pane-hr-toolbox-panes-items .views-field-field-links li { color: #55b1c8; }
 .pane-hr-toolbox-panes-items img.file-icon { display: none; }
 .pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files ul { list-style-type: none; }
-.pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files span.file { display: inline-block; background-image: url("../images/icons/38/Applications/APP_tools.png"); background-repeat: no-repeat; padding-left: 50px; padding-top: 10px; height: 40px; font-weight: bold; }
+.pane-hr-toolbox-panes-items .hr-toolbox-tools .views-field-field-files span.file { display: inline-block; background-image: url("../images/icons/38/Applications/APP_tools.png"); background-repeat: no-repeat; padding-left: 50px; padding-top: 10px; height: 40px; font-weight: bold; margin-left: -18px; margin-top: 15px; }
 .pane-hr-toolbox-panes-items a { color: #55b1c8; }
 
 /* Carousel */
