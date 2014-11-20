@@ -9,3 +9,17 @@ label {
 .chosen-container {
   max-width: 100%;
 }
+
+.form-type-checkboxes {
+
+    .form-checkboxes .form-item, .form-radios .form-item {
+       margin-top: -0.4em;
+    }
+
+    label {
+      display: block;
+      text-indent: -2px;
+      margin-bottom: 15px
+    }
+
+}
