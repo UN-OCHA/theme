@@ -2,10 +2,16 @@
 // Styles for Forms
 // --------------------------------------------------
 
-label {
-  display: block;
-}
-
 .chosen-container {
   max-width: 100%;
+}
+
+form-checkboxes .form-item, .form-radios .form-item {
+  margin-top: -0.2em;
+
+   label {
+      display: block;
+      text-indent: -2px;
+      margin-bottom: 15px
+    }
 }
