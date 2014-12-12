@@ -3202,7 +3202,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a img { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); }
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a:hover img { -webkit-transform: scale(1.12, 1.12); -ms-transform: scale(1.12, 1.12); transform: scale(1.12, 1.12); }
 
-#operations_map { margin: -10px 10px 10px; }
+#operations_map { margin: -10px 10px 10px; height: 400px; background-color: #E0ECED; }
 
 @media screen and (max-width: 768px) { /* Force table to not be like tables anymore */
   table, thead, tbody, th, td, tr { display: block; }
