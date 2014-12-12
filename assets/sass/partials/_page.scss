@@ -445,12 +445,51 @@ body .region-branding {
 }
 
 //Operations map
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
 #operations_map {
 	border: 1px solid #FFF;
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
 	margin: -10px 10px 10px;
 	height: 400px;
 	background-color: #E0ECED;
+	position: relative;
+	&:before {
+		content:"\f110";
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 50%;
+		top:50%;
+		font-family:'FontAwesome';
+		font-size: 3em;
+		text-align:center;
+		line-height: 50px;
+		margin-left: -25px;
+		margin-top: -25px;
+		color:white;
+		-webkit-animation: fa-spin 2s infinite linear;
+		animation: fa-spin 2s infinite linear;
+	}
 }
 
 

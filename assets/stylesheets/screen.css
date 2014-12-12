@@ -3202,7 +3202,14 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a img { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); }
 .front .radix-moscone-flipped .col-md-12 .col-sm-2 .thumbnail a:hover img { -webkit-transform: scale(1.12, 1.12); -ms-transform: scale(1.12, 1.12); transform: scale(1.12, 1.12); }
 
-#operations_map { border: 1px solid #FFF; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); margin: -10px 10px 10px; height: 400px; background-color: #E0ECED; }
+@-webkit-keyframes fa-spin { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); transform: rotate(359deg); } }
+
+@keyframes fa-spin { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); transform: rotate(359deg); } }
+
+#operations_map { border: 1px solid #FFF; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); margin: -10px 10px 10px; height: 400px; background-color: #E0ECED; position: relative; }
+#operations_map:before { content: "\f110"; position: absolute; width: 50px; height: 50px; left: 50%; top: 50%; font-family: 'FontAwesome'; font-size: 3em; text-align: center; line-height: 50px; margin-left: -25px; margin-top: -25px; color: white; -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear; }
 
 @media screen and (max-width: 768px) { /* Force table to not be like tables anymore */
   table, thead, tbody, th, td, tr { display: block; }
