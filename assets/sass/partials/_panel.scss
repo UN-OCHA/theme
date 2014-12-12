@@ -7,39 +7,37 @@
 @import "icons/38/Clusters/*.png";
 
 .front {
-	.sidebar {
-		.panel-pane {
-			margin-bottom: 30px;
+	.panel-pane {
+		margin-bottom: 30px;
 
-			.pane-title {
-				font-size: 13px;
+		.pane-title {
+			font-size: 13px;
+			color: $p-main;
+			border-bottom: 1px dotted $p-main;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding-bottom: 7px;
+			margin-bottom: 20px;
+		}
+		.pane-content {
+			a {
 				color: $p-main;
-				border-bottom: 1px dotted $p-main;
-				text-transform: uppercase;
-				font-weight: bold;
-				padding-bottom: 7px;
-				margin-bottom: 20px;
 			}
+		}
 
-      .pane-content {
-        a {
-          color: $p-main;
-        }
-      }
-      @media screen and (max-width : $screen-md) {
-        .row {
-          width: 50%;
-          float: left;
-          margin: 0;
-          .col-sm-6.text-center {
-            text-align: left;
-            width: 100px;
-          }
-        }
-        br {
-          display: none;
-        }
-      }
+		@media screen and (max-width : $screen-md) {
+			.row {
+				width: 50%;
+				float: left;
+				margin: 0;
+				.col-sm-6.text-center {
+					text-align: left;
+					width: 100px;
+				}
+			}
+			br {
+				display: none;
+			}
 		}
 	}
 }
