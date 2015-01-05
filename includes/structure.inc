@@ -12,6 +12,7 @@ function _humanitarianresponse_get_file_properties($item) {
     $return['path'] = file_create_url($file['uri']);
     $return['title'] = empty($file['title']) ? $file['filename'] : $file['title'];
     $return['language'] = !empty($language) ? '(' . $language['name_native'] . ')' : '';
+    $return['options'] =  array('attributes' => array('target'=>'_blank'));
   }
   return $return;
 }
@@ -39,7 +40,7 @@ function humanitarianresponse_field__field_files_collection($variables) {
         $id = $variables['element']['#items'][$delta]['value'];
         $props = _humanitarianresponse_get_file_properties($item['entity']['field_collection_item'][$id]);
         if (!empty($props)) {
-          $output .= '<li>'.l($props['title'].' '.$props['language'], $props['path']).'</li>';
+          $output .= '<li>'.l($props['title'].' '.$props['language'], $props['path'],array('attributes' => array('target'=>'_blank'))).'</li>';
         }
       }
       $output .= '</ul>';
