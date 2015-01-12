@@ -1,5 +1,5 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 @import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700);
-/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
@@ -169,46 +169,34 @@ cite { font-style: normal; }
 .text-muted { color: #999999; }
 
 .text-primary { color: #55b1c8; }
-
-a.text-primary:hover { color: #3999b1; }
+.text-primary a:hover { color: #3999b1; }
 
 .text-success { color: #3c763d; }
-
-a.text-success:hover { color: #2b542c; }
+.text-success a:hover { color: #2b542c; }
 
 .text-info { color: #31708f; }
-
-a.text-info:hover { color: #245269; }
+.text-info a:hover { color: #245269; }
 
 .text-warning { color: #8a6d3b; }
-
-a.text-warning:hover { color: #66512c; }
+.text-warning a:hover { color: #66512c; }
 
 .text-danger { color: #a94442; }
+.text-danger a:hover { color: #843534; }
 
-a.text-danger:hover { color: #843534; }
-
-.bg-primary { color: #fff; }
-
-.bg-primary { background-color: #55b1c8; }
-
-a.bg-primary:hover { background-color: #3999b1; }
+.bg-primary { color: #fff; background-color: #55b1c8; }
+.bg-primary a:hover { background-color: #3999b1; }
 
 .bg-success { background-color: #dff0d8; }
-
-a.bg-success:hover { background-color: #c1e2b3; }
+.bg-success a:hover { background-color: #c1e2b3; }
 
 .bg-info { background-color: #d9edf7; }
-
-a.bg-info:hover { background-color: #afd9ee; }
+.bg-info a:hover { background-color: #afd9ee; }
 
 .bg-warning { background-color: #fcf8e3; }
-
-a.bg-warning:hover { background-color: #f7ecb5; }
+.bg-warning a:hover { background-color: #f7ecb5; }
 
 .bg-danger { background-color: #f2dede; }
-
-a.bg-danger:hover { background-color: #e4b9b9; }
+.bg-danger a:hover { background-color: #e4b9b9; }
 
 .page-header { padding-bottom: 8px; margin: 36px 0 18px; border-bottom: 1px solid #eeeeee; }
 
@@ -1380,7 +1368,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .navbar-fixed-bottom { bottom: 0; margin-bottom: 0; border-width: 1px 0 0; }
 
-.navbar-brand { float: left; padding: 16px 15px; font-size: 17px; line-height: 18px; height: 50px; }
+.navbar-brand { float: left; padding: 16px 15px; font-size: 17px; line-height: 18px; height: 18px; }
 .navbar-brand:hover, .navbar-brand:focus { text-decoration: none; }
 @media (min-width: 768px) { .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand { margin-left: -15px; } }
 
@@ -1539,9 +1527,9 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #5
 
 .thumbnail { display: block; padding: 4px; margin-bottom: 18px; line-height: 1.428571429; background-color: white; border: 1px solid #dddddd; border-radius: 4px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { display: block; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
-.thumbnail .caption { padding: 9px; color: #333333; }
+.thumbnail a:hover, .thumbnail a:focus, .thumbnail .caption { padding: 9px; color: #333333; }
 
-a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #55b1c8; }
+a.thumbnail.active { border-color: #55b1c8; }
 
 .alert { padding: 15px; margin-bottom: 18px; border: 1px solid transparent; border-radius: 4px; }
 .alert h4 { margin-top: 0; color: inherit; }
@@ -1914,7 +1902,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
   tr.visible-print { display: table-row !important; }
   th.visible-print, td.visible-print { display: table-cell !important; } }
 @media print { .hidden-print, tr.hidden-print, th.hidden-print, td.hidden-print { display: none !important; } }
-/*
+/*!
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
@@ -2829,7 +2817,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1398677610') no-repeat right 8px white !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1420532672') no-repeat right 8px white !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3222,7 +3210,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
   td:before { content: attr(data-title); } }
 .grey-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label, #hr-bundles-layer-switcher input[value="Education"] + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[value="Food Security"] + label, #hr-bundles-layer-switcher input[value="Health"] + label, #hr-bundles-layer-switcher input[value="Logistics"] + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label, #hr-bundles-layer-switcher input[value="Protection"] + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label { background: url('../images/icons/38/Clusters/grey-s8e6e32aa57.png') no-repeat; }
 
-.Clusters-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover, #hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover, #hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover, #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background: url('../images/icons/38/Clusters-s9c4c80d235.png') no-repeat; }
+.Clusters-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover, #hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover, #hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover, #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background: url('../images/icons/38/Clusters-s2d879d30c9.png') no-repeat; }
 
 .front .panel-pane { margin-bottom: 30px; }
 .front .panel-pane .pane-title { font-size: 13px; color: #bc2e3c; border-bottom: 1px dotted #bc2e3c; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
@@ -3244,27 +3232,27 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 #hr-bundles-layer-switcher .dataLayersDiv { text-align: center; }
 #hr-bundles-layer-switcher input[type="radio"] + label { background-repeat: no-repeat; height: 38px; width: 38px; display: inline-block; text-indent: -999px; overflow: hidden; }
 #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label { background-position: 0 -38px; }
-#hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover { background-position: 0 -608px; }
+#hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover { background-position: 0 -1064px; }
 #hr-bundles-layer-switcher input[value="Early Recovery"] + label { background-position: 0 -342px; }
-#hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover { background-position: 0 -950px; }
+#hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover { background-position: 0 -1406px; }
 #hr-bundles-layer-switcher input[value="Education"] + label { background-position: 0 -380px; }
-#hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover { background-position: 0 -988px; }
+#hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover { background-position: 0 -1444px; }
 #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label { background-position: 0 -418px; }
-#hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover { background-position: 0 -1026px; }
+#hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover { background-position: 0 -1482px; }
 #hr-bundles-layer-switcher input[value="Food Security"] + label { background-position: 0 -76px; }
-#hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover { background-position: 0 -646px; }
+#hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover { background-position: 0 -1102px; }
 #hr-bundles-layer-switcher input[value="Health"] + label { background-position: 0 0; }
-#hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover { background-position: 0 -684px; }
+#hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover { background-position: 0 -1140px; }
 #hr-bundles-layer-switcher input[value="Logistics"] + label { background-position: 0 -114px; }
-#hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover { background-position: 0 -798px; }
+#hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover { background-position: 0 -1254px; }
 #hr-bundles-layer-switcher input[value="Nutrition"] + label { background-position: 0 -190px; }
-#hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover { background-position: 0 -836px; }
+#hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover { background-position: 0 -1292px; }
 #hr-bundles-layer-switcher input[value="Protection"] + label { background-position: 0 -152px; }
-#hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover { background-position: 0 -760px; }
+#hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover { background-position: 0 -1216px; }
 #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label { background-position: 0 -304px; }
-#hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover { background-position: 0 -874px; }
+#hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover { background-position: 0 -1330px; }
 #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label { background-position: 0 -266px; }
-#hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background-position: 0 -912px; }
+#hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background-position: 0 -1368px; }
 
 /* Linkit and media fix */
 .linkit-wrapper, .media-wrapper { z-index: 5000; }
@@ -3489,6 +3477,9 @@ label { display: block; }
 #block-hr-layout-hr-layout-share-links a.btn { color: white; display: block; margin: 6px 27px; font-size: 0.95em; text-transform: uppercase; text-align: left; position: relative; }
 #block-hr-layout-hr-layout-share-links a.btn i { position: absolute; right: 10px; float: right; font-size: 1.4em; }
 
+#views-form-og-members-admin-default thead tr th a, #views-form-og-members-admin-default thead tr ui-widget-header a { color: white; }
+#views-form-og-members-admin-default thead tr th.views-field.active a { color: #0fa4de; }
+
 .user-teaser h3 { display: none; }
 
 .user-teaser dl { margin-bottom: 0; }
@@ -3496,5 +3487,3 @@ label { display: block; }
 .panel-2col-stacked .user-teaser .panel-separator { margin-bottom: 0; }
 
 .user-full .pane-user-picture i { font-size: 15em; background-color: #E1E1E1; margin-top: 40px; }
-
-/*@ sourceMappingURL=screen.css.map */

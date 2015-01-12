@@ -563,6 +563,19 @@
   }
 }
 
-
+#views-form-og-members-admin-default {
+  thead {
+    tr {
+      th, ui-widget-header{
+        a {
+          color: white;
+        }
+      }
+      th.views-field.active a{
+        color: $p-comp;
+      }
+    }
+  }
+}
 
 
