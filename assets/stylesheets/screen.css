@@ -3477,7 +3477,7 @@ label { display: block; }
 #block-hr-layout-hr-layout-share-links a.btn { color: white; display: block; margin: 6px 27px; font-size: 0.95em; text-transform: uppercase; text-align: left; position: relative; }
 #block-hr-layout-hr-layout-share-links a.btn i { position: absolute; right: 10px; float: right; font-size: 1.4em; }
 
-#views-form-og-members-admin-default thead tr th a, #views-form-og-members-admin-default thead tr ui-widget-header a { color: white; }
+#views-form-og-members-admin-default thead tr th a, #views-form-og-members-admin-default thead tr .ui-widget-header a { color: white; }
 #views-form-og-members-admin-default thead tr th.views-field.active a { color: #0fa4de; }
 
 .user-teaser h3 { display: none; }
