@@ -95,6 +95,9 @@ Highcharts.theme = {
 		backgroundColor: '#FFF',
 		borderWidth: 1,
 		borderColor: '#3067BB',
+		style: {
+			//color: '#FFF'
+		}
 	},
 
 
