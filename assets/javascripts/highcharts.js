@@ -3,7 +3,7 @@
  */
 
 if (typeof(Highcharts) !== 'undefined') {
-  
+
 Highcharts.theme = {
 	colors: [
     '#3067BB',
@@ -92,16 +92,11 @@ Highcharts.theme = {
 		}
 	},
 	tooltip: {
-		backgroundColor: {
-			linearGradient: [0, 0, 0, 50],
-			stops: [
-				[0, 'rgba(96, 96, 96, .8)'],
-				[1, 'rgba(16, 16, 16, .8)']
-			]
-		},
-		borderWidth: 0,
+		backgroundColor: '#FFF',
+		borderWidth: 1,
+		borderColor: '#3067BB',
 		style: {
-			color: '#FFF'
+			//color: '#FFF'
 		}
 	},
 
