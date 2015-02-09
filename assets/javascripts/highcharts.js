@@ -92,8 +92,8 @@ Highcharts.theme = {
 		}
 	},
 	tooltip: {
-		backgroundColor: 'FFF',
-		borderWidth: 0,
+		backgroundColor: '#FFF',
+		borderWidth: 1,
         borderColor: '#3067BB',
 	},
 
