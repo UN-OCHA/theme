@@ -43,6 +43,10 @@ function humanitarianresponse_preprocess_page(&$variables) {
         $og_group = entity_load('node', array($gid));
         $og_group = $og_group[$gid];
         if ($og_group->type == 'hr_operation') {
+          // Salahumanitaria logo
+          if ($og_group->nid == 77) { // Nid of the Colombia operation
+            $variables['logo'] = '/sites/all/themes/humanitarianresponse/assets/images/salahumanitaria_logo.png';
+          }
           if (isset($og_group->field_operation_type) && isset($og_group->field_operation_region) && $og_group->field_operation_type[LANGUAGE_NONE][0]['value'] == 'country') {
             // Determine the region of the operation
             $region_id = $og_group->field_operation_region[LANGUAGE_NONE][0]['target_id'];
