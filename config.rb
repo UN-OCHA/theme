@@ -4,7 +4,6 @@ require 'bootstrap-sass';
 
 # Set environment [development, production]
 environment = :production
-# environment = :developpement
 
 # Set this to the root of your project when deployed:
 http_path = "/"
@@ -24,7 +23,7 @@ relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 line_comments = (environment == :development) ? true : false
- 
+
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
 # preferred_syntax = :sass
