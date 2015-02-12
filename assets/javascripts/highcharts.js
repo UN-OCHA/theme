@@ -58,7 +58,7 @@ Highcharts.theme = {
 	yAxis: {
 		alternateGridColor: null,
 		minorTickInterval: null,
-		gridLineColor: 'rgba(255, 255, 255, .1)',
+		gridLineColor: 'rgba(153, 153, 153, 1)',
 		lineWidth: 0,
 		tickWidth: 0,
 		labels: {
