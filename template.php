@@ -50,7 +50,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
           if (isset($og_group->field_operation_type) && isset($og_group->field_operation_region) && $og_group->field_operation_type[LANGUAGE_NONE][0]['value'] == 'country') {
             // Determine the region of the operation
             $region_id = $og_group->field_operation_region[LANGUAGE_NONE][0]['target_id'];
-            $region = reset(entity_load('node', array($region_id)));
+            $region = entity_load_single('node', $region_id);
             $region_uri = entity_uri('node', $region);
             $region_status = $region->field_operation_status[LANGUAGE_NONE][0]['value'];
             switch ($region_status) {
@@ -69,6 +69,15 @@ function humanitarianresponse_preprocess_page(&$variables) {
           $glide = $og_group->field_glide_number[LANGUAGE_NONE][0]['value'];
           if ($glide == 'EP-2014-000041-GIN') {
             $variables['logo'] = '/sites/all/themes/humanitarianresponse/assets/images/unmeer_logo.png';
+          }
+        }
+        elseif ($og_group->type == 'hr_bundle') {
+          // Get operation from bundle
+          $op_gid = _hr_bundles_get_operation($og_group->nid);
+          if (!empty($op_gid)) {
+            $operation = entity_load_single('node', $op_gid);
+            $op_uri = entity_uri('node', $operation);
+            $variables['hr_tabs'][] = l($operation->title, $op_uri['path'], $op_uri['options']);
           }
         }
         $uri = entity_uri('node', $og_group);

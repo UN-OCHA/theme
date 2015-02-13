@@ -57,7 +57,6 @@ function humanitarianresponse_menu_tree__og_menu_single(&$variables) {
 function humanitarianresponse_links__locale_block(&$variables) {
   global $language;
   unset($variables['links'][$language->language]);
-  unset($variables['links']['es']);
   $before = '<div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">';
   $before .= strtoupper($language->language).' <span class="caret"></span>
