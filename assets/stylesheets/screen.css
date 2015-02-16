@@ -1,5 +1,5 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 @import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700);
-/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
@@ -169,46 +169,34 @@ cite { font-style: normal; }
 .text-muted { color: #999999; }
 
 .text-primary { color: #55b1c8; }
-
-a.text-primary:hover { color: #3999b1; }
+.text-primary a:hover { color: #3999b1; }
 
 .text-success { color: #3c763d; }
-
-a.text-success:hover { color: #2b542c; }
+.text-success a:hover { color: #2b542c; }
 
 .text-info { color: #31708f; }
-
-a.text-info:hover { color: #245269; }
+.text-info a:hover { color: #245269; }
 
 .text-warning { color: #8a6d3b; }
-
-a.text-warning:hover { color: #66512c; }
+.text-warning a:hover { color: #66512c; }
 
 .text-danger { color: #a94442; }
+.text-danger a:hover { color: #843534; }
 
-a.text-danger:hover { color: #843534; }
-
-.bg-primary { color: #fff; }
-
-.bg-primary { background-color: #55b1c8; }
-
-a.bg-primary:hover { background-color: #3999b1; }
+.bg-primary { color: #fff; background-color: #55b1c8; }
+.bg-primary a:hover { background-color: #3999b1; }
 
 .bg-success { background-color: #dff0d8; }
-
-a.bg-success:hover { background-color: #c1e2b3; }
+.bg-success a:hover { background-color: #c1e2b3; }
 
 .bg-info { background-color: #d9edf7; }
-
-a.bg-info:hover { background-color: #afd9ee; }
+.bg-info a:hover { background-color: #afd9ee; }
 
 .bg-warning { background-color: #fcf8e3; }
-
-a.bg-warning:hover { background-color: #f7ecb5; }
+.bg-warning a:hover { background-color: #f7ecb5; }
 
 .bg-danger { background-color: #f2dede; }
-
-a.bg-danger:hover { background-color: #e4b9b9; }
+.bg-danger a:hover { background-color: #e4b9b9; }
 
 .page-header { padding-bottom: 8px; margin: 36px 0 18px; border-bottom: 1px solid #eeeeee; }
 
@@ -1380,7 +1368,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .navbar-fixed-bottom { bottom: 0; margin-bottom: 0; border-width: 1px 0 0; }
 
-.navbar-brand { float: left; padding: 16px 15px; font-size: 17px; line-height: 18px; height: 50px; }
+.navbar-brand { float: left; padding: 16px 15px; font-size: 17px; line-height: 18px; height: 18px; }
 .navbar-brand:hover, .navbar-brand:focus { text-decoration: none; }
 @media (min-width: 768px) { .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand { margin-left: -15px; } }
 
@@ -1539,9 +1527,9 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #5
 
 .thumbnail { display: block; padding: 4px; margin-bottom: 18px; line-height: 1.428571429; background-color: white; border: 1px solid #dddddd; border-radius: 4px; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { display: block; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
-.thumbnail .caption { padding: 9px; color: #333333; }
+.thumbnail a:hover, .thumbnail a:focus, .thumbnail .caption { padding: 9px; color: #333333; }
 
-a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #55b1c8; }
+a.thumbnail.active { border-color: #55b1c8; }
 
 .alert { padding: 15px; margin-bottom: 18px; border: 1px solid transparent; border-radius: 4px; }
 .alert h4 { margin-top: 0; color: inherit; }
@@ -1914,7 +1902,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
   tr.visible-print { display: table-row !important; }
   th.visible-print, td.visible-print { display: table-cell !important; } }
 @media print { .hidden-print, tr.hidden-print, th.hidden-print, td.hidden-print { display: none !important; } }
-/*
+/*!
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
@@ -2829,7 +2817,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1398677610') no-repeat right 8px white !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1424098534') no-repeat right 8px white !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3365,6 +3353,45 @@ a.fc-event, .fc-event-draggable { border: 1px solid #FFF; box-shadow: 1px 2px 3p
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time { padding: 4px 5px; background-color: #e0e0e0; color: #525252; display: block; font-weight: normal; border: 0; border-radius: 10px 10px 0px 0px; border-bottom: 1px solid #FFF; }
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title { padding: 4px 5px; display: block; }
 
+.calendar-calendar { background-color: transparent; border: none; }
+.calendar-calendar .month-view .full td.single-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; margin: 10px 0px 10px 0px; }
+.calendar-calendar .month-view .full td .inner div.calendar.monthview div a { background: transparent; background-color: #2f9c43; display: block; color: #ffffff; line-height: 2.2em; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; }
+.calendar-calendar .month-view td span.date-display-single { font-weight: bold; display: block; background-color: #e0e0e0; color: #525252; padding-left: 2px; margin-top: 1px; }
+.calendar-calendar .month-view .full td.multi-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; height: auto; }
+.calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents { position: relative; left: 3px; width: 152px; left: 3px; color: #777; }
+.calendar-calendar td.full { padding: 7px; border: none; }
+.calendar-calendar tr.full { background: #f9f9f9; }
+.calendar-calendar .full tr td:nth-child(odd) { background: #dae9ee; }
+.calendar-calendar td.single-day { background: none; }
+.calendar-calendar td.single-day.empty { background: none; }
+.calendar-calendar .single-day.empty td { background: none; }
+.calendar-calendar .single-day.date-box.empty tr td:nth-child(odd) { background: transparent; }
+.calendar-calendar th.days { background-color: #7dc2d2; padding-top: 5px; padding-bottom: 5px; color: white; border: none; height: 30px; }
+.calendar-calendar tr.sp_bottom { background-color: transparent; }
+.calendar-calendar tr.sp_bottom td.sp { border: none; height: 30px; display: block; background-color: transparent; }
+
+.view-header { float: left; width: 100%; }
+.view-header .title-nav { display: block; float: left; overflow: hidden; text-align: center; }
+.view-header .title-nav h3 { margin-top: 12px; display: inline-block; }
+.view-header .prev { float: left; }
+.view-header .prev .btn-default:before { font-family: 'FontAwesome'; content: '\f053'; padding-left: 5px; position: relative; font-size: 190%; }
+.view-header .next { float: left; }
+.view-header .next .btn-default:before { font-family: 'FontAwesome'; content: '\f054'; padding-left: 5px; position: relative; font-size: 190%; }
+.view-header .date-nav-wrapper .date-next a { margin-right: 10px; font-weight: bold; font-size: 90%; }
+.view-header .group-nav { position: relative; display: inline-block; vertical-align: middle; clear: both; width: 100%; }
+.view-header .btn.btn-default { border: none; background-color: transparent; padding-left: 2px; }
+
+.view-filters .views-exposed-form .views-exposed-widget .form-submit { margin-bottom: -2.2em; line-height: 1.0em; }
+.view-filters .chosen-container .chosen-drop { border: none; }
+.view-filters .chosen-with-drop .chosen-single { border: none; background-color: #f9f9f9; background: linear-gradient(to right, #f9f9f9, #fdfdfd); box-shadow: 0px 1px 0px #FFF inset; }
+.view-filters .chosen-single { background-color: #ff9f9f9; border-radius: 0px; height: 25px; background: linear-gradient(to right, #f9f9f9, #fdfdfd); border: none; box-shadow: none; }
+.view-filters .chosen-single div { padding-top: 2px; }
+.view-filters .views-exposed-widgets { display: inline-block; margin-left: 27em; }
+.view-filters .btn-primary { background-color: #7abed1; border-color: #42a8c2; }
+.view-filters .btn-primary:hover { background-color: #42a8c2; }
+.view-filters .btn-primary:active { background-color: #42a8c2; }
+.view-filters .btn { border: none; border-radius: 0px; }
+
 .view-id-hr_users .views-row { padding: 10px; min-height: 100px; margin-bottom: 25px; }
 .view-id-hr_users .views-row .views-field-picture { float: left; margin-right: 10px; }
 
@@ -3517,5 +3544,3 @@ label { display: block; }
 .panel-2col-stacked .user-teaser .panel-separator { margin-bottom: 0; }
 
 .user-full .pane-user-picture i { font-size: 15em; background-color: #E1E1E1; margin-top: 40px; }
-
-/*@ sourceMappingURL=screen.css.map */
