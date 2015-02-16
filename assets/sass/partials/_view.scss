@@ -212,14 +212,14 @@ a.fc-event, .fc-event-draggable {
 
     .month-view {
 
-	    .full td.single-day div.monthview {
+		.full td.single-day div.monthview {
             background-color: #ffffff;
             box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
 	        border-radius: 5px 5px 5px 5px !important;
-            margin: 10px 0px 10px 0px;
+            margin: 15px 0px 15px 0px;
 	    }
 
-        .full td .inner div.calendar.monthview div a  {
+		.full td .inner div.calendar.monthview div a:first-child {
             background: transparent;
             background-color: #2f9c43;
             display:block;
