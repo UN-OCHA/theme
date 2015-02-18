@@ -209,6 +209,7 @@ a.fc-event, .fc-event-draggable {
 .calendar-calendar {
    background-color: transparent;
    border: none;
+   float:left;
 
     .month-view {
 
@@ -221,7 +222,7 @@ a.fc-event, .fc-event-draggable {
 
 		.full td .inner div.calendar.monthview div a:first-child {
             background: transparent;
-            background-color: #2f9c43;
+            background-color: #54B1C8;
             display:block;
             color: #ffffff;
             line-height: 2.2em;
@@ -253,6 +254,12 @@ a.fc-event, .fc-event-draggable {
 		    width: 152px;
             left: 3px;
             color:#777;
+		}
+
+		.field-content {
+			display: block;
+			background: transparent;
+			color: #0FA4DE;
 		}
     }
 
@@ -316,7 +323,7 @@ a.fc-event, .fc-event-draggable {
 	       text-align: center;
 
             h3 {
-             margin-top: 12px;
+             margin-top: 8px;
              display: inline-block;
             }
         }
@@ -326,10 +333,10 @@ a.fc-event, .fc-event-draggable {
 
            .btn-default:before {
 			    font-family: 'FontAwesome';
-			    content: '\f053';
-			    padding-left: 5px;
-			    position: relative;
-			    font-size: 190%;
+				content: '\f053';
+				padding-left: 5px;
+				position: relative;
+			    font-size: 145%;
 	        }
         }
 
@@ -337,11 +344,11 @@ a.fc-event, .fc-event-draggable {
 		  float:left;
 
 		   .btn-default:before {
-			    font-family: 'FontAwesome';
-			    content: '\f054';
-			    padding-left: 5px;
-			    position: relative;
-			    font-size: 190%;
+				font-family: 'FontAwesome';
+				content: '\f054';
+				padding-left: 5px;
+				position: relative;
+				font-size: 145%;
 			}
         }
 
@@ -370,11 +377,16 @@ a.fc-event, .fc-event-draggable {
 .view-filters {
 
    .views-exposed-form .views-exposed-widget {
+		float: left;
+		margin-bottom: 15px;
+		padding: 0em 1em 0.6em 0.5em;
+		margin-top: 10px;
 
-        .form-submit {
-           margin-bottom: -2.2em;
-           line-height: 1.0em;
-        }
+			.form-submit {
+				margin-bottom: -2.2em;
+				line-height: 1.0em;
+				margin-right: -0.8em;
+	        }
     }
 
     .chosen-container {
@@ -408,28 +420,26 @@ a.fc-event, .fc-event-draggable {
     }
 
 	.views-exposed-widgets  {
-         display:inline-block;
-         margin-left:27em;
+		display:inline-block;
+		float:right;
 	}
 
-    .btn-primary {
-         background-color: #7abed1;
-         border-color: #42a8c2;
+    .time_area{
+		float:left;
+		width:100%;
+		display: inline-block;
 
-           &:hover{
-              background-color: #42a8c2;
-            }
+			.text-right {
+				text-align: right;
+				display: inline-block;
+				float: right;
+			}
+	}
 
-            &:active {
-               background-color: #42a8c2;
-            }
-
-    }
-
-    .btn {
-      border: none;
-      border-radius: 0px;
-    }
+	.btn {
+		border:none;
+		border-radius: 0px;
+	}
 }
 
 //people
