@@ -3359,6 +3359,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .calendar-calendar .month-view td span.date-display-single { font-weight: bold; display: block; background-color: #e0e0e0; color: #525252; padding-left: 2px; margin-top: 1px; }
 .calendar-calendar .month-view .full td.multi-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; height: auto; }
 .calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents { position: relative; left: 3px; width: 152px; left: 3px; color: #777; }
+.calendar-calendar .month-view .field-content { display: block; background: transparent; color: #0FA4DE; }
 .calendar-calendar td.full { padding: 7px; border: none; }
 .calendar-calendar tr.full { background: #f9f9f9; }
 .calendar-calendar .full tr td:nth-child(odd) { background: #dae9ee; }
@@ -3388,11 +3389,8 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .view-filters .chosen-single { background-color: #ff9f9f9; border-radius: 0px; height: 25px; background: linear-gradient(to right, #f9f9f9, #fdfdfd); border: none; box-shadow: none; }
 .view-filters .chosen-single div { padding-top: 2px; }
 .view-filters .views-exposed-widgets { display: inline-block; float: right; }
-.view-filters .btn-primary { background-color: #7abed1; border-color: #42a8c2; }
-.view-filters .btn-primary:hover { background-color: #42a8c2; }
-.view-filters .btn-primary:active { background-color: #42a8c2; }
-.view-filters .btn { border: none; border-radius: 0px; }
-.view-filters .text-right { text-align: right; display: inline-block; float: right; }
+.view-filters .time_area { float: left; width: 100%; display: inline-block; }
+.view-filters .time_area .text-right { text-align: right; display: inline-block; float: right; }
 
 .view-id-hr_users .views-row { padding: 10px; min-height: 100px; margin-bottom: 25px; }
 .view-id-hr_users .views-row .views-field-picture { float: left; margin-right: 10px; }

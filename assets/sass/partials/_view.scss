@@ -255,6 +255,12 @@ a.fc-event, .fc-event-draggable {
             left: 3px;
             color:#777;
 		}
+
+		.field-content {
+			display: block;
+			background: transparent;
+			color: #0FA4DE;
+		}
     }
 
 	td.full {
@@ -418,30 +424,17 @@ a.fc-event, .fc-event-draggable {
          float:right;
 	}
 
-    .btn-primary {
-         background-color: #7abed1;
-         border-color: #42a8c2;
+    .time_area{
+		float:left;
+		width:100%;
+		display: inline-block;
 
-           &:hover{
-              background-color: #42a8c2;
-            }
-
-            &:active {
-               background-color: #42a8c2;
-            }
-
-    }
-
-    .btn {
-       border: none;
-       border-radius: 0px;
-    }
-
-    .text-right {
-       text-align: right;
-       display: inline-block;
-       float: right;
-    }
+			.text-right {
+				text-align: right;
+				display: inline-block;
+				float: right;
+			}
+	}
 }
 
 //people
