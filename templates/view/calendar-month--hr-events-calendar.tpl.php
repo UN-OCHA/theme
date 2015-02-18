@@ -23,6 +23,14 @@
 <table class="full">
 <thead>
   <?php foreach ((array) $rows as $row):?>
+	    <?php 
+		
+	
+		
+		//dpm($row['data']);
+	
+		
+		?>
     <tr>
       <?php foreach ($day_names as $id => $cell): ?>
         <th class="<?php print $cell['class']; ?>" id="<?php print $cell['header_id'] ?>">

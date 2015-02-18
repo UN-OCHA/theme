@@ -209,7 +209,6 @@ a.fc-event, .fc-event-draggable {
 .calendar-calendar {
    background-color: transparent;
    border: none;
-   float:left;
 
     .month-view {
 
@@ -222,7 +221,7 @@ a.fc-event, .fc-event-draggable {
 
 		.full td .inner div.calendar.monthview div a:first-child {
             background: transparent;
-            background-color: #54B1C8;
+            background-color: #2f9c43;
             display:block;
             color: #ffffff;
             line-height: 2.2em;
@@ -317,7 +316,7 @@ a.fc-event, .fc-event-draggable {
 	       text-align: center;
 
             h3 {
-             margin-top: 8px;
+             margin-top: 12px;
              display: inline-block;
             }
         }
@@ -330,7 +329,7 @@ a.fc-event, .fc-event-draggable {
 			    content: '\f053';
 			    padding-left: 5px;
 			    position: relative;
-			    font-size: 145%;
+			    font-size: 190%;
 	        }
         }
 
@@ -342,7 +341,7 @@ a.fc-event, .fc-event-draggable {
 			    content: '\f054';
 			    padding-left: 5px;
 			    position: relative;
-			    font-size: 145%;
+			    font-size: 190%;
 			}
         }
 
@@ -371,21 +370,16 @@ a.fc-event, .fc-event-draggable {
 .view-filters {
 
    .views-exposed-form .views-exposed-widget {
-		float: left;
-		margin-bottom: 15px;
-		padding: 0em 1em 0.6em 0.5em;
-		margin-top: 10px;
 
-	        .form-submit {
-				margin-bottom: -2.2em;
-				line-height: 1.0em;
-				margin-right: -0.8em;
-	        }
+        .form-submit {
+           margin-bottom: -2.2em;
+           line-height: 1.0em;
+        }
     }
 
     .chosen-container {
 
-        .chosen-drop {
+        .chosen-drop{
          border: none;
         }
     }
@@ -415,7 +409,7 @@ a.fc-event, .fc-event-draggable {
 
 	.views-exposed-widgets  {
          display:inline-block;
-         float:right;
+         margin-left:27em;
 	}
 
     .btn-primary {
@@ -433,14 +427,8 @@ a.fc-event, .fc-event-draggable {
     }
 
     .btn {
-       border: none;
-       border-radius: 0px;
-    }
-
-    .text-right {
-       text-align: right;
-       display: inline-block;
-       float: right;
+      border: none;
+      border-radius: 0px;
     }
 }
 
