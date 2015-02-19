@@ -3356,10 +3356,10 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .calendar-calendar { background-color: transparent; border: none; float: left; }
 .calendar-calendar .month-view .full td.single-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; margin: 15px 0px 15px 0px; }
 .calendar-calendar .month-view .full td .inner div.calendar.monthview div a:first-child { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; line-height: 2.2em; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; }
+.calendar-calendar .month-view .calendar.monthview div a:link { background: transparent; background-color: transparent; display: block; color: #0FA4DE; line-height: 2.2em; font-size: 11px; margin-top: 3px; border-radius: none; }
 .calendar-calendar .month-view td span.date-display-single { font-weight: bold; display: block; background-color: #e0e0e0; color: #525252; padding-left: 2px; margin-top: 1px; }
 .calendar-calendar .month-view .full td.multi-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; height: auto; }
 .calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents { position: relative; left: 3px; width: 152px; left: 3px; color: #777; }
-.calendar-calendar .month-view .field-content { display: block; background: transparent; color: #0FA4DE; }
 .calendar-calendar td.full { padding: 7px; border: none; }
 .calendar-calendar tr.full { background: #f9f9f9; }
 .calendar-calendar .full tr td:nth-child(odd) { background: #dae9ee; }
