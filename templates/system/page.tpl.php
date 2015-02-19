@@ -104,7 +104,7 @@
               </ul>
             <?php endif; ?>
           </div>
-          <div id="content" class="col-md-12 <?php print (!$is_panel) ? 'container' : ''; ?>">
+          <div id="content" class="col-md-12">
             <?php print render($page['content']); ?>
           </div>
         </div><!-- /#content-wrapper -->
