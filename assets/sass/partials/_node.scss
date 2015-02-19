@@ -61,7 +61,7 @@
 
   padding-bottom: 10px;
 
-  .container {
+  .container-fluid {
     background-color: #F9F9F9;
     border: 1px solid #FFF;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
@@ -70,7 +70,7 @@
     .row {
       overflow: hidden;
 
-      .content {
+      .radix-layouts-content {
   min-height: 400px;
   .panel-separator {
     display: inline-block;
@@ -113,7 +113,7 @@
   }
       }
 
-      .sidebar {
+      .radix-layouts-sidebar {
   margin-bottom: -99999px;
   padding: 0;
   padding-bottom: 99999px;
@@ -149,60 +149,60 @@
     }
   }
 
-  &.node-hr-news .container {
-    .row .content .pane-node-title h2 {
+  &.node-hr-news .container-fluid {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(blog);
     }
   }
 
-  &.node-hr-document .container {
+  &.node-hr-document .container-fluid {
     border-right: 5px solid $p-documents;
-    .row .content .pane-node-title h2 {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(document);
       color: $p-documents;
     }
   }
 
-  &.node-hr-infographic .container {
+  &.node-hr-infographic .container-fluid {
     border-right: 5px solid $p-visuals;
-    .row .content .pane-node-title h2 {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(visual);
       color: $p-visuals;
     }
   }
 
-  &.node-hr-event .container {
+  &.node-hr-event .container-fluid {
     border-right: 5px solid $p-events;
-    .row .content .pane-node-title h2 {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(event);
       color: $p-events;
     }
   }
 
-  &.node-hr-contact .container {
+  &.node-hr-contact .container-fluid {
     border-right: 5px solid $p-contacts;
-    .row .content .pane-node-title h2 {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(contact);
       color: $p-contacts;
     }
   }
 
-  &.node-hr-assessment .container {
+  &.node-hr-assessment .container-fluid {
     border-right: 5px solid $p-assessments;
-    .row .content .pane-node-title h2 {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(assessment);
       color: $p-assessments;
     }
   }
 
-  &.node-hr-office .container {
-    .row .content .pane-node-title h2 {
+  &.node-hr-office .container-fluid {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(office);
     }
   }
 
-  &.node-hr-dataset .container {
-    .row .content .pane-node-title h2 {
+  &.node-hr-dataset .container-fluid {
+    .row .radix-layouts-content .pane-node-title h2 {
       @include node-sprite(dataset);
     }
   }
