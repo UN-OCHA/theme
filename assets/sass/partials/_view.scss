@@ -232,15 +232,18 @@ a.fc-event, .fc-event-draggable {
             padding-left: 2px;
         }
 
-		.calendar.monthview div a:link {
-			background: transparent;
-			background-color: transparent;
-			display:block;
-			color: #0FA4DE;
-            line-height: 2.2em;
-			font-size: 11px;
-			margin-top: 3px;
-			border-radius: none;
+		.field-content {
+
+			a:link {
+				background: transparent;
+				background-color: transparent;
+				display:block;
+				color: #0FA4DE;
+	            line-height: 2.2em;
+				font-size: 11px;
+				margin-top: 3px;
+				border-radius: none;
+			}
 		}
 
 		td span.date-display-single {
