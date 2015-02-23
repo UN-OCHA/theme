@@ -221,28 +221,20 @@ a.fc-event, .fc-event-draggable {
 	    }
 
 		.views-field .views-field-title {
-            background: transparent;
-            background-color: #54B1C8;
-            display:block;
-            color: #ffffff;
-            line-height: 2.2em;
-            font-size: 11px;
-            margin-top: 3px;
-            border-radius: 5px 5px 0px 0px !important;
-            padding-left: 2px;
-        }
 
-		.field-content {
+			field-content {
 
-			a:link {
-				background: transparent;
-				background-color: transparent;
-				display:block;
-				color: #0FA4DE;
-	            line-height: 2.2em;
-				font-size: 11px;
-				margin-top: 3px;
-				border-radius: none;
+				a:link {
+					background: transparent;
+					background-color: #54B1C8;
+					display:block;
+					color: #ffffff;
+					line-height: 2.2em;
+					font-size: 11px;
+					margin-top: 3px;
+					border-radius: 5px 5px 0px 0px !important;
+					padding-left: 2px;
+				}
 			}
 		}
 
