@@ -2817,7 +2817,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1424294729') no-repeat right 8px white !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1424248639') no-repeat right 8px white !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3355,7 +3355,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 
 .calendar-calendar { background-color: transparent; border: none; float: left; }
 .calendar-calendar .month-view .full td.single-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; margin: 15px 0px 15px 0px; }
-.calendar-calendar .month-view .full td.single-day.views-field.views-field-title { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; line-height: 2.2em; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; }
+.calendar-calendar .month-view .full td.single-day div.monthview div.views-field.views-field-title { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; line-height: 2.2em; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; }
 .calendar-calendar .month-view td span.date-display-single { font-weight: bold; display: block; background-color: #e0e0e0; color: #525252; padding-left: 2px; margin-top: 1px; }
 .calendar-calendar .month-view .full td.multi-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; height: auto; }
 .calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents { position: relative; left: 3px; width: 152px; left: 3px; color: #777; }
