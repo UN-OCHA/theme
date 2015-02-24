@@ -221,8 +221,8 @@
 }
 
 /* Featured documents and maps */
-.fieldable-panels-pane .node-teaser.node-hr-infographic .container,
-.fieldable-panels-pane .node-teaser.node-hr-document .container {
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid,
+.fieldable-panels-pane .node-teaser.node-hr-document .container-fluid {
   background-image: url('../images/backgrounds/BG_beige_grey.jpg');
   background-repeat: no-repeat;
   padding-right: 0;
@@ -247,7 +247,7 @@
   }
 }
 
-.fieldable-panels-pane .node-teaser.node-hr-contact .container {
+.fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid {
   .pane-node-title {
     margin-top: 1em;
   }
@@ -262,8 +262,8 @@
 
 /* Philippines */
 .og-context-node-84 {
-  .fieldable-panels-pane .node-teaser.node-hr-infographic .container,
-  .fieldable-panels-pane .node-teaser.node-hr-document .container {
+  .fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid,
+  .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid {
     background-image: url('../images/backgrounds/BG_green_2.jpg');
   }
 }

@@ -3348,16 +3348,16 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .linkit-wrapper, .media-wrapper { z-index: 5000; }
 
 /* Featured documents and maps */
-.fieldable-panels-pane .node-teaser.node-hr-infographic .container, .fieldable-panels-pane .node-teaser.node-hr-document .container { background-image: url("../images/backgrounds/BG_beige_grey.jpg"); background-repeat: no-repeat; padding-right: 0; padding-left: 0; }
-.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-infographics-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-hr-documents-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-infographics-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-hr-documents-panes-thumbnail { height: 120px; }
-.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title, .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title { background-color: #67A3AB; min-height: 50px; opacity: 0.8; text-align: center; padding-top: 1em; }
-.fieldable-panels-pane .node-teaser.node-hr-infographic .container .pane-node-title a, .fieldable-panels-pane .node-teaser.node-hr-document .container .pane-node-title a { color: white; font-weight: bold; }
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid, .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid { background-image: url("../images/backgrounds/BG_beige_grey.jpg"); background-repeat: no-repeat; padding-right: 0; padding-left: 0; }
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid .pane-hr-infographics-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid .pane-hr-documents-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid .pane-hr-infographics-panes-thumbnail, .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid .pane-hr-documents-panes-thumbnail { height: 120px; }
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid .pane-node-title, .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid .pane-node-title { background-color: #67A3AB; min-height: 50px; opacity: 0.8; text-align: center; padding-top: 1em; }
+.fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid .pane-node-title a, .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid .pane-node-title a { color: white; font-weight: bold; }
 
-.fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-title { margin-top: 1em; }
-.fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-organizations, .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-job-title-other, .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-email, .fieldable-panels-pane .node-teaser.node-hr-contact .container .pane-node-field-phones { padding-left: 10px; }
+.fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid .pane-node-title { margin-top: 1em; }
+.fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid .pane-node-field-organizations, .fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid .pane-node-field-job-title-other, .fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid .pane-node-field-email, .fieldable-panels-pane .node-teaser.node-hr-contact .container-fluid .pane-node-field-phones { padding-left: 10px; }
 
 /* Philippines */
-.og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-infographic .container, .og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-document .container { background-image: url("../images/backgrounds/BG_green_2.jpg"); }
+.og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid, .og-context-node-84 .fieldable-panels-pane .node-teaser.node-hr-document .container-fluid { background-image: url("../images/backgrounds/BG_green_2.jpg"); }
 
 /*Toolbox page*/
 .pane-hr-toolbox-panes-items .views-field-title { color: #525252; margin-top: 1em; margin-bottom: 1em; display: inline-block; }
