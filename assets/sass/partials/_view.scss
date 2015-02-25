@@ -225,11 +225,12 @@ a.fc-event, .fc-event-draggable {
 			background-color: #54B1C8;
 			display:block;
 			color: #ffffff;
-			line-height: 2.2em;
 			font-size: 11px;
 			margin-top: 3px;
 			border-radius: 5px 5px 0px 0px !important;
 			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
 		}
 
 		td span.date-display-single {
