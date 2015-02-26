@@ -2984,6 +2984,8 @@ div.region-top div.block { display: inline-block; }
 
 #block-search-api-sorts-search-sorts + * { clear: right; }
 
+.hid-key-contact { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 13px; font-weight: bold; color: white; line-height: 1; vertical-align: baseline; white-space: nowrap; text-align: center; background-color: #54b1c8; border-radius: 50%; }
+
 .checks-sprite, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive, #sidebar-first .block.block-facetapi .content ul li a.facetapi-inactive:hover, #sidebar-first .block.block-facetapi .content ul li.redactive > a, #sidebar-first .block.block-facetapi .content ul li.redactive > a:hover { background: url('../images/search/checks-s2fcaacbae3.png') no-repeat; }
 
 .block-menu h2, .block-menu-block h2, .block-og-menu h2, .block-locale h2 { display: none; }
