@@ -330,8 +330,9 @@ a.fc-event, .fc-event-draggable {
 			background-color: #ffffff;
 			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
 			border-radius: 5px 5px 5px 5px !important;
-			margin: 15px 0px 15px 0px;
 			border: none;
+			height: auto;
+			min-height: 100%;
 		}
 
 		.full div.single-day div.dayview div.views-field.views-field-title a  {
@@ -359,6 +360,11 @@ a.fc-event, .fc-event-draggable {
 		div.single-day .view-item {
 			width: 50%;
 		}
+
+		.full td .inner div.calendar div {
+			margin:auto;
+		}
+
 	}	
 
 	td.full {
