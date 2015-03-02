@@ -299,6 +299,38 @@ a.fc-event, .fc-event-draggable {
 			padding-left: 2px;
 			margin-top: 1px;
 		}
+
+		.full td.multi-day .calendar.weekview .contents {
+			width: auto;
+			left: 2px;
+			margin-right: 2px;
+		}
+
+		.full td.multi-day div.weekview {
+			height: 100px !important;
+			background-color: #ffffff;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+	        border-radius: 5px 5px 5px 5px !important;
+            margin: 15px 0px 15px 0px;
+            border:none;
+            color: #777;
+		}
+
+		.full td.multi-day .inner .weekview .cutoff {
+			display: none;
+		}
+
+		.full td .inner div.calendar.weekview div a {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
 	}
 
 	td.full {
