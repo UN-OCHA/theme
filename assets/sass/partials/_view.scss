@@ -276,9 +276,12 @@ a.fc-event, .fc-event-draggable {
 	        border-radius: 5px 5px 5px 5px !important;
             margin: 15px 0px 15px 0px;
             border:none;
+            display:block;
+			height: auto;
+			min-height: 100%;
 		}
 
-		.full div.single-day div.weekview div.views-field.views-field-title a {
+		.full div.single-day div.weekview div.views-field.views-field-title a  {
 			background: transparent;
 			background-color: #54B1C8;
 			display:block;
@@ -318,18 +321,6 @@ a.fc-event, .fc-event-draggable {
 
 		.full td.multi-day .inner .weekview .cutoff {
 			display: none;
-		}
-
-		.full td .inner div.calendar.weekview div a {
-			background: transparent;
-			background-color: #54B1C8;
-			display:block;
-			color: #ffffff;
-			font-size: 11px;
-			border-radius: 5px 5px 0px 0px !important;
-			padding-left: 2px;
-			padding-bottom: 0.5em;
-			padding-top: 0.5em;
 		}
 	}
 
