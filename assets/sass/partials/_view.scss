@@ -322,6 +322,10 @@ a.fc-event, .fc-event-draggable {
 		.full td.multi-day .inner .weekview .cutoff {
 			display: none;
 		}
+
+		.full td .inner div.calendar div, .calendar-calendar .day-view .full td .inner div.calendar div a {
+			margin: auto;
+		}
 	}
 
 	.day-view {
