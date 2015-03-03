@@ -322,9 +322,6 @@ a.fc-event, .fc-event-draggable {
 		.full td.multi-day .inner .weekview .cutoff {
 			display: none;
 		}
-		.full td .inner div.calendar div a {
-			margin: auto;
-		}
 	}
 
 	.day-view {
@@ -364,10 +361,9 @@ a.fc-event, .fc-event-draggable {
 			width: 50%;
 		}
 
-		.full td .inner div.calendar div {
+		.full td .inner div.calendar div , .inner div.calendar div a {
 			margin:auto;
 		}
-
 	}	
 
 	td.full {
