@@ -361,8 +361,8 @@ a.fc-event, .fc-event-draggable {
 			width: 50%;
 		}
 
-		.full td .inner div.calendar div , .inner div.calendar div a {
-			margin:auto;
+		.full td .inner div.calendar div a, .full td .inner div.calendar div {
+			margin: 0px 0px;
 		}
 	}	
 
