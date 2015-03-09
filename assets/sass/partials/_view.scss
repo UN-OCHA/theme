@@ -378,6 +378,15 @@ a.fc-event, .fc-event-draggable {
 			padding-left: 0px;
 			font-size: 10px;
 		}
+
+		.full td .inner div.calendar.weekview div.views-field.views-field-field-user a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
 	}
 
 	.day-view {
@@ -435,6 +444,15 @@ a.fc-event, .fc-event-draggable {
 		}
 
 		.full td .inner div.calendar.dayview div.views-field.views-field-field-email a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+
+		.full td .inner div.calendar.dayview div.views-field.views-field-field-user a {
 			background: transparent;
 			background-color: #fff;
 			color: #0fa4de;
