@@ -310,13 +310,15 @@ a.fc-event, .fc-event-draggable {
 		}
 
 		.full td.multi-day div.weekview {
-			height: 100px !important;
 			background-color: #ffffff;
-            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
-	        border-radius: 5px 5px 5px 5px !important;
-            margin: 15px 0px 15px 0px;
-            border:none;
-            color: #777;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			margin: 15px 0px 15px 0px;
+			border:none;
+			color: #777;
+			display:block;
+			height: 157px !important;
+			min-height: 100%;
 		}
 
 		.full td.multi-day .inner .weekview .cutoff {
@@ -364,7 +366,20 @@ a.fc-event, .fc-event-draggable {
 		.full td .inner div.calendar div a, .full td .inner div.calendar div {
 			margin: 0px 0px;
 		}
-	}	
+
+		.full td.multi-day div.dayview {
+			background-color: #ffffff;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			margin: 15px 0px 15px 0px;
+			border:none;
+			color: #777;
+			display:block;
+			height: 157px !important;
+			min-height: 100%;
+			width: 15%;
+		}
+	}
 
 	td.full {
       padding:7px; border:none;
