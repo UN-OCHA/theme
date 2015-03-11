@@ -3402,6 +3402,8 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 @media screen and (max-width: 768px) { .views-catgroup .views-group, .views-icons .views-row { width: 100%; min-height: none; height: auto; }
   .views-catgroup .views-group .views-group-content, .views-icons .views-row .views-group-content { height: auto; overflow: visible; } }
 
+.page-applications .views-catgroup .views-group .views-group-content { height: auto; }
+
 .views-catgroup .views-group.col-md-6 { width: 48%; }
 @media screen and (max-width: 768px) { .views-catgroup .views-group.col-md-6 { width: 100%; } }
 
