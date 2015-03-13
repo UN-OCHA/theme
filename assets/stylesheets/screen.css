@@ -2817,7 +2817,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1424248639') no-repeat right 8px white !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1426239427') no-repeat right 8px white !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3247,6 +3247,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .hr-highlighted .panel-pane .pane-content { padding: 0 7px; }
 .hr-highlighted .panel-pane .pane-content ul { padding-left: 14px; color: #333333; }
 .hr-highlighted .field-name-field-infographics.field-type-entityreference .field-item { margin-bottom: 1em; }
+.hr-highlighted .field-name-field-documents.field-type-entityreference .field-item { margin-bottom: 1em; }
 
 #hr-bundles-layer-switcher .baseLbl, #hr-bundles-layer-switcher .baseLayersDiv, #hr-bundles-layer-switcher .dataLbl, #hr-bundles-layer-switcher br, #hr-bundles-layer-switcher span, #hr-bundles-layer-switcher input.olButton { display: none !important; }
 #hr-bundles-layer-switcher label.olButton { cursor: pointer; }
