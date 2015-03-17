@@ -215,14 +215,15 @@ a.fc-event, .fc-event-draggable {
    background-color: transparent;
    border: none;
    float:left;
+   width: 100%;
 
     .month-view {
 
 		.full td.single-day div.monthview {
-            background-color: #ffffff;
-            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
-	        border-radius: 5px 5px 5px 5px !important;
-            margin: 15px 0px 15px 0px;
+			background-color: #ffffff;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			margin: 15px 0px 15px 0px;
 		}
 
 		.full td.single-day div.monthview div.views-field.views-field-title a {
@@ -230,11 +231,16 @@ a.fc-event, .fc-event-draggable {
 			background-color: #54B1C8;
 			display:block;
 			color: #ffffff;
-			line-height: 2.2em;
 			font-size: 11px;
 			margin-top: 3px;
 			border-radius: 5px 5px 0px 0px !important;
 			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.full td .inner div.day {
+			width:25px;
 		}
 
 		td span.date-display-single {
@@ -260,7 +266,229 @@ a.fc-event, .fc-event-draggable {
             left: 3px;
             color:#777;
 		}
-    }
+
+		td div.day {
+			border: 1px solid #F3F3F3;
+			width: auto;
+			margin: auto;
+		}
+
+		.full td .inner div.calendar.monthview div a:first-child {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.full td.single-day div.monthview div.views-field.views-field-field-email a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+
+		.full td.single-day div.monthview div.views-field.views-field-field-user a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+	}
+
+	.week-view {
+
+		.full div.single-day div.weekview {
+			background-color: #ffffff;
+            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+	        border-radius: 5px 5px 5px 5px !important;
+            margin: 15px 0px 15px 0px;
+            border:none;
+            display:block;
+			height: auto;
+			min-height: 100%;
+		}
+
+		.full div.single-day div.weekview div.views-field.views-field-title a  {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		td span.date-display-single {
+			font-weight: bold;
+			display: block;
+			background-color: #e0e0e0;
+			color: #525252;
+			padding-left: 2px;
+			margin-top: 1px;
+		}
+
+		.full td.multi-day .calendar.weekview .contents {
+			width: auto;
+			left: 2px;
+			margin-right: 2px;
+		}
+
+		.full td.multi-day div.weekview {
+			background-color: #ffffff;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			margin: 15px 0px 15px 0px;
+			border:none;
+			color: #777;
+			display:block;
+			height: 157px !important;
+			min-height: 100%;
+			padding-top: 0px;
+		}
+
+		.full td.multi-day .inner .weekview .cutoff {
+			display: none;
+		}
+
+		.full td .inner div.calendar.weekview div a:first-child {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.full td .inner div.calendar.weekview div.views-field.views-field-field-email a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+
+		.full td .inner div.calendar.weekview div.views-field.views-field-field-user a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+	}
+
+	.day-view {
+
+		.full div.single-day div.dayview {
+			background-color: #ffffff;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			border: none;
+			height: auto;
+			min-height: 100%;
+		}
+
+		.full div.single-day div.dayview div.views-field.views-field-title a  {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+	    td span.date-display-single {
+			font-weight: bold;
+			display: block;
+			background-color: #e0e0e0;
+			color: #525252;
+			padding-left: 2px;
+			margin-top: 1px;
+		}
+
+		div.single-day .view-item {
+			width: 50%;
+		}
+
+		.full td .inner div.calendar div a, .full td .inner div.calendar div {
+			margin: 0px 0px;
+		}
+
+		.full td .inner div.calendar.dayview div a:first-child {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 3px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.full td .inner div.calendar.dayview div.views-field.views-field-field-email a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+
+		.full td .inner div.calendar.dayview div.views-field.views-field-field-user a {
+			background: transparent;
+			background-color: #fff;
+			color: #0fa4de;
+			margin-top: -5px;
+			padding-left: 0px;
+			font-size: 10px;
+		}
+
+		.full td.multi-day div.dayview {
+			background-color: #ffffff;
+			box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+			border-radius: 5px 5px 5px 5px !important;
+			margin: 15px 0px 15px 0px;
+			border:none;
+			color: #777;
+			display:block;
+			height: 157px !important;
+			min-height: 100%;
+			width: 15%;
+			padding-left: 3px;
+			padding-right: 3px;
+			padding-top: 2px;
+		}
+	}
+
+	.year-view td table td {
+		width: 13%;
+		padding-left: 5px;
+		padding-right: 20px;
+	}
 
 	td.full {
       padding:7px; border:none;
