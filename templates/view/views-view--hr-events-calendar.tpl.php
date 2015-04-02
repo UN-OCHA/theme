@@ -69,7 +69,7 @@
       <?php print $attachment_before; ?>
     </div>
   <?php endif; ?>
-  <div class="time_area">
+  <div class="time_area hidden-print">
     <p class="text-right"><?php print t('Timezone'); ?> : <strong><?php print date_default_timezone(); ?></strong></p>
   </div>
   <?php if ($rows): ?>

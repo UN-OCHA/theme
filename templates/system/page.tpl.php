@@ -11,7 +11,7 @@
  */
 ?>
 <div id="root">
-  <header id="header" class="header" role="header">
+  <header id="header" class="header hidden-print" role="header">
     <div class="container">
       <div id="top">
         <nav class="navbar navbar-default">
@@ -73,6 +73,13 @@
 
   <?php endif; ?>
 
+  <!-- Logo for printed pages -->
+  <div class="visible-print-block pull-right">
+    <?php if ($logo): ?>
+      <img src="<?php print $logo; ?>" alt="Humanitarianresponse Logo" />
+    <?php endif; ?>
+  </div>
+
   <div id="main-wrapper">
     <div id="main" class="main">
       <div class="container">
@@ -82,7 +89,7 @@
           </div>
         <?php endif; ?>
         <?php if (!empty($page['sidebar_first'])): ?>
-          <aside id="sidebar-first" class="col-md-3" role="complementary">
+          <aside id="sidebar-first" class="col-md-3 hidden-print" role="complementary">
             <?php print render($page['sidebar_first']); ?>
           </aside>
         <?php endif; ?>
@@ -115,7 +122,7 @@
   <div id="root_footer"></div>
 </div><!-- #root -->
 
-<footer id="footer" class="footer" role="footer">
+<footer id="footer" class="footer hidden-print" role="footer">
   <div class="container">
     <div id="footer-first" class="col-md-3">
       <p><?php print t('!hr_link is provided by UN OCHA to support humanitarian operations globally', array('!hr_link' => l('HumanitarianResponse.info', '<front>', array('attributes' => array('target' => '_blank'))))); ?> </p><p><?php print l(t('Learn more about HumanitarianResponse.info'), 'about', array('alias' => TRUE)); ?></p><p><?php print l(t('Read our Blog'), 'about/blog', array('alias' => TRUE)); ?></p><p><a href="http://www.unocha.org" target="_blank"><img alt="OCHA logo" src="/sites/all/themes/humanitarianresponse/assets/images/ocha.png"></a></p>
