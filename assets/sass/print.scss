@@ -108,7 +108,8 @@
 
   }
 
-  .view-hr-events-calendar.view-display-id-print_week {
+  .view-hr-events-calendar.view-display-id-print_week,
+  .view-hr-events-calendar.view-display-id-print_day {
     th.views-field-field-event-date,
     th.views-field-field-event-date-1 {
       width: 10%;
