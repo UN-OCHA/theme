@@ -53,6 +53,9 @@
   table.table-striped > tbody > tr:nth-child(odd) th,
   table.table-striped > tbody > tr:nth-child(odd) span {
     background-color: #fafafa !important;
+    &.badge-rrule {
+      background-color: $p-comp !important;
+    }
   }
   table.table tbody th, table.table tbody td, table.table tbody span, table.table tbody div,
   table tbody th,
@@ -60,6 +63,12 @@
   table tbody span,
   table tbody div {
     color: #494949 !important;
+  }
+
+  .badge-rrule,
+  table tbody span.badge-rrule {
+    background-color: $p-comp !important;
+    color: white !important;
   }
 
   .avoid {
@@ -73,14 +82,22 @@
       }
     }
 
-    .view-header {
+    .view-header,
+    h3 {
       text-transform: uppercase;
       color: #54b1c8 !important;
       font-weight: bold;
     }
 
+    td.views-field-title {
+      font-style: italic !important;
+    }
+  }
+
+  .view-hr-events-calendar.view-display-id-print_master {
+
     th.views-field-field-event-date,
-    th.views-field-field-event-date {
+    th.views-field-field-event-date-1 {
       width: 10%;
     }
 
@@ -89,10 +106,16 @@
       width: 40%;
     }
 
-    td.views-field-title {
-      font-style: italic !important;
-    }
   }
 
+  .view-hr-events-calendar.view-display-id-print_week {
+    th.views-field-field-event-date,
+    th.views-field-field-event-date-1 {
+      width: 10%;
+    }
+    th.views-field-field-event-date-2 {
+      width: 5%;
+    }
+  }
 }
 
