@@ -8,7 +8,18 @@
 @import "global/helper";
 @import "global/mixin";
 
-@media print { 
+@media print {
+  #content-wrapper,
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100% !important;
+  }
+
+  body {
+    //font-family: 'Courier 10 Pitch', sans-serif;
+  }
+ 
   h1.title {
     font-family: 'Exo 2' !important;
     text-transform: uppercase;
