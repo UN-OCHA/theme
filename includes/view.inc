@@ -67,12 +67,16 @@ function _humanitarianresponse_views_get_facet_path($real_field, $value) {
 }
 
 function _humanitarianresponse_views_more_path($type, $view) {
+  $path = $type;
   $filter_keys = array_keys($view['view']->display['list']->display_options['filters']);
   foreach ($filter_keys as $key) {
     $val = $view['view']->filter[$key]->{'value'};
     if (!empty($val)) {
       if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter') {
         $path = 'node/'.$val[0].'/'.$type;
+        if ($type == 'events') {
+          $path .= '/list';
+        }
       }
       elseif ($key != 'type' && $key != 'status') {
         $segment = _humanitarianresponse_views_get_facet_path($view['view']->filter[$key]->real_field, $val[0]);
@@ -82,7 +86,7 @@ function _humanitarianresponse_views_more_path($type, $view) {
       }
     }
   }
-  return '<div class="more-link">'.l(t('more'), $path).'</div>';
+  return '<div class="more-link">'.l(t('view more'), $path).'</div>';
 }
 
 /**
@@ -94,6 +98,14 @@ function humanitarianresponse_views_more__hr_documents_panes__list($view) {
 
 function humanitarianresponse_views_more__hr_infographics_panes__list($view) {
   return _humanitarianresponse_views_more_path('infographics', $view);
+}
+
+function humanitarianresponse_views_more__hr_news_panes__list($view) {
+  return _humanitarianresponse_views_more_path('blog', $view);
+}
+
+function humanitarianresponse_views_more__hr_events_panes__upcoming($view) {
+  return _humanitarianresponse_views_more_path('events', $view);
 }
 
 /**
