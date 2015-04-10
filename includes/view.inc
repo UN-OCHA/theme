@@ -46,28 +46,54 @@ function humanitarianresponse_date_ical_icon($variables) {
   return '<li>'.l('ICAL', $variables['url']).'</li>';
 }
 
-function _humanitarianresponse_views_get_node_gid($nid) {
-  $space_nid = 0;
-  $node = node_load($nid);
-  if (!in_array($node->type, array('hr_space', 'hr_operation', 'hr_sector'))) {
-    $space_nid = $node->og_group_ref[LANGUAGE_NONE][0]['target_id'];
+/**
+ * Returns the facet path for a specific field and value
+ */
+function _humanitarianresponse_views_get_facet_path($real_field, $value) {
+  $adapter = facetapi_adapter_load('search_api@default_node_index');
+  $field_name = str_replace('_target_id', '', $real_field);
+  $args = array();
+  $args['adapter'] = $adapter;
+  $args['facet'] = facetapi_facet_load($field_name, 'search_api@default_node_index');
+  $segment = array();
+  $segment['value'] = $value;
+  $facet_settings = $adapter->getFacetSettingsGlobal($args['facet']);
+  $segment['alias'] = $facet_settings->settings['pretty_paths_alias'];
+  $args['segment'] = &$segment;
+  facetapi_pretty_paths_coder_callback('encodePathSegment', $args);
+  if (!empty($args['segment']['value'])) {
+    return $args['segment']['alias'].'/'.$args['segment']['value'];
   }
-  else {
-    $space_nid = $nid;
-  }
-  return $space_nid;
 }
+
+function _humanitarianresponse_views_more_path($type, $view) {
+  $filter_keys = array_keys($view['view']->display['list']->display_options['filters']);
+  foreach ($filter_keys as $key) {
+    $val = $view['view']->filter[$key]->{'value'};
+    if (!empty($val)) {
+      if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter') {
+        $path = 'node/'.$val[0].'/'.$type;
+      }
+      elseif ($key != 'type' && $key != 'status') {
+        $segment = _humanitarianresponse_views_get_facet_path($view['view']->filter[$key]->real_field, $val[0]);
+        if (!empty($segment)) {
+          $path .= '/'.$segment;
+        }
+      }
+    }
+  }
+  return '<div class="more-link">'.l(t('more'), $path).'</div>';
+}
+
 /**
  * More links
  */
 function humanitarianresponse_views_more__hr_documents_panes__list($view) {
-  $space_nid = _humanitarianresponse_views_get_node_gid(arg(1));
-  return '<div class="more-link">'.l(t('more'), 'node/'.$space_nid.'/documents').'</div>';
+  return _humanitarianresponse_views_more_path('documents', $view);
 }
 
 function humanitarianresponse_views_more__hr_infographics_panes__list($view) {
-  $space_nid = _humanitarianresponse_views_get_node_gid(arg(1));
-  return '<div class="more-link">'.l(t('more'), 'node/'.$space_nid.'/infographics').'</div>';
+  return _humanitarianresponse_views_more_path('infographics', $view);
 }
 
 /**
