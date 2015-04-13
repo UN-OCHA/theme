@@ -66,9 +66,9 @@ function _humanitarianresponse_views_get_facet_path($real_field, $value) {
   }
 }
 
-function _humanitarianresponse_views_more_path($type, $view) {
+function _humanitarianresponse_views_more_path($type, $display, $view) {
   $path = $type;
-  $filter_keys = array_keys($view['view']->display['list']->display_options['filters']);
+  $filter_keys = array_keys($view['view']->display[$display]->display_options['filters']);
   foreach ($filter_keys as $key) {
     $val = $view['view']->filter[$key]->{'value'};
     if (!empty($val)) {
@@ -78,7 +78,7 @@ function _humanitarianresponse_views_more_path($type, $view) {
           $path .= '/list';
         }
       }
-      elseif ($key != 'type' && $key != 'status') {
+      elseif ($key != 'type' && $key != 'status' && $key != 'date_filter') {
         $segment = _humanitarianresponse_views_get_facet_path($view['view']->filter[$key]->real_field, $val[0]);
         if (!empty($segment)) {
           $path .= '/'.$segment;
@@ -93,19 +93,19 @@ function _humanitarianresponse_views_more_path($type, $view) {
  * More links
  */
 function humanitarianresponse_views_more__hr_documents_panes__list($view) {
-  return _humanitarianresponse_views_more_path('documents', $view);
+  return _humanitarianresponse_views_more_path('documents', 'list', $view);
 }
 
 function humanitarianresponse_views_more__hr_infographics_panes__list($view) {
-  return _humanitarianresponse_views_more_path('infographics', $view);
+  return _humanitarianresponse_views_more_path('infographics', 'list', $view);
 }
 
 function humanitarianresponse_views_more__hr_news_panes__list($view) {
-  return _humanitarianresponse_views_more_path('blog', $view);
+  return _humanitarianresponse_views_more_path('blog', 'list', $view);
 }
 
 function humanitarianresponse_views_more__hr_events_panes__upcoming($view) {
-  return _humanitarianresponse_views_more_path('events', $view);
+  return _humanitarianresponse_views_more_path('events', 'upcoming', $view);
 }
 
 /**

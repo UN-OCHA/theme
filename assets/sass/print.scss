@@ -42,7 +42,6 @@
   table span {
     background-color: #F1F1F1 !important;
     border: 0 !important;
-    font-weight: bold !important;
   }
   table.table thead th,
   table.table thead span,
@@ -101,9 +100,11 @@
       font-family: 'Exo' !important;
     }
 
-    td.views-field-title {
-      font-style: italic !important;
+    td.views-field-field-event-date,
+    td.views-field-field-event-date-1 {
+      font-weight: bold;
     }
+
   }
 
   .view-hr-events-calendar.view-display-id-print_master {
