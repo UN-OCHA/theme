@@ -81,7 +81,7 @@
                                 border-radius: 0;
                                 border: 0 !important;
                         }
- 
+
                         &.active,
                         &.active:hover,
                         &:hover {
@@ -505,29 +505,46 @@
 			.content {
 				display: block;
 
-				    .current-reset-filter {
-				       height: 33px;
-				       line-height: 33px;
-				       color: #BC2E3C;
+		    .current-reset-filter {
+		       height: 33px;
+		       line-height: 33px;
+		       color: #BC2E3C;
 
-				         a {
-				           height: 28px;
-				           width: 19px;
-				           background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0);
-				           float: left;
-				           margin-right: 5px
-						   }
-				    }
+		         a {
+		           height: 28px;
+		           width: 19px;
+		           background: url(../images/cross.png) no-repeat center bottom rgba(0, 0, 0, 0);
+		           float: left;
+		           margin-right: 5px
+				   }
+		    }
 
-                    .current-search-filter {
-                       height: 33px;
-                       line-height: 33px;
-                    }
+        .current-search-filter {
+           height: 33px;
+           line-height: 38px;
+           font-weight: bold;
+        }
 
-                    .current-selected-item {
-                       color: #BC2E3C;
-                       list-style: none outside none;
-                    }
+				.current-search-item-active {
+					margin-top: 10px;
+  				margin-bottom: -8px;
+	        .current-selected-item {
+	           color: #BC2E3C;
+	           list-style: none outside none;
+	           li {
+	             margin-left: 0;
+	             a {
+	             	display: inline-block;
+	             	*display: inline;
+	             	*zoom: 1;
+	             	width: 18px;
+	             	height: 18px;
+	             	font-size: 0;
+	             	background: url(../images/bgfilteractive.png) no-repeat center center transparent
+	             }
+	           }
+	        }
+        }
 
 				.facetapi-active {
 				   font-weight: bold;
