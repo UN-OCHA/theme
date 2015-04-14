@@ -533,7 +533,11 @@
 	           list-style: none outside none;
 	           li {
 	             margin-left: 0;
+	             line-height: 22px;
+	             color: black;
+							 font-size: 0.8em;
 	             a {
+	             	margin-right: 6px;
 	             	display: inline-block;
 	             	*display: inline;
 	             	*zoom: 1;
