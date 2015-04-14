@@ -3841,4 +3841,8 @@ label { display: block; }
 
 .user-full .pane-user-picture i { font-size: 15em; background-color: #E1E1E1; margin-top: 40px; }
 
+.og-context-node-NID .fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid { background-image: url(../images/backgrounds/image_name.jpg); }
+
+.og-context-node .fieldable-panels-pane .node-teaser.node-hr-infographic .container-fluid { background-image: url(../images/backgrounds/BG_beige_grey.jpg); }
+
 /*# sourceMappingURL=screen.css.map */
