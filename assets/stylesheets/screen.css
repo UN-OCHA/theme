@@ -3270,7 +3270,8 @@ div.region-top div.block { display: inline-block; }
 #sidebar-first .block.block-current-search .content .current-search-item-active .current-selected-item { color: #BC2E3C; list-style: none outside none; }
 #sidebar-first .block.block-current-search .content .current-search-item-active .current-selected-item li { margin-left: 0; line-height: 22px; color: black; font-size: 0.8em; }
 #sidebar-first .block.block-current-search .content .current-search-item-active .current-selected-item li a { margin-right: 6px; display: inline-block; *display: inline; *zoom: 1; width: 18px; height: 18px; font-size: 0; background: url(../images/bgfilteractive.png) no-repeat center center transparent; }
-#sidebar-first .block.block-current-search .content .facetapi-active { font-weight: bold; color: #bc2e3c; }
+#sidebar-first .block.block-current-search .content .current-search-item-results .current-search-filter { line-height: 20px; font-weight: normal; }
+#sidebar-first .block.block-current-search .content .current-search-item-results .current-search-filter .facetapi-active { font-weight: bold; color: #bc2e3c; }
 #sidebar-first .block.block-current-search a { padding-left: 0; color: #BC2E3C; padding-right: 2px; }
 #sidebar-first .block.block-og-menu ul.menu > li.expanded { margin-bottom: 15px; padding-top: 12px; padding-bottom: 12px; }
 #sidebar-first .block.block-og-menu ul.menu li { background-color: #ececec; padding: 0 7px; }

@@ -550,9 +550,15 @@
 	        }
         }
 
-				.facetapi-active {
-				   font-weight: bold;
-				   color: $p-main;
+				.current-search-item-results {
+					.current-search-filter {
+						line-height: 20px;
+						font-weight: normal;
+						.facetapi-active {
+						   font-weight: bold;
+						   color: $p-main;
+						}
+					}
 				}
 			}
 
