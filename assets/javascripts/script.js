@@ -44,6 +44,25 @@
 			});
 		});
 
+		//Recherche Espace
+		if($('#views-exposed-form-hr-search-space').length > 0) {
+		  var inputsearch = $('#views-exposed-form-hr-search-space #edit-search-api-views-fulltext');
+		  var html = '';
+		  html+= '<div style="float: right; position: relative;"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>';
+		  html+= '<ul class="dropdown-menu changeSearch"><li rel-action="' + $('#views-exposed-form-hr-search-space').attr('action') + '" class="active"><a href="#">' + inputsearch.attr('placeholder') + '</a></li><li rel-action="/' + $('#block-locale-language .dropdown-toggle').text().trim().toLowerCase() + '/search" class=""><a href="#">' + Drupal.t('Search HR.info') + '</a></li></ul></div>';
+
+		  inputsearch.after(html);
+
+		  $('.changeSearch li').click(function(e) {
+		    e.preventDefault();
+		    $('.changeSearch li.active').removeClass('active');
+		    $(this).addClass('active');
+		    inputsearch.attr('placeholder', $(this).text());
+		    $("#views-exposed-form-hr-search-space").attr("action", $(this).attr("rel-action"));
+		  });
+		}
+
+
 	});
 
 	$(window).resize(function() {
