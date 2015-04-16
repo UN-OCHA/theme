@@ -3423,8 +3423,9 @@ body .region-branding .block { right: auto; left: 0; width: 100%; top: -4px; }
 body .region-branding .block .views-exposed-form .views-exposed-widget { float: right; }
 @media screen and (max-width: 768px) { body .region-branding .block .views-exposed-form .views-exposed-widget { float: left; } }
 body .region-branding .block .views-exposed-form .views-exposed-widget .search-select-wrapper { float: right; position: relative; }
-body .region-branding .block .views-exposed-form .views-exposed-widget .search-select-wrapper .dropdown-toggle { border: 0; background: none; padding: 6px 0px 6px 5px; }
-body .region-branding .block .views-exposed-form .views-exposed-widget .search-select-wrapper .dropdown-menu { right: 0; left: auto; }
+body .region-branding .block .views-exposed-form .views-exposed-widget .search-select-wrapper .dropdown-toggle { border: 0; background: none; padding: 6px 7px 8px; position: absolute; right: 0px; z-index: 12; }
+body .region-branding .block .views-exposed-form .views-exposed-widget .search-select-wrapper .dropdown-menu { right: 0; left: auto; top: 31px; }
+body .region-branding .block #views-exposed-form-hr-search-space button[type=submit] { padding-right: 22px; }
 @media screen and (max-width: 768px) { body .region-branding .block form { margin-right: 65px !important; } }
 body .region-branding input { /*&.form-submit {
 	border: none;

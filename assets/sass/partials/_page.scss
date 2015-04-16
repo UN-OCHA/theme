@@ -340,12 +340,22 @@ body .region-branding {
 				.dropdown-toggle {
 					border: 0;
 				  background: none;
-				  padding: 6px 0px 6px 5px;
+				  padding: 6px 7px 8px;
+  				position: absolute;
+				  right: 0px;
+				  z-index: 12;
 				}
 				.dropdown-menu {
 					right: 0;
  				  left: auto;
+ 				  top: 31px;
 				}
+			}
+		}
+
+		#views-exposed-form-hr-search-space {
+			button[type=submit] {
+				padding-right: 22px;
 			}
 		}
 
