@@ -86,6 +86,11 @@
   }
 
   .page-node-events-print {
+    thead,
+    tfoot {
+      display: table-row-group !important;
+    }
+
     h1.title {
       .hr-events-location {
         color: #2a5d81 !important;
