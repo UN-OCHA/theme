@@ -113,11 +113,15 @@ function humanitarianresponse_views_more__hr_events_panes__upcoming($view) {
  * Override the pager for the printable calendar. See http://atrium.humanitarianresponse.info/humanitarian_response/node/4466
  */
 function humanitarianresponse_preprocess_date_views_pager(&$vars) {
+  global $language;
   $view = $vars['plugin']->view;
   if ($view->name == 'hr_events_calendar') {
     if ($view->current_display == 'print_week') {
       $date_info = $view->date_info;
       $format = 'F d, Y';
+      if ($language->language != 'en') {
+        $format = 'd F Y';
+      }
       $title = t('@mindate to @maxdate', array('@mindate' => date_format_date($date_info->min_date, 'custom', $format), '@maxdate' => date_format_date($date_info->max_date, 'custom', $format)));
       $vars['nav_title'] = $title;
       $vars['prev_url'] = '';
