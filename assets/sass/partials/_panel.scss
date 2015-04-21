@@ -42,7 +42,11 @@
 	}
 }
 
-
+.pane-views-panes {
+  .item-list ul li {
+    margin: 0;
+  }
+}
 
 .hr-highlighted {
 	background-color: #F9F9F9;
@@ -85,14 +89,14 @@
 
   .field-name-field-infographics.field-type-entityreference {
 
-    .field-item{
+    .field-item .node {
       margin-bottom: 1em;
     }
   }
 
   .field-name-field-documents.field-type-entityreference {
 
-    .field-item{
+    .field-item .node {
       margin-bottom: 1em;
     }
   }
