@@ -3843,7 +3843,7 @@ label { display: block; }
 
 #block-hr-operations-operations-status .content .operation-status { border-radius: 10px; text-align: center; color: white; position: relative; text-transform: uppercase; font-weight: bold; font-style: italic; padding: 8px; background-color: #54b1c8; font-family: Exo; font-size: 1.1em; }
 #block-hr-operations-operations-status .content .operation-status.archived { background-color: #bc2e3c; }
-#block-hr-operations-operations-status .content .operation-status i { position: absolute; right: 10px; top: 50%; border: 2px solid white; width: 20px; height: 20px; border-radius: 20px; line-height: 18px; margin-top: -10px; }
+#block-hr-operations-operations-status .content .operation-status i { display: block; position: absolute; right: 10px; top: 50%; border: 2px solid white; width: 20px; height: 20px; border-radius: 20px; line-height: 18px; margin-top: -10px; }
 
 .user-teaser h3 { display: none; }
 
