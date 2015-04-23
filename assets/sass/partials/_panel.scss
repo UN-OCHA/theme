@@ -40,6 +40,24 @@
 			}
 		}
 	}
+
+	.pane-hr-operations-home-pane,
+	.pane-hr-spaces-home-pane {
+		.view-content {
+			max-height: 400px;
+			overflow-y: scroll;
+			.views-row .views-field.views-field-title-field a {
+				color: black;
+				font-weight: normal;
+			}
+		}
+	}
+
+	@media screen and (min-width: $screen-lg)  {
+		.pane-hr-spaces-home-pane {
+			margin-top: 120px;
+		}
+	}
 }
 
 .pane-views-panes {
