@@ -3318,9 +3318,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 @media screen and (max-width: 992px) { .front .panel-pane .row { width: 50%; float: left; margin: 0; }
   .front .panel-pane .row .col-sm-6.text-center { text-align: left; width: 100px; }
   .front .panel-pane br { display: none; } }
-.front .pane-hr-operations-home-pane .view-content, .front .pane-hr-spaces-home-pane .view-content { max-height: 400px; overflow-y: scroll; }
-.front .pane-hr-operations-home-pane .view-content .views-row .views-field.views-field-title-field a, .front .pane-hr-spaces-home-pane .view-content .views-row .views-field.views-field-title-field a { color: black; font-weight: normal; }
-@media screen and (min-width: 1200px) { .front .pane-hr-spaces-home-pane { margin-top: 120px; } }
+.front .pane-hr-operations-operations-dropdown .pane-content a { color: black; font-weight: normal; }
 
 .pane-views-panes .item-list ul li { margin: 0; }
 
