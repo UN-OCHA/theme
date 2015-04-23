@@ -590,4 +590,35 @@
   }
 }
 
+#block-hr-operations-operations-status {
+  .content {
+    .operation-status {
+      border-radius: 10px;
+      text-align: center;
+      color:white;
+      position: relative;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-style: italic;
+      padding: 8px;
+      background-color: $p-comp-old;
+      font-family: Exo;
+      font-size: 1.1em;
+      &.archived {
+        background-color: $p-main;
+      }
+      i {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        border: 2px solid white;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        line-height: 18px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
 
