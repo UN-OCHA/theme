@@ -29,7 +29,7 @@
               <?php print $hr_favorite_spaces; ?>
               <ul id="hr-space-tab" class="nav nav-tabs navbar-left">
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> HR <span class="caret"></span></a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> MENU <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <?php print render($main_menu_dropdown); ?>
                   </ul>
