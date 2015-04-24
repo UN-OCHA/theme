@@ -3812,7 +3812,6 @@ label { display: block; }
 .node-type-hr-operation .hr-highlighted .pane-content ul { padding-left: 19px; }
 .node-type-hr-operation .hr-highlighted .pane-content ul li { margin-bottom: 5px; color: #333333; }
 .node-type-hr-operation .pane-hr-documents-panes-list .view, .node-type-hr-operation .pane-hr-infographics-panes-list .view { margin: 0 !important; }
-.node-type-hr-operation .pane-hr-documents-panes-list .view ul, .node-type-hr-operation .pane-hr-infographics-panes-list .view ul { padding-left: 0; }
 
 #block-hr-layout-hr-layout-share-links .content { border-radius: 10px; background-color: #bbd9e1; color: #0fa4de; padding: 10px; }
 #block-hr-layout-hr-layout-share-links .content h2 { margin: 0 0 -10px; text-align: center; font-weight: bold; font-size: 1.1em; }
