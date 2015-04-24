@@ -29,10 +29,10 @@
               <?php print $hr_favorite_spaces; ?>
               <ul id="hr-space-tab" class="nav nav-tabs navbar-left">
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> MENU <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
+                  <!--<a class="dropdown-toggle" data-toggle="dropdown" href="#"> MENU <span class="caret"></span></a>
+                  <ul class="dropdown-menu">-->
                     <?php print render($main_menu_dropdown); ?>
-                  </ul>
+                  <!--</ul>-->
                 </li>
                 <?php if ($hr_tabs): ?>
                   <?php $num_hr_tabs = count($hr_tabs); foreach ($hr_tabs as $i => $hr_tab) { ?>

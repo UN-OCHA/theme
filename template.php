@@ -32,8 +32,12 @@ function humanitarianresponse_css_alter(&$css) {
 function humanitarianresponse_preprocess_page(&$variables) {
   global $theme_path;
   $tree = menu_tree_page_data('main-menu', 1);
-  $main_menu_dropdown = menu_tree_output($tree);
-  $main_menu_dropdown['#theme_wrappers'] = array();
+  $main_menu_dropdown = '<select id="hr-menu-dropdown" data-placeholder=" MENU "><option value="_none"></option>';
+  $labels = _hr_operations_get_active_operation_labels();
+  foreach ($labels as $nid => $label) {
+    $main_menu_dropdown .= '<option value="'.drupal_get_path_alias('node/'.$nid).'">'.$label.'</option>';
+  }
+  $main_menu_dropdown .= '</select>';
   $variables['main_menu_dropdown'] = $main_menu_dropdown;
   $variables['hr_tabs'] = array();
   $header_img_path = $theme_path.'/assets/images/headers/general.png';

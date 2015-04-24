@@ -20,7 +20,8 @@
 .nav-tabs {
         background-color: $tabs-background;
 
-	> li > a {
+	> li > a,
+	a.chosen-single {
 		padding: 4px 15px;
                 text-transform: uppercase;
                 font-weight: bold;
@@ -33,6 +34,8 @@
                 margin: 0;
                 border:none;
                 font-family: $font-family-sans-serif;
+		box-shadow: none;
+		height: 100%;
 
                 &.active, &:hover {
                         border:none;
@@ -43,7 +46,8 @@
 
         > li.active > a,
         > li.active > a:hover,
-        > li.active > a:focus {
+        > li.active > a:focus,
+	a.chosen-single {
                 color: $tabs-active-text;
                 background-color: $tabs-active-background;
         }
@@ -61,7 +65,8 @@
                         float:none;
                 }
 
-                > a {
+                > a,
+		a.chosen-single {
                         padding: 4px 15px;
                         text-transform: uppercase;
                         font-weight: 600;
@@ -196,7 +201,8 @@
 }
 
 .navbar {
-	button, a.btn.btn-default {
+	button,
+        a.btn.btn-default {
 		background-color: #aeadad;
 		color: white;
 		border: 0;
@@ -241,6 +247,7 @@
  		}
 
 	}
+
 
 }
 
