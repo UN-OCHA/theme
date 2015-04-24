@@ -316,6 +316,7 @@ a.fc-event, .fc-event-draggable {
             display:block;
 			height: auto;
 			min-height: 100%;
+			position: absolute;
 		}
 
 		.full div.single-day div.weekview div.views-field.views-field-title a  {
@@ -392,16 +393,6 @@ a.fc-event, .fc-event-draggable {
 			margin-top: -5px;
 			padding-left: 0px;
 			font-size: 10px;
-		}
-
-		div.single-day .view-item {
-			width: auto;
-			background: none repeat scroll 0% 0% transparent;
-			text-align: left;
-			position: relative;
-			float: right;
-			margin-top: -70px;
-			display: block;
 		}
 	}
 
