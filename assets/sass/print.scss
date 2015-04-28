@@ -112,6 +112,13 @@
 
   }
 
+  .page-node-contacts-print {
+    thead,
+    tfoot {
+      display: table-row-group !important;
+    }
+  }
+
   .view-hr-events-calendar.view-display-id-print_master {
 
     th.views-field-field-event-date,
