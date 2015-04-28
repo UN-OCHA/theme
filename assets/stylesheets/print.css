@@ -11,6 +11,7 @@
   table.table tbody th, table.table tbody td, table.table tbody span, table.table tbody div, table tbody th, table tbody td, table tbody span, table tbody div { color: #494949 !important; }
   .badge-rrule, table tbody span.badge-rrule { background-color: #0fa4de !important; color: white !important; }
   .avoid { page-break-inside: avoid !important; }
+  .page-node-contacts-print thead, .page-node-contacts-print tfoot { display: table-row-group !important; }
   .page-node-events-print thead, .page-node-events-print tfoot { display: table-row-group !important; }
   .page-node-events-print h1.title .hr-events-location { color: #2a5d81 !important; }
   .page-node-events-print .view-header, .page-node-events-print h3 { text-transform: uppercase; color: #54b1c8 !important; font-weight: bold; font-family: 'Exo' !important; }
