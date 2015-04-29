@@ -31,12 +31,35 @@ function humanitarianresponse_css_alter(&$css) {
  */
 function humanitarianresponse_preprocess_page(&$variables) {
   global $theme_path;
+  // Include chosen on all pages for dropdown menu
+  drupal_add_library('chosen', 'drupal.chosen');
   $tree = menu_tree_page_data('main-menu', 1);
   $main_menu_dropdown = '<select id="hr-menu-dropdown" data-placeholder=" MENU "><option value="_none"></option>';
-  $labels = _hr_operations_get_active_operation_labels();
-  foreach ($labels as $nid => $label) {
-    $main_menu_dropdown .= '<option value="'.drupal_get_path_alias('node/'.$nid).'">'.$label.'</option>';
+  $main_menu_dropdown .= '<optgroup label="'.t('Main menu').'">';
+  foreach ($tree as $link) {
+    $main_menu_dropdown .= '<option value="'.url($link['link']['link_path'], array('absolute' => TRUE)).'">'.$link['link']['link_title'].'</option>';
   }
+  $main_menu_dropdown .= '</optgroup>';
+  $labels = _hr_operations_get_active_operation_labels();
+  $main_menu_dropdown .= '<optgroup label="'.t('Operations').'">';
+  foreach ($labels as $path => $label) {
+    $main_menu_dropdown .= '<option value="'.$path.'">'.$label.'</option>';
+  }
+  $main_menu_dropdown .= '</optgroup>';
+  $space_types = array(
+    'coordination' => t('Coordination'),
+    'programme_cycle' => t('Programme Cycle'),
+    'topic' => t('Topics'),
+    'application' => t('Application'),
+  );
+  foreach ($space_types as $type => $title) {
+    $labels = _hr_spaces_get_space_labels($type);
+    $main_menu_dropdown .= '<optgroup label="'.$title.'">';
+    foreach ($labels as $path => $label) {
+      $main_menu_dropdown .= '<option value="'.$path.'">'.$label.'</option>';
+    }
+  }
+  $main_menu_dropdown .= '</optgroup>'; 
   $main_menu_dropdown .= '</select>';
   $variables['main_menu_dropdown'] = $main_menu_dropdown;
   $variables['hr_tabs'] = array();

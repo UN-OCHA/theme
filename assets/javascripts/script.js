@@ -62,6 +62,11 @@
 		  });
 		}
 
+		// Make dropdown menu work
+		$("#hr-menu-dropdown").chosen().change(function() {
+		    document.location.href = $("#hr-menu-dropdown").val();
+		});
+
 
 	});
 
