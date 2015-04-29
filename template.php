@@ -34,7 +34,7 @@ function humanitarianresponse_preprocess_page(&$variables) {
   // Include chosen on all pages for dropdown menu
   drupal_add_library('chosen', 'drupal.chosen');
   $tree = menu_tree_page_data('main-menu', 1);
-  $main_menu_dropdown = '<select id="hr-menu-dropdown" data-placeholder=" MENU "><option value="_none"></option>';
+  $main_menu_dropdown = '<select id="hr-menu-dropdown" data-placeholder=" MENU " class="hr-goto-dropdown"><option value="_none"></option>';
   $main_menu_dropdown .= '<optgroup label="'.t('Main menu').'">';
   foreach ($tree as $link) {
     $main_menu_dropdown .= '<option value="'.url($link['link']['link_path'], array('absolute' => TRUE)).'">'.$link['link']['link_title'].'</option>';

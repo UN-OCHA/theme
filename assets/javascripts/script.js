@@ -63,8 +63,8 @@
 		}
 
 		// Make dropdown menu work
-		$("#hr-menu-dropdown").chosen().change(function() {
-		    document.location.href = $("#hr-menu-dropdown").val();
+		$(".hr-goto-dropdown").on('change', function(evt, params) {
+		    document.location.href = $(this).val();
 		});
 
 
