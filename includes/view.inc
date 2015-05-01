@@ -108,6 +108,10 @@ function humanitarianresponse_views_more__hr_events_panes__upcoming($view) {
   return _humanitarianresponse_views_more_path('events', 'upcoming', $view);
 }
 
+function humanitarianresponse_views_more__hr_assessments_panes__list($view) {
+  return _humanitarianresponse_views_more_path('assessments', 'list', $view);
+}
+
 /**
  * Preprocess function for Date pager template.
  * Override the pager for the printable calendar. See http://atrium.humanitarianresponse.info/humanitarian_response/node/4466
