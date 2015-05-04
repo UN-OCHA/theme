@@ -3,7 +3,7 @@
   h1.title { font-family: 'Exo' !important; text-transform: uppercase; color: #54b1c8 !important; }
   table.table, table { background-color: #F1F1F1 !important; border: 0 !important; }
   table thead tr { border: 0 !important; }
-  table.table td, table.table th, table.table span, table td, table th, table span { background-color: #F1F1F1 !important; border: 0 !important; }
+  table.table td, table.table th, table.table span, table td, table th, table span { background-color: #F1F1F1 !important; border: 0 !important; page-break-inside: avoid !important; }
   table.table thead th, table.table thead span, table thead th, table thead span { background-color: #54b1c8 !important; color: #fff !important; text-transform: uppercase; font-weight: bold !important; border: 0 !important; font-family: 'Exo' !important; }
   table.table.table-striped > tbody > tr:nth-child(odd), table.table-striped > tbody > tr:nth-child(odd) { background-color: #fafafa !important; }
   table.table.table-striped > tbody > tr:nth-child(odd) td, table.table.table-striped > tbody > tr:nth-child(odd) th, table.table.table-striped > tbody > tr:nth-child(odd) span, table.table-striped > tbody > tr:nth-child(odd) td, table.table-striped > tbody > tr:nth-child(odd) th, table.table-striped > tbody > tr:nth-child(odd) span { background-color: #fafafa !important; }

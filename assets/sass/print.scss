@@ -42,6 +42,7 @@
   table span {
     background-color: #F1F1F1 !important;
     border: 0 !important;
+    page-break-inside: avoid !important;
   }
   table.table thead th,
   table.table thead span,
