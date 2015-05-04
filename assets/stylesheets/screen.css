@@ -3670,6 +3670,7 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .calendar-calendar th.days { background-color: #7dc2d2; padding-top: 5px; padding-bottom: 5px; color: white; border: none; height: 30px; }
 .calendar-calendar tr.sp_bottom { background-color: transparent; }
 .calendar-calendar tr.sp_bottom td.sp { border: none; height: 30px; display: block; background-color: transparent; }
+.calendar-calendar .table-responsive { overflow-x: inherit; }
 
 .view-header { float: left; width: 100%; }
 .view-header .title-nav { display: block; float: left; overflow: hidden; text-align: center; }

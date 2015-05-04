@@ -537,6 +537,10 @@ a.fc-event, .fc-event-draggable {
 	       background-color: transparent;
 	    }
 	}
+
+	.table-responsive {
+		overflow-x: inherit;
+	}
 }
 
 .view-header {
@@ -598,6 +602,7 @@ a.fc-event, .fc-event-draggable {
           background-color:transparent;
           padding-left: 2px;
         }
+
 }
 
 
