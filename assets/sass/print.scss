@@ -30,6 +30,11 @@
   table {
     background-color: #F1F1F1 !important;
     border: 0 !important;
+    overflow: visible !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
   }
 
   table thead tr {
@@ -42,7 +47,6 @@
   table span {
     background-color: #F1F1F1 !important;
     border: 0 !important;
-    page-break-inside: avoid !important;
   }
   table.table thead th,
   table.table thead span,
