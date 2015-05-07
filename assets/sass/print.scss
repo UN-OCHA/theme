@@ -26,11 +26,14 @@
     color: #54b1c8 !important;
   }
 
+  .table-responsive {
+    overflow: visible !important;
+  }
+
   table.table,
   table {
     background-color: #F1F1F1 !important;
     border: 0 !important;
-    overflow: visible !important;
   }
 
   tr {
@@ -91,10 +94,6 @@
   }
 
   .page-node-events-print {
-    thead,
-    tfoot {
-      display: table-row-group !important;
-    }
 
     h1.title {
       .hr-events-location {
@@ -115,13 +114,6 @@
       font-weight: bold;
     }
 
-  }
-
-  .page-node-contacts-print {
-    thead,
-    tfoot {
-      display: table-row-group !important;
-    }
   }
 
   .view-hr-events-calendar.view-display-id-print_master {
