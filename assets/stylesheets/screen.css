@@ -3079,7 +3079,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1429619951') no-repeat right 8px #fff !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1431033160') no-repeat right 8px #fff !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3630,6 +3630,16 @@ a.fc-event, .fc-event-draggable { border: 1px solid #FFF; box-shadow: 1px 2px 3p
 a.fc-event .fc-event-inner .fc-event-time, .fc-event-draggable .fc-event-inner .fc-event-time { padding: 4px 5px; background-color: #e0e0e0; color: #525252; display: block; font-weight: normal; border: 0; border-radius: 10px 10px 0px 0px; border-bottom: 1px solid #FFF; }
 a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner .fc-event-title { padding: 4px 5px; display: block; }
 
+@media screen and (max-width: 768px) { .calendar-calendar table, .calendar-calendar tbody, .calendar-calendar thead, .calendar-calendar th, .calendar-calendar td, .calendar-calendar tr { display: block; width: 100%; }
+  .calendar-calendar .month-view table.full { position: relative; }
+  .calendar-calendar .month-view .full tr td { width: 100%; float: left; text-align: left; }
+  .calendar-calendar .month-view .full tr.single-day { border-top: 1px solid #ccc; }
+  .calendar-calendar .month-view .full tr td.single-day.past { display: block; }
+  .calendar-calendar .month-view .full td.single-day div.monthview { position: relative; width: 100%; right: 30%; top: 10%; }
+  .calendar-calendar .month-view .full tr td.single-day:before { content: attr(data-day-of-month) ", " attr(headers); font-weight: bold; }
+  .calendar-calendar .month-view .full thead tr, .calendar-calendar .month-view .full tr th.days, .calendar-calendar .month-view .full tr td.date-box { display: none; }
+  .calendar-calendar .month-view .full tr td.no-entry, .calendar-calendar .month-view .full tr td.empty { display: block; }
+  .calendar-calendar th.days { display: none; } }
 .calendar-calendar { background-color: transparent; border: none; float: left; width: 100%; }
 .calendar-calendar .month-view .full td.single-day div.monthview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; margin: 15px 0px 15px 0px; }
 .calendar-calendar .month-view .full td.single-day div.monthview div.views-field.views-field-title a { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; padding-bottom: 0.5em; padding-top: 0.5em; }
