@@ -222,7 +222,6 @@ a.fc-event, .fc-event-draggable {
 	.calendar-calendar td,
 	.calendar-calendar tr {
 		display: block;
-		width: 100%;
 	}
 
 	.calendar-calendar .month-view table.full {
@@ -233,21 +232,31 @@ a.fc-event, .fc-event-draggable {
 		width: 100%;
 		float: left;
 		text-align: left;
-    }
+		display: block;
+	}
 
 	.calendar-calendar .month-view .full tr.single-day {
 		border-top: 1px solid #ccc;
     }
 
-	.calendar-calendar .month-view .full tr td.single-day.past {
+    .calendar-calendar .month-view .full tr td.multi-day.past {
+     display: none;
+	}
+
+    .calendar-calendar .month-view .full tr td.multi-day.future {
 		display: block;
+    }
+
+	.calendar-calendar .month-view .full td, .calendar-calendar .week-view .full td, .calendar-calendar .day-view td {
+		padding: 10px 2px 0px;
 	}
 
 	.calendar-calendar .month-view .full td.single-day div.monthview {
-		position: relative;
+		float: right;
 		width: 100%;
 		right: 30%;
 		top: 10%;
+		margin: 2px 0px;
     }
 
 	.calendar-calendar .month-view .full tr td.single-day:before {
@@ -257,21 +266,35 @@ a.fc-event, .fc-event-draggable {
 
 	.calendar-calendar .month-view .full thead tr,
 	.calendar-calendar .month-view .full tr th.days,
-	.calendar-calendar .month-view .full tr td.date-box {
-		display: none;
-	}
-
+	.calendar-calendar .month-view .full tr td.date-box,
 	.calendar-calendar .month-view .full tr td.no-entry,
 	.calendar-calendar .month-view .full tr td.empty {
-		display: block;
+		display: none;
 	}
 
-	.calendar-calendar th.days {
+	.calendar-calendar sp {
 		display: none;
+	}
+
+	.calendar-calendar .month-view .full tr td.multi-day, .calendar-calendar .month-view .full tr td.date-box {
+		height : 19px;
+		max-height : 19px;
+    }
+
+	.calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents {
+		position: relative;
+		width: auto;
+		left: 3px;
+		color: #777;
+		margin-right: 6px;
+	}
+
+	.calendar-calendar .month-view .full tr.date-box, .calendar-calendar .month-view .full tr.date-box td, .calendar-calendar .month-view .full tr.multi-day, .calendar-calendar .month-view .full tr.multi-day td {
+		height: 100%;
+		max-height: none;
 	}
 
 }
-
 .calendar-calendar {
    background-color: transparent;
    border: none;
