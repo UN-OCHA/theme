@@ -302,8 +302,6 @@ a.fc-event, .fc-event-draggable {
 		display: block;
 	}
 
-
-
 	.calendar-calendar .day-view #multi-day-container table td {
 		border-top: 0px none;
 		border-bottom: 0px none;
@@ -332,7 +330,24 @@ a.fc-event, .fc-event-draggable {
 		right: 80px;
 	}
 
+	.calendar-calendar .week-view table {
+		width: 100%;
+		margin: 0px;
+		display: block;
+	}
+
+	.calendar-calendar .week-view thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.calendar-calendar .week-view td:before {
+		display: none;
+	}
+
 }
+
 .calendar-calendar {
    background-color: transparent;
    border: none;
