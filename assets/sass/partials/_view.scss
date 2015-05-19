@@ -177,67 +177,6 @@
 
 //calendar
 
-//month-view mobile
-
-@media screen and (max-width : $screen-sm) {
-
-	.calendar-calendar table,
-	.calendar-calendar tbody,
-	.calendar-calendar thead,
-	.calendar-calendar th,
-	.calendar-calendar td,
-	.calendar-calendar tr {
-		display: block;
-		width: 100%;
-	}
-
-	.calendar-calendar .month-view table.full {
-		position: relative;
-	}
-
-	.calendar-calendar .month-view .full tr td {
-		width: 100%;
-		float: left;
-		text-align: left;
-    }
-
-	.calendar-calendar .month-view .full tr.single-day {
-		border-top: 1px solid #ccc;
-    }
-
-	.calendar-calendar .month-view .full tr td.single-day.past {
-		display: block;
-	}
-
-	.calendar-calendar .month-view .full td.single-day div.monthview {
-		position: relative;
-		width: 100%;
-		right: 30%;
-		top: 10%;
-    }
-
-	.calendar-calendar .month-view .full tr td.single-day:before {
-		content: attr(data-day-of-month) ",\0000a0" attr(headers);
-		font-weight: bold;
-	}
-
-	.calendar-calendar .month-view .full thead tr,
-	.calendar-calendar .month-view .full tr th.days,
-	.calendar-calendar .month-view .full tr td.date-box {
-		display: none;
-	}
-
-	.calendar-calendar .month-view .full tr td.no-entry,
-	.calendar-calendar .month-view .full tr td.empty {
-		display: block;
-	}
-
-	.calendar-calendar th.days {
-		display: none;
-	}
-
-}
-
 .page-node-events #block-system-main {
 	.pane-title {
 		display: none;
@@ -270,6 +209,143 @@ a.fc-event, .fc-event-draggable {
 			display: block;
 		}
 	}
+}
+
+//month-view mobile
+
+@media screen and (max-width : $screen-sm) {
+
+	.calendar-calendar table,
+	.calendar-calendar tbody,
+	.calendar-calendar thead,
+	.calendar-calendar th,
+	.calendar-calendar td,
+	.calendar-calendar tr {
+		display: block;
+	}
+
+	.calendar-calendar .month-view table.full {
+		position: relative;
+	}
+
+	.calendar-calendar .month-view .full tr td {
+		width: 100%;
+		float: left;
+		text-align: left;
+		display: block;
+	}
+
+	.calendar-calendar .month-view .full tr.single-day {
+		border-top: 1px solid #ccc;
+    }
+
+    .calendar-calendar .month-view .full tr td.multi-day.past {
+     display: none;
+	}
+
+    .calendar-calendar .month-view .full tr td.multi-day.future {
+		display: block;
+    }
+
+	.calendar-calendar .month-view .full td, .calendar-calendar .week-view .full td, .calendar-calendar .day-view td {
+		padding: 10px 2px 0px;
+	}
+
+	.calendar-calendar .month-view .full td.single-day div.monthview {
+		float: right;
+		width: 100%;
+		right: 30%;
+		top: 10%;
+		margin: 2px 0px;
+    }
+
+	.calendar-calendar .month-view .full tr td.single-day:before {
+		content: attr(data-day-of-month) ",\0000a0" attr(headers);
+		font-weight: bold;
+	}
+
+	.calendar-calendar .month-view .full thead tr,
+	.calendar-calendar .month-view .full tr th.days,
+	.calendar-calendar .month-view .full tr td.date-box,
+	.calendar-calendar .month-view .full tr td.no-entry,
+	.calendar-calendar .month-view .full tr td.empty {
+		display: none;
+	}
+
+	.calendar-calendar sp {
+		display: none;
+	}
+
+	.calendar-calendar .month-view .full tr td.multi-day, .calendar-calendar .month-view .full tr td.date-box {
+		height : 19px;
+		max-height : 19px;
+    }
+
+	.calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents {
+		position: relative;
+		width: auto;
+		left: 3px;
+		color: #777;
+		margin-right: 6px;
+	}
+
+	.calendar-calendar .month-view .full tr.date-box, .calendar-calendar .month-view .full tr.date-box td, .calendar-calendar .month-view .full tr.multi-day, .calendar-calendar .month-view .full tr.multi-day td {
+		height: 100%;
+		max-height: none;
+	}
+
+
+	.calendar .day-view .full div.calendar-agenda-hour {
+		height: 47px;
+		float: left;
+		border-top: 1px solid #CCC;
+		display: block;
+	}
+
+	.calendar-calendar .day-view #multi-day-container table td {
+		border-top: 0px none;
+		border-bottom: 0px none;
+		vertical-align: top;
+		width: 14%;
+		display: block;
+		float: left;
+	}
+
+	.calendar-calendar .day-view .full td.multi-day div.dayview {
+		float: left;
+		width: auto;
+		right: 70px;
+	}
+
+	.calendar-calendar .full tr td:nth-child(2n+1) {
+		background: none repeat scroll 0% 0% #DAE9EE;
+	}
+
+	.calendar-calendar .day-view #single-day-container table td {
+		float: left;
+	}
+
+	.calendar-calendar .day-view .full div.single-day div.dayview {
+		float: left;
+		right: 80px;
+	}
+
+	.calendar-calendar .week-view table {
+		width: 100%;
+		margin: 0px;
+		display: block;
+	}
+
+	.calendar-calendar .week-view thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.calendar-calendar .week-view td:before {
+		display: none;
+	}
+
 }
 
 .calendar-calendar {
@@ -538,7 +614,7 @@ a.fc-event, .fc-event-draggable {
 			display:block;
 			height: 157px !important;
 			min-height: 100%;
-			width: 15%;
+			width: auto;
 			padding-left: 3px;
 			padding-right: 3px;
 			padding-top: 2px;
