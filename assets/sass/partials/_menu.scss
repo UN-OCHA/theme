@@ -326,6 +326,7 @@
 					background-color: rgba(0, 0, 0, 0.06);
 					top: 28px;
 					height: 33px;
+					display: none;
 
 					@media screen and (max-width : $screen-sm) {
 						position: static;
