@@ -3651,6 +3651,11 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .calendar-calendar .month-view .full td .inner div.calendar.monthview div a:first-child { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; padding-bottom: 0.5em; padding-top: 0.5em; }
 .calendar-calendar .month-view .full td.single-day div.monthview div.views-field.views-field-field-email a { background: transparent; background-color: #fff; color: #0fa4de; margin-top: -5px; padding-left: 0px; font-size: 10px; }
 .calendar-calendar .month-view .full td.single-day div.monthview div.views-field.views-field-field-user a { background: transparent; background-color: #fff; color: #0fa4de; margin-top: -5px; padding-left: 0px; font-size: 10px; }
+.calendar-calendar .month-view .date-box.past { background-color: #f4f4f4; }
+.calendar-calendar .month-view .single-day.past { background-color: #f4f4f4; }
+.calendar-calendar .month-view .full td.date-box.today { border-width: 5px 4px 0px; border-style: solid; border-color: #6A6B68; }
+.calendar-calendar .month-view .full tr td.multi-day.starts-today { border-left: 4px solid #6A6B68; }
+.calendar-calendar .month-view .full tr td.single-day.today { border-bottom: 4px solid #6A6B68; border-left: 4px solid #6A6B68; border-right: 4px solid #6A6B68; }
 .calendar-calendar .week-view .full div.single-day div.weekview { background-color: #ffffff; box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); border-radius: 5px 5px 5px 5px !important; margin: 15px 0px 15px 0px; border: none; display: block; height: auto; min-height: 100%; }
 .calendar-calendar .week-view .full div.single-day div.weekview div.views-field.views-field-title a { background: transparent; background-color: #54B1C8; display: block; color: #ffffff; font-size: 11px; margin-top: 3px; border-radius: 5px 5px 0px 0px !important; padding-left: 2px; padding-bottom: 0.5em; padding-top: 0.5em; }
 .calendar-calendar .week-view td span.date-display-single { font-weight: bold; display: block; background-color: #e0e0e0; color: #525252; padding-left: 2px; margin-top: 1px; }
