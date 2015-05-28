@@ -3501,13 +3501,12 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .Clusters-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover, #hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover, #hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover, #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background-image: url('../images/icons/38/Clusters-sdabcfc3cf0.png'); background-repeat: no-repeat; }
 
 .front .panel-pane { margin-bottom: 30px; }
-.front .panel-pane .pane-title { font-size: 13px; color: #bc2e3c; border-bottom: 1px dotted #bc2e3c; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
+.front .panel-pane .pane-title { font-size: 13px; color: #767676; border-bottom: 1px dotted #767676; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
 .front .panel-pane .pane-content a { color: #bc2e3c; }
 @media screen and (max-width: 992px) { .front .panel-pane .row { width: 50%; float: left; margin: 0; }
   .front .panel-pane .row .col-sm-6.text-center { text-align: left; width: 100px; }
   .front .panel-pane br { display: none; } }
 .front .pane-1 { min-height: 100px; }
-.front .pane-hr-operations-operations-dropdown .pane-content a { color: black; font-weight: normal; }
 
 .pane-views-panes .item-list ul li { margin: 0; }
 

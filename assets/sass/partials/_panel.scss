@@ -12,8 +12,8 @@
 
 		.pane-title {
 			font-size: 13px;
-			color: $p-main;
-			border-bottom: 1px dotted $p-main;
+			color: $pane-title;
+			border-bottom: 1px dotted $pane-title;
 			text-transform: uppercase;
 			font-weight: bold;
 			padding-bottom: 7px;
@@ -45,10 +45,6 @@
 		min-height: 100px;
 	}
 
-	.pane-hr-operations-operations-dropdown .pane-content a {
-		color: black;
-		font-weight: normal;
-	}
 }
 
 .pane-views-panes {
