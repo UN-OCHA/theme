@@ -3079,7 +3079,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1422450318') no-repeat right 8px #fff !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1429619951') no-repeat right 8px #fff !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3496,10 +3496,6 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
   td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 35%; padding-right: 10px; text-align: left; font-weight: bold; }
   /* Label the data */
   td:before { content: attr(data-title); } }
-.global-clusters-select-bottom-justify { margin-top: 60px; }
-
-.view-all-hr-layout-key-documents { margin-top: 45px; }
-
 .grey-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label, #hr-bundles-layer-switcher input[value="Education"] + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label, #hr-bundles-layer-switcher input[value="Food Security"] + label, #hr-bundles-layer-switcher input[value="Health"] + label, #hr-bundles-layer-switcher input[value="Logistics"] + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label, #hr-bundles-layer-switcher input[value="Protection"] + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label { background-image: url('../images/icons/38/Clusters/grey-s00beb148a7.png'); background-repeat: no-repeat; }
 
 .Clusters-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover, #hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover, #hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover, #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background-image: url('../images/icons/38/Clusters-sdabcfc3cf0.png'); background-repeat: no-repeat; }
