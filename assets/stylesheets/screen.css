@@ -3496,7 +3496,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
   td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 35%; padding-right: 10px; text-align: left; font-weight: bold; }
   /* Label the data */
   td:before { content: attr(data-title); } }
-.global-clusters-select-bottom-justify { margin-top: 60px; }
+.global-clusters-select-bottom-justify { margin-top: 64px; }
 
 .view-all-hr-layout-key-documents { margin-top: 45px; }
 
