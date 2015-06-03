@@ -3079,7 +3079,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1429619951') no-repeat right 8px #fff !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1433339981') no-repeat right 8px #fff !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3508,8 +3508,6 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
   .front .panel-pane br { display: none; } }
 .front .pane-1 { min-height: 100px; }
 .front .pane-hr-operations-operations-dropdown .pane-content a { color: black; font-weight: normal; }
-
-.pane-views-panes .item-list ul li { margin: 0; }
 
 .hr-highlighted { background-color: #F9F9F9; padding: 7px; border: 1px solid #FFF; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; margin: 20px 0px; }
 .hr-highlighted .panel-pane.pane-hr-infographics-panes-list .pane-title:after { content: "\f041"; }
