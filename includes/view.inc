@@ -72,7 +72,7 @@ function _humanitarianresponse_views_more_path($type, $display, $view) {
   foreach ($filter_keys as $key) {
     $val = $view['view']->filter[$key]->{'value'};
     if (!empty($val)) {
-      if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter') {
+      if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter' && isset($val[0])) {
         $path = 'node/'.$val[0].'/'.$type;
         if ($type == 'events') {
           $path .= '/list';
