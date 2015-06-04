@@ -71,8 +71,8 @@ function _humanitarianresponse_views_more_path($type, $display, $view) {
   $filter_keys = array_keys($view['view']->display[$display]->display_options['filters']);
   foreach ($filter_keys as $key) {
     $val = $view['view']->filter[$key]->{'value'};
-    if (!empty($val)) {
-      if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter' && isset($val[0])) {
+    if (!empty($val) && isset($val[0])) {
+      if ($key == 'og_group_ref_target_id' || $key == 'field_bundles_target_id_entityreference_filter') {
         $path = 'node/'.$val[0].'/'.$type;
         if ($type == 'events') {
           $path .= '/list';
