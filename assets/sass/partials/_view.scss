@@ -376,18 +376,26 @@ a.fc-event, .fc-event-draggable {
 		.full td.date-box.today {
 			border-width: 5px 4px 0px;
 			border-style: solid;
-			border-color: #6A6B68;
+			border-color: #bc2e3c;
 		}
 
 		.full tr td.multi-day.starts-today {
-			border-left: 4px solid #6A6B68;
+			border-left: 4px solid #bc2e3c;
 		}
 
 		.full tr td.single-day.today {
-			border-bottom: 4px solid #6A6B68;
-			border-left: 4px solid #6A6B68;
-			border-right: 4px solid #6A6B68;
+			border-bottom: 4px solid #bc2e3c;
+			border-left: 4px solid #bc2e3c;
+			border-right: 4px solid #bc2e3c;
 		}
+
+		.full td.single-day.past div.monthview {
+			display: none;
+		}
+
+		.full td.multi-day.past div.monthview {
+			display: none;
+        }
 
 	}
 
