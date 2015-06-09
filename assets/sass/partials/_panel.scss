@@ -450,3 +450,20 @@
   }
 
 }
+
+//Homepage blocks styling.
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system, .panel-pane.pane-block.pane-hr-operations-operations-dropdown {
+  .pane-content {
+    height: 300px;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
