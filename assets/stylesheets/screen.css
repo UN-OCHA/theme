@@ -3604,6 +3604,7 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents h4 { background-image: url("../images/icons/38/Homepage/DocumentsIcon38x38.png"); }
 
 .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system h4 { background-image: url("../images/icons/38/Homepage/CoordinationIcon38x38.png"); }
+.panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system .chosen-container { margin-top: -5px; }
 
 .panel-pane.pane-block.pane-hr-operations-operations-dropdown h4 { background-image: url("../images/icons/38/Homepage/OperationsIcon38x38.png"); }
 .panel-pane.pane-block.pane-hr-operations-operations-dropdown p { margin-left: -15px; }
