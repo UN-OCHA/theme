@@ -454,6 +454,12 @@
 //Homepage blocks styling.
 
 .panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system, .panel-pane.pane-block.pane-hr-operations-operations-dropdown {
+  background-color: #F9F9F9;
+  padding: 7px;
+  border: 1px solid #FFF;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+  box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+
   li {
     margin-bottom: 5px;
   }
@@ -483,6 +489,9 @@
 .panel-pane.pane-block.pane-hr-operations-operations-dropdown {
   h4 {
     background-image:url('../images/icons/38/Homepage/OperationsIcon38x38.png');
+  }
+  p {
+    margin-left: -15px;
   }
 }
 
