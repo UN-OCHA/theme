@@ -62,6 +62,11 @@
 		  });
 		}
 
+		// Make dropdown menus work
+		$(".hr-goto-dropdown").on('change', function(evt, params) {
+			document.location.href = $(this).val();
+		});
+
 
 	});
 

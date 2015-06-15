@@ -12,8 +12,8 @@
 
 		.pane-title {
 			font-size: 13px;
-			color: $p-main;
-			border-bottom: 1px dotted $p-main;
+			color: $pane-title;
+			border-bottom: 1px dotted $pane-title;
 			text-transform: uppercase;
 			font-weight: bold;
 			padding-bottom: 7px;
@@ -39,16 +39,20 @@
 				display: none;
 			}
 		}
+
+		ul {
+			padding-left: 0;
+		}
+		
+		li {
+			list-style-type: none;
+		}
 	}
 
 	.pane-1 {
 		min-height: 100px;
 	}
 
-	.pane-hr-operations-operations-dropdown .pane-content a {
-		color: black;
-		font-weight: normal;
-	}
 }
 
 .hr-highlighted {
@@ -440,3 +444,51 @@
   }
 
 }
+
+//Homepage blocks styling.
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system, .panel-pane.pane-block.pane-hr-operations-operations-dropdown {
+  background-color: #F9F9F9;
+  padding: 7px;
+  border: 1px solid #FFF;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+  box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+
+  li {
+    margin-bottom: 5px;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  h4 {
+    background-repeat: no-repeat;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 13px;
+  }
+}
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents {
+  h4 {
+    background-image:url('../images/icons/38/Homepage/DocumentsIcon38x38.png');
+  }
+}
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system {
+  h4 {
+    background-image:url('../images/icons/38/Homepage/CoordinationIcon38x38.png');
+  }
+  .chosen-container {
+    margin-top: -5px;
+  }
+}
+
+.panel-pane.pane-block.pane-hr-operations-operations-dropdown {
+  h4 {
+    background-image:url('../images/icons/38/Homepage/OperationsIcon38x38.png');
+  }
+  p {
+    margin-left: -15px;
+  }
+}
+

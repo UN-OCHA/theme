@@ -3079,7 +3079,7 @@ form .description { margin: 2px 0; color: #555555; }
 
 .media-widget > a { margin: 0 10px 0 0; display: inline-block; }
 
-html.js input.form-autocomplete { background: url('../images/throbber.gif?1433339981') no-repeat right 8px #fff !important; }
+html.js input.form-autocomplete { background: url('../images/throbber.gif?1434027760') no-repeat right 8px #fff !important; }
 html.js input.throbbing { background-position: right -122px !important; }
 html.js fieldset.collapsed { height: auto; border-left-width: 1px; border-right-width: 1px; }
 
@@ -3501,13 +3501,14 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .Clusters-sprite, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"]:checked + label, #hr-bundles-layer-switcher input[value="Camp Coordination / Management"] + label:hover, #hr-bundles-layer-switcher input[value="Early Recovery"]:checked + label, #hr-bundles-layer-switcher input[value="Early Recovery"] + label:hover, #hr-bundles-layer-switcher input[value="Education"]:checked + label, #hr-bundles-layer-switcher input[value="Education"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Shelter and NFI"] + label:hover, #hr-bundles-layer-switcher input[value="Food Security"]:checked + label, #hr-bundles-layer-switcher input[value="Food Security"] + label:hover, #hr-bundles-layer-switcher input[value="Health"]:checked + label, #hr-bundles-layer-switcher input[value="Health"] + label:hover, #hr-bundles-layer-switcher input[value="Logistics"]:checked + label, #hr-bundles-layer-switcher input[value="Logistics"] + label:hover, #hr-bundles-layer-switcher input[value="Nutrition"]:checked + label, #hr-bundles-layer-switcher input[value="Nutrition"] + label:hover, #hr-bundles-layer-switcher input[value="Protection"]:checked + label, #hr-bundles-layer-switcher input[value="Protection"] + label:hover, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"]:checked + label, #hr-bundles-layer-switcher input[value="Water Sanitation Hygiene"] + label:hover, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"]:checked + label, #hr-bundles-layer-switcher input[value="Emergency Telecommunications"] + label:hover { background-image: url('../images/icons/38/Clusters-sdabcfc3cf0.png'); background-repeat: no-repeat; }
 
 .front .panel-pane { margin-bottom: 30px; }
-.front .panel-pane .pane-title { font-size: 13px; color: #bc2e3c; border-bottom: 1px dotted #bc2e3c; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
+.front .panel-pane .pane-title { font-size: 13px; color: #767676; border-bottom: 1px dotted #767676; text-transform: uppercase; font-weight: bold; padding-bottom: 7px; margin-bottom: 20px; }
 .front .panel-pane .pane-content a { color: #bc2e3c; }
 @media screen and (max-width: 992px) { .front .panel-pane .row { width: 50%; float: left; margin: 0; }
   .front .panel-pane .row .col-sm-6.text-center { text-align: left; width: 100px; }
   .front .panel-pane br { display: none; } }
+.front .panel-pane ul { padding-left: 0; }
+.front .panel-pane li { list-style-type: none; }
 .front .pane-1 { min-height: 100px; }
-.front .pane-hr-operations-operations-dropdown .pane-content a { color: black; font-weight: normal; }
 
 .hr-highlighted { background-color: #F9F9F9; padding: 7px; border: 1px solid #FFF; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; margin: 20px 0px; }
 .hr-highlighted .panel-pane.pane-hr-infographics-panes-list .pane-title:after { content: "\f041"; }
@@ -3592,6 +3593,19 @@ body .region-branding input.form-text:focus { border-color: #bc2e3c; }
 .hr-layout-operation-standard a.hr-layout-see-more { display: block; text-align: center; margin-top: 1em; }
 .hr-layout-operation-standard a.list-group-item { border: none; background-color: transparent; color: #A0A0A0; }
 .hr-layout-operation-standard a.list-group-item.active, .hr-layout-operation-standard a.list-group-item.active:hover, .hr-layout-operation-standard a.list-group-item.active:focus { color: #BC2E3C; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U3ZTdlNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #ffffff), color-stop(100%, #e7e7e7)); background-image: -moz-linear-gradient(top, #ffffff, #e7e7e7); background-image: -webkit-linear-gradient(top, #ffffff, #e7e7e7); background-image: linear-gradient(to bottom right, #ffffff, #e7e7e7); border-radius: 0; }
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system, .panel-pane.pane-block.pane-hr-operations-operations-dropdown { background-color: #F9F9F9; padding: 7px; border: 1px solid #FFF; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 2px; }
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents li, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system li, .panel-pane.pane-block.pane-hr-operations-operations-dropdown li { margin-bottom: 5px; }
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents p, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system p, .panel-pane.pane-block.pane-hr-operations-operations-dropdown p { margin: 0; margin-bottom: 5px; }
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents h4, .panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system h4, .panel-pane.pane-block.pane-hr-operations-operations-dropdown h4 { background-repeat: no-repeat; height: 40px; padding-left: 50px; padding-top: 13px; }
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-key-documents h4 { background-image: url("../images/icons/38/Homepage/DocumentsIcon38x38.png"); }
+
+.panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system h4 { background-image: url("../images/icons/38/Homepage/CoordinationIcon38x38.png"); }
+.panel-pane.pane-block.pane-hr-layout-hr-layout-hum-system .chosen-container { margin-top: -5px; }
+
+.panel-pane.pane-block.pane-hr-operations-operations-dropdown h4 { background-image: url("../images/icons/38/Homepage/OperationsIcon38x38.png"); }
+.panel-pane.pane-block.pane-hr-operations-operations-dropdown p { margin-left: -15px; }
 
 #block-system-main .view.view-hr-events { margin: 0 15px; }
 
