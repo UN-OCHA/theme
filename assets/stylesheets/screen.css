@@ -3766,6 +3766,8 @@ a.fc-event .fc-event-inner .fc-event-title, .fc-event-draggable .fc-event-inner 
 .view-filters .time_area .text-right { text-align: right; display: inline-block; float: right; }
 .view-filters .btn { border: none; border-radius: 0px; }
 
+.view-hr-organizations .view-filters .views-exposed-widgets { display: block; float: none; }
+
 .badge-rrule { background-color: #0fa4de !important; }
 
 .view-id-hr_users .views-row { padding: 10px; min-height: 100px; margin-bottom: 25px; }

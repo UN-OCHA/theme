@@ -876,6 +876,12 @@ a.fc-event, .fc-event-draggable {
 	}
 }
 
+// Filters for organization view
+.view-hr-organizations .view-filters .views-exposed-widgets {
+    display: block;
+    float: none;
+}
+
 .badge-rrule {
   background-color: $p-comp !important;
 }
