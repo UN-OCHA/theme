@@ -440,6 +440,70 @@ a.fc-event, .fc-event-draggable {
 			padding-left: 0px;
 			font-size: 10px;
 		}
+
+		.date-box.past {
+			background-color: #f4f4f4;
+		}
+
+		.single-day.past {
+			background-color: #f4f4f4;
+		}
+
+		.full td.date-box.today {
+			border-width: 5px 4px 0px;
+			border-style: solid;
+			border-color: #bc2e3c;
+		}
+
+		.full tr td.multi-day.starts-today {
+			border-left: 4px solid #bc2e3c;
+		}
+
+		.full tr td.single-day.today {
+			border-bottom: 4px solid #bc2e3c;
+			border-left: 4px solid #bc2e3c;
+			border-right: 4px solid #bc2e3c;
+		}
+
+		.full td.single-day.past div.monthview div.views-field.views-field-title a {
+			background: transparent;
+			background-color: #C2C2C2;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.full td.multi-day.past div.monthview div.views-field.views-field-title a {
+			background: transparent;
+			background-color: #C2C2C2;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+        }
+
+		.full td.muilti-day.past.inner  div.calendar.monthview div a:first-child {
+			background: transparent;
+			background-color: #54B1C8;
+			display:block;
+			color: #ffffff;
+			font-size: 11px;
+			margin-top: 3px;
+			border-radius: 5px 5px 0px 0px !important;
+			padding-left: 2px;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
 	}
 
 	.week-view {
@@ -530,6 +594,7 @@ a.fc-event, .fc-event-draggable {
 			padding-left: 0px;
 			font-size: 10px;
 		}
+
 	}
 
 	.day-view {
